@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-05-25T12:29:07",
+  "total_measurements": 95625,
+  "good_measurements": 89708,
+  "unique_links": 130,
+  "section_rows": 139,
+  "survey_year_2020": {
+    "measurements": 55265,
+    "mean_iri": 3.14,
+    "condition_distribution": {
+      "Fair": 42,
+      "Good": 70
+    }
+  },
+  "survey_year_2021": {
+    "measurements": 10136,
+    "mean_iri": 2.63,
+    "condition_distribution": {
+      "Fair": 2,
+      "Good": 25
+    }
+  }
+}

@@ -1,0 +1,2212 @@
+[
+  {
+    "image_path": "public/media/network_uav_bbk_dji_0215.jpg",
+    "filename": "network_uav_bbk_dji_0215.jpg",
+    "folder": "media",
+    "link_id": "UAV",
+    "defect_type": "good",
+    "confidence": 0.8,
+    "severity": "Low",
+    "area_pct": 0.0
+  },
+  {
+    "image_path": "public/media/network_uav_bbk_dji_0216.jpg",
+    "filename": "network_uav_bbk_dji_0216.jpg",
+    "folder": "media",
+    "link_id": "UAV",
+    "defect_type": "good",
+    "confidence": 0.8,
+    "severity": "Low",
+    "area_pct": 0.0
+  },
+  {
+    "image_path": "public/media/network_uav_bbk_dji_0218.jpg",
+    "filename": "network_uav_bbk_dji_0218.jpg",
+    "folder": "media",
+    "link_id": "UAV",
+    "defect_type": "good",
+    "confidence": 0.8,
+    "severity": "Low",
+    "area_pct": 0.0
+  },
+  {
+    "image_path": "public/media/network_uav_kaseyi_dji_0138.jpg",
+    "filename": "network_uav_kaseyi_dji_0138.jpg",
+    "folder": "media",
+    "link_id": "UAV",
+    "defect_type": "good",
+    "confidence": 0.8,
+    "severity": "Low",
+    "area_pct": 0.0
+  },
+  {
+    "image_path": "public/media/network_uav_kaseyi_dji_0139.jpg",
+    "filename": "network_uav_kaseyi_dji_0139.jpg",
+    "folder": "media",
+    "link_id": "UAV",
+    "defect_type": "good",
+    "confidence": 0.8,
+    "severity": "Low",
+    "area_pct": 0.0
+  },
+  {
+    "image_path": "public/media/network_uav_kaseyi_dji_0140.jpg",
+    "filename": "network_uav_kaseyi_dji_0140.jpg",
+    "folder": "media",
+    "link_id": "UAV",
+    "defect_type": "good",
+    "confidence": 0.8,
+    "severity": "Low",
+    "area_pct": 0.0
+  },
+  {
+    "image_path": "public/media/network_uav_kaseyi_dji_0141.jpg",
+    "filename": "network_uav_kaseyi_dji_0141.jpg",
+    "folder": "media",
+    "link_id": "UAV",
+    "defect_type": "good",
+    "confidence": 0.8,
+    "severity": "Low",
+    "area_pct": 0.0
+  },
+  {
+    "image_path": "public/media/network_uav_kaseyi_dji_0142.jpg",
+    "filename": "network_uav_kaseyi_dji_0142.jpg",
+    "folder": "media",
+    "link_id": "UAV",
+    "defect_type": "good",
+    "confidence": 0.8,
+    "severity": "Low",
+    "area_pct": 0.0
+  },
+  {
+    "image_path": "public/media/network_uav_lutoboka_dji_0001.jpg",
+    "filename": "network_uav_lutoboka_dji_0001.jpg",
+    "folder": "media",
+    "link_id": "UAV",
+    "defect_type": "good",
+    "confidence": 0.8,
+    "severity": "Low",
+    "area_pct": 0.0
+  },
+  {
+    "image_path": "public/media/network_uav_lutoboka_dji_0002.jpg",
+    "filename": "network_uav_lutoboka_dji_0002.jpg",
+    "folder": "media",
+    "link_id": "UAV",
+    "defect_type": "good",
+    "confidence": 0.8,
+    "severity": "Low",
+    "area_pct": 0.0
+  },
+  {
+    "image_path": "public/media/network_uav_lutoboka_dji_0003.jpg",
+    "filename": "network_uav_lutoboka_dji_0003.jpg",
+    "folder": "media",
+    "link_id": "UAV",
+    "defect_type": "good",
+    "confidence": 0.8,
+    "severity": "Low",
+    "area_pct": 0.0
+  },
+  {
+    "image_path": "public/media/network_uav_lutoboka_dji_0004.jpg",
+    "filename": "network_uav_lutoboka_dji_0004.jpg",
+    "folder": "media",
+    "link_id": "UAV",
+    "defect_type": "good",
+    "confidence": 0.8,
+    "severity": "Low",
+    "area_pct": 0.0
+  },
+  {
+    "image_path": "public/media/network_uav_lutoboka_dji_0005.jpg",
+    "filename": "network_uav_lutoboka_dji_0005.jpg",
+    "folder": "media",
+    "link_id": "UAV",
+    "defect_type": "good",
+    "confidence": 0.8,
+    "severity": "Low",
+    "area_pct": 0.0
+  },
+  {
+    "image_path": "public/media/network_uav_lutoboka_dji_0006.jpg",
+    "filename": "network_uav_lutoboka_dji_0006.jpg",
+    "folder": "media",
+    "link_id": "UAV",
+    "defect_type": "good",
+    "confidence": 0.8,
+    "severity": "Low",
+    "area_pct": 0.0
+  },
+  {
+    "image_path": "public/media/network_uav_lutoboka_dji_0007.jpg",
+    "filename": "network_uav_lutoboka_dji_0007.jpg",
+    "folder": "media",
+    "link_id": "UAV",
+    "defect_type": "good",
+    "confidence": 0.8,
+    "severity": "Low",
+    "area_pct": 0.0
+  },
+  {
+    "image_path": "public/media/network_uav_lutoboka_dji_0008.jpg",
+    "filename": "network_uav_lutoboka_dji_0008.jpg",
+    "folder": "media",
+    "link_id": "UAV",
+    "defect_type": "good",
+    "confidence": 0.8,
+    "severity": "Low",
+    "area_pct": 0.0
+  },
+  {
+    "image_path": "public/media/bukakata_lake.jpg",
+    "filename": "bukakata_lake.jpg",
+    "folder": "media",
+    "link_id": null,
+    "defect_type": "longitudinal_crack",
+    "confidence": 0.65,
+    "severity": "Medium",
+    "area_pct": 14.23
+  },
+  {
+    "image_path": "public/media/network_book_project_oil_roads_1p3a0549.jpg",
+    "filename": "network_book_project_oil_roads_1p3a0549.jpg",
+    "folder": "media",
+    "link_id": "BOOK",
+    "defect_type": "longitudinal_crack",
+    "confidence": 0.65,
+    "severity": "Medium",
+    "area_pct": 14.27
+  },
+  {
+    "image_path": "public/media/network_busega__kyengera_assignment_dji_0192.jpg",
+    "filename": "network_busega__kyengera_assignment_dji_0192.jpg",
+    "folder": "media",
+    "link_id": "BUSEGA",
+    "defect_type": "longitudinal_crack",
+    "confidence": 0.65,
+    "severity": "Medium",
+    "area_pct": 15.72
+  },
+  {
+    "image_path": "public/media/network_uav_bbk_dji_0213.jpg",
+    "filename": "network_uav_bbk_dji_0213.jpg",
+    "folder": "media",
+    "link_id": "UAV",
+    "defect_type": "longitudinal_crack",
+    "confidence": 0.65,
+    "severity": "Medium",
+    "area_pct": 21.15
+  },
+  {
+    "image_path": "public/media/network_uav_bbk_dji_0214.jpg",
+    "filename": "network_uav_bbk_dji_0214.jpg",
+    "folder": "media",
+    "link_id": "UAV",
+    "defect_type": "longitudinal_crack",
+    "confidence": 0.65,
+    "severity": "Medium",
+    "area_pct": 16.03
+  },
+  {
+    "image_path": "public/media/network_uav_bbk_dji_0217.jpg",
+    "filename": "network_uav_bbk_dji_0217.jpg",
+    "folder": "media",
+    "link_id": "UAV",
+    "defect_type": "longitudinal_crack",
+    "confidence": 0.65,
+    "severity": "Medium",
+    "area_pct": 14.23
+  },
+  {
+    "image_path": "public/media/kampala_flyover.png",
+    "filename": "kampala_flyover.png",
+    "folder": "media",
+    "link_id": null,
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/kampala_flyover2.png",
+    "filename": "kampala_flyover2.png",
+    "folder": "media",
+    "link_id": null,
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 22.15
+  },
+  {
+    "image_path": "public/media/kee_nambigirwa.jpg",
+    "filename": "kee_nambigirwa.jpg",
+    "folder": "media",
+    "link_id": null,
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 31.26
+  },
+  {
+    "image_path": "public/media/network_busega__kyengera_assignment_dji_0166.jpg",
+    "filename": "network_busega__kyengera_assignment_dji_0166.jpg",
+    "folder": "media",
+    "link_id": "BUSEGA",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 21.5
+  },
+  {
+    "image_path": "public/media/network_busega__kyengera_assignment_dji_0181.jpg",
+    "filename": "network_busega__kyengera_assignment_dji_0181.jpg",
+    "folder": "media",
+    "link_id": "BUSEGA",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 22.86
+  },
+  {
+    "image_path": "public/media/network_busega__kyengera_assignment_dji_0182.jpg",
+    "filename": "network_busega__kyengera_assignment_dji_0182.jpg",
+    "folder": "media",
+    "link_id": "BUSEGA",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 20.83
+  },
+  {
+    "image_path": "public/media/network_busega__kyengera_assignment_dji_0183.jpg",
+    "filename": "network_busega__kyengera_assignment_dji_0183.jpg",
+    "folder": "media",
+    "link_id": "BUSEGA",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 22.53
+  },
+  {
+    "image_path": "public/media/network_busega__kyengera_assignment_dji_0184.jpg",
+    "filename": "network_busega__kyengera_assignment_dji_0184.jpg",
+    "folder": "media",
+    "link_id": "BUSEGA",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 22.12
+  },
+  {
+    "image_path": "public/media/network_busega__kyengera_assignment_dji_0185.jpg",
+    "filename": "network_busega__kyengera_assignment_dji_0185.jpg",
+    "folder": "media",
+    "link_id": "BUSEGA",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 22.52
+  },
+  {
+    "image_path": "public/media/network_busega__kyengera_assignment_dji_0188.jpg",
+    "filename": "network_busega__kyengera_assignment_dji_0188.jpg",
+    "folder": "media",
+    "link_id": "BUSEGA",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 18.4
+  },
+  {
+    "image_path": "public/media/network_busega__kyengera_assignment_dji_0189.jpg",
+    "filename": "network_busega__kyengera_assignment_dji_0189.jpg",
+    "folder": "media",
+    "link_id": "BUSEGA",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 18.43
+  },
+  {
+    "image_path": "public/media/network_busega__kyengera_assignment_dji_0191.jpg",
+    "filename": "network_busega__kyengera_assignment_dji_0191.jpg",
+    "folder": "media",
+    "link_id": "BUSEGA",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 20.03
+  },
+  {
+    "image_path": "public/media/network_busega__kyengera_assignment_dji_0193.jpg",
+    "filename": "network_busega__kyengera_assignment_dji_0193.jpg",
+    "folder": "media",
+    "link_id": "BUSEGA",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 19.46
+  },
+  {
+    "image_path": "public/media/network_kampala_entebbe_expressway_before_and_after_5318a035-0ee0-4ac2-9723-d62d855a9ae8.png",
+    "filename": "network_kampala_entebbe_expressway_before_and_after_5318a035-0ee0-4ac2-9723-d62d855a9ae8.png",
+    "folder": "media",
+    "link_id": "KAMPALA",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/network_kampala_entebbe_expressway_before_and_after_the_kampala-entebbe_expressway_at_nambigirwa_swamp.jpg",
+    "filename": "network_kampala_entebbe_expressway_before_and_after_the_kampala-entebbe_expressway_at_nambigirwa_swamp.jpg",
+    "folder": "media",
+    "link_id": "KAMPALA",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 31.26
+  },
+  {
+    "image_path": "public/media/network_kampala_flyover_54024715-4404-4fb5-8464-c930fef81b34.png",
+    "filename": "network_kampala_flyover_54024715-4404-4fb5-8464-c930fef81b34.png",
+    "folder": "media",
+    "link_id": "KAMPALA",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/network_kampala_flyover_de6d3b03-706b-4bdc-a2a9-c5fb12d47bfd.png",
+    "filename": "network_kampala_flyover_de6d3b03-706b-4bdc-a2a9-c5fb12d47bfd.png",
+    "folder": "media",
+    "link_id": "KAMPALA",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 22.15
+  },
+  {
+    "image_path": "public/media/network_kampala_northern_bypass_3601e6f9-9ec7-478d-ba34-22c831ebeab1.png",
+    "filename": "network_kampala_northern_bypass_3601e6f9-9ec7-478d-ba34-22c831ebeab1.png",
+    "folder": "media",
+    "link_id": "KAMPALA",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 29.0
+  },
+  {
+    "image_path": "public/media/network_kampala_northern_bypass_cce79fd1-5f3d-4cf7-ad07-bea3571f1980.png",
+    "filename": "network_kampala_northern_bypass_cce79fd1-5f3d-4cf7-ad07-bea3571f1980.png",
+    "folder": "media",
+    "link_id": "KAMPALA",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 18.52
+  },
+  {
+    "image_path": "public/media/network_uav2018_dji_0252.jpg",
+    "filename": "network_uav2018_dji_0252.jpg",
+    "folder": "media",
+    "link_id": "UAV2018",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 31.92
+  },
+  {
+    "image_path": "public/media/network_uav2018_dji_0253.jpg",
+    "filename": "network_uav2018_dji_0253.jpg",
+    "folder": "media",
+    "link_id": "UAV2018",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/network_uav2018_dji_0254.jpg",
+    "filename": "network_uav2018_dji_0254.jpg",
+    "folder": "media",
+    "link_id": "UAV2018",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/network_uav2018_dji_0255.jpg",
+    "filename": "network_uav2018_dji_0255.jpg",
+    "folder": "media",
+    "link_id": "UAV2018",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/network_uav2018_dji_0256.jpg",
+    "filename": "network_uav2018_dji_0256.jpg",
+    "folder": "media",
+    "link_id": "UAV2018",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/network_uav2018_dji_0257.jpg",
+    "filename": "network_uav2018_dji_0257.jpg",
+    "folder": "media",
+    "link_id": "UAV2018",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/network_uav2018_dji_0258.jpg",
+    "filename": "network_uav2018_dji_0258.jpg",
+    "folder": "media",
+    "link_id": "UAV2018",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/northern_bypass.png",
+    "filename": "northern_bypass.png",
+    "folder": "media",
+    "link_id": null,
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 29.0
+  },
+  {
+    "image_path": "public/media/kee_aerial2.png",
+    "filename": "kee_aerial2.png",
+    "folder": "media",
+    "link_id": null,
+    "defect_type": "rutting",
+    "confidence": 0.68,
+    "severity": "Medium",
+    "area_pct": 12.68
+  },
+  {
+    "image_path": "public/media/network_book_project_oil_roads_1p3a0543.jpg",
+    "filename": "network_book_project_oil_roads_1p3a0543.jpg",
+    "folder": "media",
+    "link_id": "BOOK",
+    "defect_type": "rutting",
+    "confidence": 0.68,
+    "severity": "Medium",
+    "area_pct": 0.5
+  },
+  {
+    "image_path": "public/media/network_book_project_oil_roads_1p3a0544.jpg",
+    "filename": "network_book_project_oil_roads_1p3a0544.jpg",
+    "folder": "media",
+    "link_id": "BOOK",
+    "defect_type": "rutting",
+    "confidence": 0.68,
+    "severity": "Medium",
+    "area_pct": 1.84
+  },
+  {
+    "image_path": "public/media/network_book_project_oil_roads_1p3a0545.jpg",
+    "filename": "network_book_project_oil_roads_1p3a0545.jpg",
+    "folder": "media",
+    "link_id": "BOOK",
+    "defect_type": "rutting",
+    "confidence": 0.68,
+    "severity": "Medium",
+    "area_pct": 1.31
+  },
+  {
+    "image_path": "public/media/network_book_project_oil_roads_1p3a0546.jpg",
+    "filename": "network_book_project_oil_roads_1p3a0546.jpg",
+    "folder": "media",
+    "link_id": "BOOK",
+    "defect_type": "rutting",
+    "confidence": 0.68,
+    "severity": "Medium",
+    "area_pct": 1.29
+  },
+  {
+    "image_path": "public/media/network_book_project_oil_roads_1p3a0547.jpg",
+    "filename": "network_book_project_oil_roads_1p3a0547.jpg",
+    "folder": "media",
+    "link_id": "BOOK",
+    "defect_type": "rutting",
+    "confidence": 0.68,
+    "severity": "Medium",
+    "area_pct": 1.3
+  },
+  {
+    "image_path": "public/media/network_book_project_oil_roads_1p3a0548.jpg",
+    "filename": "network_book_project_oil_roads_1p3a0548.jpg",
+    "folder": "media",
+    "link_id": "BOOK",
+    "defect_type": "rutting",
+    "confidence": 0.68,
+    "severity": "Medium",
+    "area_pct": 1.2
+  },
+  {
+    "image_path": "public/media/network_book_project_oil_roads_1p3a0550.jpg",
+    "filename": "network_book_project_oil_roads_1p3a0550.jpg",
+    "folder": "media",
+    "link_id": "BOOK",
+    "defect_type": "rutting",
+    "confidence": 0.68,
+    "severity": "Medium",
+    "area_pct": 11.98
+  },
+  {
+    "image_path": "public/media/network_busega__kyengera_assignment_dji_0163.jpg",
+    "filename": "network_busega__kyengera_assignment_dji_0163.jpg",
+    "folder": "media",
+    "link_id": "BUSEGA",
+    "defect_type": "rutting",
+    "confidence": 0.68,
+    "severity": "Medium",
+    "area_pct": 9.83
+  },
+  {
+    "image_path": "public/media/network_busega__kyengera_assignment_dji_0164.jpg",
+    "filename": "network_busega__kyengera_assignment_dji_0164.jpg",
+    "folder": "media",
+    "link_id": "BUSEGA",
+    "defect_type": "rutting",
+    "confidence": 0.68,
+    "severity": "Medium",
+    "area_pct": 11.81
+  },
+  {
+    "image_path": "public/media/network_busega__kyengera_assignment_dji_0165.jpg",
+    "filename": "network_busega__kyengera_assignment_dji_0165.jpg",
+    "folder": "media",
+    "link_id": "BUSEGA",
+    "defect_type": "rutting",
+    "confidence": 0.68,
+    "severity": "Medium",
+    "area_pct": 11.78
+  },
+  {
+    "image_path": "public/media/network_kampala_entebbe_expressway_before_and_after_1533cc6d-587d-46b9-9972-dc88ab92354b.png",
+    "filename": "network_kampala_entebbe_expressway_before_and_after_1533cc6d-587d-46b9-9972-dc88ab92354b.png",
+    "folder": "media",
+    "link_id": "KAMPALA",
+    "defect_type": "rutting",
+    "confidence": 0.68,
+    "severity": "Medium",
+    "area_pct": 12.68
+  },
+  {
+    "image_path": "public/media/network_kampala_flyover_8ac0985c-d850-410b-a1f8-648180f0471a.png",
+    "filename": "network_kampala_flyover_8ac0985c-d850-410b-a1f8-648180f0471a.png",
+    "folder": "media",
+    "link_id": "KAMPALA",
+    "defect_type": "rutting",
+    "confidence": 0.68,
+    "severity": "Medium",
+    "area_pct": 7.27
+  },
+  {
+    "image_path": "public/media/network_kampala_flyover_eddb9cc6-d399-4878-b9e1-3f4a2448aebe.png",
+    "filename": "network_kampala_flyover_eddb9cc6-d399-4878-b9e1-3f4a2448aebe.png",
+    "folder": "media",
+    "link_id": "KAMPALA",
+    "defect_type": "rutting",
+    "confidence": 0.68,
+    "severity": "Medium",
+    "area_pct": 7.08
+  },
+  {
+    "image_path": "public/media/network_uav2018_dji_0251.jpg",
+    "filename": "network_uav2018_dji_0251.jpg",
+    "folder": "media",
+    "link_id": "UAV2018",
+    "defect_type": "rutting",
+    "confidence": 0.68,
+    "severity": "Medium",
+    "area_pct": 8.48
+  },
+  {
+    "image_path": "public/media/network_uav_bbk_dji_0219.jpg",
+    "filename": "network_uav_bbk_dji_0219.jpg",
+    "folder": "media",
+    "link_id": "UAV",
+    "defect_type": "rutting",
+    "confidence": 0.68,
+    "severity": "Medium",
+    "area_pct": 11.3
+  },
+  {
+    "image_path": "public/media/network_uav_bbk_dji_0220.jpg",
+    "filename": "network_uav_bbk_dji_0220.jpg",
+    "folder": "media",
+    "link_id": "UAV",
+    "defect_type": "rutting",
+    "confidence": 0.68,
+    "severity": "Medium",
+    "area_pct": 10.49
+  },
+  {
+    "image_path": "public/media/network_uav_kaseyi_dji_0143.jpg",
+    "filename": "network_uav_kaseyi_dji_0143.jpg",
+    "folder": "media",
+    "link_id": "UAV",
+    "defect_type": "rutting",
+    "confidence": 0.68,
+    "severity": "Medium",
+    "area_pct": 5.11
+  },
+  {
+    "image_path": "public/media/network_uav_kaseyi_dji_0144.jpg",
+    "filename": "network_uav_kaseyi_dji_0144.jpg",
+    "folder": "media",
+    "link_id": "UAV",
+    "defect_type": "rutting",
+    "confidence": 0.68,
+    "severity": "Medium",
+    "area_pct": 5.29
+  },
+  {
+    "image_path": "public/media/network_uav_kaseyi_dji_0145.jpg",
+    "filename": "network_uav_kaseyi_dji_0145.jpg",
+    "folder": "media",
+    "link_id": "UAV",
+    "defect_type": "rutting",
+    "confidence": 0.68,
+    "severity": "Medium",
+    "area_pct": 5.48
+  },
+  {
+    "image_path": "public/media/roads/road_y_A001_LINK07_1.jpg",
+    "filename": "road_y_A001_LINK07_1.jpg",
+    "folder": "roads",
+    "link_id": "A001_LINK07",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A001_LINK07_2.jpg",
+    "filename": "road_y_A001_LINK07_2.jpg",
+    "folder": "roads",
+    "link_id": "A001_LINK07",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A001_LINK09_RHS_1.jpg",
+    "filename": "road_y_A001_LINK09_RHS_1.jpg",
+    "folder": "roads",
+    "link_id": "A001_LINK09",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A001_Link03_0.jpg",
+    "filename": "road_y_A001_Link03_0.jpg",
+    "folder": "roads",
+    "link_id": "A001_LINK03",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A001_Link03_1.jpg",
+    "filename": "road_y_A001_Link03_1.jpg",
+    "folder": "roads",
+    "link_id": "A001_LINK03",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A001_Link03_2.jpg",
+    "filename": "road_y_A001_Link03_2.jpg",
+    "folder": "roads",
+    "link_id": "A001_LINK03",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A002_LINK05_0.jpg",
+    "filename": "road_y_A002_LINK05_0.jpg",
+    "folder": "roads",
+    "link_id": "A002_LINK05",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 33.99
+  },
+  {
+    "image_path": "public/media/roads/road_y_A002_LINK10_1.jpg",
+    "filename": "road_y_A002_LINK10_1.jpg",
+    "folder": "roads",
+    "link_id": "A002_LINK10",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A005_LINK15_1.jpg",
+    "filename": "road_y_A005_LINK15_1.jpg",
+    "folder": "roads",
+    "link_id": "A005_LINK15",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A012_Link01_0.jpg",
+    "filename": "road_y_A012_Link01_0.jpg",
+    "folder": "roads",
+    "link_id": "A012_LINK01",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A012_Link01_1.jpg",
+    "filename": "road_y_A012_Link01_1.jpg",
+    "folder": "roads",
+    "link_id": "A012_LINK01",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A012_Link02_1.jpg",
+    "filename": "road_y_A012_Link02_1.jpg",
+    "folder": "roads",
+    "link_id": "A012_LINK02",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A012_Link03_2.jpg",
+    "filename": "road_y_A012_Link03_2.jpg",
+    "folder": "roads",
+    "link_id": "A012_LINK03",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_B151_LINK01_1.jpg",
+    "filename": "road_y_B151_LINK01_1.jpg",
+    "folder": "roads",
+    "link_id": "B151_LINK01",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_B153_LINK01_0.jpg",
+    "filename": "road_y_B153_LINK01_0.jpg",
+    "folder": "roads",
+    "link_id": "B153_LINK01",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_B153_LINK01_1.jpg",
+    "filename": "road_y_B153_LINK01_1.jpg",
+    "folder": "roads",
+    "link_id": "B153_LINK01",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_B153_LINK01_2.jpg",
+    "filename": "road_y_B153_LINK01_2.jpg",
+    "folder": "roads",
+    "link_id": "B153_LINK01",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_B203_LINK03_0.jpg",
+    "filename": "road_y_B203_LINK03_0.jpg",
+    "folder": "roads",
+    "link_id": "B203_LINK03",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_B304_LINK02_03_2.jpg",
+    "filename": "road_y_B304_LINK02_03_2.jpg",
+    "folder": "roads",
+    "link_id": "B304_LINK02",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 33.81
+  },
+  {
+    "image_path": "public/media/roads/road_y_B308_LINK01_RHS_1.jpg",
+    "filename": "road_y_B308_LINK01_RHS_1.jpg",
+    "folder": "roads",
+    "link_id": "B308_LINK01",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_C860_LINK01_0.jpg",
+    "filename": "road_y_C860_LINK01_0.jpg",
+    "folder": "roads",
+    "link_id": "C860_LINK01",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_M20_LHS01_1.jpg",
+    "filename": "road_y_M20_LHS01_1.jpg",
+    "folder": "roads",
+    "link_id": "M20_LHS01",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_M20_LHS01_2.jpg",
+    "filename": "road_y_M20_LHS01_2.jpg",
+    "folder": "roads",
+    "link_id": "M20_LHS01",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_M3LINK01_LHS_0.jpg",
+    "filename": "road_y_M3LINK01_LHS_0.jpg",
+    "folder": "roads",
+    "link_id": "M3LINK01_LHS",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_M3LINK01_LHS_1.jpg",
+    "filename": "road_y_M3LINK01_LHS_1.jpg",
+    "folder": "roads",
+    "link_id": "M3LINK01_LHS",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_M3LINK01_LHS_2.jpg",
+    "filename": "road_y_M3LINK01_LHS_2.jpg",
+    "folder": "roads",
+    "link_id": "M3LINK01_LHS",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_M3_LINK01_RHS_1.jpg",
+    "filename": "road_y_M3_LINK01_RHS_1.jpg",
+    "folder": "roads",
+    "link_id": "M3_LINK01",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_M3_LINK01_RHS_2.jpg",
+    "filename": "road_y_M3_LINK01_RHS_2.jpg",
+    "folder": "roads",
+    "link_id": "M3_LINK01",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_B204_LINK01_1.jpg",
+    "filename": "road_z_B204_LINK01_1.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_B252_LINK03_1.jpg",
+    "filename": "road_z_B252_LINK03_1.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C354_LINK01_1.jpg",
+    "filename": "road_z_C354_LINK01_1.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C390N1_LINK01_0.jpg",
+    "filename": "road_z_C390N1_LINK01_0.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C390N1_LINK01_1.jpg",
+    "filename": "road_z_C390N1_LINK01_1.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C417_LINK02_1.jpg",
+    "filename": "road_z_C417_LINK02_1.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C417_LINK02_2.jpg",
+    "filename": "road_z_C417_LINK02_2.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C428_LINK01_0.jpg",
+    "filename": "road_z_C428_LINK01_0.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C428_LINK01_2.jpg",
+    "filename": "road_z_C428_LINK01_2.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C446_LINK01_0.jpg",
+    "filename": "road_z_C446_LINK01_0.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C446_LINK01_1.jpg",
+    "filename": "road_z_C446_LINK01_1.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C457_LNIK01_2.jpg",
+    "filename": "road_z_C457_LNIK01_2.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C540LINK01_1.jpg",
+    "filename": "road_z_C540LINK01_1.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C596_LINK02_1.jpg",
+    "filename": "road_z_C596_LINK02_1.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C596_LINK02_2.jpg",
+    "filename": "road_z_C596_LINK02_2.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C613_LINK01_01_0.jpg",
+    "filename": "road_z_C613_LINK01_01_0.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C625_LINK01_0.jpg",
+    "filename": "road_z_C625_LINK01_0.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C626_LINK02_0.jpg",
+    "filename": "road_z_C626_LINK02_0.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "alligator_crack",
+    "confidence": 0.7,
+    "severity": "Medium",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A007_LINK04_0.jpg",
+    "filename": "road_y_A007_LINK04_0.jpg",
+    "folder": "roads",
+    "link_id": "A007_LINK04",
+    "defect_type": "good",
+    "confidence": 0.8,
+    "severity": "Low",
+    "area_pct": 0.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A007_LINK04_1.jpg",
+    "filename": "road_y_A007_LINK04_1.jpg",
+    "folder": "roads",
+    "link_id": "A007_LINK04",
+    "defect_type": "good",
+    "confidence": 0.8,
+    "severity": "Low",
+    "area_pct": 0.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A007_LINK04_2.jpg",
+    "filename": "road_y_A007_LINK04_2.jpg",
+    "folder": "roads",
+    "link_id": "A007_LINK04",
+    "defect_type": "good",
+    "confidence": 0.8,
+    "severity": "Low",
+    "area_pct": 0.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_B151_LINK01_0.jpg",
+    "filename": "road_y_B151_LINK01_0.jpg",
+    "folder": "roads",
+    "link_id": "B151_LINK01",
+    "defect_type": "good",
+    "confidence": 0.8,
+    "severity": "Low",
+    "area_pct": 0.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_C029_LINK01_2.jpg",
+    "filename": "road_y_C029_LINK01_2.jpg",
+    "folder": "roads",
+    "link_id": "C029_LINK01",
+    "defect_type": "good",
+    "confidence": 0.8,
+    "severity": "Low",
+    "area_pct": 0.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C625_LINK01_1.jpg",
+    "filename": "road_z_C625_LINK01_1.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "good",
+    "confidence": 0.8,
+    "severity": "Low",
+    "area_pct": 0.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C625_LINK01_2.jpg",
+    "filename": "road_z_C625_LINK01_2.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "good",
+    "confidence": 0.8,
+    "severity": "Low",
+    "area_pct": 0.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C824_LINK01_0.jpg",
+    "filename": "road_z_C824_LINK01_0.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "good",
+    "confidence": 0.8,
+    "severity": "Low",
+    "area_pct": 0.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_B101LINK01_0.jpg",
+    "filename": "road_y_B101LINK01_0.jpg",
+    "folder": "roads",
+    "link_id": "B101LINK01_0",
+    "defect_type": "longitudinal_crack",
+    "confidence": 0.65,
+    "severity": "Medium",
+    "area_pct": 15.47
+  },
+  {
+    "image_path": "public/media/roads/road_y_B308_LINK01_RHS_0.jpg",
+    "filename": "road_y_B308_LINK01_RHS_0.jpg",
+    "folder": "roads",
+    "link_id": "B308_LINK01",
+    "defect_type": "longitudinal_crack",
+    "confidence": 0.65,
+    "severity": "Medium",
+    "area_pct": 22.29
+  },
+  {
+    "image_path": "public/media/roads/road_y_C860_LINK01_1.jpg",
+    "filename": "road_y_C860_LINK01_1.jpg",
+    "folder": "roads",
+    "link_id": "C860_LINK01",
+    "defect_type": "longitudinal_crack",
+    "confidence": 0.65,
+    "severity": "Medium",
+    "area_pct": 15.73
+  },
+  {
+    "image_path": "public/media/roads/road_y_A001N1_LINK01_0.jpg",
+    "filename": "road_y_A001N1_LINK01_0.jpg",
+    "folder": "roads",
+    "link_id": "A001N1_LINK01",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A001N1_LINK01_1.jpg",
+    "filename": "road_y_A001N1_LINK01_1.jpg",
+    "folder": "roads",
+    "link_id": "A001N1_LINK01",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A001N1_LINK01_2.jpg",
+    "filename": "road_y_A001N1_LINK01_2.jpg",
+    "folder": "roads",
+    "link_id": "A001N1_LINK01",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A001_LINK07_0.jpg",
+    "filename": "road_y_A001_LINK07_0.jpg",
+    "folder": "roads",
+    "link_id": "A001_LINK07",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A001_LINK09_RHS_0.jpg",
+    "filename": "road_y_A001_LINK09_RHS_0.jpg",
+    "folder": "roads",
+    "link_id": "A001_LINK09",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A001_LINK09_RHS_2.jpg",
+    "filename": "road_y_A001_LINK09_RHS_2.jpg",
+    "folder": "roads",
+    "link_id": "A001_LINK09",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A002_LINK05_1.jpg",
+    "filename": "road_y_A002_LINK05_1.jpg",
+    "folder": "roads",
+    "link_id": "A002_LINK05",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A002_LINK05_2.jpg",
+    "filename": "road_y_A002_LINK05_2.jpg",
+    "folder": "roads",
+    "link_id": "A002_LINK05",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A002_LINK10_0.jpg",
+    "filename": "road_y_A002_LINK10_0.jpg",
+    "folder": "roads",
+    "link_id": "A002_LINK10",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A002_LINK10_2.jpg",
+    "filename": "road_y_A002_LINK10_2.jpg",
+    "folder": "roads",
+    "link_id": "A002_LINK10",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A005_LINK09_0.jpg",
+    "filename": "road_y_A005_LINK09_0.jpg",
+    "folder": "roads",
+    "link_id": "A005_LINK09",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A005_LINK09_1.jpg",
+    "filename": "road_y_A005_LINK09_1.jpg",
+    "folder": "roads",
+    "link_id": "A005_LINK09",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A005_LINK09_2.jpg",
+    "filename": "road_y_A005_LINK09_2.jpg",
+    "folder": "roads",
+    "link_id": "A005_LINK09",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A005_LINK15_0.jpg",
+    "filename": "road_y_A005_LINK15_0.jpg",
+    "folder": "roads",
+    "link_id": "A005_LINK15",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A005_LINK15_2.jpg",
+    "filename": "road_y_A005_LINK15_2.jpg",
+    "folder": "roads",
+    "link_id": "A005_LINK15",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A006_LINK05_0.jpg",
+    "filename": "road_y_A006_LINK05_0.jpg",
+    "folder": "roads",
+    "link_id": "A006_LINK05",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A006_LINK05_1.jpg",
+    "filename": "road_y_A006_LINK05_1.jpg",
+    "folder": "roads",
+    "link_id": "A006_LINK05",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A006_LINK05_2.jpg",
+    "filename": "road_y_A006_LINK05_2.jpg",
+    "folder": "roads",
+    "link_id": "A006_LINK05",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 31.57
+  },
+  {
+    "image_path": "public/media/roads/road_y_A006_LINK12_1.jpg",
+    "filename": "road_y_A006_LINK12_1.jpg",
+    "folder": "roads",
+    "link_id": "A006_LINK12",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A006_LINK12_2.jpg",
+    "filename": "road_y_A006_LINK12_2.jpg",
+    "folder": "roads",
+    "link_id": "A006_LINK12",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A007_LINK04_06_0.jpg",
+    "filename": "road_y_A007_LINK04_06_0.jpg",
+    "folder": "roads",
+    "link_id": "A007_LINK04",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A007_LINK04_06_1.jpg",
+    "filename": "road_y_A007_LINK04_06_1.jpg",
+    "folder": "roads",
+    "link_id": "A007_LINK04",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A007_LINK04_06_2.jpg",
+    "filename": "road_y_A007_LINK04_06_2.jpg",
+    "folder": "roads",
+    "link_id": "A007_LINK04",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A012_Link01_2.jpg",
+    "filename": "road_y_A012_Link01_2.jpg",
+    "folder": "roads",
+    "link_id": "A012_LINK01",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A012_Link02_0.jpg",
+    "filename": "road_y_A012_Link02_0.jpg",
+    "folder": "roads",
+    "link_id": "A012_LINK02",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A012_Link02_2.jpg",
+    "filename": "road_y_A012_Link02_2.jpg",
+    "folder": "roads",
+    "link_id": "A012_LINK02",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A012_Link03_0.jpg",
+    "filename": "road_y_A012_Link03_0.jpg",
+    "folder": "roads",
+    "link_id": "A012_LINK03",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_A012_Link03_1.jpg",
+    "filename": "road_y_A012_Link03_1.jpg",
+    "folder": "roads",
+    "link_id": "A012_LINK03",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_B101LINK01_1.jpg",
+    "filename": "road_y_B101LINK01_1.jpg",
+    "folder": "roads",
+    "link_id": "B101LINK01_1",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_B101LINK01_2.jpg",
+    "filename": "road_y_B101LINK01_2.jpg",
+    "folder": "roads",
+    "link_id": "B101LINK01_2",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_B151_LINK01_2.jpg",
+    "filename": "road_y_B151_LINK01_2.jpg",
+    "folder": "roads",
+    "link_id": "B151_LINK01",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 31.28
+  },
+  {
+    "image_path": "public/media/roads/road_y_B202_LINK01_0.jpg",
+    "filename": "road_y_B202_LINK01_0.jpg",
+    "folder": "roads",
+    "link_id": "B202_LINK01",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_B202_LINK01_1.jpg",
+    "filename": "road_y_B202_LINK01_1.jpg",
+    "folder": "roads",
+    "link_id": "B202_LINK01",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_B202_LINK01_2.jpg",
+    "filename": "road_y_B202_LINK01_2.jpg",
+    "folder": "roads",
+    "link_id": "B202_LINK01",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_B203_LINK03_1.jpg",
+    "filename": "road_y_B203_LINK03_1.jpg",
+    "folder": "roads",
+    "link_id": "B203_LINK03",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 24.15
+  },
+  {
+    "image_path": "public/media/roads/road_y_B203_LINK03_2.jpg",
+    "filename": "road_y_B203_LINK03_2.jpg",
+    "folder": "roads",
+    "link_id": "B203_LINK03",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_B303_LINK02_02_0.jpg",
+    "filename": "road_y_B303_LINK02_02_0.jpg",
+    "folder": "roads",
+    "link_id": "B303_LINK02",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_B303_LINK02_02_1.jpg",
+    "filename": "road_y_B303_LINK02_02_1.jpg",
+    "folder": "roads",
+    "link_id": "B303_LINK02",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_B303_LINK02_02_2.jpg",
+    "filename": "road_y_B303_LINK02_02_2.jpg",
+    "folder": "roads",
+    "link_id": "B303_LINK02",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_B304_LINK02_03_0.jpg",
+    "filename": "road_y_B304_LINK02_03_0.jpg",
+    "folder": "roads",
+    "link_id": "B304_LINK02",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_B304_LINK02_03_1.jpg",
+    "filename": "road_y_B304_LINK02_03_1.jpg",
+    "folder": "roads",
+    "link_id": "B304_LINK02",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 16.75
+  },
+  {
+    "image_path": "public/media/roads/road_y_B308_LINK01_RHS_2.jpg",
+    "filename": "road_y_B308_LINK01_RHS_2.jpg",
+    "folder": "roads",
+    "link_id": "B308_LINK01",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_C029_LINK01_0.jpg",
+    "filename": "road_y_C029_LINK01_0.jpg",
+    "folder": "roads",
+    "link_id": "C029_LINK01",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_C029_LINK01_1.jpg",
+    "filename": "road_y_C029_LINK01_1.jpg",
+    "folder": "roads",
+    "link_id": "C029_LINK01",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_C860_LINK01_2.jpg",
+    "filename": "road_y_C860_LINK01_2.jpg",
+    "folder": "roads",
+    "link_id": "C860_LINK01",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 30.21
+  },
+  {
+    "image_path": "public/media/roads/road_y_C870_LINK02_Contn_0.jpg",
+    "filename": "road_y_C870_LINK02_Contn_0.jpg",
+    "folder": "roads",
+    "link_id": "C870_LINK02",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_C870_LINK02_Contn_1.jpg",
+    "filename": "road_y_C870_LINK02_Contn_1.jpg",
+    "folder": "roads",
+    "link_id": "C870_LINK02",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_C870_LINK02_Contn_2.jpg",
+    "filename": "road_y_C870_LINK02_Contn_2.jpg",
+    "folder": "roads",
+    "link_id": "C870_LINK02",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_M20_LHS01_0.jpg",
+    "filename": "road_y_M20_LHS01_0.jpg",
+    "folder": "roads",
+    "link_id": "M20_LHS01",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_M3Int3_S1_0.jpg",
+    "filename": "road_y_M3Int3_S1_0.jpg",
+    "folder": "roads",
+    "link_id": "M3INT3_S1",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_M3Int3_S1_1.jpg",
+    "filename": "road_y_M3Int3_S1_1.jpg",
+    "folder": "roads",
+    "link_id": "M3INT3_S1",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_M3Int3_S1_2.jpg",
+    "filename": "road_y_M3Int3_S1_2.jpg",
+    "folder": "roads",
+    "link_id": "M3INT3_S1",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_y_M3_LINK01_RHS_0.jpg",
+    "filename": "road_y_M3_LINK01_RHS_0.jpg",
+    "folder": "roads",
+    "link_id": "M3_LINK01",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 28.87
+  },
+  {
+    "image_path": "public/media/roads/road_y_PAVE_2_0.jpg",
+    "filename": "road_y_PAVE_2_0.jpg",
+    "folder": "roads",
+    "link_id": "PAVE_2",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 29.94
+  },
+  {
+    "image_path": "public/media/roads/road_y_PAVE_2_1.jpg",
+    "filename": "road_y_PAVE_2_1.jpg",
+    "folder": "roads",
+    "link_id": "PAVE_2",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 30.42
+  },
+  {
+    "image_path": "public/media/roads/road_y_PAVE_2_2.jpg",
+    "filename": "road_y_PAVE_2_2.jpg",
+    "folder": "roads",
+    "link_id": "PAVE_2",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 30.29
+  },
+  {
+    "image_path": "public/media/roads/road_y_TT_0.jpg",
+    "filename": "road_y_TT_0.jpg",
+    "folder": "roads",
+    "link_id": "TT_0",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 32.23
+  },
+  {
+    "image_path": "public/media/roads/road_z_B204_LINK01_0.jpg",
+    "filename": "road_z_B204_LINK01_0.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_B204_LINK01_2.jpg",
+    "filename": "road_z_B204_LINK01_2.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_B252_LINK03_0.jpg",
+    "filename": "road_z_B252_LINK03_0.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_B252_LINK03_2.jpg",
+    "filename": "road_z_B252_LINK03_2.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_B300_LINK02_0.jpg",
+    "filename": "road_z_B300_LINK02_0.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 17.94
+  },
+  {
+    "image_path": "public/media/roads/road_z_B300_LINK02_1.jpg",
+    "filename": "road_z_B300_LINK02_1.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_B300_LINK02_2.jpg",
+    "filename": "road_z_B300_LINK02_2.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C157_LINK01_0.jpg",
+    "filename": "road_z_C157_LINK01_0.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 32.94
+  },
+  {
+    "image_path": "public/media/roads/road_z_C157_LINK01_1.jpg",
+    "filename": "road_z_C157_LINK01_1.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 20.49
+  },
+  {
+    "image_path": "public/media/roads/road_z_C157_LINK01_2.jpg",
+    "filename": "road_z_C157_LINK01_2.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 22.35
+  },
+  {
+    "image_path": "public/media/roads/road_z_C309_LINK01_0.jpg",
+    "filename": "road_z_C309_LINK01_0.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C309_LINK01_1.jpg",
+    "filename": "road_z_C309_LINK01_1.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C309_LINK01_2.jpg",
+    "filename": "road_z_C309_LINK01_2.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C354_LINK01_0.jpg",
+    "filename": "road_z_C354_LINK01_0.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 21.39
+  },
+  {
+    "image_path": "public/media/roads/road_z_C354_LINK01_2.jpg",
+    "filename": "road_z_C354_LINK01_2.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C390N1_LINK01_2.jpg",
+    "filename": "road_z_C390N1_LINK01_2.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C417_LINK02_0.jpg",
+    "filename": "road_z_C417_LINK02_0.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C428_LINK01_1.jpg",
+    "filename": "road_z_C428_LINK01_1.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C446_LINK01_2.jpg",
+    "filename": "road_z_C446_LINK01_2.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C457_LNIK01_0.jpg",
+    "filename": "road_z_C457_LNIK01_0.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 34.94
+  },
+  {
+    "image_path": "public/media/roads/road_z_C457_LNIK01_1.jpg",
+    "filename": "road_z_C457_LNIK01_1.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C540LINK01_0.jpg",
+    "filename": "road_z_C540LINK01_0.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C540LINK01_2.jpg",
+    "filename": "road_z_C540LINK01_2.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C590_LINK01_01_0.jpg",
+    "filename": "road_z_C590_LINK01_01_0.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 29.41
+  },
+  {
+    "image_path": "public/media/roads/road_z_C590_LINK01_01_1.jpg",
+    "filename": "road_z_C590_LINK01_01_1.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C590_LINK01_01_2.jpg",
+    "filename": "road_z_C590_LINK01_01_2.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C596_LINK02_0.jpg",
+    "filename": "road_z_C596_LINK02_0.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C613_LINK01_01_1.jpg",
+    "filename": "road_z_C613_LINK01_01_1.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C613_LINK01_01_2.jpg",
+    "filename": "road_z_C613_LINK01_01_2.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C626_LINK02_1.jpg",
+    "filename": "road_z_C626_LINK02_1.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C626_LINK02_2.jpg",
+    "filename": "road_z_C626_LINK02_2.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C681_LINK01_02_0.jpg",
+    "filename": "road_z_C681_LINK01_02_0.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C681_LINK01_02_1.jpg",
+    "filename": "road_z_C681_LINK01_02_1.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C681_LINK01_02_2.jpg",
+    "filename": "road_z_C681_LINK01_02_2.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C824_LINK01_1.jpg",
+    "filename": "road_z_C824_LINK01_1.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 35.0
+  },
+  {
+    "image_path": "public/media/roads/road_z_C824_LINK01_2.jpg",
+    "filename": "road_z_C824_LINK01_2.jpg",
+    "folder": "roads",
+    "link_id": "ROADS",
+    "defect_type": "pothole",
+    "confidence": 0.75,
+    "severity": "High",
+    "area_pct": 33.73
+  },
+  {
+    "image_path": "public/media/roads/road_y_360_280825_0.jpg",
+    "filename": "road_y_360_280825_0.jpg",
+    "folder": "roads",
+    "link_id": "360_280825",
+    "defect_type": "rutting",
+    "confidence": 0.68,
+    "severity": "Medium",
+    "area_pct": 4.28
+  },
+  {
+    "image_path": "public/media/roads/road_y_A006_LINK12_0.jpg",
+    "filename": "road_y_A006_LINK12_0.jpg",
+    "folder": "roads",
+    "link_id": "A006_LINK12",
+    "defect_type": "rutting",
+    "confidence": 0.68,
+    "severity": "Medium",
+    "area_pct": 9.35
+  }
+]

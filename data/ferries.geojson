@@ -1,0 +1,845 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.152974235495975,
+          0.27168058793059247
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 1.0,
+        "Remarks": "Kiyindi-Buvuma",
+        "Ferry_cros": "Kiyindi",
+        "Water_body": "L.Victoria",
+        "x_coordina": 33.1529742355,
+        "y_coordina": 0.271680587931,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.092579077958305,
+          1.695571327140336
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 2.0,
+        "Remarks": "Masindi port Landing.",
+        "Ferry_cros": "Masindi port",
+        "Water_body": "R.Nile",
+        "x_coordina": 32.092579078,
+        "y_coordina": 1.69557132714,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.44941700000004,
+          0.08058300000004692
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 3.0,
+        "Remarks": "Nakiwogo-Buwaya",
+        "Ferry_cros": "Nakiwogo",
+        "Water_body": "L.Victoria",
+        "x_coordina": 32.449417,
+        "y_coordina": 0.080583,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.559851011110517,
+          3.239300368125359
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 4.0,
+        "Remarks": "Starting point at Obongi.",
+        "Ferry_cros": "Obongi",
+        "Water_body": "R.Nile",
+        "x_coordina": 31.5598510111,
+        "y_coordina": 3.23930036813,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.613639000000035,
+          1.4887780000000248
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 5.0,
+        "Remarks": "Namasale Zengebe",
+        "Ferry_cros": "Kyoga",
+        "Water_body": "R.Nile",
+        "x_coordina": 32.613639,
+        "y_coordina": 1.488778,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.813037409295333,
+          3.551811256650697
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 6.0,
+        "Remarks": "At Laropi Landing site.",
+        "Ferry_cros": "Laropi",
+        "Water_body": "R.Nile",
+        "x_coordina": 31.8130374093,
+        "y_coordina": 3.55181125665,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.37533258790327,
+          2.1754944620300445
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 7.0,
+        "Remarks": "Wanseko",
+        "Ferry_cros": "Wanseko",
+        "Water_body": "R.Nile",
+        "x_coordina": 31.3753325879,
+        "y_coordina": 2.17549446203,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.923032079437874,
+          1.6241731907412718
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 8.0,
+        "Remarks": "Bisina",
+        "Ferry_cros": "Bisina",
+        "Water_body": "L.Bisina",
+        "x_coordina": 33.9230320794,
+        "y_coordina": 1.62417319074,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.228523831308472,
+          1.0300911719635475
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 10.0,
+        "Remarks": "Semliki",
+        "Ferry_cros": "Semliki",
+        "Water_body": "R.Semiliki",
+        "x_coordina": 30.2285238313,
+        "y_coordina": 1.03009117196,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.80690457508795,
+          0.14494840739148704
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 11.0,
+        "Remarks": "Sigulu",
+        "Ferry_cros": "Sigulu",
+        "Water_body": "L.Victoria",
+        "x_coordina": 33.8069045751,
+        "y_coordina": 0.144948407391,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.2915044119492,
+          -0.30956462799895634
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 0.0,
+        "Remarks": "Nakiwogo to Kalangala",
+        "Ferry_cros": "Kalangala",
+        "Water_body": "Lake Victoria",
+        "x_coordina": 32.2915044119,
+        "y_coordina": -0.309564627999,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.02622305968803,
+          -0.2722931753398164
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 0.0,
+        "Remarks": "Bukakata to Kalangala",
+        "Ferry_cros": "Bukakata",
+        "Water_body": "Lake Victoria",
+        "x_coordina": 32.0262230597,
+        "y_coordina": -0.27229317534,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.291169172029065,
+          -0.4591093023510418
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 0.0,
+        "Remarks": "Nkusi to Bubembe and Bunyama",
+        "Ferry_cros": "Nkusi",
+        "Water_body": "Lake Victoria",
+        "x_coordina": 32.291169172,
+        "y_coordina": -0.459109302351,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.868343999293984,
+          1.4386832983566897
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 0.0,
+        "Remarks": "Bukungu to Kagwara to Akampala",
+        "Ferry_cros": "Bukungu",
+        "Water_body": "Lake Kyoga",
+        "x_coordina": 32.8683439993,
+        "y_coordina": 1.43868329836,
+        "Category": "Under Construction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.943859629953824,
+          -1.2949694103311664
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 0.0,
+        "Remarks": "Murandi to Bwama to Kakoko",
+        "Ferry_cros": "Bunyonyi",
+        "Water_body": "Lake Bunyonyi",
+        "x_coordina": 29.94385963,
+        "y_coordina": -1.29496941033,
+        "Category": "Under Construction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.350039036819375,
+          2.7986785221129034
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 0.0,
+        "Remarks": "Rhino camp to Amuru",
+        "Ferry_cros": "Rhino Camp",
+        "Water_body": "Albert Nile",
+        "x_coordina": 31.3500390368,
+        "y_coordina": 2.79867852211,
+        "Category": "Under Construction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.58348819276123,
+          1.3909319400725328
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 0.0,
+        "Remarks": "",
+        "Ferry_cros": "Zengebe",
+        "Water_body": "Lake Kyoga",
+        "x_coordina": 32.5834881928,
+        "y_coordina": 1.39093194007,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.08920359122159,
+          1.4958865327980935
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 0.0,
+        "Remarks": "",
+        "Ferry_cros": "Kagwara",
+        "Water_body": "Lake Kyoga",
+        "x_coordina": 33.0892035912,
+        "y_coordina": 1.4958865328,
+        "Category": "Under Construction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.88812354863985,
+          1.556205708429436
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 0.0,
+        "Remarks": "",
+        "Ferry_cros": "Kaberamaido",
+        "Water_body": "Lake Kyoga",
+        "x_coordina": 32.8881235486,
+        "y_coordina": 1.55620570843,
+        "Category": "Under Construction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.45123248885264,
+          -0.4801299722944237
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 0.0,
+        "Remarks": "Nakiwogo - Bukasa",
+        "Ferry_cros": "Bukasa",
+        "Water_body": "Lake Victoria",
+        "x_coordina": 32.5192795564,
+        "y_coordina": -0.373198866215,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.152974235495975,
+          0.27168058793059247
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 1.0,
+        "Remarks": "Kiyindi-Buvuma",
+        "Ferry_cros": "Kiyindi",
+        "Water_body": "L.Victoria",
+        "x_coordina": 33.1529742355,
+        "y_coordina": 0.271680587931,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.092579077958305,
+          1.695571327140336
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 2.0,
+        "Remarks": "Masindi port Landing.",
+        "Ferry_cros": "Masindi port",
+        "Water_body": "R.Nile",
+        "x_coordina": 32.092579078,
+        "y_coordina": 1.69557132714,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.44941700000004,
+          0.08058300000004692
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 3.0,
+        "Remarks": "Nakiwogo-Buwaya",
+        "Ferry_cros": "Nakiwogo",
+        "Water_body": "L.Victoria",
+        "x_coordina": 32.449417,
+        "y_coordina": 0.080583,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.559851011110517,
+          3.239300368125359
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 4.0,
+        "Remarks": "Starting point at Obongi.",
+        "Ferry_cros": "Obongi",
+        "Water_body": "R.Nile",
+        "x_coordina": 31.5598510111,
+        "y_coordina": 3.23930036813,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.613639000000035,
+          1.4887780000000248
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 5.0,
+        "Remarks": "Namasale Zengebe",
+        "Ferry_cros": "Kyoga",
+        "Water_body": "R.Nile",
+        "x_coordina": 32.613639,
+        "y_coordina": 1.488778,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.813037409295333,
+          3.551811256650697
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 6.0,
+        "Remarks": "At Laropi Landing site.",
+        "Ferry_cros": "Laropi",
+        "Water_body": "R.Nile",
+        "x_coordina": 31.8130374093,
+        "y_coordina": 3.55181125665,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.37533258790327,
+          2.1754944620300445
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 7.0,
+        "Remarks": "Wanseko",
+        "Ferry_cros": "Wanseko",
+        "Water_body": "R.Nile",
+        "x_coordina": 31.3753325879,
+        "y_coordina": 2.17549446203,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.923032079437874,
+          1.6241731907412718
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 8.0,
+        "Remarks": "Bisina",
+        "Ferry_cros": "Bisina",
+        "Water_body": "L.Bisina",
+        "x_coordina": 33.9230320794,
+        "y_coordina": 1.62417319074,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.228523831308472,
+          1.0300911719635475
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 10.0,
+        "Remarks": "Semliki",
+        "Ferry_cros": "Semliki",
+        "Water_body": "R.Semiliki",
+        "x_coordina": 30.2285238313,
+        "y_coordina": 1.03009117196,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.80690457508795,
+          0.14494840739148704
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 11.0,
+        "Remarks": "Sigulu",
+        "Ferry_cros": "Sigulu",
+        "Water_body": "L.Victoria",
+        "x_coordina": 33.8069045751,
+        "y_coordina": 0.144948407391,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.2915044119492,
+          -0.30956462799895634
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 0.0,
+        "Remarks": "Nakiwogo to Kalangala",
+        "Ferry_cros": "Kalangala",
+        "Water_body": "Lake Victoria",
+        "x_coordina": 32.2915044119,
+        "y_coordina": -0.309564627999,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.02622305968803,
+          -0.2722931753398164
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 0.0,
+        "Remarks": "Bukakata to Kalangala",
+        "Ferry_cros": "Bukakata",
+        "Water_body": "Lake Victoria",
+        "x_coordina": 32.0262230597,
+        "y_coordina": -0.27229317534,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.291169172029065,
+          -0.4591093023510418
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 0.0,
+        "Remarks": "Nkusi to Bubembe and Bunyama",
+        "Ferry_cros": "Nkusi",
+        "Water_body": "Lake Victoria",
+        "x_coordina": 32.291169172,
+        "y_coordina": -0.459109302351,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.868343999293984,
+          1.4386832983566897
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 0.0,
+        "Remarks": "Bukungu to Kagwara to Akampala",
+        "Ferry_cros": "Bukungu",
+        "Water_body": "Lake Kyoga",
+        "x_coordina": 32.8683439993,
+        "y_coordina": 1.43868329836,
+        "Category": "Under Construction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.943859629953824,
+          -1.2949694103311664
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 0.0,
+        "Remarks": "Murandi to Bwama to Kakoko",
+        "Ferry_cros": "Bunyonyi",
+        "Water_body": "Lake Bunyonyi",
+        "x_coordina": 29.94385963,
+        "y_coordina": -1.29496941033,
+        "Category": "Under Construction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.350039036819375,
+          2.7986785221129034
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 0.0,
+        "Remarks": "Rhino camp to Amuru",
+        "Ferry_cros": "Rhino Camp",
+        "Water_body": "Albert Nile",
+        "x_coordina": 31.3500390368,
+        "y_coordina": 2.79867852211,
+        "Category": "Under Construction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.58348819276123,
+          1.3909319400725328
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 0.0,
+        "Remarks": "",
+        "Ferry_cros": "Zengebe",
+        "Water_body": "Lake Kyoga",
+        "x_coordina": 32.5834881928,
+        "y_coordina": 1.39093194007,
+        "Category": "Operational"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.08920359122159,
+          1.4958865327980935
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 0.0,
+        "Remarks": "",
+        "Ferry_cros": "Kagwara",
+        "Water_body": "Lake Kyoga",
+        "x_coordina": 33.0892035912,
+        "y_coordina": 1.4958865328,
+        "Category": "Under Construction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.88812354863985,
+          1.556205708429436
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 0.0,
+        "Remarks": "",
+        "Ferry_cros": "Kaberamaido",
+        "Water_body": "Lake Kyoga",
+        "x_coordina": 32.8881235486,
+        "y_coordina": 1.55620570843,
+        "Category": "Under Construction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.45123248885264,
+          -0.4801299722944237
+        ]
+      },
+      "properties": {
+        "name": null,
+        "type": "Ferry Route",
+        "F1": 0.0,
+        "Remarks": "Nakiwogo - Bukasa",
+        "Ferry_cros": "Bukasa",
+        "Water_body": "Lake Victoria",
+        "x_coordina": 32.5192795564,
+        "y_coordina": -0.373198866215,
+        "Category": "Operational"
+      }
+    }
+  ]
+}
