@@ -1,0 +1,5218 @@
+[
+  {
+    "road_no": "A001",
+    "road_class": "A",
+    "length_km": 211.271,
+    "road_name": "Kampala-Lugazi-Njeru-Iganga-Busitema Junction-Tororo junction-Malaba(Uganda/Kenya border)",
+    "age_years": 14.6,
+    "pave_year": 2010
+  },
+  {
+    "road_no": "A001N1",
+    "road_class": "A",
+    "length_km": 2.865,
+    "road_name": "Njeru-Jinja (Dual Section)",
+    "age_years": 17.0,
+    "pave_year": 2008
+  },
+  {
+    "road_no": "A001N2",
+    "road_class": "A",
+    "length_km": 11.853,
+    "road_name": "Jinja-Kakira Junction(Dual section)",
+    "age_years": 17.0,
+    "pave_year": 2008
+  },
+  {
+    "road_no": "A002",
+    "road_class": "A",
+    "length_km": 421.318,
+    "road_name": "Kibuye-Mpigi-Lukaya-Mbarara(Bushenyi junction)-Ntungamo-Kabale-Katuna",
+    "age_years": 13.1,
+    "pave_year": 2011
+  },
+  {
+    "road_no": "A003",
+    "road_class": "A",
+    "length_km": 36.907,
+    "road_name": "Kibuye-Zana-Entebbe Airport",
+    "age_years": 19.0,
+    "pave_year": 2006
+  },
+  {
+    "road_no": "A003N1",
+    "road_class": "A",
+    "length_km": 4.953,
+    "road_name": "Kibuye-Zana(Dual Section)",
+    "age_years": 19.0,
+    "pave_year": 2006
+  },
+  {
+    "road_no": "A003N2",
+    "road_class": "A",
+    "length_km": 12.951,
+    "road_name": "Entebbe Airport (Dual)",
+    "age_years": 8.0,
+    "pave_year": 2017
+  },
+  {
+    "road_no": "A003N3",
+    "road_class": "A",
+    "length_km": 0.353,
+    "road_name": "Kajjansi (Dual)",
+    "age_years": 8.0,
+    "pave_year": 2017
+  },
+  {
+    "road_no": "A004",
+    "road_class": "A",
+    "length_km": 88.902,
+    "road_name": "Masaka round about-Kyotera-Mutukula",
+    "age_years": 20.0,
+    "pave_year": 2004
+  },
+  {
+    "road_no": "A005",
+    "road_class": "A",
+    "length_km": 417.336,
+    "road_name": "Busega-Myanzi-Kitenga-Lubaale-Kyenjojo-Fortportal-Rwimi(bridge)-Kasese-Kikorongo-Mpondwe",
+    "age_years": 15.5,
+    "pave_year": 2009
+  },
+  {
+    "road_no": "A006",
+    "road_class": "A",
+    "length_km": 433.617,
+    "road_name": "Kampala-Matuga-Luweero-Kafu-Karuma-Kamdini-Minakulu-Gulu-Atiak-Nimule(Uganda/Sudan border)",
+    "age_years": 11.7,
+    "pave_year": 2013
+  },
+  {
+    "road_no": "A006N1",
+    "road_class": "A",
+    "length_km": 0.721,
+    "road_name": "Bwaise (Dual)",
+    "age_years": 16.0,
+    "pave_year": 2009
+  },
+  {
+    "road_no": "A007",
+    "road_class": "A",
+    "length_km": 342.236,
+    "road_name": "Malaba junction-Tororo-Mbale-Soroti-Lira-Kamdini",
+    "age_years": 14.3,
+    "pave_year": 2010
+  },
+  {
+    "road_no": "A007N1",
+    "road_class": "A",
+    "length_km": 0.75,
+    "road_name": "Mbale(Dual Section)",
+    "age_years": 12.0,
+    "pave_year": 2013
+  },
+  {
+    "road_no": "A008",
+    "road_class": "A",
+    "length_km": 310.887,
+    "road_name": "Karuma-Packwach-Nebbi-Arua-Manibe-Koboko-Oraba(Uganda/Sudan border)",
+    "age_years": 16.7,
+    "pave_year": 2008
+  },
+  {
+    "road_no": "A009",
+    "road_class": "A",
+    "length_km": 197.364,
+    "road_name": "Kampala-Nansana-Busunju-Kiboga-Lwamata-Hoima",
+    "age_years": 15.9,
+    "pave_year": 2009
+  },
+  {
+    "road_no": "A009N1",
+    "road_class": "A",
+    "length_km": 1.365,
+    "road_name": "Kasubi (Dual)",
+    "age_years": 3.0,
+    "pave_year": 2022
+  },
+  {
+    "road_no": "A009N2",
+    "road_class": "A",
+    "length_km": 0.519,
+    "road_name": "Namungoona (Dual)",
+    "age_years": 3.0,
+    "pave_year": 2022
+  },
+  {
+    "road_no": "A010",
+    "road_class": "A",
+    "length_km": 9.144,
+    "road_name": "Nsambya-Kabalagala-Gaba",
+    "age_years": 20.0,
+    "pave_year": 2005
+  },
+  {
+    "road_no": "A012",
+    "road_class": "A",
+    "length_km": 99.335,
+    "road_name": "Nakalama-Mpologoma bridge-Tirinyi-Kamonkoli-Mbale",
+    "age_years": 8.0,
+    "pave_year": 2017
+  },
+  {
+    "road_no": "B100",
+    "road_class": "B",
+    "length_km": 33.5,
+    "road_name": "Kubiri round about-Gayaza-Kalagi",
+    "age_years": 19.4,
+    "pave_year": 2005
+  },
+  {
+    "road_no": "B100N1",
+    "road_class": "B",
+    "length_km": 1.725,
+    "road_name": "Kalerwe (Dual)",
+    "age_years": 3.0,
+    "pave_year": 2022
+  },
+  {
+    "road_no": "B101",
+    "road_class": "B",
+    "length_km": 83.227,
+    "road_name": "Mukono-Kalagi-Kayunga-Busana-River Nile-Mbulamuti-Isimba- Mbulamuti - Kamuli",
+    "age_years": 6.6,
+    "pave_year": 2018
+  },
+  {
+    "road_no": "B102",
+    "road_class": "B",
+    "length_km": 42.591,
+    "road_name": "Njeru-Bukoloto",
+    "age_years": 39.0,
+    "pave_year": 1986
+  },
+  {
+    "road_no": "B103",
+    "road_class": "B",
+    "length_km": 141.502,
+    "road_name": "Nyendo-Sembabule-Nkonge-Kasambya-Lusalira",
+    "age_years": 2.9,
+    "pave_year": 2022
+  },
+  {
+    "road_no": "B150",
+    "road_class": "B",
+    "length_km": 173.996,
+    "road_name": "Ishanyu-Bwizibwera-Ibanda-Muziza-Kamwenge-Fortportal",
+    "age_years": 13.8,
+    "pave_year": 2011
+  },
+  {
+    "road_no": "B151",
+    "road_class": "B",
+    "length_km": 59.183,
+    "road_name": "Mbarara-Ishanyu-Kabwohe-Ishaka",
+    "age_years": 15.9,
+    "pave_year": 2009
+  },
+  {
+    "road_no": "B152",
+    "road_class": "B",
+    "length_km": 123.535,
+    "road_name": "Ntungamo-Kagamba-Ishaka-Buhinda-Katunguru-Kikorongo",
+    "age_years": 27.5,
+    "pave_year": 1997
+  },
+  {
+    "road_no": "B153",
+    "road_class": "B",
+    "length_km": 87.87,
+    "road_name": "Kabale-Ikumba-Muko-Nyakabande-Kisoro-Bunagana",
+    "age_years": 13.0,
+    "pave_year": 2012
+  },
+  {
+    "road_no": "B200",
+    "road_class": "B",
+    "length_km": 43.263,
+    "road_name": "Kafu-Masindi",
+    "age_years": 18.0,
+    "pave_year": 2007
+  },
+  {
+    "road_no": "B201",
+    "road_class": "B",
+    "length_km": 39.058,
+    "road_name": "Kigumba-Masindi",
+    "age_years": 5.0,
+    "pave_year": 2020
+  },
+  {
+    "road_no": "B202",
+    "road_class": "B",
+    "length_km": 144.68,
+    "road_name": "Kyenjojo-Katoke-R. Muzizi-Muhooro-Kabwoya-Kiziranfumbi-Buhimba-Hoima",
+    "age_years": 6.0,
+    "pave_year": 2019
+  },
+  {
+    "road_no": "B203",
+    "road_class": "B",
+    "length_km": 123.499,
+    "road_name": "Mubende-Kiboyo-Kakumiro-Nkondo-Kabaale swamp-Buhimba",
+    "age_years": 3.7,
+    "pave_year": 2021
+  },
+  {
+    "road_no": "B204",
+    "road_class": "B",
+    "length_km": 51.769,
+    "road_name": "Hoima-Bulima-Masindi",
+    "age_years": 4.2,
+    "pave_year": 2020
+  },
+  {
+    "road_no": "B250",
+    "road_class": "B",
+    "length_km": 234.657,
+    "road_name": "Atiak-Moyo-Yumbe-Manibe",
+    "age_years": 0.3,
+    "pave_year": 2024
+  },
+  {
+    "road_no": "B251",
+    "road_class": "B",
+    "length_km": 61.808,
+    "road_name": "Gulu-Olwiyo",
+    "age_years": 7.0,
+    "pave_year": 2018
+  },
+  {
+    "road_no": "B252",
+    "road_class": "B",
+    "length_km": 190.223,
+    "road_name": "Lira-Puranga Bridge-Corner Kilak-Acholibur-Kitgum-Madi Opei-Uganda/Sudan border",
+    "age_years": 3.6,
+    "pave_year": 2021
+  },
+  {
+    "road_no": "B253",
+    "road_class": "B",
+    "length_km": 145.782,
+    "road_name": "Rwekunye-Masindi Port-Akokoro-Apac-Aduku-Lira",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "B300",
+    "road_class": "B",
+    "length_km": 219.511,
+    "road_name": "Namunsi-Sironko-Muyembe-Namalu-Nakapiripirit-Lokapel-Ariamoi-Moroto",
+    "age_years": 12.1,
+    "pave_year": 2012
+  },
+  {
+    "road_no": "B301",
+    "road_class": "B",
+    "length_km": 201.391,
+    "road_name": "Ariamoi-Kaladonapal-Kapelimoru-Kotido-Apaan-Kabong",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "B302",
+    "road_class": "B",
+    "length_km": 147.01,
+    "road_name": "Kotido-Abim-Kilak",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "B303",
+    "road_class": "B",
+    "length_km": 158.675,
+    "road_name": "Soroti-Arapai-Katakwi-Iriri-Akisim (Lorengechora)-Ariamoi-Nadunget",
+    "age_years": 9.0,
+    "pave_year": 2016
+  },
+  {
+    "road_no": "B304",
+    "road_class": "B",
+    "length_km": 105.38,
+    "road_name": "Muyembe-Kaserem-Kapchorwa-Suam",
+    "age_years": 5.3,
+    "pave_year": 2019
+  },
+  {
+    "road_no": "B305",
+    "road_class": "B",
+    "length_km": 67.328,
+    "road_name": "Tirinyi-Pallisa-Kanyago Bridge-Kumi",
+    "age_years": 5.0,
+    "pave_year": 2020
+  },
+  {
+    "road_no": "B306",
+    "road_class": "B",
+    "length_km": 24.235,
+    "road_name": "Tororo(Malaba junction)-Busia",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "B307",
+    "road_class": "B",
+    "length_km": 122.972,
+    "road_name": "Jinja(kubiri round about)-Buwenge-Kamuli-Nawantale-Bukungu",
+    "age_years": 7.3,
+    "pave_year": 2017
+  },
+  {
+    "road_no": "B308",
+    "road_class": "B",
+    "length_km": 16.905,
+    "road_name": "Namutere-Busia",
+    "age_years": 19.0,
+    "pave_year": 2006
+  },
+  {
+    "road_no": "C001",
+    "road_class": "C",
+    "length_km": 2.767,
+    "road_name": "Nsambya-Cape town Villa",
+    "age_years": 69.0,
+    "pave_year": 1956
+  },
+  {
+    "road_no": "C002",
+    "road_class": "C",
+    "length_km": 3.825,
+    "road_name": "Seeta-Namilyango",
+    "age_years": 16.0,
+    "pave_year": 2009
+  },
+  {
+    "road_no": "C003",
+    "road_class": "C",
+    "length_km": 41.578,
+    "road_name": "Nazigo-Kireku-Nkokonjeru-Kitimbwa",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C005",
+    "road_class": "C",
+    "length_km": 12.2,
+    "road_name": "Salaama Road",
+    "age_years": 18.0,
+    "pave_year": 2007
+  },
+  {
+    "road_no": "C006",
+    "road_class": "C",
+    "length_km": 20.295,
+    "road_name": "Kirongo-Kulwe",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C007",
+    "road_class": "C",
+    "length_km": 10.202,
+    "road_name": "Kyerima-Bulawula",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C011",
+    "road_class": "C",
+    "length_km": 19.49,
+    "road_name": "Walwanda-Kirongo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C022",
+    "road_class": "C",
+    "length_km": 4.634,
+    "road_name": "Mbuya/SilverSprings-Kireka",
+    "age_years": 16.0,
+    "pave_year": 2009
+  },
+  {
+    "road_no": "C023",
+    "road_class": "C",
+    "length_km": 1.756,
+    "road_name": "Old Njeru - Jinja",
+    "age_years": 69.0,
+    "pave_year": 1956
+  },
+  {
+    "road_no": "C024",
+    "road_class": "C",
+    "length_km": 26.643,
+    "road_name": "Mukono-Kyetume-Kisoga-Katosi",
+    "age_years": 7.0,
+    "pave_year": 2018
+  },
+  {
+    "road_no": "C025",
+    "road_class": "C",
+    "length_km": 38.334,
+    "road_name": "Kisoga-Lugasa-Najja",
+    "age_years": 7.0,
+    "pave_year": 2018
+  },
+  {
+    "road_no": "C026",
+    "road_class": "C",
+    "length_km": 4.05,
+    "road_name": "Bulumagi-Nyenga",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C027",
+    "road_class": "C",
+    "length_km": 10.804,
+    "road_name": "Lugazi-Buikwe",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C028",
+    "road_class": "C",
+    "length_km": 9.791,
+    "road_name": "Najja-Nyenga",
+    "age_years": 5.0,
+    "pave_year": 2020
+  },
+  {
+    "road_no": "C029",
+    "road_class": "C",
+    "length_km": 24.509,
+    "road_name": "Njeru-Nyenga-Buikwe",
+    "age_years": 2.4,
+    "pave_year": 2022
+  },
+  {
+    "road_no": "C030",
+    "road_class": "C",
+    "length_km": 16.859,
+    "road_name": "Buikwe-Najja-Kiyindi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C034",
+    "road_class": "C",
+    "length_km": 3.523,
+    "road_name": "Bugungu Prisons Access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C035",
+    "road_class": "C",
+    "length_km": 0.931,
+    "road_name": "Buvuma Women's prison Access",
+    "age_years": 18.0,
+    "pave_year": 2007
+  },
+  {
+    "road_no": "C036",
+    "road_class": "C",
+    "length_km": 13.692,
+    "road_name": "Nambole-Kampala Industrial Park-Mukono",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C037",
+    "road_class": "C",
+    "length_km": 2.202,
+    "road_name": "Mukono Railway access off Mukono-Kyetu",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C038",
+    "road_class": "C",
+    "length_km": 10.573,
+    "road_name": "Kisoga-Kibanga Port",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C039",
+    "road_class": "C",
+    "length_km": 1.733,
+    "road_name": "Nyenga-Railway station Access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C040",
+    "road_class": "C",
+    "length_km": 8.723,
+    "road_name": "Lugasa-Buikwe",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C041",
+    "road_class": "C",
+    "length_km": 40.806,
+    "road_name": "Namataba-Kyampisi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C042",
+    "road_class": "C",
+    "length_km": 0.859,
+    "road_name": "Kawolo Railway access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C043",
+    "road_class": "C",
+    "length_km": 5.409,
+    "road_name": "Access to Kituuza Agriculture Research C",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C044",
+    "road_class": "C",
+    "length_km": 6.949,
+    "road_name": "Buikwe-Lugasa(Makindu)",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C045",
+    "road_class": "C",
+    "length_km": 38.549,
+    "road_name": "Kabimbiri-Misindye",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C046",
+    "road_class": "C",
+    "length_km": 22.974,
+    "road_name": "Zirobwe-Lwajjali-Kasawo-Kabimbiri",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C047",
+    "road_class": "C",
+    "length_km": 7.63,
+    "road_name": "Kasana-Bugobero",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C140",
+    "road_class": "C",
+    "length_km": 1.272,
+    "road_name": "Kasana - Mbulamuti ferry access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C150",
+    "road_class": "C",
+    "length_km": 11.116,
+    "road_name": "Najanankumbi-Busabala",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C151",
+    "road_class": "C",
+    "length_km": 0.56,
+    "road_name": "Busabala-Kazi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C152",
+    "road_class": "C",
+    "length_km": 14.879,
+    "road_name": "Kireka-Namugongo-Misindye-Seeta",
+    "age_years": 16.0,
+    "pave_year": 2009
+  },
+  {
+    "road_no": "C153",
+    "road_class": "C",
+    "length_km": 8.684,
+    "road_name": "Lweza-Kigo Prison",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C154",
+    "road_class": "C",
+    "length_km": 57.919,
+    "road_name": "Matugga-Semuto-Kapeka-Butalangwa",
+    "age_years": 9.6,
+    "pave_year": 2015
+  },
+  {
+    "road_no": "C157",
+    "road_class": "C",
+    "length_km": 3.374,
+    "road_name": "Entebbe-Nakiwogo",
+    "age_years": 69.0,
+    "pave_year": 1956
+  },
+  {
+    "road_no": "C158",
+    "road_class": "C",
+    "length_km": 1.517,
+    "road_name": "Nakiwogo Statehouse road",
+    "age_years": 69.0,
+    "pave_year": 1956
+  },
+  {
+    "road_no": "C159",
+    "road_class": "C",
+    "length_km": 1.669,
+    "road_name": "Access to Kajjansi Fisheries Research Ce",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C160",
+    "road_class": "C",
+    "length_km": 19.789,
+    "road_name": "Mpigi-Kasanje-Buwaya",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C161",
+    "road_class": "C",
+    "length_km": 3.434,
+    "road_name": "Mpigi Loop",
+    "age_years": 8.0,
+    "pave_year": 2017
+  },
+  {
+    "road_no": "C162",
+    "road_class": "C",
+    "length_km": 156.088,
+    "road_name": "Mpigi-Kanoni-Kabulasoke-Madu-Kasambya-Nabakazi",
+    "age_years": 4.4,
+    "pave_year": 2020
+  },
+  {
+    "road_no": "C163",
+    "road_class": "C",
+    "length_km": 29.0,
+    "road_name": "MitalaMaria-Bulo-Kanoni",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C164",
+    "road_class": "C",
+    "length_km": 4.303,
+    "road_name": "MatalaMaria Loop",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C165",
+    "road_class": "C",
+    "length_km": 12.54,
+    "road_name": "Buwama-Katebo Port",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C166",
+    "road_class": "C",
+    "length_km": 80.208,
+    "road_name": "Madu-Kisozi-R.Katonga-Sembabule-Matete-Mbirizi",
+    "age_years": 3.8,
+    "pave_year": 2021
+  },
+  {
+    "road_no": "C167",
+    "road_class": "C",
+    "length_km": 7.668,
+    "road_name": "Kyayi-Kasambya",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C168",
+    "road_class": "C",
+    "length_km": 2.049,
+    "road_name": "Bweyogerere-Bukasa",
+    "age_years": 21.0,
+    "pave_year": 2004
+  },
+  {
+    "road_no": "C170",
+    "road_class": "C",
+    "length_km": 2.053,
+    "road_name": "Namboole Access Road",
+    "age_years": 29.0,
+    "pave_year": 1996
+  },
+  {
+    "road_no": "C171",
+    "road_class": "C",
+    "length_km": 2.625,
+    "road_name": "Access to Kajjansi Air Strip",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C172",
+    "road_class": "C",
+    "length_km": 6.573,
+    "road_name": "Kawuku-Bwerenga",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C173",
+    "road_class": "C",
+    "length_km": 2.121,
+    "road_name": "Access to Lunnyo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C174",
+    "road_class": "C",
+    "length_km": 9.625,
+    "road_name": "Kitala-Gerenge",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C175",
+    "road_class": "C",
+    "length_km": 5.446,
+    "road_name": "Abayita Ababiri-Kasenyi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C176",
+    "road_class": "C",
+    "length_km": 4.048,
+    "road_name": "Access to Katabi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C177",
+    "road_class": "C",
+    "length_km": 10.0,
+    "road_name": "Access to Kigungu",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C178",
+    "road_class": "C",
+    "length_km": 28.107,
+    "road_name": "Natete-Nakawuka-Kisubi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C179",
+    "road_class": "C",
+    "length_km": 1.598,
+    "road_name": "Old Masaka Road (Kyengera-Kabojja Secondary)",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C180",
+    "road_class": "C",
+    "length_km": 35.426,
+    "road_name": "Nakawuka-Namutamala-Katende-Bujuko",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C181",
+    "road_class": "C",
+    "length_km": 1.989,
+    "road_name": "Access to Kakiri Army Barracks",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C182",
+    "road_class": "C",
+    "length_km": 8.869,
+    "road_name": "Buloba-Wakiso",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C183",
+    "road_class": "C",
+    "length_km": 0.785,
+    "road_name": "Buloba PTTC",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C184",
+    "road_class": "C",
+    "length_km": 23.168,
+    "road_name": "Kakiri-Masulita-Danze-Mawale",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C185",
+    "road_class": "C",
+    "length_km": 14.357,
+    "road_name": "Gobero-Segenga-Kakonda",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C186",
+    "road_class": "C",
+    "length_km": 14.651,
+    "road_name": "Namyumba-Kakonda-Wabikokoma-Semuto",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C187",
+    "road_class": "C",
+    "length_km": 19.252,
+    "road_name": "Namayumba-Kitalya Prison-Kamuli",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C188",
+    "road_class": "C",
+    "length_km": 14.67,
+    "road_name": "Kyabadaza-Kibibi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C189",
+    "road_class": "C",
+    "length_km": 9.933,
+    "road_name": "Kayenje-Nkinga-Nakatoke",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C190",
+    "road_class": "C",
+    "length_km": 38.574,
+    "road_name": "Kayabwe-Nkozi-Kinyika-Ngando-Wab",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C191",
+    "road_class": "C",
+    "length_km": 11.119,
+    "road_name": "Katonga-Ggolo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C193",
+    "road_class": "C",
+    "length_km": 9.914,
+    "road_name": "Wakiso-Kassengejja-Matugga",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C194",
+    "road_class": "C",
+    "length_km": 17.937,
+    "road_name": "Matugga-Kasangati-Kyaliwajala",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C195",
+    "road_class": "C",
+    "length_km": 9.452,
+    "road_name": "Nakawuka Kasanje",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C196",
+    "road_class": "C",
+    "length_km": 2.889,
+    "road_name": "Bujuuko Railway Access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C197",
+    "road_class": "C",
+    "length_km": 2.56,
+    "road_name": "Kawolongojjo Railway Access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C198",
+    "road_class": "C",
+    "length_km": 3.718,
+    "road_name": "Budo-Nakasozi",
+    "age_years": 16.0,
+    "pave_year": 2009
+  },
+  {
+    "road_no": "C199",
+    "road_class": "C",
+    "length_km": 1.484,
+    "road_name": "Nabbingo Access Road",
+    "age_years": 5.0,
+    "pave_year": 2020
+  },
+  {
+    "road_no": "C200",
+    "road_class": "C",
+    "length_km": 13.855,
+    "road_name": "Lukolo-Bunjako",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C201",
+    "road_class": "C",
+    "length_km": 21.105,
+    "road_name": "Kabasanda-Kakindu-Zigoti",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C210",
+    "road_class": "C",
+    "length_km": 5.398,
+    "road_name": "Nyendo-Masaka",
+    "age_years": 68.0,
+    "pave_year": 1957
+  },
+  {
+    "road_no": "C211",
+    "road_class": "C",
+    "length_km": 35.791,
+    "road_name": "Nyendo-Lambu port Junction-Bukakata",
+    "age_years": 5.0,
+    "pave_year": 2020
+  },
+  {
+    "road_no": "C212",
+    "road_class": "C",
+    "length_km": 4.979,
+    "road_name": "Bukakata-Lambu Port",
+    "age_years": 5.0,
+    "pave_year": 2020
+  },
+  {
+    "road_no": "C213",
+    "road_class": "C",
+    "length_km": 1.874,
+    "road_name": "Bukakata-Old Landing Site",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C214",
+    "road_class": "C",
+    "length_km": 65.13,
+    "road_name": "Lyantonde-Lumbugu-Kyotera",
+    "age_years": 15.5,
+    "pave_year": 2009
+  },
+  {
+    "road_no": "C215",
+    "road_class": "C",
+    "length_km": 48.357,
+    "road_name": "Villa Maria-Kalungu-Mityegonga-Kabulasoke",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C216",
+    "road_class": "C",
+    "length_km": 25.918,
+    "road_name": "Lukaya-Miwuula",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C217",
+    "road_class": "C",
+    "length_km": 35.583,
+    "road_name": "Miwula-Bweera-Kagologolo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C218",
+    "road_class": "C",
+    "length_km": 31.956,
+    "road_name": "Masaka-Kidda-Buwunga-Nkuke-Kyana",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C219",
+    "road_class": "C",
+    "length_km": 1.018,
+    "road_name": "Masaka army barracks",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C220",
+    "road_class": "C",
+    "length_km": 3.757,
+    "road_name": "Degeya PTTC off Masaka Township",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C221",
+    "road_class": "C",
+    "length_km": 32.745,
+    "road_name": "Kalisizo-Lusakalwamese-Bikira",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C222",
+    "road_class": "C",
+    "length_km": 13.114,
+    "road_name": "Kyesiga-Malembo Landing site",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C223",
+    "road_class": "C",
+    "length_km": 17.097,
+    "road_name": "Taba-Kyeesiga-Ddimo Landing site",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C224",
+    "road_class": "C",
+    "length_km": 41.903,
+    "road_name": "Kyapa-Kasensero",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C225",
+    "road_class": "C",
+    "length_km": 60.928,
+    "road_name": "Kyabakuza-Kiwangala-Ndagwe-Namabal",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C226",
+    "road_class": "C",
+    "length_km": 80.79,
+    "road_name": "Kyabakuza-Kyogya-Matete-Kakinga-Kaliro",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C227",
+    "road_class": "C",
+    "length_km": 44.311,
+    "road_name": "Lyantonde-Kaliro-Nabitanga-Ntusi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C228",
+    "road_class": "C",
+    "length_km": 42.066,
+    "road_name": "Ntusi-Nabitanga-Rushere",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C229",
+    "road_class": "C",
+    "length_km": 34.652,
+    "road_name": "Luku Pier-Kalangala HQ",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C230",
+    "road_class": "C",
+    "length_km": 34.705,
+    "road_name": "Kalangala HQ-Mulabana",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C231",
+    "road_class": "C",
+    "length_km": 4.5,
+    "road_name": "Lumbugu-Rakai",
+    "age_years": 62.0,
+    "pave_year": 1963
+  },
+  {
+    "road_no": "C232",
+    "road_class": "C",
+    "length_km": 1.33,
+    "road_name": "Lyantonde-High Street",
+    "age_years": 14.0,
+    "pave_year": 2011
+  },
+  {
+    "road_no": "C233",
+    "road_class": "C",
+    "length_km": 11.635,
+    "road_name": "Bukulula-Kalungu",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C234",
+    "road_class": "C",
+    "length_km": 12.763,
+    "road_name": "Mukoko-Birinzi-Ssunga",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C235",
+    "road_class": "C",
+    "length_km": 1.027,
+    "road_name": "Villa Road Link",
+    "age_years": 4.0,
+    "pave_year": 2021
+  },
+  {
+    "road_no": "C260",
+    "road_class": "C",
+    "length_km": 28.372,
+    "road_name": "Mityana-Busunju",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C261",
+    "road_class": "C",
+    "length_km": 30.162,
+    "road_name": "Matte-Sekanyonyi-Kikonge",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C262",
+    "road_class": "C",
+    "length_km": 36.594,
+    "road_name": "Mityana-Misigi-Kanoni",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C263",
+    "road_class": "C",
+    "length_km": 1.839,
+    "road_name": "Myanzi loop",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C264",
+    "road_class": "C",
+    "length_km": 15.45,
+    "road_name": "Nabingoola-Kasambya",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C265",
+    "road_class": "C",
+    "length_km": 38.511,
+    "road_name": "Kitenga-Masozi-Madu",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C266",
+    "road_class": "C",
+    "length_km": 1.07,
+    "road_name": "Kiganda Loop",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C267",
+    "road_class": "C",
+    "length_km": 0.137,
+    "road_name": "Mityana-Katakala-Naama",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C268",
+    "road_class": "C",
+    "length_km": 7.471,
+    "road_name": "Mityana-Katakala-Naama",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C269",
+    "road_class": "C",
+    "length_km": 2.577,
+    "road_name": "Kyengeza-Railway line",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C270",
+    "road_class": "C",
+    "length_km": 8.09,
+    "road_name": "Mityana railway access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C271",
+    "road_class": "C",
+    "length_km": 107.523,
+    "road_name": "Wakitundu-Bulera-Mutetema-Kyamusisi-Bukuya,Kyamusisi-Kikoloto-Kitumbi Bridge (Kayindiyindi)-Bukwiri",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C272",
+    "road_class": "C",
+    "length_km": 20.08,
+    "road_name": "Hoima Road/Kituuma-Kiryoka-Mutetema",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C273",
+    "road_class": "C",
+    "length_km": 61.665,
+    "road_name": "Myanzi-Kasanda-Bukuya-Kiboga",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C274",
+    "road_class": "C",
+    "length_km": 59.7,
+    "road_name": "Kasanda-Madudu-Kiyuya",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C275",
+    "road_class": "C",
+    "length_km": 9.2,
+    "road_name": "Mate-Kabulamuliro-Kakinga",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C277",
+    "road_class": "C",
+    "length_km": 43.59,
+    "road_name": "Kitenga-Ikula-Kanyogoga",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C279",
+    "road_class": "C",
+    "length_km": 9.0,
+    "road_name": "Kabamba/ Karama army barracks off Mubende",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C280",
+    "road_class": "C",
+    "length_km": 7.73,
+    "road_name": "Rwebituti-Gold Mines Spur",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C281",
+    "road_class": "C",
+    "length_km": 4.879,
+    "road_name": "Mubende-Biwanga",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C283",
+    "road_class": "C",
+    "length_km": 30.21,
+    "road_name": "Nkondo-Nalweyo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C284",
+    "road_class": "C",
+    "length_km": 1.922,
+    "road_name": "Mityana Railway Access 1",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C285",
+    "road_class": "C",
+    "length_km": 0.275,
+    "road_name": "Mityana Railway Access 2",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C300",
+    "road_class": "C",
+    "length_km": 87.401,
+    "road_name": "Kayunga-Bale-Galiraya-Lake Kyoga",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C301",
+    "road_class": "C",
+    "length_km": 37.188,
+    "road_name": "Zirobwe-Kikyusa-Luweero",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C302",
+    "road_class": "C",
+    "length_km": 53.98,
+    "road_name": "Gayaza-Zirobwe-Bamunanika-Wobulenzi",
+    "age_years": 8.0,
+    "pave_year": 2016
+  },
+  {
+    "road_no": "C303",
+    "road_class": "C",
+    "length_km": 11.055,
+    "road_name": "Kalule-Bamunanika",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C304",
+    "road_class": "C",
+    "length_km": 34.106,
+    "road_name": "Kisule-Nakaseke-Kapeeka",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C305",
+    "road_class": "C",
+    "length_km": 15.493,
+    "road_name": "Busunju-Kapeeka",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C306",
+    "road_class": "C",
+    "length_km": 28.761,
+    "road_name": "Luwero-Kiwoko-Butalangwa",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C307",
+    "road_class": "C",
+    "length_km": 82.212,
+    "road_name": "Butalangwa-Ngoma-Bulyamusenyu",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C308",
+    "road_class": "C",
+    "length_km": 12.762,
+    "road_name": "Nakasongola loop",
+    "age_years": 14.0,
+    "pave_year": 2011
+  },
+  {
+    "road_no": "C309",
+    "road_class": "C",
+    "length_km": 6.699,
+    "road_name": "Nakasongola-Airbase",
+    "age_years": 14.0,
+    "pave_year": 2011
+  },
+  {
+    "road_no": "C310",
+    "road_class": "C",
+    "length_km": 20.8,
+    "road_name": "Kamuli-Namasagali",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C311",
+    "road_class": "C",
+    "length_km": 18.41,
+    "road_name": "Bombo-Ndejje-Kalasa",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C312",
+    "road_class": "C",
+    "length_km": 35.549,
+    "road_name": "Kalule-Bowa-Nakaseke-Kiwoko",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C313",
+    "road_class": "C",
+    "length_km": 16.881,
+    "road_name": "Katikamu-Kikyusa",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C315",
+    "road_class": "C",
+    "length_km": 56.867,
+    "road_name": "Kyankwazi-Ngoma-Kasozi-Kyamukonda",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C316",
+    "road_class": "C",
+    "length_km": 27.15,
+    "road_name": "Ngoma-Buwana-Kinyogogga",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C317",
+    "road_class": "C",
+    "length_km": 40.889,
+    "road_name": "Katuugo-Kinyogogga-Kaweweeta Barracks",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C318",
+    "road_class": "C",
+    "length_km": 22.082,
+    "road_name": "Sasira-Namika",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C320",
+    "road_class": "C",
+    "length_km": 19.513,
+    "road_name": "Kapeeka-Singo Military Barracks-Kituuma",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C325",
+    "road_class": "C",
+    "length_km": 83.131,
+    "road_name": "Kikyusa-Bamugolode-Kazwama-Nakasongola",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C326",
+    "road_class": "C",
+    "length_km": 77.981,
+    "road_name": "Nakasongola-Lwampanga-Zengebe Access,Lwampanga-Lwabyata-Kafu",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C329",
+    "road_class": "C",
+    "length_km": 27.65,
+    "road_name": "Kayindu-Kalagala-Kyabakadde",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C330",
+    "road_class": "C",
+    "length_km": 29.735,
+    "road_name": "Kakooge-Nansaka-Wabusana",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C331",
+    "road_class": "C",
+    "length_km": 7.079,
+    "road_name": "Migeera-Nabisweera",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C332",
+    "road_class": "C",
+    "length_km": 57.024,
+    "road_name": "Kasiso-Mazzi-Kalungi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C333",
+    "road_class": "C",
+    "length_km": 34.8,
+    "road_name": "Kiwoko-Kalagala-Ngogolo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C334",
+    "road_class": "C",
+    "length_km": 32.0,
+    "road_name": "Kakinga-Kalungu-Dwaniro",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C335",
+    "road_class": "C",
+    "length_km": 1.6,
+    "road_name": "Sungira Hill Access",
+    "age_years": 6.0,
+    "pave_year": 2019
+  },
+  {
+    "road_no": "C336",
+    "road_class": "C",
+    "length_km": 2.4,
+    "road_name": "Nakitooma Access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C337",
+    "road_class": "C",
+    "length_km": 7.4,
+    "road_name": "Kikondo-Kikandwa-Nvuye",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C338",
+    "road_class": "C",
+    "length_km": 3.025,
+    "road_name": "Zengebe Ferry Access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C339",
+    "road_class": "C",
+    "length_km": 5.801,
+    "road_name": "Kikubampanga-Lutabayima-Seganga",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C340",
+    "road_class": "C",
+    "length_km": 31.595,
+    "road_name": "Kyamukonda - Lugogo River - Ngoma",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C350",
+    "road_class": "C",
+    "length_km": 54.303,
+    "road_name": "Katete-Isingiro-Nsongezi",
+    "age_years": 12.0,
+    "pave_year": 2013
+  },
+  {
+    "road_no": "C351",
+    "road_class": "C",
+    "length_km": 103.572,
+    "road_name": "Isingiro-Kityanza-Nakabanga-Rakai",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C352",
+    "road_class": "C",
+    "length_km": 25.217,
+    "road_name": "Kityaza-Burema-Bugango(Uganda/Tanzania border)",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C353",
+    "road_class": "C",
+    "length_km": 13.783,
+    "road_name": "Nsongezi-Kyaka",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C354",
+    "road_class": "C",
+    "length_km": 2.719,
+    "road_name": "Kikagati-Murungo bridge",
+    "age_years": 12.0,
+    "pave_year": 2013
+  },
+  {
+    "road_no": "C355",
+    "road_class": "C",
+    "length_km": 67.99,
+    "road_name": "Nyakahita-Rushere-Kazo",
+    "age_years": 12.0,
+    "pave_year": 2013
+  },
+  {
+    "road_no": "C356",
+    "road_class": "C",
+    "length_km": 62.371,
+    "road_name": "Ibanda-Kanoni-Kazo-Buremba",
+    "age_years": 6.2,
+    "pave_year": 2018
+  },
+  {
+    "road_no": "C357",
+    "road_class": "C",
+    "length_km": 86.013,
+    "road_name": "Muzizi-Buremba-Remiyaga",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C358",
+    "road_class": "C",
+    "length_km": 35.469,
+    "road_name": "Rwemikoma-Kijuma-Rwakitura",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C359",
+    "road_class": "C",
+    "length_km": 54.916,
+    "road_name": "Rugaaga-Rushasha-Rwentaha-Endizi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C361",
+    "road_class": "C",
+    "length_km": 16.544,
+    "road_name": "Ntantamukyi-Kamwema",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C362",
+    "road_class": "C",
+    "length_km": 7.1,
+    "road_name": "Mabona Loop",
+    "age_years": 12.0,
+    "pave_year": 2013
+  },
+  {
+    "road_no": "C363",
+    "road_class": "C",
+    "length_km": 39.36,
+    "road_name": "Kabingo-Nyakitunda-Kabuyanda-Kyezi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C364",
+    "road_class": "C",
+    "length_km": 63.63,
+    "road_name": "Ruti-Mwizi-Kabuyanda-Kikagati",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C365",
+    "road_class": "C",
+    "length_km": 52.322,
+    "road_name": "Nyakiraguju-Ruzinga (Bugamba) Chitwe",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C366",
+    "road_class": "C",
+    "length_km": 23.33,
+    "road_name": "Nyamukana-Kahambo-Kashuro",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C367",
+    "road_class": "C",
+    "length_km": 49.51,
+    "road_name": "Biharwe-Rushozi-Ruhengere-Kikatsi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C368",
+    "road_class": "C",
+    "length_km": 22.944,
+    "road_name": "Biharwe-Bwizibwera",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C369",
+    "road_class": "C",
+    "length_km": 20.465,
+    "road_name": "Lubingo-Kacwangobe-Kashenshama",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C370",
+    "road_class": "C",
+    "length_km": 31.348,
+    "road_name": "Ruhumba-Byanamira-Kashwa",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C371",
+    "road_class": "C",
+    "length_km": 24.475,
+    "road_name": "Kashongi-Kantaganya",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C372",
+    "road_class": "C",
+    "length_km": 42.989,
+    "road_name": "Kyankanda-Bitsya-Ruhoko",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C373",
+    "road_class": "C",
+    "length_km": 35.561,
+    "road_name": "Ruhoko-Kabujogera-Mahyoro Junction",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C374",
+    "road_class": "C",
+    "length_km": 4.605,
+    "road_name": "Mahyoro Junction-Mahyoro landing site",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C375",
+    "road_class": "C",
+    "length_km": 24.126,
+    "road_name": "Ishongororo-Bisheshe",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C376",
+    "road_class": "C",
+    "length_km": 23.427,
+    "road_name": "Kanyarigiri-Nyamarebe-Ishongororo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C377",
+    "road_class": "C",
+    "length_km": 1.487,
+    "road_name": "Kiburara T/c-Kiburara Prison Fram",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C378",
+    "road_class": "C",
+    "length_km": 27.424,
+    "road_name": "Bijutsyo-Bihanga",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C379",
+    "road_class": "C",
+    "length_km": 10.941,
+    "road_name": "Saano-Endizi Junction",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C380",
+    "road_class": "C",
+    "length_km": 24.312,
+    "road_name": "Engarusya-Buremba",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C382",
+    "road_class": "C",
+    "length_km": 17.736,
+    "road_name": "Ntare-Mutonto-Kacwangobe",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C383",
+    "road_class": "C",
+    "length_km": 8.605,
+    "road_name": "Rushere-Rwakitura",
+    "age_years": 8.0,
+    "pave_year": 2017
+  },
+  {
+    "road_no": "C384",
+    "road_class": "C",
+    "length_km": 2.839,
+    "road_name": "Nyakayojo TC-Kibingo PTC",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C385",
+    "road_class": "C",
+    "length_km": 1.71,
+    "road_name": "Bihanga Army Barracks Access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C386",
+    "road_class": "C",
+    "length_km": 0.229,
+    "road_name": "Kiyoora PTC Access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C387",
+    "road_class": "C",
+    "length_km": 19.055,
+    "road_name": "Kyambura-Kashaka",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C388",
+    "road_class": "C",
+    "length_km": 0.7,
+    "road_name": "Nyanga Swamp",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C389",
+    "road_class": "C",
+    "length_km": 1.0,
+    "road_name": "Kityaza Bugango access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C390",
+    "road_class": "C",
+    "length_km": 14.0,
+    "road_name": "Mbarara Bypass",
+    "age_years": 11.0,
+    "pave_year": 2014
+  },
+  {
+    "road_no": "C390N1",
+    "road_class": "C",
+    "length_km": 14.0,
+    "road_name": "Mbarara Bypass (dual)",
+    "age_years": 11.0,
+    "pave_year": 2014
+  },
+  {
+    "road_no": "C391",
+    "road_class": "C",
+    "length_km": 10.195,
+    "road_name": "Access to Tumu hospital",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C410",
+    "road_class": "C",
+    "length_km": 34.543,
+    "road_name": "Kagamba-Kebisoni-Rukungiri",
+    "age_years": 21.0,
+    "pave_year": 2004
+  },
+  {
+    "road_no": "C411",
+    "road_class": "C",
+    "length_km": 59.882,
+    "road_name": "Muhanga-Kisiizi-Kebisoni",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C412",
+    "road_class": "C",
+    "length_km": 9.89,
+    "road_name": "Kisoro-Kyanika",
+    "age_years": 13.0,
+    "pave_year": 2012
+  },
+  {
+    "road_no": "C413",
+    "road_class": "C",
+    "length_km": 28.218,
+    "road_name": "Kalengyere bypass-Katojo-Rubuguri",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C414",
+    "road_class": "C",
+    "length_km": 87.025,
+    "road_name": "Katunguru-Ishasha",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C415",
+    "road_class": "C",
+    "length_km": 35.186,
+    "road_name": "Kabwohe-Nyakambu-Bihanga-Bwizibwera",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C416",
+    "road_class": "C",
+    "length_km": 57.532,
+    "road_name": "Bihanga-Nsiika-Bihanga-Katerera(Ishaka T/C)",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C417",
+    "road_class": "C",
+    "length_km": 35.711,
+    "road_name": "Ntungamo-Kakukuru-Kafunzo-Kakitumba",
+    "age_years": 9.0,
+    "pave_year": 2016
+  },
+  {
+    "road_no": "C418",
+    "road_class": "C",
+    "length_km": 11.343,
+    "road_name": "Kakukuru-Rubale",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C419",
+    "road_class": "C",
+    "length_km": 43.876,
+    "road_name": "Kafunzo-Kikagati-Nsongezi",
+    "age_years": 3.8,
+    "pave_year": 2021
+  },
+  {
+    "road_no": "C420",
+    "road_class": "C",
+    "length_km": 2.897,
+    "road_name": "Kabale access roads",
+    "age_years": 12.0,
+    "pave_year": 2013
+  },
+  {
+    "road_no": "C421",
+    "road_class": "C",
+    "length_km": 31.0,
+    "road_name": "Kahunga - Nyakyera-Rukoni",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C422",
+    "road_class": "C",
+    "length_km": 18.188,
+    "road_name": "Rwentobo-Ngoma-Kizinga",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C423",
+    "road_class": "C",
+    "length_km": 17.685,
+    "road_name": "Rutobo-Kamwezi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C424",
+    "road_class": "C",
+    "length_km": 20.068,
+    "road_name": "Old Kabale Road (Kigata-Kabunyonyi-N",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C425",
+    "road_class": "C",
+    "length_km": 66.59,
+    "road_name": "Katuna-Rubaya-Muko",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C426",
+    "road_class": "C",
+    "length_km": 7.874,
+    "road_name": "Kabale-Lake Bunyonyi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C427",
+    "road_class": "C",
+    "length_km": 0.404,
+    "road_name": "Access to Kacwekano Agriculture Research",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C428",
+    "road_class": "C",
+    "length_km": 14.89,
+    "road_name": "Nyamirama - Ishasha",
+    "age_years": 3.0,
+    "pave_year": 2022
+  },
+  {
+    "road_no": "C429",
+    "road_class": "C",
+    "length_km": 18.254,
+    "road_name": "Butobere-Muyumbu-Rwamucucu",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C430",
+    "road_class": "C",
+    "length_km": 37.745,
+    "road_name": "Rwashamaire-Rwahi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C431",
+    "road_class": "C",
+    "length_km": 23.635,
+    "road_name": "Rubaare-Kyempene-Rubirizi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C432",
+    "road_class": "C",
+    "length_km": 37.092,
+    "road_name": "Kanungu-Rugyeyo-Kabaranga-Kisiizi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C433",
+    "road_class": "C",
+    "length_km": 78.658,
+    "road_name": "Ikumba-Kanungu-Kihihi-Ishasha",
+    "age_years": 1.0,
+    "pave_year": 2023
+  },
+  {
+    "road_no": "C434",
+    "road_class": "C",
+    "length_km": 63.56,
+    "road_name": "Ikumba-Nfasha-Ruhija-Mpungu-Hama",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C435",
+    "road_class": "C",
+    "length_km": 13.959,
+    "road_name": "Rukungiri - Campbell",
+    "age_years": 3.0,
+    "pave_year": 2022
+  },
+  {
+    "road_no": "C436",
+    "road_class": "C",
+    "length_km": 44.7,
+    "road_name": "Kisoro-Nyabwishenya-Nteko",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C437",
+    "road_class": "C",
+    "length_km": 4.932,
+    "road_name": "Nyakabande-Mutorere",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C438",
+    "road_class": "C",
+    "length_km": 8.872,
+    "road_name": "Kisoro-Nyarusiza-Muhabura",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C439",
+    "road_class": "C",
+    "length_km": 18.389,
+    "road_name": "Natete-Busanza-Mpaka",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C440",
+    "road_class": "C",
+    "length_km": 31.425,
+    "road_name": "Kanyantorogo-Butogota-Kyeshero-Buhom",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C441",
+    "road_class": "C",
+    "length_km": 16.961,
+    "road_name": "Katojo-Kihihi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C442",
+    "road_class": "C",
+    "length_km": 44.288,
+    "road_name": "Rukungiri-Ruerere-Mitaano-Kanungu",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C443",
+    "road_class": "C",
+    "length_km": 10.63,
+    "road_name": "Bugangari-Rwerere",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C444",
+    "road_class": "C",
+    "length_km": 1.402,
+    "road_name": "Access to Rukungiri PTTC",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C445",
+    "road_class": "C",
+    "length_km": 43.382,
+    "road_name": "Katobo-Bugangari-Bwambara",
+    "age_years": 0.4,
+    "pave_year": 2024
+  },
+  {
+    "road_no": "C447",
+    "road_class": "C",
+    "length_km": 65.5,
+    "road_name": "Kabwohe-Kitagata-Kabira(Mitooma)-Rukungiri",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C448",
+    "road_class": "C",
+    "length_km": 9.365,
+    "road_name": "Mgahinga-Ntebeko",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C449",
+    "road_class": "C",
+    "length_km": 43.812,
+    "road_name": "Nyakabirizi-Burere-Nsiika",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C450",
+    "road_class": "C",
+    "length_km": 35.699,
+    "road_name": "Kyambura - Katerera - Buhindagye - Mahyoro",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C451",
+    "road_class": "C",
+    "length_km": 0.093,
+    "road_name": "Kisoro army barracks off Kabale-Kisoro",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C452",
+    "road_class": "C",
+    "length_km": 45.0,
+    "road_name": "Rukungiri - Station Boundary-Mitooma HQ - Ruhinda/Kashenyi",
+    "age_years": 1.8,
+    "pave_year": 2023
+  },
+  {
+    "road_no": "C453",
+    "road_class": "C",
+    "length_km": 2.105,
+    "road_name": "Nyakabande-Muganzi",
+    "age_years": 12.0,
+    "pave_year": 2013
+  },
+  {
+    "road_no": "C454",
+    "road_class": "C",
+    "length_km": 18.84,
+    "road_name": "Rwashameire-Kyafora-Kiyenje",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C455",
+    "road_class": "C",
+    "length_km": 20.134,
+    "road_name": "Muhanga-Kyogo-Kamwezi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C456",
+    "road_class": "C",
+    "length_km": 6.74,
+    "road_name": "Rwabuteera-Kanyansande spur",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C457",
+    "road_class": "C",
+    "length_km": 5.1,
+    "road_name": "Kisoro-Muganzi-Chahi",
+    "age_years": 12.0,
+    "pave_year": 2013
+  },
+  {
+    "road_no": "C458",
+    "road_class": "C",
+    "length_km": 3.725,
+    "road_name": "Kalengyere-Katojo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C459",
+    "road_class": "C",
+    "length_km": 24.7,
+    "road_name": "Ruwerere-Biraara-Kanungu",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C510",
+    "road_class": "C",
+    "length_km": 15.32,
+    "road_name": "Mubuku-Maliba-Nyakalingijo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C511",
+    "road_class": "C",
+    "length_km": 11.734,
+    "road_name": "Kasese-Kilembe mines",
+    "age_years": 19.0,
+    "pave_year": 2006
+  },
+  {
+    "road_no": "C512",
+    "road_class": "C",
+    "length_km": 24.661,
+    "road_name": "Rugendabara-Kaswangali",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C513",
+    "road_class": "C",
+    "length_km": 39.192,
+    "road_name": "Kinyamaseke-Kisinga-Kyarumba-Kibirizi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C514",
+    "road_class": "C",
+    "length_km": 10.154,
+    "road_name": "Kiburara-Kisinga-Nsenyi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C515",
+    "road_class": "C",
+    "length_km": 7.656,
+    "road_name": "Katojo-Mundongo-Bwera",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C516",
+    "road_class": "C",
+    "length_km": 55.238,
+    "road_name": "Katojo-Katwe-Rwentale-Lake George",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C517",
+    "road_class": "C",
+    "length_km": 0.764,
+    "road_name": "Kasese Railway station Road",
+    "age_years": 19.0,
+    "pave_year": 2006
+  },
+  {
+    "road_no": "C518",
+    "road_class": "C",
+    "length_km": 3.722,
+    "road_name": "Hima army barracks off Kasese FP-Redone",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C519",
+    "road_class": "C",
+    "length_km": 16.933,
+    "road_name": "Nkenda-Bugoye",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C520",
+    "road_class": "C",
+    "length_km": 13.493,
+    "road_name": "Bwera-Kithoma-Kiraro",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C521",
+    "road_class": "C",
+    "length_km": 6.827,
+    "road_name": "Muruseghe-Ihandiro",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C522",
+    "road_class": "C",
+    "length_km": 6.709,
+    "road_name": "Nchwera-Rwenshama",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C523",
+    "road_class": "C",
+    "length_km": 2.869,
+    "road_name": "Chanya-Nyuyo Institute",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C539",
+    "road_class": "C",
+    "length_km": 15.0,
+    "road_name": "Itojo-Sempaya",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C540",
+    "road_class": "C",
+    "length_km": 103.614,
+    "road_name": "Fortportal-Kichwamba-Karugutu-Bundibugyo-Lamia",
+    "age_years": 12.0,
+    "pave_year": 2013
+  },
+  {
+    "road_no": "C541",
+    "road_class": "C",
+    "length_km": 50.281,
+    "road_name": "Karugutu-Ntoroko",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C542",
+    "road_class": "C",
+    "length_km": 59.78,
+    "road_name": "Fortportal-Kijura-Kabende Bridge-Sogahe-Kyarusozi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C543",
+    "road_class": "C",
+    "length_km": 4.75,
+    "road_name": "Bubandi-Bundibugyo Army Barracks-Butama Health Center",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C544",
+    "road_class": "C",
+    "length_km": 11.0,
+    "road_name": "Bubandi-Kahuka-Malindi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C545",
+    "road_class": "C",
+    "length_km": 12.565,
+    "road_name": "Nyahuka-Busalu-Butoogo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C546",
+    "road_class": "C",
+    "length_km": 6.415,
+    "road_name": "Kigarama-Gweri-Harubaho",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C547",
+    "road_class": "C",
+    "length_km": 58.624,
+    "road_name": "Rwimi-Dura-Kamwenge",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C548",
+    "road_class": "C",
+    "length_km": 36.8,
+    "road_name": "Rugombe-Kyarusozi-Katooke",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C549",
+    "road_class": "C",
+    "length_km": 45.144,
+    "road_name": "Kakabara-Bujuzo-Katooke",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C550",
+    "road_class": "C",
+    "length_km": 74.748,
+    "road_name": "Kakumiro-Kibale-Kagadi",
+    "age_years": 6.0,
+    "pave_year": 2019
+  },
+  {
+    "road_no": "C551",
+    "road_class": "C",
+    "length_km": 36.551,
+    "road_name": "Kyegegwa-Hapuyo-kibale",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C552",
+    "road_class": "C",
+    "length_km": 50.94,
+    "road_name": "Nyakaliiro-Kabagole-Kyegegwa",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C553",
+    "road_class": "C",
+    "length_km": 46.268,
+    "road_name": "Kibaale-Kyebando-Pacwa",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C554",
+    "road_class": "C",
+    "length_km": 19.926,
+    "road_name": "Ntandi-Kicyo-Bundibugyo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C555",
+    "road_class": "C",
+    "length_km": 6.477,
+    "road_name": "Nyakigumba-Katebwa",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C556",
+    "road_class": "C",
+    "length_km": 16.879,
+    "road_name": "Bukuku-Rubona",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C557",
+    "road_class": "C",
+    "length_km": 27.85,
+    "road_name": "Kasisi-Rutete-Kabata-Rwenkenzi-Kyanga",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C558",
+    "road_class": "C",
+    "length_km": 26.152,
+    "road_name": "Kakara-Rwebisengo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C560",
+    "road_class": "C",
+    "length_km": 1.855,
+    "road_name": "Butiti PTTC Access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C561",
+    "road_class": "C",
+    "length_km": 5.047,
+    "road_name": "Access to Canon Apollo PTTC",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C562",
+    "road_class": "C",
+    "length_km": 6.0,
+    "road_name": "Access to Muhooti Army Barracks",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C563",
+    "road_class": "C",
+    "length_km": 30.252,
+    "road_name": "Muhooro-Ndaiga-L. Albert",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C564",
+    "road_class": "C",
+    "length_km": 5.824,
+    "road_name": "Kitumba-Harubako-Kasusu",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C565",
+    "road_class": "C",
+    "length_km": 30.085,
+    "road_name": "Kyenzige-Rugashali-Mabaale",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C566",
+    "road_class": "C",
+    "length_km": 36.244,
+    "road_name": "Isunga-Bugwara-Kikwaya",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C567",
+    "road_class": "C",
+    "length_km": 26.618,
+    "road_name": "Kakumiro-Nkooko",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C568",
+    "road_class": "C",
+    "length_km": 67.016,
+    "road_name": "Kihura-Bwizi-Bisozi-Kahunge",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C569",
+    "road_class": "C",
+    "length_km": 37.837,
+    "road_name": "Mpara-Kazinga-Bwizi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C571",
+    "road_class": "C",
+    "length_km": 22.682,
+    "road_name": "Kamwenge-Kabambiro-Bigusyo-Bihanga",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C572",
+    "road_class": "C",
+    "length_km": 33.454,
+    "road_name": "Rwenjaza - Kabujogera",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C573",
+    "road_class": "C",
+    "length_km": 2.0,
+    "road_name": "Kamwenge Railway Access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C574",
+    "road_class": "C",
+    "length_km": 1.047,
+    "road_name": "Accesses to Rwimi Prisons",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C575",
+    "road_class": "C",
+    "length_km": 15.0,
+    "road_name": "Kibuku-Nyabushozi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C578",
+    "road_class": "C",
+    "length_km": 7.169,
+    "road_name": "Accesses to Ibuga",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C579",
+    "road_class": "C",
+    "length_km": 8.0,
+    "road_name": "Harugale-Bupompoli",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C590",
+    "road_class": "C",
+    "length_km": 53.299,
+    "road_name": "Hoima (Parajwoki)-Biso-Bukumi",
+    "age_years": 4.0,
+    "pave_year": 2021
+  },
+  {
+    "road_no": "C591",
+    "road_class": "C",
+    "length_km": 41.302,
+    "road_name": "Kabwoya-Kituti",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C592",
+    "road_class": "C",
+    "length_km": 43.069,
+    "road_name": "Parajwoki-Buseruka-Kabaale",
+    "age_years": 11.0,
+    "pave_year": 2014
+  },
+  {
+    "road_no": "C593",
+    "road_class": "C",
+    "length_km": 19.172,
+    "road_name": "Bugambe-Buseruka",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C594",
+    "road_class": "C",
+    "length_km": 27.202,
+    "road_name": "Bugambe-Kidoma",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C595",
+    "road_class": "C",
+    "length_km": 7.361,
+    "road_name": "Mairirwe-Wambabya",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C596",
+    "road_class": "C",
+    "length_km": 58.781,
+    "road_name": "Kiziranfumbi-Kabaale-Kaiso",
+    "age_years": 7.2,
+    "pave_year": 2017
+  },
+  {
+    "road_no": "C597",
+    "road_class": "C",
+    "length_km": 7.5,
+    "road_name": "Kyehooro Link 1",
+    "age_years": 10.0,
+    "pave_year": 2015
+  },
+  {
+    "road_no": "C598",
+    "road_class": "C",
+    "length_km": 24.958,
+    "road_name": "Hohwa - Nyairongo - Kyarushesha",
+    "age_years": 2.0,
+    "pave_year": 2023
+  },
+  {
+    "road_no": "C599",
+    "road_class": "C",
+    "length_km": 23.123,
+    "road_name": "Kaiso-Tonya",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C600",
+    "road_class": "C",
+    "length_km": 32.735,
+    "road_name": "Katasiiha-Waki",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C601",
+    "road_class": "C",
+    "length_km": 17.582,
+    "road_name": "Buseruka-Kigorobya",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C602",
+    "road_class": "C",
+    "length_km": 0.583,
+    "road_name": "Bulera PTC Access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C603",
+    "road_class": "C",
+    "length_km": 18.116,
+    "road_name": "Waki 2-Katanga-Karongo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C604",
+    "road_class": "C",
+    "length_km": 9.325,
+    "road_name": "Buseruka-Tonya",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C605",
+    "road_class": "C",
+    "length_km": 2.785,
+    "road_name": "Kiryamboga Link",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C606",
+    "road_class": "C",
+    "length_km": 15.448,
+    "road_name": "Rwera-Kaseeta",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C607",
+    "road_class": "C",
+    "length_km": 18.154,
+    "road_name": "Bukwiri-Byerima-Kikuya",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C608",
+    "road_class": "C",
+    "length_km": 37.0,
+    "road_name": "Kyenda-Banda-River Mayanja",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C609",
+    "road_class": "C",
+    "length_km": 8.063,
+    "road_name": "Sebagoro Link",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C610",
+    "road_class": "C",
+    "length_km": 6.7,
+    "road_name": "Kyehooro Link 3",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C611",
+    "road_class": "C",
+    "length_km": 10.1,
+    "road_name": "Kituti-Buhuka",
+    "age_years": 7.0,
+    "pave_year": 2018
+  },
+  {
+    "road_no": "C613",
+    "road_class": "C",
+    "length_km": 16.0,
+    "road_name": "Kaiso Airstrip link",
+    "age_years": 7.0,
+    "pave_year": 2018
+  },
+  {
+    "road_no": "C620",
+    "road_class": "C",
+    "length_km": 28.829,
+    "road_name": "Bukwiri-Kyankwanzi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C621",
+    "road_class": "C",
+    "length_km": 35.426,
+    "road_name": "Rekunye-Masindi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C622",
+    "road_class": "C",
+    "length_km": 49.704,
+    "road_name": "Masindi-Biiso",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C623",
+    "road_class": "C",
+    "length_km": 49.869,
+    "road_name": "Bukumi-Bulisa-Wanseko",
+    "age_years": 4.0,
+    "pave_year": 2021
+  },
+  {
+    "road_no": "C624",
+    "road_class": "C",
+    "length_km": 8.191,
+    "road_name": "Bukumi-Butiaba",
+    "age_years": 4.0,
+    "pave_year": 2021
+  },
+  {
+    "road_no": "C625",
+    "road_class": "C",
+    "length_km": 92.554,
+    "road_name": "Kisanja-Park jctn-Buliisa",
+    "age_years": 4.0,
+    "pave_year": 2021
+  },
+  {
+    "road_no": "C626",
+    "road_class": "C",
+    "length_km": 29.533,
+    "road_name": "Park jctn-Paraa",
+    "age_years": 4.0,
+    "pave_year": 2021
+  },
+  {
+    "road_no": "C627",
+    "road_class": "C",
+    "length_km": 70.552,
+    "road_name": "Masoode-Nkooko-Nalweyo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C629",
+    "road_class": "C",
+    "length_km": 33.373,
+    "road_name": "Kyenda-Mpongo Swamp-Kisita",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C630",
+    "road_class": "C",
+    "length_km": 47.75,
+    "road_name": "Ikooba-Ntoma-Bwijanga",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C631",
+    "road_class": "C",
+    "length_km": 3.187,
+    "road_name": "Bwijanga-Isimba Prisons",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C632",
+    "road_class": "C",
+    "length_km": 14.0,
+    "road_name": "Isimba-Ntoma",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C633",
+    "road_class": "C",
+    "length_km": 1.197,
+    "road_name": "Butiaba Army Barracks Accesse",
+    "age_years": 4.0,
+    "pave_year": 2021
+  },
+  {
+    "road_no": "C634",
+    "road_class": "C",
+    "length_km": 22.103,
+    "road_name": "Nguedo-Bugana-Waiga",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C635",
+    "road_class": "C",
+    "length_km": 23.301,
+    "road_name": "Katulikile-Mutunda-Atura / Nanda",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C636",
+    "road_class": "C",
+    "length_km": 2.552,
+    "road_name": "Kirasa-Kamurasi-Kiwanana (Kisengya)",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C637",
+    "road_class": "C",
+    "length_km": 1.543,
+    "road_name": "(Kisengya)",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C638",
+    "road_class": "C",
+    "length_km": 40.739,
+    "road_name": "Ihungu-Kijunjubwa-Bulyamusenyu (Kafu",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C639",
+    "road_class": "C",
+    "length_km": 68.528,
+    "road_name": "Bukommero-Dwaniro-Kyankwanzi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C640",
+    "road_class": "C",
+    "length_km": 21.222,
+    "road_name": "Bugungu - Wanseko",
+    "age_years": 4.0,
+    "pave_year": 2021
+  },
+  {
+    "road_no": "C649",
+    "road_class": "C",
+    "length_km": 13.4,
+    "road_name": "Lira Army Barracks Access,Alir Police Access",
+    "age_years": 6.1,
+    "pave_year": 2018
+  },
+  {
+    "road_no": "C650",
+    "road_class": "C",
+    "length_km": 108.7,
+    "road_name": "Lira-Akia-Olilim-Abim",
+    "age_years": 0.5,
+    "pave_year": 2024
+  },
+  {
+    "road_no": "C651",
+    "road_class": "C",
+    "length_km": 30.306,
+    "road_name": "Agwata-Aduku",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C652",
+    "road_class": "C",
+    "length_km": 9.141,
+    "road_name": "Agwata-Kachung",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C653",
+    "road_class": "C",
+    "length_km": 87.953,
+    "road_name": "Dokolo-Ochero-Namasale",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C654",
+    "road_class": "C",
+    "length_km": 46.608,
+    "road_name": "Kamdini-Zambia-Minakulu",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C655",
+    "road_class": "C",
+    "length_km": 54.222,
+    "road_name": "Bobi-Aboke-Ayer",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C656",
+    "road_class": "C",
+    "length_km": 52.167,
+    "road_name": "Namasale-Alemere-Muntu",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C657",
+    "road_class": "C",
+    "length_km": 9.255,
+    "road_name": "Odyek-Muntu",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C658",
+    "road_class": "C",
+    "length_km": 18.065,
+    "road_name": "Aduku-Nambieso",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C659",
+    "road_class": "C",
+    "length_km": 16.38,
+    "road_name": "Ami-Kidilani",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C660",
+    "road_class": "C",
+    "length_km": 14.83,
+    "road_name": "Cegere-Kidilani",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C661",
+    "road_class": "C",
+    "length_km": 26.899,
+    "road_name": "Apac-Cegere-Teboke",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C662",
+    "road_class": "C",
+    "length_km": 34.272,
+    "road_name": "Aduku-Teboke-Loro",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C663",
+    "road_class": "C",
+    "length_km": 1.935,
+    "road_name": "Loro Prisons Access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C664",
+    "road_class": "C",
+    "length_km": 0.648,
+    "road_name": "Atopi Prisons Access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C665",
+    "road_class": "C",
+    "length_km": 32.536,
+    "road_name": "Loro-Anyeke-Minakulu",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C666",
+    "road_class": "C",
+    "length_km": 86.853,
+    "road_name": "Aber-Anyeke-Ngai-Abok-Otwal-Aromo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C667",
+    "road_class": "C",
+    "length_km": 29.432,
+    "road_name": "Agweng-Arom-Awere",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C668",
+    "road_class": "C",
+    "length_km": 1.6,
+    "road_name": "Agwata Bypass",
+    "age_years": 17.0,
+    "pave_year": 2008
+  },
+  {
+    "road_no": "C669",
+    "road_class": "C",
+    "length_km": 2.277,
+    "road_name": "Lira Railway Access",
+    "age_years": 40.0,
+    "pave_year": 1985
+  },
+  {
+    "road_no": "C670",
+    "road_class": "C",
+    "length_km": 93.476,
+    "road_name": "Lira-Boroboro-Abako-Okude-Amuria",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C671",
+    "road_class": "C",
+    "length_km": 42.37,
+    "road_name": "Aloi-Aboko-Bata-Dokolo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C672",
+    "road_class": "C",
+    "length_km": 33.403,
+    "road_name": "Ogur-Apala-Aloi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C673",
+    "road_class": "C",
+    "length_km": 46.99,
+    "road_name": "Ngetta-Apala-Adwari",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C674",
+    "road_class": "C",
+    "length_km": 38.035,
+    "road_name": "Patongo-Okee Bridge-Adwari",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C675",
+    "road_class": "C",
+    "length_km": 27.3,
+    "road_name": "Pajule-Pader-Kwonkwic (Palwo)",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C676",
+    "road_class": "C",
+    "length_km": 37.1,
+    "road_name": "Pader-Kalongo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C677",
+    "road_class": "C",
+    "length_km": 77.6,
+    "road_name": "Patongo-Kalongo-Kitgum Matidi,Kalongo-Kitgum Matidi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C678",
+    "road_class": "C",
+    "length_km": 74.461,
+    "road_name": "Naamokora-Lokapel-Adilang",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C679",
+    "road_class": "C",
+    "length_km": 3.8,
+    "road_name": "Lira bypas",
+    "age_years": 17.0,
+    "pave_year": 2008
+  },
+  {
+    "road_no": "C680",
+    "road_class": "C",
+    "length_km": 91.103,
+    "road_name": "Gulu-Opit-Rwackoko",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C681",
+    "road_class": "C",
+    "length_km": 83.741,
+    "road_name": "Acholibur-Aswa-Gulu",
+    "age_years": 8.0,
+    "pave_year": 2017
+  },
+  {
+    "road_no": "C682",
+    "road_class": "C",
+    "length_km": 57.529,
+    "road_name": "Gulu-Logere-Adee",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C683",
+    "road_class": "C",
+    "length_km": 3.911,
+    "road_name": "Layibi-Custom corner",
+    "age_years": 11.0,
+    "pave_year": 2014
+  },
+  {
+    "road_no": "C684",
+    "road_class": "C",
+    "length_km": 4.101,
+    "road_name": "Gulu Airport road",
+    "age_years": 53.0,
+    "pave_year": 1972
+  },
+  {
+    "road_no": "C685",
+    "road_class": "C",
+    "length_km": 34.538,
+    "road_name": "Katikati-Tenumu-Nwoya",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C686",
+    "road_class": "C",
+    "length_km": 98.122,
+    "road_name": "Lamogi-Amuru Junction-Awee-Omee Rhino  Camp",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C687",
+    "road_class": "C",
+    "length_km": 0.21,
+    "road_name": "Packwach Railway Access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C688",
+    "road_class": "C",
+    "length_km": 85.106,
+    "road_name": "Amuru Junction-Mungula-Adjumani",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C689",
+    "road_class": "C",
+    "length_km": 59.895,
+    "road_name": "Pakele-Pabbo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C690",
+    "road_class": "C",
+    "length_km": 20.022,
+    "road_name": "Pabbo-Ajulu-Uyama",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C691",
+    "road_class": "C",
+    "length_km": 3.961,
+    "road_name": "Gulu Army Barracks Access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C692",
+    "road_class": "C",
+    "length_km": 1.633,
+    "road_name": "Gulu Railway Access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C693",
+    "road_class": "C",
+    "length_km": 23.087,
+    "road_name": "Atapara-Aber-Atura-Kidilani",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C694",
+    "road_class": "C",
+    "length_km": 13.21,
+    "road_name": "Teokur-Aboo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C700",
+    "road_class": "C",
+    "length_km": 108.0,
+    "road_name": "Atiak-Palabek-Kitgum",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C701",
+    "road_class": "C",
+    "length_km": 67.331,
+    "road_name": "Kitgum-Lukung-Ngomoromo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C702",
+    "road_class": "C",
+    "length_km": 49.063,
+    "road_name": "Madi Opei-Agoro Hills",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C703",
+    "road_class": "C",
+    "length_km": 79.113,
+    "road_name": "Kitgum-Orom",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C704",
+    "road_class": "C",
+    "length_km": 24.86,
+    "road_name": "Palabek-Padibe",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C705",
+    "road_class": "C",
+    "length_km": 35.81,
+    "road_name": "Padibe-Paloga-Madiopei",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C706",
+    "road_class": "C",
+    "length_km": 29.345,
+    "road_name": "Paloga-Potika-Lututur",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C707",
+    "road_class": "C",
+    "length_km": 1.342,
+    "road_name": "Acholi Pii Army Baracks Access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C708",
+    "road_class": "C",
+    "length_km": 45.085,
+    "road_name": "Ngomoromo-Nyimur-Bibia",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C709",
+    "road_class": "C",
+    "length_km": 37.125,
+    "road_name": "Potika-Aweno Olwiyo-Ngomoromo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C710",
+    "road_class": "C",
+    "length_km": 41.4,
+    "road_name": "Orom-Locomo-Karenga",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C711",
+    "road_class": "C",
+    "length_km": 1.264,
+    "road_name": "Pajimo-Army Barracks",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C720",
+    "road_class": "C",
+    "length_km": 10.662,
+    "road_name": "Moyo-Sudan border",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C721",
+    "road_class": "C",
+    "length_km": 45.546,
+    "road_name": "Obongi-Kulikulinga",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C722",
+    "road_class": "C",
+    "length_km": 53.037,
+    "road_name": "Moyo-Obongi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C723",
+    "road_class": "C",
+    "length_km": 3.441,
+    "road_name": "Access to Adjumani Prison",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C725",
+    "road_class": "C",
+    "length_km": 18.8,
+    "road_name": "Dzaipi-Tete-Bibia (Nimule border)",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C726",
+    "road_class": "C",
+    "length_km": 34.352,
+    "road_name": "Adjumani-Sinyanya Ferry landing",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C727",
+    "road_class": "C",
+    "length_km": 14.329,
+    "road_name": "Tete-Nimule Border",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C728",
+    "road_class": "C",
+    "length_km": 76.0,
+    "road_name": "Aliodranusi-Gobolo-Matu-Kerwa-kei",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C740",
+    "road_class": "C",
+    "length_km": 36.23,
+    "road_name": "Koboko-Yumbe",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C741",
+    "road_class": "C",
+    "length_km": 51.549,
+    "road_name": "Wandi-Rhino camp",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C742",
+    "road_class": "C",
+    "length_km": 22.638,
+    "road_name": "Rhino camp-Ogoko-Inde",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C743",
+    "road_class": "C",
+    "length_km": 92.79,
+    "road_name": "Pakwach-Inde-Ocoko",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C744",
+    "road_class": "C",
+    "length_km": 9.411,
+    "road_name": "Eruba-Vurra",
+    "age_years": 11.0,
+    "pave_year": 2014
+  },
+  {
+    "road_no": "C745",
+    "road_class": "C",
+    "length_km": 15.141,
+    "road_name": "Nebbi-Goli",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C746",
+    "road_class": "C",
+    "length_km": 33.96,
+    "road_name": "Packwach-Panyimur",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C747",
+    "road_class": "C",
+    "length_km": 52.029,
+    "road_name": "Panyimur-Paidha Via Erusi-Goli",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C748",
+    "road_class": "C",
+    "length_km": 28.15,
+    "road_name": "Okullo-Inde",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C749",
+    "road_class": "C",
+    "length_km": 23.257,
+    "road_name": "Eruba-Logiri",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C750",
+    "road_class": "C",
+    "length_km": 5.971,
+    "road_name": "Arua-Muni PTTC-Eruba",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C751",
+    "road_class": "C",
+    "length_km": 14.61,
+    "road_name": "Arua-Girigiri-Ovisoni",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C752",
+    "road_class": "C",
+    "length_km": 15.205,
+    "road_name": "Arua-Lia",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C753",
+    "road_class": "C",
+    "length_km": 3.65,
+    "road_name": "Ragem Prisons Access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C755",
+    "road_class": "C",
+    "length_km": 14.557,
+    "road_name": "Owaffa-Kubala",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C756",
+    "road_class": "C",
+    "length_km": 44.148,
+    "road_name": "Lomunga-Bidibidi-Kochi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C757",
+    "road_class": "C",
+    "length_km": 38.536,
+    "road_name": "Keri-Lima-Midigo-Kerila",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C758",
+    "road_class": "C",
+    "length_km": 35.746,
+    "road_name": "Keriri-Midigo-Kerwa",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C759",
+    "road_class": "C",
+    "length_km": 34.206,
+    "road_name": "Vurra Customs-Odramacaku",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C760",
+    "road_class": "C",
+    "length_km": 16.845,
+    "road_name": "Logiri-Bondo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C761",
+    "road_class": "C",
+    "length_km": 17.651,
+    "road_name": "Lodonga-Iti-Otumbari",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C762",
+    "road_class": "C",
+    "length_km": 36.8,
+    "road_name": "Arua-Biliafe-Otrevu",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C763",
+    "road_class": "C",
+    "length_km": 83.2,
+    "road_name": "Paidha-Zombo-Vurra",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C764",
+    "road_class": "C",
+    "length_km": 22.055,
+    "road_name": "Katrini-Nyadri",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C765",
+    "road_class": "C",
+    "length_km": 0.274,
+    "road_name": "Packwach-Railway Access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C766",
+    "road_class": "C",
+    "length_km": 9.455,
+    "road_name": "Elefe-Odokibo (Iti)",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C767",
+    "road_class": "C",
+    "length_km": 6.688,
+    "road_name": "Omugo-Kubala",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C768",
+    "road_class": "C",
+    "length_km": 10.228,
+    "road_name": "Yuku-Lobe spur",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C769",
+    "road_class": "C",
+    "length_km": 5.85,
+    "road_name": "Rhino Camp Ferry Access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C780",
+    "road_class": "C",
+    "length_km": 57.226,
+    "road_name": "Iganga-Kitayungwa-Kamuli",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C781",
+    "road_class": "C",
+    "length_km": 59.318,
+    "road_name": "Iganga-Mayuge-Kaluuba-Bugadde-Bwondha",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C782",
+    "road_class": "C",
+    "length_km": 77.4,
+    "road_name": "Musita-Mayuge-Nankoma-Namayingo-Lumino",
+    "age_years": 7.0,
+    "pave_year": 2018
+  },
+  {
+    "road_no": "C783",
+    "road_class": "C",
+    "length_km": 16.928,
+    "road_name": "Namayingo-Lugala",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C784",
+    "road_class": "C",
+    "length_km": 84.232,
+    "road_name": "Iganga-Kaliro-Nawaikoke-Irundu",
+    "age_years": 3.4,
+    "pave_year": 2021
+  },
+  {
+    "road_no": "C785",
+    "road_class": "C",
+    "length_km": 47.427,
+    "road_name": "Buwenge-Nakabugu-Kaliro",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C786",
+    "road_class": "C",
+    "length_km": 45.284,
+    "road_name": "Kaliro-Kamuli",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C787",
+    "road_class": "C",
+    "length_km": 19.76,
+    "road_name": "Nawangasi-Busesa-Nakivumbi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C788",
+    "road_class": "C",
+    "length_km": 15.286,
+    "road_name": "Iganga-Buniantole",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C789",
+    "road_class": "C",
+    "length_km": 5.883,
+    "road_name": "Kamuli Railway access 1",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C790",
+    "road_class": "C",
+    "length_km": 6.532,
+    "road_name": "Nawantale-Nakabila",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C791",
+    "road_class": "C",
+    "length_km": 0.911,
+    "road_name": "Gadaffi army barracks off Jinja-Iganga",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C792",
+    "road_class": "C",
+    "length_km": 55.683,
+    "road_name": "Kaitabawaala-Buyala-Namagera-Lubanyi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C793",
+    "road_class": "C",
+    "length_km": 2.157,
+    "road_name": "Mbulamuti railway access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C794",
+    "road_class": "C",
+    "length_km": 2.403,
+    "road_name": "Kamuli railway access 2",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C795",
+    "road_class": "C",
+    "length_km": 8.719,
+    "road_name": "Namaganda railway access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C796",
+    "road_class": "C",
+    "length_km": 7.996,
+    "road_name": "Magamaga-Bugolooza-Namasiga-Iziru-Bugobya",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C797",
+    "road_class": "C",
+    "length_km": 38.216,
+    "road_name": "Bugembe-Kakira-Namasiga-Bulongo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C798",
+    "road_class": "C",
+    "length_km": 3.519,
+    "road_name": "Kakira railway access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C799",
+    "road_class": "C",
+    "length_km": 4.137,
+    "road_name": "Kimaka army barracks",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C800",
+    "road_class": "C",
+    "length_km": 16.699,
+    "road_name": "Bugiri-Nankoma",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C801",
+    "road_class": "C",
+    "length_km": 12.645,
+    "road_name": "Lwangosha-Lufudu",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C802",
+    "road_class": "C",
+    "length_km": 0.913,
+    "road_name": "Iganga railway access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C803",
+    "road_class": "C",
+    "length_km": 50.02,
+    "road_name": "Idudi-Busembatya-Namakoko",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C804",
+    "road_class": "C",
+    "length_km": 19.174,
+    "road_name": "Bugiri-Kisetaka-Nabukalu-Naigaga",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C805",
+    "road_class": "C",
+    "length_km": 27.522,
+    "road_name": "Namalemba-Nawampandhu-Bulange-Kisoro",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C806",
+    "road_class": "C",
+    "length_km": 10.793,
+    "road_name": "Namatumba - Nawampandu",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C807",
+    "road_class": "C",
+    "length_km": 0.773,
+    "road_name": "Busoko-Busaba",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C808",
+    "road_class": "C",
+    "length_km": 3.0,
+    "road_name": "Kaliro railway access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C809",
+    "road_class": "C",
+    "length_km": 22.26,
+    "road_name": "Kaliro-Namwiwa",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C810",
+    "road_class": "C",
+    "length_km": 10.418,
+    "road_name": "Pallisa-Kasodo-Saaka",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C811",
+    "road_class": "C",
+    "length_km": 46.845,
+    "road_name": "Kamuli-Nabirumba-Iyingo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C812",
+    "road_class": "C",
+    "length_km": 46.019,
+    "road_name": "Nabirumbi-Buyende-Nkondo-Kidera",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C813",
+    "road_class": "C",
+    "length_km": 30.368,
+    "road_name": "Namayingo-Bumeru (Namayingo-Lugala)",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C815",
+    "road_class": "C",
+    "length_km": 19.356,
+    "road_name": "Bugobya-Mugulula-Namagera",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C816",
+    "road_class": "C",
+    "length_km": 8.052,
+    "road_name": "Muguluka-Namagera",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C817",
+    "road_class": "C",
+    "length_km": 23.866,
+    "road_name": "Nankoma-Kaluba",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C818",
+    "road_class": "C",
+    "length_km": 12.051,
+    "road_name": "Namalemba-Nambale-Nawandala",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C819",
+    "road_class": "C",
+    "length_km": 14.874,
+    "road_name": "Nambale-Nawandala",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C820",
+    "road_class": "C",
+    "length_km": 9.733,
+    "road_name": "Namutumba-Nawansangwa",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C821",
+    "road_class": "C",
+    "length_km": 14.176,
+    "road_name": "Kasejere-Budumba",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C823",
+    "road_class": "C",
+    "length_km": 4.0,
+    "road_name": "Access to Buyanga S/C off Busesa Nawangisa road",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C824",
+    "road_class": "C",
+    "length_km": 5.0,
+    "road_name": "Access to Isimba Dam off Namagera Lubanyi road",
+    "age_years": 6.0,
+    "pave_year": 2019
+  },
+  {
+    "road_no": "C825",
+    "road_class": "C",
+    "length_km": 3.96,
+    "road_name": "Old access to Isimba dam",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C826",
+    "road_class": "C",
+    "length_km": 3.297,
+    "road_name": "Old Mbulamuti ferry access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C830",
+    "road_class": "C",
+    "length_km": 26.982,
+    "road_name": "Busia-Majanji",
+    "age_years": 7.0,
+    "pave_year": 2018
+  },
+  {
+    "road_no": "C831",
+    "road_class": "C",
+    "length_km": 6.523,
+    "road_name": "Tororo-Morukatipe prison",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C832",
+    "road_class": "C",
+    "length_km": 43.826,
+    "road_name": "Tororo-Nagongera-Busolwe",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C833",
+    "road_class": "C",
+    "length_km": 50.634,
+    "road_name": "Nabumali junction-Busolwe-Budumba",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C835",
+    "road_class": "C",
+    "length_km": 2.278,
+    "road_name": "Magodes-Railway Station",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C836",
+    "road_class": "C",
+    "length_km": 27.575,
+    "road_name": "Nyambogo-Iyolwa-Mulanda-Nagongera",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C837",
+    "road_class": "C",
+    "length_km": 34.08,
+    "road_name": "Nagongera-Merikit-Kidoko-Busiu-Isikhoye",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C838",
+    "road_class": "C",
+    "length_km": 20.486,
+    "road_name": "Butiru-Molo-Kidoko-Kachonga",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C839",
+    "road_class": "C",
+    "length_km": 13.594,
+    "road_name": "Doho-Namulo-Amuro",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C840",
+    "road_class": "C",
+    "length_km": 25.738,
+    "road_name": "Malaba-Mella-Apokor-Kwapa-Tuba",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C841",
+    "road_class": "C",
+    "length_km": 10.9,
+    "road_name": "Nabaloba-Bukobe",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C842",
+    "road_class": "C",
+    "length_km": 1.036,
+    "road_name": "Tororo Prisons Access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C844",
+    "road_class": "C",
+    "length_km": 36.399,
+    "road_name": "Rubongi-Mulanda-Nabuyoga-Bubada-Busaba-Budhumba-Namutumba",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C845",
+    "road_class": "C",
+    "length_km": 15.344,
+    "road_name": "Bubada-Budhumba Station",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C846",
+    "road_class": "C",
+    "length_km": 11.983,
+    "road_name": "Budhumba-Busaba",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C847",
+    "road_class": "C",
+    "length_km": 18.578,
+    "road_name": "Nagongera-Paya-Leresi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C848",
+    "road_class": "C",
+    "length_km": 13.149,
+    "road_name": "Magale-Bumbo-Lwakhaka",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C849",
+    "road_class": "C",
+    "length_km": 13.5,
+    "road_name": "Leresi-Bunghaji-Budaka",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C850",
+    "road_class": "C",
+    "length_km": 10.244,
+    "road_name": "Busoko-Busaba-Nawanjofu-Hisiro",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C860",
+    "road_class": "C",
+    "length_km": 44.442,
+    "road_name": "Kamonkoli-Pallisa",
+    "age_years": 5.0,
+    "pave_year": 2020
+  },
+  {
+    "road_no": "C861",
+    "road_class": "C",
+    "length_km": 16.245,
+    "road_name": "Nalugugu-Mutufu-Budadiri",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C862",
+    "road_class": "C",
+    "length_km": 18.427,
+    "road_name": "Namagumba-Budadiri",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C863",
+    "road_class": "C",
+    "length_km": 21.067,
+    "road_name": "Mbale-Nkokonjeru",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C864",
+    "road_class": "C",
+    "length_km": 11.389,
+    "road_name": "Bugema-Busano",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C865",
+    "road_class": "C",
+    "length_km": 12.726,
+    "road_name": "Magodes-Busumbu-Munamba",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C866",
+    "road_class": "C",
+    "length_km": 4.518,
+    "road_name": "Munamba-Lwakhakha",
+    "age_years": 6.0,
+    "pave_year": 2019
+  },
+  {
+    "road_no": "C867",
+    "road_class": "C",
+    "length_km": 43.884,
+    "road_name": "Bumbobi-Bubulo-Bududa Circle road",
+    "age_years": 2.1,
+    "pave_year": 2022
+  },
+  {
+    "road_no": "C870",
+    "road_class": "C",
+    "length_km": 49.535,
+    "road_name": "Bubulo-Busumbu-Munamba-Magale-Nangya",
+    "age_years": 3.1,
+    "pave_year": 2021
+  },
+  {
+    "road_no": "C871",
+    "road_class": "C",
+    "length_km": 9.801,
+    "road_name": "Simu corner-Kaserem",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C872",
+    "road_class": "C",
+    "length_km": 21.7,
+    "road_name": "Budaka-Kaderuna-Butebo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C873",
+    "road_class": "C",
+    "length_km": 9.3,
+    "road_name": "Nabiganda-Kaiti-Naboa",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C874",
+    "road_class": "C",
+    "length_km": 0.106,
+    "road_name": "Mbale railway crossing Access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C875",
+    "road_class": "C",
+    "length_km": 0.176,
+    "road_name": "Bugema army barracks Access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C876",
+    "road_class": "C",
+    "length_km": 16.266,
+    "road_name": "Nabiganda-Nambale-Kamoto-Malukhu",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C877",
+    "road_class": "C",
+    "length_km": 7.792,
+    "road_name": "Kamonkoli-Kabwangasi-Nakaloke",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C878",
+    "road_class": "C",
+    "length_km": 48.548,
+    "road_name": "Nakaloke-Kabwangasi-Butebo-Kadoto",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C879",
+    "road_class": "C",
+    "length_km": 29.357,
+    "road_name": "Morita-Kanyum-Kidongole",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C880",
+    "road_class": "C",
+    "length_km": 16.458,
+    "road_name": "Mbale-Bufumbo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C881",
+    "road_class": "C",
+    "length_km": 8.765,
+    "road_name": "Bugusege-Buteza",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C882",
+    "road_class": "C",
+    "length_km": 13.552,
+    "road_name": "Korir-Sironko",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C883",
+    "road_class": "C",
+    "length_km": 20.083,
+    "road_name": "Nalugugu-Elgon",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C884",
+    "road_class": "C",
+    "length_km": 12.431,
+    "road_name": "Buyaga-Buluganya",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C885",
+    "road_class": "C",
+    "length_km": 5.121,
+    "road_name": "Buginyanya Agriculture Research Station",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C887",
+    "road_class": "C",
+    "length_km": 14.509,
+    "road_name": "Bulugeni-Siyiyi-Bumwambu-Bulaago-Gimadu",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C888",
+    "road_class": "C",
+    "length_km": 10.629,
+    "road_name": "Kapenguria-Kwot",
+    "age_years": 3.0,
+    "pave_year": 2022
+  },
+  {
+    "road_no": "C889",
+    "road_class": "C",
+    "length_km": 55.805,
+    "road_name": "Chepsikunya-Girik-Bukwa",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C891",
+    "road_class": "C",
+    "length_km": 7.55,
+    "road_name": "Magale-Bumbo-Lwakhaka",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C892",
+    "road_class": "C",
+    "length_km": 25.672,
+    "road_name": "Bulumba-Namwiwa-Saaka",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C893",
+    "road_class": "C",
+    "length_km": 15.818,
+    "road_name": "Kapnandi-Suam",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C920",
+    "road_class": "C",
+    "length_km": 79.596,
+    "road_name": "Kumi-Brooks corner-Serere-Bugondo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C921",
+    "road_class": "C",
+    "length_km": 26.076,
+    "road_name": "Soroti to Brooks corner",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C922",
+    "road_class": "C",
+    "length_km": 8.502,
+    "road_name": "Lira junction-Arapai",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C923",
+    "road_class": "C",
+    "length_km": 1.93,
+    "road_name": "Arapai-Railway Station",
+    "age_years": 57.0,
+    "pave_year": 1968
+  },
+  {
+    "road_no": "C924",
+    "road_class": "C",
+    "length_km": 69.936,
+    "road_name": "Katine to Ochero",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C925",
+    "road_class": "C",
+    "length_km": 27.443,
+    "road_name": "Soroti-Serere",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C926",
+    "road_class": "C",
+    "length_km": 28.675,
+    "road_name": "Kachumbala-Kidongole-Mukongoro",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C927",
+    "road_class": "C",
+    "length_km": 49.534,
+    "road_name": "Kachumbala-Korir-Malera-Kumi",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C928",
+    "road_class": "C",
+    "length_km": 0.46,
+    "road_name": "Kumi railway access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C929",
+    "road_class": "C",
+    "length_km": 20.265,
+    "road_name": "Kumi-Ongino-Akide",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C930",
+    "road_class": "C",
+    "length_km": 42.746,
+    "road_name": "Kapir-Ngora-Mukongoro",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C931",
+    "road_class": "C",
+    "length_km": 26.463,
+    "road_name": "Serere-Kateta-Kyere",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C932",
+    "road_class": "C",
+    "length_km": 35.467,
+    "road_name": "Serere-Pingire-Mugarama",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C934",
+    "road_class": "C",
+    "length_km": 37.185,
+    "road_name": "Serere-Kasilo-Kadungulu-Kagwara",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C935",
+    "road_class": "C",
+    "length_km": 13.821,
+    "road_name": "Bugondo-Butiku-Kadungulu",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C937",
+    "road_class": "C",
+    "length_km": 27.376,
+    "road_name": "Ngariam-Magoro",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C938",
+    "road_class": "C",
+    "length_km": 29.371,
+    "road_name": "Usuk-Katakwi-Toroma",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C939",
+    "road_class": "C",
+    "length_km": 66.863,
+    "road_name": "Arapai-Amuria-Acowa-Usuk",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C940",
+    "road_class": "C",
+    "length_km": 54.797,
+    "road_name": "Amuria-Amucu-Kapelebyong-Oreta",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C941",
+    "road_class": "C",
+    "length_km": 50.152,
+    "road_name": "Amuria (Kuju)-Obalang-Alito",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C942",
+    "road_class": "C",
+    "length_km": 9.63,
+    "road_name": "Kalaki-Lwala",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C943",
+    "road_class": "C",
+    "length_km": 18.353,
+    "road_name": "Lwala-Kaberamaido",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C944",
+    "road_class": "C",
+    "length_km": 16.332,
+    "road_name": "Kaberamaido-Dokolo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C945",
+    "road_class": "C",
+    "length_km": 22.155,
+    "road_name": "Ngariam-Adachal-Usuku",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C946",
+    "road_class": "C",
+    "length_km": 8.598,
+    "road_name": "Araapo-Mulondo",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C947",
+    "road_class": "C",
+    "length_km": 2.0,
+    "road_name": "Soroti State Lodge",
+    "age_years": 56.0,
+    "pave_year": 1969
+  },
+  {
+    "road_no": "C948",
+    "road_class": "C",
+    "length_km": 15.0,
+    "road_name": "Kumi-Umateng-Agule Ferry",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C949",
+    "road_class": "C",
+    "length_km": 12.0,
+    "road_name": "Toroma-Kokorio",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C960",
+    "road_class": "C",
+    "length_km": 46.817,
+    "road_name": "Angatun-Nabilatuk-Lokapel",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C961",
+    "road_class": "C",
+    "length_km": 30.731,
+    "road_name": "Chosan to Amudat",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C962",
+    "road_class": "C",
+    "length_km": 32.741,
+    "road_name": "Girik River-Kalita",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C963",
+    "road_class": "C",
+    "length_km": 147.663,
+    "road_name": "Moroto-Lokitanyara-Loro-Amudat-Alakasi-Kalita",
+    "age_years": 0.2,
+    "pave_year": 2024
+  },
+  {
+    "road_no": "C964",
+    "road_class": "C",
+    "length_km": 74.674,
+    "road_name": "Soroti-Toroma-Magoro-Lorachat",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C965",
+    "road_class": "C",
+    "length_km": 46.325,
+    "road_name": "Apeitolim-Iriri",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C966",
+    "road_class": "C",
+    "length_km": 37.196,
+    "road_name": "Turtuko-Apeitolim",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C967",
+    "road_class": "C",
+    "length_km": 17.517,
+    "road_name": "Kokeris-Lopei",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C968",
+    "road_class": "C",
+    "length_km": 29.827,
+    "road_name": "Matany-Lokopo-Turtuko",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C969",
+    "road_class": "C",
+    "length_km": 69.102,
+    "road_name": "Lokicher-Turtuko,Turtuko-Nyakwae,Turtuko-Opekit,Opekit-Nyakwae",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C970",
+    "road_class": "C",
+    "length_km": 0.952,
+    "road_name": "Moroto army barracks access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C971",
+    "road_class": "C",
+    "length_km": 31.744,
+    "road_name": "Moroto-Rupa-Nakiloro-Nakabat",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C972",
+    "road_class": "C",
+    "length_km": 85.0,
+    "road_name": "Nakiloro-Lomukura",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C973",
+    "road_class": "C",
+    "length_km": 5.652,
+    "road_name": "Lokopo Link",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C974",
+    "road_class": "C",
+    "length_km": 1.232,
+    "road_name": "Lokopo Link 2",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C975",
+    "road_class": "C",
+    "length_km": 10.567,
+    "road_name": "Tapach-Katikekile",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C976",
+    "road_class": "C",
+    "length_km": 1.584,
+    "road_name": "Kitale Road",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C978",
+    "road_class": "C",
+    "length_km": 59.0,
+    "road_name": "Lorachat-Magoro",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C979",
+    "road_class": "C",
+    "length_km": 17.799,
+    "road_name": "Achan Pii-Alito",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C980",
+    "road_class": "C",
+    "length_km": 57.258,
+    "road_name": "Akwanamoru-Opua-Orogom-Oreta",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C981",
+    "road_class": "C",
+    "length_km": 66.354,
+    "road_name": "Koputh-Koputh Junction (Lololia)-Orom",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C982",
+    "road_class": "C",
+    "length_km": 38.709,
+    "road_name": "Kotido-Loslang-Layoro",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C983",
+    "road_class": "C",
+    "length_km": 37.491,
+    "road_name": "Kapelimoru-Kotein-Kenya Border",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C984",
+    "road_class": "C",
+    "length_km": 0.619,
+    "road_name": "Kapelimoru Barracks Access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C985",
+    "road_class": "C",
+    "length_km": 33.621,
+    "road_name": "Kaabong-Kalapata-Piire",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C986",
+    "road_class": "C",
+    "length_km": 30.23,
+    "road_name": "Karenga-Birra",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C987",
+    "road_class": "C",
+    "length_km": 5.23,
+    "road_name": "Old Depoth Bridge Access",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C988",
+    "road_class": "C",
+    "length_km": 22.0,
+    "road_name": "Koputh Junction-Lolelia",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C989",
+    "road_class": "C",
+    "length_km": 40.124,
+    "road_name": "Lokatelebu-Kacheri-Lolelia",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C990",
+    "road_class": "C",
+    "length_km": 32.0,
+    "road_name": "Kapedo-Lomej",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C991",
+    "road_class": "C",
+    "length_km": 13.39,
+    "road_name": "Nyakwae(Aremo)-Kiru",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C992",
+    "road_class": "C",
+    "length_km": 50.0,
+    "road_name": "Kapelimoru-Loyoro-Apaan",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C993",
+    "road_class": "C",
+    "length_km": 38.0,
+    "road_name": "Kapedo-Karenga",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C994",
+    "road_class": "C",
+    "length_km": 3.21,
+    "road_name": "Okwang-Okwang Subcounty spur",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C996",
+    "road_class": "C",
+    "length_km": 8.828,
+    "road_name": "Kalongo-Paimol",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C997",
+    "road_class": "C",
+    "length_km": 10.415,
+    "road_name": "Aloi-Aleptong",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C998",
+    "road_class": "C",
+    "length_km": 37.324,
+    "road_name": "Adwari-Okwang-Okee River-Omwonylee",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "C999",
+    "road_class": "C",
+    "length_km": 14.56,
+    "road_name": "Corner Chwagera-Ekwera",
+    "age_years": 0.0,
+    "pave_year": 2025
+  },
+  {
+    "road_no": "M20",
+    "road_class": "M",
+    "length_km": 41.094,
+    "road_name": "Kampala Northern Bypass",
+    "age_years": 10.8,
+    "pave_year": 2014
+  },
+  {
+    "road_no": "M20N1",
+    "road_class": "M",
+    "length_km": 20.024,
+    "road_name": "Kampala Northern Bypass (dual)",
+    "age_years": 4.0,
+    "pave_year": 2021
+  },
+  {
+    "road_no": "M3",
+    "road_class": "M",
+    "length_km": 46.139,
+    "road_name": "Kampala-Entebbe Expressway",
+    "age_years": 8.0,
+    "pave_year": 2017
+  },
+  {
+    "road_no": "M3N1",
+    "road_class": "M",
+    "length_km": 24.958,
+    "road_name": "Kampala - Entebbe Expressway (dual)",
+    "age_years": 8.0,
+    "pave_year": 2017
+  },
+  {
+    "road_no": "M3N2",
+    "road_class": "M",
+    "length_km": 12.344,
+    "road_name": "Munyonyo Spur (dual)",
+    "age_years": 8.0,
+    "pave_year": 2017
+  }
+]

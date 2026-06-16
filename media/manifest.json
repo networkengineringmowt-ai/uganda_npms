@@ -1,0 +1,1538 @@
+[
+  {
+    "id": "bridges",
+    "file": "bridges",
+    "type": "image",
+    "title": "Bridges",
+    "source": "Annual Monitoring",
+    "category": "structures"
+  },
+  {
+    "id": "bukakata_lake.jpg",
+    "file": "bukakata_lake.jpg",
+    "type": "image",
+    "title": "Bukakata Lake",
+    "source": "Annual Monitoring",
+    "category": "general"
+  },
+  {
+    "id": "gallery",
+    "file": "gallery",
+    "type": "image",
+    "title": "Gallery",
+    "source": "Annual Monitoring",
+    "category": "general"
+  },
+  {
+    "id": "kampala_flyover.png",
+    "file": "kampala_flyover.png",
+    "type": "image",
+    "title": "Kampala Flyover",
+    "source": "Annual Monitoring",
+    "category": "landmark"
+  },
+  {
+    "id": "kampala_flyover2.png",
+    "file": "kampala_flyover2.png",
+    "type": "image",
+    "title": "Kampala Flyover2",
+    "source": "Annual Monitoring",
+    "category": "landmark"
+  },
+  {
+    "id": "kee_aerial2.png",
+    "file": "kee_aerial2.png",
+    "type": "image",
+    "title": "Kee Aerial2",
+    "source": "Annual Monitoring",
+    "category": "general"
+  },
+  {
+    "id": "kee_nambigirwa.jpg",
+    "file": "kee_nambigirwa.jpg",
+    "type": "image",
+    "title": "Kee Nambigirwa",
+    "source": "Annual Monitoring",
+    "category": "general"
+  },
+  {
+    "id": "monitoring_120907_-_presentatie_carbocomp_-_engels_-_general.pdf",
+    "file": "monitoring_120907_-_presentatie_carbocomp_-_engels_-_general.pdf",
+    "type": "pdf",
+    "title": "120907 Presentatie Carbocomp Engels General",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_2017-02-01-01_two_span_continuous_bridge_moments.pdf",
+    "file": "monitoring_2017-02-01-01_two_span_continuous_bridge_moments.pdf",
+    "type": "pdf",
+    "title": "2017 02 01 01 Two Span Continuous Bridge Moments",
+    "source": "Annual Monitoring",
+    "category": "structures"
+  },
+  {
+    "id": "monitoring_2017-02-14-01_20m_and_15m_continuous_bridge_moments.pdf",
+    "file": "monitoring_2017-02-14-01_20m_and_15m_continuous_bridge_moments.pdf",
+    "type": "pdf",
+    "title": "2017 02 14 01 20M And 15M Continuous Bridge Moments",
+    "source": "Annual Monitoring",
+    "category": "structures"
+  },
+  {
+    "id": "monitoring_2017-02-14-01_20m_and_20m_continuous_bridge_moments.pdf",
+    "file": "monitoring_2017-02-14-01_20m_and_20m_continuous_bridge_moments.pdf",
+    "type": "pdf",
+    "title": "2017 02 14 01 20M And 20M Continuous Bridge Moments",
+    "source": "Annual Monitoring",
+    "category": "structures"
+  },
+  {
+    "id": "monitoring_2023-03-22_approved_sup.memo.pdf",
+    "file": "monitoring_2023-03-22_approved_sup.memo.pdf",
+    "type": "pdf",
+    "title": "2023 03 22 Approved Sup.Memo",
+    "source": "Annual Monitoring",
+    "category": "admin"
+  },
+  {
+    "id": "monitoring_71y104.pdf",
+    "file": "monitoring_71y104.pdf",
+    "type": "pdf",
+    "title": "71Y104",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_a4_pvd_aadt_2017-18.pdf",
+    "file": "monitoring_a4_pvd_aadt_2017-18.pdf",
+    "type": "pdf",
+    "title": "A4 Pvd Aadt 2017 18",
+    "source": "Annual Monitoring",
+    "category": "traffic"
+  },
+  {
+    "id": "monitoring_advances_in_bridge_management_and_inspection.pdf",
+    "file": "monitoring_advances_in_bridge_management_and_inspection.pdf",
+    "type": "pdf",
+    "title": "Advances In Bridge Management And Inspection",
+    "source": "Annual Monitoring",
+    "category": "structures"
+  },
+  {
+    "id": "monitoring_appendix_-_pictures_taken_on_the_national_road_network.pdf",
+    "file": "monitoring_appendix_-_pictures_taken_on_the_national_road_network.pdf",
+    "type": "pdf",
+    "title": "Appendix Pictures Taken On The National Road Network",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_appendix_-_visual_condition_summary_paved_road,2022.pdf",
+    "file": "monitoring_appendix_-_visual_condition_summary_paved_road,2022.pdf",
+    "type": "pdf",
+    "title": "Appendix Visual Condition Summary Paved Road,2022",
+    "source": "Annual Monitoring",
+    "category": "condition"
+  },
+  {
+    "id": "monitoring_appendix_1_pictures_of_roads_on_the_unra_road_network.pdf",
+    "file": "monitoring_appendix_1_pictures_of_roads_on_the_unra_road_network.pdf",
+    "type": "pdf",
+    "title": "Appendix 1 Pictures Of Roads On The Unra Road Network",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_appendix_1_pictures_of_the_unra_network.pdf",
+    "file": "monitoring_appendix_1_pictures_of_the_unra_network.pdf",
+    "type": "pdf",
+    "title": "Appendix 1 Pictures Of The Unra Network",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_appendix_2-aadt.pdf",
+    "file": "monitoring_appendix_2-aadt.pdf",
+    "type": "pdf",
+    "title": "Appendix 2 Aadt",
+    "source": "Annual Monitoring",
+    "category": "traffic"
+  },
+  {
+    "id": "monitoring_appendix_2_visual_condition_summary_paved_road,2022.pdf",
+    "file": "monitoring_appendix_2_visual_condition_summary_paved_road,2022.pdf",
+    "type": "pdf",
+    "title": "Appendix 2 Visual Condition Summary Paved Road,2022",
+    "source": "Annual Monitoring",
+    "category": "condition"
+  },
+  {
+    "id": "monitoring_appendix_5-vci_unpaved_roads.pdf",
+    "file": "monitoring_appendix_5-vci_unpaved_roads.pdf",
+    "type": "pdf",
+    "title": "Appendix 5 Vci Unpaved Roads",
+    "source": "Annual Monitoring",
+    "category": "condition"
+  },
+  {
+    "id": "monitoring_appendix_5_visual_condition_summary_unpaved_road,2022.pdf",
+    "file": "monitoring_appendix_5_visual_condition_summary_unpaved_road,2022.pdf",
+    "type": "pdf",
+    "title": "Appendix 5 Visual Condition Summary Unpaved Road,2022",
+    "source": "Annual Monitoring",
+    "category": "condition"
+  },
+  {
+    "id": "monitoring_appendix_6.3_critical_structures_(overall_rating)_2021-22.pdf",
+    "file": "monitoring_appendix_6.3_critical_structures_(overall_rating)_2021-22.pdf",
+    "type": "pdf",
+    "title": "Appendix 6.3 Critical Structures (Overall Rating) 2021 22",
+    "source": "Annual Monitoring",
+    "category": "structures"
+  },
+  {
+    "id": "monitoring_attendance_data_clerks.pdf",
+    "file": "monitoring_attendance_data_clerks.pdf",
+    "type": "pdf",
+    "title": "Attendance Data Clerks",
+    "source": "Annual Monitoring",
+    "category": "admin"
+  },
+  {
+    "id": "monitoring_attendance_inventory_training.pdf",
+    "file": "monitoring_attendance_inventory_training.pdf",
+    "type": "pdf",
+    "title": "Attendance Inventory Training",
+    "source": "Annual Monitoring",
+    "category": "admin"
+  },
+  {
+    "id": "monitoring_bridge_and_major_culvert_verification_report.pdf",
+    "file": "monitoring_bridge_and_major_culvert_verification_report.pdf",
+    "type": "pdf",
+    "title": "Bridge And Major Culvert Verification Report",
+    "source": "Annual Monitoring",
+    "category": "structures"
+  },
+  {
+    "id": "monitoring_bridge_bms_unra_data_dictionary_(inventory_manual)(20_bind)-01.pdf",
+    "file": "monitoring_bridge_bms_unra_data_dictionary_(inventory_manual)(20_bind)-01.pdf",
+    "type": "pdf",
+    "title": "Bridge Bms Unra Data Dictionary (Inventory Manual)(20 Bind) 01",
+    "source": "Annual Monitoring",
+    "category": "structures"
+  },
+  {
+    "id": "monitoring_bridge_condition_rating.pdf",
+    "file": "monitoring_bridge_condition_rating.pdf",
+    "type": "pdf",
+    "title": "Bridge Condition Rating",
+    "source": "Annual Monitoring",
+    "category": "structures"
+  },
+  {
+    "id": "monitoring_bridges_&_major_culverts_condition_report_2020_draft_25-11-2020.combined.pdf",
+    "file": "monitoring_bridges_&_major_culverts_condition_report_2020_draft_25-11-2020.combined.pdf",
+    "type": "pdf",
+    "title": "Bridges & Major Culverts Condition Report 2020 Draft 25 11 2020.Combined",
+    "source": "Annual Monitoring",
+    "category": "structures"
+  },
+  {
+    "id": "monitoring_bridges_&_major_culverts_condition_report_2020_draft_25-11-2020.pdf",
+    "file": "monitoring_bridges_&_major_culverts_condition_report_2020_draft_25-11-2020.pdf",
+    "type": "pdf",
+    "title": "Bridges & Major Culverts Condition Report 2020 Draft 25 11 2020",
+    "source": "Annual Monitoring",
+    "category": "structures"
+  },
+  {
+    "id": "monitoring_bridges_&_major_culverts_condition_report_2022-23.pdf",
+    "file": "monitoring_bridges_&_major_culverts_condition_report_2022-23.pdf",
+    "type": "pdf",
+    "title": "Bridges & Major Culverts Condition Report 2022 23",
+    "source": "Annual Monitoring",
+    "category": "structures"
+  },
+  {
+    "id": "monitoring_bridges_&_major_culverts_condition_report_2022-23_(2).pdf",
+    "file": "monitoring_bridges_&_major_culverts_condition_report_2022-23_(2).pdf",
+    "type": "pdf",
+    "title": "Bridges & Major Culverts Condition Report 2022 23 (2)",
+    "source": "Annual Monitoring",
+    "category": "structures"
+  },
+  {
+    "id": "monitoring_budget_for_annual_paved_road_network_surveys_fy_2022-23_(01.03.2023).pdf",
+    "file": "monitoring_budget_for_annual_paved_road_network_surveys_fy_2022-23_(01.03.2023).pdf",
+    "type": "pdf",
+    "title": "Budget For Annual Paved Road Network Surveys Fy 2022 23 (01.03.2023)",
+    "source": "Annual Monitoring",
+    "category": "condition"
+  },
+  {
+    "id": "monitoring_call_off_order_no_2_-_lot1.pdf",
+    "file": "monitoring_call_off_order_no_2_-_lot1.pdf",
+    "type": "pdf",
+    "title": "Call Off Order No 2 Lot1",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_call_off_order_no_2_-_lot3.pdf",
+    "file": "monitoring_call_off_order_no_2_-_lot3.pdf",
+    "type": "pdf",
+    "title": "Call Off Order No 2 Lot3",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_culvert_bms_unra_data_dictionary_(inventory_manual)(20).pdf",
+    "file": "monitoring_culvert_bms_unra_data_dictionary_(inventory_manual)(20).pdf",
+    "type": "pdf",
+    "title": "Culvert Bms Unra Data Dictionary (Inventory Manual)(20)",
+    "source": "Annual Monitoring",
+    "category": "structures"
+  },
+  {
+    "id": "monitoring_dbasangwa_2020-12-15_10-40-38.pdf",
+    "file": "monitoring_dbasangwa_2020-12-15_10-40-38.pdf",
+    "type": "pdf",
+    "title": "Dbasangwa 2020 12 15 10 40 38",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_dbasangwa_2020-12-15_10-41-18.pdf",
+    "file": "monitoring_dbasangwa_2020-12-15_10-41-18.pdf",
+    "type": "pdf",
+    "title": "Dbasangwa 2020 12 15 10 41 18",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_dbasangwa_2020-12-15_10-42-04.pdf",
+    "file": "monitoring_dbasangwa_2020-12-15_10-42-04.pdf",
+    "type": "pdf",
+    "title": "Dbasangwa 2020 12 15 10 42 04",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_dbasangwa_2020-12-15_10-42-40.pdf",
+    "file": "monitoring_dbasangwa_2020-12-15_10-42-40.pdf",
+    "type": "pdf",
+    "title": "Dbasangwa 2020 12 15 10 42 40",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_dbasangwa_2020-12-15_10-43-36.pdf",
+    "file": "monitoring_dbasangwa_2020-12-15_10-43-36.pdf",
+    "type": "pdf",
+    "title": "Dbasangwa 2020 12 15 10 43 36",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_dbasangwa_2020-12-15_10-46-44.pdf",
+    "file": "monitoring_dbasangwa_2020-12-15_10-46-44.pdf",
+    "type": "pdf",
+    "title": "Dbasangwa 2020 12 15 10 46 44",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_dnpe_to_bog125112020_network_planning_procedures.pdf",
+    "file": "monitoring_dnpe_to_bog125112020_network_planning_procedures.pdf",
+    "type": "pdf",
+    "title": "Dnpe To Bog125112020 Network Planning Procedures",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_draft_annual_performance_report_2021-22_v7_29-08-22.pdf",
+    "file": "monitoring_draft_annual_performance_report_2021-22_v7_29-08-22.pdf",
+    "type": "pdf",
+    "title": "Draft Annual Performance Report 2021 22 V7 29 08 22",
+    "source": "Annual Monitoring",
+    "category": "reports"
+  },
+  {
+    "id": "monitoring_draft_final_report.pdf",
+    "file": "monitoring_draft_final_report.pdf",
+    "type": "pdf",
+    "title": "Draft Final Report",
+    "source": "Annual Monitoring",
+    "category": "reports"
+  },
+  {
+    "id": "monitoring_draft_report_-_19012026_-_fy24_25_national_road_network_situation_analysis_report.pdf",
+    "file": "monitoring_draft_report_-_19012026_-_fy24_25_national_road_network_situation_analysis_report.pdf",
+    "type": "pdf",
+    "title": "Draft Report 19012026 Fy24 25 National Road Network Situation Analysis Report",
+    "source": "Annual Monitoring",
+    "category": "reports"
+  },
+  {
+    "id": "monitoring_eot_kom_lot1.pdf",
+    "file": "monitoring_eot_kom_lot1.pdf",
+    "type": "pdf",
+    "title": "Eot Kom Lot1",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_eot_kom_lot3.pdf",
+    "file": "monitoring_eot_kom_lot3.pdf",
+    "type": "pdf",
+    "title": "Eot Kom Lot3",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_high-way-code-a4.pdf",
+    "file": "monitoring_high-way-code-a4.pdf",
+    "type": "pdf",
+    "title": "High Way Code A4",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_img_3223.mov",
+    "file": "monitoring_img_3223.mov",
+    "type": "video",
+    "title": "Img 3223",
+    "source": "Annual Monitoring",
+    "category": "field-video"
+  },
+  {
+    "id": "monitoring_img_3224.mov",
+    "file": "monitoring_img_3224.mov",
+    "type": "video",
+    "title": "Img 3224",
+    "source": "Annual Monitoring",
+    "category": "field-video"
+  },
+  {
+    "id": "monitoring_img_3226.mov",
+    "file": "monitoring_img_3226.mov",
+    "type": "video",
+    "title": "Img 3226",
+    "source": "Annual Monitoring",
+    "category": "field-video"
+  },
+  {
+    "id": "monitoring_img_3227.mov",
+    "file": "monitoring_img_3227.mov",
+    "type": "video",
+    "title": "Img 3227",
+    "source": "Annual Monitoring",
+    "category": "field-video"
+  },
+  {
+    "id": "monitoring_img_3228.mov",
+    "file": "monitoring_img_3228.mov",
+    "type": "video",
+    "title": "Img 3228",
+    "source": "Annual Monitoring",
+    "category": "field-video"
+  },
+  {
+    "id": "monitoring_img_3229.mov",
+    "file": "monitoring_img_3229.mov",
+    "type": "video",
+    "title": "Img 3229",
+    "source": "Annual Monitoring",
+    "category": "field-video"
+  },
+  {
+    "id": "monitoring_img_3230.mov",
+    "file": "monitoring_img_3230.mov",
+    "type": "video",
+    "title": "Img 3230",
+    "source": "Annual Monitoring",
+    "category": "field-video"
+  },
+  {
+    "id": "monitoring_img_3231.mov",
+    "file": "monitoring_img_3231.mov",
+    "type": "video",
+    "title": "Img 3231",
+    "source": "Annual Monitoring",
+    "category": "field-video"
+  },
+  {
+    "id": "monitoring_img_3232.mov",
+    "file": "monitoring_img_3232.mov",
+    "type": "video",
+    "title": "Img 3232",
+    "source": "Annual Monitoring",
+    "category": "field-video"
+  },
+  {
+    "id": "monitoring_img_3233.mov",
+    "file": "monitoring_img_3233.mov",
+    "type": "video",
+    "title": "Img 3233",
+    "source": "Annual Monitoring",
+    "category": "field-video"
+  },
+  {
+    "id": "monitoring_img_3234.mov",
+    "file": "monitoring_img_3234.mov",
+    "type": "video",
+    "title": "Img 3234",
+    "source": "Annual Monitoring",
+    "category": "field-video"
+  },
+  {
+    "id": "monitoring_img_3235.mov",
+    "file": "monitoring_img_3235.mov",
+    "type": "video",
+    "title": "Img 3235",
+    "source": "Annual Monitoring",
+    "category": "field-video"
+  },
+  {
+    "id": "monitoring_img_3236.mov",
+    "file": "monitoring_img_3236.mov",
+    "type": "video",
+    "title": "Img 3236",
+    "source": "Annual Monitoring",
+    "category": "field-video"
+  },
+  {
+    "id": "monitoring_img_3237.mov",
+    "file": "monitoring_img_3237.mov",
+    "type": "video",
+    "title": "Img 3237",
+    "source": "Annual Monitoring",
+    "category": "field-video"
+  },
+  {
+    "id": "monitoring_img_3238.mov",
+    "file": "monitoring_img_3238.mov",
+    "type": "video",
+    "title": "Img 3238",
+    "source": "Annual Monitoring",
+    "category": "field-video"
+  },
+  {
+    "id": "monitoring_img_3239.mov",
+    "file": "monitoring_img_3239.mov",
+    "type": "video",
+    "title": "Img 3239",
+    "source": "Annual Monitoring",
+    "category": "field-video"
+  },
+  {
+    "id": "monitoring_img_3240.mov",
+    "file": "monitoring_img_3240.mov",
+    "type": "video",
+    "title": "Img 3240",
+    "source": "Annual Monitoring",
+    "category": "field-video"
+  },
+  {
+    "id": "monitoring_img_3241.mov",
+    "file": "monitoring_img_3241.mov",
+    "type": "video",
+    "title": "Img 3241",
+    "source": "Annual Monitoring",
+    "category": "field-video"
+  },
+  {
+    "id": "monitoring_img_3249.mov",
+    "file": "monitoring_img_3249.mov",
+    "type": "video",
+    "title": "Img 3249",
+    "source": "Annual Monitoring",
+    "category": "field-video"
+  },
+  {
+    "id": "monitoring_img_3250.mov",
+    "file": "monitoring_img_3250.mov",
+    "type": "video",
+    "title": "Img 3250",
+    "source": "Annual Monitoring",
+    "category": "field-video"
+  },
+  {
+    "id": "monitoring_introduction_letter.pdf",
+    "file": "monitoring_introduction_letter.pdf",
+    "type": "pdf",
+    "title": "Introduction Letter",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_inventory_sheet_sq_5_-_red.pdf",
+    "file": "monitoring_inventory_sheet_sq_5_-_red.pdf",
+    "type": "pdf",
+    "title": "Inventory Sheet Sq 5 Red",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_kabwoya_bulima-kakindo.pdf",
+    "file": "monitoring_kabwoya_bulima-kakindo.pdf",
+    "type": "pdf",
+    "title": "Kabwoya Bulima Kakindo",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_kigumba_-_bulima_-_bwijanga.pdf",
+    "file": "monitoring_kigumba_-_bulima_-_bwijanga.pdf",
+    "type": "pdf",
+    "title": "Kigumba Bulima Bwijanga",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_kigumba_-_bulima_-_walyoba.pdf",
+    "file": "monitoring_kigumba_-_bulima_-_walyoba.pdf",
+    "type": "pdf",
+    "title": "Kigumba Bulima Walyoba",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_kigumba_bulima-nyamigisha.pdf",
+    "file": "monitoring_kigumba_bulima-nyamigisha.pdf",
+    "type": "pdf",
+    "title": "Kigumba Bulima Nyamigisha",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_kihihi-rukungiri.pdf",
+    "file": "monitoring_kihihi-rukungiri.pdf",
+    "type": "pdf",
+    "title": "Kihihi Rukungiri",
+    "source": "Annual Monitoring",
+    "category": "condition"
+  },
+  {
+    "id": "monitoring_kihihi_-_kambuga.pdf",
+    "file": "monitoring_kihihi_-_kambuga.pdf",
+    "type": "pdf",
+    "title": "Kihihi Kambuga",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_list_of_bridges_on_the_network.pdf",
+    "file": "monitoring_list_of_bridges_on_the_network.pdf",
+    "type": "pdf",
+    "title": "List Of Bridges On The Network",
+    "source": "Annual Monitoring",
+    "category": "structures"
+  },
+  {
+    "id": "monitoring_list_of_major_culverts_on_the_network.pdf",
+    "file": "monitoring_list_of_major_culverts_on_the_network.pdf",
+    "type": "pdf",
+    "title": "List Of Major Culverts On The Network",
+    "source": "Annual Monitoring",
+    "category": "structures"
+  },
+  {
+    "id": "monitoring_list_of_ranked_culverts.pdf",
+    "file": "monitoring_list_of_ranked_culverts.pdf",
+    "type": "pdf",
+    "title": "List Of Ranked Culverts",
+    "source": "Annual Monitoring",
+    "category": "structures"
+  },
+  {
+    "id": "monitoring_major_culvert_condition_rating.pdf",
+    "file": "monitoring_major_culvert_condition_rating.pdf",
+    "type": "pdf",
+    "title": "Major Culvert Condition Rating",
+    "source": "Annual Monitoring",
+    "category": "structures"
+  },
+  {
+    "id": "monitoring_memo-extra_field_team.pdf",
+    "file": "monitoring_memo-extra_field_team.pdf",
+    "type": "pdf",
+    "title": "Memo Extra Field Team",
+    "source": "Annual Monitoring",
+    "category": "admin"
+  },
+  {
+    "id": "monitoring_memo_data_collection_paved_roads_fy_2021-22_(rejected).pdf",
+    "file": "monitoring_memo_data_collection_paved_roads_fy_2021-22_(rejected).pdf",
+    "type": "pdf",
+    "title": "Memo Data Collection Paved Roads Fy 2021 22 (Rejected)",
+    "source": "Annual Monitoring",
+    "category": "condition"
+  },
+  {
+    "id": "monitoring_method_statement_sonic_integrity_testing.pdf",
+    "file": "monitoring_method_statement_sonic_integrity_testing.pdf",
+    "type": "pdf",
+    "title": "Method Statement Sonic Integrity Testing",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_mpigi_and_south_western.pdf",
+    "file": "monitoring_mpigi_and_south_western.pdf",
+    "type": "pdf",
+    "title": "Mpigi And South Western",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_mr_recieved.pdf",
+    "file": "monitoring_mr_recieved.pdf",
+    "type": "pdf",
+    "title": "Mr Recieved",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_national_road_and_bridge_network_condition_assessment_fy_2020-21_(paved_roads).pdf",
+    "file": "monitoring_national_road_and_bridge_network_condition_assessment_fy_2020-21_(paved_roads).pdf",
+    "type": "pdf",
+    "title": "National Road And Bridge Network Condition Assessment Fy 2020 21 (Paved Roads)",
+    "source": "Annual Monitoring",
+    "category": "structures"
+  },
+  {
+    "id": "monitoring_nrm_manifesto_2026-2031.pdf",
+    "file": "monitoring_nrm_manifesto_2026-2031.pdf",
+    "type": "pdf",
+    "title": "Nrm Manifesto 2026 2031",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_paved_national_road_condition.pdf",
+    "file": "monitoring_paved_national_road_condition.pdf",
+    "type": "pdf",
+    "title": "Paved National Road Condition",
+    "source": "Annual Monitoring",
+    "category": "condition"
+  },
+  {
+    "id": "monitoring_q2020012_unra_uganda_jan2020.pdf",
+    "file": "monitoring_q2020012_unra_uganda_jan2020.pdf",
+    "type": "pdf",
+    "title": "Q2020012 Unra Uganda Jan2020",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_receipt_dmi_installation.pdf",
+    "file": "monitoring_receipt_dmi_installation.pdf",
+    "type": "pdf",
+    "title": "Receipt Dmi Installation",
+    "source": "Annual Monitoring",
+    "category": "admin"
+  },
+  {
+    "id": "monitoring_received_budget_m&r_2018_paved.pdf",
+    "file": "monitoring_received_budget_m&r_2018_paved.pdf",
+    "type": "pdf",
+    "title": "Received Budget M&R 2018 Paved",
+    "source": "Annual Monitoring",
+    "category": "condition"
+  },
+  {
+    "id": "monitoring_received_budget_m&r_2018_unpaved.pdf",
+    "file": "monitoring_received_budget_m&r_2018_unpaved.pdf",
+    "type": "pdf",
+    "title": "Received Budget M&R 2018 Unpaved",
+    "source": "Annual Monitoring",
+    "category": "condition"
+  },
+  {
+    "id": "monitoring_road_network_verification_exercise_training-05-08-2025.pdf",
+    "file": "monitoring_road_network_verification_exercise_training-05-08-2025.pdf",
+    "type": "pdf",
+    "title": "Road Network Verification Exercise Training 05 08 2025",
+    "source": "Annual Monitoring",
+    "category": "admin"
+  },
+  {
+    "id": "monitoring_road_network_verification_exercisetraining-22-07-2025.pdf",
+    "file": "monitoring_road_network_verification_exercisetraining-22-07-2025.pdf",
+    "type": "pdf",
+    "title": "Road Network Verification Exercisetraining 22 07 2025",
+    "source": "Annual Monitoring",
+    "category": "admin"
+  },
+  {
+    "id": "monitoring_roads_needs_analysis_2016_unra.pdf",
+    "file": "monitoring_roads_needs_analysis_2016_unra.pdf",
+    "type": "pdf",
+    "title": "Roads Needs Analysis 2016 Unra",
+    "source": "Annual Monitoring",
+    "category": "reports"
+  },
+  {
+    "id": "monitoring_rukungiri_-kihihi-kanungu_nyamigyere.pdf",
+    "file": "monitoring_rukungiri_-kihihi-kanungu_nyamigyere.pdf",
+    "type": "pdf",
+    "title": "Rukungiri Kihihi Kanungu Nyamigyere",
+    "source": "Annual Monitoring",
+    "category": "condition"
+  },
+  {
+    "id": "monitoring_situational_analysis_unra_2020_draft_ver03.pdf",
+    "file": "monitoring_situational_analysis_unra_2020_draft_ver03.pdf",
+    "type": "pdf",
+    "title": "Situational Analysis Unra 2020 Draft Ver03",
+    "source": "Annual Monitoring",
+    "category": "reports"
+  },
+  {
+    "id": "monitoring_situational_analysis_unra_2020_draft_ver03combined.pdf",
+    "file": "monitoring_situational_analysis_unra_2020_draft_ver03combined.pdf",
+    "type": "pdf",
+    "title": "Situational Analysis Unra 2020 Draft Ver03Combined",
+    "source": "Annual Monitoring",
+    "category": "reports"
+  },
+  {
+    "id": "monitoring_situational_analysis_unra_2021-22.pdf",
+    "file": "monitoring_situational_analysis_unra_2021-22.pdf",
+    "type": "pdf",
+    "title": "Situational Analysis Unra 2021 22",
+    "source": "Annual Monitoring",
+    "category": "reports"
+  },
+  {
+    "id": "monitoring_situational_analysis_unra_2021-22.ver02.pdf",
+    "file": "monitoring_situational_analysis_unra_2021-22.ver02.pdf",
+    "type": "pdf",
+    "title": "Situational Analysis Unra 2021 22.Ver02",
+    "source": "Annual Monitoring",
+    "category": "reports"
+  },
+  {
+    "id": "monitoring_team_1_-_visual_condition_survey_2025_report.pdf",
+    "file": "monitoring_team_1_-_visual_condition_survey_2025_report.pdf",
+    "type": "pdf",
+    "title": "Team 1 Visual Condition Survey 2025 Report",
+    "source": "Annual Monitoring",
+    "category": "condition"
+  },
+  {
+    "id": "monitoring_technical_needs_analysis_2018-19_ver01.pdf",
+    "file": "monitoring_technical_needs_analysis_2018-19_ver01.pdf",
+    "type": "pdf",
+    "title": "Technical Needs Analysis 2018 19 Ver01",
+    "source": "Annual Monitoring",
+    "category": "reports"
+  },
+  {
+    "id": "monitoring_timevideo_20250914_132712.mp4",
+    "file": "monitoring_timevideo_20250914_132712.mp4",
+    "type": "video",
+    "title": "Timevideo 20250914 132712",
+    "source": "Annual Monitoring",
+    "category": "field-video"
+  },
+  {
+    "id": "monitoring_timevideo_20251016_100654.mp4",
+    "file": "monitoring_timevideo_20251016_100654.mp4",
+    "type": "video",
+    "title": "Timevideo 20251016 100654",
+    "source": "Annual Monitoring",
+    "category": "field-video"
+  },
+  {
+    "id": "monitoring_timevideo_20251016_100756.mp4",
+    "file": "monitoring_timevideo_20251016_100756.mp4",
+    "type": "video",
+    "title": "Timevideo 20251016 100756",
+    "source": "Annual Monitoring",
+    "category": "field-video"
+  },
+  {
+    "id": "monitoring_timevideo_20251016_100910.mp4",
+    "file": "monitoring_timevideo_20251016_100910.mp4",
+    "type": "video",
+    "title": "Timevideo 20251016 100910",
+    "source": "Annual Monitoring",
+    "category": "field-video"
+  },
+  {
+    "id": "monitoring_traffic_2021_(175tcs).pdf",
+    "file": "monitoring_traffic_2021_(175tcs).pdf",
+    "type": "pdf",
+    "title": "Traffic 2021 (175Tcs)",
+    "source": "Annual Monitoring",
+    "category": "traffic"
+  },
+  {
+    "id": "monitoring_traffic_count_data_entry_template__kikuube-kabwoya.pdf",
+    "file": "monitoring_traffic_count_data_entry_template__kikuube-kabwoya.pdf",
+    "type": "pdf",
+    "title": "Traffic Count Data Entry Template Kikuube Kabwoya",
+    "source": "Annual Monitoring",
+    "category": "traffic"
+  },
+  {
+    "id": "monitoring_traffic_count_data_entry_template_chesower-bukwo.pdf",
+    "file": "monitoring_traffic_count_data_entry_template_chesower-bukwo.pdf",
+    "type": "pdf",
+    "title": "Traffic Count Data Entry Template Chesower Bukwo",
+    "source": "Annual Monitoring",
+    "category": "traffic"
+  },
+  {
+    "id": "monitoring_traffic_count_data_entry_template_kabwoya-bulima.pdf",
+    "file": "monitoring_traffic_count_data_entry_template_kabwoya-bulima.pdf",
+    "type": "pdf",
+    "title": "Traffic Count Data Entry Template Kabwoya Bulima",
+    "source": "Annual Monitoring",
+    "category": "traffic"
+  },
+  {
+    "id": "monitoring_traffic_count_data_entry_template_kaffu_manafa-bumbobi.pdf",
+    "file": "monitoring_traffic_count_data_entry_template_kaffu_manafa-bumbobi.pdf",
+    "type": "pdf",
+    "title": "Traffic Count Data Entry Template Kaffu Manafa Bumbobi",
+    "source": "Annual Monitoring",
+    "category": "traffic"
+  },
+  {
+    "id": "monitoring_traffic_count_data_entry_template_lwakhakha-kufu.pdf",
+    "file": "monitoring_traffic_count_data_entry_template_lwakhakha-kufu.pdf",
+    "type": "pdf",
+    "title": "Traffic Count Data Entry Template Lwakhakha Kufu",
+    "source": "Annual Monitoring",
+    "category": "traffic"
+  },
+  {
+    "id": "monitoring_traffic_count_data_for_kapchorwa-suam-bukwo.pdf",
+    "file": "monitoring_traffic_count_data_for_kapchorwa-suam-bukwo.pdf",
+    "type": "pdf",
+    "title": "Traffic Count Data For Kapchorwa Suam Bukwo",
+    "source": "Annual Monitoring",
+    "category": "traffic"
+  },
+  {
+    "id": "monitoring_traffic_count_data_for_kapchorwa-suam-kirwoko.pdf",
+    "file": "monitoring_traffic_count_data_for_kapchorwa-suam-kirwoko.pdf",
+    "type": "pdf",
+    "title": "Traffic Count Data For Kapchorwa Suam Kirwoko",
+    "source": "Annual Monitoring",
+    "category": "traffic"
+  },
+  {
+    "id": "monitoring_traffic_count_data_kigumba_-_masindi.pdf",
+    "file": "monitoring_traffic_count_data_kigumba_-_masindi.pdf",
+    "type": "pdf",
+    "title": "Traffic Count Data Kigumba Masindi",
+    "source": "Annual Monitoring",
+    "category": "traffic"
+  },
+  {
+    "id": "monitoring_traffic_count_data_kigumba_kyatiri.pdf",
+    "file": "monitoring_traffic_count_data_kigumba_kyatiri.pdf",
+    "type": "pdf",
+    "title": "Traffic Count Data Kigumba Kyatiri",
+    "source": "Annual Monitoring",
+    "category": "traffic"
+  },
+  {
+    "id": "monitoring_unassessed_links.pdf",
+    "file": "monitoring_unassessed_links.pdf",
+    "type": "pdf",
+    "title": "Unassessed Links",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_unpaved_national_road_condition.pdf",
+    "file": "monitoring_unpaved_national_road_condition.pdf",
+    "type": "pdf",
+    "title": "Unpaved National Road Condition",
+    "source": "Annual Monitoring",
+    "category": "condition"
+  },
+  {
+    "id": "monitoring_unra_assetmanagementsystem_5_pms_user_manual_0.3.pdf",
+    "file": "monitoring_unra_assetmanagementsystem_5_pms_user_manual_0.3.pdf",
+    "type": "pdf",
+    "title": "Unra Assetmanagementsystem 5 Pms User Manual 0.3",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_unra_tnar_ver03.pdf",
+    "file": "monitoring_unra_tnar_ver03.pdf",
+    "type": "pdf",
+    "title": "Unra Tnar Ver03",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "monitoring_upgrade_2019_a.pdf",
+    "file": "monitoring_upgrade_2019_a.pdf",
+    "type": "pdf",
+    "title": "Upgrade 2019 A",
+    "source": "Annual Monitoring",
+    "category": "investment"
+  },
+  {
+    "id": "monitoring_vci_2020-21_-_summary.pdf",
+    "file": "monitoring_vci_2020-21_-_summary.pdf",
+    "type": "pdf",
+    "title": "Vci 2020 21 Summary",
+    "source": "Annual Monitoring",
+    "category": "condition"
+  },
+  {
+    "id": "monitoring_vci_unpaved_roads.pdf",
+    "file": "monitoring_vci_unpaved_roads.pdf",
+    "type": "pdf",
+    "title": "Vci Unpaved Roads",
+    "source": "Annual Monitoring",
+    "category": "condition"
+  },
+  {
+    "id": "monitoring_volume-1-geometric-design-manual.pdf",
+    "file": "monitoring_volume-1-geometric-design-manual.pdf",
+    "type": "pdf",
+    "title": "Volume 1 Geometric Design Manual",
+    "source": "Annual Monitoring",
+    "category": "documents"
+  },
+  {
+    "id": "network_book_project_oil_roads_1p3a0543.jpg",
+    "file": "network_book_project_oil_roads_1p3a0543.jpg",
+    "type": "image",
+    "title": "Book Project Oil Roads 1P3A0543",
+    "source": "12.Media",
+    "category": "landmark"
+  },
+  {
+    "id": "network_book_project_oil_roads_1p3a0544.jpg",
+    "file": "network_book_project_oil_roads_1p3a0544.jpg",
+    "type": "image",
+    "title": "Book Project Oil Roads 1P3A0544",
+    "source": "12.Media",
+    "category": "landmark"
+  },
+  {
+    "id": "network_book_project_oil_roads_1p3a0545.jpg",
+    "file": "network_book_project_oil_roads_1p3a0545.jpg",
+    "type": "image",
+    "title": "Book Project Oil Roads 1P3A0545",
+    "source": "12.Media",
+    "category": "landmark"
+  },
+  {
+    "id": "network_book_project_oil_roads_1p3a0546.jpg",
+    "file": "network_book_project_oil_roads_1p3a0546.jpg",
+    "type": "image",
+    "title": "Book Project Oil Roads 1P3A0546",
+    "source": "12.Media",
+    "category": "landmark"
+  },
+  {
+    "id": "network_book_project_oil_roads_1p3a0547.jpg",
+    "file": "network_book_project_oil_roads_1p3a0547.jpg",
+    "type": "image",
+    "title": "Book Project Oil Roads 1P3A0547",
+    "source": "12.Media",
+    "category": "landmark"
+  },
+  {
+    "id": "network_book_project_oil_roads_1p3a0548.jpg",
+    "file": "network_book_project_oil_roads_1p3a0548.jpg",
+    "type": "image",
+    "title": "Book Project Oil Roads 1P3A0548",
+    "source": "12.Media",
+    "category": "landmark"
+  },
+  {
+    "id": "network_book_project_oil_roads_1p3a0549.jpg",
+    "file": "network_book_project_oil_roads_1p3a0549.jpg",
+    "type": "image",
+    "title": "Book Project Oil Roads 1P3A0549",
+    "source": "12.Media",
+    "category": "landmark"
+  },
+  {
+    "id": "network_book_project_oil_roads_1p3a0550.jpg",
+    "file": "network_book_project_oil_roads_1p3a0550.jpg",
+    "type": "image",
+    "title": "Book Project Oil Roads 1P3A0550",
+    "source": "12.Media",
+    "category": "landmark"
+  },
+  {
+    "id": "network_busega__kyengera_assignment_dji_0160.mp4",
+    "file": "network_busega__kyengera_assignment_dji_0160.mp4",
+    "type": "video",
+    "title": "Busega Kyengera Assignment Dji 0160",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_busega__kyengera_assignment_dji_0163.jpg",
+    "file": "network_busega__kyengera_assignment_dji_0163.jpg",
+    "type": "image",
+    "title": "Busega Kyengera Assignment Dji 0163",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_busega__kyengera_assignment_dji_0164.jpg",
+    "file": "network_busega__kyengera_assignment_dji_0164.jpg",
+    "type": "image",
+    "title": "Busega Kyengera Assignment Dji 0164",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_busega__kyengera_assignment_dji_0165.jpg",
+    "file": "network_busega__kyengera_assignment_dji_0165.jpg",
+    "type": "image",
+    "title": "Busega Kyengera Assignment Dji 0165",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_busega__kyengera_assignment_dji_0166.jpg",
+    "file": "network_busega__kyengera_assignment_dji_0166.jpg",
+    "type": "image",
+    "title": "Busega Kyengera Assignment Dji 0166",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_busega__kyengera_assignment_dji_0181.jpg",
+    "file": "network_busega__kyengera_assignment_dji_0181.jpg",
+    "type": "image",
+    "title": "Busega Kyengera Assignment Dji 0181",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_busega__kyengera_assignment_dji_0182.jpg",
+    "file": "network_busega__kyengera_assignment_dji_0182.jpg",
+    "type": "image",
+    "title": "Busega Kyengera Assignment Dji 0182",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_busega__kyengera_assignment_dji_0183.jpg",
+    "file": "network_busega__kyengera_assignment_dji_0183.jpg",
+    "type": "image",
+    "title": "Busega Kyengera Assignment Dji 0183",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_busega__kyengera_assignment_dji_0184.jpg",
+    "file": "network_busega__kyengera_assignment_dji_0184.jpg",
+    "type": "image",
+    "title": "Busega Kyengera Assignment Dji 0184",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_busega__kyengera_assignment_dji_0185.jpg",
+    "file": "network_busega__kyengera_assignment_dji_0185.jpg",
+    "type": "image",
+    "title": "Busega Kyengera Assignment Dji 0185",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_busega__kyengera_assignment_dji_0188.jpg",
+    "file": "network_busega__kyengera_assignment_dji_0188.jpg",
+    "type": "image",
+    "title": "Busega Kyengera Assignment Dji 0188",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_busega__kyengera_assignment_dji_0189.jpg",
+    "file": "network_busega__kyengera_assignment_dji_0189.jpg",
+    "type": "image",
+    "title": "Busega Kyengera Assignment Dji 0189",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_busega__kyengera_assignment_dji_0191.jpg",
+    "file": "network_busega__kyengera_assignment_dji_0191.jpg",
+    "type": "image",
+    "title": "Busega Kyengera Assignment Dji 0191",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_busega__kyengera_assignment_dji_0192.jpg",
+    "file": "network_busega__kyengera_assignment_dji_0192.jpg",
+    "type": "image",
+    "title": "Busega Kyengera Assignment Dji 0192",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_busega__kyengera_assignment_dji_0193.jpg",
+    "file": "network_busega__kyengera_assignment_dji_0193.jpg",
+    "type": "image",
+    "title": "Busega Kyengera Assignment Dji 0193",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_kampala_entebbe_expressway_before_and_after_1533cc6d-587d-46b9-9972-dc88ab92354b.png",
+    "file": "network_kampala_entebbe_expressway_before_and_after_1533cc6d-587d-46b9-9972-dc88ab92354b.png",
+    "type": "image",
+    "title": "Kampala Entebbe Expressway Before And After",
+    "source": "12.Media",
+    "category": "landmark"
+  },
+  {
+    "id": "network_kampala_entebbe_expressway_before_and_after_5318a035-0ee0-4ac2-9723-d62d855a9ae8.png",
+    "file": "network_kampala_entebbe_expressway_before_and_after_5318a035-0ee0-4ac2-9723-d62d855a9ae8.png",
+    "type": "image",
+    "title": "Kampala Entebbe Expressway Before And After",
+    "source": "12.Media",
+    "category": "landmark"
+  },
+  {
+    "id": "network_kampala_entebbe_expressway_before_and_after_the_kampala-entebbe_expressway_at_nambigirwa_swamp.jpg",
+    "file": "network_kampala_entebbe_expressway_before_and_after_the_kampala-entebbe_expressway_at_nambigirwa_swamp.jpg",
+    "type": "image",
+    "title": "Kampala Entebbe Expressway Before And After The Kampala Entebbe Expressway At Nambigirwa Swamp",
+    "source": "12.Media",
+    "category": "landmark"
+  },
+  {
+    "id": "network_kampala_flyover_54024715-4404-4fb5-8464-c930fef81b34.png",
+    "file": "network_kampala_flyover_54024715-4404-4fb5-8464-c930fef81b34.png",
+    "type": "image",
+    "title": "Kampala Flyover",
+    "source": "12.Media",
+    "category": "landmark"
+  },
+  {
+    "id": "network_kampala_flyover_8ac0985c-d850-410b-a1f8-648180f0471a.png",
+    "file": "network_kampala_flyover_8ac0985c-d850-410b-a1f8-648180f0471a.png",
+    "type": "image",
+    "title": "Kampala Flyover",
+    "source": "12.Media",
+    "category": "landmark"
+  },
+  {
+    "id": "network_kampala_flyover_de6d3b03-706b-4bdc-a2a9-c5fb12d47bfd.png",
+    "file": "network_kampala_flyover_de6d3b03-706b-4bdc-a2a9-c5fb12d47bfd.png",
+    "type": "image",
+    "title": "Kampala Flyover",
+    "source": "12.Media",
+    "category": "landmark"
+  },
+  {
+    "id": "network_kampala_flyover_eddb9cc6-d399-4878-b9e1-3f4a2448aebe.png",
+    "file": "network_kampala_flyover_eddb9cc6-d399-4878-b9e1-3f4a2448aebe.png",
+    "type": "image",
+    "title": "Kampala Flyover",
+    "source": "12.Media",
+    "category": "landmark"
+  },
+  {
+    "id": "network_kampala_northern_bypass_3601e6f9-9ec7-478d-ba34-22c831ebeab1.png",
+    "file": "network_kampala_northern_bypass_3601e6f9-9ec7-478d-ba34-22c831ebeab1.png",
+    "type": "image",
+    "title": "Kampala Northern Bypass",
+    "source": "12.Media",
+    "category": "landmark"
+  },
+  {
+    "id": "network_kampala_northern_bypass_cce79fd1-5f3d-4cf7-ad07-bea3571f1980.png",
+    "file": "network_kampala_northern_bypass_cce79fd1-5f3d-4cf7-ad07-bea3571f1980.png",
+    "type": "image",
+    "title": "Kampala Northern Bypass",
+    "source": "12.Media",
+    "category": "landmark"
+  },
+  {
+    "id": "network_uav2018_dji_0251.jpg",
+    "file": "network_uav2018_dji_0251.jpg",
+    "type": "image",
+    "title": "Uav2018 Dji 0251",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav2018_dji_0252.jpg",
+    "file": "network_uav2018_dji_0252.jpg",
+    "type": "image",
+    "title": "Uav2018 Dji 0252",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav2018_dji_0253.jpg",
+    "file": "network_uav2018_dji_0253.jpg",
+    "type": "image",
+    "title": "Uav2018 Dji 0253",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav2018_dji_0254.jpg",
+    "file": "network_uav2018_dji_0254.jpg",
+    "type": "image",
+    "title": "Uav2018 Dji 0254",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav2018_dji_0255.jpg",
+    "file": "network_uav2018_dji_0255.jpg",
+    "type": "image",
+    "title": "Uav2018 Dji 0255",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav2018_dji_0256.jpg",
+    "file": "network_uav2018_dji_0256.jpg",
+    "type": "image",
+    "title": "Uav2018 Dji 0256",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav2018_dji_0257.jpg",
+    "file": "network_uav2018_dji_0257.jpg",
+    "type": "image",
+    "title": "Uav2018 Dji 0257",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav2018_dji_0258.jpg",
+    "file": "network_uav2018_dji_0258.jpg",
+    "type": "image",
+    "title": "Uav2018 Dji 0258",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav_bbk_dji_0213.jpg",
+    "file": "network_uav_bbk_dji_0213.jpg",
+    "type": "image",
+    "title": "Uav Bbk Dji 0213",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav_bbk_dji_0214.jpg",
+    "file": "network_uav_bbk_dji_0214.jpg",
+    "type": "image",
+    "title": "Uav Bbk Dji 0214",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav_bbk_dji_0215.jpg",
+    "file": "network_uav_bbk_dji_0215.jpg",
+    "type": "image",
+    "title": "Uav Bbk Dji 0215",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav_bbk_dji_0216.jpg",
+    "file": "network_uav_bbk_dji_0216.jpg",
+    "type": "image",
+    "title": "Uav Bbk Dji 0216",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav_bbk_dji_0217.jpg",
+    "file": "network_uav_bbk_dji_0217.jpg",
+    "type": "image",
+    "title": "Uav Bbk Dji 0217",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav_bbk_dji_0218.jpg",
+    "file": "network_uav_bbk_dji_0218.jpg",
+    "type": "image",
+    "title": "Uav Bbk Dji 0218",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav_bbk_dji_0219.jpg",
+    "file": "network_uav_bbk_dji_0219.jpg",
+    "type": "image",
+    "title": "Uav Bbk Dji 0219",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav_bbk_dji_0220.jpg",
+    "file": "network_uav_bbk_dji_0220.jpg",
+    "type": "image",
+    "title": "Uav Bbk Dji 0220",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav_kaseyi_dji_0138.jpg",
+    "file": "network_uav_kaseyi_dji_0138.jpg",
+    "type": "image",
+    "title": "Uav Kaseyi Dji 0138",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav_kaseyi_dji_0139.jpg",
+    "file": "network_uav_kaseyi_dji_0139.jpg",
+    "type": "image",
+    "title": "Uav Kaseyi Dji 0139",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav_kaseyi_dji_0140.jpg",
+    "file": "network_uav_kaseyi_dji_0140.jpg",
+    "type": "image",
+    "title": "Uav Kaseyi Dji 0140",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav_kaseyi_dji_0141.jpg",
+    "file": "network_uav_kaseyi_dji_0141.jpg",
+    "type": "image",
+    "title": "Uav Kaseyi Dji 0141",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav_kaseyi_dji_0142.jpg",
+    "file": "network_uav_kaseyi_dji_0142.jpg",
+    "type": "image",
+    "title": "Uav Kaseyi Dji 0142",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav_kaseyi_dji_0143.jpg",
+    "file": "network_uav_kaseyi_dji_0143.jpg",
+    "type": "image",
+    "title": "Uav Kaseyi Dji 0143",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav_kaseyi_dji_0144.jpg",
+    "file": "network_uav_kaseyi_dji_0144.jpg",
+    "type": "image",
+    "title": "Uav Kaseyi Dji 0144",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav_kaseyi_dji_0145.jpg",
+    "file": "network_uav_kaseyi_dji_0145.jpg",
+    "type": "image",
+    "title": "Uav Kaseyi Dji 0145",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav_lutoboka_dji_0001.jpg",
+    "file": "network_uav_lutoboka_dji_0001.jpg",
+    "type": "image",
+    "title": "Uav Lutoboka Dji 0001",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav_lutoboka_dji_0002.jpg",
+    "file": "network_uav_lutoboka_dji_0002.jpg",
+    "type": "image",
+    "title": "Uav Lutoboka Dji 0002",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav_lutoboka_dji_0003.jpg",
+    "file": "network_uav_lutoboka_dji_0003.jpg",
+    "type": "image",
+    "title": "Uav Lutoboka Dji 0003",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav_lutoboka_dji_0004.jpg",
+    "file": "network_uav_lutoboka_dji_0004.jpg",
+    "type": "image",
+    "title": "Uav Lutoboka Dji 0004",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav_lutoboka_dji_0005.jpg",
+    "file": "network_uav_lutoboka_dji_0005.jpg",
+    "type": "image",
+    "title": "Uav Lutoboka Dji 0005",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav_lutoboka_dji_0006.jpg",
+    "file": "network_uav_lutoboka_dji_0006.jpg",
+    "type": "image",
+    "title": "Uav Lutoboka Dji 0006",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav_lutoboka_dji_0007.jpg",
+    "file": "network_uav_lutoboka_dji_0007.jpg",
+    "type": "image",
+    "title": "Uav Lutoboka Dji 0007",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "network_uav_lutoboka_dji_0008.jpg",
+    "file": "network_uav_lutoboka_dji_0008.jpg",
+    "type": "image",
+    "title": "Uav Lutoboka Dji 0008",
+    "source": "12.Media",
+    "category": "drone"
+  },
+  {
+    "id": "northern_bypass.png",
+    "file": "northern_bypass.png",
+    "type": "image",
+    "title": "Northern Bypass",
+    "source": "Annual Monitoring",
+    "category": "landmark"
+  },
+  {
+    "id": "roads",
+    "file": "roads",
+    "type": "image",
+    "title": "Roads",
+    "source": "Annual Monitoring",
+    "category": "general"
+  }
+]

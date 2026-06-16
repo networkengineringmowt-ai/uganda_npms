@@ -1,0 +1,184 @@
+{
+  "generated_at": "2026-05-29T00:44:24",
+  "method": "Permutation importance (n_repeats=10, 20% validation split)",
+  "interpretation": "importance_mean = mean drop in metric when feature is shuffled. Higher = more important. Negative = feature adds noise for this model.",
+  "models": {
+    "iri_deterioration": {
+      "model": "IRI Deterioration Predictor (MLP)",
+      "metric": "R\u00b2 drop (mean across 3 outputs)",
+      "n_repeats": 10,
+      "features": [
+        {
+          "feature": "iri_2024",
+          "label": "Current IRI",
+          "importance_mean": 2.58965,
+          "importance_std": 0.08159
+        },
+        {
+          "feature": "pct_above_9",
+          "label": "Pct IRI > 9",
+          "importance_mean": 0.13765,
+          "importance_std": 0.00625
+        },
+        {
+          "feature": "surface_enc",
+          "label": "Surface Type",
+          "importance_mean": 0.00361,
+          "importance_std": 0.00022
+        },
+        {
+          "feature": "class_enc",
+          "label": "Road Class",
+          "importance_mean": 0.00266,
+          "importance_std": 0.00016
+        },
+        {
+          "feature": "hgv_pct",
+          "label": "HGV Fraction",
+          "importance_mean": 0.00218,
+          "importance_std": 0.00022
+        },
+        {
+          "feature": "aadt_log",
+          "label": "Traffic (log AADT)",
+          "importance_mean": 0.00148,
+          "importance_std": 0.00019
+        },
+        {
+          "feature": "cesal_ann",
+          "label": "Annual ESALs",
+          "importance_mean": 0.0011,
+          "importance_std": 0.0001
+        },
+        {
+          "feature": "deterioration_rate",
+          "label": "Deterioration Rate",
+          "importance_mean": 0.0011,
+          "importance_std": 0.00012
+        },
+        {
+          "feature": "climate_f",
+          "label": "Climate Factor",
+          "importance_mean": 0.0009,
+          "importance_std": 9e-05
+        },
+        {
+          "feature": "region_enc",
+          "label": "Region",
+          "importance_mean": 0.00074,
+          "importance_std": 0.00012
+        },
+        {
+          "feature": "rut_max_mm",
+          "label": "Max Rut Depth (mm)",
+          "importance_mean": 7e-05,
+          "importance_std": 5e-05
+        },
+        {
+          "feature": "structural_number",
+          "label": "Structural Number",
+          "importance_mean": -0.0,
+          "importance_std": 4e-05
+        }
+      ]
+    },
+    "condition_classifier": {
+      "model": "Condition Classifier (MLP)",
+      "metric": "Accuracy drop",
+      "n_repeats": 10,
+      "features": [
+        {
+          "feature": "pct_above_9",
+          "label": "Pct IRI > 9",
+          "importance_mean": 0.46726,
+          "importance_std": 0.01288
+        },
+        {
+          "feature": "iri_2024",
+          "label": "Current IRI",
+          "importance_mean": 0.44476,
+          "importance_std": 0.01005
+        },
+        {
+          "feature": "class_enc",
+          "label": "Road Class",
+          "importance_mean": 0.00057,
+          "importance_std": 0.00073
+        },
+        {
+          "feature": "surface_enc",
+          "label": "Surface Type",
+          "importance_mean": 0.00041,
+          "importance_std": 0.00075
+        },
+        {
+          "feature": "rut_max_mm",
+          "label": "Max Rut Depth (mm)",
+          "importance_mean": 0.00016,
+          "importance_std": 0.00071
+        },
+        {
+          "feature": "sd_iri",
+          "label": "IRI Std Dev",
+          "importance_mean": -0.00041,
+          "importance_std": 0.00104
+        },
+        {
+          "feature": "aadt_log",
+          "label": "Traffic (log AADT)",
+          "importance_mean": -0.00049,
+          "importance_std": 0.00065
+        }
+      ]
+    },
+    "intervention_predictor": {
+      "model": "Intervention Trigger Predictor (MLP)",
+      "metric": "R\u00b2 drop",
+      "n_repeats": 10,
+      "features": [
+        {
+          "feature": "iri_2024",
+          "label": "Current IRI",
+          "importance_mean": 1.55129,
+          "importance_std": 0.05237
+        },
+        {
+          "feature": "aadt_log",
+          "label": "Traffic (log AADT)",
+          "importance_mean": 0.16285,
+          "importance_std": 0.00921
+        },
+        {
+          "feature": "surface_enc",
+          "label": "Surface Type",
+          "importance_mean": 0.0913,
+          "importance_std": 0.00614
+        },
+        {
+          "feature": "class_enc",
+          "label": "Road Class",
+          "importance_mean": 0.07816,
+          "importance_std": 0.0049
+        },
+        {
+          "feature": "structural_number",
+          "label": "Structural Number",
+          "importance_mean": 0.05932,
+          "importance_std": 0.00733
+        },
+        {
+          "feature": "deterioration_rate",
+          "label": "Deterioration Rate",
+          "importance_mean": 0.0247,
+          "importance_std": 0.00462
+        },
+        {
+          "feature": "region_enc",
+          "label": "Region",
+          "importance_mean": 0.00692,
+          "importance_std": 0.00197
+        }
+      ]
+    }
+  }
+}

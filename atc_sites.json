@@ -1,0 +1,92 @@
+[
+  {
+    "id": "STA-C19402",
+    "road": "Kasangati - Kyaliwajala",
+    "lat": 0.41213,
+    "lng": 32.62789
+  },
+  {
+    "id": "STA-B10102",
+    "road": "Mukono - Kalagi",
+    "lat": 0.58975,
+    "lng": 32.80881
+  },
+  {
+    "id": "STA-B10202",
+    "road": "Njeru - Bukoloto",
+    "lat": 0.61815,
+    "lng": 33.00043
+  },
+  {
+    "id": "STA-A00107",
+    "road": "Kampala - Mukono",
+    "lat": 0.35418,
+    "lng": 32.67418
+  },
+  {
+    "id": "STA-A00211",
+    "road": "Buwama - Lukaya - Nyendo",
+    "lat": -0.20656,
+    "lng": 31.84321
+  },
+  {
+    "id": "STA-C22702",
+    "road": "Lyantonde - Ntusi",
+    "lat": -0.20118,
+    "lng": 31.1528
+  },
+  {
+    "id": "STA-B15203",
+    "road": "Ishaka - Katunguru",
+    "lat": -0.34104,
+    "lng": 30.09325
+  },
+  {
+    "id": "STA-A00522",
+    "road": "Kyenjojo - Fort Portal",
+    "lat": 0.64292,
+    "lng": 30.39284
+  },
+  {
+    "id": "STA-B15005",
+    "road": "Ibanda - Kamwenge",
+    "lat": 0.14098,
+    "lng": 30.44064
+  },
+  {
+    "id": "STA-A01204",
+    "road": "Tirinyi - Budaka - Kamonkoli",
+    "lat": 1.01359,
+    "lng": 33.93387
+  },
+  {
+    "id": "STA-B30502",
+    "road": "Pallisa - Kanyago Bridge",
+    "lat": 1.21607,
+    "lng": 33.79497
+  },
+  {
+    "id": "STA-C92001",
+    "road": "Kumi - Brooks Corner",
+    "lat": 1.48769,
+    "lng": 33.9341
+  },
+  {
+    "id": "STA-B25202",
+    "road": "Lira - Corner Kilak",
+    "lat": 2.48117,
+    "lng": 32.93576
+  },
+  {
+    "id": "STA-C68601",
+    "road": "Lamogi - Amuru Junction",
+    "lat": 2.82765,
+    "lng": 32.05858
+  },
+  {
+    "id": "STA-A00806",
+    "road": "Nebbi - Olevu",
+    "lat": 2.71155,
+    "lng": 31.08223
+  }
+]

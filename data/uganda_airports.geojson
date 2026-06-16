@@ -1,0 +1,11 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","properties":{"name":"Entebbe International Airport","iata":"EBB","type":"international","region":"Central"},"geometry":{"type":"Point","coordinates":[32.4432,0.0424]}},
+{"type":"Feature","properties":{"name":"Arua Airport","iata":"RUA","type":"domestic","region":"West Nile"},"geometry":{"type":"Point","coordinates":[30.9168,3.0500]}},
+{"type":"Feature","properties":{"name":"Gulu Airport","iata":"ULU","type":"domestic","region":"Northern"},"geometry":{"type":"Point","coordinates":[32.2718,2.8056]}},
+{"type":"Feature","properties":{"name":"Kasese Airport","iata":"KSE","type":"domestic","region":"Western"},"geometry":{"type":"Point","coordinates":[30.1000,0.1833]}},
+{"type":"Feature","properties":{"name":"Mbarara Airport","iata":"MBQ","type":"domestic","region":"Western"},"geometry":{"type":"Point","coordinates":[30.8600,-0.5550]}},
+{"type":"Feature","properties":{"name":"Soroti Airport","iata":"SRT","type":"domestic","region":"Eastern"},"geometry":{"type":"Point","coordinates":[33.6228,1.7272]}},
+{"type":"Feature","properties":{"name":"Tororo Airport","iata":"TRY","type":"domestic","region":"Eastern"},"geometry":{"type":"Point","coordinates":[34.1500,0.6833]}},
+{"type":"Feature","properties":{"name":"Pakuba Airfield","iata":"","type":"airfield","region":"Northern"},"geometry":{"type":"Point","coordinates":[31.4900,2.3500]}},
+{"type":"Feature","properties":{"name":"Kidepo Valley Airstrip","iata":"","type":"airstrip","region":"Karamoja"},"geometry":{"type":"Point","coordinates":[33.7500,3.8167]}}
+]}

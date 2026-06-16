@@ -1,0 +1,18 @@
+{
+"type": "FeatureCollection",
+"name": "ferry",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "f1": 1.0, "remarks": "Kiyindi-Buvuma", "ferry_cros": "Kiyindi", "water_body": "L.Victoria", "x_coordina": 33.174333, "y_coordina": 0.276633 }, "geometry": { "type": "Point", "coordinates": [ 33.174333, 0.276633 ] } },
+{ "type": "Feature", "properties": { "f1": 2.0, "remarks": "Masindi port Landing.", "ferry_cros": "Masindi port", "water_body": "R.Nile", "x_coordina": 32.09275, "y_coordina": 1.695567 }, "geometry": { "type": "Point", "coordinates": [ 32.09275, 1.695567 ] } },
+{ "type": "Feature", "properties": { "f1": 3.0, "remarks": "Nakiwogo-Buwaya", "ferry_cros": "Nakiwogo", "water_body": "L.Victoria", "x_coordina": 32.449417, "y_coordina": 0.080583 }, "geometry": { "type": "Point", "coordinates": [ 32.449417, 0.080583 ] } },
+{ "type": "Feature", "properties": { "f1": 4.0, "remarks": "Starting point at Obongi.", "ferry_cros": "Obongi", "water_body": "R.Nile", "x_coordina": 31.559917, "y_coordina": 3.23915 }, "geometry": { "type": "Point", "coordinates": [ 31.559917, 3.23915 ] } },
+{ "type": "Feature", "properties": { "f1": 5.0, "remarks": "Namasale Zengebe", "ferry_cros": "Kyoga", "water_body": "R.Nile", "x_coordina": 32.613639, "y_coordina": 1.488778 }, "geometry": { "type": "Point", "coordinates": [ 32.613639, 1.488778 ] } },
+{ "type": "Feature", "properties": { "f1": 6.0, "remarks": "At Laropi Landing site.", "ferry_cros": "Laropi", "water_body": "R.Nile", "x_coordina": 31.81245, "y_coordina": 3.551583 }, "geometry": { "type": "Point", "coordinates": [ 31.81245, 3.551583 ] } },
+{ "type": "Feature", "properties": { "f1": 7.0, "remarks": "Wanseko", "ferry_cros": "Wanseko", "water_body": "R.Nile", "x_coordina": 31.345233, "y_coordina": 2.203067 }, "geometry": { "type": "Point", "coordinates": [ 31.345233, 2.203067 ] } },
+{ "type": "Feature", "properties": { "f1": 8.0, "remarks": "Bisina", "ferry_cros": "Bisina", "water_body": "L.Bisina", "x_coordina": 33.920875, "y_coordina": 1.639911 }, "geometry": { "type": "Point", "coordinates": [ 33.920875, 1.639911 ] } },
+{ "type": "Feature", "properties": { "f1": 9.0, "remarks": "Katunguru", "ferry_cros": "Katunguru", "water_body": "Kazinga channel", "x_coordina": 30.050934, "y_coordina": -0.126592 }, "geometry": { "type": "Point", "coordinates": [ 30.050934, -0.126592 ] } },
+{ "type": "Feature", "properties": { "f1": 10.0, "remarks": "Semliki", "ferry_cros": "Semliki", "water_body": "R.Semiliki", "x_coordina": 30.230735, "y_coordina": 1.028581 }, "geometry": { "type": "Point", "coordinates": [ 30.230735, 1.028581 ] } },
+{ "type": "Feature", "properties": { "f1": 11.0, "remarks": "Sigulu", "ferry_cros": "Sigulu", "water_body": "L.Victoria", "x_coordina": 33.721722, "y_coordina": 0.039314 }, "geometry": { "type": "Point", "coordinates": [ 33.721722, 0.039314 ] } }
+]
+}

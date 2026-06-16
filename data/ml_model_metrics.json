@@ -1,0 +1,21 @@
+{
+  "model_name": "Ridge Regression IRI Predictor",
+  "model_type": "Regression",
+  "r2_score": 0.9977,
+  "rmse": 0.136,
+  "mae": 0.065,
+  "baseline_rmse": 2.895,
+  "improvement_pct": 95.3,
+  "training_samples": 130,
+  "test_samples": 26,
+  "features": [
+    "region_id",
+    "road_class_encoded",
+    "total_length_km",
+    "pct_poor_iri",
+    "avg_vci",
+    "intervention_encoded"
+  ],
+  "training_date": "2026-06-08T17:44:23.954126",
+  "status": "PRODUCTION READY"
+}
