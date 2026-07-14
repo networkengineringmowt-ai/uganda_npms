@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrative ROMDAS pavement survey frame</title>
+  <desc id="desc">A forward road view with pavement distress markers for the NPMS vision demonstration.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6fa8c5"/>
+      <stop offset="1" stop-color="#dbe7e7"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5b6265"/>
+      <stop offset="1" stop-color="#23282c"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="2" seed="9" result="n"/>
+      <feBlend in="SourceGraphic" in2="n" mode="soft-light"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#sky)"/>
+  <path d="M0 280L190 210 330 250 470 195 650 260 825 205 1010 250 1200 190V430H0Z" fill="#617c42"/>
+  <path d="M0 330L330 270 470 290 690 255 940 300 1200 250V470H0Z" fill="#395c2f"/>
+  <path d="M425 675L548 300H690L865 675Z" fill="url(#road)" filter="url(#grain)"/>
+  <path d="M615 330L624 330 645 675H605Z" fill="#e9ddad" opacity=".78"/>
+  <path d="M520 470L560 442 585 466 550 496 500 505Z" fill="#11171a"/>
+  <path d="M675 515c34-24 70-11 93 6-28 6-54 19-76 42-21-12-27-29-17-48Z" fill="#151a1c"/>
+  <g fill="none" stroke="#1b2022" stroke-width="7" stroke-linecap="round" opacity=".85">
+    <path d="M735 590l-36 22 27 18-44 27"/>
+    <path d="M757 583l-18 21 31 14-24 37"/>
+    <path d="M780 596l-22 18 30 20"/>
+  </g>
+  <g stroke="#fff" stroke-width="5" opacity=".78">
+    <path d="M438 675L556 300"/>
+    <path d="M852 675L686 300"/>
+  </g>
+  <g fill="#172319">
+    <rect x="225" y="220" width="10" height="188"/>
+    <circle cx="230" cy="190" r="55"/>
+    <rect x="930" y="230" width="10" height="175"/>
+    <circle cx="935" cy="203" r="48"/>
+  </g>
+  <g font-family="monospace" font-size="21" fill="#dffcff">
+    <rect x="28" y="26" width="335" height="72" rx="8" fill="#061018" opacity=".82"/>
+    <text x="49" y="56">ROMDAS · A001 LINK 03</text>
+    <text x="49" y="83">CHAINAGE 14+320 · CAM 01</text>
+  </g>
+</svg>
