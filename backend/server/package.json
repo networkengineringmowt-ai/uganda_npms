@@ -1,0 +1,19 @@
+{
+  "name": "uganda-roads-data-entry-server",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Minimal local Express server for privileged Supabase write-back (data entry, surveys, encroachment register, gazette records). Server-side only — uses the Supabase service_role key to bypass RLS for trusted local operators.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "latest",
+    "@supabase/supabase-js": "^2.107.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2"
+  }
+}

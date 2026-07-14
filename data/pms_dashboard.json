@@ -1,0 +1,344 @@
+{
+  "generated_at": "2026-07-14T09:04:36+00:00",
+  "reporting_at": "2026-07-14",
+  "model": {
+    "name": "Uganda Pavement Current Value DNN",
+    "version": "dnn-ae57c60036ce",
+    "algorithm": "Deep multi-output MLP ensemble",
+    "metrics": {
+      "iri_m_per_km": {
+        "r2": 0.93433,
+        "mae": 0.98185
+      },
+      "rut_depth_mm": {
+        "r2": 0.93747,
+        "mae": 1.64832
+      },
+      "vci": {
+        "r2": 0.94003,
+        "mae": 6.4406
+      },
+      "pci": {
+        "r2": 0.94238,
+        "mae": 6.12302
+      },
+      "cracking_percent": {
+        "r2": 0.93949,
+        "mae": 5.17751
+      }
+    }
+  },
+  "source_summary": [
+    {
+      "label": "pavement_manuals",
+      "files": 42,
+      "records": 8
+    },
+    {
+      "label": "road_condition",
+      "files": 333,
+      "records": 6359392
+    },
+    {
+      "label": "road_inventory",
+      "files": 15,
+      "records": 310517
+    }
+  ],
+  "infographics": [
+    {
+      "id": "network",
+      "title": "National Network",
+      "subtitle": "Current gazetted register",
+      "type": "stat",
+      "unit": "km",
+      "payload": {
+        "value": 21102.7,
+        "links": 1149,
+        "paved_km": 6405.1
+      }
+    },
+    {
+      "id": "condition",
+      "title": "Current Condition",
+      "subtitle": "DNN-assimilated link state",
+      "type": "donut",
+      "unit": "links",
+      "payload": [
+        {
+          "label": "Good",
+          "links": 217,
+          "km": 3692.3015793626123
+        },
+        {
+          "label": "Fair",
+          "links": 92,
+          "km": 2241.939683738976
+        },
+        {
+          "label": "Poor",
+          "links": 146,
+          "km": 275.0661584218
+        },
+        {
+          "label": "Very Poor",
+          "links": 694,
+          "km": 14893.36430847814
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "title": "Survey & Model Coverage",
+      "subtitle": "Observed/projected versus imputed",
+      "type": "donut",
+      "unit": "links",
+      "payload": [
+        {
+          "label": "deep_mlp_imputed",
+          "value": 132
+        },
+        {
+          "label": "model_projected_from_observation",
+          "value": 1017
+        }
+      ]
+    },
+    {
+      "id": "iri_trend",
+      "title": "IRI Survey History",
+      "subtitle": "All linked condition observations",
+      "type": "line",
+      "unit": "m/km",
+      "payload": [
+        {
+          "year": 2021,
+          "value": 2.69,
+          "samples": 42513
+        },
+        {
+          "year": 2022,
+          "value": 2.71,
+          "samples": 67272
+        },
+        {
+          "year": 2023,
+          "value": -47965.51,
+          "samples": 202801
+        },
+        {
+          "year": 2024,
+          "value": 3.27,
+          "samples": 102191
+        }
+      ]
+    },
+    {
+      "id": "rutting",
+      "title": "Current Rutting Distribution",
+      "subtitle": "Network quartiles",
+      "type": "bars",
+      "unit": "mm",
+      "payload": [
+        {
+          "label": "Lower quartile",
+          "value": 6.75
+        },
+        {
+          "label": "Median",
+          "value": 17.42
+        },
+        {
+          "label": "Upper quartile",
+          "value": 22.46
+        }
+      ]
+    },
+    {
+      "id": "regional_vci",
+      "title": "Regional Visual Condition",
+      "subtitle": "Current average VCI",
+      "type": "bars",
+      "unit": "VCI",
+      "payload": [
+        {
+          "label": "Central",
+          "value": 63.2,
+          "links": 322
+        },
+        {
+          "label": null,
+          "value": 59.3,
+          "links": 132
+        },
+        {
+          "label": "Western",
+          "value": 47.3,
+          "links": 112
+        },
+        {
+          "label": "Southern",
+          "value": 45.0,
+          "links": 175
+        },
+        {
+          "label": "Eastern",
+          "value": 34.5,
+          "links": 157
+        },
+        {
+          "label": "Northern",
+          "value": 18.6,
+          "links": 157
+        },
+        {
+          "label": "North Eastern",
+          "value": 9.4,
+          "links": 94
+        }
+      ]
+    },
+    {
+      "id": "age",
+      "title": "Pavement Age Profile",
+      "subtitle": "Years since construction/rehabilitation",
+      "type": "bars",
+      "unit": "links",
+      "payload": [
+        {
+          "label": "0-5",
+          "value": 103
+        },
+        {
+          "label": "6-10",
+          "value": 89
+        },
+        {
+          "label": "11-20",
+          "value": 114
+        },
+        {
+          "label": "21+",
+          "value": 35
+        }
+      ]
+    },
+    {
+      "id": "inventory",
+      "title": "Road Inventory Assets",
+      "subtitle": "Cross-linked source features",
+      "type": "bars",
+      "unit": "assets",
+      "payload": [
+        {
+          "label": "Minor Culvert",
+          "value": 49628
+        },
+        {
+          "label": "RSGN",
+          "value": 46251
+        },
+        {
+          "label": "Road Marker Post",
+          "value": 20435
+        },
+        {
+          "label": "Road Sign",
+          "value": 20075
+        },
+        {
+          "label": "JUNC",
+          "value": 16352
+        },
+        {
+          "label": "DRNG",
+          "value": 8733
+        },
+        {
+          "label": "Drainage Structure",
+          "value": 6894
+        },
+        {
+          "label": "SSLP",
+          "value": 6545
+        },
+        {
+          "label": "Speed Restriction",
+          "value": 6444
+        },
+        {
+          "label": "SR",
+          "value": 6202
+        }
+      ]
+    },
+    {
+      "id": "confidence",
+      "title": "Model Confidence",
+      "subtitle": "Current-value provenance",
+      "type": "bars",
+      "unit": "%",
+      "payload": [
+        {
+          "label": "deep_mlp_imputed",
+          "value": 93.9,
+          "samples": 792
+        },
+        {
+          "label": "model_projected_from_observation",
+          "value": 96.4,
+          "samples": 6102
+        }
+      ]
+    },
+    {
+      "id": "maintenance",
+      "title": "Maintenance Outlook",
+      "subtitle": "DNN intervention recommendation",
+      "type": "donut",
+      "unit": "links",
+      "payload": [
+        {
+          "label": "Regravelling",
+          "value": 374
+        },
+        {
+          "label": "Reconstruct (Gravel)",
+          "value": 284
+        },
+        {
+          "label": "None",
+          "value": 212
+        },
+        {
+          "label": null,
+          "value": 132
+        },
+        {
+          "label": "Routine Maintenance",
+          "value": 68
+        },
+        {
+          "label": "Reseal",
+          "value": 27
+        },
+        {
+          "label": "Routine Grading",
+          "value": 21
+        },
+        {
+          "label": "Overlay",
+          "value": 16
+        },
+        {
+          "label": "Rehabilitation",
+          "value": 10
+        },
+        {
+          "label": "Reconstruction",
+          "value": 5
+        }
+      ]
+    }
+  ]
+}
