@@ -1,0 +1,1 @@
+function o(r){return r==null||Number.isNaN(r)?null:r>=85?"Very Good":r>=75?"Good":r>=65?"Fair":r>=55?"Poor":"Very Poor"}const f={"Very Good":"#00ff88",Good:"#00f5ff",Fair:"#ffd23f",Poor:"#ff6b35","Very Poor":"#ff2d78"};export{f as V,o as v};
