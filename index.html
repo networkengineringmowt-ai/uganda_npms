@@ -1,24 +1,525 @@
-<!doctype html>
-<html lang="en" class="dark">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/uganda_npms/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#060a14" />
-    <title>Uganda National Pavement Management System — DNR</title>
-    <meta name="description" content="Department of National Roads, Ministry of Works and Transport — National Pavement Management System." />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
-    <style>
-      html, body, #root { height: 100%; margin: 0; }
-      body { overflow: hidden; background: #020617; }
-    </style>
-    <script type="module" crossorigin src="/uganda_npms/assets/index-CMk4TKlj.js"></script>
-    <link rel="modulepreload" crossorigin href="/uganda_npms/assets/vendor-recharts-CSIBQ1ym.js">
-    <link rel="stylesheet" crossorigin href="/uganda_npms/assets/index-IO95qljC.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="Dept. of National Roads — Ministry of Works & Transport — National Pavement Management System (NPMS)">
+<title>Uganda National Pavement Management System — DNR</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#060606;color:#ccc;font-family:'Segoe UI',system-ui,sans-serif;display:flex;height:100vh;overflow:hidden}
+/* SIDEBAR */
+#sidebar{width:220px;min-width:220px;background:#080808;border-right:1px solid #ffffff08;display:flex;flex-direction:column;overflow-y:auto}
+.logo-block{padding:16px 16px 12px;border-bottom:1px solid #ffffff08}
+.logo-title{color:#00f5ff;font-size:14px;font-weight:800;letter-spacing:.5px}
+.logo-sub{color:#555;font-size:10px;margin-top:2px}
+.kpi-strip{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;background:#ffffff08;border-bottom:1px solid #ffffff08}
+.kpi-mini{background:#080808;padding:10px 8px;text-align:center}
+.kpi-mini .v{color:#00f5ff;font-size:16px;font-weight:800;font-family:monospace}
+.kpi-mini .l{color:#444;font-size:9px;text-transform:uppercase;margin-top:2px}
+.nav-section{padding:10px 0}
+.nav-label{color:#333;font-size:9px;text-transform:uppercase;letter-spacing:1px;padding:6px 16px 4px}
+.nav-item{display:flex;align-items:center;gap:8px;padding:8px 16px;color:#666;font-size:12.5px;cursor:pointer;transition:all .15s;border-left:3px solid transparent}
+.nav-item:hover{color:#aaa;background:#ffffff05}
+.nav-item.active{color:#00f5ff;background:#00f5ff0d;border-left-color:#00f5ff}
+.nav-item .ic{font-size:13px;width:16px;text-align:center}
+/* MAIN */
+#main{flex:1;display:flex;flex-direction:column;overflow:hidden}
+/* TOPBAR */
+#topbar{display:flex;align-items:center;gap:12px;padding:0 20px;height:46px;border-bottom:1px solid #ffffff0a;flex-shrink:0;background:#050505}
+.tb-module{color:#00f5ff;font-size:12px;font-weight:700;letter-spacing:.4px}
+.tb-time{color:#444;font-size:11px;margin-left:auto}
+.tb-user{color:#888;font-size:11px;background:#ffffff08;padding:4px 10px;border-radius:4px}
+.tb-badge{background:#00f5ff18;color:#00f5ff;font-size:10px;font-weight:700;padding:3px 8px;border-radius:4px;border:1px solid #00f5ff33}
+/* CONTENT */
+#content{flex:1;overflow-y:auto;padding:20px}
+/* SUBTABS */
+.subtabs{display:flex;gap:6px;margin-bottom:18px;flex-wrap:wrap}
+.stab{padding:8px 16px;border-radius:6px;font-size:11.5px;font-weight:700;cursor:pointer;border:1px solid #00f5ff22;background:#111;color:#555;transition:all .2s}
+.stab:hover{color:#aaa;background:#ffffff05}
+.stab.on{background:#00f5ff18;color:#00f5ff;border-color:#00f5ff55}
+/* PANELS */
+.panel{display:none}.panel.active{display:block}
+/* KPIROW */
+.kpi-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:18px}
+.kpi-card{background:#0f0f0f;border:1px solid #ffffff0a;border-left:3px solid #00f5ff;border-radius:8px;padding:14px 16px}
+.kpi-card.g{border-left-color:#00ff88}.kpi-card.o{border-left-color:#ff6600}.kpi-card.p{border-left-color:#ff006e}.kpi-card.y{border-left-color:#ffee00}
+.kpi-lbl{color:#555;font-size:9.5px;text-transform:uppercase;letter-spacing:.6px}
+.kpi-val{font-size:24px;font-weight:800;font-family:monospace;color:#00f5ff;margin:5px 0 2px}
+.kpi-val.g{color:#00ff88}.kpi-val.o{color:#ff6600}.kpi-val.p{color:#ff006e}.kpi-val.y{color:#ffee00}
+.kpi-sub{color:#444;font-size:11px}
+/* CARD */
+.card{background:#0f0f0f;border:1px solid #ffffff0a;border-radius:8px;padding:16px;margin-bottom:16px}
+.card-title{color:#00f5ff;font-size:12.5px;font-weight:700;letter-spacing:.3px;margin-bottom:14px}
+/* TABLE */
+.tbl{width:100%;border-collapse:collapse;font-size:12.5px}
+.tbl th{background:#0d0d0d;color:#00f5ff;padding:9px 11px;text-align:left;font-size:10px;text-transform:uppercase;letter-spacing:.5px;border-bottom:1px solid #00f5ff18;white-space:nowrap}
+.tbl td{padding:9px 11px;border-bottom:1px solid #ffffff06;color:#bbb;vertical-align:middle}
+.tbl tr:hover td{background:#ffffff03}
+/* BADGES */
+.badge{display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600}
+.bg{background:#00ff8818;color:#00ff88}.by{background:#ffee0018;color:#ffee00}.bo{background:#ff660018;color:#ff6600}.br{background:#ff004018;color:#ff0040}
+/* MAP */
+.mapbox{height:400px;border-radius:8px;border:1px solid #ffffff0a}
+/* LEGEND */
+.legend{display:flex;gap:14px;margin-top:10px;font-size:12px;flex-wrap:wrap}
+.legend span{display:flex;align-items:center;gap:5px}
+/* RANGE */
+input[type=range]{accent-color:#00f5ff;width:100%}
+/* PROGRESS BAR */
+.pbar{background:#111;border-radius:4px;height:6px;width:100%;margin-bottom:4px}
+.pbar-fill{height:100%;border-radius:4px}
+/* BUDGET GRID */
+.bud-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-top:12px}
+.bud-box{background:#0d0d0d;border:1px solid #00f5ff1a;border-radius:8px;padding:14px;text-align:center}
+.bud-box .t{color:#555;font-size:11px;margin-bottom:6px}
+.bud-box .v{color:#00f5ff;font-size:28px;font-weight:800;font-family:monospace}
+.bud-box .s{color:#444;font-size:11px;margin-top:3px}
+/* FILTER ROW */
+.filter-row{display:flex;gap:6px;margin-bottom:14px;flex-wrap:wrap}
+/* COND bar */
+.cond-bar-wrap{display:flex;gap:2px;height:18px;border-radius:4px;overflow:hidden;flex:1}
+.cond-seg{display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;color:#000}
+/* NETWORK FIGURES bar */
+.netfig{background:#0a0a0a;border:1px solid #ffffff06;border-radius:6px;padding:8px 14px;font-size:11px;color:#555;margin-bottom:16px;display:flex;gap:16px;flex-wrap:wrap}
+.netfig span{color:#888}
+.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:#111;color:#ccc}
+</style>
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<div id="sidebar">
+  <div class="logo-block">
+    <div class="logo-title">NPMS</div>
+    <div class="logo-sub">National Pavement Mgmt System</div>
+    <div class="logo-sub" style="margin-top:4px;color:#333">Ministry of Works &amp; Transport · DNR</div>
+  </div>
+  <div class="kpi-strip">
+    <div class="kpi-mini"><div class="v">6,405</div><div class="l">Paved km</div></div>
+    <div class="kpi-mini"><div class="v" style="color:#ff6600">4.2</div><div class="l">Avg IRI</div></div>
+    <div class="kpi-mini"><div class="v" style="color:#ff0040">68%</div><div class="l">Needs Tx</div></div>
+  </div>
+  <div class="nav-section">
+    <div class="nav-label">Pavement</div>
+    <div class="nav-item active" onclick="switchTab('kpis',this)"><span class="ic">📊</span>KPIs by Region</div>
+    <div class="nav-item" onclick="switchTab('iri',this)"><span class="ic">📉</span>IRI Distribution</div>
+    <div class="nav-item" onclick="switchTab('heatmap',this)"><span class="ic">🗺</span>Condition Map</div>
+    <div class="nav-item" onclick="switchTab('maintenance',this)"><span class="ic">🔧</span>Maintenance Needs</div>
+    <div class="nav-item" onclick="switchTab('budget',this)"><span class="ic">💰</span>Budget Allocation</div>
+  </div>
+  <div class="nav-section">
+    <div class="nav-label">Related Systems</div>
+    <div class="nav-item" onclick="window.open('https://networkengineringmowt-ai.github.io/uganda_nrms/')"><span class="ic">🛣</span>NRMS Overview</div>
+    <div class="nav-item" onclick="window.open('https://networkengineringmowt-ai.github.io/uganda_nrms/dashboard.html')"><span class="ic">📈</span>100-Chart Dashboard</div>
+    <div class="nav-item" onclick="window.open('https://networkengineringmowt-ai.github.io/uganda_gis_enterprise/')"><span class="ic">🌍</span>GIS Enterprise</div>
+    <div class="nav-item" onclick="window.open('https://networkengineringmowt-ai.github.io/bridge_mculverts/')"><span class="ic">🌉</span>Bridge Mgmt (NBMS)</div>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div id="main">
+  <!-- TOPBAR -->
+  <div id="topbar">
+    <div style="color:#555;font-size:11px">NPMS</div>
+    <div style="color:#333;font-size:12px">—</div>
+    <div class="tb-module">NATIONAL PAVEMENT MANAGEMENT SYSTEM</div>
+    <div class="tb-badge">NPMS v2.0 · FY25-26</div>
+    <div class="tb-time" id="clk"></div>
+    <div class="tb-user">Prisca Nanjehe &nbsp;|&nbsp; Admin (full access)</div>
+  </div>
+
+  <!-- CONTENT -->
+  <div id="content">
+
+    <!-- ═══════════════════════════════════════════════════ KPIS -->
+    <div id="tab-kpis" class="panel active">
+      <div class="kpi-row">
+        <div class="kpi-card"><div class="kpi-lbl">Total Paved Roads</div><div class="kpi-val">12,547</div><div class="kpi-sub">km surveyed (ROMDAS)</div></div>
+        <div class="kpi-card g"><div class="kpi-lbl">Good Condition</div><div class="kpi-val g">27%</div><div class="kpi-sub">IRI ≤ 4 m/km</div></div>
+        <div class="kpi-card y"><div class="kpi-lbl">Fair Condition</div><div class="kpi-val y">40%</div><div class="kpi-sub">IRI 4–6 m/km</div></div>
+        <div class="kpi-card o"><div class="kpi-lbl">Poor Condition</div><div class="kpi-val o">24%</div><div class="kpi-sub">IRI 6–8 m/km</div></div>
+        <div class="kpi-card p"><div class="kpi-lbl">Critical</div><div class="kpi-val p">9%</div><div class="kpi-sub">IRI &gt; 8 m/km</div></div>
+        <div class="kpi-card"><div class="kpi-lbl">National Avg IRI</div><div class="kpi-val">4.2</div><div class="kpi-sub">m/km · target 3.5 by 2028</div></div>
+      </div>
+
+      <div class="netfig">
+        <span>Network: <b style="color:#00f5ff">6,405 km paved</b> of 21,302 km total</span>
+        <span>|</span><span>Survey base year: <b style="color:#aaa">2023 ROMDAS</b></span>
+        <span>|</span><span>HDM-4 calibration: <b style="color:#aaa">current</b></span>
+        <span>|</span><span>Source: NDP IV FY25-26 (MoWT)</span>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Condition by Region — FY 2025/26</div>
+        <table class="tbl">
+          <thead><tr>
+            <th>Region</th><th>Total (km)</th><th>Paved (km)</th>
+            <th>Condition Profile</th>
+            <th>Good %</th><th>Fair %</th><th>Poor %</th><th>Critical %</th><th>Avg IRI</th>
+          </tr></thead>
+          <tbody id="region-tbody"></tbody>
+        </table>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Condition Map — Road Network Colour-Coded by Condition</div>
+        <div class="legend" style="margin-bottom:10px">
+          <span><span style="color:#00ff88">■</span> Good</span>
+          <span><span style="color:#ffee00">■</span> Fair</span>
+          <span><span style="color:#ff6600">■</span> Poor</span>
+          <span><span style="color:#ff0040">■</span> Critical</span>
+        </div>
+        <div id="map1" class="mapbox"></div>
+        <div style="margin-top:8px;font-size:11px;color:#444">Click any road link for detailed condition info</div>
+      </div>
+    </div><!-- /kpis -->
+
+    <!-- ═══════════════════════════════════════════════════ IRI -->
+    <div id="tab-iri" class="panel">
+      <div class="kpi-row">
+        <div class="kpi-card"><div class="kpi-lbl">National Avg IRI</div><div class="kpi-val">4.2 m/km</div><div class="kpi-sub">FY 2025/26 baseline</div></div>
+        <div class="kpi-card g"><div class="kpi-lbl">IRI Target 2028</div><div class="kpi-val g">3.5 m/km</div><div class="kpi-sub">NDP IV objective</div></div>
+        <div class="kpi-card o"><div class="kpi-lbl">Surveyed Network</div><div class="kpi-val o">12,547 km</div><div class="kpi-sub">ROMDAS &amp; HDM-4</div></div>
+        <div class="kpi-card p"><div class="kpi-lbl">Exceeds IRI 6</div><div class="kpi-val p">33%</div><div class="kpi-sub">poor + critical combined</div></div>
+      </div>
+      <div class="card">
+        <div class="card-title">IRI Distribution — National Road Network (% of surveyed km)</div>
+        <div style="height:320px;position:relative"><canvas id="iriChart"></canvas></div>
+        <div style="margin-top:12px;font-size:11px;color:#555">IRI = International Roughness Index (m/km) &nbsp;|&nbsp; Good ≤ 4 &nbsp;|&nbsp; Fair 4–6 &nbsp;|&nbsp; Poor 6–8 &nbsp;|&nbsp; Critical > 8</div>
+      </div>
+      <div class="card">
+        <div class="card-title">IRI by Road Class</div>
+        <table class="tbl">
+          <thead><tr><th>Road Class</th><th>Surveyed km</th><th>Very Good (0–2)</th><th>Good (2–4)</th><th>Fair (4–6)</th><th>Poor (6–8)</th><th>Critical (8+)</th><th>Avg IRI</th></tr></thead>
+          <tbody>
+            <tr><td>National</td><td>5,200 km</td><td>8%</td><td>30%</td><td>28%</td><td>20%</td><td>14%</td><td><b style="color:#00f5ff">3.8</b></td></tr>
+            <tr><td>Urban</td><td>3,100 km</td><td>4%</td><td>22%</td><td>34%</td><td>26%</td><td>14%</td><td><b style="color:#00f5ff">4.5</b></td></tr>
+            <tr><td>District</td><td>3,640 km</td><td>2%</td><td>18%</td><td>32%</td><td>26%</td><td>22%</td><td><b style="color:#ff6600">5.2</b></td></tr>
+            <tr><td>Community</td><td>607 km</td><td>1%</td><td>10%</td><td>28%</td><td>34%</td><td>27%</td><td><b style="color:#ff0040">6.4</b></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card">
+        <div class="card-title">IRI Trend — National Road Network (2018–2026)</div>
+        <div style="height:220px;position:relative"><canvas id="iriTrend"></canvas></div>
+      </div>
+    </div><!-- /iri -->
+
+    <!-- ═══════════════════════════════════════════════════ HEATMAP -->
+    <div id="tab-heatmap" class="panel">
+      <div class="card">
+        <div class="card-title">Road Condition Heatmap — Uganda National Network</div>
+        <div class="legend" style="margin-bottom:10px">
+          <span style="background:#00ff8818;color:#00ff88;padding:3px 10px;border-radius:4px;border:1px solid #00ff8833">■ Good</span>
+          <span style="background:#ffee0018;color:#ffee00;padding:3px 10px;border-radius:4px;border:1px solid #ffee0033">■ Fair</span>
+          <span style="background:#ff660018;color:#ff6600;padding:3px 10px;border-radius:4px;border:1px solid #ff660033">■ Poor</span>
+          <span style="background:#ff004018;color:#ff0040;padding:3px 10px;border-radius:4px;border:1px solid #ff004033">■ Critical</span>
+        </div>
+        <div id="map3" class="mapbox" style="height:460px"></div>
+        <div style="margin-top:8px;font-size:11px;color:#444">Click any corridor for condition, IRI, and treatment details</div>
+      </div>
+    </div><!-- /heatmap -->
+
+    <!-- ═══════════════════════════════════════════════════ MAINTENANCE -->
+    <div id="tab-maintenance" class="panel">
+      <div class="kpi-row">
+        <div class="kpi-card"><div class="kpi-lbl">Total Need FY25/26</div><div class="kpi-val">UGX 847B</div><div class="kpi-sub">all treatment types</div></div>
+        <div class="kpi-card p"><div class="kpi-lbl">Reconstruction</div><div class="kpi-val p">UGX 312B</div><div class="kpi-sub">critical roads</div></div>
+        <div class="kpi-card o"><div class="kpi-lbl">Rehabilitation</div><div class="kpi-val o">UGX 284B</div><div class="kpi-sub">poor roads</div></div>
+        <div class="kpi-card g"><div class="kpi-lbl">Resealing</div><div class="kpi-val g">UGX 158B</div><div class="kpi-sub">fair roads</div></div>
+      </div>
+      <div class="filter-row" id="treat-filters"></div>
+      <div class="card">
+        <div class="card-title" id="maint-title">Maintenance Needs Register</div>
+        <table class="tbl">
+          <thead><tr>
+            <th>Road ID</th><th>Section</th><th>Length</th><th>Condition</th>
+            <th>Treatment</th><th>Unit Cost</th><th>Total Cost</th><th>Priority ▼</th>
+          </tr></thead>
+          <tbody id="maint-tbody"></tbody>
+        </table>
+      </div>
+    </div><!-- /maintenance -->
+
+    <!-- ═══════════════════════════════════════════════════ BUDGET -->
+    <div id="tab-budget" class="panel">
+      <div class="card">
+        <div class="card-title">Budget Allocation Tool — FY 2025/26</div>
+        <div style="display:flex;align-items:center;gap:16px;margin-bottom:16px">
+          <span style="color:#aaa;font-size:13px;min-width:120px">Budget: UGX</span>
+          <input type="range" id="budSlider" min="0" max="500" value="200" oninput="updateBudget(this.value)">
+          <span id="budVal" style="color:#00f5ff;font-size:26px;font-weight:800;font-family:monospace;min-width:80px">200B</span>
+        </div>
+        <div class="bud-grid" id="bud-boxes"></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Priority Investment — Top 10 Roads</div>
+        <table class="tbl">
+          <thead><tr>
+            <th>Road ID</th><th>Section</th><th>Length</th><th>Condition</th>
+            <th>Treatment</th><th>Priority Score</th><th>Est. Cost</th>
+          </tr></thead>
+          <tbody id="priority-tbody"></tbody>
+        </table>
+      </div>
+      <div class="card">
+        <div class="card-title">Budget Coverage — km Funded at UGX <span id="budVal2">200</span>B</div>
+        <div style="height:240px"><canvas id="budChart"></canvas></div>
+      </div>
+    </div><!-- /budget -->
+
+  </div><!-- /content -->
+</div><!-- /main -->
+
+<script>
+// ─── DATA ───────────────────────────────────────────────────────────────────
+const REGIONS=[
+  {r:'Central', total:32180,paved:2840,good:34,fair:32,poor:22,crit:12,iri:4.1},
+  {r:'Eastern', total:38420,paved:1920,good:29,fair:38,poor:24,crit:9, iri:4.6},
+  {r:'Northern',total:42600,paved:1640,good:22,fair:41,poor:26,crit:11,iri:5.3},
+  {r:'Western', total:46423,paved:1800,good:24,fair:39,poor:25,crit:12,iri:5.0},
+];
+
+const MAINT=[
+  {id:'A109-001',sec:'Kampala–Gayaza km 0–14',       len:14, cond:'Poor',     tx:'Periodic Resealing',  uc:180, pri:8.2},
+  {id:'A109-002',sec:'Gayaza–Zirobwe km 14–42',      len:28, cond:'Poor',     tx:'Rehabilitation',      uc:320, pri:7.8},
+  {id:'A109-003',sec:'Zirobwe–Wobulenzi km 42–68',   len:26, cond:'Fair',     tx:'Routine Maintenance', uc:45,  pri:5.1},
+  {id:'A109-004',sec:'Wobulenzi–Luwero km 68–96',    len:28, cond:'Good',     tx:'Routine Maintenance', uc:45,  pri:2.4},
+  {id:'B23-001', sec:'Masaka–Mbarara km 0–40',       len:40, cond:'Critical', tx:'Reconstruction',      uc:680, pri:9.6},
+  {id:'B23-002', sec:'Mbarara–Bushenyi km 40–90',    len:50, cond:'Poor',     tx:'Rehabilitation',      uc:320, pri:7.4},
+  {id:'A104-001',sec:'Kampala–Entebbe km 0–42',      len:42, cond:'Good',     tx:'Routine Maintenance', uc:45,  pri:1.8},
+  {id:'A104-002',sec:'Masaka–Mbarara km 130–200',    len:70, cond:'Critical', tx:'Reconstruction',      uc:680, pri:9.1},
+  {id:'B33-001', sec:'Iganga–Bugiri km 0–38',        len:38, cond:'Poor',     tx:'Rehabilitation',      uc:320, pri:7.1},
+  {id:'B33-002', sec:'Bugiri–Busia km 38–64',        len:26, cond:'Fair',     tx:'Periodic Resealing',  uc:180, pri:4.8},
+  {id:'A109N-001',sec:'Gulu–Kitgum km 0–68',         len:68, cond:'Critical', tx:'Reconstruction',      uc:680, pri:9.8},
+  {id:'A109N-002',sec:'Lira–Soroti km 0–84',         len:84, cond:'Poor',     tx:'Rehabilitation',      uc:320, pri:7.6},
+  {id:'B10-001', sec:'Fort Portal–Kasese km 0–52',   len:52, cond:'Fair',     tx:'Periodic Resealing',  uc:180, pri:4.2},
+  {id:'B10-002', sec:'Kasese–Hima km 52–80',         len:28, cond:'Good',     tx:'Routine Maintenance', uc:45,  pri:1.6},
+  {id:'D1080-001',sec:'Mityana–Mubende km 0–68',     len:68, cond:'Critical', tx:'Reconstruction',      uc:680, pri:9.3},
+];
+
+const LINKS=[
+  {id:'A109N',name:'Kampala–Gulu',    cond:'Fair',    coords:[[0.317,32.616],[0.8,32.5],[1.5,32.4],[2.78,32.299]]},
+  {id:'A109W',name:'Kampala–Mbarara', cond:'Poor',    coords:[[0.317,32.616],[0.1,32.3],[-0.2,31.8],[-0.61,30.64]]},
+  {id:'A109E',name:'Kampala–Tororo',  cond:'Good',    coords:[[0.317,32.616],[0.45,33.2],[0.68,34.18]]},
+  {id:'A104', name:'Kampala–Kabale',  cond:'Poor',    coords:[[0.317,32.616],[0.1,31.8],[-0.5,30.9],[-1.25,29.99]]},
+  {id:'A104E',name:'Kampala–Entebbe', cond:'Good',    coords:[[0.317,32.616],[0.2,32.51],[0.06,32.46]]},
+  {id:'B23',  name:'Masaka–Mbarara',  cond:'Critical',coords:[[-0.33,31.74],[-0.6,31.15],[-0.61,30.64]]},
+  {id:'B33',  name:'Iganga–Busia',    cond:'Poor',    coords:[[0.61,33.49],[0.68,34.18]]},
+  {id:'B10',  name:'Fort Portal–Kasese',cond:'Fair',  coords:[[0.65,30.27],[0.18,30.08]]},
+];
+
+const CCOL={Good:'#00ff88',Fair:'#ffee00',Poor:'#ff6600',Critical:'#ff0040'};
+const CBADGE={Good:'bg',Fair:'by',Poor:'bo',Critical:'br'};
+
+// ─── CLOCK ───────────────────────────────────────────────────────────────────
+function tick(){
+  var d=new Date();
+  document.getElementById('clk').textContent=
+    ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'][d.getDay()]+', '+
+    d.getDate()+' '+['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][d.getMonth()]+' '+d.getFullYear()+
+    '  '+String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0')+':'+String(d.getSeconds()).padStart(2,'0')+' EAT';
+}
+setInterval(tick,1000);tick();
+
+// ─── TAB SWITCHING ────────────────────────────────────────────────────────────
+var inited={};
+function switchTab(id,el){
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));
+  document.getElementById('tab-'+id).classList.add('active');
+  if(el) el.classList.add('active');
+  if(!inited[id]){inited[id]=true;initTab(id);}
+}
+
+function initTab(id){
+  if(id==='kpis')        initKpis();
+  else if(id==='iri')    initIRI();
+  else if(id==='heatmap')initHeatmap();
+  else if(id==='maintenance')initMaint();
+  else if(id==='budget') initBudget();
+}
+
+// ─── KPIs ─────────────────────────────────────────────────────────────────────
+function condBar(r){
+  return '<div class="cond-bar-wrap">'+
+    '<div class="cond-seg" style="width:'+r.good+'%;background:#00ff8855;color:#00ff88">'+r.good+'%</div>'+
+    '<div class="cond-seg" style="width:'+r.fair+'%;background:#ffee0055;color:#ffee00">'+r.fair+'%</div>'+
+    '<div class="cond-seg" style="width:'+r.poor+'%;background:#ff660055;color:#ff6600">'+r.poor+'%</div>'+
+    '<div class="cond-seg" style="width:'+r.crit+'%;background:#ff004055;color:#ff0040">'+r.crit+'%</div>'+
+  '</div>';
+}
+function initKpis(){
+  var tb=document.getElementById('region-tbody');
+  tb.innerHTML=REGIONS.map(r=>'<tr>'+
+    '<td><b style="color:#e0e0e0">'+r.r+'</b></td>'+
+    '<td>'+r.total.toLocaleString()+'</td>'+
+    '<td>'+r.paved.toLocaleString()+'</td>'+
+    '<td style="min-width:160px">'+condBar(r)+'</td>'+
+    '<td><span style="color:#00ff88">'+r.good+'%</span></td>'+
+    '<td><span style="color:#ffee00">'+r.fair+'%</span></td>'+
+    '<td><span style="color:#ff6600">'+r.poor+'%</span></td>'+
+    '<td><span style="color:#ff0040">'+r.crit+'%</span></td>'+
+    '<td><b style="color:#00f5ff">'+r.iri+'</b></td>'+
+  '</tr>').join('');
+  // Map
+  var m=L.map('map1').setView([1.373,32.290],7);
+  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}').addTo(m);
+  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}',{opacity:.7}).addTo(m);
+  LINKS.forEach(function(r){
+    L.polyline(r.coords,{color:CCOL[r.cond]||'#888',weight:5,opacity:.85})
+     .bindPopup('<div style="background:#111;padding:10px;min-width:160px"><b style="color:#00f5ff">'+r.id+'</b><br>'+r.name+'<br>Condition: <b style="color:'+CCOL[r.cond]+'">'+r.cond+'</b></div>')
+     .addTo(m);
+  });
+}
+
+// ─── IRI ──────────────────────────────────────────────────────────────────────
+function initIRI(){
+  new Chart(document.getElementById('iriChart'),{
+    type:'bar',
+    data:{
+      labels:['0–2 Very Good','2–4 Good','4–6 Fair','6–8 Poor','8–10 Critical','10+ Failed'],
+      datasets:[{label:'% of Network',data:[5,26,31,22,11,5],
+        backgroundColor:['#00ff88','#00f5ff','#ffee00','#ff6600','#ff0040','#bf00ff']}]
+    },
+    options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false},tooltip:{callbacks:{label:ctx=>ctx.raw+'% of network'}}},
+      scales:{
+        x:{ticks:{color:'#666',callback:v=>v+'%'},grid:{color:'#ffffff08'}},
+        y:{ticks:{color:'#aaa',font:{size:11}}}
+      }
+    }
+  });
+  new Chart(document.getElementById('iriTrend'),{
+    type:'line',
+    data:{
+      labels:['2018','2019','2020','2021','2022','2023','2024','2025','2026*'],
+      datasets:[
+        {label:'National Avg IRI',data:[6.2,5.9,5.6,5.3,4.9,4.6,4.4,4.2,4.2],borderColor:'#ff6600',backgroundColor:'rgba(255,102,0,0.06)',fill:true,tension:.4,pointRadius:4,pointBackgroundColor:'#ff6600'},
+        {label:'Target IRI',data:[null,null,null,null,null,null,null,null,3.5],borderColor:'#00ff88',borderDash:[6,3],pointRadius:0}
+      ]
+    },
+    options:{responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{labels:{color:'#888',font:{size:11}}}},
+      scales:{
+        x:{ticks:{color:'#666'},grid:{color:'#ffffff06'}},
+        y:{ticks:{color:'#666',callback:v=>v+' m/km'},grid:{color:'#ffffff06'},title:{display:true,text:'IRI (m/km)',color:'#555',font:{size:10}}}
+      }
+    }
+  });
+}
+
+// ─── HEATMAP ──────────────────────────────────────────────────────────────────
+function initHeatmap(){
+  var m=L.map('map3').setView([1.373,32.290],7);
+  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}').addTo(m);
+  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}',{opacity:.7}).addTo(m);
+  LINKS.forEach(function(r){
+    L.polyline(r.coords,{color:CCOL[r.cond]||'#888',weight:6,opacity:.9})
+     .bindPopup('<div style="background:#111;padding:10px;min-width:180px"><b style="color:#00f5ff">'+r.id+' — '+r.name+'</b><br><br>Condition: <b style="color:'+CCOL[r.cond]+'">'+r.cond+'</b></div>')
+     .addTo(m);
+  });
+}
+
+// ─── MAINTENANCE ──────────────────────────────────────────────────────────────
+var treatFilter='all';
+var TREATS=['all','Routine Maintenance','Periodic Resealing','Rehabilitation','Reconstruction'];
+
+function initMaint(){
+  var fr=document.getElementById('treat-filters');
+  fr.innerHTML=TREATS.map(t=>'<button class="stab'+(t===treatFilter?' on':'')+'" onclick="setTreat(\''+t+'\',this)">'+(t==='all'?'All Treatments':t)+'</button>').join('');
+  renderMaint();
+}
+function setTreat(t,el){
+  treatFilter=t;
+  document.querySelectorAll('#treat-filters .stab').forEach(b=>b.classList.remove('on'));
+  el.classList.add('on');
+  renderMaint();
+}
+function condBadge(c){return '<span class="badge '+(CBADGE[c]||'')+'">'+c+'</span>';}
+function renderMaint(){
+  var data=treatFilter==='all'?MAINT:MAINT.filter(r=>r.tx===treatFilter);
+  var sorted=[...data].sort((a,b)=>b.pri-a.pri);
+  var total=sorted.reduce((s,r)=>s+r.len*r.uc,0);
+  document.getElementById('maint-title').textContent=
+    'Maintenance Needs — '+sorted.length+' sections  |  Total: UGX '+Math.round(total/1000)+'B';
+  document.getElementById('maint-tbody').innerHTML=sorted.map(r=>
+    '<tr>'+
+    '<td><b style="color:#00f5ff">'+r.id+'</b></td>'+
+    '<td style="max-width:260px">'+r.sec+'</td>'+
+    '<td>'+r.len+' km</td>'+
+    '<td>'+condBadge(r.cond)+'</td>'+
+    '<td style="font-size:12px">'+r.tx+'</td>'+
+    '<td>UGX '+r.uc+'M/km</td>'+
+    '<td><b style="color:#ffee00">UGX '+(r.len*r.uc).toLocaleString()+'M</b></td>'+
+    '<td><div class="pbar"><div class="pbar-fill" style="width:'+r.pri*10+'%;background:'+(r.pri>9?'#ff006e':r.pri>7?'#ff6600':'#ffee00')+'"></div></div>'+
+    '<span style="color:'+(r.pri>9?'#ff006e':r.pri>7?'#ff6600':'#ffee00')+';font-weight:700">'+r.pri.toFixed(1)+'</span></td>'+
+    '</tr>'
+  ).join('');
+}
+
+// ─── BUDGET ───────────────────────────────────────────────────────────────────
+var budChart=null;
+function initBudget(){
+  updateBudget(200);
+  var topData=[...MAINT].sort((a,b)=>b.pri-a.pri).slice(0,10);
+  document.getElementById('priority-tbody').innerHTML=topData.map(r=>
+    '<tr>'+
+    '<td><b style="color:#00f5ff">'+r.id+'</b></td>'+
+    '<td style="max-width:220px">'+r.sec+'</td>'+
+    '<td>'+r.len+' km</td>'+
+    '<td>'+condBadge(r.cond)+'</td>'+
+    '<td style="font-size:12px">'+r.tx+'</td>'+
+    '<td><div class="pbar"><div class="pbar-fill" style="width:'+r.pri*10+'%;background:'+(r.pri>9?'#ff006e':r.pri>7?'#ff6600':'#ffee00')+'"></div></div>'+
+    '<b style="color:'+(r.pri>9?'#ff006e':r.pri>7?'#ff6600':'#ffee00')+'">'+r.pri.toFixed(1)+'/10</b></td>'+
+    '<td><b style="color:#ffee00">UGX '+(r.len*r.uc).toLocaleString()+'M</b></td>'+
+    '</tr>'
+  ).join('');
+  budChart=new Chart(document.getElementById('budChart'),{
+    type:'bar',
+    data:{
+      labels:['Routine Maint','Periodic Reseal','Rehabilitation','Reconstruction'],
+      datasets:[
+        {label:'km funded',data:[0,0,0,0],backgroundColor:['#00ff88','#ffee00','#ff6600','#ff0040']},
+      ]
+    },
+    options:{responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false},tooltip:{callbacks:{label:ctx=>ctx.raw+' km can be funded'}}},
+      scales:{
+        x:{ticks:{color:'#888'},grid:{color:'#ffffff06'}},
+        y:{ticks:{color:'#666'},grid:{color:'#ffffff06'},title:{display:true,text:'km',color:'#555',font:{size:10}}}
+      }
+    }
+  });
+  updateBudget(200);
+}
+
+function updateBudget(v){
+  v=Number(v);
+  document.getElementById('budVal').textContent=v+'B';
+  document.getElementById('budVal2').textContent=v;
+  var pcts=[0.30,0.28,0.30,0.12];
+  var costs=[45,180,320,680];
+  var km=pcts.map((p,i)=>Math.round((v*p*1e9)/(costs[i]*1e6)));
+  var boxes=document.getElementById('bud-boxes');
+  if(boxes) boxes.innerHTML=[
+    {t:'Routine Maintenance',    c:'#00ff88'},
+    {t:'Periodic Resealing',     c:'#ffee00'},
+    {t:'Rehabilitation',         c:'#ff6600'},
+    {t:'Reconstruction',         c:'#ff0040'},
+  ].map((b,i)=>'<div class="bud-box"><div class="t">'+b.t+'</div><div class="v" style="color:'+b.c+'">'+km[i]+'</div><div class="s">km can be funded</div></div>').join('');
+  if(budChart){
+    budChart.data.datasets[0].data=km;
+    budChart.update();
+  }
+}
+
+// ─── INIT ─────────────────────────────────────────────────────────────────────
+initTab('kpis');
+</script>
+</body>
 </html>
