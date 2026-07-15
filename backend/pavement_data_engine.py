@@ -12,6 +12,7 @@ import argparse
 import hashlib
 import json
 import math
+import os
 import re
 import sqlite3
 import sys
@@ -29,6 +30,8 @@ from sklearn.metrics import mean_absolute_error, r2_score
 from sklearn.neural_network import MLPRegressor
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
+
+from pms_backend.variables import ENGINE_SETTINGS as SETTINGS, ENGINE_VARIABLE_ROWS as VARIABLES
 
 try:
     import pyodbc
@@ -50,19 +53,20 @@ class EnginePaths:
     inventory_json: Path
 
 
-REPOSITORY = Path(__file__).resolve().parents[2]
-APP = Path(__file__).resolve().parents[1]
+BACKEND = Path(__file__).resolve().parent
+REPOSITORY = Path(os.getenv("NPMS_REPOSITORY_ROOT", Path(__file__).resolve().parents[2])).resolve()
+APP = Path(os.getenv("NPMS_DEPLOY_ROOT", Path(__file__).resolve().parents[1])).resolve()
 PATHS = EnginePaths(
     repository=REPOSITORY,
     app=APP,
-    database=APP / "data" / "traffic_platform.db",
-    schema=APP / "scripts" / "pms_backend_schema.sql",
-    dashboard_json=APP / "public" / "data" / "pms_dashboard.json",
-    network_json=APP / "public" / "data" / "network_links.json",
-    condition_json=APP / "public" / "data" / "link_condition_lookup.json",
-    prediction_json=APP / "public" / "data" / "romdas_predictions.json",
-    deterioration_json=APP / "public" / "data" / "deterioration_summary.json",
-    inventory_json=APP / "public" / "data" / "road_inventory_2023.json",
+    database=Path(os.getenv("PMS_DB_PATH", APP / "data" / "npms_backend.db")).resolve(),
+    schema=Path(os.getenv("PMS_SCHEMA_PATH", BACKEND / "sql" / "pms_backend_schema.sql")).resolve(),
+    dashboard_json=APP / "data" / "pms_dashboard.json",
+    network_json=APP / "data" / "network_links.json",
+    condition_json=APP / "data" / "link_condition_lookup.json",
+    prediction_json=APP / "data" / "romdas_predictions.json",
+    deterioration_json=APP / "data" / "deterioration_summary.json",
+    inventory_json=APP / "data" / "road_inventory_2023.json",
 )
 
 SOURCE_ROOTS = {
@@ -70,29 +74,6 @@ SOURCE_ROOTS = {
     "road_condition": REPOSITORY / "5.Road Condition Data",
     "road_inventory": REPOSITORY / "6.Road Inventory Data",
 }
-
-SETTINGS = {
-    "iri_good_upper": (3.5, None, "m/km", "Upper IRI bound for Good condition"),
-    "iri_fair_upper": (6.5, None, "m/km", "Upper IRI bound for Fair condition"),
-    "iri_poor_upper": (9.0, None, "m/km", "Upper IRI bound for Poor condition"),
-    "reporting_date": (None, datetime.now(timezone.utc).date().isoformat(), "date", "Current reporting date"),
-    "ml_hidden_layers": (None, "128,96,64,32", "neurons", "Deep MLP hidden layer topology"),
-    "ml_max_iterations": (1200, None, "iterations", "Maximum MLP training iterations"),
-    "ml_random_seed": (42, None, "seed", "Reproducible model seed"),
-    "ml_validation_fraction": (0.2, None, "ratio", "Held-out model validation fraction"),
-    "source_hash_max_mb": (2048, None, "MB", "Largest source file eligible for SHA-256"),
-}
-
-VARIABLES = [
-    ("iri_m_per_km", "condition", "REAL", "m/km", "International Roughness Index", 0, 30, "mean", "observation plus DNN temporal projection"),
-    ("rut_depth_mm", "condition", "REAL", "mm", "Mean or maximum wheel-path rut depth", 0, 100, "mean", "observation plus DNN temporal projection"),
-    ("vci", "condition", "REAL", "index", "Visual Condition Index", 0, 100, "weighted mean", "observation plus DNN temporal projection"),
-    ("pci", "condition", "REAL", "index", "Pavement Condition Index", 0, 100, "weighted mean", "observation plus DNN temporal projection"),
-    ("cracking_percent", "condition", "REAL", "%", "Observed cracked pavement area", 0, 100, "weighted mean", "observation plus DNN temporal projection"),
-    ("condition_class", "condition", "TEXT", None, "Current IRI-derived condition band", None, None, "classification", "setting-driven SQL classification"),
-    ("pavement_age_years", "inventory", "REAL", "years", "Age since latest construction or rehabilitation", 0, 200, "latest", "reporting year less intervention year"),
-    ("length_km", "inventory", "REAL", "km", "Gazetted link length", 0, None, "sum", "latest network register"),
-]
 
 ALIASES = {
     "linkid": "link_id", "link_id": "link_id", "link": "link_id", "gisid": "external_id",

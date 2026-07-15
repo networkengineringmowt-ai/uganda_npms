@@ -1,0 +1,13 @@
+backend/.env
+backend/.venv/
+backend/server/node_modules/
+backend/artifacts/
+backend/**/*.db
+backend/**/*.db-shm
+backend/**/*.db-wal
+backend/**/__pycache__/
+backend/.pytest_cache/
+backend/*.egg-info/
+data/*.db
+data/*.db-shm
+data/*.db-wal
