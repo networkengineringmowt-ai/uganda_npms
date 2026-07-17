@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uganda-npms-backend"
+version = "1.0.0"
+description = "SQL and machine-learning backend for the Uganda National Pavement Management System"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "uvicorn[standard]>=0.34,<1",
+  "pydantic>=2.10,<3",
+  "numpy>=2.1,<3",
+  "scikit-learn>=1.6,<2",
+  "joblib>=1.4,<2",
+  "openpyxl>=3.1,<4",
+  "pypdf>=5,<7",
+  "python-docx>=1.1,<2",
+]
+
+[project.scripts]
+npms-backend = "pms_backend.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["pms_backend*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

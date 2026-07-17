@@ -192,11 +192,43 @@ CREATE TABLE IF NOT EXISTS pms_infographics (
   generated_at TEXT NOT NULL
 );
 
+CREATE TABLE IF NOT EXISTS pms_ml_training_rows (
+  training_row_id INTEGER PRIMARY KEY AUTOINCREMENT,
+  link_id TEXT NOT NULL REFERENCES pms_road_links(link_id) ON DELETE CASCADE,
+  current_iri REAL NOT NULL CHECK(current_iri BETWEEN 0 AND 30),
+  rut_depth_mm REAL NOT NULL DEFAULT 0 CHECK(rut_depth_mm BETWEEN 0 AND 100),
+  cracking_percent REAL NOT NULL DEFAULT 0 CHECK(cracking_percent BETWEEN 0 AND 100),
+  pavement_age_years REAL NOT NULL DEFAULT 0 CHECK(pavement_age_years BETWEEN 0 AND 200),
+  length_km REAL NOT NULL DEFAULT 1 CHECK(length_km > 0),
+  aadt REAL NOT NULL DEFAULT 0 CHECK(aadt >= 0),
+  years_ahead INTEGER NOT NULL CHECK(years_ahead > 0),
+  surface_type TEXT NOT NULL DEFAULT 'Unknown',
+  maintenance_region TEXT NOT NULL DEFAULT 'Unknown',
+  target_iri REAL NOT NULL CHECK(target_iri BETWEEN 0 AND 30),
+  source_observation_id INTEGER REFERENCES pms_condition_observations(observation_id),
+  target_observation_id INTEGER REFERENCES pms_condition_observations(observation_id),
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE(source_observation_id, target_observation_id)
+);
+
+CREATE TABLE IF NOT EXISTS pms_prediction_requests (
+  request_id INTEGER PRIMARY KEY AUTOINCREMENT,
+  link_id TEXT NOT NULL,
+  target_year INTEGER NOT NULL,
+  input_json TEXT NOT NULL,
+  output_json TEXT NOT NULL,
+  model_version TEXT,
+  requested_by TEXT,
+  requested_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
 CREATE INDEX IF NOT EXISTS idx_pms_sources_group ON pms_source_files(repository_group, extension);
 CREATE INDEX IF NOT EXISTS idx_pms_source_fields_name ON pms_source_fields(canonical_name);
 CREATE INDEX IF NOT EXISTS idx_pms_condition_link_year ON pms_condition_observations(link_id, survey_year);
 CREATE INDEX IF NOT EXISTS idx_pms_inventory_link_type ON pms_inventory_assets(link_id, asset_type);
 CREATE INDEX IF NOT EXISTS idx_pms_current_variable ON pms_current_values(variable_id, value_method);
+CREATE INDEX IF NOT EXISTS idx_pms_training_link ON pms_ml_training_rows(link_id, years_ahead);
+CREATE INDEX IF NOT EXISTS idx_pms_prediction_request_link ON pms_prediction_requests(link_id, target_year);
 
 CREATE VIEW IF NOT EXISTS pms_v_latest_observed_condition AS
 WITH ranked AS (
