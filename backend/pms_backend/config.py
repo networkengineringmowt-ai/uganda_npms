@@ -33,6 +33,7 @@ class Settings:
     database_path: Path = _path("PMS_DB_PATH", DEPLOY_ROOT / "data" / "npms_backend.db")
     model_path: Path = _path("PMS_MODEL_PATH", BACKEND_DIR / "artifacts" / "pavement_model.joblib")
     schema_path: Path = _path("PMS_SCHEMA_PATH", BACKEND_DIR / "sql" / "pms_backend_schema.sql")
+    variables_path: Path = _path("PMS_VARIABLES_PATH", BACKEND_DIR / "sql" / "pms_variables.sql")
     functions_path: Path = _path("PMS_FUNCTIONS_PATH", BACKEND_DIR / "sql" / "pms_functions.sql")
     reporting_year: int = _int("PMS_REPORTING_YEAR", 2026)
     iri_good_upper: float = _float("PMS_IRI_GOOD_UPPER", 3.5)

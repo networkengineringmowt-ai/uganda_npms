@@ -1,7 +1,8 @@
 param(
   [switch]$Install,
   [switch]$Train,
-  [switch]$FullIngest
+  [switch]$FullIngest,
+  [string]$FwdRoot
 )
 
 $ErrorActionPreference = 'Stop'
@@ -17,6 +18,9 @@ function Invoke-Python {
 
 Push-Location $Backend
 try {
+  if ($FwdRoot) {
+    $env:NPMS_FWD_ROOT = (Resolve-Path -LiteralPath $FwdRoot).Path
+  }
   if ($Install) {
     Invoke-Python -m pip install -e .
   }

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-14T09:04:36+00:00",
-  "reporting_at": "2026-07-14",
+  "generated_at": "2026-07-20T10:18:13+00:00",
+  "reporting_at": "2026-12-31",
   "model": {
     "name": "Uganda Pavement Current Value DNN",
     "version": "dnn-ae57c60036ce",
@@ -29,6 +29,11 @@
     }
   },
   "source_summary": [
+    {
+      "label": "fwd",
+      "files": 974,
+      "records": 43261676
+    },
     {
       "label": "pavement_manuals",
       "files": 42,

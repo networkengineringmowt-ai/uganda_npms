@@ -1,11 +1,14 @@
 from __future__ import annotations
 
+import json
+
 from fastapi import Depends, FastAPI, Header, HTTPException, Query
 
 from . import __version__
 from .config import settings
 from .database import connect, migrate
 from .schemas import PredictionInput, PredictionOutput, SqlEvaluationInput
+from .schema_catalog import schema_catalog
 from .service import PredictionService
 
 
@@ -56,6 +59,11 @@ def engine_settings(conn=Depends(database), _=Depends(require_admin)) -> dict:
     return {"settings": [dict(row) for row in conn.execute("SELECT * FROM pms_engine_settings ORDER BY setting_key")]}
 
 
+@app.get("/api/schema")
+def sql_schema(conn=Depends(database)) -> dict:
+    return schema_catalog(conn)
+
+
 @app.get("/api/links")
 def links(
     region: str | None = None,
@@ -83,6 +91,68 @@ def link(link_id: str, conn=Depends(database)) -> dict:
         "SELECT * FROM pms_condition_observations WHERE link_id=? ORDER BY survey_year,survey_date", (link_id,),
     ).fetchall()
     return {"link": dict(row), "observations": [dict(item) for item in observations]}
+
+
+@app.get("/api/fwd/summary")
+def fwd_summary(conn=Depends(database)) -> dict:
+    totals = conn.execute(
+        """SELECT COUNT(DISTINCT s.fwd_survey_id) AS surveys,
+                  COUNT(DISTINCT t.fwd_test_id) AS tests,
+                  COUNT(d.sensor_index) AS deflections,
+                  COUNT(DISTINCT CASE WHEN t.latitude IS NOT NULL AND t.longitude IS NOT NULL THEN t.fwd_test_id END) AS georeferenced_tests,
+                  MIN(s.survey_date) AS earliest_survey,
+                  MAX(s.survey_date) AS latest_survey
+           FROM pms_fwd_surveys s
+           LEFT JOIN pms_fwd_tests t ON t.fwd_survey_id=s.fwd_survey_id
+           LEFT JOIN pms_fwd_deflections d ON d.fwd_test_id=t.fwd_test_id"""
+    ).fetchone()
+    formats = conn.execute(
+        "SELECT file_format,COUNT(*) AS surveys FROM pms_fwd_surveys GROUP BY file_format ORDER BY surveys DESC"
+    ).fetchall()
+    return {"totals": dict(totals), "formats": [dict(row) for row in formats]}
+
+
+@app.get("/api/fwd/surveys")
+def fwd_surveys(
+    road: str | None = None,
+    limit: int = Query(default=250, ge=1),
+    offset: int = Query(default=0, ge=0),
+    conn=Depends(database),
+) -> dict:
+    size = min(limit, settings.max_api_rows)
+    rows = conn.execute(
+        """SELECT * FROM pms_v_fwd_survey_summary
+           WHERE (? IS NULL OR project_name LIKE '%' || ? || '%' OR road_name LIKE '%' || ? || '%' OR road_code LIKE '%' || ? || '%')
+           ORDER BY survey_date DESC,project_name LIMIT ? OFFSET ?""",
+        (road, road, road, road, size, offset),
+    ).fetchall()
+    return {"count": len(rows), "limit": size, "offset": offset, "rows": [dict(row) for row in rows]}
+
+
+@app.get("/api/fwd/surveys/{survey_id}/tests")
+def fwd_tests(
+    survey_id: int,
+    limit: int = Query(default=500, ge=1),
+    offset: int = Query(default=0, ge=0),
+    conn=Depends(database),
+) -> dict:
+    survey = conn.execute("SELECT * FROM pms_fwd_surveys WHERE fwd_survey_id=?", (survey_id,)).fetchone()
+    if not survey:
+        raise HTTPException(status_code=404, detail=f"Unknown FWD survey {survey_id}")
+    size = min(limit, settings.max_api_rows)
+    rows = conn.execute(
+        """SELECT * FROM pms_v_fwd_test_measurements
+           WHERE fwd_survey_id=?
+           ORDER BY station_km,source_row_number LIMIT ? OFFSET ?""",
+        (survey_id, size, offset),
+    ).fetchall()
+    measurements = []
+    for row in rows:
+        item = dict(row)
+        item["deflections"] = json.loads(item.pop("deflections_json"))
+        item["sensor_offsets_mm"] = json.loads(item.pop("sensor_offsets_mm_json"))
+        measurements.append(item)
+    return {"survey": dict(survey), "count": len(rows), "limit": size, "offset": offset, "rows": measurements}
 
 
 @app.post("/api/ml/predict", response_model=PredictionOutput)

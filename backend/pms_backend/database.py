@@ -7,7 +7,6 @@ from pathlib import Path
 from typing import Iterator
 
 from .config import Settings, settings
-from .variables import ENGINE_SETTINGS, VARIABLE_DEFINITIONS
 
 
 def clamp(value: float | None, lower: float, upper: float) -> float | None:
@@ -90,27 +89,8 @@ def connect(path: Path | None = None, cfg: Settings = settings) -> sqlite3.Conne
 def migrate(conn: sqlite3.Connection, cfg: Settings = settings) -> None:
     cfg.validate()
     conn.executescript(cfg.schema_path.read_text(encoding="utf-8"))
+    conn.executescript(cfg.variables_path.read_text(encoding="utf-8"))
     conn.executescript(cfg.functions_path.read_text(encoding="utf-8"))
-    conn.executemany(
-        """INSERT INTO pms_engine_settings(setting_key,value_numeric,value_text,unit,description)
-           VALUES(?,?,?,?,?) ON CONFLICT(setting_key) DO UPDATE SET
-           value_numeric=excluded.value_numeric,value_text=excluded.value_text,unit=excluded.unit,
-           description=excluded.description,updated_at=CURRENT_TIMESTAMP""",
-        [(key, *value) for key, value in ENGINE_SETTINGS.items()],
-    )
-    conn.executemany(
-        """INSERT INTO pms_variable_definitions
-           (canonical_name,category,data_type,unit,description,valid_min,valid_max,
-            aggregation_method,current_value_method,definition_source)
-           VALUES(?,?,?,?,?,?,?,?,?,?) ON CONFLICT(canonical_name) DO UPDATE SET
-           category=excluded.category,data_type=excluded.data_type,unit=excluded.unit,
-           description=excluded.description,valid_min=excluded.valid_min,valid_max=excluded.valid_max,
-           aggregation_method=excluded.aggregation_method,current_value_method=excluded.current_value_method""",
-        [(
-            v.name, v.category, v.data_type, v.unit, v.description, v.valid_min, v.valid_max,
-            v.aggregation, v.current_method, "NPMS canonical variable registry",
-        ) for v in VARIABLE_DEFINITIONS],
-    )
     conn.commit()
 
 

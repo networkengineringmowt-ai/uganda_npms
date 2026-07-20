@@ -192,6 +192,101 @@ CREATE TABLE IF NOT EXISTS pms_infographics (
   generated_at TEXT NOT NULL
 );
 
+CREATE TABLE IF NOT EXISTS pms_parser_variables (
+  parser_name TEXT NOT NULL,
+  variable_name TEXT NOT NULL,
+  data_type TEXT NOT NULL CHECK(data_type IN ('INTEGER','REAL','TEXT','BOOLEAN')),
+  value_numeric REAL,
+  value_text TEXT,
+  unit TEXT,
+  description TEXT NOT NULL,
+  updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY(parser_name, variable_name),
+  CHECK(value_numeric IS NOT NULL OR value_text IS NOT NULL)
+);
+
+CREATE TABLE IF NOT EXISTS pms_ingestion_formats (
+  repository_group TEXT NOT NULL,
+  extension TEXT NOT NULL,
+  parser_name TEXT,
+  content_signature TEXT,
+  ingestion_mode TEXT NOT NULL,
+  description TEXT NOT NULL,
+  PRIMARY KEY(repository_group, extension, content_signature)
+);
+
+CREATE TABLE IF NOT EXISTS pms_fwd_surveys (
+  fwd_survey_id INTEGER PRIMARY KEY AUTOINCREMENT,
+  source_id INTEGER NOT NULL UNIQUE REFERENCES pms_source_files(source_id) ON DELETE CASCADE,
+  project_name TEXT,
+  road_name TEXT,
+  road_code TEXT,
+  operator_name TEXT,
+  lane TEXT,
+  weather TEXT,
+  surface_type TEXT,
+  survey_date TEXT,
+  file_format TEXT NOT NULL,
+  file_version TEXT,
+  plate_radius_mm REAL,
+  nominal_load_kn REAL,
+  sensor_offsets_mm_json TEXT,
+  start_chainage_km REAL,
+  end_chainage_km REAL,
+  notes TEXT,
+  raw_header_json TEXT,
+  imported_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS pms_fwd_tests (
+  fwd_test_id INTEGER PRIMARY KEY AUTOINCREMENT,
+  fwd_survey_id INTEGER NOT NULL REFERENCES pms_fwd_surveys(fwd_survey_id) ON DELETE CASCADE,
+  source_row_number INTEGER NOT NULL,
+  station_km REAL,
+  drop_number INTEGER,
+  load_kn REAL,
+  air_temperature_c REAL,
+  pavement_temperature_c REAL,
+  latitude REAL,
+  longitude REAL,
+  tested_at TEXT,
+  comment TEXT,
+  data_quality TEXT NOT NULL DEFAULT 'source',
+  raw_values_json TEXT,
+  UNIQUE(fwd_survey_id, source_row_number, drop_number)
+);
+
+CREATE TABLE IF NOT EXISTS pms_fwd_deflections (
+  fwd_test_id INTEGER NOT NULL REFERENCES pms_fwd_tests(fwd_test_id) ON DELETE CASCADE,
+  sensor_index INTEGER NOT NULL,
+  sensor_offset_mm REAL,
+  deflection_microns REAL NOT NULL,
+  PRIMARY KEY(fwd_test_id, sensor_index)
+);
+
+CREATE TABLE IF NOT EXISTS pms_source_gps_points (
+  gps_point_id INTEGER PRIMARY KEY AUTOINCREMENT,
+  source_id INTEGER NOT NULL REFERENCES pms_source_files(source_id) ON DELETE CASCADE,
+  sequence_number INTEGER NOT NULL,
+  route_name TEXT,
+  latitude REAL NOT NULL,
+  longitude REAL NOT NULL,
+  elevation_m REAL,
+  recorded_at TEXT,
+  UNIQUE(source_id, sequence_number)
+);
+
+CREATE TABLE IF NOT EXISTS pms_archive_entries (
+  archive_entry_id INTEGER PRIMARY KEY AUTOINCREMENT,
+  source_id INTEGER NOT NULL REFERENCES pms_source_files(source_id) ON DELETE CASCADE,
+  entry_path TEXT NOT NULL,
+  byte_size INTEGER NOT NULL DEFAULT 0,
+  compressed_size INTEGER NOT NULL DEFAULT 0,
+  modified_at TEXT,
+  crc32 TEXT,
+  UNIQUE(source_id, entry_path)
+);
+
 CREATE TABLE IF NOT EXISTS pms_ml_training_rows (
   training_row_id INTEGER PRIMARY KEY AUTOINCREMENT,
   link_id TEXT NOT NULL REFERENCES pms_road_links(link_id) ON DELETE CASCADE,
@@ -226,6 +321,10 @@ CREATE INDEX IF NOT EXISTS idx_pms_sources_group ON pms_source_files(repository_
 CREATE INDEX IF NOT EXISTS idx_pms_source_fields_name ON pms_source_fields(canonical_name);
 CREATE INDEX IF NOT EXISTS idx_pms_condition_link_year ON pms_condition_observations(link_id, survey_year);
 CREATE INDEX IF NOT EXISTS idx_pms_inventory_link_type ON pms_inventory_assets(link_id, asset_type);
+CREATE INDEX IF NOT EXISTS idx_pms_fwd_survey_date ON pms_fwd_surveys(survey_date, road_code);
+CREATE INDEX IF NOT EXISTS idx_pms_fwd_test_station ON pms_fwd_tests(fwd_survey_id, station_km);
+CREATE INDEX IF NOT EXISTS idx_pms_fwd_test_location ON pms_fwd_tests(latitude, longitude);
+CREATE INDEX IF NOT EXISTS idx_pms_gps_source ON pms_source_gps_points(source_id, sequence_number);
 CREATE INDEX IF NOT EXISTS idx_pms_current_variable ON pms_current_values(variable_id, value_method);
 CREATE INDEX IF NOT EXISTS idx_pms_training_link ON pms_ml_training_rows(link_id, years_ahead);
 CREATE INDEX IF NOT EXISTS idx_pms_prediction_request_link ON pms_prediction_requests(link_id, target_year);
@@ -268,6 +367,33 @@ SELECT repository_group, extension, COUNT(*) AS file_count,
        SUM(CASE WHEN ingestion_status='error' THEN 1 ELSE 0 END) AS error_files
 FROM pms_source_files
 GROUP BY repository_group, extension;
+
+CREATE VIEW IF NOT EXISTS pms_v_fwd_survey_summary AS
+SELECT s.fwd_survey_id, s.source_id, s.project_name, s.road_name, s.road_code,
+       s.operator_name, s.lane, s.survey_date, s.file_format,
+       s.start_chainage_km, s.end_chainage_km,
+       COUNT(DISTINCT t.fwd_test_id) AS test_count,
+       COUNT(d.sensor_index) AS deflection_count,
+       ROUND(AVG(t.load_kn), 3) AS average_load_kn,
+       ROUND(AVG(CASE WHEN d.sensor_index=0 THEN d.deflection_microns END), 3) AS average_d0_microns,
+       MIN(t.station_km) AS observed_start_chainage_km,
+       MAX(t.station_km) AS observed_end_chainage_km
+FROM pms_fwd_surveys s
+LEFT JOIN pms_fwd_tests t ON t.fwd_survey_id=s.fwd_survey_id
+LEFT JOIN pms_fwd_deflections d ON d.fwd_test_id=t.fwd_test_id
+GROUP BY s.fwd_survey_id;
+
+CREATE VIEW IF NOT EXISTS pms_v_fwd_test_measurements AS
+SELECT t.*,
+       COALESCE((
+         SELECT json_group_object(CAST(d.sensor_index AS TEXT),d.deflection_microns)
+         FROM pms_fwd_deflections d WHERE d.fwd_test_id=t.fwd_test_id
+       ),'{}') AS deflections_json,
+       COALESCE((
+         SELECT json_group_object(CAST(d.sensor_index AS TEXT),d.sensor_offset_mm)
+         FROM pms_fwd_deflections d WHERE d.fwd_test_id=t.fwd_test_id
+       ),'{}') AS sensor_offsets_mm_json
+FROM pms_fwd_tests t;
 
 CREATE VIEW IF NOT EXISTS pms_v_variable_lineage AS
 SELECT d.canonical_name, d.category, d.unit, d.current_value_method,
