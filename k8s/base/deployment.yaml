@@ -1,0 +1,77 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: npms-backend
+  namespace: npms
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: npms-backend
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: npms-backend
+    spec:
+      containers:
+        - name: api
+          image: uganda-npms-backend:1.1.0
+          imagePullPolicy: IfNotPresent
+          ports:
+            - name: http
+              containerPort: 8000
+          envFrom:
+            - configMapRef:
+                name: npms-backend-config
+          env:
+            - name: PMS_DATABASE_URL
+              valueFrom:
+                secretKeyRef:
+                  name: npms-backend-secrets
+                  key: database-url
+            - name: PMS_ADMIN_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: npms-backend-secrets
+                  key: admin-key
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: http
+            initialDelaySeconds: 5
+            periodSeconds: 10
+            timeoutSeconds: 5
+            failureThreshold: 6
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: http
+            initialDelaySeconds: 20
+            periodSeconds: 30
+            timeoutSeconds: 5
+            failureThreshold: 3
+          resources:
+            requests:
+              cpu: 100m
+              memory: 256Mi
+            limits:
+              cpu: "2"
+              memory: 2Gi
+          securityContext:
+            allowPrivilegeEscalation: false
+            readOnlyRootFilesystem: true
+            runAsNonRoot: true
+            runAsUser: 100
+            runAsGroup: 101
+            capabilities:
+              drop: ["ALL"]
+          volumeMounts:
+            - name: artifacts
+              mountPath: /app/artifacts
+            - name: temporary-files
+              mountPath: /tmp
+      volumes:
+        - name: artifacts
+          emptyDir: {}
+        - name: temporary-files
+          emptyDir: {}

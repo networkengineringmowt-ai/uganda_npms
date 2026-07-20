@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import hashlib
 import json
-import sqlite3
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
@@ -17,6 +16,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
 from .config import Settings, settings
+from .database import execute, is_postgres
 
 
 NUMERIC_FEATURES = ("current_iri", "rut_depth_mm", "cracking_percent", "pavement_age_years", "length_km", "aadt", "years_ahead")
@@ -97,9 +97,9 @@ class PavementDeteriorationModel:
         return instance
 
 
-def refresh_training_rows(conn: sqlite3.Connection) -> int:
-    conn.execute("DELETE FROM pms_ml_training_rows")
-    conn.execute("""
+def refresh_training_rows(conn) -> int:
+    execute(conn, "DELETE FROM pms_ml_training_rows")
+    execute(conn, """
         INSERT INTO pms_ml_training_rows(
           link_id, current_iri, rut_depth_mm, cracking_percent, pavement_age_years,
           length_km, aadt, years_ahead, surface_type, maintenance_region, target_iri,
@@ -112,19 +112,21 @@ def refresh_training_rows(conn: sqlite3.Connection) -> int:
         WHERE target_iri BETWEEN 0 AND 30 AND years_ahead > 0
     """)
     conn.commit()
-    return int(conn.execute("SELECT COUNT(*) FROM pms_ml_training_rows").fetchone()[0])
+    row = execute(conn, "SELECT COUNT(*) AS count FROM pms_ml_training_rows").fetchone()
+    return int(row["count"] if is_postgres(conn) else row[0])
 
 
-def training_rows(conn: sqlite3.Connection) -> list[dict[str, Any]]:
-    return [dict(row) for row in conn.execute("SELECT * FROM pms_ml_training_rows ORDER BY training_row_id")]
+def training_rows(conn) -> list[dict[str, Any]]:
+    return [dict(row) for row in execute(conn, "SELECT * FROM pms_ml_training_rows ORDER BY training_row_id")]
 
 
-def register_model_run(conn: sqlite3.Connection, metadata: ModelMetadata, cfg: Settings = settings) -> int:
-    cursor = conn.execute(
+def register_model_run(conn, metadata: ModelMetadata, cfg: Settings = settings) -> int:
+    returning = " RETURNING model_run_id" if is_postgres(conn) else ""
+    cursor = execute(conn,
         """INSERT INTO pms_model_runs(
            model_name,model_version,algorithm,feature_variables_json,target_variables_json,
            hyperparameters_json,training_rows,validation_metrics_json,trained_at,reporting_at,
-           artifact_path,status) VALUES(?,?,?,?,?,?,?,?,?,?,?,?)""",
+           artifact_path,status) VALUES(?,?,?,?,?,?,?,?,?,?,?,?)""" + returning,
         (
             "Uganda Pavement Deterioration Model", metadata.model_version, "Random forest regression",
             json.dumps(FEATURES), json.dumps([TARGET]),
@@ -134,4 +136,4 @@ def register_model_run(conn: sqlite3.Connection, metadata: ModelMetadata, cfg: S
         ),
     )
     conn.commit()
-    return int(cursor.lastrowid)
+    return int(cursor.fetchone()["model_run_id"] if is_postgres(conn) else cursor.lastrowid)

@@ -1,0 +1,11 @@
+project_id = "vbidhkvzjigatfygnycg"
+
+[db]
+major_version = 17
+
+[migration]
+enabled = true
+
+[seed]
+enabled = true
+sql_paths = ["./seed.sql"]

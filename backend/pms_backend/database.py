@@ -4,7 +4,7 @@ import math
 import sqlite3
 from contextlib import contextmanager
 from pathlib import Path
-from typing import Iterator
+from typing import Any, Iterator, Sequence
 
 from .config import Settings, settings
 
@@ -74,7 +74,27 @@ def register_functions(conn: sqlite3.Connection, cfg: Settings = settings) -> No
     conn.create_function("pms_priority_score", 4, priority_score, deterministic=True)
 
 
-def connect(path: Path | None = None, cfg: Settings = settings) -> sqlite3.Connection:
+def is_postgres(conn: Any) -> bool:
+    return conn.__class__.__module__.startswith("psycopg")
+
+
+def execute(conn: Any, statement: str, params: Sequence[Any] = ()):
+    if not params:
+        return conn.execute(statement)
+    sql = statement.replace("%", "%%").replace("?", "%s") if is_postgres(conn) else statement
+    return conn.execute(sql, tuple(params))
+
+
+def connect(path: Path | None = None, cfg: Settings = settings):
+    if path is None and cfg.database_url:
+        import psycopg
+        from psycopg.rows import dict_row
+
+        return psycopg.connect(
+            cfg.database_url,
+            row_factory=dict_row,
+            prepare_threshold=cfg.postgres_prepare_threshold,
+        )
     db_path = (path or cfg.database_path).resolve()
     db_path.parent.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(db_path)
@@ -86,16 +106,19 @@ def connect(path: Path | None = None, cfg: Settings = settings) -> sqlite3.Conne
     return conn
 
 
-def migrate(conn: sqlite3.Connection, cfg: Settings = settings) -> None:
+def migrate(conn: Any, cfg: Settings = settings) -> None:
     cfg.validate()
-    conn.executescript(cfg.schema_path.read_text(encoding="utf-8"))
-    conn.executescript(cfg.variables_path.read_text(encoding="utf-8"))
-    conn.executescript(cfg.functions_path.read_text(encoding="utf-8"))
+    if is_postgres(conn):
+        conn.execute(cfg.postgres_schema_path.read_text(encoding="utf-8"))
+    else:
+        conn.executescript(cfg.schema_path.read_text(encoding="utf-8"))
+        conn.executescript(cfg.variables_path.read_text(encoding="utf-8"))
+        conn.executescript(cfg.functions_path.read_text(encoding="utf-8"))
     conn.commit()
 
 
 @contextmanager
-def transaction(conn: sqlite3.Connection) -> Iterator[sqlite3.Connection]:
+def transaction(conn: Any) -> Iterator[Any]:
     try:
         yield conn
         conn.commit()

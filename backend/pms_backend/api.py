@@ -3,10 +3,11 @@ from __future__ import annotations
 import json
 
 from fastapi import Depends, FastAPI, Header, HTTPException, Query
+from fastapi.middleware.cors import CORSMiddleware
 
 from . import __version__
 from .config import settings
-from .database import connect, migrate
+from .database import connect, execute, is_postgres, migrate
 from .schemas import PredictionInput, PredictionOutput, SqlEvaluationInput
 from .schema_catalog import schema_catalog
 from .service import PredictionService
@@ -14,6 +15,13 @@ from .service import PredictionService
 
 settings.validate()
 app = FastAPI(title=settings.app_name, version=__version__, docs_url="/docs", redoc_url="/redoc")
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=settings.allowed_origins,
+    allow_credentials=True,
+    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_headers=["Content-Type", "Authorization", "X-Admin-Key"],
+)
 
 
 def database():
@@ -31,6 +39,8 @@ def require_admin(x_admin_key: str | None = Header(default=None)) -> None:
 
 @app.on_event("startup")
 def startup() -> None:
+    if settings.database_url and not settings.auto_migrate:
+        return
     conn = connect()
     try:
         migrate(conn)
@@ -42,21 +52,21 @@ def startup() -> None:
 def health() -> dict:
     conn = connect()
     try:
-        conn.execute("SELECT 1").fetchone()
-        model = conn.execute("SELECT model_version,status,trained_at FROM pms_model_runs ORDER BY model_run_id DESC LIMIT 1").fetchone()
-        return {"status": "ok", "version": __version__, "database": str(settings.database_path), "model": dict(model) if model else None}
+        execute(conn, "SELECT 1").fetchone()
+        model = execute(conn, "SELECT model_version,status,trained_at FROM pms_model_runs ORDER BY model_run_id DESC LIMIT 1").fetchone()
+        return {"status": "ok", "version": __version__, "database_engine": settings.database_engine, "database": settings.database_target, "model": dict(model) if model else None}
     finally:
         conn.close()
 
 
 @app.get("/api/variables")
 def variables(conn=Depends(database)) -> dict:
-    return {"variables": [dict(row) for row in conn.execute("SELECT * FROM pms_variable_definitions ORDER BY category,canonical_name")]}
+    return {"variables": [dict(row) for row in execute(conn, "SELECT * FROM pms_variable_definitions ORDER BY category,canonical_name")]}
 
 
 @app.get("/api/settings")
 def engine_settings(conn=Depends(database), _=Depends(require_admin)) -> dict:
-    return {"settings": [dict(row) for row in conn.execute("SELECT * FROM pms_engine_settings ORDER BY setting_key")]}
+    return {"settings": [dict(row) for row in execute(conn, "SELECT * FROM pms_engine_settings ORDER BY setting_key")]}
 
 
 @app.get("/api/schema")
@@ -73,9 +83,10 @@ def links(
     conn=Depends(database),
 ) -> dict:
     size = min(limit, settings.max_api_rows)
-    rows = conn.execute(
+    rows = execute(conn,
         """SELECT * FROM pms_v_current_link_state
-           WHERE (? IS NULL OR maintenance_region=?) AND (? IS NULL OR surface_type=?)
+           WHERE (CAST(? AS TEXT) IS NULL OR maintenance_region=?)
+             AND (CAST(? AS TEXT) IS NULL OR surface_type=?)
            ORDER BY link_id LIMIT ? OFFSET ?""",
         (region, region, surface, surface, size, offset),
     ).fetchall()
@@ -84,10 +95,10 @@ def links(
 
 @app.get("/api/links/{link_id}")
 def link(link_id: str, conn=Depends(database)) -> dict:
-    row = conn.execute("SELECT * FROM pms_v_link_decisions WHERE link_id=?", (link_id,)).fetchone()
+    row = execute(conn, "SELECT * FROM pms_v_link_decisions WHERE link_id=?", (link_id,)).fetchone()
     if not row:
         raise HTTPException(status_code=404, detail=f"Unknown link {link_id}")
-    observations = conn.execute(
+    observations = execute(conn,
         "SELECT * FROM pms_condition_observations WHERE link_id=? ORDER BY survey_year,survey_date", (link_id,),
     ).fetchall()
     return {"link": dict(row), "observations": [dict(item) for item in observations]}
@@ -95,7 +106,7 @@ def link(link_id: str, conn=Depends(database)) -> dict:
 
 @app.get("/api/fwd/summary")
 def fwd_summary(conn=Depends(database)) -> dict:
-    totals = conn.execute(
+    totals = execute(conn,
         """SELECT COUNT(DISTINCT s.fwd_survey_id) AS surveys,
                   COUNT(DISTINCT t.fwd_test_id) AS tests,
                   COUNT(d.sensor_index) AS deflections,
@@ -106,7 +117,7 @@ def fwd_summary(conn=Depends(database)) -> dict:
            LEFT JOIN pms_fwd_tests t ON t.fwd_survey_id=s.fwd_survey_id
            LEFT JOIN pms_fwd_deflections d ON d.fwd_test_id=t.fwd_test_id"""
     ).fetchone()
-    formats = conn.execute(
+    formats = execute(conn,
         "SELECT file_format,COUNT(*) AS surveys FROM pms_fwd_surveys GROUP BY file_format ORDER BY surveys DESC"
     ).fetchall()
     return {"totals": dict(totals), "formats": [dict(row) for row in formats]}
@@ -120,9 +131,9 @@ def fwd_surveys(
     conn=Depends(database),
 ) -> dict:
     size = min(limit, settings.max_api_rows)
-    rows = conn.execute(
+    rows = execute(conn,
         """SELECT * FROM pms_v_fwd_survey_summary
-           WHERE (? IS NULL OR project_name LIKE '%' || ? || '%' OR road_name LIKE '%' || ? || '%' OR road_code LIKE '%' || ? || '%')
+           WHERE (CAST(? AS TEXT) IS NULL OR project_name LIKE '%' || ? || '%' OR road_name LIKE '%' || ? || '%' OR road_code LIKE '%' || ? || '%')
            ORDER BY survey_date DESC,project_name LIMIT ? OFFSET ?""",
         (road, road, road, road, size, offset),
     ).fetchall()
@@ -136,11 +147,11 @@ def fwd_tests(
     offset: int = Query(default=0, ge=0),
     conn=Depends(database),
 ) -> dict:
-    survey = conn.execute("SELECT * FROM pms_fwd_surveys WHERE fwd_survey_id=?", (survey_id,)).fetchone()
+    survey = execute(conn, "SELECT * FROM pms_fwd_surveys WHERE fwd_survey_id=?", (survey_id,)).fetchone()
     if not survey:
         raise HTTPException(status_code=404, detail=f"Unknown FWD survey {survey_id}")
     size = min(limit, settings.max_api_rows)
-    rows = conn.execute(
+    rows = execute(conn,
         """SELECT * FROM pms_v_fwd_test_measurements
            WHERE fwd_survey_id=?
            ORDER BY station_km,source_row_number LIMIT ? OFFSET ?""",
@@ -149,8 +160,10 @@ def fwd_tests(
     measurements = []
     for row in rows:
         item = dict(row)
-        item["deflections"] = json.loads(item.pop("deflections_json"))
-        item["sensor_offsets_mm"] = json.loads(item.pop("sensor_offsets_mm_json"))
+        deflections = item.pop("deflections_json")
+        offsets = item.pop("sensor_offsets_mm_json")
+        item["deflections"] = deflections if isinstance(deflections, dict) else json.loads(deflections)
+        item["sensor_offsets_mm"] = offsets if isinstance(offsets, dict) else json.loads(offsets)
         measurements.append(item)
     return {"survey": dict(survey), "count": len(rows), "limit": size, "offset": offset, "rows": measurements}
 
@@ -164,13 +177,13 @@ def predict(request: PredictionInput) -> PredictionOutput:
 
 @app.get("/api/ml/model")
 def model(conn=Depends(database)) -> dict:
-    row = conn.execute("SELECT * FROM pms_model_runs ORDER BY model_run_id DESC LIMIT 1").fetchone()
+    row = execute(conn, "SELECT * FROM pms_model_runs ORDER BY model_run_id DESC LIMIT 1").fetchone()
     return {"model": dict(row) if row else None, "artifact_exists": settings.model_path.exists()}
 
 
 @app.post("/api/sql/evaluate")
 def evaluate(payload: SqlEvaluationInput, conn=Depends(database)) -> dict:
-    row = conn.execute(
+    row = execute(conn,
         """SELECT pms_condition_band(?) AS condition_class,
                   pms_intervention(?,?,?,?) AS intervention_type,
                   pms_priority_score(?,?,?,?) AS priority_score,

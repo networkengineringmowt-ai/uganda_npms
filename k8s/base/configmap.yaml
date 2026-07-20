@@ -1,0 +1,26 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: npms-backend-config
+  namespace: npms
+data:
+  NPMS_APP_NAME: Uganda NPMS Backend
+  NPMS_ENVIRONMENT: production
+  NPMS_HOST: 0.0.0.0
+  NPMS_PORT: "8000"
+  NPMS_LOG_LEVEL: INFO
+  PMS_AUTO_MIGRATE: "false"
+  PMS_POSTGRES_PREPARE_THRESHOLD: ""
+  PMS_MODEL_PATH: /app/artifacts/pavement_model.joblib
+  PMS_POSTGRES_SCHEMA_PATH: /supabase/migrations/20260720103000_npms_backend.sql
+  PMS_REPORTING_YEAR: "2026"
+  PMS_IRI_GOOD_UPPER: "3.5"
+  PMS_IRI_FAIR_UPPER: "6.5"
+  PMS_IRI_POOR_UPPER: "9.0"
+  PMS_ANNUAL_IRI_GROWTH: "0.18"
+  PMS_GRAVEL_IRI_GROWTH: "0.32"
+  PMS_CONFIDENCE_DECAY: "0.08"
+  PMS_RANDOM_SEED: "42"
+  PMS_MIN_TRAINING_ROWS: "20"
+  PMS_MAX_API_ROWS: "2000"
+  PMS_CORS_ORIGINS: http://localhost:5173,https://networkengineringmowt-ai.github.io

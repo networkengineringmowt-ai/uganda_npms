@@ -7,7 +7,7 @@ import sys
 import uvicorn
 
 from .config import settings
-from .database import connect, migrate
+from .database import connect, execute, migrate
 from .ml import PavementDeteriorationModel, refresh_training_rows, register_model_run, training_rows
 
 
@@ -16,8 +16,8 @@ def init_database() -> dict:
     try:
         migrate(conn)
         return {
-            "database": str(settings.database_path),
-            "variables": conn.execute("SELECT COUNT(*) FROM pms_variable_definitions").fetchone()[0],
+            "database": settings.database_target,
+            "variables": next(iter(execute(conn, "SELECT COUNT(*) AS count FROM pms_variable_definitions").fetchone().values())) if settings.database_url else execute(conn, "SELECT COUNT(*) FROM pms_variable_definitions").fetchone()[0],
             "sql_functions": 6,
             "status": "ready",
         }

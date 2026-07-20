@@ -1,4 +1,8 @@
 backend/.env
+.env
+.env.kubernetes
+supabase/.temp/
+supabase/.branches/
 backend/.venv/
 backend/server/node_modules/
 backend/artifacts/

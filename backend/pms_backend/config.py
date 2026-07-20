@@ -23,6 +23,18 @@ def _int(name: str, default: int) -> int:
     return int(os.getenv(name, str(default)))
 
 
+def _optional_int(name: str) -> int | None:
+    value = os.getenv(name, "").strip()
+    return int(value) if value else None
+
+
+def _bool(name: str, default: bool) -> bool:
+    value = os.getenv(name)
+    if value is None:
+        return default
+    return value.strip().lower() in {"1", "true", "yes", "on"}
+
+
 @dataclass(frozen=True)
 class Settings:
     app_name: str = os.getenv("NPMS_APP_NAME", "Uganda NPMS Backend")
@@ -30,11 +42,18 @@ class Settings:
     host: str = os.getenv("NPMS_HOST", "127.0.0.1")
     port: int = _int("NPMS_PORT", 8000)
     log_level: str = os.getenv("NPMS_LOG_LEVEL", "INFO")
+    database_url: str | None = os.getenv("PMS_DATABASE_URL")
+    postgres_prepare_threshold: int | None = _optional_int("PMS_POSTGRES_PREPARE_THRESHOLD")
     database_path: Path = _path("PMS_DB_PATH", DEPLOY_ROOT / "data" / "npms_backend.db")
     model_path: Path = _path("PMS_MODEL_PATH", BACKEND_DIR / "artifacts" / "pavement_model.joblib")
     schema_path: Path = _path("PMS_SCHEMA_PATH", BACKEND_DIR / "sql" / "pms_backend_schema.sql")
     variables_path: Path = _path("PMS_VARIABLES_PATH", BACKEND_DIR / "sql" / "pms_variables.sql")
     functions_path: Path = _path("PMS_FUNCTIONS_PATH", BACKEND_DIR / "sql" / "pms_functions.sql")
+    postgres_schema_path: Path = _path(
+        "PMS_POSTGRES_SCHEMA_PATH",
+        DEPLOY_ROOT / "supabase" / "migrations" / "20260720103000_npms_backend.sql",
+    )
+    auto_migrate: bool = _bool("PMS_AUTO_MIGRATE", False)
     reporting_year: int = _int("PMS_REPORTING_YEAR", 2026)
     iri_good_upper: float = _float("PMS_IRI_GOOD_UPPER", 3.5)
     iri_fair_upper: float = _float("PMS_IRI_FAIR_UPPER", 6.5)
@@ -46,6 +65,19 @@ class Settings:
     min_training_rows: int = _int("PMS_MIN_TRAINING_ROWS", 20)
     max_api_rows: int = _int("PMS_MAX_API_ROWS", 2000)
     admin_key: str | None = os.getenv("PMS_ADMIN_KEY")
+    cors_origins: str = os.getenv("PMS_CORS_ORIGINS", "http://localhost:5173")
+
+    @property
+    def database_engine(self) -> str:
+        return "PostgreSQL" if self.database_url else "SQLite"
+
+    @property
+    def database_target(self) -> str:
+        return "configured PostgreSQL service" if self.database_url else str(self.database_path)
+
+    @property
+    def allowed_origins(self) -> list[str]:
+        return [origin.strip() for origin in self.cors_origins.split(",") if origin.strip()]
 
     def validate(self) -> None:
         if not (0 < self.iri_good_upper < self.iri_fair_upper < self.iri_poor_upper):

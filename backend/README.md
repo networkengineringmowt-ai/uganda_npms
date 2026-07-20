@@ -1,6 +1,6 @@
 # Uganda NPMS backend
 
-Production-ready SQLite, SQL-function, machine-learning, and API backend for the
+Production-ready SQLite ingestion, Supabase PostgreSQL, SQL-function, machine-learning, and API backend for the
 Uganda National Pavement Management System.
 
 ## Components
@@ -98,6 +98,57 @@ Key endpoints:
 
 ## Deployment note
 
-GitHub Pages only hosts the static NPMS frontend. Run this backend on a Python-capable
-service or the Ministry network, then configure the frontend API URL for that service.
-Never commit `.env`, service-role keys, database files, or trained artifacts.
+GitHub Pages only hosts the static NPMS frontend. The runtime backend is packaged as
+`uganda-npms-backend:1.1.0` and connects to Supabase through `PMS_DATABASE_URL`.
+Never commit `.env`, access tokens, database passwords, service-role keys, database
+files, or trained artifacts.
+
+## Supabase deployment
+
+The Supabase project reference is defined in `supabase/config.toml`. The SQL schema,
+PostgreSQL functions, analytical views, validation trigger, grants, and RLS policies
+are versioned in `supabase/migrations/`.
+
+Set credentials in the current terminal, apply the migrations, then synchronize the
+complete SQLite data store. Values are read from environment variables and are never
+written to source files.
+
+```powershell
+$env:SUPABASE_ACCESS_TOKEN = "<personal access token>"
+$env:SUPABASE_DB_PASSWORD = "<project database password>"
+.\supabase\deploy.ps1
+
+$env:PMS_DATABASE_URL = "<Supabase transaction-pooler PostgreSQL URI>"
+.\backend\sync-supabase.ps1
+```
+
+The synchronizer discovers `pms_*` tables and foreign-key dependencies at runtime,
+copies JSON values as native `jsonb`, preserves identity keys, ignores already-present
+rows, and advances PostgreSQL identity sequences after each table.
+
+## Docker and desktop Kubernetes
+
+Build and run directly with Docker Compose:
+
+```powershell
+Copy-Item backend\.env.example .env
+docker compose up --build --detach
+```
+
+For Docker Desktop Kubernetes, enable Kubernetes first and confirm that
+`kubectl config current-context` returns `docker-desktop`. Then set the two runtime
+secrets only in the current terminal and deploy:
+
+```powershell
+$env:PMS_DATABASE_URL = "<Supabase transaction-pooler PostgreSQL URI>"
+$env:PMS_ADMIN_KEY = "<long random administrative key>"
+.\k8s\deploy.ps1
+```
+
+Alternatively, copy `.env.kubernetes.example` to the git-ignored
+`.env.kubernetes`, replace both placeholders locally, and run the synchronization
+and deployment scripts. The scripts load that file without printing its values.
+
+The deployment creates the `npms` namespace, stores credentials in a Kubernetes
+Secret, applies the ConfigMap/Deployment/LoadBalancer Service, and waits for the API
+rollout and health probes.
