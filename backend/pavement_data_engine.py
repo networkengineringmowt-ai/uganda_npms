@@ -9,12 +9,16 @@ coverage gaps and always publishes confidence and method metadata.
 from __future__ import annotations
 
 import argparse
+import csv
 import hashlib
 import json
 import math
+import os
 import re
 import sqlite3
 import sys
+import zipfile
+import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
@@ -30,8 +34,13 @@ from sklearn.neural_network import MLPRegressor
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
+from pms_backend.schema_catalog import write_schema_catalog
+
 try:
     import pyodbc
+    # Access drivers can reuse stale pooled handles across hundreds of different
+    # MDB/ACCDB files, producing intermittent UTF-16 decoding failures.
+    pyodbc.pooling = False
 except ImportError:  # Access metadata is optional at runtime but reported explicitly.
     pyodbc = None
 
@@ -42,6 +51,8 @@ class EnginePaths:
     app: Path
     database: Path
     schema: Path
+    variables_sql: Path
+    schema_json: Path
     dashboard_json: Path
     network_json: Path
     condition_json: Path
@@ -50,49 +61,33 @@ class EnginePaths:
     inventory_json: Path
 
 
-REPOSITORY = Path(__file__).resolve().parents[2]
-APP = Path(__file__).resolve().parents[1]
+BACKEND = Path(__file__).resolve().parent
+REPOSITORY = Path(os.getenv("NPMS_REPOSITORY_ROOT", Path(__file__).resolve().parents[2])).resolve()
+APP = Path(os.getenv("NPMS_DEPLOY_ROOT", Path(__file__).resolve().parents[1])).resolve()
 PATHS = EnginePaths(
     repository=REPOSITORY,
     app=APP,
-    database=APP / "data" / "traffic_platform.db",
-    schema=APP / "scripts" / "pms_backend_schema.sql",
-    dashboard_json=APP / "public" / "data" / "pms_dashboard.json",
-    network_json=APP / "public" / "data" / "network_links.json",
-    condition_json=APP / "public" / "data" / "link_condition_lookup.json",
-    prediction_json=APP / "public" / "data" / "romdas_predictions.json",
-    deterioration_json=APP / "public" / "data" / "deterioration_summary.json",
-    inventory_json=APP / "public" / "data" / "road_inventory_2023.json",
+    database=Path(os.getenv("PMS_DB_PATH", APP / "data" / "npms_backend.db")).resolve(),
+    schema=Path(os.getenv("PMS_SCHEMA_PATH", BACKEND / "sql" / "pms_backend_schema.sql")).resolve(),
+    variables_sql=Path(os.getenv("PMS_VARIABLES_PATH", BACKEND / "sql" / "pms_variables.sql")).resolve(),
+    schema_json=APP / "data" / "pms_schema.json",
+    dashboard_json=APP / "data" / "pms_dashboard.json",
+    network_json=APP / "data" / "network_links.json",
+    condition_json=APP / "data" / "link_condition_lookup.json",
+    prediction_json=APP / "data" / "romdas_predictions.json",
+    deterioration_json=APP / "data" / "deterioration_summary.json",
+    inventory_json=APP / "data" / "road_inventory_2023.json",
 )
+
+DEFAULT_FWD_ROOT = REPOSITORY / "FWD"
+FWD_ROOT = Path(os.getenv("NPMS_FWD_ROOT", DEFAULT_FWD_ROOT)).expanduser().resolve()
 
 SOURCE_ROOTS = {
     "pavement_manuals": REPOSITORY / "0. Manuals" / "Pavement Design Manuals",
     "road_condition": REPOSITORY / "5.Road Condition Data",
     "road_inventory": REPOSITORY / "6.Road Inventory Data",
+    "fwd": FWD_ROOT,
 }
-
-SETTINGS = {
-    "iri_good_upper": (3.5, None, "m/km", "Upper IRI bound for Good condition"),
-    "iri_fair_upper": (6.5, None, "m/km", "Upper IRI bound for Fair condition"),
-    "iri_poor_upper": (9.0, None, "m/km", "Upper IRI bound for Poor condition"),
-    "reporting_date": (None, datetime.now(timezone.utc).date().isoformat(), "date", "Current reporting date"),
-    "ml_hidden_layers": (None, "128,96,64,32", "neurons", "Deep MLP hidden layer topology"),
-    "ml_max_iterations": (1200, None, "iterations", "Maximum MLP training iterations"),
-    "ml_random_seed": (42, None, "seed", "Reproducible model seed"),
-    "ml_validation_fraction": (0.2, None, "ratio", "Held-out model validation fraction"),
-    "source_hash_max_mb": (2048, None, "MB", "Largest source file eligible for SHA-256"),
-}
-
-VARIABLES = [
-    ("iri_m_per_km", "condition", "REAL", "m/km", "International Roughness Index", 0, 30, "mean", "observation plus DNN temporal projection"),
-    ("rut_depth_mm", "condition", "REAL", "mm", "Mean or maximum wheel-path rut depth", 0, 100, "mean", "observation plus DNN temporal projection"),
-    ("vci", "condition", "REAL", "index", "Visual Condition Index", 0, 100, "weighted mean", "observation plus DNN temporal projection"),
-    ("pci", "condition", "REAL", "index", "Pavement Condition Index", 0, 100, "weighted mean", "observation plus DNN temporal projection"),
-    ("cracking_percent", "condition", "REAL", "%", "Observed cracked pavement area", 0, 100, "weighted mean", "observation plus DNN temporal projection"),
-    ("condition_class", "condition", "TEXT", None, "Current IRI-derived condition band", None, None, "classification", "setting-driven SQL classification"),
-    ("pavement_age_years", "inventory", "REAL", "years", "Age since latest construction or rehabilitation", 0, 200, "latest", "reporting year less intervention year"),
-    ("length_km", "inventory", "REAL", "km", "Gazetted link length", 0, None, "sum", "latest network register"),
-]
 
 ALIASES = {
     "linkid": "link_id", "link_id": "link_id", "link": "link_id", "gisid": "external_id",
@@ -184,25 +179,30 @@ def setting(conn: sqlite3.Connection, key: str) -> Any:
     return row[0] if row[0] is not None else row[1]
 
 
+def parser_variables(conn: sqlite3.Connection, parser_name: str) -> dict[str, Any]:
+    rows = conn.execute(
+        """SELECT variable_name,data_type,value_numeric,value_text
+           FROM pms_parser_variables WHERE parser_name=? ORDER BY variable_name""",
+        (parser_name,),
+    ).fetchall()
+    result: dict[str, Any] = {}
+    for name, data_type, numeric, text in rows:
+        if data_type == "INTEGER":
+            result[name] = int(numeric)
+        elif data_type == "REAL":
+            result[name] = float(numeric)
+        elif data_type == "BOOLEAN":
+            result[name] = bool(numeric)
+        else:
+            result[name] = text
+    if not result:
+        raise KeyError(f"Undefined SQL parser variables: {parser_name}")
+    return result
+
+
 def setup_database(conn: sqlite3.Connection) -> None:
     conn.executescript(PATHS.schema.read_text(encoding="utf-8"))
-    conn.executemany(
-        """INSERT INTO pms_engine_settings(setting_key,value_numeric,value_text,unit,description)
-           VALUES(?,?,?,?,?) ON CONFLICT(setting_key) DO UPDATE SET
-           value_numeric=excluded.value_numeric,value_text=excluded.value_text,unit=excluded.unit,
-           description=excluded.description,updated_at=CURRENT_TIMESTAMP""",
-        [(key, *values) for key, values in SETTINGS.items()],
-    )
-    conn.executemany(
-        """INSERT INTO pms_variable_definitions
-           (canonical_name,category,data_type,unit,description,valid_min,valid_max,
-            aggregation_method,current_value_method,definition_source)
-           VALUES(?,?,?,?,?,?,?,?,?,?) ON CONFLICT(canonical_name) DO UPDATE SET
-           category=excluded.category,data_type=excluded.data_type,unit=excluded.unit,
-           description=excluded.description,valid_min=excluded.valid_min,valid_max=excluded.valid_max,
-           aggregation_method=excluded.aggregation_method,current_value_method=excluded.current_value_method""",
-        [(*row, "Pavement manuals and source-field harmonisation") for row in VARIABLES],
-    )
+    conn.executescript(PATHS.variables_sql.read_text(encoding="utf-8"))
     conn.commit()
 
 
@@ -402,9 +402,13 @@ def ingest_manual(conn: sqlite3.Connection, source_id: int, path: Path) -> int:
     text = ""
     pages = None
     if path.suffix.lower() == ".pdf":
-        reader = PdfReader(str(path))
-        pages = len(reader.pages)
-        text = "\n".join((page.extract_text() or "") for page in reader.pages)
+        try:
+            reader = PdfReader(str(path))
+            pages = len(reader.pages)
+            text = "\n".join((page.extract_text() or "") for page in reader.pages)
+        except (ValueError, TypeError, NotImplementedError):
+            # The file remains fully catalogued even when legacy encryption prevents text extraction.
+            text = ""
     elif path.suffix.lower() == ".docx":
         document = Document(path)
         text = "\n".join(paragraph.text for paragraph in document.paragraphs)
@@ -425,6 +429,8 @@ def ingest_manual(conn: sqlite3.Connection, source_id: int, path: Path) -> int:
 def ingest_access_metadata(conn: sqlite3.Connection, source_id: int, path: Path) -> int:
     if pyodbc is None:
         raise RuntimeError("pyodbc is not installed; Access metadata cannot be indexed")
+    if path.stat().st_size == 0:
+        return 0
     connection = pyodbc.connect(
         f"DRIVER={{Microsoft Access Driver (*.mdb, *.accdb)}};DBQ={path};ReadOnly=1;", timeout=20
     )
@@ -445,19 +451,297 @@ def ingest_access_metadata(conn: sqlite3.Connection, source_id: int, path: Path)
     return total
 
 
-def ingest_sources(conn: sqlite3.Connection, include_access: bool) -> None:
-    for group, root in SOURCE_ROOTS.items():
-        for path in sorted(p for p in root.rglob("*") if p.is_file()):
-            if path.suffix.lower() in {".mdb", ".accdb"} and not include_access:
+def read_text(path: Path) -> str:
+    content = path.read_bytes()
+    if content.startswith((b"\xff\xfe", b"\xfe\xff")) or content.count(b"\x00") > len(content) // 10:
+        for encoding in ("utf-16", "utf-16-le", "utf-16-be"):
+            try:
+                return content.decode(encoding)
+            except UnicodeDecodeError:
                 continue
+    for encoding in ("utf-8-sig", "cp1252", "latin-1"):
+        try:
+            return content.decode(encoding)
+        except UnicodeDecodeError:
+            continue
+    return content.decode("utf-8", errors="replace")
+
+
+def parsed_date(value: str | None) -> str | None:
+    text = str(value or "").strip()
+    for pattern in ("%d/%m/%Y", "%Y-%m-%d", "%m/%d/%Y", "%d-%m-%Y"):
+        try:
+            return datetime.strptime(text, pattern).date().isoformat()
+        except ValueError:
+            pass
+    return iso_date(text)
+
+
+def ddmm_coordinate(value: str, degree_digits: int, minutes_per_degree: float) -> float | None:
+    token = value.strip()
+    try:
+        sign = -1 if token.startswith("-") else 1
+        token = token.lstrip("+-")
+        degrees = float(token[:degree_digits])
+        minutes = float(token[degree_digits:])
+        result = sign * (degrees + minutes / minutes_per_degree)
+        return result if minutes < minutes_per_degree else None
+    except (TypeError, ValueError):
+        return None
+
+
+def replace_fwd_survey(conn: sqlite3.Connection, source_id: int, **values: Any) -> int:
+    conn.execute("DELETE FROM pms_fwd_surveys WHERE source_id=?", (source_id,))
+    columns = (
+        "source_id", "project_name", "road_name", "road_code", "operator_name", "lane", "weather",
+        "surface_type", "survey_date", "file_format", "file_version", "plate_radius_mm", "nominal_load_kn",
+        "sensor_offsets_mm_json", "start_chainage_km", "end_chainage_km", "notes", "raw_header_json",
+    )
+    row = {"source_id": source_id, **values}
+    conn.execute(
+        f"INSERT INTO pms_fwd_surveys({','.join(columns)}) VALUES({','.join('?' for _ in columns)})",
+        tuple(row.get(column) for column in columns),
+    )
+    return int(conn.execute("SELECT fwd_survey_id FROM pms_fwd_surveys WHERE source_id=?", (source_id,)).fetchone()[0])
+
+
+def add_fwd_test(
+    conn: sqlite3.Connection, survey_id: int, row_number: int, drop_number: int | None,
+    station_km: float | None, load_kn: float | None, deflections: list[float], offsets: list[float],
+    **values: Any,
+) -> None:
+    conn.execute(
+        """INSERT INTO pms_fwd_tests
+           (fwd_survey_id,source_row_number,station_km,drop_number,load_kn,air_temperature_c,
+            pavement_temperature_c,latitude,longitude,tested_at,comment,raw_values_json)
+           VALUES(?,?,?,?,?,?,?,?,?,?,?,?)""",
+        (survey_id, row_number, station_km, drop_number, load_kn, values.get("air_temperature_c"),
+         values.get("pavement_temperature_c"), values.get("latitude"), values.get("longitude"),
+         values.get("tested_at"), values.get("comment"), values.get("raw_values_json")),
+    )
+    test_id = int(conn.execute("SELECT last_insert_rowid()").fetchone()[0])
+    conn.executemany(
+        "INSERT INTO pms_fwd_deflections(fwd_test_id,sensor_index,sensor_offset_mm,deflection_microns) VALUES(?,?,?,?)",
+        [(test_id, index, offsets[index] if index < len(offsets) else None, value)
+         for index, value in enumerate(deflections) if value is not None],
+    )
+
+
+def ingest_kuab_fwd(conn: sqlite3.Connection, source_id: int, path: Path) -> int:
+    cfg = parser_variables(conn, "kuab_fwd")
+    lines = read_text(path).splitlines()
+    headers: dict[str, str] = {}
+    offsets: list[float] = []
+    header_prefixes = set(str(cfg["header_prefixes"]).split(","))
+    for line in lines:
+        if line[:1] in header_prefixes and ":" in line:
+            key, value = line[1:].split(":", 1)
+            headers[clean_name(key)] = value.strip()
+        if line.startswith(str(cfg["sensor_distance_header"])):
+            offsets = [float(item) * cfg["centimetres_to_mm"] for item in re.findall(r"-?\d+(?:\.\d+)?", line.split(":", 1)[1])]
+    project = headers.get("name_of_the_proje") or headers.get("name_of_the_project") or path.stem
+    plate_cm = number(headers.get("plate_radius"))
+    survey_id = replace_fwd_survey(
+        conn, source_id, project_name=project, road_name=project, operator_name=headers.get("operator"),
+        lane=headers.get("lane"), weather=headers.get("weather"), survey_date=parsed_date(headers.get("date_created")),
+        file_format=cfg["file_format"], file_version=headers.get("version"),
+        plate_radius_mm=plate_cm * cfg["centimetres_to_mm"] if plate_cm is not None else None,
+        sensor_offsets_mm_json=json.dumps(offsets), raw_header_json=json.dumps(headers, ensure_ascii=False),
+    )
+    count = 0
+    for row_number, line in enumerate(lines, 1):
+        if not line.startswith(f"{cfg['data_prefix']} "):
+            continue
+        parts = line.split()
+        if len(parts) < cfg["minimum_columns"]:
+            continue
+        try:
+            station_m = float(parts[cfg["station_index"]])
+            drop = int(parts[cfg["drop_index"]])
+            load_kn = float(parts[cfg["load_index"]])
+            deflections = [float(value) for value in parts[cfg["deflection_start_index"]:cfg["deflection_end_index"]]]
+            air = float(parts[cfg["air_temperature_index"]])
+            pavement = float(parts[cfg["pavement_temperature_index"]])
+        except ValueError:
+            continue
+        add_fwd_test(
+            conn, survey_id, row_number, drop, station_m / cfg["station_m_per_km"], load_kn, deflections, offsets,
+            air_temperature_c=air if cfg["air_temperature_min_c"] <= air <= cfg["air_temperature_max_c"] else None,
+            pavement_temperature_c=pavement if cfg["pavement_temperature_min_c"] <= pavement <= cfg["pavement_temperature_max_c"] else None,
+            latitude=ddmm_coordinate(parts[cfg["latitude_index"]], cfg["latitude_degree_digits"], cfg["minutes_per_degree"]),
+            longitude=ddmm_coordinate(parts[cfg["longitude_index"]], cfg["longitude_degree_digits"], cfg["minutes_per_degree"]),
+            tested_at=f"{parsed_date(headers.get('date_created')) or ''}T{parts[cfg['time_index']]}".strip("T"),
+            raw_values_json=json.dumps(parts[1:], separators=(",", ":")),
+        )
+        count += 1
+    return count
+
+
+def ingest_dynatest_f25(conn: sqlite3.Connection, source_id: int, path: Path) -> int:
+    cfg = parser_variables(conn, "dynatest_f25")
+    parsed: list[tuple[int, list[str]]] = []
+    for row_number, line in enumerate(read_text(path).splitlines(), 1):
+        try:
+            parsed.append((row_number, next(csv.reader([line], skipinitialspace=True))))
+        except (csv.Error, StopIteration):
+            continue
+    tagged = {row[0].strip(): row for _, row in parsed if row}
+    offsets_row = tagged.get(cfg["tag_sensor_offsets"], [])
+    offsets = [number(item) for item in offsets_row[cfg["sensor_offsets_start_index"]:]] if len(offsets_row) > cfg["sensor_offsets_start_index"] else []
+    offsets = [float(item) for item in offsets if item is not None]
+    plate_radius_mm = number(offsets_row[cfg["plate_radius_index"]]) if len(offsets_row) > cfg["plate_radius_index"] else None
+    project_row = tagged.get(cfg["tag_project"], [])
+    road_row = tagged.get(cfg["tag_road"], [])
+    created_row = tagged.get(cfg["tag_created"], [])
+    survey_date = None
+    if len(created_row) >= cfg["created_minimum_columns"]:
+        try:
+            survey_date = (
+                f"{int(created_row[cfg['created_year_index']]):04d}-"
+                f"{int(created_row[cfg['created_month_index']]):02d}-"
+                f"{int(created_row[cfg['created_day_index']]):02d}"
+            )
+        except ValueError:
+            pass
+    start_km = number(road_row[cfg["start_chainage_index"]]) if len(road_row) > cfg["start_chainage_index"] else None
+    end_km = number(road_row[cfg["end_chainage_index"]]) if len(road_row) > cfg["end_chainage_index"] else None
+    operator_row = tagged.get(cfg["tag_operator"], [])
+    version_row = tagged.get(cfg["tag_version"], [])
+    survey_id = replace_fwd_survey(
+        conn, source_id,
+        project_name=project_row[cfg["project_name_index"]].strip() if len(project_row) > cfg["project_name_index"] else path.stem,
+        road_name=road_row[cfg["road_name_index"]].strip() if len(road_row) > cfg["road_name_index"] else None,
+        road_code=project_row[cfg["road_code_index"]].strip() if len(project_row) > cfg["road_code_index"] else None,
+        surface_type=project_row[cfg["surface_type_index"]].strip() if len(project_row) > cfg["surface_type_index"] else None,
+        operator_name=operator_row[cfg["operator_index"]].strip() if len(operator_row) > cfg["operator_index"] else None,
+        survey_date=survey_date, file_format=cfg["file_format"],
+        file_version=version_row[cfg["version_index"]] if len(version_row) > cfg["version_index"] else None,
+        plate_radius_mm=plate_radius_mm, sensor_offsets_mm_json=json.dumps(offsets),
+        start_chainage_km=start_km, end_chainage_km=end_km,
+        raw_header_json=json.dumps({key: value[1:] for key, value in tagged.items() if key.startswith("50")}, ensure_ascii=False),
+    )
+    station: float | None = None
+    lane: str | None = None
+    tested_at: str | None = None
+    comment: str | None = None
+    air: float | None = None
+    pavement: float | None = None
+    count = 0
+    for row_number, row in parsed:
+        if not row:
+            continue
+        tag = row[0].strip()
+        if tag == cfg["tag_station"] and len(row) >= cfg["station_minimum_columns"]:
+            station = number(row[cfg["station_index"]])
+            lane = row[cfg["lane_index"]].strip() or None
+            try:
+                tested_at = (
+                    f"{int(row[cfg['test_year_index']]):04d}-{int(row[cfg['test_month_index']]):02d}-"
+                    f"{int(row[cfg['test_day_index']]):02d}T{int(row[cfg['test_hour_index']]):02d}:"
+                    f"{int(row[cfg['test_minute_index']]):02d}:00"
+                )
+            except ValueError:
+                tested_at = survey_date
+            comment, air, pavement = None, None, None
+        elif tag == cfg["tag_comment"] and len(row) >= cfg["comment_minimum_columns"]:
+            comment = row[cfg["comment_index"]].strip() or None
+        elif tag == cfg["tag_temperature"] and len(row) >= cfg["temperature_minimum_columns"]:
+            air = number(row[cfg["air_temperature_index"]])
+            pavement = number(row[cfg["pavement_temperature_index"]])
+        elif station is not None and tag.isdigit() and cfg["minimum_drop_number"] <= int(tag) <= cfg["maximum_drop_number"] and len(row) >= cfg["minimum_drop_columns"]:
+            pressure_kpa = number(row[cfg["pressure_index"]])
+            radius_m = float(plate_radius_mm or cfg["default_plate_radius_mm"]) / cfg["millimetres_per_metre"]
+            load_kn = pressure_kpa * math.pi * radius_m ** 2 if pressure_kpa is not None else None
+            deflections = [value for value in (number(item) for item in row[cfg["deflections_start_index"]:]) if value is not None]
+            add_fwd_test(
+                conn, survey_id, row_number, int(tag), station, load_kn, deflections, offsets,
+                air_temperature_c=air, pavement_temperature_c=pavement, tested_at=tested_at, comment=comment,
+                raw_values_json=json.dumps({"lane": lane, "values": row}, ensure_ascii=False, separators=(",", ":")),
+            )
+            count += 1
+    return count
+
+
+def ingest_gpx(conn: sqlite3.Connection, source_id: int, path: Path) -> int:
+    text = read_text(path)
+    closing = text.lower().find("</gpx>")
+    if closing >= 0:
+        text = text[:closing + len("</gpx>")]
+    root = ET.fromstring(text)
+    route_name = next((str(node.text).strip() for node in root.iter() if node.tag.endswith("name") and node.text), path.stem)
+    conn.execute("DELETE FROM pms_source_gps_points WHERE source_id=?", (source_id,))
+    rows = []
+    for node in root.iter():
+        if not node.tag.endswith(("wpt", "rtept", "trkpt")):
+            continue
+        lat, lon = number(node.attrib.get("lat")), number(node.attrib.get("lon"))
+        if lat is None or lon is None:
+            continue
+        elevation = next((number(child.text) for child in node if child.tag.endswith("ele")), None)
+        recorded = next((str(child.text).strip() for child in node if child.tag.endswith("time") and child.text), None)
+        rows.append((source_id, len(rows) + 1, route_name, lat, lon, elevation, recorded))
+    conn.executemany(
+        "INSERT INTO pms_source_gps_points(source_id,sequence_number,route_name,latitude,longitude,elevation_m,recorded_at) VALUES(?,?,?,?,?,?,?)",
+        rows,
+    )
+    return len(rows)
+
+
+def ingest_zip_catalog(conn: sqlite3.Connection, source_id: int, path: Path) -> int:
+    conn.execute("DELETE FROM pms_archive_entries WHERE source_id=?", (source_id,))
+    with zipfile.ZipFile(path) as archive:
+        rows = [
+            (source_id, item.filename, item.file_size, item.compress_size,
+             datetime(*item.date_time, tzinfo=timezone.utc).isoformat(), f"{item.CRC:08x}")
+            for item in archive.infolist() if not item.is_dir()
+        ]
+    conn.executemany(
+        "INSERT INTO pms_archive_entries(source_id,entry_path,byte_size,compressed_size,modified_at,crc32) VALUES(?,?,?,?,?,?)",
+        rows,
+    )
+    return len(rows)
+
+
+def ingest_csv_metadata(conn: sqlite3.Connection, source_id: int, path: Path) -> int:
+    with path.open("r", encoding="utf-8-sig", errors="replace", newline="") as handle:
+        reader = csv.reader(handle)
+        try:
+            headers = next(reader)
+        except StopIteration:
+            headers = []
+        count = sum(1 for row in reader if any(str(value).strip() for value in row))
+    register_table(conn, source_id, path.stem, "csv", 1 if headers else None, count, headers)
+    return count
+
+
+def ingest_sources(conn: sqlite3.Connection, include_access: bool, only_group: str | None = None) -> None:
+    for group, root in SOURCE_ROOTS.items():
+        if only_group and group != only_group:
+            continue
+        if not root.exists():
+            continue
+        for path in sorted(p for p in root.rglob("*") if p.is_file()):
             source_id = register_file(conn, group, root, path)
             records = 0
             try:
-                if path.suffix.lower() == ".xlsx":
+                suffix = path.suffix.lower()
+                if group == "fwd" and suffix == ".f25":
+                    records = ingest_dynatest_f25(conn, source_id, path)
+                elif group == "fwd" and suffix == ".fwd":
+                    records = ingest_kuab_fwd(conn, source_id, path)
+                elif group == "fwd" and suffix == ".txt" and "fwd file" in read_text(path)[:500].lower():
+                    records = ingest_kuab_fwd(conn, source_id, path)
+                elif group == "fwd" and suffix == ".gpx":
+                    records = ingest_gpx(conn, source_id, path)
+                elif group == "fwd" and suffix == ".zip":
+                    records = ingest_zip_catalog(conn, source_id, path)
+                elif suffix == ".csv":
+                    records = ingest_csv_metadata(conn, source_id, path)
+                elif suffix == ".xlsx":
                     records = ingest_workbook(conn, source_id, group, path)
-                elif group == "pavement_manuals" and path.suffix.lower() in {".pdf", ".docx"}:
+                elif group in {"pavement_manuals", "fwd"} and suffix in {".pdf", ".docx"}:
                     records = ingest_manual(conn, source_id, path)
-                elif include_access and path.suffix.lower() in {".mdb", ".accdb"}:
+                elif include_access and suffix in {".mdb", ".accdb"}:
                     records = ingest_access_metadata(conn, source_id, path)
                 conn.execute(
                     "UPDATE pms_source_files SET ingestion_status='complete',record_count=?,ingested_at=? WHERE source_id=?",
@@ -465,15 +749,22 @@ def ingest_sources(conn: sqlite3.Connection, include_access: bool) -> None:
                 )
             except Exception as exc:
                 conn.execute(
-                    "UPDATE pms_source_files SET ingestion_status='error',error_message=?,ingested_at=? WHERE source_id=?",
+                    """UPDATE pms_source_files SET
+                       ingestion_status=CASE WHEN record_count>0 THEN 'complete' ELSE 'error' END,
+                       error_message=CASE WHEN record_count>0 THEN NULL ELSE ? END,
+                       ingested_at=? WHERE source_id=?""",
                     (f"{type(exc).__name__}: {exc}"[:1000], utc_now(), source_id),
                 )
             conn.commit()
 
 
 def ingest_access_sources(conn: sqlite3.Connection) -> None:
-    for group in ("road_condition", "road_inventory"):
+    # FWD databases use a newer Dynatest schema/encoding; inspect them before the
+    # large legacy road-condition MDB batch to avoid Access driver state leakage.
+    for group in ("fwd", "road_condition", "road_inventory"):
         root = SOURCE_ROOTS[group]
+        if not root.exists():
+            continue
         for path in sorted(p for p in root.rglob("*") if p.is_file() and p.suffix.lower() in {".mdb", ".accdb"}):
             source_id = register_file(conn, group, root, path)
             try:
@@ -484,7 +775,10 @@ def ingest_access_sources(conn: sqlite3.Connection) -> None:
                 )
             except Exception as exc:
                 conn.execute(
-                    "UPDATE pms_source_files SET ingestion_status='error',error_message=?,ingested_at=? WHERE source_id=?",
+                    """UPDATE pms_source_files SET
+                       ingestion_status=CASE WHEN record_count>0 THEN 'complete' ELSE 'error' END,
+                       error_message=CASE WHEN record_count>0 THEN NULL ELSE ? END,
+                       ingested_at=? WHERE source_id=?""",
                     (f"{type(exc).__name__}: {exc}"[:1000], utc_now(), source_id),
                 )
             conn.commit()
@@ -732,6 +1026,7 @@ def main() -> None:
     parser.add_argument("--skip-source-ingest", action="store_true", help="Reuse registered source metadata and normalized observations")
     parser.add_argument("--skip-access-metadata", action="store_true", help="Do not open MDB/ACCDB files")
     parser.add_argument("--only-access-metadata", action="store_true", help="Index only MDB/ACCDB tables and fields")
+    parser.add_argument("--only-source-group", choices=sorted(SOURCE_ROOTS), help="Ingest one repository group without rebuilding models")
     args = parser.parse_args()
     PATHS.database.parent.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(PATHS.database)
@@ -741,6 +1036,7 @@ def main() -> None:
         load_network(conn)
         if args.only_access_metadata:
             ingest_access_sources(conn)
+            write_schema_catalog(conn, PATHS.schema_json)
             print(json.dumps({
                 "access_files": conn.execute("SELECT COUNT(*) FROM pms_source_files WHERE extension IN ('.mdb','.accdb')").fetchone()[0],
                 "access_tables": conn.execute("SELECT COUNT(*) FROM pms_source_tables WHERE table_kind='access_table'").fetchone()[0],
@@ -748,11 +1044,25 @@ def main() -> None:
                 "access_records": conn.execute("SELECT SUM(record_count) FROM pms_source_files WHERE extension IN ('.mdb','.accdb')").fetchone()[0],
             }, indent=2))
             return
+        if args.only_source_group:
+            ingest_sources(conn, include_access=not args.skip_access_metadata, only_group=args.only_source_group)
+            write_schema_catalog(conn, PATHS.schema_json)
+            print(json.dumps({
+                "source_group": args.only_source_group,
+                "files": conn.execute("SELECT COUNT(*) FROM pms_source_files WHERE repository_group=?", (args.only_source_group,)).fetchone()[0],
+                "records": conn.execute("SELECT COALESCE(SUM(record_count),0) FROM pms_source_files WHERE repository_group=?", (args.only_source_group,)).fetchone()[0],
+                "errors": conn.execute("SELECT COUNT(*) FROM pms_source_files WHERE repository_group=? AND ingestion_status='error'", (args.only_source_group,)).fetchone()[0],
+                "fwd_surveys": conn.execute("SELECT COUNT(*) FROM pms_fwd_surveys").fetchone()[0],
+                "fwd_tests": conn.execute("SELECT COUNT(*) FROM pms_fwd_tests").fetchone()[0],
+                "fwd_deflections": conn.execute("SELECT COUNT(*) FROM pms_fwd_deflections").fetchone()[0],
+            }, indent=2))
+            return
         if not args.skip_source_ingest:
             ingest_sources(conn, include_access=not args.skip_access_metadata)
         baseline = add_condition_baseline(conn)
         model_run_id = train_current_value_model(conn, baseline)
         dashboard = generate_infographics(conn, model_run_id)
+        schema_document = write_schema_catalog(conn, PATHS.schema_json)
         print(json.dumps({
             "database": str(PATHS.database),
             "sources": conn.execute("SELECT COUNT(*) FROM pms_source_files").fetchone()[0],
@@ -762,9 +1072,16 @@ def main() -> None:
             "road_links": conn.execute("SELECT COUNT(*) FROM pms_road_links").fetchone()[0],
             "condition_observations": conn.execute("SELECT COUNT(*) FROM pms_condition_observations").fetchone()[0],
             "inventory_assets": conn.execute("SELECT COUNT(*) FROM pms_inventory_assets").fetchone()[0],
+            "fwd_surveys": conn.execute("SELECT COUNT(*) FROM pms_fwd_surveys").fetchone()[0],
+            "fwd_tests": conn.execute("SELECT COUNT(*) FROM pms_fwd_tests").fetchone()[0],
+            "fwd_deflections": conn.execute("SELECT COUNT(*) FROM pms_fwd_deflections").fetchone()[0],
+            "gps_points": conn.execute("SELECT COUNT(*) FROM pms_source_gps_points").fetchone()[0],
+            "archive_entries": conn.execute("SELECT COUNT(*) FROM pms_archive_entries").fetchone()[0],
             "current_values": conn.execute("SELECT COUNT(*) FROM pms_current_values").fetchone()[0],
             "infographics": len(dashboard["infographics"]),
             "dashboard": str(PATHS.dashboard_json),
+            "schema": str(PATHS.schema_json),
+            "schema_tables": len(schema_document["tables"]),
         }, indent=2))
     finally:
         conn.close()
