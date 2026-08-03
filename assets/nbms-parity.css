@@ -1,0 +1,196 @@
+/*
+ * NPMS gateway parity layer
+ *
+ * Keeps the NPMS authentication logic intact while matching the visual
+ * language, spacing and responsive behavior of the NBMS secure gateway.
+ * The :has() guard confines these rules to the unauthenticated login screen.
+ */
+
+#root > div:has(form input[placeholder="first.lastname@unra.go.ug"]) {
+  width: 100vw !important;
+  height: 100vh !important;
+  min-height: 100vh !important;
+  overflow: hidden !important;
+  background:
+    linear-gradient(rgba(75, 111, 177, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(75, 111, 177, 0.06) 1px, transparent 1px),
+    radial-gradient(circle at 50% 22%, rgba(52, 97, 187, 0.28), transparent 38%),
+    #050817 !important;
+  background-size: 34px 34px, 34px 34px, 100% 100%, 100% 100% !important;
+}
+
+#root > div:has(form input[placeholder="first.lastname@unra.go.ug"]) > div {
+  box-sizing: border-box !important;
+  width: 392px !important;
+  max-width: calc(100vw - 48px) !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  background: rgba(5, 13, 32, 0.86) !important;
+  border: 1px solid rgba(96, 165, 250, 0.24) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.5), inset 0 1px rgba(255, 255, 255, 0.03) !important;
+}
+
+/* Registry brand header */
+#root > div:has(form input[placeholder="first.lastname@unra.go.ug"]) > div > div:first-child {
+  box-sizing: border-box !important;
+  gap: 16px !important;
+  margin: 0 !important;
+  padding: 24px 32px !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+  background: rgba(0, 0, 0, 0.2) !important;
+}
+
+#root > div:has(form input[placeholder="first.lastname@unra.go.ug"]) > div > div:first-child img {
+  box-sizing: border-box !important;
+  width: 48px !important;
+  height: 48px !important;
+  padding: 4px !important;
+  border: 0 !important;
+  border-radius: 6px !important;
+  box-shadow: none !important;
+}
+
+#root > div:has(form input[placeholder="first.lastname@unra.go.ug"]) > div > div:first-child > div > div:first-child {
+  color: #fff !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.5px !important;
+}
+
+#root > div:has(form input[placeholder="first.lastname@unra.go.ug"]) > div > div:first-child > div > div:last-child {
+  white-space: nowrap !important;
+  color: #94a3b8 !important;
+  font-size: 9.5px !important;
+  font-weight: 700 !important;
+  letter-spacing: 1.2px !important;
+}
+
+/* Gateway introduction */
+#root > div:has(form input[placeholder="first.lastname@unra.go.ug"]) > div > div:nth-child(2) {
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: 40px 32px 32px !important;
+}
+
+#root > div:has(form input[placeholder="first.lastname@unra.go.ug"]) > div > div:nth-child(2) > div:first-child {
+  width: 80px !important;
+  height: 80px !important;
+  margin-bottom: 24px !important;
+  border: 1px solid rgba(96, 165, 250, 0.28) !important;
+  border-radius: 8px !important;
+  background: rgba(59, 130, 246, 0.12) !important;
+}
+
+#root > div:has(form input[placeholder="first.lastname@unra.go.ug"]) > div > div:nth-child(2) > div:first-child svg {
+  width: 48px !important;
+  height: 48px !important;
+  color: #38bdf8 !important;
+  stroke: #38bdf8 !important;
+}
+
+#root > div:has(form input[placeholder="first.lastname@unra.go.ug"]) > div > div:nth-child(2) > div:nth-child(2) {
+  margin-bottom: 8px !important;
+  color: #fff !important;
+  font-size: 24px !important;
+  font-weight: 800 !important;
+}
+
+#root > div:has(form input[placeholder="first.lastname@unra.go.ug"]) > div > div:nth-child(2) > div:last-child {
+  color: #94a3b8 !important;
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+}
+
+/* Authentication controls */
+#root > div:has(form input[placeholder="first.lastname@unra.go.ug"]) form {
+  box-sizing: border-box !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 16px !important;
+  padding: 0 32px 40px !important;
+}
+
+#root > div:has(form input[placeholder="first.lastname@unra.go.ug"]) form > div:has(input) {
+  position: relative !important;
+  box-sizing: border-box !important;
+  height: 52px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+#root > div:has(form input[placeholder="first.lastname@unra.go.ug"]) form > div:has(input) > svg {
+  position: absolute !important;
+  z-index: 1 !important;
+  left: 16px !important;
+  width: 18px !important;
+  height: 18px !important;
+  color: #64748b !important;
+}
+
+#root > div:has(form input[placeholder="first.lastname@unra.go.ug"]) form input {
+  box-sizing: border-box !important;
+  width: 100% !important;
+  height: 52px !important;
+  padding: 16px 16px 16px 48px !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 6px !important;
+  background: rgba(0, 0, 0, 0.2) !important;
+  color: #fff !important;
+  font-size: 16px !important;
+}
+
+#root > div:has(form input[placeholder="first.lastname@unra.go.ug"]) form input:focus {
+  border-color: #38bdf8 !important;
+  background: rgba(0, 0, 0, 0.4) !important;
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.1) !important;
+}
+
+#root > div:has(form input[placeholder="first.lastname@unra.go.ug"]) form button {
+  box-sizing: border-box !important;
+  height: 50px !important;
+  min-height: 50px !important;
+  padding: 0 16px !important;
+  border-radius: 6px !important;
+  background: linear-gradient(135deg, #2563eb, #38bdf8) !important;
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3) !important;
+  font-size: 16px !important;
+  letter-spacing: normal !important;
+}
+
+#root > div:has(form input[placeholder="first.lastname@unra.go.ug"]) form button:hover:not(:disabled) {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 16px rgba(2, 132, 199, 0.5) !important;
+}
+
+/* Security notice footer */
+#root > div:has(form input[placeholder="first.lastname@unra.go.ug"]) > div > div:last-child {
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: 16px !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
+  background: rgba(0, 0, 0, 0.4) !important;
+  color: #64748b !important;
+  font-size: 11px !important;
+  font-weight: 400 !important;
+  letter-spacing: 1px !important;
+}
+
+@media (max-height: 680px) {
+  #root > div:has(form input[placeholder="first.lastname@unra.go.ug"]) {
+    align-items: flex-start !important;
+    overflow-y: auto !important;
+    padding: 16px 0 !important;
+  }
+
+  #root > div:has(form input[placeholder="first.lastname@unra.go.ug"]) > div > div:nth-child(2) {
+    padding-top: 24px !important;
+    padding-bottom: 20px !important;
+  }
+
+  #root > div:has(form input[placeholder="first.lastname@unra.go.ug"]) form {
+    padding-bottom: 24px !important;
+  }
+}
