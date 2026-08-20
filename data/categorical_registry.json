@@ -1,0 +1,276 @@
+{
+  "road_classes": [
+    {
+      "code": "National",
+      "name": "National Road"
+    },
+    {
+      "code": "District",
+      "name": "District Road"
+    },
+    {
+      "code": "Urban",
+      "name": "Urban Road"
+    },
+    {
+      "code": "Community",
+      "name": "Community Access Road"
+    }
+  ],
+  "surface_types": [
+    {
+      "code": "AC",
+      "name": "Asphalt Concrete",
+      "base_category": "Bituminous Material",
+      "main_category": "Paved"
+    },
+    {
+      "code": "SD",
+      "name": "Surface Dressing",
+      "base_category": "Bituminous Material",
+      "main_category": "Paved"
+    },
+    {
+      "code": "Concrete",
+      "name": "Concrete",
+      "base_category": "Concrete",
+      "main_category": "Paved"
+    },
+    {
+      "code": "G",
+      "name": "Gravel",
+      "base_category": "Gravel",
+      "main_category": "Unpaved"
+    },
+    {
+      "code": "E",
+      "name": "Earth",
+      "base_category": "Earth",
+      "main_category": "Unpaved"
+    }
+  ],
+  "regions": [
+    {
+      "id": "Central",
+      "name": "Central Region"
+    },
+    {
+      "id": "Eastern",
+      "name": "Eastern Region"
+    },
+    {
+      "id": "Northern",
+      "name": "Northern Region"
+    },
+    {
+      "id": "Western",
+      "name": "Western Region"
+    }
+  ],
+  "condition_ratings": [
+    {
+      "code": "Good",
+      "name": "Good",
+      "color": "#37f5aa",
+      "weight": 1
+    },
+    {
+      "code": "Fair",
+      "name": "Fair",
+      "color": "#ffd15a",
+      "weight": 2
+    },
+    {
+      "code": "Poor",
+      "name": "Poor",
+      "color": "#ff5d8f",
+      "weight": 3
+    },
+    {
+      "code": "Bad",
+      "name": "Bad",
+      "color": "#e84118",
+      "weight": 4
+    }
+  ],
+  "culvert_types": [
+    {
+      "code": "Armco",
+      "name": "Armco / Corrugated Metal"
+    },
+    {
+      "code": "Concrete",
+      "name": "Concrete Pipe"
+    },
+    {
+      "code": "Box",
+      "name": "Box Culvert"
+    },
+    {
+      "code": "Slab",
+      "name": "Slab Culvert"
+    }
+  ],
+  "culvert_alignment": [
+    {
+      "code": "Access",
+      "name": "Access"
+    },
+    {
+      "code": "Cross",
+      "name": "Cross"
+    },
+    {
+      "code": "Skew",
+      "name": "Skew"
+    }
+  ],
+  "drainage_types": [
+    {
+      "code": "Lined",
+      "name": "Lined Drain"
+    },
+    {
+      "code": "Storm",
+      "name": "Storm Drain"
+    },
+    {
+      "code": "Unlined",
+      "name": "Unlined Earth Drain"
+    }
+  ],
+  "junction_types": [
+    {
+      "code": "T",
+      "name": "T-Junction"
+    },
+    {
+      "code": "Y",
+      "name": "Y-Junction"
+    },
+    {
+      "code": "X",
+      "name": "Crossroads"
+    },
+    {
+      "code": "Roundabout",
+      "name": "Roundabout"
+    }
+  ],
+  "median_types": [
+    {
+      "code": "Raised",
+      "name": "Raised Median"
+    },
+    {
+      "code": "Depressed",
+      "name": "Depressed Median"
+    },
+    {
+      "code": "Painted",
+      "name": "Painted Island"
+    },
+    {
+      "code": "Barrier",
+      "name": "Barrier / Guardrail"
+    }
+  ],
+  "pavement_markings": [
+    {
+      "code": "Centerline",
+      "name": "Centerline (Broken/Solid)"
+    },
+    {
+      "code": "Edge",
+      "name": "Edge Line"
+    },
+    {
+      "code": "Pedestrian",
+      "name": "Pedestrian Crossing"
+    },
+    {
+      "code": "Stop",
+      "name": "Stop/Yield Line"
+    },
+    {
+      "code": "Directional",
+      "name": "Directional Arrows"
+    }
+  ],
+  "pedestrian_crossings": [
+    {
+      "code": "Zebra",
+      "name": "Zebra Crossing"
+    },
+    {
+      "code": "Signalized",
+      "name": "Signalized Crossing"
+    },
+    {
+      "code": "Pelican",
+      "name": "Pelican Crossing"
+    },
+    {
+      "code": "Unmarked",
+      "name": "Unmarked Crossing"
+    }
+  ],
+  "roadside_hazards": [
+    {
+      "code": "Tree",
+      "name": "Large Tree"
+    },
+    {
+      "code": "Pole",
+      "name": "Utility Pole"
+    },
+    {
+      "code": "Drop",
+      "name": "Steep Drop-off"
+    },
+    {
+      "code": "Structure",
+      "name": "Rigid Structure"
+    },
+    {
+      "code": "Water",
+      "name": "Water Body"
+    }
+  ],
+  "railway_crossings": [
+    {
+      "code": "Level",
+      "name": "Level Crossing (Active/Gated)"
+    },
+    {
+      "code": "Passive",
+      "name": "Level Crossing (Passive/Signs Only)"
+    },
+    {
+      "code": "Overpass",
+      "name": "Overpass (Road over Rail)"
+    },
+    {
+      "code": "Underpass",
+      "name": "Underpass (Road under Rail)"
+    }
+  ],
+  "road_signs": [
+    {
+      "code": "Warning",
+      "name": "Warning Sign"
+    },
+    {
+      "code": "Regulatory",
+      "name": "Regulatory Sign"
+    },
+    {
+      "code": "Information",
+      "name": "Information Sign"
+    },
+    {
+      "code": "Directional",
+      "name": "Directional Sign"
+    }
+  ]
+}

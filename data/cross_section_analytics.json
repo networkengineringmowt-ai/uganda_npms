@@ -1,0 +1,110 @@
+{
+  "pms_by_region": [
+    {
+      "region_name": "Central",
+      "road_class": "Highway",
+      "num_links": 89,
+      "total_length_km": 2614.64,
+      "avg_iri": 3.33,
+      "total_maintenance_cost": 34422661.0
+    },
+    {
+      "region_name": "Central",
+      "road_class": "Secondary",
+      "num_links": 78,
+      "total_length_km": 145.11,
+      "avg_iri": 1.47,
+      "total_maintenance_cost": 4122420.0
+    },
+    {
+      "region_name": "Eastern",
+      "road_class": "Secondary",
+      "num_links": 75,
+      "total_length_km": 2804.82,
+      "avg_iri": 6.67,
+      "total_maintenance_cost": 190881634.0
+    },
+    {
+      "region_name": "Northern",
+      "road_class": "Tertiary",
+      "num_links": 775,
+      "total_length_km": 15520.88,
+      "avg_iri": 12.09,
+      "total_maintenance_cost": 1179245353.0
+    }
+  ],
+  "road_condition": [
+    {
+      "region_name": "Central",
+      "road_class": "Highway",
+      "condition_class": "Very Poor",
+      "total_length_km": 10.71,
+      "avg_iri": 16.98,
+      "pct_poor_condition": 100.0
+    },
+    {
+      "region_name": "Central",
+      "road_class": "Highway",
+      "condition_class": "Poor",
+      "total_length_km": 28.969,
+      "avg_iri": 7.13,
+      "pct_poor_condition": 0.0
+    },
+    {
+      "region_name": "Central",
+      "road_class": "Highway",
+      "condition_class": "Fair",
+      "total_length_km": 714.474,
+      "avg_iri": 4.21,
+      "pct_poor_condition": 0.0
+    },
+    {
+      "region_name": "Central",
+      "road_class": "Highway",
+      "condition_class": "Good",
+      "total_length_km": 1539.341,
+      "avg_iri": 2.6,
+      "pct_poor_condition": 0.0
+    },
+    {
+      "region_name": "Eastern",
+      "road_class": "Secondary",
+      "condition_class": "Fair",
+      "total_length_km": 157.903,
+      "avg_iri": 4.23,
+      "pct_poor_condition": 0.0
+    },
+    {
+      "region_name": "Eastern",
+      "road_class": "Secondary",
+      "condition_class": "Good",
+      "total_length_km": 411.093,
+      "avg_iri": 2.7,
+      "pct_poor_condition": 0.0
+    },
+    {
+      "region_name": "Northern",
+      "road_class": "Tertiary",
+      "condition_class": "Poor",
+      "total_length_km": 3.423,
+      "avg_iri": 6.87,
+      "pct_poor_condition": 0.0
+    },
+    {
+      "region_name": "Northern",
+      "road_class": "Tertiary",
+      "condition_class": "Fair",
+      "total_length_km": 335.16,
+      "avg_iri": 4.3,
+      "pct_poor_condition": 0.0
+    },
+    {
+      "region_name": "Northern",
+      "road_class": "Tertiary",
+      "condition_class": "Good",
+      "total_length_km": 465.841,
+      "avg_iri": 2.53,
+      "pct_poor_condition": 0.0
+    }
+  ]
+}

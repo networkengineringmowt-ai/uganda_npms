@@ -1,0 +1,1020 @@
+id,name,structure_type,road_name,road_number,road_class,chainage_km,latitude,longitude,span_length_m,no_of_spans,no_of_lanes,no_of_piers,width_m,material,crossing_type,surface_type,year_built,condition_rating,last_inspection_date,district,region,maintenance_station,functional_class,river,overall_rating
+BRG--,RWIZI BRIDGE,bridge,Mbarara(Bushenyi Junction) - Ntungamo,A002_Link08,A,264.0,-0.61817,30.644039,18.5,3,2,2,11.0,Prestressed Concrete,01,Bituminous,1970,2,2023-12-04,Mbarara,Southern,Mbarara,A,RIVER RWIZI,
+BRG-B001,KIBIMBA,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,0.53546,33.89109,20.0,3,2,2,13.0,Steel Truss,01,Bituminous,2022,5,2023-07-07,Kampala,Central,Kampala,M,KIBIMBA RIVER,7
+BRG-B002,MALABA,bridge,Kampala - Entebbe Expressway,M3_Link01,M,200.5,0.63782,34.26833,16.0,3,2,2,20.2,Steel Composite,01,Bituminous,2016,5,2024-01-03,Kampala,Central,Kampala,M,MALABA,7
+BRG-B003,BUSEGA,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,0.301,32.510059,73,1,2,0,7.3,Steel Truss,Road over river,Bituminous,2018,4,2022-11-09,Kampala,Central,Kampala,M,,7
+BRG-B004,KATONGA BRIDGE,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,0.30104,32.509979,22,1,2,0,7.3,Prestressed Concrete,Road over river,Bituminous,2018,5,2023-02-07,Kampala,Central,Kampala,M,,7
+BRG-B005,RWIZI BRIDGE,bridge,Kampala - Entebbe Expressway,M3_Link01,M,264.0,-0.61817,30.644039,18.5,3,2,2,11.0,Prestressed Concrete,01,Bituminous,2018,4,2023-01-08,Kampala,Central,Kampala,M,RIVER RWIZI,6
+BRG-B006,KAMIRA BRIDGE,bridge,Kampala - Entebbe Expressway,M3_Link01,M,325.596008300781,-0.92715,30.223,42.0,1,2,0,8.0,Masonry,01,Bituminous,2018,5,2024-02-02,Kampala,Central,Kampala,M,KAMIRA RIVER,7
+BRG-B007,RUBANGA BRIDGE,bridge,Ntungamo - Rubaale,A002_Link09,A,325.600006103516,-0.95836,30.20702,31.3,1,2,0,8.0,Steel Girder,01,Bituminous,1970,1,2024-02-02,Kabale,Southern,Kabale,A,RUBANGA RIVER,6
+BRG-B008,KATINADA BRIDGE,bridge,Kampala - Entebbe Expressway,M3_Link01,M,340.557006835938,-1.03785,30.18478,14.0,1,2,0,11.0,Reinforced Concrete,01,Bituminous,2018,5,2022-07-12,Kampala,Central,Kampala,M,KEMYENDA RIVER,6
+BRG-B009,Rubaale - Muhanga - Kabale,bridge,Kampala - Entebbe Expressway,M3_Link01,M,391.0,-1.26244,30.028669,21.0,1,2,0,10.8,Steel Girder,01,Bituminous,2018,5,2023-10-05,Kampala,Central,Kampala,M,KYANAMIRA,6
+BRG-B00Z,Bumuli overbridge 2,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,0.176,32.5173,40,1,2,0,7.3,Steel Truss,Road over river,Bituminous,2018,4,2023-09-05,Kampala,Central,Kampala,M,,7
+BRG-B00Z-11,Bumuli overbridge 2,bridge,Njeru - Jinja (Dual Section),A001N1_Link01,A,0,0.43834,33.186661,64,1,2,0,7.3,Reinforced Concrete,Road over river,Bituminous,1960,2,2024-05-02,Kampala,Central,Kampala,A,,7
+BRG-B010,KEE B7 Overbridge,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,0.2596,32.5215,22,1,2,0,7.3,Masonry,Road over river,Bituminous,2018,5,2024-03-03,Kampala,Central,Kampala,M,,7
+BRG-B010-13,Sisa Bridge underpass,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,0.1594,32.5124,21,1,2,0,7.3,Timber,Road over river,Bituminous,2018,5,2023-03-09,Kampala,Central,Kampala,M,,7
+BRG-B010-14,Mwanyare,bridge,Kabale - Katuna,A002_Link11,A,0,-1.42476,30.01174,48,1,2,0,7.3,Masonry,Road over river,Bituminous,1957,1,2024-05-02,Kabale,Southern,Kabale,A,,5
+BRG-B011,KEE B8 overbridge,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,0.2525,32.5224,27,1,2,0,7.3,Prestressed Concrete,Road over river,Bituminous,2018,4,2022-12-09,Kampala,Central,Kampala,M,,6
+BRG-B011-16,19+580 Over-bridge,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,0.1485,32.5107,23,1,2,0,7.3,Steel Composite,Road over river,Bituminous,2018,5,2023-06-07,Kampala,Central,Kampala,M,,7
+BRG-B011-17,BUKOOLA,bridge,Kyotera - Mutukula,A004_Link02,A,0,0.84316,31.4886,55,1,2,0,7.3,Steel Girder,Road over river,Bituminous,2004,4,2023-02-07,Masaka,Central,Masaka,A,,6
+BRG-B012,KEE B9 overbridge,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,0.2324,32.5235,38,1,2,0,7.3,Reinforced Concrete,Road over river,Bituminous,2018,5,2023-05-08,Kampala,Central,Kampala,M,,4
+BRG-B012-19,Ziiru overbridge,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,0.1452,32.5104,15,1,2,0,7.3,Reinforced Concrete,Road over river,Bituminous,2018,4,2023-04-08,Kampala,Central,Kampala,M,,4
+BRG-B012-20,BUYALA,bridge,Busega - Bujuuko,A005_Link01,A,0,0.32933,32.41803,19,1,2,0,7.3,Steel Composite,Road over river,Bituminous,2012,5,2023-05-08,Mpigi,Central,Mpigi,A,,6
+BRG-B013,Kajjansi interchange KEE B10,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,0.2153,32.5313,78,1,2,0,7.3,Timber,Road over river,Bituminous,2018,5,2022-07-12,Kampala,Central,Kampala,M,,7
+BRG-B013-22,Ziiru overbridge 2,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,0.1358,32.5104,64,1,2,0,7.3,Steel Girder,Road over river,Bituminous,2018,4,2023-08-06,Kampala,Central,Kampala,M,,7
+BRG-B013-23,Mpanga,bridge,Kyenjojo - Rugombe - Fortportal,A005_Link10,A,33.0200004577637,0.64335,30.39365,9.0,3,2,2,10.3,Prestressed Concrete,01,Bituminous,1989,3,2023-06-07,Fort Portal,Western,Fort Portal,A,Mpanga,7
+BRG-B014,Kajjansi interchange KEE B11,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,0.2153,32.5313,76,1,2,0,7.3,Reinforced Concrete,Road over river,Bituminous,2018,5,2022-11-09,Kampala,Central,Kampala,M,,6
+BRG-B014-25,Nambigirwa Bridge 1,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,0.1266,32.5114,15,1,2,0,7.3,Steel Composite,Road over river,Bituminous,2018,5,2024-05-02,Kampala,Central,Kampala,M,,6
+BRG-B014-26,Mpanga,bridge,Fortportal - Kijura - Kabende Bridge-Sogahe-Kyarusozi,C542_Link01,C,0,0.660422,30.296738,39,1,2,0,7.3,Steel Composite,Road over river,Unsealed,0,4,2023-01-08,Fort Portal,Western,Fort Portal,C,,5
+BRG-B015,Kajjansi overbridge 1 KEE B11,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,0.2087,32.5295,62,1,2,0,7.3,Masonry,Road over river,Bituminous,2018,5,2023-12-04,Kampala,Central,Kampala,M,,5
+BRG-B015-28,Nambigirwa Bridge 2,bridge,Kibuku - Nyabushozi,C575_Link01,C,0,0.1266,32.5114,71,1,2,0,7.3,Steel Composite,Road over river,Unsealed,0,4,2024-02-02,Fort Portal,Western,Fort Portal,C,,5
+BRG-B015-29,Mpanga,bridge,Kyenjojo - Rugombe - Fortportal,A005_Link10,A,49.6399993896484,0.6569,30.278099,7.5,2,2,1,7.8,Steel Composite,01,Bituminous,1989,4,2023-03-09,Fort Portal,Western,Fort Portal,A,Mpanga River,5
+BRG-B016,Kajjansi overbridge 2 KEE B12,bridge,Kalongo - Kitgum Matidi,C677_Link02,C,0,0.2053,32.5282,67,1,2,0,7.3,Steel Composite,Road over river,Unsealed,0,4,2023-11-04,Kitgum,Northern,Kitgum,C,,7
+BRG-B016-31,Mpalla 1,bridge,Kalongo - Kitgum Matidi,C677_Link02,C,0,0.1064,32.5126,68,1,2,0,7.3,Masonry,Road over river,Unsealed,0,3,2023-07-07,Kitgum,Northern,Kitgum,C,,7
+BRG-B016-32,RWIMI,bridge,FortPortal - Rwimi(bridge),A005_Link11,A,45.5330009460449,0.37333,30.211411,15.7,1,2,0,7.8,Steel Girder,01,Bituminous,2007,5,2023-10-05,Fort Portal,Western,Fort Portal,A,RWIMI,7
+BRG-B017,Kajjansi overbridge 3 KEE 13,bridge,Kalongo - Kitgum Matidi,C677_Link02,C,0,0.1974,32.5262,51,1,2,0,7.3,Steel Girder,Road over river,Unsealed,0,3,2023-11-04,Kitgum,Northern,Kitgum,C,,4
+BRG-B017-34,Mpalla 2,bridge,Lokitanyara-Loro-Amudat,C963_Link02,C,0,0.1058,32.5123,78,1,2,0,7.3,Timber,Road over river,Unsealed,0,2,2023-06-07,Moroto,North Eastern,Moroto,C,,4
+BRG-B017-35,Nsonja,bridge,Rwimi-Dura-Kamwenge,C547_Link01,C,46.0999984741211,-0.349995,30.27809,15.4,1,2,0,8.3,Steel Composite,01,Unsealed,0,2,2024-04-02,Fort Portal,Western,Fort Portal,C,,4
+BRG-B018,Bumuli overbridge,bridge,Amudat-Alakasi-Kalita,C963_Link03,C,0,0.1849,32.5234,74,1,2,0,7.3,Reinforced Concrete,Road over river,Unsealed,0,4,2023-08-06,Moroto,North Eastern,Moroto,C,,6
+BRG-B018-37,Mpalla 3,bridge,Toroma-Magoro,C964_Link02,C,0,0.105,32.5118,69,1,2,0,7.3,Steel Truss,Road over river,Unsealed,0,3,2023-04-08,Soroti,North Eastern,Soroti,C,,6
+BRG-B018-38,MUBUKU BRIDGE,bridge,Mubuku - Kasese,A005_Link13,A,346.190002441406,-0.2614,30.120991,15.4,2,2,1,10.0,Timber,01,Bituminous,2007,3,2023-02-07,Kasese,Southern,Kasese,A,MUBUKU RIVER,6
+BRG-B019,MUBUKU,bridge,Kokeris - Lopei,C967_Link01,C,347.779998779297,0.25201,30.11684,14.4,1,2,0,9.9,Prestressed Concrete,01,Unsealed,0,2,2024-05-02,Moroto,North Eastern,Moroto,C,RIVER MUBUKU,5
+BRG-B019-40,Lopei Irish Crossing,bridge,Ariamoi - Kaladonapal - Kaperimoru,B301_Link01,B,0,2.57954,34.333321,26,1,2,0,7.3,Masonry,Road over river,Unsealed,0,4,2023-03-09,Kotido,North Eastern,Kotido,B,,5
+BRG-B020,NYAMWAMBA BRIDGE,bridge,Mubuku - Kasese,A005_Link13,A,354.329986572266,-0.19445,30.105,18.5,1,2,0,10.3,Steel Composite,01,Bituminous,2007,5,2023-01-08,Kasese,Southern,Kasese,A,NYAMWAMBA RIVER,7
+BRG-B020-42,Lopei Irish Crossing,bridge,Ariamoi - Kaladonapal - Kaperimoru,B301_Link01,B,0,2.572684,34.341084,27,1,2,0,7.3,Reinforced Concrete,Road over river,Unsealed,0,2,2023-12-04,Kotido,North Eastern,Kotido,B,,7
+BRG-B021,KASEIGA,bridge,Kampala - Entebbe Expressway,M3_Link01,M,357.630004882813,-0.1735,30.0863,6.8,2,2,1,9.9,Timber,01,Bituminous,2018,5,2023-08-06,Kampala,Central,Kampala,M,NYAMWAMBA,7
+BRG-B021-44,Iriri MPCs,bridge,Iriri - Akisim (Lorengechora) - Ariamoi - Nadunget,B303_Link03,B,0,2.09746,34.22258,63,1,2,0,7.3,Reinforced Concrete,Road over river,Bituminous,2019,4,2023-02-07,Moroto,North Eastern,Moroto,B,,7
+BRG-B022,MPONDWE BRIDGE,bridge,Kampala - Entebbe Expressway,M3_Link01,M,417.799987792969,-0.041108,29.720169,21.2,1,2,0,10.0,Reinforced Concrete,01,Bituminous,2018,4,2022-09-10,Kampala,Central,Kampala,M,RUBIRIHA RIVER,7
+BRG-B022-46,Bunamubi Bridge,bridge,Bubulo-Bududa Circle road,C867_Link02,C,0,1.0276,34.371941,28,1,2,0,7.3,Steel Girder,Road over river,Unsealed,0,2,2023-10-05,Mbale,Eastern,Mbale,C,,7
+BRG-B023,KAFU BRIDGE,bridge,Nakasongola - Kafu,A006_Link06,A,0,1.54265,32.041771,23,1,2,0,7.3,Reinforced Concrete,Road over river,Bituminous,1962,1,2024-01-03,Luwero,Central,Luwero,A,,7
+BRG-B023-48,Dopeth Irish Crossing,bridge,Kibuku - Nyabushozi,C575_Link01,C,0,3.01139,34.02877,21,1,2,0,7.3,Timber,Road over river,Unsealed,0,3,2023-07-07,Fort Portal,Western,Fort Portal,C,,7
+BRG-B024,Agago Irish Crossing,bridge,Kalongo - Kitgum Matidi,C677_Link02,C,0,2.72239,33.547661,15,1,2,0,7.3,Timber,Road over river,Unsealed,0,3,2024-03-03,Kitgum,Northern,Kitgum,C,,7
+BRG-B025,KARUMA BRIDGE,bridge,Kalongo - Kitgum Matidi,C677_Link02,C,254.399993896484,2.242707,32.239796,28.7,3,2,2,8.3,Prestressed Concrete,01,Unsealed,0,2,2023-06-07,Kitgum,Northern,Kitgum,C,WHITE NILE,6
+BRG-B025-51,Kitekena,bridge,Lokitanyara-Loro-Amudat,C963_Link02,C,0,0.322528,30.101757,59,1,2,0,7.3,Steel Composite,Road over river,Unsealed,0,3,2023-06-07,Moroto,North Eastern,Moroto,C,,6
+BRG-B026,MAGODES,bridge,Amudat-Alakasi-Kalita,C963_Link03,C,4.0,0.82749,34.17004,7.0,1,2,0,9.5,Steel Truss,01,Unsealed,0,4,2022-09-10,Moroto,North Eastern,Moroto,C,,7
+BRG-B026-53,Manafwa,bridge,Toroma-Magoro,C964_Link02,C,0,0.939423,34.158741,75,1,2,0,7.3,Timber,Road over river,Unsealed,0,3,2023-02-07,Soroti,North Eastern,Soroti,C,,7
+BRG-B028,NAMATALA,bridge,Kokeris - Lopei,C967_Link01,C,48.0,1.10874,34.172459,9.5,1,2,0,6.5,Timber,01,Unsealed,0,3,2023-03-09,Moroto,North Eastern,Moroto,C,NAMATALA,7
+BRG-B028-55,Kabobo - MPCs,bridge,Kafunzo-Kikagati,C419_Link01,C,0,-0.98259,30.50481,63,1,2,0,7.3,Steel Composite,Road over river,Unsealed,0,2,2023-08-06,Mbarara,Southern,Mbarara,C,,7
+BRG-B029,FIKA-SALAAMA,bridge,Mbale - Namunsi - Kumi,A007_Link04,A,48.0,1.1647,34.15733,4.2,1,2,0,8.4,Prestressed Concrete,01,Bituminous,1970,2,2024-03-03,Mbale,Eastern,Mbale,A,LWERE,7
+BRG-B029-57,Nyabisheke - MPCS,bridge,Muzizi-Buremba,C357_Link01,C,0,0.096188,30.660252,17,1,2,0,7.3,Steel Composite,Road over river,Unsealed,0,4,2022-11-09,Ibanda,Southern,Ibanda,C,,7
+BRG-B030,AWOJA,bridge,Kampala - Entebbe Expressway,M3_Link01,M,102.5,1.66698,33.7374,20.0,3,2,2,10.6,Steel Girder,01,Bituminous,2018,5,2022-07-12,Kampala,Central,Kampala,M,AWOJA,7
+BRG-B030-59,Ekyambu - MPCC,bridge,Ibanda-Kanoni-Kazo,C356_Link01,C,0,-0.13323,30.531191,51,1,2,0,7.3,Reinforced Concrete,Road over river,Bituminous,2014,4,2024-03-03,Ibanda,Southern,Ibanda,C,,7
+BRG-B031,TOCHI BRIDGE,bridge,Kampala - Entebbe Expressway,M3_Link01,M,339.330993652344,2.22715,32.341961,31.2,1,2,0,9.8,Reinforced Concrete,01,Bituminous,2018,5,2023-04-08,Kampala,Central,Kampala,M,TOCHI RIVER,4
+BRG-B031-61,Nakironget Irish Crossing,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,1.86152,34.584389,53,1,2,0,7.3,Steel Truss,Road over river,Bituminous,2018,5,2023-10-05,Kampala,Central,Kampala,M,,6
+BRG-B032,ALBERT NILE BRIDGE,bridge,Kampala - Entebbe Expressway,M3_Link01,M,106.198997497559,2.459358,31.507437,80.6,3,2,2,11.0,Reinforced Concrete,01,Bituminous,2018,5,2022-11-09,Kampala,Central,Kampala,M,ALBERT NILE,7
+BRG-B032-63,Lolachat Irish Crossing/Splash,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,1.92604,34.561699,63,1,2,0,7.3,Prestressed Concrete,Road over river,Bituminous,2018,5,2023-05-08,Kampala,Central,Kampala,M,,7
+BRG-B033,ACHWERA BRIDGE,bridge,Packwach - Nebbi,A008_Link03,A,147.100006103516,2.482735,31.172573,16.5,1,2,0,9.9,Timber,01,Bituminous,2004,4,2023-02-07,Arua,Northern,Arua,A,ACHWERA,7
+BRG-B033-65,Nabilatuk Irish Crossing,bridge,Angatun-Nabilatuk-Lokapel,C960_Link01,C,0,2.05974,34.57732,75,1,2,0,7.3,Steel Truss,Road over river,Unsealed,0,2,2023-12-04,Moroto,North Eastern,Moroto,C,,7
+BRG-B034,AKABA BRIDGE,bridge,Packwach - Nebbi,A008_Link03,A,150.100006103516,2.490772,31.141695,11.5,1,2,0,9.9,Timber,01,Bituminous,2004,3,2024-02-02,Arua,Northern,Arua,A,AKABA RIVER,6
+BRG-B035,NYARWODHO BRIDGE,bridge,Packwach - Nebbi,A008_Link03,A,152.199996948242,2.49496,31.128204,11.5,1,1,0,9.9,Reinforced Concrete,01,Bituminous,2004,3,2023-07-07,Arua,Northern,Arua,A,NYARWODHO,7
+BRG-B036,NAMTHIN BRIDGE,bridge,Nebbi - Eruba,A008_Link04,A,163.699996948242,2.511596,31.090334,16.4,1,2,0,9.9,Timber,01,Bituminous,2003,5,2024-02-02,Arua,Northern,Arua,A,NAMTHIN RIVER,7
+BRG-B037,ORA BRIDGE,bridge,Nebbi - Eruba,A008_Link04,A,181.800003051758,2.656083,31.140558,44.3,1,2,0,9.7,Steel Girder,01,Bituminous,2003,3,2023-10-05,Arua,Northern,Arua,A,ORA RIVER,6
+BRG-B038,AGUYI BRIDGE,bridge,Nebbi - Eruba,A008_Link04,A,208.0,2.829575,30.995136,16.5,1,2,0,9.9,Prestressed Concrete,01,Bituminous,2003,3,2024-02-02,Arua,Northern,Arua,A,AGUYI RIVER,7
+BRG-B039,OZUVA BRIDGE,bridge,Nebbi - Eruba,A008_Link04,A,212.100006103516,2.867597,30.984146,9.4,1,2,0,9.8,Steel Truss,01,Bituminous,2003,3,2023-12-04,Arua,Northern,Arua,A,OZUVA,7
+BRG-B040,WIKI BRIDGE,bridge,Nebbi - Eruba,A008_Link04,A,214.100006103516,2.879874,30.9809,16.5,1,2,0,9.9,Steel Girder,01,Bituminous,2003,4,2022-09-10,Arua,Northern,Arua,A,WIKI,7
+BRG-B041,KAYIRILA BRIDGE,bridge,Busunju - Kiboga - Lwamata,A009_Link03,A,0,0.8206,31.909081,57,1,2,0,7.3,Prestressed Concrete,Road over river,Bituminous,2007,3,2023-10-05,Kampala,Central,Kampala,A,,5
+BRG-B042,MPOLOGOMA,bridge,Nakalama - Namutumba - Mpologoma bridge,A012_Link01,A,46.2999992370605,0.96719,33.737881,16.8,2,2,1,10.7,Timber,01,Bituminous,1996,3,2023-12-04,Jinja,Eastern,Jinja,A,MPOLOGOMA,7
+BRG-B043,RUSHANGO-BRIDGE,bridge,Ibanda-Kanoni-Kazo,C356_Link01,C,25.7000007629395,0.08435,30.705971,31.6,1,2,0,11.4,Timber,01,Bituminous,2014,5,2022-11-09,Ibanda,Southern,Ibanda,C,RUSHANGO RIVER,7
+BRG-B044,Mpanga - Bridge,bridge,Ibanda - Muziza - Kamwenge,B150_Link03,B,0,0.100761,30.461651,24,1,2,0,7.3,Reinforced Concrete,Road over river,Bituminous,2014,5,2023-06-07,Ibanda,Southern,Ibanda,B,,6
+BRG-B047,KATUNGURU BRIDGE,bridge,Ishaka - Buhinda - Rugazi,B152_Link03,B,90.0,0.1251,30.04866,20.3,3,1,2,8.0,Masonry,01,Bituminous,1989,2,2023-09-05,Mbarara,Southern,Mbarara,B,KAZINGA CHANNEL,5
+BRG-B048,MUZIZI,bridge,Kyenjojo - Katoke - R. Muzizi,B202_Link01,B,20.0699996948242,0.87107,30.729679,20.4,2,2,1,9.6,Steel Truss,01,Bituminous,2020,5,2023-09-05,Fort Portal,Western,Fort Portal,B,MUZIZI,7
+BRG-B049,NKUSI,bridge,Kagadi - Mabale - Kabwoya,B202_Link03,B,31.8600006103516,1.12972,30.99474,21.1,1,2,0,11.1,Timber,01,Bituminous,2020,5,2022-11-09,Hoima,Western,Hoima,B,NKUSI,7
+BRG-B050,RWERE,bridge,Namunsi - Sironko,B300_Link01,B,21.5,1.153,34.19989,7.0,1,2,0,7.8,Reinforced Concrete,01,Bituminous,1961,1,2024-02-02,Mbale,Eastern,Mbale,B,RWERE,7
+BRG-B051,SIRONKO,bridge,Namunsi - Sironko,B300_Link01,B,0,1.23629,34.257061,20.0,1,2,0,10.0,Masonry,01,Bituminous,1961,1,2024-02-02,Mbale,Eastern,Mbale,B,SIRONKO,7
+BRG-B052,NALUGUGU,bridge,Namunsi - Sironko,B300_Link01,B,21.7999992370605,1.24035,34.267288,7.0,1,2,0,10.8,Steel Composite,01,Bituminous,1961,1,2024-01-03,Mbale,Eastern,Mbale,B,NALUGUGU,7
+BRG-B053,SIMU,bridge,Sironko - Muyembe,B300_Link02,B,22.0,1.29864,34.287251,10.0,1,2,0,10.0,Timber,01,Bituminous,1961,1,2024-03-03,Mbale,Eastern,Mbale,B,SIMU,5
+BRG-B054,YEMBE,bridge,Muyembe - Namalu,B300_Link03,B,72.0999984741211,1.33472,34.296692,16.0,1,2,0,8.0,Steel Composite,01,Unsealed,0,2,2024-04-02,Mbale,Eastern,Mbale,B,YEMBE,7
+BRG-B055,ATARI,bridge,Kapchorwa-Suam,B304_Link02,B,98.5999984741211,1.40724,34.482601,20.0,1,2,0,15.0,Steel Truss,01,Bituminous,2023,5,2023-06-07,Mbale,Eastern,Mbale,B,ATARI,7
+BRG-B056,NGENGE,bridge,Kapchorwa-Suam,B304_Link02,B,7.0,1.40692,34.508049,16.0,1,2,0,15.0,Timber,01,Bituminous,2023,5,2024-05-02,Mbale,Eastern,Mbale,B,NGENGE,7
+BRG-B057,EMJONG,bridge,Kapchorwa-Suam,B304_Link02,B,7.0,1.41467,34.51548,18.0,1,2,0,15.0,Reinforced Concrete,01,Bituminous,2023,4,2023-06-07,Mbale,Eastern,Mbale,B,EMJONG,7
+BRG-B058,Kanyago 2,bridge,Kanyago Bridge - Kumi,B305_Link03,B,0,1.414941,33.921436,53,1,2,0,7.3,Prestressed Concrete,Road over river,Bituminous,2021,5,2023-03-09,Soroti,North Eastern,Soroti,B,,6
+BRG-B060,KANYAGO,bridge,Kanyago Bridge - Kumi,B305_Link03,B,0,1.26842,33.872719,26,1,2,0,7.3,Reinforced Concrete,Road over river,Bituminous,2021,5,2023-08-06,Soroti,North Eastern,Soroti,B,,4
+BRG-B061,BUYANJA,bridge,Lyantonde - Lumbugu,C214_Link01,C,0,0.46901,31.19845,79,1,2,0,7.3,Steel Composite,Road over river,Unsealed,0,3,2024-02-02,Masaka,Central,Masaka,C,,4
+BRG-B062,KIBALE BRIDGE,bridge,Isingiro-Kityanza,C351_Link01,C,22.2029991149902,0.77879,31.346729,21.9,1,1,0,5.0,Steel Composite,01,Unsealed,0,3,2023-08-06,Mbarara,Southern,Mbarara,C,KIBAL RIVER,5
+BRG-B067,KAHENGE BRIDGE,bridge,Kagamba-Kebisoni,C410_Link01,C,14.1000003814697,-0.83153,30.05032,15.8,1,2,0,7.9,Steel Girder,01,Bituminous,2005,5,2022-09-10,Kabale,Southern,Kabale,C,KAHENGE,7
+BRG-B068,MINERA 01,bridge,Muhanga-Kisiizi-Kebisoni,C411_Link01,C,53.4000015258789,-0.90601,30.011499,10.6,1,1,0,4.7,Masonry,01,Unsealed,0,3,2023-12-04,Kabale,Southern,Kabale,C,RIVER MINERA,5
+BRG-B069,MINERA 02,bridge,Muhanga-Kisiizi-Kebisoni,C411_Link01,C,53.4300003051758,-0.905775,30.011419,6.3,2,1,1,5.0,Prestressed Concrete,01,Unsealed,0,4,2024-04-02,Kabale,Southern,Kabale,C,RIVER MINERA,6
+BRG-B070,NYAMWIRU BRIDGE,bridge,Katunguru - Ishasha,C414_Link01,C,17.0,-0.313053,29.870918,6.2,3,1,2,9.9,Steel Girder,01,Unsealed,0,2,2024-03-03,Kasese,Southern,Kasese,C,NYAMWIRU RIVER,7
+BRG-B071,RWEMPUNU BRIDGE,bridge,Katunguru - Ishasha,C414_Link01,C,37.2000007629395,-0.383601,29.876026,6.2,4,2,3,9.9,Timber,01,Unsealed,0,4,2024-01-03,Kasese,Southern,Kasese,C,RWEMPUNU RIVER,7
+BRG-B072,KAIZI BRIDGE,bridge,Katunguru - Ishasha,C414_Link01,C,41.7000007629395,-0.42302,29.867781,6.2,4,2,3,9.9,Steel Composite,01,Unsealed,0,2,2023-12-04,Kasese,Southern,Kasese,C,KAIZI RIVER,7
+BRG-B073,NCHWERA BRIDGE,bridge,Katunguru - Ishasha,C414_Link01,C,50.2000007629395,-0.45831,29.8015,30.7,1,1,2,8.6,Prestressed Concrete,01,Unsealed,0,3,2023-07-07,Kasese,Southern,Kasese,C,NSHWERA RIVER,5
+BRG-B074,NTUNGWE BRIDGE,bridge,Katunguru - Ishasha,C414_Link01,C,66.5999984741211,-0.57484,29.72377,45.6,1,2,0,10.0,Steel Composite,01,Unsealed,0,2,2023-11-04,Kasese,Southern,Kasese,C,NTUNGWE RIVER,6
+BRG-B075,ISHASHA BRIDGE,bridge,Katunguru - Ishasha,C414_Link01,C,86.3000030517578,-0.727353,29.628202,12.2,3,2,2,8.0,Steel Composite,01,Unsealed,0,3,2023-12-04,Kasese,Southern,Kasese,C,ISHASHA RIVER,3
+BRG-B076,NYAMUKAMBU BRIDGE,bridge,Bihanga - Bwizibwera,C415_Link02,C,22.1299991607666,0.43451,30.46027,13.5,1,1,0,3.3,Prestressed Concrete,01,Unsealed,0,3,2023-10-05,Ibanda,Southern,Ibanda,C,NYAKAMBUGU SWAMP,2
+BRG-B077,KAMIIRA BRIDGE,bridge,Bihanga - Nsiika,C416_Link01,C,13.1999998092651,0.3745,30.424589,13.0,1,2,0,4.4,Steel Truss,01,Unsealed,0,3,2023-06-07,Ibanda,Southern,Ibanda,C,KAMIIRA STREAM,5
+BRG-B078,MIRAMA 01,bridge,Kafunzo-Kakitumba,C417_Link03,C,29.7070007324219,-1.05192,30.458719,21.7,1,1,0,12.2,Steel Composite,01,Bituminous,2017,4,2023-10-05,Kabale,Southern,Kabale,C,RIVER KAGERA,7
+BRG-B079,KATENGURE BRIDGE,bridge,Kakukuru - Rubale,C418_Link01,C,9.14000034332275,-0.990536,30.219315,8.3,1,1,0,4.5,Prestressed Concrete,01,Unsealed,0,2,2024-03-03,Kabale,Southern,Kabale,C,KATENGURE RIVER,4
+BRG-B080,MUBUKU BRIDGE,bridge,Mubuku-Maliba-Nyakalingijo,C510_Link01,C,10.6999998092651,-0.33364,30.07723,19.0,1,1,0,5.4,Masonry,01,Unsealed,0,3,2023-10-05,Kasese,Southern,Kasese,C,MUBUKU RIVER,2
+BRG-B081,KILEMBE  BRIDGE,bridge,Kasese - Kilembe mines,C511_Link01,C,10.1999998092651,-0.197898,30.012709,20.0,1,2,0,10.1,Reinforced Concrete,01,Bituminous,2007,3,2024-03-03,Kasese,Southern,Kasese,C,RIVER NYAMWAMBA,7
+BRG-B082,KANYAMPALA BRIDGE,bridge,Kinyamaseke-Kisinga,C513_Link01,C,6.30000019073486,-0.04609,29.857031,15.2,1,1,0,4.0,Reinforced Concrete,01,Unsealed,0,3,2023-01-08,Kasese,Southern,Kasese,C,KANYAMPALA,5
+BRG-B085,NYAMUGASANI BRIDGE,bridge,Katojo-Katwe-Rwentale,C516_Link01,C,14.3000001907349,-0.12346,29.84318,8.4,3,1,2,3.8,Timber,01,Unsealed,0,2,2023-10-05,Kasese,Southern,Kasese,C,NAMUSAGANI,5
+BRG-B087,WASSA,bridge,Karugutu - Ntoroko,C541_Link01,C,24.0599994659424,0.93501,30.363371,19.8,1,1,0,3.1,Timber,01,Unsealed,0,4,2022-08-11,Fort Portal,Western,Fort Portal,C,WASSA,7
+BRG-B088,SOGOHA,bridge,Fortportal - Kijura - Kabende Bridge-Sogahe-Kyarusozi,C542_Link01,C,40.2849998474121,0.88128,30.49469,15.0,2,2,1,4.9,Steel Truss,01,Unsealed,0,4,2024-01-03,Fort Portal,Western,Fort Portal,C,SOGOHA,7
+BRG-B089,WAIGA,bridge,Bukumi-Bulisa,C623_Link01,C,25.3500003814697,1.99229,31.475267,19.2,2,2,1,14.5,Steel Girder,01,Bituminous,2022,5,2023-05-08,Masindi,Western,Masindi,C,WAIGA,7
+BRG-B090,WAIGA,bridge,Kisanja-Park junction,C625_Link01,C,41.1599998474121,2.05924,31.71674,36.0,1,2,0,10.0,Timber,01,Bituminous,2022,4,2023-10-05,Masindi,Western,Masindi,C,WAIGA,7
+BRG-B091,WARINGO,bridge,Kisanja-Park junction,C625_Link01,C,45.5299987792969,2.09726,31.71604,18.0,1,2,0,10.0,Steel Girder,01,Bituminous,2022,5,2022-12-09,Masindi,Western,Masindi,C,WARINGO,7
+BRG-B092,ZOLEYA,bridge,Kisanja-Park junction,C625_Link01,C,51.810001373291,2.14857,31.7062,36.0,1,2,0,10.0,Masonry,01,Bituminous,2022,5,2022-06-12,Masindi,Western,Masindi,C,ZOLIYA,7
+BRG-B093,SAMBIYA,bridge,Kisanja-Park junction,C625_Link01,C,55.3600006103516,2.17821,31.697069,5.2,1,2,0,10.0,Timber,01,Bituminous,2022,5,2023-12-04,Masindi,Western,Masindi,C,SAMBIYA,7
+BRG-B094,ATURUKURU,bridge,Tororo-Nagongera,C832_Link01,C,2.29999995231628,0.70289,34.158821,6.5,1,2,0,8.5,Masonry,01,Unsealed,0,2,2024-04-02,Tororo,Eastern,Tororo,C,RUBONGE,6
+BRG-B095,PAKAMU,bridge,Tororo-Nagongera,C832_Link01,C,33.5,0.72214,34.118549,3.2,1,1,0,5.0,Steel Composite,01,Unsealed,0,2,2024-02-02,Tororo,Eastern,Tororo,C,PAKAMU,6
+BRG-B096,MAHANGA,bridge,Tororo-Nagongera,C832_Link01,C,33.5,0.76043,34.042061,5.8,1,1,0,5.0,Steel Girder,01,Unsealed,0,3,2023-03-09,Tororo,Eastern,Tororo,C,MAHANGA,5
+BRG-B097,NAKULUMUTU,bridge,Nabumali junction-Busolwe,C833_Link01,C,34.5,0.93139,33.996181,4.5,1,1,0,4.0,Steel Girder,01,Unsealed,0,3,2023-06-07,Tororo,Eastern,Tororo,C,NAKULUMUTU,5
+BRG-B098,NKOLA,bridge,Nabumali junction-Busolwe,C833_Link01,C,34.5,0.9305,33.99501,7.5,1,1,0,3.6,Reinforced Concrete,01,Unsealed,0,3,2023-02-07,Tororo,Eastern,Tororo,C,MANAFA,5
+BRG-B099,NAKWAZI,bridge,Nabumali junction-Busolwe,C833_Link01,C,34.5,0.85453,33.935452,5.0,1,1,0,4.6,Steel Truss,01,Unsealed,0,4,2023-06-07,Tororo,Eastern,Tororo,C,NAKWAZI,4
+BRG-B100,BUDUMBBA,bridge,Busolwe-Budumba,C833_Link02,C,36.0,0.82721,33.789551,25.4,4,1,4,3.3,Reinforced Concrete,01,Unsealed,0,3,2023-11-04,Tororo,Eastern,Tororo,C,MPOLOGOMA,6
+BRG-B101,MIWU,bridge,Nalugugu-Mutufu-Budadiri,C861_Link01,C,16.2000007629395,1.19068,34.318451,4.0,1,1,0,4.2,Steel Composite,01,Unsealed,0,4,2022-06-12,Mbale,Eastern,Mbale,C,MIWU,5
+BRG-B102,SIRONKO,bridge,Nalugugu-Mutufu-Budadiri,C861_Link01,C,16.0,1.18582,34.32291,20.0,1,2,0,8.0,Masonry,01,Unsealed,0,3,2023-10-05,Mbale,Eastern,Mbale,C,,6
+BRG-B103,KADO,bridge,Namagumba - Budadiri,C862_Link01,C,18.3999996185303,1.16501,34.343941,7.0,1,2,0,9.1,Masonry,01,Unsealed,1997,5,2023-06-07,Mbale,Eastern,Mbale,C,KADO,7
+BRG-B104,SONOLI,bridge,Namagumba - Budadiri,C862_Link01,C,18.3999996185303,1.1602,34.299999,6.5,1,2,0,7.8,Reinforced Concrete,01,Unsealed,0,3,2023-09-05,Mbale,Eastern,Mbale,C,SONOLI,6
+BRG-B105,NAMATSU,bridge,Mbale - Nkokonjeru,C863_Link01,C,21.0,1.07785,34.18692,7.0,1,2,0,9.5,Steel Truss,01,Unsealed,0,4,2022-06-12,Mbale,Eastern,Mbale,C,NAMATSU,5
+BRG-B106,KIGEZI,bridge,Mbale - Nkokonjeru,C863_Link01,C,21.0,1.06059,34.241241,5.0,1,1,0,4.5,Timber,01,Unsealed,0,3,2024-01-03,Mbale,Eastern,Mbale,C,,6
+BRG-B107,NAMIKHOMA,bridge,Munamba - Lwakhakha,C866_Link01,C,4.5,0.81193,34.874741,12.0,1,2,0,11.6,Steel Girder,01,Bituminous,2020,5,2023-02-07,Tororo,Eastern,Tororo,C,NAMIKHOMA,7
+BRG-B108,PASA,bridge,Bubulo-Bududa Circle road,C867_Link02,C,28.3999996185303,0.95722,34.285881,8.0,1,2,0,8.0,Steel Truss,01,Unsealed,0,4,2023-04-08,Mbale,Eastern,Mbale,C,PASA,4
+BRG-B109,TSUTSU,bridge,Bubulo-Bududa Circle road,C867_Link02,C,28.3999996185303,0.99758,34.33168,8.0,1,2,0,7.8,Steel Truss,01,Unsealed,0,2,2023-09-05,Mbale,Eastern,Mbale,C,TSUTSU,3
+BRG-B110,Manafa,bridge,Bubulo-Bududa Circle road,C867_Link02,C,0,1.00816,34.369579,52,1,2,0,7.3,Steel Truss,Road over river,Unsealed,0,4,2024-02-02,Mbale,Eastern,Mbale,C,,5
+BRG-B111,Manafwa,bridge,Kibuku - Nyabushozi,C575_Link01,C,0,1.003715,34.361641,34,1,2,0,7.3,Masonry,Road over river,Unsealed,0,2,2023-12-04,Fort Portal,Western,Fort Portal,C,,7
+BRG-B112,MANAFA,bridge,Kalongo - Kitgum Matidi,C677_Link02,C,15.6000003814697,0.94066,34.280281,12.0,2,2,1,11.6,Masonry,01,Unsealed,0,4,2022-12-09,Kitgum,Northern,Kitgum,C,MANAFA,7
+BRG-B113,NAMUNYIRI,bridge,Kalongo - Kitgum Matidi,C677_Link02,C,16.0,0.81437,34.34417,12.0,1,2,0,11.6,Steel Composite,01,Unsealed,0,4,2022-06-12,Kitgum,Northern,Kitgum,C,NAMUNYIRI,7
+BRG-B114,MBIGI,bridge,Kalongo - Kitgum Matidi,C677_Link02,C,9.80000019073486,1.308,34.328812,16.0,1,2,0,8.0,Masonry,01,Unsealed,0,4,2022-12-09,Kitgum,Northern,Kitgum,C,YEMBE,7
+BRG-B115,KUMI,bridge,Lokitanyara-Loro-Amudat,C963_Link02,C,45.5,1.46854,33.699699,7.9,4,2,3,4.3,Steel Girder,01,Unsealed,0,3,2024-04-02,Moroto,North Eastern,Moroto,C,AMOKOKA,7
+BRG-B116,ABUKET,bridge,Amudat-Alakasi-Kalita,C963_Link03,C,45.5,1.45332,33.654381,8.0,3,2,2,7.4,Timber,01,Unsealed,0,3,2024-05-02,Moroto,North Eastern,Moroto,C,ABUKET,7
+BRG-B117,TOCHI BRIDGE,bridge,Toroma-Magoro,C964_Link02,C,297.382995605469,2.624604,32.33297,18.9,1,2,0,9.8,Prestressed Concrete,01,Unsealed,0,2,2023-11-04,Soroti,North Eastern,Soroti,C,TOCHI RIVER,5
+BRG-B118,Unyama,bridge,Kokeris - Lopei,C967_Link01,C,0,3.569871,32.072166,56,1,2,0,7.3,Masonry,Road over river,Unsealed,0,2,2023-07-07,Moroto,North Eastern,Moroto,C,,2
+BRG-B119,ENYAU BRIDGE,bridge,Manibe - Maracha - Koboko,A008_Link06,A,246.399002075195,3.090026,30.905371,21.6,1,2,0,10.8,Steel Girder,01,Bituminous,2015,5,2024-04-02,Arua,Northern,Arua,A,ENYAU RIVER,6
+BRG-B120,ENVE BRIDGE,bridge,Koboko - Oraba(Uganda/Sudan border),A008_Link07,A,253.800003051758,3.510684,30.910522,22.5,1,2,0,10.8,Steel Composite,01,Bituminous,2015,5,2023-01-08,Arua,Northern,Arua,A,ENVE RIVER,7
+BRG-B120-143,ENVE,bridge,Manibe - Maracha - Koboko,A008_Link06,A,0,3.15209,30.90546,56,1,2,0,7.3,Masonry,Road over river,Bituminous,2015,5,2022-11-09,Arua,Northern,Arua,A,,7
+BRG-B121,OLUFFE,bridge,Kampala - Entebbe Expressway,M3_Link01,M,260.0,3.188831,30.933994,22.0,1,2,0,10.7,Timber,01,Bituminous,2018,4,2022-09-10,Kampala,Central,Kampala,M,OLUFFE,7
+BRG-B122,AYI BRIDGE,bridge,Manibe - Maracha - Koboko,A008_Link06,A,270.299011230469,3.255021,30.943035,20.3,1,2,0,10.7,Reinforced Concrete,01,Bituminous,2015,4,2023-01-08,Arua,Northern,Arua,A,AYI RIVER,7
+BRG-B123,YOO,bridge,Kampala - Entebbe Expressway,M3_Link01,M,280.600006103516,3.326374,30.948389,17.3,1,2,0,10.7,Reinforced Concrete,01,Bituminous,2018,4,2023-06-07,Kampala,Central,Kampala,M,YOYO RIVER,7
+BRG-B124,ORU BRIDGE,bridge,Kampala - Entebbe Expressway,M3_Link01,M,281.600006103516,3.333611,30.95351,24.3,1,2,0,10.7,Timber,01,Bituminous,2018,4,2022-07-12,Kampala,Central,Kampala,M,ORU RIVER,7
+BRG-B125,APA BRIDGE,bridge,Kampala - Entebbe Expressway,M3_Link01,M,283.200012207031,3.396792,30.956715,17.1,1,2,0,10.8,Steel Composite,01,Bituminous,2018,5,2022-10-10,Kampala,Central,Kampala,M,APA RIVER,7
+BRG-B126,KOCHI BRIDGE,bridge,Kampala - Entebbe Expressway,M3_Link01,M,298.299987792969,3.442961,30.960333,14.9,1,2,0,10.8,Steel Girder,01,Bituminous,2018,5,2024-04-02,Kampala,Central,Kampala,M,KOCHI,7
+BRG-B127,AYUGI BRIDGE,bridge,Kiziranfumbi - Kabaale,C596_Link01,C,20.1000003814697,3.348225,32.041069,14.4,3,2,2,11.1,Reinforced Concrete,01,Bituminous,2024,4,2023-10-05,Hoima,Western,Hoima,C,AYUGI RIVER,7
+BRG-B129,ERIA BRIDGE,bridge,Atiak - Moyo,B250_Link01,B,42.2000007629395,3.377563,31.993473,12.4,3,2,2,11.1,Steel Truss,01,Bituminous,2025,5,2022-09-10,Moyo,Northern,Moyo,B,ERIA RIVER,6
+BRG-B134,YII BRIDGE,bridge,Moyo - Yumbe,B250_Link02,B,111.778999328613,3.580359,31.571014,7.7,1,1,0,3.6,Steel Composite,01,Unsealed,0,3,2023-06-07,Moyo,Northern,Moyo,B,YII,3
+BRG-B134-153,YII,bridge,Moyo - Yumbe,B250_Link02,B,0,3.60911,31.535219,20,1,2,0,7.3,Steel Composite,Road over river,Unsealed,0,2,2023-10-05,Moyo,Northern,Moyo,B,,7
+BRG-B135,NYAWA BRIDGE,bridge,Moyo - Yumbe,B250_Link02,B,117.800003051758,3.609253,31.535076,15.7,2,2,1,8.6,Prestressed Concrete,01,Unsealed,0,2,2023-08-06,Moyo,Northern,Moyo,B,NYAWA BRIDGE,7
+BRG-B135-155,NYAWA,bridge,Moyo - Yumbe,B250_Link02,B,0,3.575433,31.481871,19,1,2,0,7.3,Steel Girder,Road over river,Unsealed,0,2,2023-09-05,Moyo,Northern,Moyo,B,,7
+BRG-B136,KOCHI,bridge,Moyo - Yumbe,B250_Link02,B,123.599998474121,3.559625,31.438583,18.8,2,2,1,8.6,Timber,01,Unsealed,0,2,2023-08-06,Moyo,Northern,Moyo,B,KOCHI,7
+BRG-B137,JURE,bridge,Yumbe - Manibe,B250_Link03,B,0,3.38139,31.2775,25,1,2,0,7.3,Prestressed Concrete,Road over river,Unsealed,0,3,2023-02-07,Arua,Northern,Arua,B,,2
+BRG-B138,DACHA,bridge,Yumbe - Manibe,B250_Link03,B,172.533004760742,3.362382,31.262203,11.7,1,2,0,8.7,Steel Composite,01,Unsealed,0,4,2024-03-03,Arua,Northern,Arua,B,DACHA,7
+BRG-B139,ORE BRIDGE,bridge,Yumbe - Manibe,B250_Link03,B,181.113998413086,3.337053,31.203848,11.5,1,2,0,8.7,Timber,01,Unsealed,0,3,2023-11-04,Arua,Northern,Arua,B,ORE RIVER,7
+BRG-B142,ORU BRIDGE,bridge,Yumbe - Manibe,B250_Link03,B,192.733993530273,3.265765,31.135326,6.8,5,1,4,3.7,Masonry,01,Unsealed,0,2,2024-05-02,Arua,Northern,Arua,B,ORU BRIDGE,4
+BRG-B143,ENYAWU BRIDGE,bridge,Yumbe - Manibe,B250_Link03,B,198.899993896484,3.252225,31.124056,8.4,4,1,3,4.2,Reinforced Concrete,01,Unsealed,0,2,2023-08-06,Arua,Northern,Arua,B,ENYAWU RIVER,6
+BRG-B144,AYAGO BRIDGE,bridge,Gulu - Olwiyo,B251_Link01,B,35.7999992370605,2.617902,32.055302,19.0,1,2,0,11.6,Timber,01,Bituminous,2019,5,2024-04-02,Gulu,Northern,Gulu,B,AYAGO RIVER,7
+BRG-B145,AYAGO BRIDGE,bridge,Karuma - Olwiyo,A008_Link01,A,38.2000007629395,2.416902,31.996092,10.8,3,2,2,7.5,Masonry,01,Bituminous,2006,4,2023-08-06,Gulu,Northern,Gulu,A,AYAGO RIVER,7
+BRG-B146,AKAKU,bridge,Gulu - Olwiyo,B251_Link01,B,0,2.58932,31.92931,16,1,2,0,7.3,Steel Composite,Road over river,Bituminous,2019,5,2023-06-07,Gulu,Northern,Gulu,B,,5
+BRG-B147,ITUNGA BRIDGE,bridge,Lira - Puranga Bridge,B252_Link01,B,61.8079986572266,2.55183,32.932499,7.3,1,1,0,7.9,Prestressed Concrete,01,Unsealed,0,4,2023-03-09,Lira,Northern,Lira,B,ITUNGA STREAM,5
+BRG-B148,PURANGA BRIDGE,bridge,Lira - Puranga Bridge,B252_Link01,B,61.8079986572266,2.60644,32.936661,19.0,3,2,2,11.6,Steel Truss,01,Unsealed,0,4,2022-09-10,Lira,Northern,Lira,B,PURANGA RIVER,7
+BRG-B149,ATUP BRIDGE,bridge,Puranga Bridge - Corner Kilak - Pejule - Acholibur,B252_Link02,B,163.147994995117,2.73759,32.949791,4.2,2,2,1,7.9,Prestressed Concrete,01,Unsealed,0,4,2023-07-07,Kitgum,Northern,Kitgum,B,ATUP RIVER,6
+BRG-B150,AGORA BRIDGE,bridge,Puranga Bridge - Corner Kilak - Pejule - Acholibur,B252_Link02,B,104.779998779297,2.82143,32.962421,4.8,1,2,0,8.0,Timber,01,Unsealed,0,2,2023-10-05,Kitgum,Northern,Kitgum,B,AGORA RIVER,4
+BRG-B151,AGAGO BRIDGE,bridge,Puranga Bridge - Corner Kilak - Pejule - Acholibur,B252_Link02,B,112.871002197266,2.83984,32.964451,5.1,6,2,5,8.0,Steel Girder,01,Unsealed,0,4,2023-03-09,Kitgum,Northern,Kitgum,B,AGAGO,6
+BRG-B154,PAGER BRIDGE,bridge,Acholibur - Kitgum,B252_Link03,B,185.481002807617,3.30085,32.879749,18.7,3,2,2,15.0,Masonry,01,Bituminous,2018,5,2023-02-07,Kitgum,Northern,Kitgum,B,PAGER RIVER,7
+BRG-B156,ARINGA BRIDGE,bridge,Kitgum - Madi Opei,B252_Link04,B,203.785003662109,3.396599,33.004631,18.7,2,2,1,11.6,Steel Truss,01,Bituminous,2018,5,2024-01-03,Kitgum,Northern,Kitgum,B,ARINGA,7
+BRG-B158,SIPI,bridge,Muyembe - Namalu,B300_Link03,B,72.0999984741211,1.38248,34.314331,8.0,1,2,0,4.5,Timber,01,Unsealed,0,3,2024-04-02,Mbale,Eastern,Mbale,B,SIPI,5
+BRG-B159,CHEPTUI,bridge,Muyembe - Namalu,B300_Link03,B,32.5,1.40637,34.3442,21.0,1,2,0,5.5,Timber,01,Unsealed,0,3,2023-07-07,Mbale,Eastern,Mbale,B,CHEPTUI,1
+BRG-B160,CHESEBERE,bridge,Muyembe - Namalu,B300_Link03,B,32.5,1.41471,34.34967,5.0,1,1,0,9.0,Steel Girder,01,Unsealed,0,3,2022-12-09,Mbale,Eastern,Mbale,B,CHESEBERE,0
+BRG-B161,MUYEMBE-ANGUTUM,bridge,Muyembe - Namalu,B300_Link03,B,32.5,1.47082,34.40419,12.0,1,2,0,8.0,Steel Truss,01,Unsealed,0,4,2024-02-02,Mbale,Eastern,Mbale,B,,4
+BRG-B162,ROAD OVER RIVER,bridge,Muyembe - Namalu,B300_Link03,B,32.5,1.50021,34.444229,7.0,1,2,0,7.6,Steel Composite,01,Unsealed,0,4,2024-03-03,Mbale,Eastern,Mbale,B,,2
+BRG-B163,SERETYO,bridge,Muyembe - Namalu,B300_Link03,B,208.0,1.53895,34.49395,20.0,1,2,0,11.4,Timber,01,Unsealed,0,2,2023-11-04,Mbale,Eastern,Mbale,B,SERETYO,7
+BRG-B164,OKILIM,bridge,Muyembe - Namalu,B300_Link03,B,0,1.59842,34.543621,8.2,3,2,2,20.0,Steel Composite,01,Unsealed,0,4,2023-11-04,Mbale,Eastern,Mbale,B,,0
+BRG-B165,LORENGEDWAT,bridge,Lokapel - Ariamoi,B300_Link05,B,162.0,2.35148,34.580502,24.5,2,2,1,11.0,Timber,01,Bituminous,2016,5,2022-07-12,Moroto,North Eastern,Moroto,B,OMANIMAN,7
+BRG-B166,NAMALERA,bridge,Lokapel - Ariamoi,B300_Link05,B,161.800003051758,2.40346,34.57373,25.0,1,2,0,11.0,Steel Composite,01,Bituminous,2016,5,2023-11-04,Moroto,North Eastern,Moroto,B,NAMALERA,7
+BRG-B167,LOKALI,bridge,Lokapel - Ariamoi,B300_Link05,B,162.0,2.44495,34.571831,25.0,1,2,0,11.0,Timber,01,Bituminous,2016,4,2022-10-10,Moroto,North Eastern,Moroto,B,LOKALI,7
+BRG-B168,NADUNGET,bridge,Ariamoi - Moroto,B300_Link06,B,208.0,2.51141,34.592621,25.0,1,2,0,11.0,Steel Composite,01,Bituminous,2016,5,2022-10-10,Moroto,North Eastern,Moroto,B,ANGOLOT,7
+BRG-B169,LOKICHAR,bridge,Ariamoi - Kaladonapal - Kaperimoru,B301_Link01,B,0,2.57909,34.333889,77,1,2,0,7.3,Timber,Road over river,Unsealed,0,4,2022-06-12,Kotido,North Eastern,Kotido,B,,5
+BRG-B170,DANYANGALA,bridge,Kapelimoru - Kotido,B301_Link02,B,83.5,2.97246,34.11483,31.0,1,2,0,4.8,Prestressed Concrete,01,Unsealed,0,4,2023-04-08,Kotido,North Eastern,Kotido,B,,7
+BRG-B171,KOTIDO- KAILONG,bridge,Kotido - Abim,B302_Link01,B,63.5,2.99582,34.09211,18.8,1,1,0,4.5,Prestressed Concrete,01,Unsealed,0,3,2023-12-04,Kotido,North Eastern,Kotido,B,,7
+BRG-B172,KATULANGOLE,bridge,Kotido - Apaan - Kabong,B301_Link03,B,102.5,3.3311,34.118771,21.5,1,1,0,4.5,Steel Truss,01,Unsealed,0,4,2023-02-07,Kotido,North Eastern,Kotido,B,KATULANGOLE,6
+BRG-B173,LOCHOM,bridge,Kotido - Apaan - Kabong,B301_Link03,B,102.5,3.43824,34.144859,15.8,1,2,0,4.5,Timber,01,Unsealed,0,3,2023-01-08,Kotido,North Eastern,Kotido,B,LOCHOM,7
+BRG-B174,LOMUSAN,bridge,Kotido - Apaan - Kabong,B301_Link03,B,102.5,3.49903,34.165779,15.6,1,2,0,4.5,Prestressed Concrete,01,Unsealed,0,4,2023-06-07,Kotido,North Eastern,Kotido,B,LOMUSAN,7
+BRG-B175,KAABONG,bridge,Kotido - Apaan - Kabong,B301_Link03,B,102.5,3.52005,34.12896,20.0,2,2,1,10.4,Reinforced Concrete,01,Unsealed,0,3,2023-06-07,Kotido,North Eastern,Kotido,B,KAABONG,7
+BRG-B176,LAKAPELOT,bridge,Kotido - Apaan - Kabong,B301_Link03,B,102.5,3.62877,34.088291,15.0,1,2,0,4.5,Masonry,01,Unsealed,0,3,2023-06-07,Kotido,North Eastern,Kotido,B,AKAPELOT,1
+BRG-B177,YADALALA,bridge,Kotido - Apaan - Kabong,B301_Link03,B,102.5,3.64267,34.074718,15.0,1,2,0,4.5,Prestressed Concrete,01,Unsealed,0,2,2024-05-02,Kotido,North Eastern,Kotido,B,NAKWOSONGWAN,7
+BRG-B178,NARIAMABUNE,bridge,Kotido - Apaan - Kabong,B301_Link03,B,102.5,3.64615,34.036449,16.0,1,2,0,10.5,Prestressed Concrete,01,Unsealed,0,3,2023-02-07,Kotido,North Eastern,Kotido,B,LOBALOKILI,7
+BRG-B179,LOYOROIT,bridge,Kotido - Abim,B302_Link01,B,43.0,2.82157,33.75135,27.0,1,1,0,5.0,Steel Truss,01,Unsealed,0,4,2023-03-09,Kotido,North Eastern,Kotido,B,LOYOROIT,7
+BRG-B181,OTAKA BRIDGE,bridge,Abim - Kilak,B302_Link02,B,0,2.80604,33.063862,39,1,2,0,7.3,Steel Truss,Road over river,Unsealed,0,4,2024-04-02,Kitgum,Northern,Kitgum,B,,7
+BRG-B182,KOMOLO,bridge,Arapai - Katakwi - Iriri,B303_Link02,B,29.6000003814697,1.85869,33.847889,26.0,3,2,2,11.0,Prestressed Concrete,01,Bituminous,2020,5,2022-11-09,Soroti,North Eastern,Soroti,B,KOMOLO,7
+BRG-B183,GETOM,bridge,Arapai - Katakwi - Iriri,B303_Link02,B,0,1.86417,33.864201,37,1,2,0,7.3,Timber,Road over river,Bituminous,2020,5,2023-06-07,Soroti,North Eastern,Soroti,B,,4
+BRG-B184,AKANGOLE,bridge,Arapai - Katakwi - Iriri,B303_Link02,B,54.0999984741211,2.43725,34.478359,26.0,3,2,2,18.8,Steel Truss,01,Bituminous,2020,4,2023-05-08,Soroti,North Eastern,Soroti,B,OMANIMA,7
+BRG-B185,Apak Bridge,bridge,Lira - Akia,C650_Link01,C,0,2.37072,33.220798,62,1,2,0,7.3,Steel Truss,Road over river,Bituminous,2019,5,2024-02-02,Lira,Northern,Lira,C,,7
+BRG-B186,APAK BRIDGE,bridge,Lira - Akia,C650_Link01,C,43.7400016784668,2.37072,33.220791,20.2,2,2,1,9.7,Steel Truss,01,Bituminous,2019,5,2023-07-07,Lira,Northern,Lira,C,APAK RIVER,7
+BRG-B187,TOCHI (AWOL) BRIDGE,bridge,Bobi-Aboke-Ayer,C655_Link01,C,7.92999982833862,2.524747,32.40358,26.6,1,2,0,11.2,Steel Composite,01,Unsealed,0,2,2024-01-03,Gulu,Northern,Gulu,C,TOCHI RIVER,7
+BRG-B188,ODEK,bridge,Opit-Rwackoko,C680_Link02,C,0,2.68018,32.739159,48,1,2,0,7.3,Steel Girder,Road over river,Unsealed,0,3,2024-04-02,Gulu,Northern,Gulu,C,,7
+BRG-B189,AWERE BRIDGE,bridge,Opit-Rwackoko,C680_Link02,C,74.9100036621094,2.687393,32.786407,16.5,3,1,2,6.8,Timber,01,Unsealed,0,4,2022-07-12,Gulu,Northern,Gulu,C,ASWA RIVER,3
+BRG-B192,AJAN BRIDGE,bridge,Acholibur - Aswa,C681_Link01,C,21.5249996185303,3.030654,32.76746,19.4,2,2,1,11.7,Reinforced Concrete,01,Bituminous,2018,5,2023-09-05,Kitgum,Northern,Kitgum,C,AJAN RIVER,7
+BRG-B195,ASWA BRIDGE,bridge,Aswa - Gulu,C681_Link02,C,45.1209983825684,2.957123,32.581944,20.4,3,2,2,10.6,Reinforced Concrete,01,Bituminous,2018,4,2022-10-10,Gulu,Northern,Gulu,C,ASWA RIVER,7
+BRG-B196,UNYAMA BRIDGE,bridge,Gulu - Logere - Adee,C682_Link01,C,20.3199996948242,2.955103,32.288567,6.8,2,1,1,4.2,Reinforced Concrete,01,Unsealed,0,4,2022-08-11,Gulu,Northern,Gulu,C,UNYAMA RIVER,4
+BRG-B197,Nyarwotho,bridge,Nebbi - Goli,C745_Link01,C,0,2.37718,31.029881,26,1,2,0,7.3,Steel Composite,Road over river,Unsealed,0,4,2022-12-09,Arua,Northern,Arua,C,,7
+BRG-B198,UNYAMA BRIDGE,bridge,Atiak-Palabek,C700_Link01,C,10.9449996948242,3.266038,32.20805,31.0,1,1,0,6.5,Masonry,01,Unsealed,0,3,2024-04-02,Kitgum,Northern,Kitgum,C,UNYAMA RIVER,7
+BRG-B199,ASWA BRIDGE,bridge,Atiak-Palabek,C700_Link01,C,37.4980010986328,3.299143,32.36237,22.0,4,1,3,6.0,Timber,01,Unsealed,0,4,2023-02-07,Kitgum,Northern,Kitgum,C,ASWA RIVER,7
+BRG-B200,AWICH BRIDGE,bridge,Atiak-Palabek,C700_Link01,C,48.1199989318848,3.369424,32.413349,10.6,1,1,0,3.9,Steel Girder,01,Unsealed,0,3,2023-05-08,Kitgum,Northern,Kitgum,C,AWICH RIVER,4
+BRG-B201,BURKUNG,bridge,Atiak-Palabek,C700_Link01,C,62.8870010375977,3.43055,32.52346,12.6,1,1,0,6.0,Steel Composite,01,Unsealed,0,2,2024-04-02,Kitgum,Northern,Kitgum,C,BURKUNG,5
+BRG-B202,LAGWEL BRIDGE,bridge,Kitgum-Lukung-Ngomoromo,C701_Link01,C,14.4670000076294,3.441197,32.853283,5.5,1,1,0,4.3,Timber,01,Unsealed,0,3,2024-04-02,Kitgum,Northern,Kitgum,C,LAGWEL STREAM,6
+BRG-B203,LIMU BRIDGE,bridge,Kitgum-Lukung-Ngomoromo,C701_Link01,C,54.4860000610352,3.668679,32.591454,7.4,1,1,0,5.6,Steel Truss,01,Unsealed,0,3,2023-12-04,Kitgum,Northern,Kitgum,C,LIMU RIVER,3
+BRG-B206,OKURA BRIDGE,bridge,Madi Opei-Agoro Hills,C702_Link01,C,0,3.79756,33.014526,10.3,1,1,0,4.6,Reinforced Concrete,01,Unsealed,0,4,2024-02-02,Kitgum,Northern,Kitgum,C,21.543,7
+BRG-B207,KITGUM MATIDI,bridge,Kitgum - Orom,C703_Link01,C,22.1469993591309,3.260317,33.069176,5.1,8,1,7,4.8,Masonry,01,Unsealed,0,3,2023-12-04,Kitgum,Northern,Kitgum,C,PAGER RIVER,4
+BRG-B208,ORAA 1,bridge,Pakwach-Inde,C743_Link01,C,0,2.71777,31.392731,65,1,2,0,7.3,Timber,Road over river,Unsealed,0,4,2022-08-11,Arua,Northern,Arua,C,,4
+BRG-B209,ORAA2 BRIDGE,bridge,Pakwach-Inde,C743_Link01,C,33.5620002746582,2.714978,31.392799,35.2,1,1,0,5.1,Reinforced Concrete,01,Unsealed,0,4,2023-12-04,Arua,Northern,Arua,C,ORAA RIVER,5
+BRG-B210,AWA,bridge,Inde-Ocoko,C743_Link02,C,0,2.88667,31.20067,57,1,2,0,7.3,Timber,Road over river,Unsealed,0,4,2022-11-09,Arua,Northern,Arua,C,,2
+BRG-B211,ALLAH BRIDGE,bridge,Inde-Ocoko,C743_Link02,C,78.2990036010742,2.903366,31.072243,21.0,1,2,0,11.4,Reinforced Concrete,01,Unsealed,0,2,2024-03-03,Arua,Northern,Arua,C,ALA RIVER,7
+BRG-B212,OLEMIKA BRIDGE,bridge,Inde-Ocoko,C743_Link02,C,84.4990005493164,2.914741,31.019199,11.6,1,2,0,10.7,Steel Girder,01,Unsealed,0,2,2024-04-02,Arua,Northern,Arua,C,OLEMIKA,7
+BRG-B213,BORO BRIDGE,bridge,Packwach - Panyimur,C746_Link01,C,21.8050003051758,2.320189,31.357399,7.0,3,1,2,4.0,Steel Composite,01,Unsealed,0,4,2022-08-11,Arua,Northern,Arua,C,MUTUTU,6
+BRG-B214,KIVUJE BRIDGE,bridge,Packwach - Panyimur,C746_Link01,C,26.1660003662109,2.289883,31.335587,8.7,1,1,0,4.0,Steel Composite,01,Unsealed,0,2,2023-06-07,Arua,Northern,Arua,C,KIVUJE,3
+BRG-B215,LOJORO,bridge,Angatun-Nabilatuk-Lokapel,C960_Link01,C,22.0,2.0349,34.568588,5.0,1,1,0,4.5,Masonry,01,Unsealed,0,2,2024-01-03,Moroto,North Eastern,Moroto,C,LOJORO,5
+BRG-B216,NAKOYITI,bridge,Angatun-Nabilatuk-Lokapel,C960_Link01,C,46.5,2.10067,34.6814,12.0,1,1,0,5.0,Timber,01,Unsealed,0,4,2022-12-09,Moroto,North Eastern,Moroto,C,NAKOYITI,3
+BRG-B217,CHOLOLO,bridge,Chosan to Amudat,C961_Link01,C,30.5,1.94414,34.826649,20.0,1,2,0,10.4,Steel Composite,01,Unsealed,0,2,2024-05-02,Moroto,North Eastern,Moroto,C,CHOLOLO,3
+BRG-B218,KOLO BRIDGE,bridge,Nambole - Kampala Industrial Park - Mukono,C036_Link01,C,0,0.34908,32.698509,28,1,2,0,7.3,Steel Composite,Road over river,Unsealed,0,4,2023-05-08,Kampala,Central,Kampala,C,,5
+BRG-B220,KIGUNGU BRIDGE,bridge,Access to Kigungu,C177_Link01,C,0,0.02185,32.440361,37,1,2,0,7.3,Steel Girder,Road over river,Unsealed,0,3,2023-03-09,Kampala,Central,Kampala,C,,6
+BRG-B222,MAYANJA,bridge,Namayumba - Kitalya Prison - Kamuli,C187_Link01,C,0,0.40709,32.251419,29,1,2,0,7.3,Masonry,Road over river,Unsealed,0,3,2023-03-09,Kampala,Central,Kampala,C,,6
+BRG-B223,BUKOOLA,bridge,Kitumbi Bridge - Bukwiri,C271_Link04,C,0,0.893864,31.625471,69,1,2,0,7.3,Steel Composite,Road over river,Unsealed,0,3,2024-03-03,Hoima,Western,Hoima,C,,5
+BRG-B225,MAYANJA BRIDGE,bridge,Kapeeka - Singo Military Barracks - Kituuma,C320_Link01,C,0,0.68194,32.171902,79,1,2,0,7.3,Prestressed Concrete,Road over river,Unsealed,0,2,2023-12-04,Luwero,Central,Luwero,C,,6
+BRG-B227,NKURUNGU,bridge,Kabujogera - Mahyoro Junction,C373_Link02,C,0,-0.102603,30.346518,45,1,2,0,7.3,Masonry,Road over river,Unsealed,0,3,2022-12-09,Ibanda,Southern,Ibanda,C,,6
+BRG-B228,BUTEMBE BRIDGE,bridge,Rukungiri - Station Boundary,C452_Link01,C,19.6000003814697,-0.65107,29.958969,10.0,1,1,0,4.0,Steel Truss,01,Unsealed,0,2,2023-06-07,Kabale,Southern,Kabale,C,BUTEMBE RIVER,4
+BRG-B229,KYONYO,bridge,Nsiika - Bihanga -Katerera(Ishaka T/C),C416_Link02,C,0,-0.263133,30.326916,38,1,2,0,7.3,Steel Girder,Road over river,Unsealed,0,3,2024-04-02,Ibanda,Southern,Ibanda,C,,1
+BRG-B230,Maziba Bridge,bridge,Old Kabale Road (Kigata - Kabunyonyi - N,C424_Link01,C,0,-1.31133,30.098591,20.0,3,2,2,10.6,Prestressed Concrete,Road over river,Unsealed,0,4,2023-10-05,Kabale,Southern,Kabale,C,,5
+BRG-B231,MPUNGU BRIDGE,bridge,Ikumba - Nfasha - Ruhija - Mpungu - Hama,C434_Link01,C,47.0,-0.979269,29.691502,6.2,3,1,2,4.8,Timber,01,Unsealed,0,4,2023-09-05,Kabale,Southern,Kabale,C,MPUNGU RIVER,5
+BRG-B232,MUCHA BRIDGE,bridge,Kisoro - Nyabwishenya,C436_Link01,C,0,-1.22407,29.715969,9.6,1,1,0,3.8,Steel Truss,01,Unsealed,0,3,2023-10-05,Kabale,Southern,Kabale,C,MUCHA RIVER,4
+BRG-B233,KAKU BRIDGE,bridge,Natete - Busanza - Mpaka,C439_Link01,C,12.3000001907349,-1.197372,29.611555,18.0,1,2,0,10.1,Steel Girder,01,Unsealed,0,3,2023-06-07,Kabale,Southern,Kabale,C,KAKU RIVER,7
+BRG-B234,ISHASHA BRIDGE,bridge,Kanyantorogo - Butogota,C440_Link01,C,9.01000022888184,-0.83906,29.640989,20.3,1,1,0,5.0,Reinforced Concrete,01,Unsealed,0,3,2023-05-08,Kabale,Southern,Kabale,C,ISHASHA RIVER,6
+BRG-B235,MUYAGA BRIDGE,bridge,Butogota - Kyeshero-Buhom,C440_Link02,C,18.4200000762939,-0.90849,29.6374,9.6,1,1,0,4.9,Reinforced Concrete,01,Unsealed,0,2,2023-07-07,Kabale,Southern,Kabale,C,MUYAGA RIVER,6
+BRG-B236,KIRURUMA BRIDGE,bridge,Katojo - Kihihi,C441_Link01,C,13.1999998092651,-0.76536,29.72121,21.5,1,1,0,4.5,Steel Girder,01,Unsealed,0,3,2024-01-03,Kabale,Southern,Kabale,C,KIRURUMA,7
+BRG-B237,MITANO 01,bridge,Ruerere - Mitaano,C442_Link02,C,32.3499984741211,-0.78366,29.82247,30.0,2,2,1,10.1,Prestressed Concrete,01,Unsealed,0,4,2023-09-05,Kabale,Southern,Kabale,C,MITANO RIVER,7
+BRG-B238,KABAALE BRIDGE,bridge,Rukungiri - Ruerere,C442_Link01,C,1.89999997615814,-0.7807,29.84602,4.7,1,1,0,8.0,Masonry,01,Unsealed,0,3,2023-01-08,Kabale,Southern,Kabale,C,KABALE RIVER,4
+BRG-B239,KAKINGO BRIDGE,bridge,Bugangari - Campbell,C445_Link02,C,33.75,-0.67665,29.86307,5.7,1,1,0,4.0,Steel Truss,01,Unsealed,0,2,2023-07-07,Kabale,Southern,Kabale,C,KAKINDO RIVER,5
+BRG-B240,RUSHAYA BRIDGE,bridge,Bugangari - Campbell,C445_Link02,C,32.4099998474121,-0.583351,29.793762,11.7,3,1,2,3.6,Prestressed Concrete,01,Unsealed,0,3,2024-03-03,Kabale,Southern,Kabale,C,RUSHAYA RIVER,7
+BRG-B241,MITANO 02 BRIDGE,bridge,Bukurungu - Nyamirama,C446_Link01,C,16.0,-0.683095,29.799648,31.1,1,1,0,7.0,Steel Girder,01,Bituminous,2023,4,2023-01-08,Kabale,Southern,Kabale,C,MITANO RIVER,5
+BRG-B243,RWAMUGANGA BRIDGE,bridge,Kabwohe - Kitagata - Kabira(Mitooma),C447_Link01,C,50.5,-0.623411,30.289885,15.4,1,1,0,4.3,Prestressed Concrete,01,Unsealed,0,4,2022-06-12,Mbarara,Southern,Mbarara,C,RWAMUGANGA RIVER,3
+BRG-B246,NDURUMO BRIDGE,bridge,Kabwohe - Kitagata - Kabira(Mitooma),C447_Link01,C,50.5,-0.661432,30.163153,13.5,1,1,0,3.8,Steel Girder,01,Unsealed,0,2,2023-09-05,Mbarara,Southern,Mbarara,C,NDURUMO,3
+BRG-B248,KATIZI BRIDGE,bridge,Kabira - Rukungiri,C447_Link02,C,51.5,-0.685226,30.059286,7.0,1,1,0,4.4,Steel Composite,01,Unsealed,0,2,2023-06-07,Kabale,Southern,Kabale,C,KABIRA-RUKUNGIRI,4
+BRG-B249,KYAMBURA BRIDGE,bridge,Kyambura - Katerera,C450_Link01,C,1.0,-0.20655,30.10671,18.3,1,2,0,4.4,Steel Composite,01,Unsealed,0,3,2023-03-09,Mbarara,Southern,Mbarara,C,KYAMBURA,4
+BRG-B251,ENSHYA BRIDGE,bridge,Nkenda - Bugoye,C519_Link01,C,8.30000019073486,-0.3203,30.0877,6.5,1,1,0,3.7,Steel Composite,01,Unsealed,0,2,2023-12-04,Kasese,Southern,Kasese,C,ENSHYA,5
+BRG-B252,RUBIRIHA,bridge,Kithoma - Kiraro,C520_Link02,C,0,-0.08089,29.74876,16.8,2,2,1,10.7,Steel Composite,Road over river,Unsealed,0,3,2023-06-07,Kasese,Southern,Kasese,C,,4
+BRG-B253,KABIRA BRIDGE,bridge,Kithoma - Kiraro,C520_Link02,C,9.0,-0.09594,29.7407,12.2,1,1,0,4.4,Steel Girder,01,Unsealed,0,4,2023-08-06,Kasese,Southern,Kasese,C,KABIRA RIVER,3
+BRG-B255,RUZAIRWE,bridge,Kibaale-Kyebando - Pacwa,C553_Link01,C,43.0250015258789,1.11092,31.00355,22.0,1,2,0,10.4,Prestressed Concrete,01,Unsealed,0,2,2023-06-07,Hoima,Western,Hoima,C,RUZAIRWE,6
+BRG-B256,PEREPA,bridge,Bukuku - Rubona,C556_Link01,C,2.11400008201599,0.566563,30.15575,6.0,1,1,0,4.1,Masonry,01,Unsealed,0,2,2024-01-03,Fort Portal,Western,Fort Portal,C,PERIDA,4
+BRG-B258,MAHOMA,bridge,Bukuku - Rubona,C556_Link01,C,5.93499994277954,0.599673,30.15962,5.0,1,1,0,4.0,Reinforced Concrete,01,Unsealed,0,3,2023-01-08,Fort Portal,Western,Fort Portal,C,,3
+BRG-B259,DUNGA,bridge,Bukuku - Rubona,C556_Link01,C,8.50800037384033,0.619995,30.1583,3.6,1,1,0,3.4,Timber,01,Unsealed,0,4,2023-06-07,Fort Portal,Western,Fort Portal,C,DUNGA,5
+BRG-B260,NYABUSWA,bridge,Bukuku - Rubona,C556_Link01,C,9.51900005340576,0.628507,30.158581,3.1,1,1,0,3.9,Timber,01,Unsealed,0,4,2023-11-04,Fort Portal,Western,Fort Portal,C,,3
+BRG-B261,MPANGA,bridge,Bukuku - Rubona,C556_Link01,C,13.1920003890991,0.656084,30.172859,4.0,1,1,0,4.4,Steel Girder,01,Unsealed,0,2,2023-06-07,Fort Portal,Western,Fort Portal,C,,4
+BRG-B263,Satisfactory,bridge,Kibuku - Nyabushozi,C575_Link01,C,0,0.929418,30.237967,42,1,2,0,7.3,Steel Truss,Road over river,Unsealed,0,2,2023-09-05,Fort Portal,Western,Fort Portal,C,,4
+BRG-B264,MURUNGU,bridge,Kalongo - Kitgum Matidi,C677_Link02,C,10.9029998779297,1.06575,30.82284,2.6,1,1,0,4.7,Steel Girder,01,Unsealed,0,2,2023-11-04,Kitgum,Northern,Kitgum,C,MURUNGU,3
+BRG-B265,NGUSE,bridge,Kalongo - Kitgum Matidi,C677_Link02,C,2.82200002670288,1.02426,31.122629,5.9,4,2,3,5.4,Masonry,01,Unsealed,0,2,2023-10-05,Kitgum,Northern,Kitgum,C,NGUSE,4
+BRG-B266,MPANGA,bridge,Kalongo - Kitgum Matidi,C677_Link02,C,55.367000579834,0.302793,30.532631,8.2,1,1,0,4.4,Steel Truss,01,Unsealed,0,2,2024-03-03,Kitgum,Northern,Kitgum,C,MPANGA,4
+BRG-B267,MPANGA,bridge,Lokitanyara-Loro-Amudat,C963_Link02,C,0,-0.46901,31.198521,7.0,1,2,0,7.8,Masonry,Road over river,Unsealed,0,4,2023-09-05,Moroto,North Eastern,Moroto,C,,7
+BRG-B268,MPANGA BRIDGE,bridge,Amudat-Alakasi-Kalita,C963_Link03,C,5.30000019073486,-0.10868,30.413811,30.0,1,1,0,3.7,Masonry,01,Unsealed,0,4,2024-02-02,Moroto,North Eastern,Moroto,C,MPANGA RIVER,5
+BRG-B269,KISENGE,bridge,Toroma-Magoro,C964_Link02,C,13.6000003814697,0.92937,30.23797,21.8,1,2,0,7.5,Prestressed Concrete,01,Unsealed,0,2,2024-05-02,Soroti,North Eastern,Soroti,C,KISEGE,4
+BRG-B270,WAMBABYA,bridge,Kokeris - Lopei,C967_Link01,C,28.5799999237061,1.529899,31.11483,12.9,2,2,1,10.9,Prestressed Concrete,01,Unsealed,0,4,2023-10-05,Moroto,North Eastern,Moroto,C,WAMBABYA,6
+BRG-B271,WAMBABYA,bridge,Bugambe-Kidoma,C594_Link01,C,24.6030006408691,1.37389,31.182899,5.5,1,2,0,8.2,Reinforced Concrete,01,Unsealed,0,3,2024-04-02,Hoima,Western,Hoima,C,,2
+BRG-B272,WAMBABYA,bridge,Mairirwe-Wambabya,C595_Link01,C,2.11999988555908,1.381651,31.24888,17.1,1,1,0,4.0,Steel Girder,01,Unsealed,0,3,2024-04-02,Hoima,Western,Hoima,C,MAIRIRWE,4
+BRG-B274,Wambabya,bridge,Buseruka-Kigorobya,C601_Link01,C,0,1.569413,31.209574,70,1,2,0,7.3,Reinforced Concrete,Road over river,Unsealed,0,2,2024-01-03,Hoima,Western,Hoima,C,,2
+BRG-B275,WAMBABYA,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,1.558344,31.103519,6.0,1,1,0,4.1,Steel Truss,Road over river,Bituminous,2018,4,2022-12-09,Kampala,Central,Kampala,M,,6
+BRG-B276,Kanangalo,bridge,Nkooko-Nalweyo,C627_Link02,C,35.7120018005371,0.95543,31.44503,9.2,1,1,0,5.0,Steel Girder,01,Unsealed,0,2,2024-02-02,Hoima,Western,Hoima,C,Kanangalo,3
+BRG-B277,Okole Bridge 1,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,2.20205,32.571899,17,1,2,0,7.3,Reinforced Concrete,Road over river,Bituminous,2018,4,2022-11-09,Kampala,Central,Kampala,M,,0
+BRG-B278,WALABAM,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,2.408556,32.433491,3.1,1,1,0,3.9,Prestressed Concrete,Road over river,Bituminous,2018,4,2023-12-04,Kampala,Central,Kampala,M,,6
+BRG-B279,TOCHI BRIDGE,bridge,Kampala - Entebbe Expressway,M3_Link01,M,24.9699993133545,2.408602,32.433483,6.1,4,1,3,4.5,Masonry,01,Bituminous,2018,4,2023-08-06,Kampala,Central,Kampala,M,TOCHI RIVER,5
+BRG-B281,EYAMA BRIDGE,bridge,Kampala - Entebbe Expressway,M3_Link01,M,49.6689987182617,2.11968,33.28405,7.7,1,1,0,3.5,Masonry,01,Bituminous,2018,4,2024-05-02,Kampala,Central,Kampala,M,EYAMA RIVER,4
+BRG-B282,ENGET BRIDGE,bridge,Aloi - Aboko - Bata - Dokolo,C671_Link01,C,10.6800003051758,2.1583,33.218971,7.1,1,1,0,3.7,Steel Girder,01,Unsealed,0,4,2023-05-08,Lira,Northern,Lira,C,ENGET RIVER,3
+BRG-B283,AKOKOWO BRIDGE,bridge,Aloi - Aboko - Bata - Dokolo,C671_Link01,C,14.6999998092651,2.152578,33.221306,10.3,1,1,0,3.6,Steel Girder,01,Unsealed,0,4,2022-08-11,Lira,Northern,Lira,C,AKOKOWO RIVER,4
+BRG-B284,ENGET BRIDGE,bridge,Aloi - Aboko - Bata - Dokolo,C671_Link01,C,31.7900009155273,2.00677,33.197182,20.7,1,2,0,8.0,Masonry,01,Unsealed,0,3,2023-01-08,Lira,Northern,Lira,C,ENGET RIVER,4
+BRG-B285,APOC BRIDGE,bridge,Ogur - Apala,C672_Link01,C,3.89000010490417,2.42722,32.963539,4.0,1,1,0,3.5,Steel Girder,01,Unsealed,0,3,2023-02-07,Lira,Northern,Lira,C,APOC RIVER,4
+BRG-B286,OBIM BRIDGE,bridge,Ogur - Apala,C672_Link01,C,7.82000017166138,2.41405,33.000771,9.7,1,1,0,3.5,Masonry,01,Unsealed,0,3,2024-04-02,Lira,Northern,Lira,C,OBIM RIVER,4
+BRG-B287,APOCHI BRIDGE,bridge,Apala-Aloi,C672_Link02,C,18.3090000152588,2.37308,33.082989,10.7,1,1,0,3.6,Steel Truss,01,Unsealed,0,4,2023-08-06,Lira,Northern,Lira,C,APOCHI RIVER,5
+BRG-B288,BUAPORO BRIDGE,bridge,Apala-Aloi,C672_Link02,C,31.3090000152588,2.289351,33.163639,10.5,1,1,0,3.6,Steel Truss,01,Unsealed,0,2,2023-12-04,Lira,Northern,Lira,C,ECONGO,4
+BRG-B289,APOC,bridge,Apala-Adwari,C673_Link02,C,0,2.428214,33.08387,4.0,1,1,0,4.4,Steel Girder,Road over river,Unsealed,0,2,2024-05-02,Lira,Northern,Lira,C,,6
+BRG-B290,AKWERA BRIDGE,bridge,Apala-Adwari,C673_Link02,C,45.8899993896484,2.458497,33.156769,5.8,3,1,2,5.5,Steel Truss,01,Unsealed,0,2,2023-06-07,Lira,Northern,Lira,C,AKWERA RIVER,5
+BRG-B291,OKEE BRIDGE,bridge,Okwang-Okwang Subcounty spur,C994_Link01,C,0.75,2.58299,33.158001,6.0,2,1,1,5.4,Reinforced Concrete,01,Unsealed,0,4,2024-03-03,Lira,Northern,Lira,C,OKEE RIVER,3
+BRG-B292,AGAGO BRIDGE,bridge,Pajule - Pader,C675_Link01,C,3.20000004768372,2.849526,33.100666,5.1,5,2,4,7.2,Prestressed Concrete,01,Unsealed,0,2,2024-04-02,Kitgum,Northern,Kitgum,C,AGAGO RIVER,4
+BRG-B293,AGAGO BRIDGE,bridge,Patongo - Kalongo,C677_Link01,C,1.55900001525879,2.77968,33.309769,2.6,1,2,0,7.6,Masonry,01,Unsealed,0,4,2023-03-09,Kitgum,Northern,Kitgum,C,AGAGO RIVER,2
+BRG-B294,AGAGO BRIDGE,bridge,Patongo - Kalongo,C677_Link01,C,1.58399999141693,2.77988,33.30986,2.6,1,2,0,7.6,Steel Composite,01,Unsealed,0,3,2023-01-08,Kitgum,Northern,Kitgum,C,AGAGO RIVER,2
+BRG-B295,AGAGO BRIDGE,bridge,Patongo - Kalongo,C677_Link01,C,2.0,2.78014,33.309921,5.4,2,2,1,7.6,Timber,01,Unsealed,0,3,2023-06-07,Kitgum,Northern,Kitgum,C,AGAGO RIVER,5
+BRG-B296,AGAGO BRIDGE,bridge,Patongo - Kalongo,C677_Link01,C,28.4869995117188,3.007711,33.369267,4.1,2,1,1,4.5,Steel Composite,01,Unsealed,0,4,2022-08-11,Kitgum,Northern,Kitgum,C,AGAGO RIVER,4
+BRG-B297,BULUGI  BRIDGE,bridge,Kalongo - Kitgum Matidi,C677_Link02,C,69.0,3.17501,33.141289,6.2,1,1,0,4.6,Steel Girder,01,Unsealed,0,2,2024-01-03,Kitgum,Northern,Kitgum,C,BULUGI RIVER,5
+BRG-B298,ODYAKA BRIDGE,bridge,Kalongo - Kitgum Matidi,C677_Link02,C,65.0,3.253996,33.062431,5.4,1,1,0,4.8,Reinforced Concrete,01,Unsealed,0,3,2023-12-04,Kitgum,Northern,Kitgum,C,ODYAKA RIVER,5
+BRG-B298-292,ODYAKA,bridge,Kalongo - Kitgum Matidi,C677_Link02,C,0,3.264447,33.057758,60,1,2,0,7.3,Prestressed Concrete,Road over river,Unsealed,0,3,2024-03-03,Kitgum,Northern,Kitgum,C,,5
+BRG-B299,NAGOYA BRIDGE,bridge,Naamokora - Lokapel,C678_Link01,C,13.8590002059937,2.866306,33.482517,4.0,2,1,1,5.4,Masonry,01,Unsealed,0,3,2023-05-08,Kitgum,Northern,Kitgum,C,NGOYA RIVER,3
+BRG-B300,OROK BRIDGE,bridge,Aloi-Aleptong,C997_Link01,C,8.0290002822876,2.26103,33.24461,5.2,2,2,1,5.9,Timber,01,Unsealed,0,4,2023-12-04,Lira,Northern,Lira,C,OROK RIVER,4
+BRG-B301,TORCHI,bridge,Katikati - Tenumu - Nwoya,C685_Link01,C,0,2.75503,32.212681,30,1,2,0,7.3,Prestressed Concrete,Road over river,Unsealed,0,4,2023-04-08,Gulu,Northern,Gulu,C,,3
+BRG-B302,AYAGO,bridge,Katikati - Tenumu - Nwoya,C685_Link01,C,0,2.74932,32.169022,44,1,2,0,7.3,Steel Girder,Road over river,Unsealed,0,4,2022-08-11,Gulu,Northern,Gulu,C,,4
+BRG-B303,AYAGO BRIDGE,bridge,Katikati - Tenumu - Nwoya,C685_Link01,C,11.7700004577637,2.742707,32.137405,5.1,1,1,0,5.0,Prestressed Concrete,01,Unsealed,0,3,2024-04-02,Gulu,Northern,Gulu,C,LANGOL RIVER,4
+BRG-B308,OMEE BRIDGE,bridge,Amuru Junction - Awee,C686_Link02,C,51.8499984741211,2.853229,31.761438,17.1,1,1,0,6.0,Prestressed Concrete,01,Unsealed,0,2,2023-11-04,Gulu,Northern,Gulu,C,OMEE RIVER,5
+BRG-B312,APAA BRIDGE,bridge,Awee - Omee Rhino Camp,C686_Link03,C,78.9449996948242,2.87649,31.664373,9.7,2,2,1,6.9,Prestressed Concrete,01,Unsealed,0,4,2023-09-05,Gulu,Northern,Gulu,C,APAA RIVER,4
+BRG-B313,OCIIP BRIDGE,bridge,Awee - Omee Rhino Camp,C686_Link03,C,75.3399963378906,2.873762,31.585808,9.1,2,2,1,7.0,Timber,01,Unsealed,0,3,2023-04-08,Gulu,Northern,Gulu,C,OCIIP RIVER,4
+BRG-B314,OMEE,bridge,Mungula - Adjumani,C688_Link02,C,26.2999992370605,2.96004,31.865665,4.3,3,2,2,7.0,Steel Truss,01,Unsealed,0,4,2023-11-04,Moyo,Northern,Moyo,C,OMEE,4
+BRG-B315,ZOKA BRIDGE,bridge,Mungula - Adjumani,C688_Link02,C,46.9000015258789,3.089018,31.782351,5.6,1,2,0,7.1,Timber,01,Unsealed,0,4,2022-07-12,Moyo,Northern,Moyo,C,ZOKA RIVER,5
+BRG-B316,AYUGI BRIDGE,bridge,Pakele - Pabbo,C689_Link01,C,13.8999996185303,3.110286,32.080505,17.1,2,2,1,11.1,Prestressed Concrete,01,Unsealed,0,2,2023-11-04,Moyo,Northern,Moyo,C,AYUGI RIVER,7
+BRG-B317,OPIO,bridge,Pakele - Pabbo,C689_Link01,C,0,3.20838,32.0089,79,1,2,0,7.3,Masonry,Road over river,Unsealed,0,2,2023-11-04,Moyo,Northern,Moyo,C,,3
+BRG-B318,AMORO,bridge,Pakele - Pabbo,C689_Link01,C,0,3.209628,32.000912,31,1,2,0,7.3,Reinforced Concrete,Road over river,Unsealed,0,2,2023-08-06,Moyo,Northern,Moyo,C,,4
+BRG-B319,YUBA BRIDGE,bridge,Pakele - Pabbo,C689_Link01,C,31.1000003814697,3.239908,31.938696,4.2,2,2,1,7.1,Timber,01,Unsealed,0,3,2022-12-09,Moyo,Northern,Moyo,C,YUBA RIVER,4
+BRG-B320,ADIDI,bridge,Pakele - Pabbo,C689_Link01,C,39.2000007629395,3.31618,31.891741,17.1,2,2,1,11.0,Masonry,01,Unsealed,0,2,2023-06-07,Moyo,Northern,Moyo,C,ADIDI,7
+BRG-B321,ODRAGI BRIDGE,bridge,Pakele - Pabbo,C689_Link01,C,39.2000007629395,3.3366,31.868849,3.2,10,1,9,4.0,Steel Composite,01,Unsealed,0,2,2024-03-03,Moyo,Northern,Moyo,C,ODRAGI RIVER,5
+BRG-B323,AGAGURA,bridge,Gulu - Logere - Adee,C682_Link01,C,0,3.22894,32.339451,29,1,2,0,7.3,Steel Girder,Road over river,Unsealed,0,4,2024-02-02,Gulu,Northern,Gulu,C,,3
+BRG-B324,LAGWEL BRIDGE,bridge,Palabek - Padibe,C704_Link01,C,0.762000024318695,3.466091,32.827736,7.4,1,1,0,5.1,Steel Girder,01,Unsealed,0,2,2024-03-03,Kitgum,Northern,Kitgum,C,LAGWEL RIVER,5
+BRG-B325,PAUO BRIDGE,bridge,Palabek - Padibe,C704_Link01,C,23.9829998016357,3.428221,32.703831,4.6,1,1,0,4.9,Prestressed Concrete,01,Unsealed,0,3,2024-02-02,Kitgum,Northern,Kitgum,C,PAUO RIVER,5
+BRG-B326,OKWORA BRIDGE,bridge,Paloga - Madiopei,C705_Link02,C,19.8320007324219,3.612535,33.05547,3.1,1,1,0,4.2,Steel Truss,01,Unsealed,0,3,2023-07-07,Kitgum,Northern,Kitgum,C,OKWORA BRIDGE,3
+BRG-B327,ARINGA BRIDGE,bridge,Paloga - Madiopei,C705_Link02,C,16.8320007324219,3.592536,32.950226,6.9,1,1,0,4.7,Masonry,01,Unsealed,0,2,2023-06-07,Kitgum,Northern,Kitgum,C,ARINGA RIVER,5
+BRG-B328,ARINGA BRIDGE,bridge,Potika - Lututur,C706_Link02,C,18.5939998626709,3.716738,32.894608,16.0,1,2,0,7.0,Masonry,01,Unsealed,0,4,2024-02-02,Kitgum,Northern,Kitgum,C,ARINGA RIVER,6
+BRG-B330,NGAGO BRIDGE,bridge,Obongi - Kulikulinga,C721_Link01,C,11.8990001678467,3.230657,31.459076,7.4,1,1,0,3.8,Prestressed Concrete,01,Unsealed,0,3,2024-01-03,Moyo,Northern,Moyo,C,GANGO RIVER,4
+BRG-B331,LEA BRIDGE,bridge,Moyo - Obongi,C722_Link01,C,3.5,3.605532,31.651865,6.5,2,1,1,4.4,Reinforced Concrete,01,Unsealed,0,4,2023-02-07,Moyo,Northern,Moyo,C,LEA RIVER,4
+BRG-B332,NYAWA BRIDGE,bridge,Moyo - Obongi,C722_Link01,C,23.8999996185303,3.45086,31.62635,11.1,2,1,1,3.5,Reinforced Concrete,01,Unsealed,0,3,2024-04-02,Moyo,Northern,Moyo,C,NYAWA RIVER,5
+BRG-B333,OMPOSO BRIDGE,bridge,Moyo - Obongi,C722_Link01,C,36.298999786377,3.370257,31.563513,6.4,4,1,3,3.6,Prestressed Concrete,01,Unsealed,0,2,2023-06-07,Moyo,Northern,Moyo,C,OMPOSO,4
+BRG-B334,TETE BRIDGE,bridge,Tete - Nimule Border,C727_Link01,C,11.1990003585815,3.484224,32.011681,10.2,2,1,1,6.7,Steel Girder,01,Unsealed,0,3,2023-05-08,Moyo,Northern,Moyo,C,TETE RIVER,5
+BRG-B335,BALIBO,bridge,Katrini - Nyadri,C764_Link01,C,9.77200031280518,3.178337,30.972765,11.5,2,1,1,3.8,Timber,01,Unsealed,0,4,2023-04-08,Arua,Northern,Arua,C,BALIBO,6
+BRG-B336,OGUTA BRIDGE,bridge,Panyimur - Paidha Via Erusi-Goli,C747_Link01,C,7.31500005722046,2.25057,31.258675,8.0,1,1,0,3.7,Timber,01,Unsealed,0,3,2022-12-09,Arua,Northern,Arua,C,OGUTA RIVER,4
+BRG-B337,ARAGA BRIDGE,bridge,Panyimur - Paidha Via Erusi-Goli,C747_Link01,C,16.4829998016357,2.281648,31.212103,4.1,1,1,0,3.5,Steel Girder,01,Unsealed,0,4,2023-01-08,Arua,Northern,Arua,C,ARAGA RIVER,3
+BRG-B338,ACODHO BRIDGE,bridge,Panyimur - Paidha Via Erusi-Goli,C747_Link01,C,18.2630004882813,2.295385,31.209974,7.8,1,1,0,3.5,Prestressed Concrete,01,Unsealed,0,2,2024-01-03,Arua,Northern,Arua,C,ACODHO RIVER,4
+BRG-B339,CIDO BRIDGE,bridge,Panyimur - Paidha Via Erusi-Goli,C747_Link01,C,46.6180000305176,2.378301,31.05999,16.6,1,2,0,11.5,Steel Composite,01,Unsealed,0,2,2024-05-02,Arua,Northern,Arua,C,CIDO RIVER,6
+BRG-B340,NYARWOTHO BRIDGE,bridge,Panyimur - Paidha Via Erusi-Goli,C747_Link01,C,49.0660018920898,2.380421,31.046659,10.7,1,1,0,4.0,Steel Truss,01,Unsealed,0,2,2024-03-03,Arua,Northern,Arua,C,NYARWOTHO RIVER,4
+BRG-B344,ENYAU BRIDGE,bridge,Arua - Lia,C752_Link01,C,2.3840000629425,3.035345,30.892725,10.2,1,1,0,4.0,Timber,01,Unsealed,0,4,2022-12-09,Arua,Northern,Arua,C,ENYAU RIVER,4
+BRG-B345,OKAYIVA BRIDGE,bridge,Arua - Lia,C752_Link01,C,3.69899988174438,3.043236,30.883045,10.1,1,1,0,4.2,Masonry,01,Unsealed,0,4,2023-06-07,Arua,Northern,Arua,C,OKAYIVA,4
+BRG-B346,ESI BRIDGE,bridge,Arua - Lia,C752_Link01,C,10.0749998092651,3.054537,30.827444,9.0,1,1,0,5.5,Timber,01,Unsealed,0,3,2022-12-09,Arua,Northern,Arua,C,ESI RIVER,4
+BRG-B347,ENYAWU-CHILLIO BRIDGE,bridge,Owaffa - Kubala,C755_Link01,C,5.89200019836426,3.201206,31.030401,32.1,1,2,0,11.1,Reinforced Concrete,01,Unsealed,0,2,2023-08-06,Arua,Northern,Arua,C,ENYAWU RIVER,6
+BRG-B348,KOCHI,bridge,Keriri - Midigo,C758_Link01,C,0,3.550001,31.25313,77,1,2,0,7.3,Steel Composite,Road over river,Unsealed,0,4,2023-07-07,Moyo,Northern,Moyo,C,,1
+BRG-B349,OSU,bridge,Arua - Biliafe,C762_Link01,C,0,3.05018,31.0672,15,1,2,0,7.3,Prestressed Concrete,Road over river,Unsealed,0,3,2024-02-02,Arua,Northern,Arua,C,,2
+BRG-B352,KORUBUDE BRIDGE,bridge,Mulanda - Nagongera,C836_Link02,C,0,0.71136,34.01461,74,1,2,0,7.3,Steel Composite,Road over river,Unsealed,0,3,2022-12-09,Tororo,Eastern,Tororo,C,,5
+BRG-B354,KAMINIMA,bridge,Nagongera - Merikit - Kidoko,C837_Link01,C,18.0,0.86777,34.110409,4.6,1,1,0,4.9,Masonry,01,Unsealed,0,3,2023-07-07,Tororo,Eastern,Tororo,C,KAMINIMA,5
+BRG-B355,KAMUNIMA,bridge,Nagongera - Merikit - Kidoko,C837_Link01,C,18.0,0.87055,34.111382,4.4,1,1,0,4.7,Masonry,01,Unsealed,0,4,2023-09-05,Tororo,Eastern,Tororo,C,,5
+BRG-B359,NAMULO,bridge,Doho - Namulo - Amuro,C839_Link01,C,13.5,0.91808,34.025162,20.4,1,1,0,4.3,Steel Truss,01,Unsealed,0,4,2023-07-07,Tororo,Eastern,Tororo,C,MANAFA,5
+BRG-B360,PAYA,bridge,Nagongera - Paya - Leresi,C847_Link01,C,18.5,0.82397,34.015369,4.8,1,1,0,5.0,Prestressed Concrete,01,Unsealed,0,3,2023-11-04,Tororo,Eastern,Tororo,C,NAGONGERA,5
+BRG-B361,JALANJA,bridge,Nabiganda - Kaiti,C873_Link01,C,3.40000009536743,1.0219,34.036201,4.6,1,1,0,4.7,Masonry,01,Unsealed,0,4,2022-08-11,Mbale,Eastern,Mbale,C,JALAJA,5
+BRG-B362,NAHAMYA,bridge,Nabiganda - Kaiti,C873_Link01,C,3.0,1.01686,34.04174,6.5,2,2,1,4.4,Steel Composite,01,Unsealed,0,3,2024-02-02,Mbale,Eastern,Mbale,C,,4
+BRG-B363,KITOIKAWUNONI,bridge,Nakaloke-Kabwangasi-Butebo,C878_Link01,C,28.8999996185303,1.19822,33.971031,21.0,1,1,0,5.2,Steel Truss,01,Unsealed,0,3,2023-12-04,Mbale,Eastern,Mbale,C,KITOIKAWUNONI,5
+BRG-B364,BUSAMAGA,bridge,Mbale-Bufumbo,C880_Link01,C,16.0,1.08333,34.188309,30.0,1,1,0,4.2,Steel Composite,01,Unsealed,0,2,2024-05-02,Mbale,Eastern,Mbale,C,NAMATYALE,6
+BRG-B365,NAMATYALE,bridge,Mbale-Bufumbo,C880_Link01,C,16.0,1.10528,34.279011,8.0,1,1,0,5.0,Reinforced Concrete,01,Unsealed,0,2,2023-08-06,Mbale,Eastern,Mbale,C,NAMATYALE,3
+BRG-B366,PONDO,bridge,Buyaga - Buluganya,C884_Link01,C,12.3999996185303,1.28164,34.304482,10.0,1,1,0,7.0,Prestressed Concrete,01,Unsealed,0,3,2024-05-02,Mbale,Eastern,Mbale,C,SIMU,5
+BRG-B367,SIMU,bridge,Buyaga - Buluganya,C884_Link01,C,12.3999996185303,1.2446,34.341091,6.0,1,1,0,4.0,Steel Girder,01,Unsealed,0,3,2023-02-07,Mbale,Eastern,Mbale,C,SIMU,4
+BRG-B368,SISI,bridge,Buginyanya Agriculture Research Station,C885_Link01,C,5.0,1.26338,34.353828,7.5,1,1,0,6.0,Steel Composite,01,Unsealed,0,3,2023-04-08,Mbale,Eastern,Mbale,C,SISI,3
+BRG-B369,KUFFU,bridge,Buseta - Bugiri,C891_Link01,C,7.5,0.93083,34.295952,5.4,1,1,0,9.0,Masonry,01,Unsealed,0,4,2022-07-12,Mbale,Eastern,Mbale,C,KUFFU,5
+BRG-B370,NABUKHYA,bridge,Buseta - Bugiri,C891_Link01,C,0,0.92459,34.307739,9.0,1,2,0,9.6,Timber,01,Unsealed,0,2,2023-06-07,Mbale,Eastern,Mbale,C,,6
+BRG-B373,NAMISINDWA,bridge,Buseta - Bugiri,C891_Link01,C,7.5,0.90774,34.359661,8.0,1,1,0,4.5,Steel Girder,01,Unsealed,0,2,2024-02-02,Mbale,Eastern,Mbale,C,TSAKHANA,2
+BRG-B380,LORO,bridge,Lokitanyara-Loro-Amudat,C963_Link02,C,28.5,2.21327,34.895908,7.0,1,1,0,6.0,Prestressed Concrete,01,Unsealed,0,3,2024-05-02,Moroto,North Eastern,Moroto,C,LORO,4
+BRG-B381,KANYANGAREN,bridge,Lokitanyara-Loro-Amudat,C963_Link02,C,0,1.95961,34.94281,62,1,2,0,7.3,Masonry,Road over river,Unsealed,0,3,2024-02-02,Moroto,North Eastern,Moroto,C,,5
+BRG-B382,DINGIDINGA,bridge,Amudat-Alakasi-Kalita,C963_Link03,C,0,1.70766,34.947929,38,1,2,0,7.3,Timber,Road over river,Unsealed,0,3,2023-10-05,Moroto,North Eastern,Moroto,C,,4
+BRG-B383,OMONGO,bridge,Toroma-Magoro,C964_Link02,C,0,1.75586,34.058392,67,1,2,0,7.3,Prestressed Concrete,Road over river,Unsealed,0,2,2024-02-02,Soroti,North Eastern,Soroti,C,,4
+BRG-B384,NAKODONGOT,bridge,Kokeris - Lopei,C967_Link01,C,0,2.46971,34.391781,62,1,2,0,7.3,Prestressed Concrete,Road over river,Unsealed,0,3,2024-05-02,Moroto,North Eastern,Moroto,C,,4
+BRG-B390,NAMBOOLE FLYOVER,bridge,Kampala - Mukono,A001_Link01,A,0,0.34823,32.653481,29,1,2,0,7.3,Steel Truss,Road over river,Bituminous,1957,2,2023-12-04,Kampala,Central,Kampala,A,,6
+BRG-B391,NAMBOOLE FLYOVER,bridge,Kampala - Mukono,A001_Link01,A,0,0.34879,32.654449,23,1,2,0,7.3,Steel Truss,Road over river,Bituminous,1957,1,2024-02-02,Kampala,Central,Kampala,A,,6
+BRG-B392,KYALIWAJJALA BRIDGE,bridge,Kireka-Namugongo-Misindye-Seeta,C152_Link01,C,0,0.36341,32.647881,72,1,2,0,7.3,Masonry,Road over river,Bituminous,2010,3,2024-02-02,Kampala,Central,Kampala,C,,6
+BRG-B406,OLWAL,bridge,Lamogi - Amuru Junction,C686_Link01,C,0,2.81509,32.027828,2.6,1,1,0,4.7,Steel Girder,Road over river,Unsealed,0,4,2024-02-02,Gulu,Northern,Gulu,C,,4
+BRG-B407,ASHAW,bridge,Lamogi - Amuru Junction,C686_Link01,C,23.4200000762939,2.812723,31.993347,7.3,1,1,0,5.6,Timber,01,Unsealed,0,4,2023-05-08,Gulu,Northern,Gulu,C,ASHAW,4
+BRG-B410,Nakaloke-Kabwangasi-Butebo,bridge,Nakaloke-Kabwangasi-Butebo,C878_Link01,C,0,1.19142,33.797329,4.5,1,2,0,6.5,Steel Truss,01,Unsealed,0,3,2023-11-04,Mbale,Eastern,Mbale,C,,5
+BRG-B411,SHIKOYE,bridge,Bumbobi-Bubulo,C867_Link01,C,15.3999996185303,0.94239,34.22361,9.4,2,2,1,6.6,Steel Girder,01,Bituminous,2005,3,2023-07-07,Mbale,Eastern,Mbale,C,MANAFA,7
+BRG-B413,ARAGI,bridge,Pakele - Pabbo,C689_Link01,C,0,3.256455,31.92869,75,1,2,0,7.3,Steel Truss,Road over river,Unsealed,0,2,2024-01-03,Moyo,Northern,Moyo,C,,1
+BRG-B414,LAIMON,bridge,Pakele - Pabbo,C689_Link01,C,0,3.199851,32.022388,33,1,2,0,7.3,Reinforced Concrete,Road over river,Unsealed,0,4,2023-09-05,Moyo,Northern,Moyo,C,,4
+BRG-B415,ASIYA BRIDGE,bridge,Mungula - Adjumani,C688_Link02,C,56.2000007629395,3.153729,31.814426,4.2,1,1,0,7.1,Masonry,01,Unsealed,0,4,2022-06-12,Moyo,Northern,Moyo,C,ASIYA RIVER,4
+BRG-B430,MURONGO BRIDGE,bridge,Kikagati - Murungo bridge,C354_Link01,C,2.70000004768372,1.065501,30.648222,51.1,1,1,0,7.9,Steel Composite,01,Bituminous,2014,5,2023-10-05,Mbarara,Southern,Mbarara,C,RIVER KAGERA,7
+BRG-B450,BUSUNJU BRIDGE,bridge,Nansana - Busunju,A009_Link02,A,0,0.5604,32.21748,80,1,2,0,7.3,Prestressed Concrete,Road over river,Bituminous,2004,5,2022-12-09,Kampala,Central,Kampala,A,,7
+BRG-B451,MATE BRIDGE,bridge,Busunju - Kiboga - Lwamata,A009_Link03,A,0,0.61326,32.138569,25,1,2,0,7.3,Steel Girder,Road over river,Bituminous,2007,3,2023-04-08,Kampala,Central,Kampala,A,,7
+BRG-B452,NANA BRIDGE,bridge,Busunju - Kiboga - Lwamata,A009_Link03,A,0,0.63059,32.115189,44,1,2,0,7.3,Prestressed Concrete,Road over river,Bituminous,2007,4,2024-05-02,Kampala,Central,Kampala,A,,7
+BRG-B453,WAMIKA 2,bridge,Busunju - Kapeeka,C305_Link01,C,0,0.57813,32.235298,41,1,2,0,7.3,Prestressed Concrete,Road over river,Unsealed,0,2,2024-04-02,Luwero,Central,Luwero,C,,4
+BRG-B454,WAMIKA 1,bridge,Busunju - Kapeeka,C305_Link01,C,0,0.57642,32.23473,25,1,2,0,7.3,Steel Composite,Road over river,Unsealed,0,2,2024-05-02,Luwero,Central,Luwero,C,,7
+BRG-B455,LUGAZI,bridge,Mukono - Lugazi,A001_Link02,A,0,0.36814,32.935871,56,1,2,0,7.3,Masonry,Road over river,Bituminous,1957,1,2023-12-04,Kampala,Central,Kampala,A,,3
+BRG-B456,KEE NAKAWUKA,bridge,Natete - Nakawuka - Kisubi,C178_Link01,C,0,0.27814,32.515999,35,1,2,0,7.3,Timber,Road over river,Unsealed,0,4,2023-05-08,Kampala,Central,Kampala,C,,7
+BRG-B457,SCOUL UNDERPASS,bridge,Lugazi - Njeru,A001_Link03,A,0,0.37591,32.959862,36,1,2,0,7.3,Reinforced Concrete,Road over river,Bituminous,1957,1,2024-02-02,Kampala,Central,Kampala,A,,4
+BRG-B458,MATAGI,bridge,Busunju - Kiboga - Lwamata,A009_Link03,A,0,0.6833,32.054119,29,1,2,0,7.3,Timber,Road over river,Bituminous,2007,3,2024-04-02,Kampala,Central,Kampala,A,,7
+BRG-B459,KABAALE BRIDGE,bridge,Kyankwazi - Ngoma,C315_Link01,C,0,1.12198,31.90852,79,1,2,0,7.3,Steel Truss,Road over river,Unsealed,0,3,2023-03-09,Luwero,Central,Luwero,C,,7
+BRG-B460,Bridge B460,bridge,Mityana - Naama - Myanzi,A005_Link03,A,0,0.42548,31.96471,62,1,2,0,7.3,Reinforced Concrete,Road over river,Bituminous,2020,5,2022-11-09,Mubende,Central,Mubende,A,,7
+BRG-B461,BUKOOLA,bridge,Kyapa - Kasensero,C224_Link01,C,0,0.89951,31.582979,62,1,2,0,7.3,Timber,Road over river,Unsealed,0,2,2024-02-02,Masaka,Central,Masaka,C,,7
+BRG-B462,Katonga Bridge,bridge,Buwama - Lukaya,A002_Link04,A,0,0.03426,32.007439,25.0,1,2,0,11.0,Steel Truss,Road over river,Bituminous,1958,1,2024-05-02,Mpigi,Central,Mpigi,A,,7
+BRG-B540,RWAMUGANGA-02,bridge,Kabwohe - Kitagata - Kabira(Mitooma),C447_Link01,C,29.2430000305176,0.62338,30.287889,4.2,2,1,1,5.5,Reinforced Concrete,01,Unsealed,0,3,2023-11-04,Mbarara,Southern,Mbarara,C,RWAMUGANGA SWAMP,7
+BRG-B541,Murongo Bridge,bridge,Kikagati - Murungo bridge,C354_Link01,C,0,1.0655,30.948231,31.0,1,2,0,4.8,Timber,Road over river,Bituminous,2014,5,2022-09-10,Mbarara,Southern,Mbarara,C,,7
+BRG-B542,MIRAMA BORDER 02,bridge,Kafunzo-Kakitumba,C417_Link03,C,35.7099990844727,1.052326,30.459562,21.7,1,1,0,12.1,Steel Truss,01,Bituminous,2017,4,2023-07-07,Kabale,Southern,Kabale,C,RIVER KAGERA,7
+BRG-B543,KYAMBU BRIDGE,bridge,Ibanda-Kanoni-Kazo,C356_Link01,C,32.0,0.13287,30.531019,31.9,1,2,0,11.4,Masonry,01,Bituminous,2014,5,2024-01-03,Ibanda,Southern,Ibanda,C,KYAMBU RIVER,7
+BRG-B545,NYAMASHEKYE BRIDGE,bridge,Ibanda-Kanoni-Kazo,C356_Link01,C,32.4000015258789,-0.43447,30.460281,34.2,1,2,0,11.4,Prestressed Concrete,01,Bituminous,2014,5,2023-08-06,Ibanda,Southern,Ibanda,C,NYAMASHEKYE,7
+BRG-B545-382,NYAMASHEKYE BRIDGE,bridge,Ibanda-Kanoni-Kazo,C356_Link01,C,0,0.09666,30.680361,18.8,1,1,0,4.5,Steel Composite,Road over river,Bituminous,2014,5,2022-06-12,Ibanda,Southern,Ibanda,C,,7
+BRG-B546,MPANGA BRIDGE,bridge,Ibanda - Muziza - Kamwenge,B150_Link03,B,98.0,0.10074,30.462099,47.3,1,2,0,11.3,Prestressed Concrete,01,Bituminous,2014,5,2023-03-09,Ibanda,Southern,Ibanda,B,MPANGA RIVER,7
+BRG-B547,IBANDA,bridge,Bwizibwera - Ibanda,B150_Link02,B,45.810001373291,-0.17104,30.486179,18.0,1,2,0,8.3,Steel Composite,01,Bituminous,2002,3,2023-04-08,Ibanda,Southern,Ibanda,B,,7
+BRG-B549,RWEMBYO BRIDGE,bridge,Kinyamaseke-Kisinga,C513_Link01,C,12.1999998092651,0.07288,29.897579,10.0,1,1,0,4.4,Steel Girder,01,Unsealed,0,4,2022-12-09,Kasese,Southern,Kasese,C,RWEMBYO,7
+BRG-B550,KAJWENGE BRIDGE,bridge,Kinyamaseke-Kisinga,C513_Link01,C,8.89999961853027,0.06276,29.872471,5.6,1,1,0,4.5,Steel Truss,01,Unsealed,0,2,2023-06-07,Kasese,Southern,Kasese,C,KAJWENGE RIVER,7
+BRG-B551,KYANJUKI,bridge,Kasese - Kilembe mines,C511_Link01,C,0,-0.21362,30.005421,21.5,1,1,0,4.5,Timber,Road over river,Bituminous,2007,4,2023-04-08,Kasese,Southern,Kasese,C,,7
+BRG-B552,DELTA BRIDGE,bridge,Mubuku - Kasese,A005_Link13,A,357.230010986328,0.177148,30.088383,10.2,1,2,0,9.9,Timber,01,Bituminous,2007,4,2023-09-05,Kasese,Southern,Kasese,A,,7
+BRG-B553,OMUKABARE BRIDGE,bridge,Old Kabale Road (Kigata - Kabunyonyi - N,C424_Link01,C,13.0,-1.303756,30.101078,6.2,1,1,0,6.3,Steel Composite,01,Unsealed,0,3,2023-09-05,Kabale,Southern,Kabale,C,,6
+BRG-B554,RUKIRI BRIDGE,bridge,Rubaale - Muhanga - Kabale,A002_Link10,A,344.269989013672,-1.053159,30.182991,14.0,1,2,0,11.0,Prestressed Concrete,01,Bituminous,1985,3,2023-08-06,Kabale,Southern,Kabale,A,RUKIRI RIVER,7
+BRG-B555,Kizinga Bridge,bridge,Rwentobo - Ngoma - Kizinga,C422_Link01,C,0,1.14626,30.30652,15.8,1,2,0,4.5,Prestressed Concrete,Road over river,Unsealed,0,4,2022-09-10,Kabale,Southern,Kabale,C,,3
+BRG-B556,MUNYANGA BRIDGE,bridge,Rwabuteera-Kanyansande spur,C456_Link01,C,3.79999995231628,-0.93741,29.635759,13.6,1,1,0,5.5,Timber,01,Unsealed,0,3,2022-12-09,Kabale,Southern,Kabale,C,MUTANGA RIVER,5
+BRG-B560,Kisinga-Kyarumba-Kibirizi,bridge,Kisinga-Kyarumba-Kibirizi,C513_Link02,C,21.3999996185303,0.11621,29.95256,17.4,1,2,0,8.4,Timber,01,Unsealed,0,2,2024-02-02,Kasese,Southern,Kasese,C,DUNGULUHA,7
+BRG-B561,BIRARA BRIDGE,bridge,Ruwerere - Biraara - Kanungu,C459_Link01,C,12.2600002288818,-0.87154,29.86849,16.1,2,2,1,9.0,Reinforced Concrete,01,Unsealed,0,2,2023-11-04,Kabale,Southern,Kabale,C,BIRARA,7
+BRG-B600,Kidoko - Kachonga,bridge,Kidoko - Kachonga,C838_Link02,C,8.5,0.94691,34.093479,5.6,2,1,1,3.5,Timber,01,Unsealed,0,3,2023-03-09,Tororo,Eastern,Tororo,C,,7
+BRG-B601,Kapir - Ngora,bridge,Kapir - Ngora,C930_Link01,C,19.5,1.41228,33.92091,12.0,2,2,1,14.4,Steel Girder,01,Unsealed,0,3,2024-03-03,Soroti,North Eastern,Soroti,C,,7
+BRG-B602,Mulanda - Nagongera,bridge,Mulanda - Nagongera,C836_Link02,C,19.0,0.71138,34.014622,4.5,1,1,0,4.2,Steel Girder,01,Unsealed,0,2,2023-11-04,Tororo,Eastern,Tororo,C,,3
+BRG-B603,Kaserem-Kapchorwa-Suam,bridge,Kapchorwa-Suam,B304_Link02,B,7.0,1.41423,34.62104,14.0,1,2,0,15.0,Steel Girder,01,Bituminous,2023,5,2023-08-06,Mbale,Eastern,Mbale,B,,7
+BRG-B605,Rubongi - Mulanda,bridge,Rubongi - Mulanda,C844_Link01,C,17.0,0.68541,34.085941,4.0,1,1,0,4.5,Steel Composite,01,Unsealed,0,4,2024-01-03,Tororo,Eastern,Tororo,C,,3
+BRG-B606,Kaserem-Kapchorwa-Suam,bridge,Kapchorwa-Suam,B304_Link02,B,7.0,1.41996,34.59985,11.5,1,2,0,15.0,Steel Composite,01,Bituminous,2023,5,2023-08-06,Mbale,Eastern,Mbale,B,,5
+BRG-B608,Mbale-Bufumbo,bridge,Mbale-Bufumbo,C880_Link01,C,16.0,1.10831,34.240131,7.0,1,1,0,5.8,Reinforced Concrete,01,Unsealed,0,4,2023-03-09,Mbale,Eastern,Mbale,C,,5
+BRG-B609,KAPCHORWA- SUAM,bridge,Kapchorwa-Suam,B304_Link02,B,0,1.41983,34.599781,19.1,1,2,0,15.1,Reinforced Concrete,01,Bituminous,2023,5,2023-12-04,Mbale,Eastern,Mbale,B,,7
+BRG-B610,Kanyango Bridge - Kumi,bridge,Kanyago Bridge - Kumi,B305_Link03,B,0,1.41237,33.920898,17.2,2,2,1,13.5,Steel Girder,01,Bituminous,2021,5,2023-02-07,Soroti,North Eastern,Soroti,B,,7
+BRG-B611,Kaserem-Kapchorwa-Suam,bridge,Kapchorwa-Suam,B304_Link02,B,0,1.26685,34.743561,30.0,1,2,0,14.0,Steel Truss,01,Bituminous,2023,4,2024-02-02,Mbale,Eastern,Mbale,B,,7
+BRG-B612,Kaserem-Kapchorwa-Suam,bridge,Kapchorwa-Suam,B304_Link02,B,0,1.34811,34.633598,35.0,1,2,0,15.5,Prestressed Concrete,01,Bituminous,2023,5,2022-12-09,Mbale,Eastern,Mbale,B,,7
+BRG-B630,Mayanja,bridge,Kyenda-Banda-River Mayanja,C608_Link01,C,0,1.121959,31.908895,59,1,2,0,7.3,Steel Composite,Road over river,Unsealed,0,2,2023-11-04,Hoima,Western,Hoima,C,,7
+BRG-B631,RUTOHA BRIDGE,bridge,Kiziranfumbi - Kabaale,C596_Link01,C,5.01000022888184,1.41141,31.00145,12.7,1,2,0,11.0,Masonry,01,Bituminous,2024,5,2024-04-02,Hoima,Western,Hoima,C,,7
+BRG-B632,KINGFISHER,bridge,Kabwoya - Kituti,C591_Link01,C,41.1080017089844,1.24028,30.757919,20.0,2,2,1,10.0,Reinforced Concrete,01,Unsealed,0,2,2023-11-04,Hoima,Western,Hoima,C,,7
+BRG-B634,MPANGA,bridge,Kamwenge - Kabambiro - Bigusyo - Bihanga,C571_Link01,C,6.0,0.15818,30.4907,32.2,1,2,0,10.0,Steel Composite,01,Unsealed,0,4,2022-07-12,Fort Portal,Western,Fort Portal,C,MPANGA,7
+BRG-B635,WAAKI BRIDGE,bridge,Hoima (Parajwoki) -Biso,C590_Link01,C,35.4599990844727,1.70923,31.376169,27.7,1,2,0,14.1,Steel Truss,01,Bituminous,2022,5,2022-06-12,Hoima,Western,Hoima,C,WAAKI RIVER,7
+BRG-B639,BURYAMBWA,bridge,Nyahuka - Busalu - Butoogo,C545_Link01,C,2.83999991416931,0.68622,30.01375,7.4,1,2,0,5.9,Timber,01,Unsealed,0,2,2023-09-05,Fort Portal,Western,Fort Portal,C,BURYAMBWA,5
+BRG-B720,LAKUPE BRIDGE,bridge,Potika - Lututur,C706_Link02,C,22.1070003509521,3.730398,32.920879,5.2,1,1,0,3.0,Steel Truss,01,Unsealed,0,4,2024-02-02,Kitgum,Northern,Kitgum,C,LAKUPE RIVER,4
+BRG-B731,ODRO BRIDGE,bridge,Biliafe - Otrevu,C762_Link02,C,35.0,3.077631,31.085619,14.8,1,2,0,11.1,Masonry,01,Unsealed,0,2,2024-01-03,Arua,Northern,Arua,C,ODRO RIVER,7
+BRG-B732,ISA BRIDGE,bridge,Biliafe - Otrevu,C762_Link02,C,30.5410003662109,3.126947,31.087509,11.6,1,1,0,4.1,Steel Girder,01,Unsealed,0,4,2022-07-12,Arua,Northern,Arua,C,ISA RIVER,5
+BRG-B733,NAARA,bridge,Biliafe - Otrevu,C762_Link02,C,0,3.14417,31.08559,34,1,2,0,7.3,Masonry,Road over river,Unsealed,0,3,2024-05-02,Arua,Northern,Arua,C,,2
+BRG-B735,GAZI (ALLA),bridge,Rhino camp-Ogoko-Inde,C742_Link01,C,0,2.8897,31.24107,25,1,2,0,7.3,Steel Truss,Road over river,Unsealed,0,4,2024-02-02,Arua,Northern,Arua,C,,5
+BRG-B736,AYUALA BRIDGE,bridge,Paidha-Zombo,C763_Link01,C,10.4980001449585,2.41427,30.959221,8.0,1,1,0,4.3,Timber,01,Unsealed,0,2,2024-02-02,Arua,Northern,Arua,C,AYUDA RIVER,5
+BRG-B737,NYAGAK BRIDGE,bridge,Paidha-Zombo,C763_Link01,C,13.1590003967285,2.43322,30.957674,5.3,2,1,1,4.6,Reinforced Concrete,01,Unsealed,0,3,2023-09-05,Arua,Northern,Arua,C,NYAGAK RIVER,5
+BRG-B738,ORA BRIDGE,bridge,Zombo-Vurra,C763_Link02,C,51.1749992370605,2.566893,30.864159,6.6,1,1,0,4.4,Masonry,01,Unsealed,0,2,2023-08-06,Arua,Northern,Arua,C,ORA RIVER,7
+BRG-B739,ANIZA BRIDGE,bridge,Zombo-Vurra,C763_Link02,C,56.0730018615723,2.589902,30.891249,6.1,1,1,0,4.8,Masonry,01,Unsealed,0,4,2023-09-05,Arua,Northern,Arua,C,ANIZA RIVER,7
+BRG-B740,OMOLO BRIDGE,bridge,Zombo-Vurra,C763_Link02,C,60.4659996032715,2.618398,30.87359,10.1,1,1,0,4.4,Masonry,01,Unsealed,0,3,2023-09-05,Arua,Northern,Arua,C,OMOLO RIVER,6
+BRG-B741,ODRUA RIVER,bridge,Zombo-Vurra,C763_Link02,C,70.9589996337891,2.672634,30.859312,6.8,2,1,1,3.9,Steel Truss,01,Unsealed,0,3,2024-05-02,Arua,Northern,Arua,C,ODRUA RIVER,4
+BRG-B743,ALLA,bridge,Eruba - Logiri,C749_Link01,C,0,2.96701,30.93187,15,1,2,0,7.3,Steel Girder,Road over river,Unsealed,0,2,2024-01-03,Arua,Northern,Arua,C,,4
+BRG-B750,TOCHI 2 BRIDGE,bridge,Anyeke-Minakulu,C665_Link02,C,23.9300003051758,2.408013,32.436497,5.6,1,1,0,3.9,Timber,01,Unsealed,0,2,2024-01-03,Gulu,Northern,Gulu,C,TOCHI 2 RIVER,2
+BRG-B751,Okole Bridge 2,bridge,Aduku-Teboke-Loro,C662_Link01,C,0,2.20374,32.513,21,1,2,0,7.3,Prestressed Concrete,Road over river,Unsealed,0,3,2023-11-04,Lira,Northern,Lira,C,,0
+BRG-B752,TOCHI BRIDGE,bridge,Atapara-Aber-Atura-Kidilani,C693_Link01,C,23.0869998931885,2.22018,32.339561,10.4,3,1,2,5.3,Steel Composite,01,Unsealed,0,4,2023-06-07,Lira,Northern,Lira,C,TOCHI RIVER,3
+BRG-B752-427,TOCHI BRIDGE,bridge,Atapara-Aber-Atura-Kidilani,C693_Link01,C,23.0869998931885,2.22018,32.339561,10.0,1,1,0,4.4,Prestressed Concrete,01,Unsealed,0,4,2023-02-07,Lira,Northern,Lira,C,TOCHI RIVER,3
+BRG-B760,ITIRIKWA,bridge,Adjumani - Sinyanya Ferry landing,C726_Link01,C,22.5599994659424,3.26724,31.65592,2.0,4,1,3,4.3,Steel Truss,01,Unsealed,0,3,2023-01-08,Moyo,Northern,Moyo,C,ITIRIKWA,3
+BRG-B761,ALOI BRIDGE,bridge,Lira - Akia,C650_Link01,C,0,2.27357,33.171299,3.9,1,1,0,4.9,Steel Composite,01,Bituminous,2019,5,2024-02-02,Lira,Northern,Lira,C,ALOI,4
+BRG-B762,NAMUKORA,bridge,Naamokora - Lokapel,C678_Link01,C,13.8590002059937,3.34679,33.350052,6.8,2,1,1,4.7,Reinforced Concrete,01,Unsealed,0,2,2023-09-05,Kitgum,Northern,Kitgum,C,PAGER,6
+BRG-B763,ENYAU,bridge,Arua - Girigiri - Ovisoni,C751_Link01,C,0.916999995708466,3.01494,30.905081,15.0,1,2,0,11.3,Steel Composite,01,Unsealed,0,3,2023-06-07,Arua,Northern,Arua,C,ENYAU,7
+BRG-B764,Amuru Junction - Awee,bridge,Amuru Junction - Awee,C686_Link02,C,55.7000007629395,2.85103,31.746481,4.0,1,1,0,7.0,Masonry,01,Unsealed,0,3,2023-09-05,Gulu,Northern,Gulu,C,,5
+BRG-B765,Amuru Junction - Awee,bridge,Amuru Junction - Awee,C686_Link02,C,55.7000007629395,2.85084,31.730659,4.0,1,1,0,7.0,Steel Girder,01,Unsealed,0,4,2023-07-07,Gulu,Northern,Gulu,C,,5
+BRG-B766,Amuru Junction - Awee,bridge,Amuru Junction - Awee,C686_Link02,C,57.6500015258789,2.86182,31.714809,3.7,1,1,0,7.0,Steel Girder,01,Unsealed,0,3,2023-02-07,Gulu,Northern,Gulu,C,,5
+BRG-B861,ROAD OVER SUGARCANE PLANTATION,bridge,Kakira junction - Iganga,A001_Link06,A,86.0,0.49291,33.298061,5.3,1,2,0,13.6,Reinforced Concrete,09,Bituminous,1960,2,2024-03-03,Jinja,Eastern,Jinja,A,,6
+BRG-B862,ROAD OVER SUGARCANE PLANTATION,bridge,Kakira junction - Iganga,A001_Link06,A,86.0,0.50398,33.319271,5.4,1,2,0,13.2,Masonry,09,Bituminous,1960,2,2024-01-03,Jinja,Eastern,Jinja,A,,6
+BRG-B863,MALAWA,bridge,Namutere - Busia,B308_Link01,B,16.5,0.58559,34.052441,20.3,2,2,1,11.0,Reinforced Concrete,01,Bituminous,1970,3,2024-05-02,Tororo,Eastern,Tororo,B,MALAWA,7
+BRG-B864,KIGULI BRIDGE,bridge,Namagumba - Budadiri,C862_Link01,C,0,1.15105,34.370029,18.2,1,2,0,7.7,Steel Truss,01,Unsealed,0,4,2024-04-02,Mbale,Eastern,Mbale,C,SIRONKO,7
+BRG-B865,LERESI,bridge,Nabumali junction-Busolwe,C833_Link01,C,34.5,0.92837,33.99033,26.0,1,2,0,9.5,Prestressed Concrete,01,Unsealed,0,2,2024-04-02,Tororo,Eastern,Tororo,C,MANAFA,7
+BRG-B866,MANAFA,bridge,Tororo - Magodes - Nabumali,A007_Link02,A,4.0,0.93705,34.157761,26.4,1,2,0,10.6,Reinforced Concrete,01,Bituminous,1969,2,2023-12-04,Tororo,Eastern,Tororo,A,MAGODES,7
+BRG-B867,BUWANGANI,bridge,Bubulo-Bududa Circle road,C867_Link02,C,28.3999996185303,1.00421,34.334431,6.4,1,2,0,7.8,Steel Girder,01,Unsealed,0,3,2023-03-09,Mbale,Eastern,Mbale,C,TSUTSU,4
+BRG-B868,DOPETH,bridge,Kotido - Abim,B302_Link01,B,0,2.99895,34.029419,10.1,1,1,0,4.4,Masonry,Road over river,Unsealed,0,2,2024-04-02,Kotido,North Eastern,Kotido,B,,7
+BRG-B869,AMETA BRIDGE,bridge,Abim - Kilak,B302_Link02,B,83.8209991455078,2.72251,33.547291,2.2,4,1,3,5.9,Steel Truss,01,Unsealed,0,3,2023-02-07,Kitgum,Northern,Kitgum,B,AGAGO RIVER,4
+BRG-B870,WASITA,bridge,Namagumba - Budadiri,C862_Link01,C,18.3999996185303,1.16673,34.312031,15.0,1,2,0,4.6,Steel Composite,01,Unsealed,0,2,2023-12-04,Mbale,Eastern,Mbale,C,WASITA,7
+BRG-B871,ROAD OVER RIVER,bridge,Kapchorwa-Suam,B304_Link02,B,7.0,1.41275,34.559341,19.5,1,2,0,17.0,Masonry,01,Bituminous,2023,4,2022-12-09,Mbale,Eastern,Mbale,B,,4
+BRG-B872,SITI,bridge,Kapchorwa-Suam,B304_Link02,B,7.0,1.33643,34.662239,17.0,1,2,0,12.0,Masonry,01,Bituminous,2023,4,2023-06-07,Mbale,Eastern,Mbale,B,SITI,7
+BRG-B873,GIRIK,bridge,Chepsikunya -Girik,C889_Link01,C,26.0,1.44837,34.718491,15.0,2,2,1,7.2,Timber,01,Unsealed,0,4,2023-05-08,Mbale,Eastern,Mbale,C,,7
+BRG-B874,BUKWO,bridge,Kapchorwa-Suam,B304_Link02,B,0,1.28845,34.740051,24.0,1,2,0,14.0,Steel Truss,01,Bituminous,2023,5,2024-02-02,Mbale,Eastern,Mbale,B,,7
+BRG-B877,SUAM BRIDGE,bridge,Kapchorwa-Suam,B304_Link02,B,0,1.21605,34.733608,6.8,2,1,1,4.7,Steel Girder,Road over river,Bituminous,2023,5,2024-01-03,Mbale,Eastern,Mbale,B,,0
+BRG-B878,AMUDAT - LOROO,bridge,Lokitanyara-Loro-Amudat,C963_Link02,C,28.5,1.95968,34.942768,12.3,3,2,2,5.0,Steel Composite,01,Unsealed,0,2,2024-04-02,Moroto,North Eastern,Moroto,C,,7
+BRG-B880,KOTIDO-KAILONG,bridge,Kotido - Abim,B302_Link01,B,5.30000019073486,2.99894,34.029388,21.0,1,1,0,5.0,Reinforced Concrete,01,Unsealed,0,3,2023-01-08,Kotido,North Eastern,Kotido,B,,6
+BRG-B881,MUSUKULE,bridge,Rubongi - Mulanda,C844_Link01,C,16.0,0.69045,34.121719,4.0,1,1,0,4.5,Masonry,01,Unsealed,0,3,2023-09-05,Tororo,Eastern,Tororo,C,OSYA,3
+BRG-B882,ADEYO,bridge,Mulanda - Nagongera,C836_Link02,C,26.0,0.71079,34.01453,4.0,1,1,0,4.2,Timber,01,Unsealed,0,3,2023-11-04,Tororo,Eastern,Tororo,C,,3
+BRG-B883,OKAME,bridge,Tororo(Malaba junction) - Busia,B306_Link01,B,23.0,0.58299,34.138279,10.5,2,1,1,5.2,Steel Girder,01,Unsealed,0,2,2023-12-04,Tororo,Eastern,Tororo,B,OKAME,4
+BRG-B884,AKATENYANI,bridge,Tororo(Malaba junction) - Busia,B306_Link01,B,23.0,0.582,34.13792,6.0,1,1,0,5.0,Timber,01,Unsealed,0,3,2022-12-09,Tororo,Eastern,Tororo,B,MALABA,5
+BRG-B885,ANGOLO,bridge,Tororo(Malaba junction) - Busia,B306_Link01,B,24.0,0.5204,34.116741,4.0,1,1,0,5.0,Masonry,01,Unsealed,0,3,2023-06-07,Tororo,Eastern,Tororo,B,MALABA,4
+BRG-B886,KWAKITEZA,bridge,Luwero-Kiwoko-Butalangu,C306_Link01,C,28.5,0.58573,34.13932,10.5,1,1,0,5.1,Timber,01,Unsealed,0,3,2023-02-07,Luwero,Central,Luwero,C,KWAKITEZA,4
+BRG-B887,NATARACHA BRIDGE,bridge,Kapelimoru-Loyoro - Apaan,C992_Link01,C,0,3.31555,34.249451,53,1,2,0,7.3,Reinforced Concrete,Road over river,Unsealed,0,2,2023-06-07,Kotido,North Eastern,Kotido,C,,7
+BRG-BM20-1,Namboole B1,bridge,Kampala NorthernBypass,M20,M,0,0.3484,32.6537,56,1,2,0,7.3,Masonry,Road over river,Bituminous,2008,4,2024-02-02,Kampala,Central,Kampala,M,,7
+BRG-BM20-10,Old Kira road Over Bridge,bridge,Kampala NorthernBypass,M20,M,0,0.3692,32.6247,78,1,2,0,7.3,Timber,Road over river,Bituminous,2008,3,2023-01-08,Kampala,Central,Kampala,M,,7
+BRG-BM20-11,Ntinda foot bridge,bridge,Kampala NorthernBypass,M20,M,0,0.3658,32.6108,34,1,2,0,7.3,Steel Girder,Road over river,Bituminous,2008,4,2022-09-10,Kampala,Central,Kampala,M,,7
+BRG-BM20-12,Ntinda B1,bridge,Kampala NorthernBypass,M20,M,0,0.3651,32.6045,24,1,2,0,7.3,Steel Girder,Road over river,Bituminous,2008,5,2022-10-10,Kampala,Central,Kampala,M,,7
+BRG-BM20-13,Ntinda B2,bridge,Kampala NorthernBypass,M20,M,0,0.3655,32.6051,26,1,2,0,7.3,Prestressed Concrete,Road over river,Bituminous,2008,5,2023-01-08,Kampala,Central,Kampala,M,,7
+BRG-BM20-14,Bukoto-Kisasi over Bridge,bridge,Kampala NorthernBypass,M20,M,0,0.3587,32.5985,65,1,2,0,7.3,Reinforced Concrete,Road over river,Bituminous,2008,3,2023-07-07,Kampala,Central,Kampala,M,,7
+BRG-BM20-15,Bukoto-Kyebando B1 RHS,bridge,Kampala NorthernBypass,M20,M,0,0.3525,32.5893,50,1,2,0,7.3,Timber,Road over river,Bituminous,2008,3,2023-10-05,Kampala,Central,Kampala,M,,7
+BRG-BM20-16,Bukoto-Kyebando B1 LHS,bridge,Kampala NorthernBypass,M20,M,0,0.3526,32.5892,79,1,2,0,7.3,Steel Girder,Road over river,Bituminous,2008,3,2024-03-03,Kampala,Central,Kampala,M,,7
+BRG-BM20-17,Bukoto-Kyebando B2 LHS,bridge,Kampala NorthernBypass,M20,M,0,0.3521,32.5889,54,1,2,0,7.3,Reinforced Concrete,Road over river,Bituminous,2008,4,2022-11-09,Kampala,Central,Kampala,M,,7
+BRG-BM20-18,Bukoto-Kyebando B2 RHS,bridge,Kampala NorthernBypass,M20,M,0,0.3521,32.5889,55,1,2,0,7.3,Steel Truss,Road over river,Bituminous,2008,5,2023-03-09,Kampala,Central,Kampala,M,,7
+BRG-BM20-19,Kyebando foot bridge,bridge,Kampala NorthernBypass,M20,M,0,0.3497,32.5866,21,1,2,0,7.3,Prestressed Concrete,Road over river,Bituminous,2008,5,2022-09-10,Kampala,Central,Kampala,M,,7
+BRG-BM20-2,Namboole B2,bridge,Kampala NorthernBypass,M20,M,0,0.3488,32.6543,41,1,2,0,7.3,Timber,Road over river,Bituminous,2008,5,2023-01-08,Kampala,Central,Kampala,M,,7
+BRG-BM20-20,Kyebando over bridge,bridge,Kampala NorthernBypass,M20,M,0,0.3505,32.5795,54,1,2,0,7.3,Steel Truss,Road over river,Bituminous,2008,3,2024-05-02,Kampala,Central,Kampala,M,,7
+BRG-BM20-21,Kalerwe B1 RHS,bridge,Kampala NorthernBypass,M20,M,0,0.3526,32.5723,44,1,2,0,7.3,Steel Truss,Road over river,Bituminous,2008,4,2023-05-08,Kampala,Central,Kampala,M,,7
+BRG-BM20-22,Kalerwe B2 RHS,bridge,Kampala NorthernBypass,M20,M,0,0.3526,32.5715,80,1,2,0,7.3,Reinforced Concrete,Road over river,Bituminous,2008,3,2023-07-07,Kampala,Central,Kampala,M,,7
+BRG-BM20-23,Kalerwe B2 LHS,bridge,Kampala NorthernBypass,M20,M,0,0.3526,32.5715,64,1,2,0,7.3,Steel Truss,Road over river,Bituminous,2008,5,2023-05-08,Kampala,Central,Kampala,M,,7
+BRG-BM20-24,Kalerwe B1 LHS,bridge,Kampala NorthernBypass,M20,M,0,0.3526,32.5723,59,1,2,0,7.3,Reinforced Concrete,Road over river,Bituminous,2008,5,2022-09-10,Kampala,Central,Kampala,M,,7
+BRG-BM20-25,Kalerwe Foot bridge,bridge,Kampala NorthernBypass,M20,M,0,0.3526,32.5691,47,1,2,0,7.3,Prestressed Concrete,Road over river,Bituminous,2008,4,2023-06-07,Kampala,Central,Kampala,M,,7
+BRG-BM20-27,Bwayise B2 RHS,bridge,Kampala NorthernBypass,M20,M,0,0.3493,32.5626,38,1,2,0,7.3,Steel Girder,Road over river,Bituminous,2008,4,2023-05-08,Kampala,Central,Kampala,M,,7
+BRG-BM20-28,Bwayise B1 LHS,bridge,Kampala NorthernBypass,M20,M,0,0.3493,32.5626,24,1,2,0,7.3,Masonry,Road over river,Bituminous,2008,3,2023-08-06,Kampala,Central,Kampala,M,,7
+BRG-BM20-29,Bwayise B2 LHS,bridge,Kampala NorthernBypass,M20,M,0,0.3493,32.5626,55,1,2,0,7.3,Reinforced Concrete,Road over river,Bituminous,2008,5,2022-08-11,Kampala,Central,Kampala,M,,7
+BRG-BM20-3,Namugongo OverBridge,bridge,Kampala NorthernBypass,M20,M,0,0.3636,32.6479,45,1,2,0,7.3,Reinforced Concrete,Road over river,Bituminous,2008,5,2024-01-03,Kampala,Central,Kampala,M,,7
+BRG-BM20-30,Kawaala Bridge,bridge,Kampala NorthernBypass,M20,M,0,0.3471,32.5534,67,1,2,0,7.3,Prestressed Concrete,Road over river,Bituminous,2008,4,2023-10-05,Kampala,Central,Kampala,M,,7
+BRG-BM20-31,Namungoona B2,bridge,Kampala NorthernBypass,M20,M,0,0.3452,32.5428,46,1,2,0,7.3,Reinforced Concrete,Road over river,Bituminous,2008,4,2024-05-02,Kampala,Central,Kampala,M,,7
+BRG-BM20-32,Namungoona B22,bridge,Kampala NorthernBypass,M20,M,0,0.3452,32.5428,70,1,2,0,7.3,Timber,Road over river,Bituminous,2008,3,2024-04-02,Kampala,Central,Kampala,M,,7
+BRG-BM20-33,Namungoona B1,bridge,Kampala NorthernBypass,M20,M,0,0.345,32.5422,30,1,2,0,7.3,Steel Girder,Road over river,Bituminous,2008,5,2023-01-08,Kampala,Central,Kampala,M,,7
+BRG-BM20-34,Namungoona B12,bridge,Kampala NorthernBypass,M20,M,0,0.345,32.5422,75,1,2,0,7.3,Prestressed Concrete,Road over river,Bituminous,2008,5,2023-11-04,Kampala,Central,Kampala,M,,7
+BRG-BM20-35,Sentema B2,bridge,Kampala NorthernBypass,M20,M,0,0.3322,32.5274,30,1,2,0,7.3,Timber,Road over river,Bituminous,2008,4,2023-01-08,Kampala,Central,Kampala,M,,7
+BRG-BM20-36,Sentema B22,bridge,Kampala NorthernBypass,M20,M,0,0.3322,32.5274,35,1,2,0,7.3,Reinforced Concrete,Road over river,Bituminous,2008,5,2024-02-02,Kampala,Central,Kampala,M,,7
+BRG-BM20-37,Sentema B1,bridge,Kampala NorthernBypass,M20,M,0,0.3316,32.527,58,1,2,0,7.3,Steel Truss,Road over river,Bituminous,2008,3,2024-01-03,Kampala,Central,Kampala,M,,7
+BRG-BM20-38,Sentema B12,bridge,Kampala NorthernBypass,M20,M,0,0.3316,32.527,42,1,2,0,7.3,Prestressed Concrete,Road over river,Bituminous,2008,3,2023-11-04,Kampala,Central,Kampala,M,,7
+BRG-BM20-4,Nalya-Kamuli Flyover Foot bridge,bridge,Kampala NorthernBypass,M20,M,0,0.3649,32.6419,36,1,2,0,7.3,Masonry,Road over river,Bituminous,2008,5,2022-08-11,Kampala,Central,Kampala,M,,7
+BRG-BM20-5,Nalya B1 LHS,bridge,Kampala NorthernBypass,M20,M,0,0.3631,32.6336,19,1,2,0,7.3,Steel Composite,Road over river,Bituminous,2008,4,2024-03-03,Kampala,Central,Kampala,M,,7
+BRG-BM20-6,Nalya B2 LHS,bridge,Kampala NorthernBypass,M20,M,0,0.3636,32.6364,58,1,2,0,7.3,Reinforced Concrete,Road over river,Bituminous,2008,4,2022-11-09,Kampala,Central,Kampala,M,,7
+BRG-BM20-7,Nalya B1 RHS,bridge,Kampala NorthernBypass,M20,M,0,0.3636,32.6333,67,1,2,0,7.3,Prestressed Concrete,Road over river,Bituminous,2008,4,2023-09-05,Kampala,Central,Kampala,M,,7
+BRG-BM20-8,Nalya B2 RHS,bridge,Kampala NorthernBypass,M20,M,0,0.363,32.6335,25,1,2,0,7.3,Prestressed Concrete,Road over river,Bituminous,2008,5,2023-05-08,Kampala,Central,Kampala,M,,7
+BRG-BM20-9,Kiwatule under-pass,bridge,Kampala NorthernBypass,M20,M,0,0.3693,32.6277,50,1,2,0,7.3,Timber,Road over river,Bituminous,2008,4,2022-12-09,Kampala,Central,Kampala,M,,7
+BRG-BM3-01,Busega,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,0.3146,32.5146,49,1,2,0,7.3,Reinforced Concrete,Road over river,Bituminous,2018,5,2024-01-03,Kampala,Central,Kampala,M,,6
+BRG-BM3-02,Busega,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,0.3146,32.5146,48,1,2,0,7.3,Steel Truss,Road over river,Bituminous,2018,4,2023-05-08,Kampala,Central,Kampala,M,,6
+BRG-BM3-03,KEE B1,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,0.3033,32.5126,53,1,2,0,7.3,Timber,Road over river,Bituminous,2018,5,2023-02-07,Kampala,Central,Kampala,M,,6
+BRG-BM3-04,KEE B12,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,0.3033,32.5126,75,1,2,0,7.3,Prestressed Concrete,Road over river,Bituminous,2018,5,2022-10-10,Kampala,Central,Kampala,M,,6
+BRG-BM3-05,KEE B2,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,0.2999,32.5126,17,1,2,0,7.3,Steel Composite,Road over river,Bituminous,2018,5,2023-11-04,Kampala,Central,Kampala,M,,6
+BRG-BM3-06,KEE B22,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,0.2999,32.5126,42,1,2,0,7.3,Masonry,Road over river,Bituminous,2018,5,2022-07-12,Kampala,Central,Kampala,M,,6
+BRG-BM3-07,KEE B3 overpass,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,0.2817,32.5131,67,1,2,0,7.3,Steel Girder,Road over river,Bituminous,2018,5,2023-05-08,Kampala,Central,Kampala,M,,6
+BRG-BM3-08,KEE B4 overpass,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,0.2781,32.5157,76,1,2,0,7.3,Steel Girder,Road over river,Bituminous,2018,4,2022-12-09,Kampala,Central,Kampala,M,,6
+BRG-BM3-09,KEE B5,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,0.271,32.52,31,1,2,0,7.3,Steel Girder,Road over river,Bituminous,2018,5,2023-08-06,Kampala,Central,Kampala,M,,6
+BRG-BM3-10,KEE B6 underpass,bridge,Kampala - Entebbe Expressway,M3_Link01,M,0,0.2664,32.5208,21,1,2,0,7.3,Timber,Road over river,Bituminous,2018,5,2023-03-09,Kampala,Central,Kampala,M,,6
+BRG-BMPP,Paraa Bridge,bridge,Park junction - Paraa,C626_Link01,C,0,2.2849,31.5648,32,1,2,0,7.3,Reinforced Concrete,Road over river,Bituminous,2022,5,2023-06-07,Masindi,Western,Masindi,C,,7
+BRG-BMPP-507,Paraa Bridge 2,bridge,Paraa - Packwach,C626_Link02,C,0,2.2849,31.5648,75,1,2,0,7.3,Steel Truss,Road over river,Bituminous,2022,5,2022-06-12,Masindi,Western,Masindi,C,,7
+BRG-BMPP-508,Sambia Bridge,bridge,Paraa - Packwach,C626_Link02,C,0,2.2849,31.5648,52,1,2,0,7.3,Masonry,Road over river,Bituminous,2022,5,2023-06-07,Masindi,Western,Masindi,C,,7
+BRG-BMPP-509,B3(K-P5),bridge,Paraa - Packwach,C626_Link02,C,0,2.2849,31.5648,68,1,2,0,7.3,Steel Girder,Road over river,Bituminous,2022,5,2022-11-09,Masindi,Western,Masindi,C,,7
+BRG-BMPP-510,B2(K-P5),bridge,Paraa - Packwach,C626_Link02,C,0,2.2849,31.5648,51,1,2,0,7.3,Masonry,Road over river,Bituminous,2022,5,2024-05-02,Masindi,Western,Masindi,C,,7
+BRG-BMPP-511,B1(K-P5),bridge,Paraa - Packwach,C626_Link02,C,0,2.2849,31.5648,28,1,2,0,7.3,Prestressed Concrete,Road over river,Bituminous,2022,4,2023-07-07,Masindi,Western,Masindi,C,,7
+BRG-B027,NABUYONGA BRIDGE,bridge,Mbale - Namunsi - Kumi,A007_Link04,A,55.68600082397461,1.08308,34.17915,73,3,2,2,7.3,Steel Truss,Road over river,Bituminous,,3,2024-04-02,Mbale,Eastern,Mbale,A,NABUYONGA RIVER,
+BRG-B059,Ladot,bridge,Kanyago Bridge - Kumi,B305_Link03,B,0.22499999403953552,1.26756,33.872631,49,1,1,0,6.0,Prestressed Concrete,Road over river,Unsealed,1961,1,2023-12-04,Soroti,North Eastern,Soroti,B,Ladot,
+BRG-B130,Surumu,bridge,Atiak - Moyo,B250_Link01,B,32.8650016784668,3.390005,31.79059,74,1,1,0,6.0,Steel Composite,Road over river,Unsealed,,4,2023-05-08,Moyo,Northern,Moyo,B,River Surumu,
+BRG-B357,KAPISA BRIDGE,bridge,Kidoko - Kachonga,C838_Link02,C,12.300000190734863,0.94015,34.065819,71,1,1,0,6.0,Timber,Road over river,Unsealed,,4,2022-06-12,Tororo,Eastern,Tororo,C,,
+BRG-B372,Methi,bridge,Buseta - Bugiri,C891_Link01,C,7.550000190734863,0.91622,34.35997,28,1,1,0,6.0,Timber,Road over river,Unsealed,,4,2024-04-02,Mbale,Eastern,Mbale,C,METHI-MERU,
+BRG-B378,ATOOT,bridge,Ngora - Mukongoro,C930_Link02,C,23.06800079345703,1.3564,33.795029,42,1,1,0,6.0,Steel Composite,Road over river,Unsealed,,3,2023-05-08,Soroti,North Eastern,Soroti,C,ATOOT,
+BRG-B379,OPOT,bridge,Amuria (Kuju) - Obalang,C941_Link01,C,33.05799865722656,2.14199,33.600731,19,1,1,0,6.0,Timber,Road over river,Unsealed,,4,2022-10-10,Soroti,North Eastern,Soroti,C,OPOT,
+BRG-B387,KIIRA,bridge,Njeru - Jinja,A001_Link04,A,0.8980000019073486,0.444882,33.19046,70,6,2,5,7.3,Steel Composite,Road over river,Bituminous,,3,2023-04-08,Kampala,Central,Kampala,A,NILE,
+BRG-B388,Sezibwa Bridge,bridge,Kalagi - Bukoloto - kayunga,B101_Link02,B,43.26599884033203,-0.67486,32.878578,18,1,1,0,6.0,Reinforced Concrete,Road over river,Bituminous,1953,1,2023-12-04,Kampala,Central,Kampala,B,SEZIBWA,
+BRG-B389,NALUBAALE,bridge,Njeru - Jinja,A001_Link04,A,0.33799999952316284,0.443125,33.18602,51,1,2,15,7.3,Prestressed Concrete,Road over river,Bituminous,,2,2023-12-04,Kampala,Central,Kampala,A,NILE,
+BRG-B393,Kiwatule flyover,bridge,Kampala NorthernBypass,M20,B,5.0,-0.36942,32.627769,39,1,4,0,14.6,Prestressed Concrete,Road over road,Bituminous,,4,2023-07-07,Kampala,Central,Kampala,B,,
+BRG-B394,Najeera flyover,bridge,Kampala NorthernBypass,M20,B,0,-0.36932,32.624741,38,4,2,3,7.3,Timber,Road over road,Bituminous,,3,2024-04-02,Kampala,Central,Kampala,B,,
+BRG-B395,Kisaasi flyover,bridge,Kampala NorthernBypass,M20,B,0,0.35879,32.598579,56,2,2,1,7.3,Masonry,Road over road,Bituminous,,3,2023-07-07,Kampala,Central,Kampala,B,,
+BRG-B396,Kyebando flyover,bridge,Kampala NorthernBypass,M20,B,0,-0.35054,32.579498,31,2,2,1,7.3,Masonry,Road over road,Bituminous,,2,2023-08-06,Kampala,Central,Kampala,B,,
+BRG-B397,Pedestrian bridge at Kalerwe,bridge,Kampala NorthernBypass,M20,B,0,-0.35261,32.569141,62,4,2,3,7.3,Steel Girder,Pedestrian over road,Bituminous,,2,2024-02-02,Kampala,Central,Kampala,B,,
+BRG-B399,Bwaise flyover,bridge,Kampala NorthernBypass,M20,B,13.399999618530273,-0.34949,32.56337,51,2,4,1,14.6,Prestressed Concrete,Road over road,Bituminous,,4,2023-11-04,Kampala,Central,Kampala,B,,
+BRG-B401,Bwaise flyover,bridge,Kampala NorthernBypass,M20,B,13.399999618530273,-0.3494,32.562641,15,2,4,1,14.6,Steel Truss,Road over road,Bituminous,,4,2023-01-08,Kampala,Central,Kampala,B,,
+BRG-B402,Kawaala flyover,bridge,Kampala NorthernBypass,M20,B,0,-0.34715,32.553429,60,2,2,1,7.3,Timber,Road over road,Bituminous,,3,2023-11-04,Kampala,Central,Kampala,B,,
+BRG-B408,KUFU,bridge,Munamba-Magale - Nangya,C870_Link03,C,10.001999855041504,0.92318,34.333229,52,1,1,0,6.0,Reinforced Concrete,Road over river,Unsealed,,3,2023-03-09,Tororo,Eastern,Tororo,C,KUFU,
+BRG-B875,NANGIPA,bridge,Kidoko - Busiu - Isikhoye,C837_Link02,C,18.218000411987305,0.90304,34.12167,31,1,1,0,6.0,Prestressed Concrete,Road over river,Unsealed,,4,2023-09-05,Tororo,Eastern,Tororo,C,NANGIPA,
+BRG-B876,LUKHA,bridge,Kidoko - Busiu - Isikhoye,C837_Link02,C,18.218000411987305,0.89378,34.119091,19,1,1,0,6.0,Timber,Road over river,Unsealed,,3,2023-11-04,Tororo,Eastern,Tororo,C,,
+BRG-B879,LONENE,bridge,Matany - Lokopo - Turtuko,C968_Link01,C,29.82699966430664,2.48913,34.22353,65,2,1,1,6.0,Reinforced Concrete,Road over river,Unsealed,,3,2022-12-09,Moroto,North Eastern,Moroto,C,ANGOLORO,
+CUL-C002,Culvert C002,culvert,Namayumba - Kitalya Prison - Kamuli,C187_Link01,C,15.7299995422363,0.40734,32.25177,2.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2023-01-08,Kampala,Central,Kampala,C,,3
+CUL-C003,Culvert C003,culvert,Namayumba - Kitalya Prison - Kamuli,C187_Link01,C,15.75,0.40727,32.25164,2.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2022-08-11,Kampala,Central,Kampala,C,,7
+CUL-C004,Culvert C004,culvert,Kayunga-Bale-Galiraya-Lake Kyoga,C300_Link01,C,10.1999998092651,0.78712,32.88607,1.6,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2024-02-02,Kampala,Central,Kampala,C,,7
+CUL-C005,Culvert C005,culvert,Namataba - Kyampisi,C041_Link01,C,6.0,0.63174,32.935169,1.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2023-12-04,Kampala,Central,Kampala,C,,7
+CUL-C006,Culvert C006,culvert,Namyumba-Kakonda-Wabikokoma-Semuto,C186_Link01,C,2.70000004768372,0.54216,32.279251,2.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-09-05,Luwero,Central,Luwero,C,,6
+CUL-C007,Culvert C007,culvert,Namyumba-Kakonda-Wabikokoma-Semuto,C186_Link01,C,2.79999995231628,0.54284,32.280201,2.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2024-05-02,Luwero,Central,Luwero,C,,6
+CUL-C008,Culvert C008,culvert,Namyumba-Kakonda-Wabikokoma-Semuto,C186_Link01,C,2.79999995231628,0.54299,32.28051,2.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-07-07,Luwero,Central,Luwero,C,,6
+CUL-C009,Culvert C009,culvert,Namyumba-Kakonda-Wabikokoma-Semuto,C186_Link01,C,2.90000009536743,0.54323,32.280849,2.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-06-07,Luwero,Central,Luwero,C,,6
+CUL-C010,Culvert C010,culvert,Namyumba-Kakonda-Wabikokoma-Semuto,C186_Link01,C,3.20000004768372,0.543501,32.281078,2.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2023-05-08,Luwero,Central,Luwero,C,,7
+CUL-C011,Culvert C011,culvert,Katuugo-Kinyogogga,C317_Link01,C,12.0,1.13941,32.373932,2.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-08-06,Luwero,Central,Luwero,C,,7
+CUL-C012,Culvert C012,culvert,Mityana-Misigi-Kanoni,C262_Link01,C,24.1000003814697,0.24945,31.920731,1.2,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2024-01-03,Mpigi,Central,Mpigi,C,,5
+CUL-C013,Culvert C013,culvert,Mityana-Misigi-Kanoni,C262_Link01,C,24.2000007629395,0.24921,31.919821,1.2,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2023-10-05,Mpigi,Central,Mpigi,C,,6
+CUL-C014,Culvert C014,culvert,Mityana-Misigi-Kanoni,C262_Link01,C,24.2999992370605,0.24876,31.918051,1.2,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2023-04-08,Mpigi,Central,Mpigi,C,,6
+CUL-C015,Culvert C015,culvert,Mukono - Lugazi,A001_Link02,A,0,0.3888,32.84856,8.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1957,2,2023-08-06,Kampala,Central,Kampala,A,,8
+CUL-C016,Culvert C016,culvert,Busega - Bujuuko,A005_Link01,A,12.0,0.32844,32.42355,2.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2012,5,2023-04-08,Mpigi,Central,Mpigi,A,,9
+CUL-C017,Culvert C017,culvert,Busega - Bujuuko,A005_Link01,A,12.1000003814697,0.32857,32.422722,2.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2012,5,2022-08-11,Mpigi,Central,Mpigi,A,,8
+CUL-C018,Culvert C018,culvert,Busega - Bujuuko,A005_Link01,A,0.5,0.31346,32.51329,2.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2012,5,2023-02-07,Mpigi,Central,Mpigi,A,,9
+CUL-C019,Culvert C019,culvert,Nkonge - Kibula - Magege - Kasambya,B103_Link03,B,0,0.22278,31.174061,1.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2022-08-11,Mubende,Central,Mubende,B,,7
+CUL-C020,Culvert C020,culvert,Nkonge - Kibula - Magege - Kasambya,B103_Link03,B,0,0.22258,31.173771,1.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2022-11-09,Mubende,Central,Mubende,B,,7
+CUL-C021,Culvert C021,culvert,Nkonge - Kibula - Magege - Kasambya,B103_Link03,B,0,0.22224,31.17342,1.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2023-12-04,Mubende,Central,Mubende,B,,7
+CUL-C150,Culvert C150,culvert,Kafunzo-Kikagati,C419_Link01,C,19.6110000610352,-0.98262,30.50485,1.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2023-09-05,Mbarara,Southern,Mbarara,C,,6
+CUL-C151,Culvert C151,culvert,Buhindagye - Mahyoro,C450_Link03,C,35.7000007629395,0.11635,30.23337,2.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2024-02-02,Ibanda,Southern,Ibanda,C,,7
+CUL-C152,Culvert C152,culvert,Kabira - Rukungiri,C447_Link02,C,51.9799995422363,-0.67466,30.142229,2.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2023-04-08,Kabale,Southern,Kabale,C,,8
+CUL-C153,Culvert C153,culvert,Bwera - Kithoma,C520_Link01,C,5.0,-0.73138,30.74124,3.6,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2023-11-04,Kasese,Southern,Kasese,C,,7
+CUL-C154,Culvert C154,culvert,Kikagati-Nsongezi,C419_Link02,C,13.0,-0.99574,30.731609,3.6,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2014,5,2022-07-12,Mbarara,Southern,Mbarara,C,,7
+CUL-C155,Culvert C155,culvert,Ruti - Mwizi - Kabuyanda - Kikagati,C364_Link01,C,63.6300010681152,-0.92783,30.63043,1.4,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2022-06-12,Mbarara,Southern,Mbarara,C,,7
+CUL-C158,Culvert C158,culvert,Kabujogera - Mahyoro Junction,C373_Link02,C,20.6100006103516,-0.09609,30.357,2.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2024-04-02,Ibanda,Southern,Ibanda,C,,6
+CUL-C159,Culvert C159,culvert,Muzizi-Buremba,C357_Link01,C,16.2000007629395,0.08123,30.625839,2.4,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-03-09,Ibanda,Southern,Ibanda,C,,7
+CUL-C160,Culvert C160,culvert,Muzizi-Buremba,C357_Link01,C,20.2999992370605,0.09535,30.657921,3.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2024-03-03,Ibanda,Southern,Ibanda,C,,6
+CUL-C161,Culvert C161,culvert,Buremba-Remiyaga,C357_Link02,C,53.5,0.13246,30.91474,2.1,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2022-11-09,Ibanda,Southern,Ibanda,C,,6
+CUL-C162,Culvert C162,culvert,Kazo-Buremba,C356_Link02,C,56.2999992370605,0.0924,30.893009,2.7,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2023-08-06,Ibanda,Southern,Ibanda,C,,6
+CUL-C163,Culvert C163,culvert,Buremba-Remiyaga,C357_Link02,C,68.5999984741211,0.11784,31.05372,2.2,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2023-08-06,Ibanda,Southern,Ibanda,C,,8
+CUL-C164,Culvert C164,culvert,Kazo-Buremba,C356_Link02,C,54.0,0.00576,30.78269,1.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-12-04,Ibanda,Southern,Ibanda,C,,5
+CUL-C165,Culvert C165,culvert,Ibanda-Kanoni-Kazo,C356_Link01,C,30.2999992370605,-0.06919,30.7442,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2014,4,2024-04-02,Ibanda,Southern,Ibanda,C,,8
+CUL-C166,Culvert C166,culvert,Kabale - Katuna,A002_Link11,A,404.799987792969,-1.30195,29.999399,2.2,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1957,2,2023-08-06,Kabale,Southern,Kabale,A,,8
+CUL-C167,Culvert C167,culvert,Kabale - Katuna,A002_Link11,A,403.600006103516,-1.29082,29.99758,2.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1957,2,2024-04-02,Kabale,Southern,Kabale,A,,8
+CUL-C168,Culvert C168,culvert,Kabale - Katuna,A002_Link11,A,421.0,-1.4248,30.011761,2.2,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1957,2,2023-11-04,Kabale,Southern,Kabale,A,,8
+CUL-C169,Culvert C169,culvert,Kabale - Ikumba - Muko,B153_Link01,B,1.89999997615814,-1.24794,29.982,2.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2013,5,2022-06-12,Kabale,Southern,Kabale,B,,7
+CUL-C170,Culvert C170,culvert,Rubaale - Muhanga - Kabale,A002_Link10,A,341.399993896484,-1.03009,30.18574,1.8,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1985,3,2023-04-08,Kabale,Southern,Kabale,A,,8
+CUL-C171,Culvert C171,culvert,Kagamba - Ishaka,B152_Link02,B,32.7000007629395,-0.67817,30.16081,2.4,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2016,5,2022-09-10,Kabale,Southern,Kabale,B,,8
+CUL-C172,Culvert C172,culvert,Muhanga-Kisiizi-Kebisoni,C411_Link01,C,33.4000015258789,-0.99944,29.947969,2.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2024-05-02,Kabale,Southern,Kabale,C,,7
+CUL-C173,Culvert C173,culvert,Bukurungu - Nyamirama,C446_Link01,C,8.69999980926514,-0.69841,29.751341,5.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2023,5,2023-03-09,Kabale,Southern,Kabale,C,,4
+CUL-C174,Culvert C174,culvert,Rukungiri - Station Boundary,C452_Link01,C,18.1000003814697,-0.65436,29.948179,1.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2023-07-07,Kabale,Southern,Kabale,C,,8
+CUL-C175,Culvert C175,culvert,Kabale - Katuna,A002_Link11,A,400.200012207031,-1.26132,29.99349,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1957,1,2024-04-02,Kabale,Southern,Kabale,A,,8
+CUL-C176,Culvert C176,culvert,Rubaale - Muhanga - Kabale,A002_Link10,A,393.799987792969,-1.25657,30.00666,2.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1985,2,2023-10-05,Kabale,Southern,Kabale,A,,8
+CUL-C177,Culvert C177,culvert,Kebisoni-Rukungiri,C410_Link02,C,34.0,-0.797364,29.930239,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2005,3,2023-01-08,Kabale,Southern,Kabale,C,,8
+CUL-C178,Culvert C178,culvert,Mubuku-Maliba-Nyakalingijo,C510_Link01,C,8.30000019073486,0.322008,30.093218,2.6,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2023-07-07,Kasese,Southern,Kasese,C,,6
+CUL-C179,Culvert C179,culvert,Kasese - Kilembe mines,C511_Link01,C,2.90000009536743,0.18736,30.065439,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,3,2023-06-07,Kasese,Southern,Kasese,C,,8
+CUL-C180,Culvert C180,culvert,Kasese - Kilembe mines,C511_Link01,C,10.6499996185303,0.20134,30.010559,2.7,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,5,2022-09-10,Kasese,Southern,Kasese,C,,2
+CUL-C181,Culvert C181,culvert,Kasese - Kilembe mines,C511_Link01,C,8.60000038146973,0.18568,30.01833,3.1,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,4,2022-07-12,Kasese,Southern,Kasese,C,,8
+CUL-C182,Culvert C182,culvert,Kasese - Kilembe mines,C511_Link01,C,8.5,0.185081,30.018646,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,5,2024-04-02,Kasese,Southern,Kasese,C,,7
+CUL-C183,Culvert C183,culvert,Kasese - Kilembe mines,C511_Link01,C,7.69999980926514,0.18325,30.026119,2.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,3,2022-12-09,Kasese,Southern,Kasese,C,,8
+CUL-C184,Culvert C184,culvert,Kasese - Kilembe mines,C511_Link01,C,6.90000009536743,0.18726,30.049141,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,3,2024-01-03,Kasese,Southern,Kasese,C,,7
+CUL-C185,Culvert C185,culvert,Kikorongo - Bwera - Mpondwe,A005_Link15,A,410.399993896484,0.03405,29.75551,1.7,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,4,2023-03-09,Kasese,Southern,Kasese,A,,7
+CUL-C186,Culvert C186,culvert,Kikorongo - Bwera - Mpondwe,A005_Link15,A,385.0,0.00667,29.96401,2.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,4,2022-09-10,Kasese,Southern,Kasese,A,,8
+CUL-C187,Culvert C187,culvert,Kikorongo - Bwera - Mpondwe,A005_Link15,A,392.459991455078,0.009092,29.899107,4.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,5,2024-05-02,Kasese,Southern,Kasese,A,,8
+CUL-C188,Culvert C188,culvert,Kikorongo - Bwera - Mpondwe,A005_Link15,A,395.5,0.003586,29.870596,4.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,4,2022-11-09,Kasese,Southern,Kasese,A,,8
+CUL-C189,Culvert C189,culvert,Kikorongo - Bwera - Mpondwe,A005_Link15,A,401.799987792969,-0.009607,29.815624,2.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,5,2022-11-09,Kasese,Southern,Kasese,A,,9
+CUL-C190,Culvert C190,culvert,Kikorongo - Bwera - Mpondwe,A005_Link15,A,408.0,-0.01166,29.76342,2.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,5,2023-11-04,Kasese,Southern,Kasese,A,,8
+CUL-C191,Culvert C191,culvert,Kikorongo - Bwera - Mpondwe,A005_Link15,A,410.0,-0.00533,29.831209,3.1,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,3,2023-11-04,Kasese,Southern,Kasese,A,,8
+CUL-C192,Culvert C192,culvert,Kikorongo - Bwera - Mpondwe,A005_Link15,A,412.200012207031,0.02625,29.759159,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,4,2022-06-12,Kasese,Southern,Kasese,A,,7
+CUL-C193,Culvert C193,culvert,Kisinga-Kyarumba-Kibirizi,C513_Link02,C,21.3999996185303,0.122896,29.949936,5.7,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2024-01-03,Kasese,Southern,Kasese,C,,8
+CUL-C194,Culvert C194,culvert,Kisinga-Kyarumba-Kibirizi,C513_Link02,C,15.8999996185303,0.09042,29.91975,1.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2023-04-08,Kasese,Southern,Kasese,C,,7
+CUL-C195,Culvert C195,culvert,Nkenda - Bugoye,C519_Link01,C,10.0,0.34355,30.038349,4.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-01-08,Kasese,Southern,Kasese,C,,9
+CUL-C198,Culvert C198,culvert,Nkenda - Bugoye,C519_Link01,C,7.59999990463257,0.31521,30.090611,2.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2024-03-03,Kasese,Southern,Kasese,C,,7
+CUL-C199,Culvert C199,culvert,Rwentobo - Ngoma - Kizinga,C422_Link01,C,1.29999995231628,-1.12146,30.186001,1.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2023-12-04,Kabale,Southern,Kabale,C,,7
+CUL-C200,Culvert C200,culvert,Kabale - Ikumba - Muko,B153_Link01,B,40.5,-1.21251,29.83066,1.2,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2013,4,2024-02-02,Kabale,Southern,Kabale,B,,9
+CUL-C201,Culvert C201,culvert,Katobo - Bugangari,C445_Link01,C,2.23000001907349,-0.77012,29.89164,1.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2023-09-05,Kabale,Southern,Kabale,C,,9
+CUL-C202,Culvert C202,culvert,Kebisoni-Rukungiri,C410_Link02,C,22.5,-0.85168,30.00005,2.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2005,4,2023-01-08,Kabale,Southern,Kabale,C,,8
+CUL-C203,Culvert C203,culvert,Ntungamo - Kagamba,B152_Link01,B,15.0,-0.8521,30.00371,3.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2002,5,2022-12-09,Kabale,Southern,Kabale,B,,9
+CUL-C204,Culvert C204,culvert,Muzizi-Buremba,C357_Link01,C,53.0,-0.90665,30.2416,2.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2023-12-04,Ibanda,Southern,Ibanda,C,,7
+CUL-C205,Culvert C205,culvert,Ntungamo - Kagamba,B152_Link01,B,6.40000009536743,-0.86348,30.219299,1.8,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2002,4,2024-03-03,Kabale,Southern,Kabale,B,,8
+CUL-C207,Culvert C207,culvert,Mbarara(Bushenyi Junction) - Ntungamo,A002_Link08,A,298.730010986328,-0.72011,30.37657,3.1,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1970,2,2024-03-03,Mbarara,Southern,Mbarara,A,,7
+CUL-C208,Culvert C208,culvert,Muzizi-Buremba,C357_Link01,C,49.8800010681152,0.12767,30.87981,1.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2023-10-05,Ibanda,Southern,Ibanda,C,,6
+CUL-C209,Culvert C209,culvert,Mbarara(Bushenyi Junction) - Ntungamo,A002_Link08,A,1.96000003814697,-0.62445,30.63389,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1970,3,2023-07-07,Mbarara,Southern,Mbarara,A,,7
+CUL-C210,Culvert C210,culvert,Mbarara(Bushenyi Junction) - Ntungamo,A002_Link08,A,21.6000003814697,-0.657135,30.47357,2.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1970,2,2024-02-02,Mbarara,Southern,Mbarara,A,,8
+CUL-C211,Culvert C211,culvert,Rubaale - Muhanga - Kabale,A002_Link10,A,341.399993896484,-1.02987,30.18576,1.8,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1985,3,2023-10-05,Kabale,Southern,Kabale,A,,7
+CUL-C212,Culvert C212,culvert,Rwimi(bridge)-Hima-Mubuku,A005_Link12,A,335.0,0.28838,30.17494,3.2,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,5,2024-05-02,Kasese,Southern,Kasese,A,,8
+CUL-C213,Culvert C213,culvert,Rwimi(bridge)-Hima-Mubuku,A005_Link12,A,10.039999961853,0.18466,30.092661,2.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,4,2024-01-03,Kasese,Southern,Kasese,A,,9
+CUL-C214,Culvert C214,culvert,Mubuku - Kasese,A005_Link13,A,350.0,0.23296,30.116989,2.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,5,2022-06-12,Kasese,Southern,Kasese,A,,7
+CUL-C215,Culvert C215,culvert,Kasese - Kikorongo,A005_Link14,A,367.0,0.08836,30.04348,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,4,2024-05-02,Kasese,Southern,Kasese,A,,9
+CUL-C216,Culvert C216,culvert,Kasese - Kikorongo,A005_Link14,A,6.23999977111816,0.1208,30.067419,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,3,2023-06-07,Kasese,Southern,Kasese,A,,8
+CUL-C217,Culvert C217,culvert,Kasese - Kikorongo,A005_Link14,A,8.64000034332275,0.10355,30.05439,2.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,4,2024-03-03,Kasese,Southern,Kasese,A,,8
+CUL-C218,Culvert C218,culvert,Kasese - Kikorongo,A005_Link14,A,13.5,0.06437,30.03706,4.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,4,2023-08-06,Kasese,Southern,Kasese,A,,9
+CUL-C219,Culvert C219,culvert,Kasese - Kikorongo,A005_Link14,A,14.8000001907349,0.05437,30.03153,3.1,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,3,2024-03-03,Kasese,Southern,Kasese,A,,9
+CUL-C220,Culvert C220,culvert,Kasese - Kikorongo,A005_Link14,A,17.3999996185303,0.03422,30.01984,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,4,2022-09-10,Kasese,Southern,Kasese,A,,9
+CUL-C221,Culvert C221,culvert,Kasese - Kikorongo,A005_Link14,A,18.7999992370605,0.02577,30.010799,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,3,2022-12-09,Kasese,Southern,Kasese,A,,8
+CUL-C222,Culvert C222,culvert,Kasese - Kikorongo,A005_Link14,A,2.0,0.15699,30.07596,4.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,4,2023-03-09,Kasese,Southern,Kasese,A,,8
+CUL-C224,Culvert C224,culvert,Ruwerere - Biraara - Kanungu,C459_Link01,C,14.0,-0.84707,29.87402,3.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-09-05,Kabale,Southern,Kabale,C,,9
+CUL-C225,Culvert C225,culvert,Ruwerere - Biraara - Kanungu,C459_Link01,C,13.5,-0.844752,29.87714,3.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2023-06-07,Kabale,Southern,Kabale,C,,9
+CUL-C226,Culvert C226,culvert,Mubuku-Maliba-Nyakalingijo,C510_Link01,C,2.13000011444092,0.27811,30.11496,1.4,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2022-09-10,Kasese,Southern,Kasese,C,,7
+CUL-C227,Culvert C227,culvert,Kasese - Kilembe mines,C511_Link01,C,6.65999984741211,0.18655,30.033859,2.6,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,5,2023-03-09,Kasese,Southern,Kasese,C,,7
+CUL-C228,Culvert C228,culvert,Rugendabara - Kaswangali,C512_Link01,C,21.7199993133545,0.4581,30.12455,3.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2024-02-02,Kasese,Southern,Kasese,C,,8
+CUL-C229,Culvert C229,culvert,Rugendabara - Kaswangali,C512_Link01,C,5.46000003814697,0.38592,30.17207,3.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2024-03-03,Kasese,Southern,Kasese,C,,8
+CUL-C230,Culvert C230,culvert,Kisinga-Kyarumba-Kibirizi,C513_Link02,C,8.46000003814697,-1.2265,29.949524,5.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2023-08-06,Kasese,Southern,Kasese,C,,9
+CUL-C347,Culvert C347,culvert,Kigumba - Masindi,B201_Link01,B,22.2999992370605,1.77,31.822901,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,5,2024-02-02,Masindi,Western,Masindi,B,,0
+CUL-C352,Culvert C352,culvert,FortPortal - Rwimi(bridge),A005_Link11,A,0,0.5728,30.191561,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,3,2023-06-07,Fort Portal,Western,Fort Portal,A,,8
+CUL-C353,Culvert C353,culvert,FortPortal - Rwimi(bridge),A005_Link11,A,0,0.54291,30.168909,2.7,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,4,2022-10-10,Fort Portal,Western,Fort Portal,A,,8
+CUL-C354,Culvert C354,culvert,FortPortal - Rwimi(bridge),A005_Link11,A,0,0.52597,30.177931,2.7,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,3,2023-11-04,Fort Portal,Western,Fort Portal,A,,7
+CUL-C355,Culvert C355,culvert,FortPortal - Rwimi(bridge),A005_Link11,A,0,0.48972,30.186501,2.7,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2007,5,2022-08-11,Fort Portal,Western,Fort Portal,A,,7
+CUL-C359,Culvert C359,culvert,Kibale-Kagadi,C550_Link02,C,0,0.78828,31.07457,2.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2023-02-07,Hoima,Western,Hoima,C,,7
+CUL-C363,Culvert C363,culvert,Fortportal-Kichwamba-Karugutu,C540_Link01,C,0,0.66233,30.232241,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2014,4,2022-12-09,Fort Portal,Western,Fort Portal,C,,8
+CUL-C364,Culvert C364,culvert,Fortportal-Kichwamba-Karugutu,C540_Link01,C,9.69999980926514,0.67592,30.197121,2.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2014,5,2022-12-09,Fort Portal,Western,Fort Portal,C,,8
+CUL-C365,Culvert C365,culvert,Fortportal-Kichwamba-Karugutu,C540_Link01,C,15.0,0.75994,30.20541,3.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2014,4,2024-05-02,Fort Portal,Western,Fort Portal,C,,8
+CUL-C366,Culvert C366,culvert,Fortportal-Kichwamba-Karugutu,C540_Link01,C,24.0,0.87564,30.23443,2000.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2014,5,2023-07-07,Fort Portal,Western,Fort Portal,C,,8
+CUL-C367,Culvert C367,culvert,Karugutu-Bundibugyo - Lamia,C540_Link02,C,0,0.80595,30.13896,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2014,5,2023-07-07,Fort Portal,Western,Fort Portal,C,,9
+CUL-C369,Culvert C369,culvert,Karugutu-Bundibugyo - Lamia,C540_Link02,C,85.379997253418,0.69678,30.06102,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2014,4,2022-06-12,Fort Portal,Western,Fort Portal,C,,9
+CUL-C370,Culvert C370,culvert,Karugutu-Bundibugyo - Lamia,C540_Link02,C,0,0.67601,30.060789,4.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2014,4,2023-01-08,Fort Portal,Western,Fort Portal,C,,7
+CUL-C372,Culvert C372,culvert,Karugutu-Bundibugyo - Lamia,C540_Link02,C,0,0.63305,29.961269,4.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2014,5,2022-10-10,Fort Portal,Western,Fort Portal,C,,8
+CUL-C401,Culvert C401,culvert,Masoode-Nkooko,C627_Link01,C,0,0.94439,31.545971,1.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2023-08-06,Hoima,Western,Hoima,C,,6
+CUL-C402,Culvert C402,culvert,Masoode-Nkooko,C627_Link01,C,23.4500007629395,0.94395,31.54364,1.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2022-11-09,Hoima,Western,Hoima,C,,7
+CUL-C403,Culvert C403,culvert,Masoode-Nkooko,C627_Link01,C,9.39999961853027,0.94395,31.54364,1.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-07-07,Hoima,Western,Hoima,C,,7
+CUL-C405,Culvert C405,culvert,Kiziranfumbi - Kabaale,C596_Link01,C,25.0799999237061,1.48242,30.99143,4.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2024,5,2024-05-02,Hoima,Western,Hoima,C,,8
+CUL-C406,Culvert C406,culvert,Kiziranfumbi - Kabaale,C596_Link01,C,30.3999996185303,1.48719,30.99861,5.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2024,4,2023-03-09,Hoima,Western,Hoima,C,,9
+CUL-C408,Culvert C408,culvert,Buseruka-Tonya,C604_Link01,C,0,1.55829,31.10425,6.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2023-12-04,Hoima,Western,Hoima,C,,8
+CUL-C409,Culvert C409,culvert,Buseruka-Tonya,C604_Link01,C,0,1.55832,31.1042,1.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2023-04-08,Hoima,Western,Hoima,C,,9
+CUL-C410,Culvert C410,culvert,Kyegegwa-Hapuyo-kibale,C551_Link01,C,0,0.65656,31.06024,2.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-03-09,Fort Portal,Western,Fort Portal,C,,7
+CUL-C411,Culvert C411,culvert,Kyegegwa-Hapuyo-kibale,C551_Link01,C,21.3299999237061,0.65719,31.060061,2.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-04-08,Fort Portal,Western,Fort Portal,C,,6
+CUL-C412,Culvert C412,culvert,Rugombe-Kyarusozi-Katooke,C548_Link01,C,25.8700008392334,0.77207,30.63365,6.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2022-12-09,Fort Portal,Western,Fort Portal,C,,6
+CUL-C413,Culvert C413,culvert,Kakara - Rwebisengo,C558_Link01,C,22.3700008392334,1.02321,30.291941,1.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2024-04-02,Fort Portal,Western,Fort Portal,C,,6
+CUL-C414,Culvert C414,culvert,Bukuku - Rubona,C556_Link01,C,2.97000002861023,0.57303,30.156719,2.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2023-06-07,Fort Portal,Western,Fort Portal,C,,8
+CUL-C415,Culvert C415,culvert,Fortportal - Kijura - Kabende Bridge-Sogahe-Kyarusozi,C542_Link01,C,0.600000023841858,0.66111,30.298901,2.6,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2023-07-07,Fort Portal,Western,Fort Portal,C,,6
+CUL-C417,Culvert C417,culvert,Mpara - Kazinga - Bwizi,C569_Link01,C,21.25,0.32905,30.8314,1.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2022-10-10,Fort Portal,Western,Fort Portal,C,,6
+CUL-C418,Culvert C418,culvert,Kakumiro-Kibale,C550_Link01,C,10.0,0.77291,31.234221,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,4,2023-02-07,Mubende,Central,Mubende,C,,7
+CUL-C419,Culvert C419,culvert,Kakumiro-Kibale,C550_Link01,C,13.1000003814697,0.77647,31.20573,2.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2023-05-08,Mubende,Central,Mubende,C,,8
+CUL-C420,Culvert C420,culvert,Kakumiro-Kibale,C550_Link01,C,16.0,0.78252,31.19002,2.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2023-09-05,Mubende,Central,Mubende,C,,8
+CUL-C425,Culvert C425,culvert,Kigumba - Masindi,B201_Link01,B,2.00999999046326,1.80573,31.99432,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,5,2022-10-10,Masindi,Western,Masindi,B,,8
+CUL-C426,Culvert C426,culvert,Kigumba - Masindi,B201_Link01,B,0,1.80569,31.99378,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,5,2022-08-11,Masindi,Western,Masindi,B,,8
+CUL-C427,Culvert C427,culvert,Kigumba - Masindi,B201_Link01,B,2.1800000667572,1.80557,31.992729,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,5,2022-09-10,Masindi,Western,Masindi,B,,8
+CUL-C428,Culvert C428,culvert,Kigumba - Masindi,B201_Link01,B,2.28999996185303,1.80558,31.99185,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,5,2023-11-04,Masindi,Western,Masindi,B,,7
+CUL-C429,Culvert C429,culvert,Kigumba - Masindi,B201_Link01,B,0,1.8053,31.990891,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,4,2024-02-02,Masindi,Western,Masindi,B,,8
+CUL-C430,Culvert C430,culvert,Kigumba - Masindi,B201_Link01,B,0,1.79461,31.96888,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,4,2023-08-06,Masindi,Western,Masindi,B,,8
+CUL-C431,Culvert C431,culvert,Kigumba - Masindi,B201_Link01,B,0,1.79168,31.918409,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,5,2024-05-02,Masindi,Western,Masindi,B,,8
+CUL-C432,Culvert C432,culvert,Kigumba - Masindi,B201_Link01,B,13.4300003051758,1.7961,31.897079,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,5,2022-10-10,Masindi,Western,Masindi,B,,7
+CUL-C433,Culvert C433,culvert,Kigumba - Masindi,B201_Link01,B,13.4700002670288,1.79589,31.89662,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2023-04-08,Masindi,Western,Masindi,B,,8
+CUL-C434,Culvert C434,culvert,Kigumba - Masindi,B201_Link01,B,13.5200004577637,1.79578,31.89624,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,4,2023-11-04,Masindi,Western,Masindi,B,,8
+CUL-C435,Culvert C435,culvert,Kigumba - Masindi,B201_Link01,B,21.8999996185303,1.77592,31.826281,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,4,2022-09-10,Masindi,Western,Masindi,B,,8
+CUL-C436,Culvert C436,culvert,Kigumba - Masindi,B201_Link01,B,23.1399993896484,1.77547,31.824169,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,5,2023-12-04,Masindi,Western,Masindi,B,,8
+CUL-C437,Culvert C437,culvert,Kigumba - Masindi,B201_Link01,B,22.2999992370605,1.77495,31.82292,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,5,2024-04-02,Masindi,Western,Masindi,B,,8
+CUL-C438,Culvert C438,culvert,Kigumba - Masindi,B201_Link01,B,22.3899993896484,1.77438,31.82221,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,4,2023-11-04,Masindi,Western,Masindi,B,,9
+CUL-C439,Culvert C439,culvert,Kigumba - Masindi,B201_Link01,B,23.0,1.77083,31.818199,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,4,2023-02-07,Masindi,Western,Masindi,B,,8
+CUL-C440,Culvert C440,culvert,Kigumba - Masindi,B201_Link01,B,23.2000007629395,1.77075,31.816389,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,4,2022-12-09,Masindi,Western,Masindi,B,,8
+CUL-C441,Culvert C441,culvert,Kigumba - Masindi,B201_Link01,B,23.0400009155273,1.77075,31.81781,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,4,2023-08-06,Masindi,Western,Masindi,B,,9
+CUL-C442,Culvert C442,culvert,Kigumba - Masindi,B201_Link01,B,23.2999992370605,1.77078,31.8155,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,5,2024-02-02,Masindi,Western,Masindi,B,,8
+CUL-C443,Culvert C443,culvert,Kigumba - Masindi,B201_Link01,B,31.0,1.7565,31.76623,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,5,2022-09-10,Masindi,Western,Masindi,B,,8
+CUL-C444,Culvert C444,culvert,Masindi - Kisalizi,B204_Link01,B,3.51999998092651,1.52473,31.564529,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2023,5,2023-11-04,Masindi,Western,Masindi,B,,8
+CUL-C445,Culvert C445,culvert,Masindi - Kisalizi,B204_Link01,B,3.41000008583069,1.52472,31.56851,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2023,5,2023-03-09,Masindi,Western,Masindi,B,,8
+CUL-C446,Culvert C446,culvert,Masindi - Kisalizi,B204_Link01,B,3.51999998092651,1.53248,31.563971,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2023,5,2022-06-12,Masindi,Western,Masindi,B,,7
+CUL-C447,Culvert C447,culvert,Masindi - Kisalizi,B204_Link01,B,3.60999989509583,1.52513,31.5637,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2023,5,2023-01-08,Masindi,Western,Masindi,B,,8
+CUL-C448,Culvert C448,culvert,Masindi - Kisalizi,B204_Link01,B,3.72000002861023,1.526,31.564211,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2023,4,2023-04-08,Masindi,Western,Masindi,B,,7
+CUL-C449,Culvert C449,culvert,Masindi - Kisalizi,B204_Link01,B,9.97000026702881,1.55562,31.60741,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2023,5,2023-03-09,Masindi,Western,Masindi,B,,7
+CUL-C450,Culvert C450,culvert,Masindi - Kisalizi,B204_Link01,B,11.4700002670288,1.56649,31.612711,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2023,5,2022-11-09,Masindi,Western,Masindi,B,,8
+CUL-C451,Culvert C451,culvert,Masindi - Kisalizi,B204_Link01,B,13.3500003814697,1.57811,31.624889,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2023,4,2022-11-09,Masindi,Western,Masindi,B,,7
+CUL-C452,Culvert C452,culvert,Masindi - Kisalizi,B204_Link01,B,0,1.57874,31.624969,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2023,5,2024-05-02,Masindi,Western,Masindi,B,,7
+CUL-C455,Culvert C455,culvert,Biso-Bukumi,C590_Link02,C,0,1.74734,31.398491,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2022,5,2022-11-09,Masindi,Western,Masindi,C,,8
+CUL-C456,Culvert C456,culvert,Biso-Bukumi,C590_Link02,C,52.2200012207031,1.78465,31.38032,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2022,5,2024-01-03,Masindi,Western,Masindi,C,,9
+CUL-C457,Culvert C457,culvert,Biso-Bukumi,C590_Link02,C,52.4700012207031,1.78615,31.38195,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2022,5,2022-10-10,Masindi,Western,Masindi,C,,9
+CUL-C458,Culvert C458,culvert,Bukumi-Bulisa,C623_Link01,C,5.67000007629395,1.8415,31.39389,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2022,4,2024-04-02,Masindi,Western,Masindi,C,,8
+CUL-C459,Culvert C459,culvert,Bukumi-Bulisa,C623_Link01,C,7.90000009536743,1.86012,31.39901,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2022,4,2022-07-12,Masindi,Western,Masindi,C,,8
+CUL-C460,Culvert C460,culvert,Bukumi-Bulisa,C623_Link01,C,10.3000001907349,1.88119,31.40637,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2022,5,2023-06-07,Masindi,Western,Masindi,C,,8
+CUL-C461,Culvert C461,culvert,Bukumi-Bulisa,C623_Link01,C,10.3299999237061,1.88147,31.4065,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2022,5,2024-03-03,Masindi,Western,Masindi,C,,9
+CUL-C462,Culvert C462,culvert,Bukumi-Bulisa,C623_Link01,C,15.6169996261597,1.92485,31.425671,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2022,5,2022-11-09,Masindi,Western,Masindi,C,,7
+CUL-C463,Culvert C463,culvert,Bukumi-Bulisa,C623_Link01,C,15.8000001907349,1.92646,31.42638,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2022,5,2023-12-04,Masindi,Western,Masindi,C,,7
+CUL-C464,Culvert C464,culvert,Bukumi-Bulisa,C623_Link01,C,16.1399993896484,1.9295,31.42774,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2022,5,2023-12-04,Masindi,Western,Masindi,C,,9
+CUL-C465,Culvert C465,culvert,Bukumi-Bulisa,C623_Link01,C,16.2000007629395,1.93004,31.42798,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2022,4,2024-05-02,Masindi,Western,Masindi,C,,8
+CUL-C466,Culvert C466,culvert,Bukumi-Bulisa,C623_Link01,C,22.0599994659424,1.96581,31.46406,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2022,5,2024-02-02,Masindi,Western,Masindi,C,,8
+CUL-C467,Culvert C467,culvert,Bukumi-Bulisa,C623_Link01,C,25.2099990844727,1.99038,31.47644,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2022,4,2022-11-09,Masindi,Western,Masindi,C,,9
+CUL-C468,Culvert C468,culvert,Bukumi-Bulisa,C623_Link01,C,25.3199996948242,1.99131,31.475969,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2022,5,2024-05-02,Masindi,Western,Masindi,C,,9
+CUL-C469,Culvert C469,culvert,Bukumi-Bulisa,C623_Link01,C,28.0799999237061,2.01226,31.4627,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2022,5,2023-08-06,Masindi,Western,Masindi,C,,8
+CUL-C470,Culvert C470,culvert,Kisanja-Park junction,C625_Link01,C,8.4399995803833,1.79822,31.71242,2.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2022,5,2024-03-03,Masindi,Western,Masindi,C,,8
+CUL-C473,Culvert C473,culvert,Kisanja-Park junction,C625_Link01,C,65.620002746582,1.79822,31.71242,2.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2022,4,2022-07-12,Masindi,Western,Masindi,C,,8
+CUL-C474,Culvert C474,culvert,Bulisa-Wanseko,C623_Link02,C,0.769999980926514,2.12366,31.408581,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2022,5,2023-10-05,Masindi,Western,Masindi,C,,8
+CUL-C475,Culvert C475,culvert,Bulisa-Wanseko,C623_Link02,C,1.14999997615814,2.12706,31.40786,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2022,5,2022-11-09,Masindi,Western,Masindi,C,,9
+CUL-C476,Culvert C476,culvert,Bulisa-Wanseko,C623_Link02,C,1.57000005245209,2.13081,31.40778,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2022,5,2022-06-12,Masindi,Western,Masindi,C,,8
+CUL-C477,Culvert C477,culvert,Kabaale Swamp - Buhimba,B203_Link03,B,0,0.98628,31.14864,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2023,5,2023-02-07,Hoima,Western,Hoima,B,,7
+CUL-C478,Culvert C478,culvert,Kabaale Swamp - Buhimba,B203_Link03,B,0,0.98813,31.14855,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2023,5,2023-09-05,Hoima,Western,Hoima,B,,8
+CUL-C479,Culvert C479,culvert,Kabaale Swamp - Buhimba,B203_Link03,B,0,1.12418,30.225691,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2023,5,2022-08-11,Hoima,Western,Hoima,B,,8
+CUL-C480,Culvert C480,culvert,Kabaale Swamp - Buhimba,B203_Link03,B,0,1.12313,31.253241,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2023,5,2023-05-08,Hoima,Western,Hoima,B,,7
+CUL-C481,Culvert C481,culvert,Kabaale Swamp - Buhimba,B203_Link03,B,0,1.12249,31.25515,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2023,5,2023-03-09,Hoima,Western,Hoima,B,,7
+CUL-C482,Culvert C482,culvert,Kabaale Swamp - Buhimba,B203_Link03,B,0,1.12241,31.25629,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2023,5,2023-07-07,Hoima,Western,Hoima,B,,8
+CUL-C483,Culvert C483,culvert,Kabaale Swamp - Buhimba,B203_Link03,B,0,1.20325,31.291691,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2023,4,2023-05-08,Hoima,Western,Hoima,B,,7
+CUL-C484,Culvert C484,culvert,Kabaale Swamp - Buhimba,B203_Link03,B,0,1.20519,31.29051,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2023,5,2024-05-02,Hoima,Western,Hoima,B,,7
+CUL-C485,Culvert C485,culvert,Kabaale Swamp - Buhimba,B203_Link03,B,0,1.20649,31.28973,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2023,5,2023-12-04,Hoima,Western,Hoima,B,,7
+CUL-C486,Culvert C486,culvert,Kitumbi Bridge - Bukwiri,C271_Link04,C,68.0999984741211,0.81737,31.65798,3.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2024-05-02,Hoima,Western,Hoima,C,,8
+CUL-C487,Culvert C487,culvert,Biso-Bukumi,C590_Link02,C,0,1.5161,31.350269,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2022,4,2023-05-08,Masindi,Western,Masindi,C,,8
+CUL-C488,Culvert C488,culvert,Hoima (Parajwoki) -Biso,C590_Link01,C,0,1.57955,31.312149,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2022,5,2023-03-09,Hoima,Western,Hoima,C,,7
+CUL-C490,Culvert C490,culvert,Kyehooro Link 1,C597_Link01,C,0,1.51905,30.957451,5.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2016,4,2022-09-10,Hoima,Western,Hoima,C,,9
+CUL-C494,Culvert C494,culvert,Park junction - Buliisa,C625_Link02,C,0,2.12184,31.46258,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2022,5,2022-12-09,Masindi,Western,Masindi,C,,9
+CUL-C495,Culvert C495,culvert,Hoima (Parajwoki) -Biso,C590_Link01,C,0,1.54992,31.333389,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2022,5,2023-10-05,Hoima,Western,Hoima,C,,8
+CUL-C496,Culvert C496,culvert,Kigumba - Masindi,B201_Link01,B,22.0699996948242,1.77588,31.82548,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,5,2024-05-02,Masindi,Western,Masindi,B,,8
+CUL-C497,Culvert C497,culvert,Kigumba - Masindi,B201_Link01,B,23.0699996948242,1.77091,31.81814,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,4,2022-10-10,Masindi,Western,Masindi,B,,8
+CUL-C498,Culvert C498,culvert,Kigumba - Masindi,B201_Link01,B,23.0900001525879,1.77084,31.81776,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,5,2023-12-04,Masindi,Western,Masindi,B,,7
+CUL-C499,Culvert C499,culvert,Kigumba - Masindi,B201_Link01,B,23.2099990844727,1.77081,31.816401,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,4,2022-12-09,Masindi,Western,Masindi,B,,7
+CUL-C516,Culvert C516,culvert,Kitgum - Madi Opei,B252_Link04,B,209.830001831055,3.43575,33.034,4.1,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2018,5,2023-02-07,Kitgum,Northern,Kitgum,B,,9
+CUL-C567,Culvert C567,culvert,Agweng-Arom,C667_Link01,C,4.5,2.60652,32.844528,1.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2023-06-07,Lira,Northern,Lira,C,,6
+CUL-C602,Culvert C602,culvert,Karuma - Olwiyo,A008_Link01,A,23.0,2.43296,31.975121,2.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2006,5,2023-01-08,Gulu,Northern,Gulu,A,,7
+CUL-C610,Culvert C610,culvert,Pakwach-Inde,C743_Link01,C,33.560001373291,2.71292,31.3922,4.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-04-08,Arua,Northern,Arua,C,,8
+CUL-C611,Culvert C611,culvert,Zombo-Vurra,C763_Link02,C,83.0,2.72976,30.85207,5.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-11-04,Arua,Northern,Arua,C,,9
+CUL-C612,Culvert C612,culvert,Manibe - Maracha - Koboko,A008_Link06,A,242.699996948242,3.3488,30.95402,2.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2015,4,2022-09-10,Arua,Northern,Arua,A,,9
+CUL-C613,Culvert C613,culvert,Koboko - Yumbe,C740_Link01,C,36.0,3.44018,31.01952,1.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2024-02-02,Arua,Northern,Arua,C,,6
+CUL-C614,Culvert C614,culvert,Pakele - Pabbo,C689_Link01,C,30.2000007629395,3.19986,32.022339,5.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-09-05,Moyo,Northern,Moyo,C,,9
+CUL-C615,Culvert C615,culvert,Pakele - Pabbo,C689_Link01,C,28.3999996185303,3.2084,32.008991,5.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2023-12-04,Moyo,Northern,Moyo,C,,8
+CUL-C616,Culvert C616,culvert,Gulu - Olwiyo,B251_Link01,B,53.0,2.58932,31.92919,5.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2019,5,2022-08-11,Gulu,Northern,Gulu,B,,8
+CUL-C617,Culvert C617,culvert,Kitgum - Madi Opei,B252_Link04,B,186.100006103516,3.41,33.02,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2018,5,2023-11-04,Kitgum,Northern,Kitgum,B,,9
+CUL-C618,Culvert C618,culvert,Potika - Aweno Olwiyo - Ngomoromo,C709_Link01,C,17.2800006866455,3.72576,32.73571,1.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-10-05,Kitgum,Northern,Kitgum,C,,7
+CUL-C619,Culvert C619,culvert,Amuru Junction - Awee,C686_Link02,C,62.2700004577637,2.87604,31.665319,2.9,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2022-08-11,Gulu,Northern,Gulu,C,,7
+CUL-C620,Culvert C620,culvert,Arom-Awere,C667_Link02,C,25.5200004577637,2.65936,32.795582,1.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2022-11-09,Gulu,Northern,Gulu,C,,6
+CUL-C621,Culvert C621,culvert,Lira - Ayer,A007_Link09,A,271.200012207031,2.31608,32.69236,3.6,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1968,2,2023-08-06,Lira,Northern,Lira,A,,7
+CUL-C622,Culvert C622,culvert,Lira - Ayer,A007_Link09,A,271.200012207031,2.31611,32.691002,3.3,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1968,1,2023-12-04,Lira,Northern,Lira,A,,7
+CUL-C623,Culvert C623,culvert,Okee Bridge-Adwari,C674_Link02,C,22.6000003814697,2.48831,33.265949,0.9,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-08-06,Lira,Northern,Lira,C,,6
+CUL-C624,Culvert C624,culvert,Lira - Ayer,A007_Link09,A,271.200012207031,2.30844,32.708279,3.1,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1968,1,2024-01-03,Lira,Northern,Lira,A,,7
+CUL-C625,Culvert C625,culvert,Lira - Ayer,A007_Link09,A,271.200012207031,2.30696,32.70985,3.1,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1968,1,2024-03-03,Lira,Northern,Lira,A,,7
+CUL-C626,Culvert C626,culvert,Lira - Ayer,A007_Link09,A,271.200012207031,2.30635,32.710522,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1968,3,2023-09-05,Lira,Northern,Lira,A,,7
+CUL-C627,Culvert C627,culvert,Lira - Ayer,A007_Link09,A,271.200012207031,2.30556,32.711369,3.1,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1968,2,2024-04-02,Lira,Northern,Lira,A,,7
+CUL-C628,Culvert C628,culvert,Lira - Ayer,A007_Link09,A,271.200012207031,2.30428,32.712791,3.1,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1968,2,2023-10-05,Lira,Northern,Lira,A,,6
+CUL-C629,Culvert C629,culvert,Lira - Ayer,A007_Link09,A,271.200012207031,2.3037,32.713409,3.1,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1968,3,2023-10-05,Lira,Northern,Lira,A,,7
+CUL-C630,Culvert C630,culvert,Inde-Ocoko,C743_Link02,C,69.6800003051758,2.88513,31.200029,4.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2024-05-02,Arua,Northern,Arua,C,,7
+CUL-C631,Culvert C631,culvert,Inde-Ocoko,C743_Link02,C,70.0,2.88534,31.19965,4.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2024-01-03,Arua,Northern,Arua,C,,8
+CUL-C632,Culvert C632,culvert,Pakele - Pabbo,C689_Link01,C,28.3999996185303,3.20682,32.00832,4.9,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2023-12-04,Moyo,Northern,Moyo,C,,9
+CUL-C633,Culvert C633,culvert,Pakele - Pabbo,C689_Link01,C,30.2000007629395,3.20811,32.000191,10.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2024-03-03,Moyo,Northern,Moyo,C,,8
+CUL-C634,Culvert C634,culvert,Pakele - Pabbo,C689_Link01,C,59.9900016784668,3.25488,31.92799,5.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2023-08-06,Moyo,Northern,Moyo,C,,0
+CUL-C700,Culvert C700,culvert,Bubulo-Busumbu,C870_Link01,C,15.5,0.84357,34.275169,4.2,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2024-05-02,Mbale,Eastern,Mbale,C,,8
+CUL-C701,Culvert C701,culvert,Bubulo-Busumbu,C870_Link01,C,15.5,0.84097,34.277802,1.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2023-03-09,Mbale,Eastern,Mbale,C,,7
+CUL-C702,Culvert C702,culvert,Kamonkoli-Pallisa,C860_Link01,C,43.7999992370605,1.16111,33.749859,5.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,4,2023-08-06,Mbale,Eastern,Mbale,C,,8
+CUL-C703,Culvert C703,culvert,Kamonkoli-Pallisa,C860_Link01,C,43.7999992370605,1.16108,33.75116,5.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,5,2023-03-09,Mbale,Eastern,Mbale,C,,9
+CUL-C704,Culvert C704,culvert,Kamonkoli-Pallisa,C860_Link01,C,43.5,1.16109,33.75058,5.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,5,2024-05-02,Mbale,Eastern,Mbale,C,,8
+CUL-C705,Culvert C705,culvert,Tororo junction - Malaba(Uganda/Kenya border),A001_Link11,A,200.5,0.64653,34.23518,1.8,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1963,1,2024-01-03,Tororo,Eastern,Tororo,A,,8
+CUL-C706,Culvert C706,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,89.5,1.91337,34.026119,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,4,2022-08-11,Soroti,North Eastern,Soroti,B,,8
+CUL-C707,Culvert C707,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,89.5,1.970202,34.09227,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2024-03-03,Soroti,North Eastern,Soroti,B,,7
+CUL-C708,Culvert C708,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,89.5,1.91302,34.02742,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2022-12-09,Soroti,North Eastern,Soroti,B,,8
+CUL-C709,Culvert C709,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,89.5,1.96986,34.0924,3.2,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2023-04-08,Soroti,North Eastern,Soroti,B,,7
+CUL-C710,Culvert C710,culvert,Iriri - Akisim (Lorengechora) - Ariamoi - Nadunget,B303_Link03,B,90.0,2.19053,34.241581,2.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2019,5,2023-01-08,Moroto,North Eastern,Moroto,B,,7
+CUL-C711,Culvert C711,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,90.0,2.00436,34.097321,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2024-05-02,Soroti,North Eastern,Soroti,B,,8
+CUL-C712,Culvert C712,culvert,Iriri - Akisim (Lorengechora) - Ariamoi - Nadunget,B303_Link03,B,90.0,2.1902,34.241402,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2019,5,2023-05-08,Moroto,North Eastern,Moroto,B,,8
+CUL-C713,Culvert C713,culvert,Iriri - Akisim (Lorengechora) - Ariamoi - Nadunget,B303_Link03,B,90.0,2.19033,34.24155,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2019,5,2024-01-03,Moroto,North Eastern,Moroto,B,,8
+CUL-C714,Culvert C714,culvert,Iriri - Akisim (Lorengechora) - Ariamoi - Nadunget,B303_Link03,B,90.0,2.11007,34.228958,2.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2019,5,2023-09-05,Moroto,North Eastern,Moroto,B,,8
+CUL-C715,Culvert C715,culvert,Kanyago Bridge - Kumi,B305_Link03,B,41.0,1.26921,33.872959,5.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,5,2022-12-09,Soroti,North Eastern,Soroti,B,,9
+CUL-C716,Culvert C716,culvert,Kanyago Bridge - Kumi,B305_Link03,B,41.0,1.27013,33.872879,5.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,5,2024-02-02,Soroti,North Eastern,Soroti,B,,7
+CUL-C717,Culvert C717,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,8.0,1.86563,33.868408,1.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2023-06-07,Soroti,North Eastern,Soroti,B,,8
+CUL-C718,Culvert C718,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,8.0,1.86434,33.86414,1.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2024-01-03,Soroti,North Eastern,Soroti,B,,9
+CUL-C719,Culvert C719,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,8.0,1.86281,33.85981,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2024-05-02,Soroti,North Eastern,Soroti,B,,9
+CUL-C720,Culvert C720,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,90.0,1.84548,33.671329,2.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,4,2023-02-07,Soroti,North Eastern,Soroti,B,,9
+CUL-C721,Culvert C721,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,90.0,1.86537,33.71022,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2023-05-08,Soroti,North Eastern,Soroti,B,,9
+CUL-C723,Culvert C723,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,8.0,1.86014,33.8521,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2024-03-03,Soroti,North Eastern,Soroti,B,,8
+CUL-C724,Culvert C724,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,8.0,1.86246,33.8587,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2023-10-05,Soroti,North Eastern,Soroti,B,,8
+CUL-C725,Culvert C725,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,8.0,1.86542,33.711239,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,4,2024-01-03,Soroti,North Eastern,Soroti,B,,8
+CUL-C726,Culvert C726,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,90.0,1.86337,33.807739,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2022-09-10,Soroti,North Eastern,Soroti,B,,8
+CUL-C727,Culvert C727,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,90.0,1.86327,33.802799,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2024-03-03,Soroti,North Eastern,Soroti,B,,9
+CUL-C728,Culvert C728,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,90.0,1.86336,33.805531,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2022-08-11,Soroti,North Eastern,Soroti,B,,8
+CUL-C729,Culvert C729,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,90.0,1.91312,34.027069,3.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2024-01-03,Soroti,North Eastern,Soroti,B,,8
+CUL-C730,Culvert C730,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,90.0,1.91317,34.026878,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,4,2022-09-10,Soroti,North Eastern,Soroti,B,,8
+CUL-C731,Culvert C731,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,90.0,1.91321,34.026669,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,4,2022-11-09,Soroti,North Eastern,Soroti,B,,8
+CUL-C732,Culvert C732,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,90.0,1.91326,34.02652,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2022-11-09,Soroti,North Eastern,Soroti,B,,8
+CUL-C733,Culvert C733,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,90.0,1.96699,34.09333,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,4,2023-07-07,Soroti,North Eastern,Soroti,B,,8
+CUL-C735,Culvert C735,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,8.0,2.00362,34.096581,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2022-10-10,Soroti,North Eastern,Soroti,B,,8
+CUL-C736,Culvert C736,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,8.0,2.00416,34.097111,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2022-06-12,Soroti,North Eastern,Soroti,B,,8
+CUL-C737,Culvert C737,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,90.0,1.96872,34.092789,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2023-02-07,Soroti,North Eastern,Soroti,B,,8
+CUL-C751,Culvert C751,culvert,Nakalama - Namutumba - Mpologoma bridge,A012_Link01,A,45.7999992370605,0.96904,33.73851,2.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1996,3,2023-12-04,Jinja,Eastern,Jinja,A,,7
+CUL-C753,Culvert C753,culvert,Nakalama - Namutumba - Mpologoma bridge,A012_Link01,A,45.7999992370605,0.96775,33.738098,2.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1996,4,2024-02-02,Jinja,Eastern,Jinja,A,,8
+CUL-C754,Culvert C754,culvert,Nakalama - Namutumba - Mpologoma bridge,A012_Link01,A,46.0,0.9632,33.736629,2.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1996,5,2023-03-09,Jinja,Eastern,Jinja,A,,8
+CUL-C755,Culvert C755,culvert,Nakalama - Namutumba - Mpologoma bridge,A012_Link01,A,45.5,0.9558,33.734219,4.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1996,3,2023-12-04,Jinja,Eastern,Jinja,A,,8
+CUL-C756,Culvert C756,culvert,Nakalama - Namutumba - Mpologoma bridge,A012_Link01,A,46.0,0.9505,33.732498,2.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1996,4,2022-08-11,Jinja,Eastern,Jinja,A,,8
+CUL-C757,Culvert C757,culvert,Nakalama - Namutumba - Mpologoma bridge,A012_Link01,A,45.5,0.88567,33.72316,2.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1996,3,2023-12-04,Jinja,Eastern,Jinja,A,,9
+CUL-C758,Culvert C758,culvert,Nakalama - Namutumba - Mpologoma bridge,A012_Link01,A,45.7999992370605,0.73138,33.58873,2.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1996,5,2023-08-06,Jinja,Eastern,Jinja,A,,8
+CUL-C759,Culvert C759,culvert,Nakalama - Namutumba - Mpologoma bridge,A012_Link01,A,45.7999992370605,0.73115,33.58852,2.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1996,3,2023-04-08,Jinja,Eastern,Jinja,A,,7
+CUL-C760,Culvert C760,culvert,Nakalama - Namutumba - Mpologoma bridge,A012_Link01,A,46.0,0.72923,33.586971,2.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1996,3,2023-07-07,Jinja,Eastern,Jinja,A,,8
+CUL-C761,Culvert C761,culvert,Nakalama - Namutumba - Mpologoma bridge,A012_Link01,A,45.5999984741211,0.71701,33.577209,2.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1996,5,2023-09-05,Jinja,Eastern,Jinja,A,,7
+CUL-C762,Culvert C762,culvert,Nakalama - Namutumba - Mpologoma bridge,A012_Link01,A,46.0,0.71672,33.577,2.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1996,4,2023-06-07,Jinja,Eastern,Jinja,A,,8
+CUL-C763,Culvert C763,culvert,Nakalama - Namutumba - Mpologoma bridge,A012_Link01,A,46.0,0.71567,33.576241,2.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1996,3,2023-02-07,Jinja,Eastern,Jinja,A,,8
+CUL-C764,Culvert C764,culvert,Nakalama - Bugiri - Namutere,A001_Link08,A,117.5,0.63093,33.558899,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1960,2,2023-08-06,Jinja,Eastern,Jinja,A,,7
+CUL-C765,Culvert C765,culvert,Nakalama - Bugiri - Namutere,A001_Link08,A,117.5,0.63096,33.55978,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1960,1,2024-03-03,Jinja,Eastern,Jinja,A,,8
+CUL-C766,Culvert C766,culvert,Nakalama - Bugiri - Namutere,A001_Link08,A,117.5,0.61139,33.66777,1.7,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1960,2,2023-07-07,Jinja,Eastern,Jinja,A,,9
+CUL-C767,Culvert C767,culvert,Nakalama - Bugiri - Namutere,A001_Link08,A,117.5,0.66961,33.669609,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1960,2,2024-02-02,Jinja,Eastern,Jinja,A,,8
+CUL-C768,Culvert C768,culvert,Nakalama - Bugiri - Namutere,A001_Link08,A,117.5,0.6104,33.67152,1.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1960,2,2024-05-02,Jinja,Eastern,Jinja,A,,7
+CUL-C769,Culvert C769,culvert,Nakalama - Bugiri - Namutere,A001_Link08,A,117.5,0.61029,33.671902,1.7,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1960,2,2024-02-02,Jinja,Eastern,Jinja,A,,6
+CUL-C770,Culvert C770,culvert,Busitema Junction - Tororo junction,A001_Link10,A,172.5,0.54134,34.010811,3.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1963,1,2023-12-04,Tororo,Eastern,Tororo,A,,8
+CUL-C771,Culvert C771,culvert,Busitema Junction - Tororo junction,A001_Link10,A,172.5,0.56524,34.031391,3.6,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1963,1,2024-02-02,Tororo,Eastern,Tororo,A,,7
+CUL-C772,Culvert C772,culvert,Busitema Junction - Tororo junction,A001_Link10,A,172.5,0.58792,34.054932,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1963,1,2024-03-03,Tororo,Eastern,Tororo,A,,6
+CUL-C773,Culvert C773,culvert,Busitema Junction - Tororo junction,A001_Link10,A,172.5,0.58832,34.055359,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1963,1,2024-05-02,Tororo,Eastern,Tororo,A,,8
+CUL-C774,Culvert C774,culvert,Busitema Junction - Tororo junction,A001_Link10,A,172.5,0.58865,34.05584,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1963,1,2024-01-03,Tororo,Eastern,Tororo,A,,7
+CUL-C775,Culvert C775,culvert,Busitema Junction - Tororo junction,A001_Link10,A,172.5,0.58907,34.056301,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1963,1,2024-04-02,Tororo,Eastern,Tororo,A,,7
+CUL-C776,Culvert C776,culvert,Busitema Junction - Tororo junction,A001_Link10,A,172.5,0.58977,34.056931,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1963,2,2023-07-07,Tororo,Eastern,Tororo,A,,8
+CUL-C777,Culvert C777,culvert,Tororo - Magodes - Nabumali,A007_Link02,A,36.7000007629395,0.70448,34.1838,1.8,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1969,3,2023-07-07,Tororo,Eastern,Tororo,A,,7
+CUL-C778,Culvert C778,culvert,Tororo - Magodes - Nabumali,A007_Link02,A,4.5,0.71601,34.184738,3.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1969,2,2023-09-05,Tororo,Eastern,Tororo,A,,7
+CUL-C779,Culvert C779,culvert,Tororo - Magodes - Nabumali,A007_Link02,A,4.5,0.76905,34.176189,1.8,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1969,3,2023-12-04,Tororo,Eastern,Tororo,A,,9
+CUL-C780,Culvert C780,culvert,Tororo - Magodes - Nabumali,A007_Link02,A,4.5,0.78678,34.175369,4.2,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1969,1,2024-02-02,Tororo,Eastern,Tororo,A,,9
+CUL-C781,Culvert C781,culvert,Nyambogo - Iyolwa - Mulanda,C836_Link01,C,17.7999992370605,0.73882,34.018929,4.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2023-10-05,Tororo,Eastern,Tororo,C,,8
+CUL-C782,Culvert C782,culvert,Nyambogo - Iyolwa - Mulanda,C836_Link01,C,172.5,0.6396,33.993771,1.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-04-08,Tororo,Eastern,Tororo,C,,7
+CUL-C783,Culvert C783,culvert,Nalugugu - Elgon,C883_Link01,C,19.5,0.92708,33.987419,1.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2022-07-12,Mbale,Eastern,Mbale,C,,8
+CUL-C784,Culvert C784,culvert,Doho - Namulo - Amuro,C839_Link01,C,13.5,0.92043,34.024044,1.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2023-12-04,Tororo,Eastern,Tororo,C,,7
+CUL-C786,Culvert C786,culvert,Bubulo-Bududa Circle road,C867_Link02,C,15.5,0.96431,34.30167,2.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2023-07-07,Mbale,Eastern,Mbale,C,,7
+CUL-C787,Culvert C787,culvert,Bubulo-Bududa Circle road,C867_Link02,C,15.0,1.05183,34.349522,2.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2023-01-08,Mbale,Eastern,Mbale,C,,6
+CUL-C788,Culvert C788,culvert,Buseta - Bugiri,C891_Link01,C,7.5,0.92213,34.330898,2.2,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2023-04-08,Mbale,Eastern,Mbale,C,,8
+CUL-C789,Culvert C789,culvert,Buseta - Bugiri,C891_Link01,C,7.5,0.92322,34.333229,2.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-06-07,Mbale,Eastern,Mbale,C,,7
+CUL-C790,Culvert C790,culvert,Bubulo-Busumbu,C870_Link01,C,15.8000001907349,0.84318,34.27552,4.2,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2023-02-07,Mbale,Eastern,Mbale,C,,9
+CUL-C791,Culvert C791,culvert,Bubulo-Busumbu,C870_Link01,C,15.8000001907349,0.93564,34.284481,6.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,4,2023-09-05,Mbale,Eastern,Mbale,C,,8
+CUL-C792,Culvert C792,culvert,Korir - Malera - Kumi,C927_Link02,C,50.0,1.37773,34.15173,4.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2023-06-07,Mbale,Eastern,Mbale,C,,8
+CUL-C793,Culvert C793,culvert,Korir - Malera - Kumi,C927_Link02,C,12.0,1.3782,34.151531,4.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-09-05,Mbale,Eastern,Mbale,C,,8
+CUL-C794,Culvert C794,culvert,Kapchorwa-Suam,B304_Link02,B,7.0,1.39994,34.454479,2.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2023,4,2023-10-05,Mbale,Eastern,Mbale,B,,8
+CUL-C795,Culvert C795,culvert,Kapchorwa-Suam,B304_Link02,B,7.0,1.41421,34.541519,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2023,4,2024-03-03,Mbale,Eastern,Mbale,B,,9
+CUL-C796,Culvert C796,culvert,Kapchorwa-Suam,B304_Link02,B,7.0,1.41252,34.559891,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2023,5,2022-10-10,Mbale,Eastern,Mbale,B,,9
+CUL-C798,Culvert C798,culvert,Kanyago Bridge - Kumi,B305_Link03,B,41.7000007629395,1.2656,33.872631,5.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,4,2024-01-03,Soroti,North Eastern,Soroti,B,,9
+CUL-C799,Culvert C799,culvert,Kanyago Bridge - Kumi,B305_Link03,B,41.5,1.26482,33.872551,5.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,5,2023-12-04,Soroti,North Eastern,Soroti,B,,9
+CUL-C800,Culvert C800,culvert,Simu corner - Kaserem,C871_Link01,C,9.5,1.31073,34.33054,2.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2023-10-05,Mbale,Eastern,Mbale,C,,6
+CUL-C801,Culvert C801,culvert,Kotido - Apaan - Kabong,B301_Link03,B,102.0,3.50504,34.149639,2.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2023-07-07,Kotido,North Eastern,Kotido,B,,7
+CUL-C802,Culvert C802,culvert,Kotido - Apaan - Kabong,B301_Link03,B,102.0,3.66715,33.99358,1.2,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2023-10-05,Kotido,North Eastern,Kotido,B,,7
+CUL-C804,Culvert C804,culvert,Angatun-Nabilatuk-Lokapel,C960_Link01,C,46.5,1.92787,34.56105,2.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2024-04-02,Moroto,North Eastern,Moroto,C,,7
+CUL-C806,Culvert C806,culvert,Lokapel - Ariamoi,B300_Link05,B,162.5,2.41946,34.57967,2.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2016,5,2023-03-09,Moroto,North Eastern,Moroto,B,,9
+CUL-C807,Culvert C807,culvert,Iriri - Akisim (Lorengechora) - Ariamoi - Nadunget,B303_Link03,B,90.5,2.4265,34.47245,2.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2019,4,2023-09-05,Moroto,North Eastern,Moroto,B,,8
+CUL-C808,Culvert C808,culvert,Kokeris - Lopei,C967_Link01,C,17.5,2.48816,34.38163,0.9,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2024-01-03,Moroto,North Eastern,Moroto,C,,7
+CUL-C809,Culvert C809,culvert,Kokeris - Lopei,C967_Link01,C,17.5,2.48823,34.381618,2.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2024-01-03,Moroto,North Eastern,Moroto,C,,8
+CUL-C810,Culvert C810,culvert,Kokeris - Lopei,C967_Link01,C,17.5,2.49791,34.376148,2.4,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2024-01-03,Moroto,North Eastern,Moroto,C,,8
+CUL-C811,Culvert C811,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,90.0,2.49964,34.375118,2.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2023-09-05,Soroti,North Eastern,Soroti,B,,6
+CUL-C812,Culvert C812,culvert,Kokeris - Lopei,C967_Link01,C,17.5,2.50005,34.37479,2.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-09-05,Moroto,North Eastern,Moroto,C,,8
+CUL-C813,Culvert C813,culvert,Kokeris - Lopei,C967_Link01,C,18.0,2.51331,34.36684,2.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2024-02-02,Moroto,North Eastern,Moroto,C,,7
+CUL-C814,Culvert C814,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,8.0,2.51444,34.365971,2.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2023-07-07,Soroti,North Eastern,Soroti,B,,7
+CUL-C815,Culvert C815,culvert,Kokeris - Lopei,C967_Link01,C,18.0,2.53514,34.36026,2.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2023-02-07,Moroto,North Eastern,Moroto,C,,8
+CUL-C816,Culvert C816,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,90.0,2.53604,34.36018,2.4,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,4,2022-10-10,Soroti,North Eastern,Soroti,B,,8
+CUL-C817,Culvert C817,culvert,Kokeris - Lopei,C967_Link01,C,17.5,2.53623,34.360199,2.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2024-02-02,Moroto,North Eastern,Moroto,C,,8
+CUL-C818,Culvert C818,culvert,Kokeris - Lopei,C967_Link01,C,18.0,2.53677,34.360081,2.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-01-08,Moroto,North Eastern,Moroto,C,,8
+CUL-C821,Culvert C821,culvert,Namalu - Chosan - Lokapel,B300_Link04,B,104.5,1.90946,34.729691,1.2,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,0,2,2023-09-05,Moroto,North Eastern,Moroto,B,,6
+CUL-C823,Culvert C823,culvert,Iriri - Akisim (Lorengechora) - Ariamoi - Nadunget,B303_Link03,B,90.0,2.09735,34.222729,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2019,5,2022-09-10,Moroto,North Eastern,Moroto,B,,6
+CUL-C824,Culvert C824,culvert,Amuria (Kuju) - Obalang,C941_Link01,C,33.0,2.33427,33.581291,2.1,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2024-04-02,Soroti,North Eastern,Soroti,C,,6
+CUL-C825,Culvert C825,culvert,Amuria (Kuju) - Obalang,C941_Link01,C,33.0,2.3326,33.581799,2.2,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2023-10-05,Soroti,North Eastern,Soroti,C,,6
+CUL-C826,Culvert C826,culvert,Soroti-Toroma,C964_Link01,C,37.0,1.72981,33.781879,2.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2023-09-05,Soroti,North Eastern,Soroti,C,,7
+CUL-C827,Culvert C827,culvert,Soroti-Toroma,C964_Link01,C,37.0,1.72124,33.811741,2.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-08-06,Soroti,North Eastern,Soroti,C,,7
+CUL-C829,Culvert C829,culvert,Kapchorwa-Suam,B304_Link02,B,7.5,1.33966,34.382511,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2023,5,2024-04-02,Mbale,Eastern,Mbale,B,,8
+CUL-C830,Culvert C830,culvert,Kapchorwa-Suam,B304_Link02,B,7.0,1.33545,34.388561,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2023,5,2023-09-05,Mbale,Eastern,Mbale,B,,8
+CUL-C831,Culvert C831,culvert,Kapchorwa-Suam,B304_Link02,B,105.0,1.35789,34.390148,2.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2023,5,2024-03-03,Mbale,Eastern,Mbale,B,,8
+CUL-C832,Culvert C832,culvert,Kapchorwa-Suam,B304_Link02,B,7.0,1.37464,34.400669,2.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2023,5,2022-07-12,Mbale,Eastern,Mbale,B,,8
+CUL-C833,Culvert C833,culvert,Kapchorwa-Suam,B304_Link02,B,7.0,1.38425,34.421261,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2023,5,2023-06-07,Mbale,Eastern,Mbale,B,,8
+CUL-C834,Culvert C834,culvert,Muyembe - Kaserem - Kapchorwa,B304_Link01,B,98.6999969482422,1.33153,34.357368,2.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2004,3,2024-02-02,Mbale,Eastern,Mbale,B,,8
+CUL-C835,Culvert C835,culvert,Muyembe - Kaserem - Kapchorwa,B304_Link01,B,98.6999969482422,1.33054,34.324509,2.4,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2004,5,2023-09-05,Mbale,Eastern,Mbale,B,,7
+CUL-C836,Culvert C836,culvert,Soroti - Dokolo,A007_Link06,A,149.0,1.74464,33.579552,1.8,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2009,5,2023-11-04,Soroti,North Eastern,Soroti,A,,8
+CUL-C837,Culvert C837,culvert,Kumi - Soroti,A007_Link05,A,102.0,1.66492,33.763039,2.5,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1970,2,2023-06-07,Soroti,North Eastern,Soroti,A,,8
+CUL-C838,Culvert C838,culvert,Kapir - Ngora,C930_Link01,C,20.0,1.59338,33.789131,1.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-11-04,Soroti,North Eastern,Soroti,C,,9
+CUL-C839,Culvert C839,culvert,Munamba-Magale - Nangya,C870_Link03,C,49.5,0.88653,34.364349,2.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-11-04,Tororo,Eastern,Tororo,C,,6
+CUL-C840,Culvert C840,culvert,Iganga-Kitayungwa,C780_Link01,C,50.0,0.64542,33.413849,1.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2024-05-02,Jinja,Eastern,Jinja,C,,8
+CUL-C841,Culvert C841,culvert,Kamonkoli-Pallisa,C860_Link01,C,43.5,1.1483,33.1483,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,4,2023-10-05,Mbale,Eastern,Mbale,C,,9
+CUL-C842,Culvert C842,culvert,Tirinyi - Pallisa,B305_Link01,B,0,1.10648,33.744171,5.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,5,2023-10-05,Mbale,Eastern,Mbale,B,,9
+CUL-C843,Culvert C843,culvert,Tirinyi - Pallisa,B305_Link01,B,0,1.11258,33.742592,3.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,4,2022-08-11,Mbale,Eastern,Mbale,B,,6
+CUL-C844,Culvert C844,culvert,Leresi-Bunghaji-Budaka,C849_Link01,C,13.5,0.9554,33.958599,4.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-11-04,Tororo,Eastern,Tororo,C,,7
+CUL-C845,Culvert C845,culvert,Leresi-Bunghaji-Budaka,C849_Link01,C,13.5,0.95811,33.957401,1.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2022-12-09,Tororo,Eastern,Tororo,C,,8
+CUL-C846,Culvert C846,culvert,Leresi-Bunghaji-Budaka,C849_Link01,C,13.5,0.95923,33.957039,4.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2024-02-02,Tororo,Eastern,Tororo,C,,8
+CUL-C847,Culvert C847,culvert,Kidoko - Kachonga,C838_Link02,C,19.5,0.94152,34.064629,4.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2022-12-09,Tororo,Eastern,Tororo,C,,7
+CUL-C851,Culvert C851,culvert,Chosan to Amudat,C961_Link01,C,31.0,1.9404,34.8484,0.9,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-10-05,Moroto,North Eastern,Moroto,C,,7
+CUL-C854,Culvert C854,culvert,Rubongi - Mulanda,C844_Link01,C,16.5,0.68644,34.048222,3.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-11-04,Tororo,Eastern,Tororo,C,,7
+CUL-C856,Culvert C856,culvert,Katine to Ochero,C924_Link01,C,70.0,1.83301,33.435799,3.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2023-02-07,Soroti,North Eastern,Soroti,C,,8
+CUL-C858,Culvert C858,culvert,Kanyum - Kidongole,C879_Link02,C,0,1.2908,34.974209,1.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-10-05,Soroti,North Eastern,Soroti,C,,7
+CUL-C859,Culvert C859,culvert,Kanyum - Kidongole,C879_Link02,C,0,1.2908,34.974209,1.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2023-07-07,Soroti,North Eastern,Soroti,C,,7
+CUL-C863,Culvert C863,culvert,Apokor - Kwapa - Tuba,C840_Link02,C,11.5,0.77203,34.21526,2.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2023-07-07,Tororo,Eastern,Tororo,C,,7
+CUL-C870,Culvert C870,culvert,Kidoko - Busiu - Isikhoye,C837_Link02,C,18.0,0.89365,34.119049,2.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2024-05-02,Tororo,Eastern,Tororo,C,,8
+CUL-C871,Culvert C871,culvert,Kidoko - Busiu - Isikhoye,C837_Link02,C,0,0.90306,34.1217,1.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2023-09-05,Tororo,Eastern,Tororo,C,,8
+CUL-C900,Culvert C900,culvert,Mbale - Namunsi - Kumi,A007_Link04,A,0,1.08308,34.17915,5.3,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,1970,3,2022-12-09,Mbale,Eastern,Mbale,A,,7
+CUL-C905,Culvert C905,culvert,Amuria (Kuju) - Obalang,C941_Link01,C,0,2.14199,33.600731,4.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2023-03-09,Soroti,North Eastern,Soroti,C,,7
+CUL-C906,Culvert C906,culvert,Kanyago Bridge - Kumi,B305_Link03,B,0,1.26756,33.872631,5.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,5,2022-12-09,Soroti,North Eastern,Soroti,B,,8
+CUL-C907,Culvert C907,culvert,Kanyago Bridge - Kumi,B305_Link03,B,0,1.2673,33.872799,5.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,5,2022-12-09,Soroti,North Eastern,Soroti,B,,8
+CUL-C908,Culvert C908,culvert,Kanyago Bridge - Kumi,B305_Link03,B,0,1.26837,33.872898,5.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2021,5,2023-09-05,Soroti,North Eastern,Soroti,B,,8
+CUL-C909,Culvert C909,culvert,Ngora - Mukongoro,C930_Link02,C,0,1.3564,33.795021,1.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2023-06-07,Soroti,North Eastern,Soroti,C,,7
+CUL-C910,Culvert C910,culvert,Arapai - Katakwi - Iriri,B303_Link02,B,0,1.86416,33.864201,2.0,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2020,5,2022-09-10,Soroti,North Eastern,Soroti,B,,8
+CUL-C911,Culvert C911,culvert,Tororo(Malaba junction) - Busia,B306_Link01,B,0,0.58574,34.139339,5.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-11-04,Tororo,Eastern,Tororo,B,,0
+CUL-C912,Culvert C912,culvert,Tororo(Malaba junction) - Busia,B306_Link01,B,0,0.58439,34.138821,3.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2023-10-05,Tororo,Eastern,Tororo,B,,9
+CUL-C913,Culvert C913,culvert,Tororo(Malaba junction) - Busia,B306_Link01,B,0,0.58202,34.137901,5.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2022-12-09,Tororo,Eastern,Tororo,B,,9
+CUL-C914,Culvert C914,culvert,Nabumali junction-Busolwe,C833_Link01,C,0,0.92831,33.990311,2.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2023-09-05,Tororo,Eastern,Tororo,C,,7
+CUL-C915,Culvert C915,culvert,Kidoko - Kachonga,C838_Link02,C,0,0.94015,34.065811,3.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2023-03-09,Tororo,Eastern,Tororo,C,,8
+CUL-C917,Culvert C917,culvert,Buseta - Bugiri,C891_Link01,C,0,0.91622,34.35997,4.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,3,2024-04-02,Mbale,Eastern,Mbale,C,,7
+CUL-C918,Culvert C918,culvert,Buseta - Bugiri,C891_Link01,C,0,0.90773,34.35965,5.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,2,2023-10-05,Mbale,Eastern,Mbale,C,,7
+CUL-C919,Culvert C919,culvert,Buseta - Bugiri,C891_Link01,C,0,0.93077,34.295979,2.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,0,4,2023-10-05,Mbale,Eastern,Mbale,C,,8
+CUL-CM20,Culvert CM20,culvert,Kampala NorthernBypass,M20,M,0,0.3521,32.5897,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2008,4,2022-11-09,Kampala,Central,Kampala,M,,8
+CUL-CM20-369,Culvert CM20,culvert,Kampala NorthernBypass,M20,M,0,0.3523,32.572,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2008,3,2023-03-09,Kampala,Central,Kampala,M,,8
+CUL-CM20-370,Culvert CM20,culvert,Kampala NorthernBypass,M20,M,0,0.3523,32.572,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2008,3,2023-06-07,Kampala,Central,Kampala,M,,8
+CUL-CM20-371,Culvert CM20,culvert,Kampala NorthernBypass,M20,M,0,0.3505,32.5665,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2008,3,2023-04-08,Kampala,Central,Kampala,M,,8
+CUL-CM3,Culvert CM3,culvert,Kampala - Entebbe Expressway,M3_Link01,M,0,0.2691,32.5206,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2018,5,2023-06-07,Kampala,Central,Kampala,M,,8
+CUL-CM3-373,Culvert CM3,culvert,Kampala - Entebbe Expressway,M3_Link01,M,0,0.2545,32.5226,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2018,4,2023-12-04,Kampala,Central,Kampala,M,,8
+CUL-CM3-374,Culvert CM3,culvert,Kampala - Entebbe Expressway,M3_Link01,M,0,0.24,32.5241,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2018,5,2023-08-06,Kampala,Central,Kampala,M,,8
+CUL-CM3-375,Culvert CM3,culvert,Kampala - Entebbe Expressway,M3_Link01,M,0,0.2408,32.5241,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2018,5,2023-09-05,Kampala,Central,Kampala,M,,8
+CUL-CM3-376,Culvert CM3,culvert,Kampala - Entebbe Expressway,M3_Link01,M,0,0.24,32.5241,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2018,5,2023-11-04,Kampala,Central,Kampala,M,,8
+CUL-CM3-377,Culvert CM3,culvert,Kampala - Entebbe Expressway,M3_Link01,M,0,0.2306,32.5241,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2018,4,2023-08-06,Kampala,Central,Kampala,M,,8
+CUL-CM3-378,Culvert CM3,culvert,Kampala - Entebbe Expressway,M3_Link01,M,0,0.2259,32.5268,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2018,4,2023-12-04,Kampala,Central,Kampala,M,,8
+CUL-CM3-379,Culvert CM3,culvert,Kampala - Entebbe Expressway,M3_Link01,M,0,0.2128,32.531,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2018,4,2023-10-05,Kampala,Central,Kampala,M,,8
+CUL-CM3-380,Culvert CM3,culvert,Kampala - Entebbe Expressway,M3_Link01,M,0,0.2128,32.531,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2018,5,2023-07-07,Kampala,Central,Kampala,M,,8
+CUL-CM3-381,Culvert CM3,culvert,Kampala - Entebbe Expressway,M3_Link01,M,0,0.2012,32.5269,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2018,5,2022-09-10,Kampala,Central,Kampala,M,,8
+CUL-CM3-382,Culvert CM3,culvert,Kampala - Entebbe Expressway,M3_Link01,M,0,0.1882,32.525,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2018,5,2024-03-03,Kampala,Central,Kampala,M,,8
+CUL-CM3-383,Culvert CM3,culvert,Kampala - Entebbe Expressway,M3_Link01,M,0,0.1808,32.5206,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2018,5,2023-09-05,Kampala,Central,Kampala,M,,8
+CUL-CM3-384,Culvert CM3,culvert,Kampala - Entebbe Expressway,M3_Link01,M,0,0.1691,32.5147,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2018,5,2023-02-07,Kampala,Central,Kampala,M,,8
+CUL-CM3-385,Culvert CM3,culvert,Kampala - Entebbe Expressway,M3_Link01,M,0,0.1641,32.5134,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2018,4,2023-03-09,Kampala,Central,Kampala,M,,8
+CUL-CM3-386,Culvert CM3,culvert,Kampala - Entebbe Expressway,M3_Link01,M,0,0.1542,32.5114,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2018,5,2023-09-05,Kampala,Central,Kampala,M,,8
+CUL-CM3-387,Culvert CM3,culvert,Kampala - Entebbe Expressway,M3_Link01,M,0,0.1391,32.5101,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2018,5,2023-03-09,Kampala,Central,Kampala,M,,8
+CUL-CMunyoyoSpur,Culvert CMunyoyo Spur,culvert,Kajjansi Interchange Slip 1,M3Int2_S1,M,0,0.2158,32.5319,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2018,4,2022-07-12,Kampala,Central,Kampala,M,,8
+CUL-C001,Culvert C001,culvert,Kasangati - Kyaliwajala,C194_Link02,C,13.574,-0.41367,32.62708,1.2,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,,4,2024-02-02,Kampala,Central,Kampala,C,,
+CUL-C156,Culvert C156,culvert,Nsiika -  Bihanga -Katerera(Ishaka T/C),C416_Link02,C,42.2000007629395,0.2637,30.32597,1.2,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,,4,2023-05-08,Ibanda,Southern,Ibanda,C,,
+CUL-C196,Culvert C196,culvert,Kisinga-Kyarumba-Kibirizi,C513_Link02,C,22.3,-0.11627,29.95245,2.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,,4,2022-08-11,Kasese,Southern,Kasese,C,,
+CUL-C197,Culvert C197,culvert,Mubuku-Maliba-Nyakalingijo,C510_Link01,C,9.3,-0.32696,30.08559,1.2,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,,3,2024-03-03,Kasese,Southern,Kasese,C,,
+CUL-C400,Culvert C400,culvert,Kitumbi Bridge - Bukwiri,C271_Link04,C,68.137,0.944386,31.546,2.1,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,,3,2023-02-07,Hoima,Western,Hoima,C,,
+CUL-C404,Culvert C404,culvert,Bugambe-Kidoma,C594_Link01,C,3.76,1.406779,31.14215,6.5,1,1,0,6.0,Reinforced Concrete,Stream,Unsealed,,4,2024-03-03,Hoima,Western,Hoima,C,,
+CUL-C407,Culvert C407,culvert,Kabaale -Kaiso,C596_Link02,C,0,1.519019,30.95744,15.8,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,,2,2023-08-06,Hoima,Western,Hoima,C,,
+CUL-C416,Culvert C416,culvert,Rwimi-Dura-Kamwenge,C547_Link01,C,22.836,0.182735,30.31748,3.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,,3,2024-02-02,Fort Portal,Western,Fort Portal,C,,
+CUL-C421,Culvert C421,culvert,Kabwoya - Kiziranfumbi - Buhimba,B202_Link04,B,117.551,1.316272,31.17754,2.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,,3,2022-12-09,Hoima,Western,Hoima,B,,
+CUL-C501,Culvert C501,culvert,Acholibur - Aswa,C681_Link01,C,10.0,3.08105,32.84151,4.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,,2,2023-11-04,Kitgum,Northern,Kitgum,C,,
+CUL-C502,Culvert C502,culvert,Acholibur - Aswa,C681_Link01,C,15.5,3.061778,32.80585,4.1,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,,4,2024-05-02,Kitgum,Northern,Kitgum,C,,
+CUL-C503,Culvert C503,culvert,Acholibur - Aswa,C681_Link01,C,18.6,3.04563,32.78349,4.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,,3,2023-02-07,Kitgum,Northern,Kitgum,C,,
+CUL-C504,Culvert C504,culvert,Acholibur - Aswa,C681_Link01,C,23.1,3.01918,32.75536,4.2,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,,2,2023-11-04,Kitgum,Northern,Kitgum,C,,
+CUL-C505,Culvert C505,culvert,Aswa - Gulu,C681_Link02,C,76.0,2.821504,32.34547,8.6,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,,3,2023-11-04,Gulu,Northern,Gulu,C,,
+CUL-C506,Culvert C506,culvert,Aswa - Gulu,C681_Link02,C,77.5,2.814297,33.33416,4.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,,3,2023-11-04,Gulu,Northern,Gulu,C,,
+CUL-C507,Culvert C507,culvert,Acholibur - Kitgum,B252_Link03,B,0,3.14608,32.91422,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2017,4,2023-12-04,Kitgum,Northern,Kitgum,B,,
+CUL-C508,Culvert C508,culvert,Acholibur - Kitgum,B252_Link03,B,172.142,3.197395,32.9235,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2017,5,2023-08-06,Kitgum,Northern,Kitgum,B,,
+CUL-C509,Culvert C509,culvert,Acholibur - Kitgum,B252_Link03,B,173.629,3.21019,32.92635,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2017,5,2022-06-12,Kitgum,Northern,Kitgum,B,,
+CUL-C510,Culvert C510,culvert,Acholibur - Kitgum,B252_Link03,B,178.098,3.24647,32.91166,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2017,5,2023-06-07,Kitgum,Northern,Kitgum,B,,
+CUL-C511,Culvert C511,culvert,Acholibur - Kitgum,B252_Link03,B,180.878,3.265768,32.90044,2.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2017,4,2024-05-02,Kitgum,Northern,Kitgum,B,,
+CUL-C512,Culvert C512,culvert,Kitgum - Madi Opei,B252_Link04,B,189.141,3.32012,32.89986,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2017,5,2023-07-07,Kitgum,Northern,Kitgum,B,,
+CUL-C513,Culvert C513,culvert,Kitgum - Madi Opei,B252_Link04,B,191.985,3.33448,32.91457,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2017,5,2022-09-10,Kitgum,Northern,Kitgum,B,,
+CUL-C514,Culvert C514,culvert,Kitgum - Madi Opei,B252_Link04,B,196.855,3.36424,32.95256,6.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2017,4,2023-11-04,Kitgum,Northern,Kitgum,B,,
+CUL-C515,Culvert C515,culvert,Kitgum - Madi Opei,B252_Link04,B,201.797,3.38764,32.9905,2.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2017,4,2023-02-07,Kitgum,Northern,Kitgum,B,,
+CUL-C517,Culvert C517,culvert,Kitgum - Madi Opei,B252_Link04,B,216.803,3.49412,33.06165,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2017,4,2022-10-10,Kitgum,Northern,Kitgum,B,,
+CUL-C518,Culvert C518,culvert,Kitgum - Madi Opei,B252_Link04,B,219.607,3.51856,33.06816,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2017,5,2022-12-09,Kitgum,Northern,Kitgum,B,,
+CUL-C519,Culvert C519,culvert,Kitgum - Madi Opei,B252_Link04,B,225.983,3.57487,33.07814,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2017,5,2023-02-07,Kitgum,Northern,Kitgum,B,,
+CUL-C520,Culvert C520,culvert,Kitgum - Madi Opei,B252_Link04,B,230.677,3.615332,33.09077,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2017,5,2022-06-12,Kitgum,Northern,Kitgum,B,,
+CUL-C521,Culvert C521,culvert,Madi Opei - Uganda/Sudan border,B252_Link05,B,236.75,3.66545,33.11091,2.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2017,5,2024-01-03,Kitgum,Northern,Kitgum,B,,
+CUL-C522,Culvert C522,culvert,Minakulu - Bobi - Gulu,A006_Link11,A,292.0,2.47519,32.37433,2.1,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,2015,5,2022-09-10,Gulu,Northern,Gulu,A,,
+CUL-C523,Culvert C523,culvert,Kamdini - Minakulu,A006_Link10,A,274.191,2.30097,32.37202,3.7,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2015,5,2022-10-10,Gulu,Northern,Gulu,A,,
+CUL-C524,Culvert C524,culvert,Kamdini - Minakulu,A006_Link10,A,274.018,2.29963,32.37123,3.7,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,2015,5,2022-06-12,Gulu,Northern,Gulu,A,,
+CUL-C525,Culvert C525,culvert,Atiak-Palabek,C700_Link01,C,57.167,3.41055,32.47994,1.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,,3,2023-09-05,Kitgum,Northern,Kitgum,C,,
+CUL-C526,Culvert C526,culvert,Madi Opei-Agoro Hills,C702_Link01,C,6.151,3.67923,33.08751,1.8,1,1,0,6.0,Reinforced Concrete,Stream,Unsealed,2015,5,2023-01-08,Kitgum,Northern,Kitgum,C,,
+CUL-C527,Culvert C527,culvert,Madi Opei-Agoro Hills,C702_Link01,C,6.298,3.68058,33.08728,2.8,1,1,0,6.0,Reinforced Concrete,Stream,Unsealed,2015,5,2024-05-02,Kitgum,Northern,Kitgum,C,,
+CUL-C528,Culvert C528,culvert,Abim - Kilak,B302_Link02,B,99.601,2.754802,33.34859,3.3,1,1,0,6.0,Reinforced Concrete,Stream,Unsealed,2012,5,2023-09-05,Kitgum,Northern,Kitgum,B,,
+CUL-C529,Culvert C529,culvert,Abim - Kilak,B302_Link02,B,99.631,2.754778,33.34883,3.3,1,1,0,6.0,Reinforced Concrete,Stream,Unsealed,2012,5,2022-11-09,Kitgum,Northern,Kitgum,B,,
+CUL-C530,Culvert C530,culvert,Abim - Kilak,B302_Link02,B,99.671,2.75473,33.3492,4.6,1,1,0,6.0,Reinforced Concrete,Stream,Unsealed,2012,5,2023-04-08,Kitgum,Northern,Kitgum,B,,
+CUL-C551,Culvert C551,culvert,Atiak - Moyo,B250_Link01,B,17.0,3.35722,32.01639,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Unsealed,,3,2024-02-02,Moyo,Northern,Moyo,B,,
+CUL-C552,Culvert C552,culvert,Atiak - Moyo,B250_Link01,B,42.0,3.36944,31.80806,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Unsealed,,2,2023-08-06,Moyo,Northern,Moyo,B,,
+CUL-C553,Culvert C553,culvert,Atiak - Moyo,B250_Link01,B,63.0,3.55944,31.81639,2.4,1,1,0,6.0,Reinforced Concrete,Stream,Unsealed,,4,2022-08-11,Moyo,Northern,Moyo,B,,
+CUL-C554,Culvert C554,culvert,Atiak - Moyo,B250_Link01,B,74.0,3.64572,31.74441,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Unsealed,,3,2024-05-02,Moyo,Northern,Moyo,B,,
+CUL-C556,Culvert C556,culvert,Atiak - Moyo,B250_Link01,B,79.0,3.64056,31.78917,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Unsealed,,3,2023-03-09,Moyo,Northern,Moyo,B,,
+CUL-C557,Culvert C557,culvert,Atiak - Moyo,B250_Link01,B,87.0,3.64559,31.74417,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Unsealed,,3,2023-08-06,Moyo,Northern,Moyo,B,,
+CUL-C558,Culvert C558,culvert,Adjumani - Sinyanya Ferry landing,C726_Link01,C,14.0,3.31417,31.68528,1.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,,3,2023-12-04,Moyo,Northern,Moyo,C,,
+CUL-C560,Culvert C560,culvert,Yumbe - Manibe,B250_Link03,B,143.144,3.27824,31.15049,1.5,1,1,0,6.0,Reinforced Concrete,Stream,Unsealed,,3,2023-10-05,Moyo,Northern,Moyo,B,,
+CUL-C561,Culvert C561,culvert,Moyo - Yumbe,B250_Link02,B,123.400001525879,3.28741,31.16478,6.0,1,1,0,6.0,Reinforced Concrete,Stream,Unsealed,,2,2023-09-05,Moyo,Northern,Moyo,B,,
+CUL-C562,Culvert C562,culvert,Inde-Ocoko,C743_Link02,C,73.692,2.89748,31.11218,1.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,,2,2024-01-03,Arua,Northern,Arua,C,,
+CUL-C566,Culvert C566,culvert,Pabbo - Ajulu - Uyama,C690_Link01,C,12.672,3.02165,32.2273,0.9,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,,4,2022-06-12,Gulu,Northern,Gulu,C,,
+CUL-C570,Culvert C570,culvert,Lira - Akia,C650_Link01,C,43.85,2.37161,33.22121,2.5,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,,3,2023-07-07,Lira,Northern,Lira,C,,
+CUL-C571,Culvert C571,culvert,Agweng-Arom,C667_Link01,C,14.55,2.59484,32.85668,2.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,,2,2023-08-06,Lira,Northern,Lira,C,,
+CUL-C601,Culvert C601,culvert,Karuma - Olwiyo,A008_Link01,A,17.0,2.31361,32.165,1.5,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,,3,2023-12-04,Gulu,Northern,Gulu,A,,
+CUL-C603,Culvert C603,culvert,Packwach - Nebbi,A008_Link03,A,148.0,2.48569,31.15952,3.4,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,,4,2023-06-07,Arua,Northern,Arua,A,,
+CUL-C604,Culvert C604,culvert,Nebbi - Eruba,A008_Link04,A,165.0,2.52462,31.09036,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,,2,2024-03-03,Arua,Northern,Arua,A,,
+CUL-C605,Culvert C605,culvert,Nebbi - Eruba,A008_Link04,A,218.0,2.90733,30.96114,3.2,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,,2,2023-12-04,Arua,Northern,Arua,A,,
+CUL-C606,Culvert C606,culvert,Manibe - Maracha - Koboko,A008_Link06,A,272.0,3.26848,30.95106,2.5,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,,4,2023-09-05,Arua,Northern,Arua,A,,
+CUL-C607,Culvert C607,culvert,Manibe - Maracha - Koboko,A008_Link06,A,283.0,3.37405,30.95673,2.5,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,,2,2024-01-03,Arua,Northern,Arua,A,,
+CUL-C608,Culvert C608,culvert,Manibe - Maracha - Koboko,A008_Link06,A,305.600006103516,3.53112,30.89326,2.9,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,,4,2023-07-07,Arua,Northern,Arua,A,,
+CUL-C752,Culvert C752,culvert,Nakalama - Namutumba - Mpologoma bridge,A012_Link01,A,43.33,0.96801,33.73812,1.8,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,,3,2024-05-02,Jinja,Eastern,Jinja,A,,
+CUL-C785,Culvert C785,culvert,Kapenguria - Kwot,C888_Link01,C,10.62,1.3413,34.47527,3.5,1,1,0,6.0,Reinforced Concrete,Stream,Unsealed,,3,2023-09-05,Mbale,Eastern,Mbale,C,,
+CUL-C797,Culvert C797,culvert,Kapchorwa-Suam,B304_Link02,B,98.7,1.41983,34.59978,2.4,1,1,0,6.0,Reinforced Concrete,Stream,Unsealed,,4,2023-07-07,Mbale,Eastern,Mbale,B,,
+CUL-C803,Culvert C803,culvert,Kaabong - Kalapata - Piire,C985_Link01,C,33.6,3.76284,34.05447,2.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,,4,2024-03-03,Kotido,North Eastern,Kotido,C,,
+CUL-C805,Culvert C805,culvert,Ariamoi - Moroto,B300_Link06,B,208.0,2.5077,34.57632,2.5,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,,3,2023-04-08,Moroto,North Eastern,Moroto,B,,
+CUL-C819,Culvert C819,culvert,Namalu - Nakapiripirit,B300_Link04,B,105.0,1.83062,34.68528,2.6,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,,2,2023-11-04,Moroto,North Eastern,Moroto,B,,
+CUL-C820,Culvert C820,culvert,Kapchorwa-Suam,B304_Link02,B,98.7,1.26685,34.74356,1.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,,4,2023-09-05,Mbale,Eastern,Mbale,B,,
+CUL-C822,Culvert C822,culvert,Turtuko - Nyakwae,C969_Link02,C,24.8,2.4921,34.0373,2.6,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,,3,2023-08-06,Moroto,North Eastern,Moroto,C,,
+CUL-C828,Culvert C828,culvert,Kanyago Bridge - Kumi,B305_Link03,B,41.45,1.41237,33.9209,0.9,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,,4,2023-10-05,Soroti,North Eastern,Soroti,B,,
+CUL-C848,Culvert C848,culvert,Mbale - Namunsi - Kumi,A007_Link04,A,48.1,1.08308,34.17909,4.5,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,,4,2023-09-05,Mbale,Eastern,Mbale,A,,
+CUL-C849,Culvert C849,culvert,Butebo-Kadoto,C878_Link02,C,48.548,1.79143,33.7973,3.5,1,1,0,6.0,Reinforced Concrete,Stream,Unsealed,,3,2023-10-05,Mbale,Eastern,Mbale,C,,
+CUL-C850,Culvert C850,culvert,Kapir - Ngora,C930_Link01,C,19.67,1.59338,33.7892,1.8,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,,3,2022-12-09,Soroti,North Eastern,Soroti,C,,
+CUL-C852,Culvert C852,culvert,Lokopo Link,C973_Link01,C,5.6,2.48765,34.3564,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Unsealed,,3,2023-07-07,Moroto,North Eastern,Moroto,C,,
+CUL-C853,Culvert C853,culvert,Lokopo Link,C973_Link01,C,5.6,2.48752,34.3561,2.5,1,1,0,6.0,Reinforced Concrete,Stream,Unsealed,,3,2023-02-07,Moroto,North Eastern,Moroto,C,,
+CUL-C855,Culvert C855,culvert,Buseta - Bugiri,C891_Link01,C,6.0,0.88652,34.36434,6.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,,4,2024-02-02,Mbale,Eastern,Mbale,C,,
+CUL-C857,Culvert C857,culvert,Katine to Ochero,C924_Link01,C,68.0,1.75545,33.17589,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Unsealed,,3,2023-02-07,Soroti,North Eastern,Soroti,C,,
+CUL-C860,Culvert C860,culvert,Kanyum - Kidongole,C879_Link02,C,28.0,1.29062,33.97423,3.6,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,,3,2022-12-09,Soroti,North Eastern,Soroti,C,,
+CUL-C861,Culvert C861,culvert,Kotido - Abim,B302_Link01,B,0,3.00536,34.04604,3.6,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,,3,2024-01-03,Kotido,North Eastern,Kotido,B,,
+CUL-C862,Culvert C862,culvert,Kapedo-Karenga,C993_Link01,C,37.0,3.69792,33.89752,0.9,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,,2,2023-11-04,Kotido,North Eastern,Kotido,C,,
+CUL-C864,Culvert C864,culvert,Bumwambu - Bulaago - Gimadu,C887_Link02,C,13.0,1.2449,34.36031,2.3,1,1,0,6.0,Reinforced Concrete,Stream,Unsealed,,4,2023-10-05,Mbale,Eastern,Mbale,C,,
+CUL-C360,Culvert C360,culvert,Mbarara(Bushenyi Junction)  - Ntungamo,A002_Link08,A,264.0,0.62428,30.633989,1.5,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,,4,2023-08-06,Mbarara,Southern,Mbarara,A,,
+CUL-C368,Culvert C368,culvert,Kasese - Kikorongo,A005_Link14,A,0,0.03422,30.01984,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,,2,2023-10-05,Kasese,Southern,Kasese,A,,
+CUL-C371,Culvert C371,culvert,Kasese - Kikorongo,A005_Link14,A,0,0.15699,30.07596,4.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,,4,2023-02-07,Kasese,Southern,Kasese,A,,
+CUL-C373,Culvert C373,culvert,Kisinga-Kyarumba-Kibirizi,C513_Link02,C,0,0.12265,29.949551,5.0,1,1,0,6.0,Reinforced Concrete,Stream,Unsealed,,3,2023-07-07,Kasese,Southern,Kasese,C,,
+CUL-C374,Culvert C374,culvert,Rugendabara - Kaswangali,C512_Link01,C,21.6900005340576,0.4581,30.12455,3.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,,4,2022-10-10,Kasese,Southern,Kasese,C,,
+CUL-C375,Culvert C375,culvert,Rugendabara - Kaswangali,C512_Link01,C,5.80000019073486,-0.38592,30.17207,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Unsealed,,2,2024-02-02,Kasese,Southern,Kasese,C,,
+CUL-C376,Culvert C376,culvert,Unknown Road,C490_Link01,C,14.1999998092651,0.84479,29.87722,3.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,,4,2023-05-08,,Southern,,C,,
+CUL-C377,Culvert C377,culvert,Ruwerere - Biraara - Kanungu,C459_Link01,C,7.86999988555908,0.84707,29.87402,3.0,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,,3,2023-01-08,Kabale,Southern,Kabale,C,,
+CUL-C361,Culvert C361,culvert,Mbarara(Bushenyi Junction)  - Ntungamo,A002_Link08,A,0,0.657125,30.473591,2.4,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,,3,2023-02-07,Mbarara,Southern,Mbarara,A,,
+CUL-C378,Culvert C378,culvert,Kabira - Rukungiri,C447_Link02,C,51.9799995422363,0.67468,30.14225,2.0,1,1,0,6.0,Reinforced Concrete,Stream,Unsealed,,3,2024-05-02,Kabale,Southern,Kabale,C,,
+CUL-C362,Culvert C362,culvert,Rubaale - Muhanga - Kabale,A002_Link10,A,341.399993896484,1.02987,30.18576,1.8,1,1,0,6.0,Corrugated Steel,Stream,Bituminous,,3,2024-02-02,Kabale,Southern,Kabale,A,,
+CUL-C453,Culvert C453,culvert,Bulima - Masindi,B204_Link01,B,23.3999996185303,1.62918,31.691919,1.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,,3,2023-02-07,Masindi,Western,Masindi,B,,
+CUL-C454,Culvert C454,culvert,Bulima - Masindi,B204_Link01,B,23.2999992370605,1.62954,31.692499,1.5,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,,3,2024-04-02,Masindi,Western,Masindi,B,,
+CUL-C471,Culvert C471,culvert,Kisanja-Park jctn - Buliisa,C625_Link01,C,24.0,1.94168,31.713499,2.0,1,1,0,6.0,Reinforced Concrete,Stream,Unsealed,,4,2023-03-09,Masindi,Western,Masindi,C,,
+CUL-C472,Culvert C472,culvert,Kisanja-Park jctn - Buliisa,C625_Link01,C,26.1000003814697,1.95866,31.713381,2.0,1,1,0,6.0,Reinforced Concrete,Stream,Unsealed,,2,2023-07-07,Masindi,Western,Masindi,C,,
+CUL-C489,Culvert C489,culvert,Hoima (Parajwoki) -Biso,C590_Link01,C,1.75999999046326,1.44888,31.341801,1.5,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,,2,2024-02-02,Hoima,Western,Hoima,C,,
+CUL-C492,Culvert C492,culvert,Karugutu-Bundibugyo - Lamia,C540_Link02,C,49.7900009155273,0.75837,30.04895,3.0,1,1,0,6.0,Reinforced Concrete,Stream,Bituminous,,3,2023-12-04,Fort Portal,Western,Fort Portal,C,,
+CUL-C493,Culvert C493,culvert,Rwimi-Dura-Kamwenge,C547_Link01,C,24.3999996185303,0.20319,30.31901,2.6,1,1,0,6.0,Corrugated Steel,Stream,Unsealed,,2,2023-06-07,Fort Portal,Western,Fort Portal,C,,

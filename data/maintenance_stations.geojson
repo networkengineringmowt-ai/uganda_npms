@@ -1,0 +1,28 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature", "properties": { "id": "MS01", "name": "Kampala Maintenance Station", "region": "Central", "district": "Kampala", "type": "Regional HQ" }, "geometry": { "type": "Point", "coordinates": [32.5825, 0.3476] } },
+    { "type": "Feature", "properties": { "id": "MS02", "name": "Entebbe Maintenance Depot", "region": "Central", "district": "Wakiso", "type": "Sub-station" }, "geometry": { "type": "Point", "coordinates": [32.4614, 0.0500] } },
+    { "type": "Feature", "properties": { "id": "MS03", "name": "Mukono Maintenance Station", "region": "Central", "district": "Mukono", "type": "Station" }, "geometry": { "type": "Point", "coordinates": [32.7553, 0.3533] } },
+    { "type": "Feature", "properties": { "id": "MS04", "name": "Gulu Maintenance Station", "region": "Northern", "district": "Gulu", "type": "Regional HQ" }, "geometry": { "type": "Point", "coordinates": [32.2994, 2.7745] } },
+    { "type": "Feature", "properties": { "id": "MS05", "name": "Lira Maintenance Station", "region": "Northern", "district": "Lira", "type": "Station" }, "geometry": { "type": "Point", "coordinates": [32.9000, 2.2499] } },
+    { "type": "Feature", "properties": { "id": "MS06", "name": "Kitgum Maintenance Depot", "region": "Northern", "district": "Kitgum", "type": "Sub-station" }, "geometry": { "type": "Point", "coordinates": [32.8856, 3.2780] } },
+    { "type": "Feature", "properties": { "id": "MS07", "name": "Arua Maintenance Station", "region": "Northern", "district": "Arua", "type": "Station" }, "geometry": { "type": "Point", "coordinates": [30.9108, 3.0235] } },
+    { "type": "Feature", "properties": { "id": "MS08", "name": "Adjumani Maintenance Depot", "region": "Northern", "district": "Adjumani", "type": "Sub-station" }, "geometry": { "type": "Point", "coordinates": [31.7939, 3.3786] } },
+    { "type": "Feature", "properties": { "id": "MS09", "name": "Mbale Maintenance Station", "region": "Eastern", "district": "Mbale", "type": "Regional HQ" }, "geometry": { "type": "Point", "coordinates": [34.1750, 1.0808] } },
+    { "type": "Feature", "properties": { "id": "MS10", "name": "Jinja Maintenance Station", "region": "Eastern", "district": "Jinja", "type": "Station" }, "geometry": { "type": "Point", "coordinates": [33.2044, 0.4244] } },
+    { "type": "Feature", "properties": { "id": "MS11", "name": "Soroti Maintenance Depot", "region": "Eastern", "district": "Soroti", "type": "Station" }, "geometry": { "type": "Point", "coordinates": [33.6114, 1.7148] } },
+    { "type": "Feature", "properties": { "id": "MS12", "name": "Tororo Maintenance Station", "region": "Eastern", "district": "Tororo", "type": "Sub-station" }, "geometry": { "type": "Point", "coordinates": [34.1803, 0.6925] } },
+    { "type": "Feature", "properties": { "id": "MS13", "name": "Fort Portal Maintenance Station", "region": "Western", "district": "Kabarole", "type": "Regional HQ" }, "geometry": { "type": "Point", "coordinates": [30.2750, 0.6711] } },
+    { "type": "Feature", "properties": { "id": "MS14", "name": "Hoima Maintenance Station", "region": "Western", "district": "Hoima", "type": "Station" }, "geometry": { "type": "Point", "coordinates": [31.3522, 1.4350] } },
+    { "type": "Feature", "properties": { "id": "MS15", "name": "Masindi Maintenance Depot", "region": "Western", "district": "Masindi", "type": "Sub-station" }, "geometry": { "type": "Point", "coordinates": [31.7156, 1.6733] } },
+    { "type": "Feature", "properties": { "id": "MS16", "name": "Kasese Maintenance Station", "region": "Western", "district": "Kasese", "type": "Sub-station" }, "geometry": { "type": "Point", "coordinates": [30.0844, 0.1822] } },
+    { "type": "Feature", "properties": { "id": "MS17", "name": "Mbarara Maintenance Station", "region": "Southern", "district": "Mbarara", "type": "Regional HQ" }, "geometry": { "type": "Point", "coordinates": [30.6567, -0.6072] } },
+    { "type": "Feature", "properties": { "id": "MS18", "name": "Kabale Maintenance Station", "region": "Southern", "district": "Kabale", "type": "Station" }, "geometry": { "type": "Point", "coordinates": [29.9892, -1.2497] } },
+    { "type": "Feature", "properties": { "id": "MS19", "name": "Ntungamo Maintenance Depot", "region": "Southern", "district": "Ntungamo", "type": "Sub-station" }, "geometry": { "type": "Point", "coordinates": [30.2639, -0.8797] } },
+    { "type": "Feature", "properties": { "id": "MS20", "name": "Mubende Maintenance Station", "region": "Central", "district": "Mubende", "type": "Station" }, "geometry": { "type": "Point", "coordinates": [31.3594, 0.5597] } },
+    { "type": "Feature", "properties": { "id": "MS21", "name": "Moroto Maintenance Station", "region": "North Eastern", "district": "Moroto", "type": "Regional HQ" }, "geometry": { "type": "Point", "coordinates": [34.6667, 2.5333] } },
+    { "type": "Feature", "properties": { "id": "MS22", "name": "Kotido Maintenance Depot", "region": "North Eastern", "district": "Kotido", "type": "Sub-station" }, "geometry": { "type": "Point", "coordinates": [34.1319, 3.0006] } },
+    { "type": "Feature", "properties": { "id": "MS23", "name": "Nakasongola Maintenance Depot", "region": "Central", "district": "Nakasongola", "type": "Sub-station" }, "geometry": { "type": "Point", "coordinates": [32.4594, 1.3100] } }
+  ]
+}
