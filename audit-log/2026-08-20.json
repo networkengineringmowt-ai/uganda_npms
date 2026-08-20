@@ -1,0 +1,40 @@
+{
+  "date": "2026-08-20",
+  "repo": "uganda_npms",
+  "url": "https://networkengineringmowt-ai.github.io/uganda_npms/",
+  "technical": {
+    "httpStatus": 200,
+    "loadFailed": false,
+    "pageRendered": true,
+    "bodyTextLength": 180,
+    "consoleErrors": [],
+    "brokenImages": [],
+    "hashLinksFound": [],
+    "chartElementCount": 3
+  },
+  "uiCohesion": {
+    "amber": "fail",
+    "darkBackground": "fail",
+    "nav": "fail",
+    "mowtBranding": "pass"
+  },
+  "accuracy": {
+    "extractedFigures": [],
+    "discrepancies": []
+  },
+  "consistency": {
+    "districtList": null,
+    "notes": [
+      "uganda_nrms: no audit-log available yet for comparison",
+      "tricycles: no audit-log available yet for comparison",
+      "uganda_network_traffic: no audit-log available yet for comparison",
+      "uganda_ducar: no audit-log available yet for comparison",
+      "uganda_nbms: no audit-log available yet for comparison",
+      "uganda_gis_enterprise: no audit-log available yet for comparison",
+      "bridge_mculverts: no audit-log available yet for comparison",
+      "uganda_kee: no audit-log available yet for comparison",
+      "uganda_kee_rss: no audit-log available yet for comparison",
+      "uganda_ntis: no audit-log available yet for comparison"
+    ]
+  }
+}
