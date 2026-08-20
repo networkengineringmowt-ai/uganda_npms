@@ -35,8 +35,11 @@ async function auditSelf() {
   let httpStatus = 0;
   let loadFailed = false;
   try {
-    const resp = await page.goto(URL, { waitUntil: 'networkidle', timeout: 30000 });
+    // 'domcontentloaded' rather than 'networkidle': dashboards with polling/websocket
+    // traffic never go network-idle, which previously made healthy sites look "down".
+    const resp = await page.goto(URL, { waitUntil: 'domcontentloaded', timeout: 30000 });
     httpStatus = resp ? resp.status() : 0;
+    await page.waitForTimeout(4000); // let the SPA hydrate/render before inspecting it
   } catch (e) {
     loadFailed = true;
     consoleErrors.push(`navigation failed: ${e.message}`);
@@ -88,9 +91,9 @@ async function auditSelf() {
           let amber = false, dark = false;
           for (let i = 0; i < els.length && (!amber || !dark); i++) {
             const cs = getComputedStyle(els[i]);
-            const c = cs.color, bg = cs.backgroundColor, bd = cs.borderColor;
-            if (c === amberRgb || bg === amberRgb || bd === amberRgb) amber = true;
-            if (bg === dark1 || bg === dark2) dark = true;
+            const amberProps = [cs.color, cs.backgroundColor, cs.borderColor, cs.fill, cs.stroke, cs.outlineColor];
+            if (amberProps.includes(amberRgb) || cs.backgroundImage.includes(amberRgb)) amber = true;
+            if (cs.backgroundColor === dark1 || cs.backgroundColor === dark2 || cs.backgroundImage.includes(dark1) || cs.backgroundImage.includes(dark2)) dark = true;
           }
           return { amber, dark };
         },
