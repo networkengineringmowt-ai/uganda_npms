@@ -1,0 +1,648 @@
+{
+  "info": {
+    "title": "Comprehensive G-Drive Schema",
+    "version": "1.0.0",
+    "description": "Generated from Manuals in G: Drive"
+  },
+  "definitions": {
+    "manual_inv_bridges": {
+      "type": "object",
+      "description": "Generated from manual: Road Inventory Data Entry Format.accdb - BRIDGES",
+      "properties": {
+        "id": {
+          "type": "text"
+        },
+        "road": {
+          "type": "integer"
+        },
+        "link_id": {
+          "type": "integer"
+        },
+        "link_name": {
+          "type": "integer"
+        },
+        "inspector": {
+          "type": "text"
+        },
+        "name_of_firm": {
+          "type": "text"
+        },
+        "chainage": {
+          "type": "text"
+        },
+        "x_coordinate": {
+          "type": "text"
+        },
+        "y_coordinate": {
+          "type": "text"
+        },
+        "survey_date": {
+          "type": "text"
+        },
+        "bridge_number": {
+          "type": "text"
+        },
+        "bridge_name": {
+          "type": "text"
+        },
+        "bridge_type": {
+          "type": "text"
+        },
+        "surface_type": {
+          "type": "text"
+        },
+        "surface_class": {
+          "type": "text"
+        },
+        "overall_bridge_length_m": {
+          "type": "text"
+        },
+        "overall_bridge_width_m": {
+          "type": "numeric"
+        },
+        "type_of_crossing": {
+          "type": "text"
+        },
+        "name_of_river": {
+          "type": "text"
+        },
+        "station": {
+          "type": "integer"
+        },
+        "region": {
+          "type": "text"
+        },
+        "comments": {
+          "type": "text"
+        },
+        "field1": {
+          "type": "text"
+        }
+      }
+    },
+    "manual_inv_km_road_reserve_sign_posts": {
+      "type": "object",
+      "description": "Generated from manual: Road Inventory Data Entry Format.accdb - KM, ROAD RESERVE & SIGN POSTS",
+      "properties": {
+        "id": {
+          "type": "text"
+        },
+        "road": {
+          "type": "integer"
+        },
+        "link_id": {
+          "type": "integer"
+        },
+        "link_name": {
+          "type": "integer"
+        },
+        "inspector": {
+          "type": "text"
+        },
+        "name_of_firm": {
+          "type": "text"
+        },
+        "feature_type": {
+          "type": "text"
+        },
+        "feature_sub_type": {
+          "type": "text"
+        },
+        "sub_type_code": {
+          "type": "text"
+        },
+        "feature_label": {
+          "type": "text"
+        },
+        "xsp": {
+          "type": "text"
+        },
+        "chainage": {
+          "type": "text"
+        },
+        "x_coordunate": {
+          "type": "text"
+        },
+        "y_coordunate": {
+          "type": "text"
+        },
+        "survey_date": {
+          "type": "text"
+        },
+        "condition": {
+          "type": "text"
+        }
+      }
+    },
+    "manual_inv_line_features": {
+      "type": "object",
+      "description": "Generated from manual: Road Inventory Data Entry Format.accdb - LINE FEATURES",
+      "properties": {
+        "id": {
+          "type": "text"
+        },
+        "road": {
+          "type": "integer"
+        },
+        "link_id": {
+          "type": "integer"
+        },
+        "link_name": {
+          "type": "integer"
+        },
+        "inspector": {
+          "type": "text"
+        },
+        "name_of_firm": {
+          "type": "text"
+        },
+        "feature_type": {
+          "type": "text"
+        },
+        "sub_type_code": {
+          "type": "text"
+        },
+        "chainage_start": {
+          "type": "text"
+        },
+        "x_start": {
+          "type": "text"
+        },
+        "y_start": {
+          "type": "text"
+        },
+        "survey_date": {
+          "type": "text"
+        },
+        "xsp": {
+          "type": "text"
+        },
+        "chainage_end": {
+          "type": "text"
+        },
+        "x_end": {
+          "type": "text"
+        },
+        "y_end": {
+          "type": "text"
+        },
+        "field1": {
+          "type": "text"
+        },
+        "comment": {
+          "type": "text"
+        }
+      }
+    },
+    "manual_inv_major_culverts": {
+      "type": "object",
+      "description": "Generated from manual: Road Inventory Data Entry Format.accdb - MAJOR CULVERTS",
+      "properties": {
+        "id": {
+          "type": "text"
+        },
+        "road": {
+          "type": "integer"
+        },
+        "link_id": {
+          "type": "integer"
+        },
+        "link_name": {
+          "type": "text"
+        },
+        "inspector": {
+          "type": "text"
+        },
+        "name_of_firm": {
+          "type": "text"
+        },
+        "survey_date": {
+          "type": "text"
+        },
+        "chainage_m": {
+          "type": "text"
+        },
+        "x_coordinate": {
+          "type": "text"
+        },
+        "y_coordinate": {
+          "type": "text"
+        },
+        "culvert_number": {
+          "type": "text"
+        },
+        "culvert_type": {
+          "type": "text"
+        },
+        "culvert_length_m": {
+          "type": "text"
+        },
+        "surface_type": {
+          "type": "text"
+        },
+        "surface_class": {
+          "type": "text"
+        },
+        "station": {
+          "type": "integer"
+        },
+        "region": {
+          "type": "text"
+        },
+        "number_of_barrels": {
+          "type": "text"
+        },
+        "d1_w1": {
+          "type": "text"
+        },
+        "h1": {
+          "type": "text"
+        },
+        "d2_w2": {
+          "type": "integer"
+        },
+        "h2": {
+          "type": "text"
+        },
+        "comment": {
+          "type": "text"
+        },
+        "f26": {
+          "type": "text"
+        },
+        "f25": {
+          "type": "text"
+        },
+        "f261": {
+          "type": "text"
+        }
+      }
+    },
+    "manual_inv_minor_culverts": {
+      "type": "object",
+      "description": "Generated from manual: Road Inventory Data Entry Format.accdb - MINOR CULVERTS",
+      "properties": {
+        "id": {
+          "type": "text"
+        },
+        "road": {
+          "type": "integer"
+        },
+        "link_id": {
+          "type": "integer"
+        },
+        "link_name": {
+          "type": "text"
+        },
+        "inspector": {
+          "type": "text"
+        },
+        "name_of_firm": {
+          "type": "text"
+        },
+        "station": {
+          "type": "text"
+        },
+        "region": {
+          "type": "text"
+        },
+        "chainage_km": {
+          "type": "text"
+        },
+        "x_coordinate": {
+          "type": "text"
+        },
+        "y_coordinate": {
+          "type": "text"
+        },
+        "survey_date": {
+          "type": "text"
+        },
+        "culvert_type": {
+          "type": "text"
+        },
+        "culvert_length": {
+          "type": "text"
+        },
+        "no_of_barrels": {
+          "type": "integer"
+        },
+        "d1_h1": {
+          "type": "text"
+        },
+        "w1": {
+          "type": "text"
+        },
+        "d2_h2": {
+          "type": "text"
+        },
+        "w2": {
+          "type": "integer"
+        },
+        "d3_h3": {
+          "type": "integer"
+        },
+        "w3": {
+          "type": "integer"
+        },
+        "alignment": {
+          "type": "text"
+        },
+        "comment": {
+          "type": "text"
+        },
+        "xsp": {
+          "type": "text"
+        }
+      }
+    },
+    "manual_inv_network": {
+      "type": "object",
+      "description": "Generated from manual: Road Inventory Data Entry Format.accdb - NETWORK",
+      "properties": {
+        "id": {
+          "type": "text"
+        },
+        "road": {
+          "type": "text"
+        },
+        "link_id": {
+          "type": "text"
+        },
+        "link_name": {
+          "type": "text"
+        },
+        "road_class": {
+          "type": "text"
+        },
+        "surface_type": {
+          "type": "text"
+        },
+        "length_km": {
+          "type": "numeric"
+        },
+        "chainage_from": {
+          "type": "numeric"
+        },
+        "chainage_to": {
+          "type": "numeric"
+        },
+        "station": {
+          "type": "text"
+        },
+        "region": {
+          "type": "text"
+        },
+        "comments": {
+          "type": "text"
+        },
+        "field1": {
+          "type": "text"
+        },
+        "field2": {
+          "type": "text"
+        },
+        "field3": {
+          "type": "text"
+        },
+        "field4": {
+          "type": "text"
+        },
+        "field5": {
+          "type": "text"
+        },
+        "field6": {
+          "type": "text"
+        },
+        "field7": {
+          "type": "text"
+        },
+        "field8": {
+          "type": "text"
+        },
+        "field9": {
+          "type": "text"
+        },
+        "field10": {
+          "type": "text"
+        },
+        "field11": {
+          "type": "text"
+        },
+        "field12": {
+          "type": "text"
+        }
+      }
+    },
+    "manual_inv_point_features": {
+      "type": "object",
+      "description": "Generated from manual: Road Inventory Data Entry Format.accdb - POINT FEATURES",
+      "properties": {
+        "id": {
+          "type": "text"
+        },
+        "road": {
+          "type": "integer"
+        },
+        "link_id": {
+          "type": "integer"
+        },
+        "link_name": {
+          "type": "integer"
+        },
+        "inspector": {
+          "type": "text"
+        },
+        "name_of_firm": {
+          "type": "text"
+        },
+        "feature_type": {
+          "type": "text"
+        },
+        "sub_type": {
+          "type": "text"
+        },
+        "survey_date": {
+          "type": "text"
+        },
+        "chainage_km": {
+          "type": "text"
+        },
+        "x_coordinate": {
+          "type": "text"
+        },
+        "y_coordinate": {
+          "type": "text"
+        },
+        "xsp_code": {
+          "type": "text"
+        },
+        "comments": {
+          "type": "text"
+        },
+        "field1": {
+          "type": "text"
+        }
+      }
+    },
+    "manual_inv_road_network": {
+      "type": "object",
+      "description": "Generated from manual: Road Inventory Data Entry Format.accdb - ROAD NETWORK",
+      "properties": {
+        "id": {
+          "type": "text"
+        },
+        "road": {
+          "type": "integer"
+        },
+        "link_id": {
+          "type": "integer"
+        },
+        "link_name": {
+          "type": "text"
+        },
+        "inspector": {
+          "type": "text"
+        },
+        "name_of_firm": {
+          "type": "text"
+        },
+        "type_of_surface": {
+          "type": "text"
+        },
+        "surface_class": {
+          "type": "text"
+        },
+        "chainage_start_km": {
+          "type": "text"
+        },
+        "x_start": {
+          "type": "text"
+        },
+        "y_start": {
+          "type": "text"
+        },
+        "survey_date": {
+          "type": "text"
+        },
+        "road_width_m": {
+          "type": "text"
+        },
+        "road_reserve_width_m": {
+          "type": "text"
+        },
+        "terrain_type": {
+          "type": "text"
+        },
+        "right_shoulder_width_m": {
+          "type": "text"
+        },
+        "left_shoulder_width_m": {
+          "type": "text"
+        },
+        "chainage_end_km": {
+          "type": "text"
+        },
+        "x_end": {
+          "type": "text"
+        },
+        "y_end": {
+          "type": "text"
+        },
+        "length_m": {
+          "type": "text"
+        },
+        "region": {
+          "type": "text"
+        },
+        "station": {
+          "type": "text"
+        }
+      }
+    },
+    "manual_traffic_analysis": {
+      "type": "object",
+      "description": "Generated from manual: Traffic count data entry template.xlsx - ANALYSIS",
+      "properties": {
+        "uganda_national_roads_authority": {
+          "type": "text"
+        }
+      }
+    },
+    "manual_traffic_monday": {
+      "type": "object",
+      "description": "Generated from manual: Traffic count data entry template.xlsx - MONDAY",
+      "properties": {
+        "uganda_national_roads_authority": {
+          "type": "text"
+        }
+      }
+    },
+    "manual_traffic_tuesday": {
+      "type": "object",
+      "description": "Generated from manual: Traffic count data entry template.xlsx - TUESDAY",
+      "properties": {
+        "uganda_national_roads_authority": {
+          "type": "text"
+        }
+      }
+    },
+    "manual_traffic_wednesday": {
+      "type": "object",
+      "description": "Generated from manual: Traffic count data entry template.xlsx - WEDNESDAY",
+      "properties": {
+        "uganda_national_roads_authority": {
+          "type": "text"
+        }
+      }
+    },
+    "manual_traffic_thursday": {
+      "type": "object",
+      "description": "Table manual_traffic_thursday",
+      "properties": {
+        "CREATE": {
+          "type": "TABLE"
+        },
+        "uganda_national_roads_authority": {
+          "type": "text"
+        }
+      }
+    },
+    "manual_traffic_saturday": {
+      "type": "object",
+      "description": "Generated from manual: Traffic count data entry template.xlsx - SATURDAY",
+      "properties": {
+        "uganda_national_roads_authority": {
+          "type": "text"
+        }
+      }
+    },
+    "manual_traffic_sunday": {
+      "type": "object",
+      "description": "Generated from manual: Traffic count data entry template.xlsx - SUNDAY",
+      "properties": {
+        "uganda_national_roads_authority": {
+          "type": "text"
+        }
+      }
+    },
+    "manual_traffic_ntwkday": {
+      "type": "object",
+      "description": "Generated from manual: Traffic count data entry template.xlsx - NTWKDAY",
+      "properties": {
+        "uganda_national_roads_authority": {
+          "type": "text"
+        }
+      }
+    },
+    "manual_traffic_ntwkend": {
+      "type": "object",
+      "description": "Generated from manual: Traffic count data entry template.xlsx - NTWKEND",
+      "properties": {
+        "uganda_national_roads_authority": {
+          "type": "text"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3472 @@
+{
+  "tables": [
+    {
+      "name": "road_links",
+      "description": "",
+      "columns": [
+        {
+          "name": "link_id",
+          "type_definition": "TEXT PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "road_no",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "road_class",
+          "type_definition": "TEXT",
+          "description": "A / B / C / M",
+          "is_primary": false
+        },
+        {
+          "name": "link_name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "chainage_from",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "chainage_to",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "length_km",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "surface_type",
+          "type_definition": "TEXT",
+          "description": "Bituminous / Gravel / Earth",
+          "is_primary": false
+        },
+        {
+          "name": "maintenance_station",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "maintenance_region",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "completion_year",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "rehab_year",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "last_intervention",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "funder",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "ndpiv_1",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "ndpiv_2",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "oprc",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "ndpiv_oprc",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "latest_vci",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "denormalised most-recent Visual Condition Index",
+          "is_primary": false
+        },
+        {
+          "name": "latest_vci_rating",
+          "type_definition": "TEXT",
+          "description": "Very Good \u226585 / Good \u226575 / Fair \u226565 / Poor \u226555 / Very Poor <55",
+          "is_primary": false
+        },
+        {
+          "name": "comments",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "road_link_condition",
+      "description": "",
+      "columns": [
+        {
+          "name": "link_id",
+          "type_definition": "TEXT NOT NULL",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "survey_year",
+          "type_definition": "INTEGER NOT NULL",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "iri",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "International Roughness Index (m/km)",
+          "is_primary": false
+        },
+        {
+          "name": "rut_mm",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "cracking",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "% cracked area",
+          "is_primary": false
+        },
+        {
+          "name": "pci",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "Pavement Condition Index",
+          "is_primary": false
+        },
+        {
+          "name": "vci",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "Visual Condition Index (0\u2013100)",
+          "is_primary": false
+        },
+        {
+          "name": "vci_rating",
+          "type_definition": "TEXT",
+          "description": "Very Good \u226585 / Good \u226575 / Fair \u226565 / Poor \u226555 / Very Poor <55",
+          "is_primary": false
+        },
+        {
+          "name": "surface",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "structures",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "TEXT PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "structure_type",
+          "type_definition": "TEXT",
+          "description": "'bridge' | 'culvert'",
+          "is_primary": false
+        },
+        {
+          "name": "road",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "road_number",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "region",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "chainage",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "latitude",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "longitude",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "span_length_m",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "no_of_spans",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "no_of_lanes",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "no_of_piers",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "width_m",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "material",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "crossing_type",
+          "type_definition": "TEXT",
+          "description": "river / canal / road / railway",
+          "is_primary": false
+        },
+        {
+          "name": "surface_type",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "year_built",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "maintenance_area",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "river",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "condition_rating",
+          "type_definition": "SMALLINT",
+          "description": "1 (critical) \u2013 5 (excellent)",
+          "is_primary": false
+        },
+        {
+          "name": "last_inspection",
+          "type_definition": "DATE",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "next_inspection",
+          "type_definition": "DATE",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "inspection_due",
+          "type_definition": "BOOLEAN DEFAULT false",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "traffic_level",
+          "type_definition": "TEXT",
+          "description": "Low / Medium / High / Very High",
+          "is_primary": false
+        },
+        {
+          "name": "strategic_importance",
+          "type_definition": "SMALLINT",
+          "description": "1\u20135",
+          "is_primary": false
+        },
+        {
+          "name": "priority_score",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "priority_rank",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "estimated_replacement_cost",
+          "type_definition": "BIGINT",
+          "description": "UGX",
+          "is_primary": false
+        },
+        {
+          "name": "defects",
+          "type_definition": "JSONB",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "notes",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "structure_condition_history",
+      "description": "",
+      "columns": [
+        {
+          "name": "structure_id",
+          "type_definition": "TEXT NOT NULL",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "survey_year",
+          "type_definition": "INTEGER NOT NULL",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "rating",
+          "type_definition": "SMALLINT",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "inspections",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "TEXT PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "structure_id",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "structure_name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "inspection_date",
+          "type_definition": "DATE",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "inspector",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "inspection_type",
+          "type_definition": "TEXT",
+          "description": "Routine / Principal / Special / Emergency",
+          "is_primary": false
+        },
+        {
+          "name": "deck_rating",
+          "type_definition": "SMALLINT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "superstructure_rating",
+          "type_definition": "SMALLINT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "substructure_rating",
+          "type_definition": "SMALLINT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "channel_rating",
+          "type_definition": "SMALLINT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "overall_condition",
+          "type_definition": "SMALLINT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "visual_score",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "findings",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "defects",
+          "type_definition": "JSONB",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "recommendations",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "photos",
+          "type_definition": "JSONB",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "next_inspection",
+          "type_definition": "DATE",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "completed_at",
+          "type_definition": "TIMESTAMPTZ",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "work_orders",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "TEXT PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "structure_id",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "structure_name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "title",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "description",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "work_type",
+          "type_definition": "TEXT",
+          "description": "Routine / Preventive / Rehabilitation / Emergency Repair / Reconstruction",
+          "is_primary": false
+        },
+        {
+          "name": "status",
+          "type_definition": "TEXT",
+          "description": "Planned / In Progress / Completed / On Hold / Cancelled",
+          "is_primary": false
+        },
+        {
+          "name": "priority",
+          "type_definition": "TEXT",
+          "description": "Low / Medium / High / Critical",
+          "is_primary": false
+        },
+        {
+          "name": "start_date",
+          "type_definition": "DATE",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "end_date",
+          "type_definition": "DATE",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "cost_ugx",
+          "type_definition": "BIGINT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "contractor",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "engineer_in_charge",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "created_at",
+          "type_definition": "TIMESTAMPTZ",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "completed_at",
+          "type_definition": "TIMESTAMPTZ",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "notes",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "bridge_documents",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "TEXT PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "structure_id",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "structure_name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "category",
+          "type_definition": "TEXT",
+          "description": "Design Drawing / Inspection Report / As-Built / Contract / Photo / ...",
+          "is_primary": false
+        },
+        {
+          "name": "description",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "file_type",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "file_size",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "uploaded_by",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "uploaded_at",
+          "type_definition": "TIMESTAMPTZ",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "version",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "url",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "bridge_works",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "TEXT PRIMARY KEY",
+          "description": "e.g. BRW-2026-01",
+          "is_primary": true
+        },
+        {
+          "name": "lot",
+          "type_definition": "TEXT",
+          "description": "lot / bridge package name",
+          "is_primary": false
+        },
+        {
+          "name": "funder",
+          "type_definition": "TEXT",
+          "description": "GOU / donor",
+          "is_primary": false
+        },
+        {
+          "name": "contractor",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "supervisor",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "project_manager",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "project_engineer",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "contract_sum_ugx",
+          "type_definition": "BIGINT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "amount_certified_ugx",
+          "type_definition": "BIGINT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "amount_paid_ugx",
+          "type_definition": "BIGINT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "outstanding_ugx",
+          "type_definition": "BIGINT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "physical_progress_pct",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "status",
+          "type_definition": "TEXT",
+          "description": "narrative status / dates / progress",
+          "is_primary": false
+        },
+        {
+          "name": "compensation",
+          "type_definition": "TEXT",
+          "description": "PAP / land-acquisition narrative",
+          "is_primary": false
+        },
+        {
+          "name": "report_period",
+          "type_definition": "TEXT",
+          "description": "e.g. 2026-04",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "traffic_count_stations",
+      "description": "",
+      "columns": [
+        {
+          "name": "station_id",
+          "type_definition": "TEXT PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "station_name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "link_id",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "link_name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "latitude",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "longitude",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "station_type",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "district",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "region",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "tcs_no",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "tis_counts",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "link_id",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "section_id",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "link_name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "count_date",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "survey_year",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "direction",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "total_count",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "motorcycles",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "cars_taxis",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "buses",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "trucks",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "nmt",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "district",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "region",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "length_km",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "atc_monthly_summary",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "station_id",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "station_name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "year",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "month",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "aadt",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "aadt_projections",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "link_id",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "link_name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "region",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "year",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "aadt",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "overloading_by_link",
+      "description": "",
+      "columns": [
+        {
+          "name": "link_id",
+          "type_definition": "TEXT PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "link_name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "region",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "esal_factor",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "overload_pct",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "risk_score",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "risk_category",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "traffic_growth_factors",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "region",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "year",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "month",
+          "type_definition": "SMALLINT",
+          "description": "1\u201312",
+          "is_primary": false
+        },
+        {
+          "name": "vehicle_class",
+          "type_definition": "TEXT",
+          "description": "motorcycle / car / hgv / bus / nmt / total",
+          "is_primary": false
+        },
+        {
+          "name": "mef",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "monthly expansion factor",
+          "is_primary": false
+        },
+        {
+          "name": "monthly_aadt",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "annual_aadt",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "sample_days",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "annual_growth_rate",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "% per year",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "maintenance_programme",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "link_id",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "intervention_year",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "intervention_type",
+          "type_definition": "TEXT",
+          "description": "Reconstruct (Gravel) / Regravelling / Rehabilitation / Overlay / ...",
+          "is_primary": false
+        },
+        {
+          "name": "length_km",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "estimated_cost_usd",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "priority_rank",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "priority_score",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "current_iri",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "condition_now",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "condition_3yr",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "data_source",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "regional_pms_performance",
+      "description": "",
+      "columns": [
+        {
+          "name": "region_id",
+          "type_definition": "INTEGER PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "region",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "links",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "length_km",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "avg_iri",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "measured_links",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "measured_pct",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "pms_cost_million",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "maintenance_stations",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "network_stats",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "SMALLINT PRIMARY KEY DEFAULT 1",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "total_links",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "total_km",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "official_km",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "paved_km",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "unpaved_km",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "paved_pct",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "total_bridges",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "class_km",
+          "type_definition": "JSONB",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "class_links",
+          "type_definition": "JSONB",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "region_km",
+          "type_definition": "JSONB",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "region_links",
+          "type_definition": "JSONB",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "data_vintage",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "generated_at",
+          "type_definition": "TIMESTAMPTZ DEFAULT now()",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "budget_alignment",
+      "description": "",
+      "columns": [
+        {
+          "name": "region_id",
+          "type_definition": "INTEGER PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "region_name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "pms_links",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "pms_need_million",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "budget_allocated_million",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "coverage_pct",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "projects",
+      "description": "",
+      "columns": [
+        {
+          "name": "uniqid",
+          "type_definition": "TEXT PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "project_class",
+          "type_definition": "TEXT",
+          "description": "Economic / Social / ...",
+          "is_primary": false
+        },
+        {
+          "name": "project_no",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "title",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "sector",
+          "type_definition": "TEXT",
+          "description": "Roads / Air / Rail / Water / ...",
+          "is_primary": false
+        },
+        {
+          "name": "length_km",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "corridor",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "country",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "project_type",
+          "type_definition": "TEXT",
+          "description": "Study / Design / Construction / ...",
+          "is_primary": false
+        },
+        {
+          "name": "econ_score",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "feasibility_cost_usd_m",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "detailed_design_cost_usd_m",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "works_cost_usd_m",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "other_cost_usd_m",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "total_cost_usd_m",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "percent_complete",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "start_year",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "latitude",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "longitude",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "drive_inventory",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "TEXT PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "type",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "size",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "folder",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "project_tracker",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "TEXT PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "road",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "region",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "funder",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "contractor",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "length_km",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "budget_bn_ugx",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "spent_bn_ugx",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "phase",
+          "type_definition": "TEXT",
+          "description": "Planning / Design / Procurement / Construction / DLP / Complete",
+          "is_primary": false
+        },
+        {
+          "name": "physical_pct",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "financial_pct",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "planned_pct",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "start_date",
+          "type_definition": "DATE",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "end_date",
+          "type_definition": "DATE",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "behind_schedule",
+          "type_definition": "BOOLEAN DEFAULT false",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "category",
+          "type_definition": "TEXT",
+          "description": "OPRC / NDPIV / Vision2040 / Emergency",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "budget_fy_summary",
+      "description": "",
+      "columns": [
+        {
+          "name": "fiscal_year",
+          "type_definition": "TEXT PRIMARY KEY",
+          "description": "e.g. '2024/25'",
+          "is_primary": true
+        },
+        {
+          "name": "roads_bn_ugx",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "bridges_bn_ugx",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "total_bn_ugx",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "donor_bn_ugx",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "gou_bn_ugx",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "ppp_projects",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "status",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "length_km",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "value_usd_m",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "model",
+          "type_definition": "TEXT",
+          "description": "e.g. DBFOT (30-year concession)",
+          "is_primary": false
+        },
+        {
+          "name": "funder",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "notes",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "maintenance_stations",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "INTEGER PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "region_id",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "region",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "maintenance_cost_matrix",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "work_category",
+          "type_definition": "TEXT",
+          "description": "Routine / Periodic / Rehabilitation / Emergency Maintenance",
+          "is_primary": false
+        },
+        {
+          "name": "works",
+          "type_definition": "TEXT",
+          "description": "e.g. Pothole patching, Surface dressing",
+          "is_primary": false
+        },
+        {
+          "name": "unit",
+          "type_definition": "TEXT",
+          "description": "UGX/m\u00b2, UGX/km, UGX/site",
+          "is_primary": false
+        },
+        {
+          "name": "bituminous_rate",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "unpaved_rate",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "note",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "road_reserve_records",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "link_id",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "road_no",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "region",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "gazetted_width_m",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "reserve_status",
+          "type_definition": "TEXT",
+          "description": "Gazetted / Pending Gazettement / Disputed",
+          "is_primary": false
+        },
+        {
+          "name": "encroachment_count",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "encroachment_area_sqm",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "enforcement_status",
+          "type_definition": "TEXT",
+          "description": "Notice Issued / Under Litigation / Cleared / No Action",
+          "is_primary": false
+        },
+        {
+          "name": "last_survey_date",
+          "type_definition": "DATE",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "surveyor",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "notes",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "road_reserve_encroachments",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "TEXT PRIMARY KEY",
+          "description": "e.g. 'ENC-001'",
+          "is_primary": true
+        },
+        {
+          "name": "link_id",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "road_no",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "location",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "chainage_km",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "type",
+          "type_definition": "TEXT",
+          "description": "Structure / Cultivation / Billboard / Utility  (see EncroachmentType in RoadReserveSection.tsx)",
+          "is_primary": false
+        },
+        {
+          "name": "date_reported",
+          "type_definition": "DATE",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "status",
+          "type_definition": "TEXT",
+          "description": "Active / Notice issued / Evicted / Resolved   (see EncroachmentStatus in RoadReserveSection.tsx)",
+          "is_primary": false
+        },
+        {
+          "name": "region",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "road_class",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "notes",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "road_reserve_gazette",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "road_no",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "road_name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "gazette_no",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "date_gazetted",
+          "type_definition": "DATE",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "reserve_width_m",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "survey_status",
+          "type_definition": "TEXT",
+          "description": "Up to date / Outdated / Not surveyed",
+          "is_primary": false
+        },
+        {
+          "name": "remarks",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "road_class",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "road_reserve_applicants",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "tin",
+          "type_definition": "TEXT UNIQUE",
+          "description": "Tax Identification Number (registration key)",
+          "is_primary": false
+        },
+        {
+          "name": "registration_type",
+          "type_definition": "TEXT",
+          "description": "Advertising Firm / Non-Advertiser",
+          "is_primary": false
+        },
+        {
+          "name": "registered_name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "trade_name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "postal_address",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "physical_address",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "contact_person_name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "contact_person_phone",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "contact_person_email",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "other_telephone",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "advertiser_association_no",
+          "type_definition": "TEXT",
+          "description": "advertising firms only",
+          "is_primary": false
+        },
+        {
+          "name": "documents",
+          "type_definition": "JSONB",
+          "description": "[{name, category, url}] cert of incorporation, trading licence, URA tax clearance, ...",
+          "is_primary": false
+        },
+        {
+          "name": "agreement_accepted",
+          "type_definition": "BOOLEAN DEFAULT false",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "registered_at",
+          "type_definition": "TIMESTAMPTZ DEFAULT now()",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "road_reserve_applications",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "application_number",
+          "type_definition": "TEXT UNIQUE",
+          "description": "auto-generated by the portal",
+          "is_primary": false
+        },
+        {
+          "name": "application_date",
+          "type_definition": "TIMESTAMPTZ",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "status",
+          "type_definition": "TEXT",
+          "description": "Draft / Submitted / Under Review / Recommended / Approved / Rejected",
+          "is_primary": false
+        },
+        {
+          "name": "applicant_tin",
+          "type_definition": "TEXT",
+          "description": "\u2192 road_reserve_applicants.tin",
+          "is_primary": false
+        },
+        {
+          "name": "registered_name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "physical_address",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "email_address",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "office_tel_no",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "prior_denial",
+          "type_definition": "BOOLEAN",
+          "description": "\"Any permit/application denied before?\"",
+          "is_primary": false
+        },
+        {
+          "name": "prior_denial_year",
+          "type_definition": "INTEGER",
+          "description": "if yes, which year",
+          "is_primary": false
+        },
+        {
+          "name": "activity_to_undertake",
+          "type_definition": "TEXT",
+          "description": "Name Road / Road Reserve / Ferry activity",
+          "is_primary": false
+        },
+        {
+          "name": "contact_person_name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "contact_person_phone",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "contact_person_email",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "contact_person_address",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "nature_of_activity",
+          "type_definition": "TEXT",
+          "description": "Advertising / Parking / Utility line / ...",
+          "is_primary": false
+        },
+        {
+          "name": "nature_name",
+          "type_definition": "TEXT",
+          "description": "name of the billboard/signage/tool/infrastructure/activity",
+          "is_primary": false
+        },
+        {
+          "name": "nature_of_structure",
+          "type_definition": "TEXT",
+          "description": "Billboard / LED / Price board / Signpost / Pipes / Poles / Optical Fibre Cable / Power Cable",
+          "is_primary": false
+        },
+        {
+          "name": "status_of_existence",
+          "type_definition": "BOOLEAN",
+          "description": "already installed?",
+          "is_primary": false
+        },
+        {
+          "name": "existence_month",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "existence_year",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "physical_location",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "district",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "latitude",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "from GIS_Coordinates geopoint",
+          "is_primary": false
+        },
+        {
+          "name": "longitude",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "landmark_features",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "closest_council_village",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "road_or_highway",
+          "type_definition": "TEXT",
+          "description": "road / highway",
+          "is_primary": false
+        },
+        {
+          "name": "road_name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "material_used",
+          "type_definition": "JSONB",
+          "description": "multi: Steel / Concrete / Glass reinforced plastic / Retro reflective sheeting / Thermal plastic paint / Glass beeds / Road marking paint / Asphalt",
+          "is_primary": false
+        },
+        {
+          "name": "face_type",
+          "type_definition": "TEXT",
+          "description": "single / double / multiface  (adverts only)",
+          "is_primary": false
+        },
+        {
+          "name": "motion_type",
+          "type_definition": "TEXT",
+          "description": "moving / revolving / flashing",
+          "is_primary": false
+        },
+        {
+          "name": "affixation_method",
+          "type_definition": "JSONB",
+          "description": "multi: Bolted or Welded / Laying / Spraying",
+          "is_primary": false
+        },
+        {
+          "name": "length_m",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "width_m",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "thickness_m",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "height_above_ground_m",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "height_below_ground_m",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "cable_pipe_diameter_mm",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "utility lines only",
+          "is_primary": false
+        },
+        {
+          "name": "coverage_distance_km",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "utility lines only",
+          "is_primary": false
+        },
+        {
+          "name": "color_letters",
+          "type_definition": "TEXT",
+          "description": "adverts only",
+          "is_primary": false
+        },
+        {
+          "name": "color_figures",
+          "type_definition": "TEXT",
+          "description": "adverts only",
+          "is_primary": false
+        },
+        {
+          "name": "advert_on_ferry",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "advert_on_ferry_landing",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "advert_on_overbridge",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "graphic_impression_url",
+          "type_definition": "TEXT",
+          "description": "artistic impression / design sketch",
+          "is_primary": false
+        },
+        {
+          "name": "attachments",
+          "type_definition": "JSONB",
+          "description": "strip map, structural calc booklet, drawings, integrity report, methodology, site image, ...",
+          "is_primary": false
+        },
+        {
+          "name": "declarant_first_name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "declarant_last_name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "declarant_other_name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "declarant_status",
+          "type_definition": "TEXT",
+          "description": "e.g. Director",
+          "is_primary": false
+        },
+        {
+          "name": "declaration_date",
+          "type_definition": "DATE",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "declaration_place",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "signature",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "registration_number",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "file_reference_number",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "site_suitability_observation",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "spec_suitability",
+          "type_definition": "TEXT",
+          "description": "Suitable / Not Suitable (specifications)",
+          "is_primary": false
+        },
+        {
+          "name": "site_recommendation",
+          "type_definition": "TEXT",
+          "description": "Suitable / Not Suitable (site)",
+          "is_primary": false
+        },
+        {
+          "name": "final_recommendation",
+          "type_definition": "TEXT",
+          "description": "Suitable / Not Suitable",
+          "is_primary": false
+        },
+        {
+          "name": "return_date",
+          "type_definition": "TIMESTAMPTZ",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "reviewed_by",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "created_at",
+          "type_definition": "TIMESTAMPTZ DEFAULT now()",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "global_case_studies",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "INTEGER PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "agency",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "country",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "flag",
+          "type_definition": "TEXT",
+          "description": "emoji flag",
+          "is_primary": false
+        },
+        {
+          "name": "network_km",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "rms_system",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "paved_pct",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "rms_years",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "budget_per_km_usd",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "region",
+          "type_definition": "TEXT",
+          "description": "Africa / Europe / Asia-Pacific / Americas / Middle East",
+          "is_primary": false
+        },
+        {
+          "name": "latitude",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "longitude",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "key_features",
+          "type_definition": "JSONB",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "lessons_dnr",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "data_approach",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "funding",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "metrics",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "lifecycle_links",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "TEXT PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "road",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "region",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "station",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "road_class",
+          "type_definition": "TEXT",
+          "description": "A / B / C / M / U",
+          "is_primary": false
+        },
+        {
+          "name": "length_km",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "surface",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "built_year",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "rehab_year",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "contractor",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "design_standard",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "aadt_2026",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "current_iri",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "current_vci",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "latest Visual Condition Index (0\u2013100)",
+          "is_primary": false
+        },
+        {
+          "name": "current_vci_rating",
+          "type_definition": "TEXT",
+          "description": "Very Good \u226585 / Good \u226575 / Fair \u226565 / Poor \u226555 / Very Poor <55",
+          "is_primary": false
+        },
+        {
+          "name": "dominant_defect",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "asset_value_bn_ugx",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "coords",
+          "type_definition": "JSONB",
+          "description": "[[lat,lng], ...] route geometry",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "lifecycle_interventions",
+      "description": "",
+      "columns": [
+        {
+          "name": "link_id",
+          "type_definition": "TEXT NOT NULL",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "intervention_year",
+          "type_definition": "INTEGER NOT NULL",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "intervention_type",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "cost_m_ugx",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "iri_before",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "iri_after",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "hdm4_calibration",
+      "description": "",
+      "columns": [
+        {
+          "name": "param",
+          "type_definition": "TEXT PRIMARY KEY",
+          "description": "e.g. Kcit, Kcia, Krt, Kgm",
+          "is_primary": true
+        },
+        {
+          "name": "value",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "description",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "reference",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "road_applicability",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "hdm4_iri_thresholds",
+      "description": "",
+      "columns": [
+        {
+          "name": "band",
+          "type_definition": "TEXT PRIMARY KEY",
+          "description": "Very Good / Good / Fair / Poor / Very Poor / Failed",
+          "is_primary": true
+        },
+        {
+          "name": "iri_min",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "iri_max",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "vci_range",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "recommended_action",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "surveyed_link_condition",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "query_code",
+          "type_definition": "TEXT",
+          "description": "Q01, Q12, Q20, ... (bot query identifier)",
+          "is_primary": false
+        },
+        {
+          "name": "link_id",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "road_name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "region",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "surface",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "length_km",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "iri",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "pci",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "vci",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "Visual Condition Index (0\u2013100)",
+          "is_primary": false
+        },
+        {
+          "name": "vci_rating",
+          "type_definition": "TEXT",
+          "description": "Very Good \u226585 / Good \u226575 / Fair \u226565 / Poor \u226555 / Very Poor <55",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "image_defect_detections",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "link_id",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "dominant_defect",
+          "type_definition": "TEXT",
+          "description": "pothole / rutting / alligator_crack / longitudinal_crack / raveling / good",
+          "is_primary": false
+        },
+        {
+          "name": "image_count",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "avg_severity",
+          "type_definition": "TEXT",
+          "description": "Low / Medium / High",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "image_defect_summary",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "model",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "images_processed",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "defect_distribution",
+          "type_definition": "JSONB",
+          "description": "{ pothole: n, rutting: n, ... }",
+          "is_primary": false
+        },
+        {
+          "name": "severity_distribution",
+          "type_definition": "JSONB",
+          "description": "{ High: n, Medium: n, Low: n }",
+          "is_primary": false
+        },
+        {
+          "name": "generated_at",
+          "type_definition": "TIMESTAMPTZ",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "ml_model_metrics",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "model_name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "model_type",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "r2_score",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "rmse",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "mae",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "baseline_rmse",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "improvement_pct",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "training_samples",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "test_samples",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "features",
+          "type_definition": "JSONB",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "training_date",
+          "type_definition": "TIMESTAMPTZ",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "status",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "romdas_calibration_summary",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "generated_at",
+          "type_definition": "TIMESTAMPTZ",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "links_analysed",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "maintenance_detected",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "naturally_deteriorating",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "hdm4_factor_current",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "observed_calib_factor",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "prediction_rmse_m_km_yr",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "mean_error_m_km_yr",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "note",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "romdas_maintenance_events",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "link_id",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "road_name",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "iri_2020",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "iri_2021",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "delta_iri",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "likely_treatment",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "link_iri_predictions",
+      "description": "",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY",
+          "description": "",
+          "is_primary": true
+        },
+        {
+          "name": "link_id",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "predicted_iri_1yr",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "predicted_iri_3yr",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "predicted_iri_5yr",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "predicted_condition_1yr",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "predicted_condition_3yr",
+          "type_definition": "TEXT",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "deterioration_rate",
+          "type_definition": "DOUBLE PRECISION",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "intervention_year",
+          "type_definition": "INTEGER",
+          "description": "",
+          "is_primary": false
+        },
+        {
+          "name": "generated_at",
+          "type_definition": "TIMESTAMPTZ",
+          "description": "",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "fwd_surveys",
+      "description": "Header information for Falling Weight Deflectometer surveys",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "uuid PRIMARY KEY DEFAULT uuid_generate_v4()",
+          "description": "Unique identifier",
+          "is_primary": true
+        },
+        {
+          "name": "road_id",
+          "type_definition": "varchar(50) NOT NULL",
+          "description": "Road link identifier (e.g., NR01)",
+          "is_primary": false
+        },
+        {
+          "name": "source",
+          "type_definition": "varchar(255)",
+          "description": "Source file or consultant name",
+          "is_primary": false
+        },
+        {
+          "name": "sheet",
+          "type_definition": "varchar(100)",
+          "description": "Sheet name in the original workbook",
+          "is_primary": false
+        },
+        {
+          "name": "n_points",
+          "type_definition": "integer",
+          "description": "Number of test points in this survey",
+          "is_primary": false
+        },
+        {
+          "name": "d0_mean",
+          "type_definition": "numeric(10,2)",
+          "description": "Mean center deflection D0 (microns)",
+          "is_primary": false
+        },
+        {
+          "name": "d0_max",
+          "type_definition": "numeric(10,2)",
+          "description": "Maximum center deflection D0 (microns)",
+          "is_primary": false
+        },
+        {
+          "name": "ch_from",
+          "type_definition": "numeric(10,3)",
+          "description": "Start chainage (km)",
+          "is_primary": false
+        },
+        {
+          "name": "ch_to",
+          "type_definition": "numeric(10,3)",
+          "description": "End chainage (km)",
+          "is_primary": false
+        },
+        {
+          "name": "survey_date",
+          "type_definition": "date",
+          "description": "Date of the survey",
+          "is_primary": false
+        },
+        {
+          "name": "created_at",
+          "type_definition": "timestamptz DEFAULT now()",
+          "description": "Record creation timestamp",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "name": "fwd_points",
+      "description": "Individual test points from an FWD survey",
+      "columns": [
+        {
+          "name": "id",
+          "type_definition": "uuid PRIMARY KEY DEFAULT uuid_generate_v4()",
+          "description": "Unique identifier",
+          "is_primary": true
+        },
+        {
+          "name": "survey_id",
+          "type_definition": "uuid NOT NULL REFERENCES public.fwd_surveys(id)",
+          "description": "Reference to the parent survey",
+          "is_primary": false
+        },
+        {
+          "name": "ch",
+          "type_definition": "numeric(10,3) NOT NULL",
+          "description": "Chainage (km)",
+          "is_primary": false
+        },
+        {
+          "name": "d0",
+          "type_definition": "numeric(10,2) NOT NULL",
+          "description": "Center deflection D0 (microns)",
+          "is_primary": false
+        },
+        {
+          "name": "d300",
+          "type_definition": "numeric(10,2)",
+          "description": "Deflection at 300mm",
+          "is_primary": false
+        },
+        {
+          "name": "d600",
+          "type_definition": "numeric(10,2)",
+          "description": "Deflection at 600mm",
+          "is_primary": false
+        },
+        {
+          "name": "d900",
+          "type_definition": "numeric(10,2)",
+          "description": "Deflection at 900mm",
+          "is_primary": false
+        },
+        {
+          "name": "load_kn",
+          "type_definition": "numeric(10,2)",
+          "description": "Applied load (kN)",
+          "is_primary": false
+        },
+        {
+          "name": "sn_existing",
+          "type_definition": "numeric(10,2)",
+          "description": "Calculated existing structural number",
+          "is_primary": false
+        },
+        {
+          "name": "sn_required",
+          "type_definition": "numeric(10,2)",
+          "description": "Required structural number",
+          "is_primary": false
+        },
+        {
+          "name": "created_at",
+          "type_definition": "timestamptz DEFAULT now()",
+          "description": "Timestamp",
+          "is_primary": false
+        }
+      ]
+    }
+  ]
+}
