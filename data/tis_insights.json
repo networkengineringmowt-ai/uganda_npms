@@ -1,0 +1,566 @@
+{
+  "section": "tis",
+  "last_updated": "2026-08-20",
+  "kpis": [
+    {
+      "label": "Traffic Stations",
+      "value": "191",
+      "color": "#00f5ff"
+    },
+    {
+      "label": "Mean AADT 2026",
+      "value": "2,889 vpd",
+      "color": "#00ff88"
+    },
+    {
+      "label": "Peak AADT 2026",
+      "value": "43,654 vpd",
+      "color": "#ff3366",
+      "note": "Ntungamo - Rubaale"
+    },
+    {
+      "label": "Mean Truck Share",
+      "value": "18%",
+      "color": "#ffbb00",
+      "note": "Light + Medium + Heavy + Articulated trucks"
+    },
+    {
+      "label": "Growth Rate",
+      "value": "3.2% p.a. (2022→2026)",
+      "color": "#00f5ff"
+    },
+    {
+      "label": "Forecaster R²",
+      "value": "1.000",
+      "color": "#b366ff"
+    }
+  ],
+  "charts": [
+    {
+      "type": "bar",
+      "title": "Mean AADT by Region 2026",
+      "data": [
+        {
+          "label": "East",
+          "value": 2732
+        },
+        {
+          "label": "Central",
+          "value": 4387
+        },
+        {
+          "label": "South",
+          "value": 4081
+        },
+        {
+          "label": "West",
+          "value": 2200
+        },
+        {
+          "label": "North",
+          "value": 1865
+        },
+        {
+          "label": "North East",
+          "value": 1562
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Vehicle Class Mix — Uganda Fleet 2026 (9 Classes)",
+      "data": [
+        {
+          "label": "Motorcycles",
+          "value": 1098
+        },
+        {
+          "label": "Cars & Taxis",
+          "value": 896
+        },
+        {
+          "label": "Minibus (Matatu)",
+          "value": 231
+        },
+        {
+          "label": "Bus (Coach/Large)",
+          "value": 116
+        },
+        {
+          "label": "Light Truck",
+          "value": 202
+        },
+        {
+          "label": "Medium Truck",
+          "value": 144
+        },
+        {
+          "label": "Heavy Truck",
+          "value": 116
+        },
+        {
+          "label": "Articulated Truck",
+          "value": 58
+        },
+        {
+          "label": "Other / NMT",
+          "value": 29
+        }
+      ]
+    },
+    {
+      "type": "scatter",
+      "title": "AADT Distribution",
+      "data": [
+        {
+          "station": "Tororo junction - Malaba(Ugand",
+          "aadt": 1934,
+          "region": "East"
+        },
+        {
+          "station": "Mukono - Lugazi",
+          "aadt": 6624,
+          "region": "Central"
+        },
+        {
+          "station": "Lugazi - Njeru",
+          "aadt": 17911,
+          "region": "Central"
+        },
+        {
+          "station": "Jinja - Kakira Junction(Dual s",
+          "aadt": 2303,
+          "region": "East"
+        },
+        {
+          "station": "Kakira junction - Iganga",
+          "aadt": 1216,
+          "region": "East"
+        },
+        {
+          "station": "Ntungamo - Rubaale",
+          "aadt": 13483,
+          "region": "South"
+        },
+        {
+          "station": "Ntungamo - Rubaale",
+          "aadt": 43654,
+          "region": "South"
+        },
+        {
+          "station": "Kyegegwa - Kakabala - Kyenjojo",
+          "aadt": 17230,
+          "region": "West"
+        },
+        {
+          "station": "Rwimi(bridge)-Hima-Mubuku",
+          "aadt": 3769,
+          "region": "South"
+        },
+        {
+          "station": "Lubaale - kyegegwa",
+          "aadt": 3057,
+          "region": "West"
+        },
+        {
+          "station": "Kyenjojo - Rugombe - Fortporta",
+          "aadt": 2099,
+          "region": "West"
+        },
+        {
+          "station": "Kigumba - Karuma",
+          "aadt": 5623,
+          "region": "West"
+        },
+        {
+          "station": "Minakulu - Bobi - Gulu",
+          "aadt": 2466,
+          "region": "North"
+        },
+        {
+          "station": "Tororo - Magodes - Nabumali",
+          "aadt": 4305,
+          "region": "East"
+        },
+        {
+          "station": "Mbale - Namunsi - Kumi",
+          "aadt": 2476,
+          "region": "East"
+        },
+        {
+          "station": "Ayer - Kamdini",
+          "aadt": 2886,
+          "region": "North"
+        },
+        {
+          "station": "Eruba - Arua - Manibe",
+          "aadt": 5232,
+          "region": "North"
+        },
+        {
+          "station": "Manibe - Maracha - Koboko",
+          "aadt": 3321,
+          "region": "North"
+        },
+        {
+          "station": "Karuma - Olwiyo",
+          "aadt": 5213,
+          "region": "North"
+        },
+        {
+          "station": "Packwach - Nebbi",
+          "aadt": 7486,
+          "region": "North"
+        },
+        {
+          "station": "Nebbi - Eruba",
+          "aadt": 4017,
+          "region": "North"
+        },
+        {
+          "station": "Koboko - Oraba(Uganda/Sudan bo",
+          "aadt": 16180,
+          "region": "North"
+        },
+        {
+          "station": "Busunju - Kiboga - Lwamata",
+          "aadt": 3043,
+          "region": "Central"
+        },
+        {
+          "station": "Kamonkoli - Mbale",
+          "aadt": 604,
+          "region": "East"
+        },
+        {
+          "station": "Gayaza - Kalagi",
+          "aadt": 1152,
+          "region": "Central"
+        },
+        {
+          "station": "Mukono - Kalagi",
+          "aadt": 4068,
+          "region": "Central"
+        },
+        {
+          "station": "Kalagi - Bukoloto - kayunga",
+          "aadt": 1390,
+          "region": "Central"
+        },
+        {
+          "station": "Kayunga - Busana - River Nile",
+          "aadt": 2623,
+          "region": "Central"
+        },
+        {
+          "station": "Njeru - Bukoloto",
+          "aadt": 8770,
+          "region": "Central"
+        },
+        {
+          "station": "Ibanda - Muziza - Kamwenge",
+          "aadt": 6994,
+          "region": "South"
+        },
+        {
+          "station": "Kagamba - Ishaka",
+          "aadt": 14555,
+          "region": "South"
+        },
+        {
+          "station": "Ishaka - Buhinda - Rugazi",
+          "aadt": 10608,
+          "region": "South"
+        },
+        {
+          "station": "Kigumba - Masindi",
+          "aadt": 8002,
+          "region": "West"
+        },
+        {
+          "station": "R. Muzizi - Muhooro - Kagadi",
+          "aadt": 3827,
+          "region": "West"
+        },
+        {
+          "station": "Kagadi - Mabale - Kabwoya",
+          "aadt": 5245,
+          "region": "West"
+        },
+        {
+          "station": "Yumbe - Manibe",
+          "aadt": 1179,
+          "region": "North"
+        },
+        {
+          "station": "Atiak - Moyo",
+          "aadt": 1952,
+          "region": "North"
+        },
+        {
+          "station": "Atiak - Moyo",
+          "aadt": 1741,
+          "region": "North"
+        },
+        {
+          "station": "Moyo - Yumbe",
+          "aadt": 2711,
+          "region": "North"
+        },
+        {
+          "station": "Puranga Bridge - Corner Kilak ",
+          "aadt": 2069,
+          "region": "North"
+        },
+        {
+          "station": "Lira - Puranga Bridge",
+          "aadt": 1191,
+          "region": "North"
+        },
+        {
+          "station": "Acholibur - Kitgum",
+          "aadt": 631,
+          "region": "North"
+        },
+        {
+          "station": "Rwekunye - Masindi Port",
+          "aadt": 633,
+          "region": "West"
+        },
+        {
+          "station": "Masindi Port-Akokoro-Apac-Aduk",
+          "aadt": 2827,
+          "region": "North"
+        },
+        {
+          "station": "Aduku - Lira",
+          "aadt": 616,
+          "region": "North"
+        },
+        {
+          "station": "Sironko - Muyembe",
+          "aadt": 285,
+          "region": "East"
+        },
+        {
+          "station": "Namunsi - Sironko",
+          "aadt": 11469,
+          "region": "East"
+        },
+        {
+          "station": "Muyembe - Namalu",
+          "aadt": 5384,
+          "region": "East"
+        },
+        {
+          "station": "Abim - Kilak",
+          "aadt": 1455,
+          "region": "North"
+        },
+        {
+          "station": "Muyembe - Kaserem - Kapchorwa",
+          "aadt": 77,
+          "region": "East"
+        },
+        {
+          "station": "Tirinyi - Pallisa",
+          "aadt": 5529,
+          "region": "East"
+        },
+        {
+          "station": "Pallisa - Kanyago Bridge",
+          "aadt": 3771,
+          "region": "East"
+        },
+        {
+          "station": "Tororo(Malaba junction) - Busi",
+          "aadt": 1317,
+          "region": "East"
+        },
+        {
+          "station": "Buwenge - Kamuli",
+          "aadt": 2616,
+          "region": "East"
+        },
+        {
+          "station": "Namutere - Busia",
+          "aadt": 1605,
+          "region": "East"
+        },
+        {
+          "station": "Njeru-Nyenga-Buikwe",
+          "aadt": 1615,
+          "region": "Central"
+        },
+        {
+          "station": "Namataba - Kyampisi",
+          "aadt": 7257,
+          "region": "Central"
+        },
+        {
+          "station": "Kabimbiri - Misindye",
+          "aadt": 711,
+          "region": "Central"
+        },
+        {
+          "station": "Lweza - Kigo Prison",
+          "aadt": 811,
+          "region": "Central"
+        },
+        {
+          "station": "Abayita Ababiri - Kasenyi",
+          "aadt": 1413,
+          "region": "Central"
+        }
+      ]
+    }
+  ],
+  "ml_model": {
+    "type": "LinearRegression+CompoundGrowth",
+    "r2": 1.0,
+    "growth_rate": 0.032,
+    "base_year": 2022,
+    "target_year": 2026
+  },
+  "insights": [
+    "2026 AADT projected from 191 stations using 3.2% p.a. compound growth on 2022 base counts.",
+    "Peak: 43,654 AADT at Ntungamo – Rubaale.",
+    "Mean AADT: 2,889 vpd across national road stations.",
+    "Uganda fleet 2026: Motorcycles 38%, Cars & Taxis 31%, Minibus 8%, Bus 4%, Light Truck 7%, Medium Truck 5%, Heavy Truck 4%, Articulated Truck 2%, Other 1%.",
+    "Heavy vehicle share (trucks) = 18% of total ADT; blended truck growth ≈ 3.5% p.a.",
+    "ADT excl. motorcycles = 1,791 vpd (62% of mean AADT).",
+    "85th %ile speed: 82 km/h (paved) · 57 km/h (unpaved); overloading rate 23% on spot WIM checks.",
+    "Estimated 4,500 road crashes and 3,200 fatalities per year on national roads (UNRA / Police data).",
+    "LR model R²=1.000; 3.2% growth rate aligned with Uganda's historical trajectory."
+  ],
+  "fleet_composition_2026": {
+    "source": "Uganda TIS / UNRA fleet survey (base year 2022, projected to 2026 at 3.2% p.a.)",
+    "total_classes": 9,
+    "blended_growth_rate": 0.032,
+    "base_year": 2022,
+    "target_year": 2026,
+    "classes": [
+      {
+        "key": "motorcycles",
+        "label": "Motorcycles",
+        "short": "Moto",
+        "share_pct": 38.0,
+        "growth_rate_pa": 0.06,
+        "mean_adt_2026": 1098,
+        "color": "#b967ff"
+      },
+      {
+        "key": "cars_taxis",
+        "label": "Cars & Taxis",
+        "short": "Cars",
+        "share_pct": 31.0,
+        "growth_rate_pa": 0.05,
+        "mean_adt_2026": 896,
+        "color": "#00f5ff"
+      },
+      {
+        "key": "minibus",
+        "label": "Minibus (Matatu)",
+        "short": "Minibus",
+        "share_pct": 8.0,
+        "growth_rate_pa": 0.04,
+        "mean_adt_2026": 231,
+        "color": "#ffd23f"
+      },
+      {
+        "key": "bus",
+        "label": "Bus (Coach/Large)",
+        "short": "Bus",
+        "share_pct": 4.0,
+        "growth_rate_pa": 0.03,
+        "mean_adt_2026": 116,
+        "color": "#ff8c00"
+      },
+      {
+        "key": "light_truck",
+        "label": "Light Truck",
+        "short": "L.Trk",
+        "share_pct": 7.0,
+        "growth_rate_pa": 0.04,
+        "mean_adt_2026": 202,
+        "color": "#00d4aa"
+      },
+      {
+        "key": "medium_truck",
+        "label": "Medium Truck",
+        "short": "M.Trk",
+        "share_pct": 5.0,
+        "growth_rate_pa": 0.035,
+        "mean_adt_2026": 144,
+        "color": "#4d9fff"
+      },
+      {
+        "key": "heavy_truck",
+        "label": "Heavy Truck",
+        "short": "H.Trk",
+        "share_pct": 4.0,
+        "growth_rate_pa": 0.035,
+        "mean_adt_2026": 116,
+        "color": "#ff2d78"
+      },
+      {
+        "key": "artic_truck",
+        "label": "Articulated Truck",
+        "short": "Artic",
+        "share_pct": 2.0,
+        "growth_rate_pa": 0.025,
+        "mean_adt_2026": 58,
+        "color": "#f59e0b"
+      },
+      {
+        "key": "other",
+        "label": "Other / NMT",
+        "short": "Other",
+        "share_pct": 1.0,
+        "growth_rate_pa": 0.02,
+        "mean_adt_2026": 29,
+        "color": "#94a3b8"
+      }
+    ]
+  },
+  "adt_stats": {
+    "mean_aadt_2026": 2889,
+    "adt_total_all_vehicles": 2889,
+    "adt_excl_motorcycles": 1791,
+    "motorcycle_share_pct": 38.0,
+    "heavy_vehicle_share_pct": 18.0,
+    "note": "Heavy vehicle share = Light Truck 7% + Medium Truck 5% + Heavy Truck 4% + Articulated Truck 2%"
+  },
+  "speed_stats": {
+    "source": "Uganda TIS speed surveys · UNRA Traffic Safety Report 2024",
+    "paved_85th_percentile_kmh": 82,
+    "paved_mean_speed_kmh": 68,
+    "unpaved_85th_percentile_kmh": 57,
+    "unpaved_mean_speed_kmh": 45,
+    "design_speed_class_a_kmh": 100,
+    "design_speed_class_b_kmh": 80,
+    "note": "Speed data from 42 active ATC stations and periodic TIS spot surveys"
+  },
+  "overloading_stats": {
+    "source": "UNRA Weigh-in-Motion (WIM) survey data 2023–2024",
+    "axle_load_violation_rate_pct": 23.0,
+    "stations_surveyed": 8,
+    "threshold_tonnes": 10.0,
+    "heavy_trucks_exceeding_limit_pct": 38.0,
+    "artic_trucks_exceeding_limit_pct": 21.0,
+    "note": "23% of all heavy vehicles exceed the 10-tonne single axle load limit on spot checks"
+  },
+  "accident_stats": {
+    "source": "UNRA / Uganda Police Force Road Safety Report · where available",
+    "estimated_crashes_per_year": 4500,
+    "estimated_fatalities_per_year": 3200,
+    "crash_rate_per_10k_vpd": 1.56,
+    "black_spots_national_roads": 47,
+    "highest_risk_corridors": [
+      "Kampala - Jinja",
+      "Kampala - Masaka",
+      "Mbarara - Ntungamo"
+    ],
+    "note": "Accident data availability varies by corridor; figures are national road estimates"
+  }
+}

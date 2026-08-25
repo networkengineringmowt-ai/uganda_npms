@@ -1,0 +1,101 @@
+link_id,road_name,region,surface_type,condition,length_km,priority_score,rank
+B286,Obim Bridge,Northern,Bridge,Poor,0.0,100.0,1
+B253_Link02,Masindi Port-Akokoro-Apac-Aduku,Northern,Unsealed,Poor,103.421,99.61693529079399,2
+B301_Link03,Kotido - Apaan - Kabong,North Eastern,Unsealed,Poor,98.98,97.91574491721013,3
+B388,Sezibwa Bridge,Central,Bridge,Poor,0.0,97.37499999999999,4
+B047,Katunguru Bridge,Southern,Bridge,Poor,0.0,97.0,5
+B344,ENYAU,Northern,Bridge,Poor,0.0,95.875,6
+B360,PAYA,Eastern,Bridge,Poor,0.0,95.125,7
+B151,Agago Bridge,Northern,Bridge,Poor,0.0,95.125,8
+B150,Agora Bridge,Northern,Bridge,Poor,0.0,95.125,9
+B149,Atup Bridge,Northern,Bridge,Poor,0.0,95.125,10
+B059,Ladot,North Eastern,Bridge,Poor,0.0,94.375,11
+B058,Kanyago 2,North Eastern,Bridge,Poor,0.0,94.375,12
+B109,TSUTSU,Eastern,Bridge,Poor,0.0,94.0,13
+C300_Link01,Kayunga-Bale-Galiraya-Lake Kyoga,Central,Unsealed,Poor,87.401,93.48023864931383,14
+C414_Link01,Katunguru - Ishasha,Southern,Unsealed,Poor,87.025,93.33620631865239,15
+C972_Link01,Nakiloro-Lomukura,North Eastern,Unsealed,Poor,85.0,92.56050028251022,16
+B301_Link01,Ariamoi - Kaladonapal - Kaperimoru,North Eastern,Unsealed,Poor,83.373,91.93725400063207,17
+B302_Link02,Abim - Kilak,Northern,Unsealed,Poor,83.189,91.86677009413815,18
+C325_Link01,Kikyusa- Bamugolode - Kazwama - Nakasongola,Central,Unsealed,Poor,83.131,91.8445523410042,19
+C307_Link01,Butalangwa - Ngoma - Bulyamusenyu,Central,Unsealed,Poor,82.212,91.49251587324389,20
+C703_Link01,Kitgum - Orom,Northern,Unsealed,Poor,79.113,90.3053983394145,21
+B250_Link03,Yumbe - Manibe,Northern,Unsealed,Poor,77.123,89.54309956809455,22
+B001,Kibimba Bridge,Eastern,Bridge,Poor,0.0,89.5,23
+C728_Link01,Aliodranusi-Gobolo-Matu-Kerwa-kei,Northern,Unsealed,Poor,76.0,89.1129178996562,24
+nan,Akia - Olilim,Northern,Unsealed,Poor,75.6,88.95969201597379,25
+B300_Link03,Muyembe - Namalu,Eastern,Unsealed,Poor,71.65513591586,87.4485538027255,26
+B175,Kaabong,North Eastern,Bridge,Poor,0.0,87.25,27
+B210,AWA,Northern,Bridge,Poor,0.0,87.25,28
+B209,ORAA 2,Northern,Bridge,Poor,0.0,87.25,29
+B207,Kitgummatidi,Northern,Bridge,Poor,0.0,87.25,30
+B072,Kaizi Bridge,Southern,Bridge,Poor,0.0,87.25,31
+B203,Limu Bridge,Northern,Bridge,Poor,0.0,87.25,32
+B202,Lagwel,Northern,Bridge,Poor,0.0,87.25,33
+B200,Awich Bridge,Northern,Bridge,Poor,0.0,87.25,34
+B198,Unyama Bridge,Northern,Bridge,Poor,0.0,87.25,35
+B197,Nyarwotho,Northern,Bridge,Poor,0.0,87.25,36
+B196,UNYAMA,Northern,Bridge,Poor,0.0,87.25,37
+B195,Aswa,Northern,Bridge,Poor,0.0,87.25,38
+B192,Ajan Bridge,Northern,Bridge,Poor,0.0,87.25,39
+B060,KANYAGO,North Eastern,Bridge,Poor,0.0,87.25,40
+B189,AWERE,Northern,Bridge,Poor,0.0,87.25,41
+B073,NCHWERA,Southern,Bridge,Poor,0.0,87.25,42
+B201,Burkung Bridge,Northern,Bridge,Poor,0.0,87.25,43
+B188,ODEK,Northern,Bridge,Poor,0.0,87.25,44
+B187,TORCHI (AWOL),Northern,Bridge,Poor,0.0,87.25,45
+B186,Apak Bridge,Northern,Bridge,Poor,0.0,87.25,46
+B171,LONGIRO,North Eastern,Bridge,Poor,0.0,87.25,47
+B062,Kibale,Southern,Bridge,Poor,0.0,87.25,48
+B068,Minera Bridge  01,Southern,Bridge,Poor,0.0,87.25,49
+B069,Minera 02,Southern,Bridge,Poor,0.0,87.25,50
+B172,KATULANGOLE,North Eastern,Bridge,Poor,0.0,87.25,51
+B184,Omanima Bridge,North Eastern,Bridge,Poor,0.0,87.25,52
+B071,Rwempunu,Southern,Bridge,Poor,0.0,87.25,53
+B183,GETOM,North Eastern,Bridge,Poor,0.0,87.25,54
+B182,KOMOLO,North Eastern,Bridge,Poor,0.0,87.25,55
+B181,Otaka bridge,Northern,Bridge,Poor,0.0,87.25,56
+B179,LOYOROIT,North Eastern,Bridge,Poor,0.0,87.25,57
+B173,LOCHOM,North Eastern,Bridge,Poor,0.0,87.25,58
+B178,NARIAMABUNE,North Eastern,Bridge,Poor,0.0,87.25,59
+B174,LOMUSAN,North Eastern,Bridge,Poor,0.0,87.25,60
+B177,YADALALA,North Eastern,Bridge,Poor,0.0,87.25,61
+B176,LAKAPELOT,North Eastern,Bridge,Poor,0.0,87.25,62
+B070,Nyamwiru Bridge,Southern,Bridge,Poor,0.0,87.25,63
+B229,KYONYO,Southern,Bridge,Poor,0.0,87.25,64
+B228,Butembe Bridge,Southern,Bridge,Poor,0.0,87.25,65
+B227,NKURUNGU,Southern,Bridge,Poor,0.0,87.25,66
+B225,MAYANJA BRIDGE,Central,Bridge,Poor,0.0,87.25,67
+B223,BUKOOLA,Western,Bridge,Poor,0.0,87.25,68
+B222,Mayanja,Central,Bridge,Poor,0.0,87.25,69
+B220,Kigungu Bridge,Central,Bridge,Poor,0.0,87.25,70
+B218,Kolo Bridge,Central,Bridge,Poor,0.0,87.25,71
+B217,Chololo Bridge,North Eastern,Bridge,Poor,0.0,87.25,72
+B251,ENSHYA,Southern,Bridge,Poor,0.0,87.25,73
+B249,KYAMBURA,Southern,Bridge,Poor,0.0,87.25,74
+B248,KATIZI BRIDGE,Southern,Bridge,Poor,0.0,87.25,75
+B056,NGENGE BRIDGE,Eastern,Bridge,Poor,0.0,87.25,76
+B243,Rwamuganga 01,Southern,Bridge,Poor,0.0,87.25,77
+B241,Mitano 02,Southern,Bridge,Poor,0.0,87.25,78
+B240,Rushaya Bridge,Southern,Bridge,Poor,0.0,87.25,79
+B239,Kakingo Bridge,Southern,Bridge,Poor,0.0,87.25,80
+B238,Kabaale Bridge,Southern,Bridge,Poor,0.0,87.25,81
+B237,Mitano 01,Southern,Bridge,Poor,0.0,87.25,82
+B236,Kiruruma Bridge,Southern,Bridge,Poor,0.0,87.25,83
+B235,Muyaga Bridge,Southern,Bridge,Poor,0.0,87.25,84
+B234,Ishasha Bridge,Southern,Bridge,Poor,0.0,87.25,85
+B233,Kaku Bridge,Southern,Bridge,Poor,0.0,87.25,86
+B232,Mucha Bridge,Southern,Bridge,Poor,0.0,87.25,87
+B231,Mpungu Bridge,Southern,Bridge,Poor,0.0,87.25,88
+B269,Kisenge,Western,Bridge,Poor,0.0,87.25,89
+B246,Ndurumo bridge,Southern,Bridge,Poor,0.0,87.25,90
+B057,Emjong,Eastern,Bridge,Poor,0.0,87.25,91
+B074,Ntungwe Bridge,Southern,Bridge,Poor,0.0,87.25,92
+B055, Atari,Eastern,Bridge,Poor,0.0,87.25,93
+B054,YEMBE,Eastern,Bridge,Poor,0.0,87.25,94
+B053,SIMU,Eastern,Bridge,Poor,0.0,87.25,95
+B052,Nalugugu,Eastern,Bridge,Poor,0.0,87.25,96
+B051,Sironko,Eastern,Bridge,Poor,0.0,87.25,97
+B050,RWERE,Eastern,Bridge,Poor,0.0,87.25,98
+B049,Nkusi,Western,Bridge,Poor,0.0,87.25,99
+B048,Muziza,Western,Bridge,Poor,0.0,87.25,100

@@ -1,0 +1,67 @@
+{
+  "section": "network_summary",
+  "last_updated": "2026-08-20",
+  "national_km": 21301.8,
+  "paved_km": 6405.1,
+  "unpaved_km": 14896.8,
+  "ducar_km": 89736.5,
+  "grand_total_km": 111038.3,
+  "bridges": 546,
+  "traffic_stations": 298,
+  "ducar_links": 31106,
+  "pim_projects": 158,
+  "pim_budget_usd": 4004845018.0,
+  "good_pct": 7.1,
+  "fair_pct": 18.9,
+  "poor_pct": 74.0,
+  "paved_pct": 30.1,
+  "mean_aadt_2026": 2889.0,
+  "ml_accuracies": {
+    "rms_rf": 0.971,
+    "tis_lr_r2": 1.0,
+    "bms_rf": 0.988,
+    "ducar_rf": 0.62
+  },
+  "kpis": [
+    {
+      "label": "National Road Network",
+      "value": "21,302 km",
+      "color": "#00f5ff"
+    },
+    {
+      "label": "DUCAR Network",
+      "value": "89,736 km",
+      "color": "#00f5ff"
+    },
+    {
+      "label": "Grand Total Roads",
+      "value": "111,038 km",
+      "color": "#00ff88"
+    },
+    {
+      "label": "Bridges",
+      "value": "546",
+      "color": "#ffbb00"
+    },
+    {
+      "label": "Good Condition",
+      "value": "7.1%",
+      "color": "#00ff88"
+    },
+    {
+      "label": "Poor Condition",
+      "value": "74.0%",
+      "color": "#ff3366"
+    },
+    {
+      "label": "NDP IV Investment",
+      "value": "$4.00B USD",
+      "color": "#b366ff"
+    },
+    {
+      "label": "Mean AADT 2026",
+      "value": "2,889 vpd",
+      "color": "#00f5ff"
+    }
+  ]
+}

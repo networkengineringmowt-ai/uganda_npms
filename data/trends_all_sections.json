@@ -1,0 +1,225 @@
+{
+  "last_updated": "2026-08-20",
+  "paved_trend": [
+    {
+      "year": "2009/10",
+      "good_km": 1230,
+      "fair_km": 1180,
+      "poor_km": 709
+    },
+    {
+      "year": "2010/11",
+      "good_km": 1742,
+      "fair_km": 680,
+      "poor_km": 843
+    },
+    {
+      "year": "2011/12",
+      "good_km": 1717,
+      "fair_km": 856,
+      "poor_km": 744
+    },
+    {
+      "year": "2012/13",
+      "good_km": 1794,
+      "fair_km": 893,
+      "poor_km": 803
+    },
+    {
+      "year": "2013/14",
+      "good_km": 2505,
+      "fair_km": 531,
+      "poor_km": 759
+    },
+    {
+      "year": "2014/15",
+      "good_km": 2707,
+      "fair_km": 478,
+      "poor_km": 796
+    },
+    {
+      "year": "2015/16",
+      "good_km": 2040,
+      "fair_km": 913,
+      "poor_km": 1204
+    },
+    {
+      "year": "2016/17",
+      "good_km": 2924,
+      "fair_km": 979,
+      "poor_km": 354
+    },
+    {
+      "year": "2017/18",
+      "good_km": 3413,
+      "fair_km": 1001,
+      "poor_km": 136
+    },
+    {
+      "year": "2018/19",
+      "good_km": 3862,
+      "fair_km": 802,
+      "poor_km": 351
+    },
+    {
+      "year": "2019/20",
+      "good_km": 2753,
+      "fair_km": 1727,
+      "poor_km": 864
+    },
+    {
+      "year": "2020/21",
+      "good_km": 4220,
+      "fair_km": 861,
+      "poor_km": 177
+    },
+    {
+      "year": "2021/22",
+      "good_km": 4272,
+      "fair_km": 902,
+      "poor_km": 159
+    }
+  ],
+  "unpaved_trend": [
+    {
+      "year": "2009/10",
+      "good_km": 1535,
+      "fair_km": 2340,
+      "poor_km": 3436
+    },
+    {
+      "year": "2010/11",
+      "good_km": 3719,
+      "fair_km": 7215,
+      "poor_km": 6186
+    },
+    {
+      "year": "2011/12",
+      "good_km": 3926,
+      "fair_km": 7853,
+      "poor_km": 5904
+    },
+    {
+      "year": "2012/13",
+      "good_km": 3852,
+      "fair_km": 7705,
+      "poor_km": 5954
+    },
+    {
+      "year": "2013/14",
+      "good_km": 5678,
+      "fair_km": 5850,
+      "poor_km": 5677
+    },
+    {
+      "year": "2014/15",
+      "good_km": 6297,
+      "fair_km": 5616,
+      "poor_km": 5106
+    },
+    {
+      "year": "2015/16",
+      "good_km": 1737,
+      "fair_km": 5707,
+      "poor_km": 2033
+    },
+    {
+      "year": "2016/17",
+      "good_km": 5212,
+      "fair_km": 7003,
+      "poor_km": 4072
+    },
+    {
+      "year": "2017/18",
+      "good_km": 3678,
+      "fair_km": 9755,
+      "poor_km": 2558
+    },
+    {
+      "year": "2018/19",
+      "good_km": 3802,
+      "fair_km": 8079,
+      "poor_km": 3960
+    },
+    {
+      "year": "2019/20",
+      "good_km": 3591,
+      "fair_km": 6245,
+      "poor_km": 5776
+    },
+    {
+      "year": "2020/21",
+      "good_km": 4695,
+      "fair_km": 6111,
+      "poor_km": 2669
+    },
+    {
+      "year": "2021/22",
+      "good_km": 2223,
+      "fair_km": 8961,
+      "poor_km": 1445
+    }
+  ],
+  "aadt_projection": [
+    {
+      "year": 2016,
+      "factor": 0.8278
+    },
+    {
+      "year": 2017,
+      "factor": 0.8543
+    },
+    {
+      "year": 2018,
+      "factor": 0.8816
+    },
+    {
+      "year": 2019,
+      "factor": 0.9098
+    },
+    {
+      "year": 2020,
+      "factor": 0.9389
+    },
+    {
+      "year": 2021,
+      "factor": 0.969
+    },
+    {
+      "year": 2022,
+      "factor": 1.0
+    },
+    {
+      "year": 2023,
+      "factor": 1.032
+    },
+    {
+      "year": 2024,
+      "factor": 1.065
+    },
+    {
+      "year": 2025,
+      "factor": 1.0991
+    },
+    {
+      "year": 2026,
+      "factor": 1.1343
+    },
+    {
+      "year": 2027,
+      "factor": 1.1706
+    },
+    {
+      "year": 2028,
+      "factor": 1.208
+    },
+    {
+      "year": 2029,
+      "factor": 1.2467
+    },
+    {
+      "year": 2030,
+      "factor": 1.2866
+    }
+  ]
+}

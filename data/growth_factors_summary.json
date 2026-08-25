@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T14:11:26.272042+00:00",
+  "generated": "2026-05-20T16:50:25.367161+00:00",
   "year_range": [
     2016,
     2024
@@ -739,19 +739,19 @@
       "vehicle_class": "bus",
       "year_from": 2021,
       "year_to": 2022,
-      "growth_rate": 0.465132,
-      "cagr": 0.465132,
+      "growth_rate": 0.526005,
+      "cagr": 0.526005,
       "aadt_from": 327.5,
-      "aadt_to": 479.9
+      "aadt_to": 499.8
     },
     {
       "region": "Central",
       "vehicle_class": "bus",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": -0.759813,
-      "cagr": -0.759813,
-      "aadt_from": 479.9,
+      "growth_rate": -0.769394,
+      "cagr": -0.769394,
+      "aadt_from": 499.8,
       "aadt_to": 115.3
     },
     {
@@ -789,19 +789,19 @@
       "vehicle_class": "car",
       "year_from": 2021,
       "year_to": 2022,
-      "growth_rate": 0.114976,
-      "cagr": 0.114976,
+      "growth_rate": 0.166533,
+      "cagr": 0.166533,
       "aadt_from": 171.2,
-      "aadt_to": 190.8
+      "aadt_to": 199.7
     },
     {
       "region": "Central",
       "vehicle_class": "car",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": -0.850622,
-      "cagr": -0.850622,
-      "aadt_from": 190.8,
+      "growth_rate": -0.857224,
+      "cagr": -0.857224,
+      "aadt_from": 199.7,
       "aadt_to": 28.5
     },
     {
@@ -839,19 +839,19 @@
       "vehicle_class": "hgv",
       "year_from": 2021,
       "year_to": 2022,
-      "growth_rate": -0.117003,
-      "cagr": -0.117003,
+      "growth_rate": -0.07974,
+      "cagr": -0.07974,
       "aadt_from": 3702.8,
-      "aadt_to": 3269.6
+      "aadt_to": 3407.6
     },
     {
       "region": "Central",
       "vehicle_class": "hgv",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": -0.793565,
-      "cagr": -0.793565,
-      "aadt_from": 3269.6,
+      "growth_rate": -0.801924,
+      "cagr": -0.801924,
+      "aadt_from": 3407.6,
       "aadt_to": 675.0
     },
     {
@@ -939,19 +939,19 @@
       "vehicle_class": "nmt",
       "year_from": 2021,
       "year_to": 2022,
-      "growth_rate": -0.733931,
-      "cagr": -0.733931,
+      "growth_rate": -0.729658,
+      "cagr": -0.729658,
       "aadt_from": 539.2,
-      "aadt_to": 143.5
+      "aadt_to": 145.8
     },
     {
       "region": "Central",
       "vehicle_class": "nmt",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": -0.330941,
-      "cagr": -0.330941,
-      "aadt_from": 143.5,
+      "growth_rate": -0.341516,
+      "cagr": -0.341516,
+      "aadt_from": 145.8,
       "aadt_to": 96.0
     },
     {
@@ -989,19 +989,19 @@
       "vehicle_class": "total",
       "year_from": 2021,
       "year_to": 2022,
-      "growth_rate": 0.04092,
-      "cagr": 0.04092,
+      "growth_rate": 0.085041,
+      "cagr": 0.085041,
       "aadt_from": 3805.8,
-      "aadt_to": 3961.5
+      "aadt_to": 4129.4
     },
     {
       "region": "Central",
       "vehicle_class": "total",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": -0.793356,
-      "cagr": -0.793356,
-      "aadt_from": 3961.5,
+      "growth_rate": -0.801759,
+      "cagr": -0.801759,
+      "aadt_from": 4129.4,
       "aadt_to": 818.6
     },
     {
@@ -1019,60 +1019,60 @@
       "vehicle_class": "bus",
       "year_from": 2019,
       "year_to": 2022,
-      "growth_rate": -0.231361,
-      "cagr": -0.083975,
+      "growth_rate": -0.270183,
+      "cagr": -0.099664,
       "aadt_from": 812.0,
-      "aadt_to": 624.1
+      "aadt_to": 592.6
     },
     {
       "region": "East",
       "vehicle_class": "bus",
       "year_from": 2019,
       "year_to": 2023,
-      "growth_rate": -0.573804,
-      "cagr": -0.192017,
+      "growth_rate": -0.56591,
+      "cagr": -0.188301,
       "aadt_from": 812.0,
-      "aadt_to": 346.1
+      "aadt_to": 352.5
     },
     {
       "region": "East",
       "vehicle_class": "bus",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": -0.445518,
-      "cagr": -0.445518,
-      "aadt_from": 624.1,
-      "aadt_to": 346.1
+      "growth_rate": -0.405206,
+      "cagr": -0.405206,
+      "aadt_from": 592.6,
+      "aadt_to": 352.5
     },
     {
       "region": "East",
       "vehicle_class": "car",
       "year_from": 2019,
       "year_to": 2022,
-      "growth_rate": -0.822988,
-      "cagr": -0.43852,
+      "growth_rate": -0.83646,
+      "cagr": -0.453142,
       "aadt_from": 821.8,
-      "aadt_to": 145.5
+      "aadt_to": 134.4
     },
     {
       "region": "East",
       "vehicle_class": "car",
       "year_from": 2019,
       "year_to": 2023,
-      "growth_rate": -0.927159,
-      "cagr": -0.48049,
+      "growth_rate": -0.928472,
+      "cagr": -0.482848,
       "aadt_from": 821.8,
-      "aadt_to": 59.9
+      "aadt_to": 58.8
     },
     {
       "region": "East",
       "vehicle_class": "car",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": -0.588496,
-      "cagr": -0.588496,
-      "aadt_from": 145.5,
-      "aadt_to": 59.9
+      "growth_rate": -0.562629,
+      "cagr": -0.562629,
+      "aadt_from": 134.4,
+      "aadt_to": 58.8
     },
     {
       "region": "East",
@@ -1099,29 +1099,29 @@
       "vehicle_class": "hgv",
       "year_from": 2021,
       "year_to": 2022,
-      "growth_rate": 9.383095,
-      "cagr": 9.383095,
+      "growth_rate": 8.933623,
+      "cagr": 8.933623,
       "aadt_from": 276.2,
-      "aadt_to": 2867.8
+      "aadt_to": 2743.7
     },
     {
       "region": "East",
       "vehicle_class": "hgv",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": -0.37735,
-      "cagr": -0.37735,
-      "aadt_from": 2867.8,
-      "aadt_to": 1785.6
+      "growth_rate": -0.338112,
+      "cagr": -0.338112,
+      "aadt_from": 2743.7,
+      "aadt_to": 1816.0
     },
     {
       "region": "East",
       "vehicle_class": "hgv",
       "year_from": 2023,
       "year_to": 2024,
-      "growth_rate": -0.845322,
-      "cagr": -0.845322,
-      "aadt_from": 1785.6,
+      "growth_rate": -0.847907,
+      "cagr": -0.847907,
+      "aadt_from": 1816.0,
       "aadt_to": 276.2
     },
     {
@@ -1149,29 +1149,29 @@
       "vehicle_class": "motorcycle",
       "year_from": 2021,
       "year_to": 2022,
-      "growth_rate": -0.962911,
-      "cagr": -0.962911,
+      "growth_rate": -0.963459,
+      "cagr": -0.963459,
       "aadt_from": 1227.3,
-      "aadt_to": 45.5
+      "aadt_to": 44.8
     },
     {
       "region": "East",
       "vehicle_class": "motorcycle",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": -0.891985,
-      "cagr": -0.891985,
-      "aadt_from": 45.5,
-      "aadt_to": 4.9
+      "growth_rate": -0.893355,
+      "cagr": -0.893355,
+      "aadt_from": 44.8,
+      "aadt_to": 4.8
     },
     {
       "region": "East",
       "vehicle_class": "motorcycle",
       "year_from": 2023,
       "year_to": 2024,
-      "growth_rate": 248.61637,
-      "cagr": 248.61637,
-      "aadt_from": 4.9,
+      "growth_rate": 255.613193,
+      "cagr": 255.613193,
+      "aadt_from": 4.8,
       "aadt_to": 1227.3
     },
     {
@@ -1179,50 +1179,50 @@
       "vehicle_class": "nmt",
       "year_from": 2019,
       "year_to": 2021,
-      "growth_rate": 1.469438,
-      "cagr": 0.571445,
+      "growth_rate": 1.495879,
+      "cagr": 0.579835,
       "aadt_from": 300.0,
-      "aadt_to": 740.8
+      "aadt_to": 748.8
     },
     {
       "region": "East",
       "vehicle_class": "nmt",
       "year_from": 2019,
       "year_to": 2024,
-      "growth_rate": 1.444283,
-      "cagr": 0.195722,
+      "growth_rate": 1.470163,
+      "cagr": 0.198244,
       "aadt_from": 300.0,
-      "aadt_to": 733.3
+      "aadt_to": 741.0
     },
     {
       "region": "East",
       "vehicle_class": "nmt",
       "year_from": 2021,
       "year_to": 2022,
-      "growth_rate": -0.447662,
-      "cagr": -0.447662,
-      "aadt_from": 740.8,
-      "aadt_to": 409.2
+      "growth_rate": -0.444529,
+      "cagr": -0.444529,
+      "aadt_from": 748.8,
+      "aadt_to": 415.9
     },
     {
       "region": "East",
       "vehicle_class": "nmt",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": -0.378808,
-      "cagr": -0.378808,
-      "aadt_from": 409.2,
-      "aadt_to": 254.2
+      "growth_rate": -0.367107,
+      "cagr": -0.367107,
+      "aadt_from": 415.9,
+      "aadt_to": 263.2
     },
     {
       "region": "East",
       "vehicle_class": "nmt",
       "year_from": 2023,
       "year_to": 2024,
-      "growth_rate": 1.884845,
-      "cagr": 1.884845,
-      "aadt_from": 254.2,
-      "aadt_to": 733.3
+      "growth_rate": 1.815206,
+      "cagr": 1.815206,
+      "aadt_from": 263.2,
+      "aadt_to": 741.0
     },
     {
       "region": "East",
@@ -1249,29 +1249,29 @@
       "vehicle_class": "total",
       "year_from": 2021,
       "year_to": 2022,
-      "growth_rate": 1.835231,
-      "cagr": 1.835231,
+      "growth_rate": 1.705801,
+      "cagr": 1.705801,
       "aadt_from": 1294.6,
-      "aadt_to": 3670.6
+      "aadt_to": 3503.1
     },
     {
       "region": "East",
       "vehicle_class": "total",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": -0.401795,
-      "cagr": -0.401795,
-      "aadt_from": 3670.6,
-      "aadt_to": 2195.8
+      "growth_rate": -0.363032,
+      "cagr": -0.363032,
+      "aadt_from": 3503.1,
+      "aadt_to": 2231.3
     },
     {
       "region": "East",
       "vehicle_class": "total",
       "year_from": 2023,
       "year_to": 2024,
-      "growth_rate": -0.410395,
-      "cagr": -0.410395,
-      "aadt_from": 2195.8,
+      "growth_rate": -0.419788,
+      "cagr": -0.419788,
+      "aadt_from": 2231.3,
       "aadt_to": 1294.6
     },
     {
@@ -1279,208 +1279,208 @@
       "vehicle_class": "bus",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": -0.881505,
-      "cagr": -0.881505,
-      "aadt_from": 1422.0,
-      "aadt_to": 168.5
+      "growth_rate": -0.887137,
+      "cagr": -0.887137,
+      "aadt_from": 1506.2,
+      "aadt_to": 170.0
     },
     {
       "region": "Eastern",
       "vehicle_class": "bus",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": -0.881505,
-      "cagr": -0.881505,
-      "aadt_from": 1422.0,
-      "aadt_to": 168.5
+      "growth_rate": -0.887137,
+      "cagr": -0.887137,
+      "aadt_from": 1506.2,
+      "aadt_to": 170.0
     },
     {
       "region": "Eastern",
       "vehicle_class": "car",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": -0.914865,
-      "cagr": -0.914865,
-      "aadt_from": 123.3,
-      "aadt_to": 10.5
+      "growth_rate": -0.839533,
+      "cagr": -0.839533,
+      "aadt_from": 228.5,
+      "aadt_to": 36.7
     },
     {
       "region": "Eastern",
       "vehicle_class": "car",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": -0.914865,
-      "cagr": -0.914865,
-      "aadt_from": 123.3,
-      "aadt_to": 10.5
+      "growth_rate": -0.839533,
+      "cagr": -0.839533,
+      "aadt_from": 228.5,
+      "aadt_to": 36.7
     },
     {
       "region": "Eastern",
       "vehicle_class": "hgv",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": -0.89539,
-      "cagr": -0.89539,
-      "aadt_from": 3369.7,
-      "aadt_to": 352.5
+      "growth_rate": -0.872292,
+      "cagr": -0.872292,
+      "aadt_from": 4361.5,
+      "aadt_to": 557.0
     },
     {
       "region": "Eastern",
       "vehicle_class": "hgv",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": -0.89539,
-      "cagr": -0.89539,
-      "aadt_from": 3369.7,
-      "aadt_to": 352.5
+      "growth_rate": -0.872292,
+      "cagr": -0.872292,
+      "aadt_from": 4361.5,
+      "aadt_to": 557.0
     },
     {
       "region": "Eastern",
       "vehicle_class": "motorcycle",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": -0.956044,
-      "cagr": -0.956044,
-      "aadt_from": 45.5,
-      "aadt_to": 2.0
+      "growth_rate": -0.902597,
+      "cagr": -0.902597,
+      "aadt_from": 51.3,
+      "aadt_to": 5.0
     },
     {
       "region": "Eastern",
       "vehicle_class": "motorcycle",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": -0.956044,
-      "cagr": -0.956044,
-      "aadt_from": 45.5,
-      "aadt_to": 2.0
+      "growth_rate": -0.902597,
+      "cagr": -0.902597,
+      "aadt_from": 51.3,
+      "aadt_to": 5.0
     },
     {
       "region": "Eastern",
       "vehicle_class": "nmt",
       "year_from": 2021,
       "year_to": 2022,
-      "growth_rate": -0.078232,
-      "cagr": -0.078232,
-      "aadt_from": 1625.5,
-      "aadt_to": 1498.3
+      "growth_rate": 0.069266,
+      "cagr": 0.069266,
+      "aadt_from": 1090.0,
+      "aadt_to": 1165.5
     },
     {
       "region": "Eastern",
       "vehicle_class": "nmt",
       "year_from": 2021,
       "year_to": 2024,
-      "growth_rate": -0.335589,
-      "cagr": -0.127406,
-      "aadt_from": 1625.5,
-      "aadt_to": 1080.0
+      "growth_rate": -0.333639,
+      "cagr": -0.126553,
+      "aadt_from": 1090.0,
+      "aadt_to": 726.3
     },
     {
       "region": "Eastern",
       "vehicle_class": "nmt",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": -0.855506,
-      "cagr": -0.855506,
-      "aadt_from": 1498.3,
-      "aadt_to": 216.5
+      "growth_rate": -0.870728,
+      "cagr": -0.870728,
+      "aadt_from": 1165.5,
+      "aadt_to": 150.7
     },
     {
       "region": "Eastern",
       "vehicle_class": "nmt",
       "year_from": 2023,
       "year_to": 2024,
-      "growth_rate": 3.988453,
-      "cagr": 3.988453,
-      "aadt_from": 216.5,
-      "aadt_to": 1080.0
+      "growth_rate": 3.820796,
+      "cagr": 3.820796,
+      "aadt_from": 150.7,
+      "aadt_to": 726.3
     },
     {
       "region": "Eastern",
       "vehicle_class": "total",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": -0.892323,
-      "cagr": -0.892323,
-      "aadt_from": 4945.3,
-      "aadt_to": 532.5
+      "growth_rate": -0.874975,
+      "cagr": -0.874975,
+      "aadt_from": 6134.8,
+      "aadt_to": 767.0
     },
     {
       "region": "Eastern",
       "vehicle_class": "total",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": -0.892323,
-      "cagr": -0.892323,
-      "aadt_from": 4945.3,
-      "aadt_to": 532.5
+      "growth_rate": -0.874975,
+      "cagr": -0.874975,
+      "aadt_from": 6134.8,
+      "aadt_to": 767.0
     },
     {
       "region": "North",
       "vehicle_class": "bus",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": 1.491441,
-      "cagr": 1.491441,
-      "aadt_from": 277.9,
-      "aadt_to": 692.4
+      "growth_rate": 1.539369,
+      "cagr": 1.539369,
+      "aadt_from": 275.6,
+      "aadt_to": 699.9
     },
     {
       "region": "North",
       "vehicle_class": "bus",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": 1.491441,
-      "cagr": 1.491441,
-      "aadt_from": 277.9,
-      "aadt_to": 692.4
+      "growth_rate": 1.539369,
+      "cagr": 1.539369,
+      "aadt_from": 275.6,
+      "aadt_to": 699.9
     },
     {
       "region": "North",
       "vehicle_class": "car",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": 2.375895,
-      "cagr": 2.375895,
-      "aadt_from": 35.7,
-      "aadt_to": 120.4
+      "growth_rate": 2.353833,
+      "cagr": 2.353833,
+      "aadt_from": 35.0,
+      "aadt_to": 117.2
     },
     {
       "region": "North",
       "vehicle_class": "car",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": 2.375895,
-      "cagr": 2.375895,
-      "aadt_from": 35.7,
-      "aadt_to": 120.4
+      "growth_rate": 2.353833,
+      "cagr": 2.353833,
+      "aadt_from": 35.0,
+      "aadt_to": 117.2
     },
     {
       "region": "North",
       "vehicle_class": "hgv",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": 2.566058,
-      "cagr": 2.566058,
-      "aadt_from": 964.0,
-      "aadt_to": 3437.7
+      "growth_rate": 2.52785,
+      "cagr": 2.52785,
+      "aadt_from": 966.1,
+      "aadt_to": 3408.2
     },
     {
       "region": "North",
       "vehicle_class": "hgv",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": 2.566058,
-      "cagr": 2.566058,
-      "aadt_from": 964.0,
-      "aadt_to": 3437.7
+      "growth_rate": 2.52785,
+      "cagr": 2.52785,
+      "aadt_from": 966.1,
+      "aadt_to": 3408.2
     },
     {
       "region": "North",
       "vehicle_class": "motorcycle",
       "year_from": 2021,
       "year_to": 2022,
-      "growth_rate": -0.98887,
-      "cagr": -0.98887,
+      "growth_rate": -0.988805,
+      "cagr": -0.988805,
       "aadt_from": 293.5,
       "aadt_to": 3.3
     },
@@ -1499,19 +1499,19 @@
       "vehicle_class": "motorcycle",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": 4.931122,
-      "cagr": 4.931122,
+      "growth_rate": 4.870709,
+      "cagr": 4.870709,
       "aadt_from": 3.3,
-      "aadt_to": 19.4
+      "aadt_to": 19.3
     },
     {
       "region": "North",
       "vehicle_class": "motorcycle",
       "year_from": 2023,
       "year_to": 2024,
-      "growth_rate": 14.147918,
-      "cagr": 14.147918,
-      "aadt_from": 19.4,
+      "growth_rate": 14.215081,
+      "cagr": 14.215081,
+      "aadt_from": 19.3,
       "aadt_to": 293.5
     },
     {
@@ -1519,10 +1519,10 @@
       "vehicle_class": "nmt",
       "year_from": 2021,
       "year_to": 2022,
-      "growth_rate": -0.312642,
-      "cagr": -0.312642,
-      "aadt_from": 384.4,
-      "aadt_to": 264.2
+      "growth_rate": -0.300354,
+      "cagr": -0.300354,
+      "aadt_from": 381.5,
+      "aadt_to": 266.9
     },
     {
       "region": "North",
@@ -1531,38 +1531,38 @@
       "year_to": 2024,
       "growth_rate": 0,
       "cagr": null,
-      "aadt_from": 384.4,
-      "aadt_to": 384.4
+      "aadt_from": 381.5,
+      "aadt_to": 381.5
     },
     {
       "region": "North",
       "vehicle_class": "nmt",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": 0.175375,
-      "cagr": 0.175375,
-      "aadt_from": 264.2,
-      "aadt_to": 310.6
+      "growth_rate": 0.103978,
+      "cagr": 0.103978,
+      "aadt_from": 266.9,
+      "aadt_to": 294.7
     },
     {
       "region": "North",
       "vehicle_class": "nmt",
       "year_from": 2023,
       "year_to": 2024,
-      "growth_rate": 0.237772,
-      "cagr": 0.237772,
-      "aadt_from": 310.6,
-      "aadt_to": 384.4
+      "growth_rate": 0.294676,
+      "cagr": 0.294676,
+      "aadt_from": 294.7,
+      "aadt_to": 381.5
     },
     {
       "region": "North",
       "vehicle_class": "total",
       "year_from": 2021,
       "year_to": 2022,
-      "growth_rate": 3.359492,
-      "cagr": 3.359492,
+      "growth_rate": 3.35608,
+      "cagr": 3.35608,
       "aadt_from": 293.5,
-      "aadt_to": 1279.5
+      "aadt_to": 1278.5
     },
     {
       "region": "North",
@@ -1579,19 +1579,19 @@
       "vehicle_class": "total",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": 2.336516,
-      "cagr": 2.336516,
-      "aadt_from": 1279.5,
-      "aadt_to": 4269.0
+      "growth_rate": 2.319261,
+      "cagr": 2.319261,
+      "aadt_from": 1278.5,
+      "aadt_to": 4243.6
     },
     {
       "region": "North",
       "vehicle_class": "total",
       "year_from": 2023,
       "year_to": 2024,
-      "growth_rate": -0.93125,
-      "cagr": -0.93125,
-      "aadt_from": 4269.0,
+      "growth_rate": -0.930839,
+      "cagr": -0.930839,
+      "aadt_from": 4243.6,
       "aadt_to": 293.5
     },
     {
@@ -1655,94 +1655,234 @@
       "aadt_to": 81.4
     },
     {
+      "region": "Northern",
+      "vehicle_class": "bus",
+      "year_from": 2022,
+      "year_to": 2023,
+      "growth_rate": 0.61848,
+      "cagr": 0.61848,
+      "aadt_from": 335.5,
+      "aadt_to": 543.0
+    },
+    {
+      "region": "Northern",
+      "vehicle_class": "bus",
+      "year_from": 2022,
+      "year_to": 2023,
+      "growth_rate": 0.61848,
+      "cagr": 0.61848,
+      "aadt_from": 335.5,
+      "aadt_to": 543.0
+    },
+    {
+      "region": "Northern",
+      "vehicle_class": "car",
+      "year_from": 2022,
+      "year_to": 2023,
+      "growth_rate": 2.439252,
+      "cagr": 2.439252,
+      "aadt_from": 53.5,
+      "aadt_to": 184.0
+    },
+    {
+      "region": "Northern",
+      "vehicle_class": "car",
+      "year_from": 2022,
+      "year_to": 2023,
+      "growth_rate": 2.439252,
+      "cagr": 2.439252,
+      "aadt_from": 53.5,
+      "aadt_to": 184.0
+    },
+    {
+      "region": "Northern",
+      "vehicle_class": "hgv",
+      "year_from": 2022,
+      "year_to": 2023,
+      "growth_rate": 3.415342,
+      "cagr": 3.415342,
+      "aadt_from": 912.5,
+      "aadt_to": 4029.0
+    },
+    {
+      "region": "Northern",
+      "vehicle_class": "hgv",
+      "year_from": 2022,
+      "year_to": 2023,
+      "growth_rate": 3.415342,
+      "cagr": 3.415342,
+      "aadt_from": 912.5,
+      "aadt_to": 4029.0
+    },
+    {
+      "region": "Northern",
+      "vehicle_class": "motorcycle",
+      "year_from": 2022,
+      "year_to": 2023,
+      "growth_rate": 6.0,
+      "cagr": 6.0,
+      "aadt_from": 3.0,
+      "aadt_to": 21.0
+    },
+    {
+      "region": "Northern",
+      "vehicle_class": "motorcycle",
+      "year_from": 2022,
+      "year_to": 2023,
+      "growth_rate": 6.0,
+      "cagr": 6.0,
+      "aadt_from": 3.0,
+      "aadt_to": 21.0
+    },
+    {
+      "region": "Northern",
+      "vehicle_class": "nmt",
+      "year_from": 2021,
+      "year_to": 2022,
+      "growth_rate": -0.668624,
+      "cagr": -0.668624,
+      "aadt_from": 596.0,
+      "aadt_to": 197.5
+    },
+    {
+      "region": "Northern",
+      "vehicle_class": "nmt",
+      "year_from": 2021,
+      "year_to": 2024,
+      "growth_rate": 0,
+      "cagr": null,
+      "aadt_from": 596.0,
+      "aadt_to": 596.0
+    },
+    {
+      "region": "Northern",
+      "vehicle_class": "nmt",
+      "year_from": 2022,
+      "year_to": 2023,
+      "growth_rate": 2.017722,
+      "cagr": 2.017722,
+      "aadt_from": 197.5,
+      "aadt_to": 596.0
+    },
+    {
+      "region": "Northern",
+      "vehicle_class": "nmt",
+      "year_from": 2023,
+      "year_to": 2024,
+      "growth_rate": 0,
+      "cagr": null,
+      "aadt_from": 596.0,
+      "aadt_to": 596.0
+    },
+    {
+      "region": "Northern",
+      "vehicle_class": "total",
+      "year_from": 2022,
+      "year_to": 2023,
+      "growth_rate": 2.661939,
+      "cagr": 2.661939,
+      "aadt_from": 1304.5,
+      "aadt_to": 4777.0
+    },
+    {
+      "region": "Northern",
+      "vehicle_class": "total",
+      "year_from": 2022,
+      "year_to": 2023,
+      "growth_rate": 2.661939,
+      "cagr": 2.661939,
+      "aadt_from": 1304.5,
+      "aadt_to": 4777.0
+    },
+    {
       "region": "South",
       "vehicle_class": "bus",
       "year_from": 2019,
       "year_to": 2022,
-      "growth_rate": -0.473991,
-      "cagr": -0.192769,
+      "growth_rate": -0.478902,
+      "cagr": -0.195289,
       "aadt_from": 174.0,
-      "aadt_to": 91.5
+      "aadt_to": 90.7
     },
     {
       "region": "South",
       "vehicle_class": "bus",
       "year_from": 2019,
       "year_to": 2023,
-      "growth_rate": 0.213485,
-      "cagr": 0.049563,
+      "growth_rate": 0.196552,
+      "cagr": 0.045882,
       "aadt_from": 174.0,
-      "aadt_to": 211.1
+      "aadt_to": 208.2
     },
     {
       "region": "South",
       "vehicle_class": "bus",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": 1.306964,
-      "cagr": 1.306964,
-      "aadt_from": 91.5,
-      "aadt_to": 211.1
+      "growth_rate": 1.296212,
+      "cagr": 1.296212,
+      "aadt_from": 90.7,
+      "aadt_to": 208.2
     },
     {
       "region": "South",
       "vehicle_class": "car",
       "year_from": 2019,
       "year_to": 2022,
-      "growth_rate": -0.965936,
-      "cagr": -0.675836,
+      "growth_rate": -0.966738,
+      "cagr": -0.678399,
       "aadt_from": 883.3,
-      "aadt_to": 30.1
+      "aadt_to": 29.4
     },
     {
       "region": "South",
       "vehicle_class": "car",
       "year_from": 2019,
       "year_to": 2023,
-      "growth_rate": -0.952618,
-      "cagr": -0.533446,
+      "growth_rate": -0.951632,
+      "cagr": -0.531036,
       "aadt_from": 883.3,
-      "aadt_to": 41.9
+      "aadt_to": 42.7
     },
     {
       "region": "South",
       "vehicle_class": "car",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": 0.390961,
-      "cagr": 0.390961,
-      "aadt_from": 30.1,
-      "aadt_to": 41.9
+      "growth_rate": 0.454142,
+      "cagr": 0.454142,
+      "aadt_from": 29.4,
+      "aadt_to": 42.7
     },
     {
       "region": "South",
       "vehicle_class": "hgv",
       "year_from": 2019,
       "year_to": 2022,
-      "growth_rate": 2.498104,
-      "cagr": 0.51802,
+      "growth_rate": 2.482139,
+      "cagr": 0.515707,
       "aadt_from": 216.3,
-      "aadt_to": 756.8
+      "aadt_to": 753.3
     },
     {
       "region": "South",
       "vehicle_class": "hgv",
       "year_from": 2019,
       "year_to": 2023,
-      "growth_rate": 3.69702,
-      "cagr": 0.472162,
+      "growth_rate": 3.674153,
+      "cagr": 0.470367,
       "aadt_from": 216.3,
-      "aadt_to": 1016.1
+      "aadt_to": 1011.2
     },
     {
       "region": "South",
       "vehicle_class": "hgv",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": 0.342733,
-      "cagr": 0.342733,
-      "aadt_from": 756.8,
-      "aadt_to": 1016.1
+      "growth_rate": 0.342322,
+      "cagr": 0.342322,
+      "aadt_from": 753.3,
+      "aadt_to": 1011.2
     },
     {
       "region": "South",
@@ -1769,19 +1909,19 @@
       "vehicle_class": "motorcycle",
       "year_from": 2021,
       "year_to": 2022,
-      "growth_rate": -0.998272,
-      "cagr": -0.998272,
+      "growth_rate": -0.998204,
+      "cagr": -0.998204,
       "aadt_from": 1410.9,
-      "aadt_to": 2.4
+      "aadt_to": 2.5
     },
     {
       "region": "South",
       "vehicle_class": "motorcycle",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": 2.665552,
-      "cagr": 2.665552,
-      "aadt_from": 2.4,
+      "growth_rate": 2.526888,
+      "cagr": 2.526888,
+      "aadt_from": 2.5,
       "aadt_to": 8.9
     },
     {
@@ -1799,50 +1939,50 @@
       "vehicle_class": "nmt",
       "year_from": 2019,
       "year_to": 2021,
-      "growth_rate": 1.057282,
-      "cagr": 0.434323,
+      "growth_rate": 1.062666,
+      "cagr": 0.436198,
       "aadt_from": 259.7,
-      "aadt_to": 534.2
+      "aadt_to": 535.6
     },
     {
       "region": "South",
       "vehicle_class": "nmt",
       "year_from": 2019,
       "year_to": 2024,
-      "growth_rate": 1.057282,
-      "cagr": 0.155204,
+      "growth_rate": 1.062666,
+      "cagr": 0.155808,
       "aadt_from": 259.7,
-      "aadt_to": 534.2
+      "aadt_to": 535.6
     },
     {
       "region": "South",
       "vehicle_class": "nmt",
       "year_from": 2021,
       "year_to": 2022,
-      "growth_rate": -0.88991,
-      "cagr": -0.88991,
-      "aadt_from": 534.2,
-      "aadt_to": 58.8
+      "growth_rate": -0.887666,
+      "cagr": -0.887666,
+      "aadt_from": 535.6,
+      "aadt_to": 60.2
     },
     {
       "region": "South",
       "vehicle_class": "nmt",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": 2.488864,
-      "cagr": 2.488864,
-      "aadt_from": 58.8,
-      "aadt_to": 205.2
+      "growth_rate": 2.332202,
+      "cagr": 2.332202,
+      "aadt_from": 60.2,
+      "aadt_to": 200.5
     },
     {
       "region": "South",
       "vehicle_class": "nmt",
       "year_from": 2023,
       "year_to": 2024,
-      "growth_rate": 1.603567,
-      "cagr": 1.603567,
-      "aadt_from": 205.2,
-      "aadt_to": 534.2
+      "growth_rate": 1.671516,
+      "cagr": 1.671516,
+      "aadt_from": 200.5,
+      "aadt_to": 535.6
     },
     {
       "region": "South",
@@ -1869,29 +2009,29 @@
       "vehicle_class": "total",
       "year_from": 2021,
       "year_to": 2022,
-      "growth_rate": -0.376737,
-      "cagr": -0.376737,
+      "growth_rate": -0.380293,
+      "cagr": -0.380293,
       "aadt_from": 1410.9,
-      "aadt_to": 879.4
+      "aadt_to": 874.4
     },
     {
       "region": "South",
       "vehicle_class": "total",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": 0.448914,
-      "cagr": 0.448914,
-      "aadt_from": 879.4,
-      "aadt_to": 1274.1
+      "growth_rate": 0.449339,
+      "cagr": 0.449339,
+      "aadt_from": 874.4,
+      "aadt_to": 1267.2
     },
     {
       "region": "South",
       "vehicle_class": "total",
       "year_from": 2023,
       "year_to": 2024,
-      "growth_rate": 0.107353,
-      "cagr": 0.107353,
-      "aadt_from": 1274.1,
+      "growth_rate": 0.11338,
+      "cagr": 0.11338,
+      "aadt_from": 1267.2,
       "aadt_to": 1410.9
     },
     {
@@ -1909,10 +2049,10 @@
       "vehicle_class": "bus",
       "year_from": 2016,
       "year_to": 2023,
-      "growth_rate": -0.171368,
-      "cagr": -0.026497,
+      "growth_rate": -0.144228,
+      "cagr": -0.022004,
       "aadt_from": 235.8,
-      "aadt_to": 195.4
+      "aadt_to": 201.8
     },
     {
       "region": "Unknown",
@@ -1929,20 +2069,20 @@
       "vehicle_class": "bus",
       "year_from": 2019,
       "year_to": 2022,
-      "growth_rate": -0.15085,
-      "cagr": -0.053048,
+      "growth_rate": -0.232803,
+      "cagr": -0.084548,
       "aadt_from": 202.6,
-      "aadt_to": 172.0
+      "aadt_to": 155.4
     },
     {
       "region": "Unknown",
       "vehicle_class": "bus",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": 0.136047,
-      "cagr": 0.136047,
-      "aadt_from": 172.0,
-      "aadt_to": 195.4
+      "growth_rate": 0.298584,
+      "cagr": 0.298584,
+      "aadt_from": 155.4,
+      "aadt_to": 201.8
     },
     {
       "region": "Unknown",
@@ -1959,10 +2099,10 @@
       "vehicle_class": "car",
       "year_from": 2016,
       "year_to": 2023,
-      "growth_rate": -0.922155,
-      "cagr": -0.305608,
+      "growth_rate": -0.93817,
+      "cagr": -0.328085,
       "aadt_from": 493.3,
-      "aadt_to": 38.4
+      "aadt_to": 30.5
     },
     {
       "region": "Unknown",
@@ -1979,20 +2119,20 @@
       "vehicle_class": "car",
       "year_from": 2019,
       "year_to": 2022,
-      "growth_rate": -0.926637,
-      "cagr": -0.581374,
+      "growth_rate": -0.939237,
+      "cagr": -0.606861,
       "aadt_from": 943.6,
-      "aadt_to": 69.2
+      "aadt_to": 57.3
     },
     {
       "region": "Unknown",
       "vehicle_class": "car",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": -0.445265,
-      "cagr": -0.445265,
-      "aadt_from": 69.2,
-      "aadt_to": 38.4
+      "growth_rate": -0.468023,
+      "cagr": -0.468023,
+      "aadt_from": 57.3,
+      "aadt_to": 30.5
     },
     {
       "region": "Unknown",
@@ -2009,10 +2149,10 @@
       "vehicle_class": "hgv",
       "year_from": 2016,
       "year_to": 2023,
-      "growth_rate": 14.462188,
-      "cagr": 0.478754,
+      "growth_rate": 12.176679,
+      "cagr": 0.445348,
       "aadt_from": 110.0,
-      "aadt_to": 1700.8
+      "aadt_to": 1449.4
     },
     {
       "region": "Unknown",
@@ -2029,20 +2169,20 @@
       "vehicle_class": "hgv",
       "year_from": 2019,
       "year_to": 2022,
-      "growth_rate": 2.380857,
-      "cagr": 0.500867,
+      "growth_rate": 2.315979,
+      "cagr": 0.491205,
       "aadt_from": 277.4,
-      "aadt_to": 938.0
+      "aadt_to": 920.0
     },
     {
       "region": "Unknown",
       "vehicle_class": "hgv",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": 0.81322,
-      "cagr": 0.81322,
-      "aadt_from": 938.0,
-      "aadt_to": 1700.8
+      "growth_rate": 0.575435,
+      "cagr": 0.575435,
+      "aadt_from": 920.0,
+      "aadt_to": 1449.4
     },
     {
       "region": "Unknown",
@@ -2089,29 +2229,29 @@
       "vehicle_class": "motorcycle",
       "year_from": 2021,
       "year_to": 2022,
-      "growth_rate": -0.99502,
-      "cagr": -0.99502,
+      "growth_rate": -0.996701,
+      "cagr": -0.996701,
       "aadt_from": 2008.0,
-      "aadt_to": 10.0
+      "aadt_to": 6.6
     },
     {
       "region": "Unknown",
       "vehicle_class": "motorcycle",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": -0.4,
-      "cagr": -0.4,
-      "aadt_from": 10.0,
-      "aadt_to": 6.0
+      "growth_rate": -0.295597,
+      "cagr": -0.295597,
+      "aadt_from": 6.6,
+      "aadt_to": 4.7
     },
     {
       "region": "Unknown",
       "vehicle_class": "motorcycle",
       "year_from": 2023,
       "year_to": 2024,
-      "growth_rate": 333.666667,
-      "cagr": 333.666667,
-      "aadt_from": 6.0,
+      "growth_rate": 429.285714,
+      "cagr": 429.285714,
+      "aadt_from": 4.7,
       "aadt_to": 2008.0
     },
     {
@@ -2129,10 +2269,10 @@
       "vehicle_class": "nmt",
       "year_from": 2016,
       "year_to": 2024,
-      "growth_rate": 4.277557,
-      "cagr": 0.231131,
+      "growth_rate": 4.132054,
+      "cagr": 0.226836,
       "aadt_from": 376.9,
-      "aadt_to": 1989.1
+      "aadt_to": 1934.3
     },
     {
       "region": "Unknown",
@@ -2149,40 +2289,40 @@
       "vehicle_class": "nmt",
       "year_from": 2019,
       "year_to": 2021,
-      "growth_rate": 9.909217,
-      "cagr": 2.30291,
+      "growth_rate": 9.606288,
+      "cagr": 2.25673,
       "aadt_from": 183.4,
-      "aadt_to": 2001.2
+      "aadt_to": 1945.7
     },
     {
       "region": "Unknown",
       "vehicle_class": "nmt",
       "year_from": 2021,
       "year_to": 2022,
-      "growth_rate": -0.961801,
-      "cagr": -0.961801,
-      "aadt_from": 2001.2,
-      "aadt_to": 76.4
+      "growth_rate": -0.951962,
+      "cagr": -0.951962,
+      "aadt_from": 1945.7,
+      "aadt_to": 93.5
     },
     {
       "region": "Unknown",
       "vehicle_class": "nmt",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": 0.967442,
-      "cagr": 0.967442,
-      "aadt_from": 76.4,
-      "aadt_to": 150.4
+      "growth_rate": 1.116262,
+      "cagr": 1.116262,
+      "aadt_from": 93.5,
+      "aadt_to": 197.8
     },
     {
       "region": "Unknown",
       "vehicle_class": "nmt",
       "year_from": 2023,
       "year_to": 2024,
-      "growth_rate": 12.225468,
-      "cagr": 12.225468,
-      "aadt_from": 150.4,
-      "aadt_to": 1989.1
+      "growth_rate": 8.77892,
+      "cagr": 8.77892,
+      "aadt_from": 197.8,
+      "aadt_to": 1934.3
     },
     {
       "region": "Unknown",
@@ -2229,29 +2369,29 @@
       "vehicle_class": "total",
       "year_from": 2021,
       "year_to": 2022,
-      "growth_rate": -0.409971,
-      "cagr": -0.409971,
+      "growth_rate": -0.43413,
+      "cagr": -0.43413,
       "aadt_from": 2008.0,
-      "aadt_to": 1184.8
+      "aadt_to": 1136.3
     },
     {
       "region": "Unknown",
       "vehicle_class": "total",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": 0.634906,
-      "cagr": 0.634906,
-      "aadt_from": 1184.8,
-      "aadt_to": 1937.0
+      "growth_rate": 0.481254,
+      "cagr": 0.481254,
+      "aadt_from": 1136.3,
+      "aadt_to": 1683.1
     },
     {
       "region": "Unknown",
       "vehicle_class": "total",
       "year_from": 2023,
       "year_to": 2024,
-      "growth_rate": 0.036655,
-      "cagr": 0.036655,
-      "aadt_from": 1937.0,
+      "growth_rate": 0.193037,
+      "cagr": 0.193037,
+      "aadt_from": 1683.1,
       "aadt_to": 2008.0
     },
     {
@@ -2259,60 +2399,60 @@
       "vehicle_class": "bus",
       "year_from": 2019,
       "year_to": 2022,
-      "growth_rate": 3.357973,
-      "cagr": 0.633409,
+      "growth_rate": 3.491279,
+      "cagr": 0.649896,
       "aadt_from": 31.3,
-      "aadt_to": 136.3
+      "aadt_to": 140.5
     },
     {
       "region": "West",
       "vehicle_class": "bus",
       "year_from": 2019,
       "year_to": 2023,
-      "growth_rate": 6.580694,
-      "cagr": 0.659309,
+      "growth_rate": 6.896866,
+      "cagr": 0.676346,
       "aadt_from": 31.3,
-      "aadt_to": 237.1
+      "aadt_to": 247.0
     },
     {
       "region": "West",
       "vehicle_class": "bus",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": 0.7395,
-      "cagr": 0.7395,
-      "aadt_from": 136.3,
-      "aadt_to": 237.1
+      "growth_rate": 0.758266,
+      "cagr": 0.758266,
+      "aadt_from": 140.5,
+      "aadt_to": 247.0
     },
     {
       "region": "West",
       "vehicle_class": "car",
       "year_from": 2019,
       "year_to": 2022,
-      "growth_rate": -0.616731,
-      "cagr": -0.273613,
+      "growth_rate": -0.584198,
+      "cagr": -0.253616,
       "aadt_from": 149.0,
-      "aadt_to": 57.1
+      "aadt_to": 62.0
     },
     {
       "region": "West",
       "vehicle_class": "car",
       "year_from": 2019,
       "year_to": 2023,
-      "growth_rate": -0.873975,
-      "cagr": -0.404181,
+      "growth_rate": -0.875999,
+      "cagr": -0.406588,
       "aadt_from": 149.0,
-      "aadt_to": 18.8
+      "aadt_to": 18.5
     },
     {
       "region": "West",
       "vehicle_class": "car",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": -0.671183,
-      "cagr": -0.671183,
-      "aadt_from": 57.1,
-      "aadt_to": 18.8
+      "growth_rate": -0.701778,
+      "cagr": -0.701778,
+      "aadt_from": 62.0,
+      "aadt_to": 18.5
     },
     {
       "region": "West",
@@ -2339,29 +2479,29 @@
       "vehicle_class": "hgv",
       "year_from": 2021,
       "year_to": 2022,
-      "growth_rate": -0.308256,
-      "cagr": -0.308256,
+      "growth_rate": -0.330553,
+      "cagr": -0.330553,
       "aadt_from": 1117.0,
-      "aadt_to": 772.7
+      "aadt_to": 747.8
     },
     {
       "region": "West",
       "vehicle_class": "hgv",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": 0.124927,
-      "cagr": 0.124927,
-      "aadt_from": 772.7,
-      "aadt_to": 869.2
+      "growth_rate": 0.097113,
+      "cagr": 0.097113,
+      "aadt_from": 747.8,
+      "aadt_to": 820.4
     },
     {
       "region": "West",
       "vehicle_class": "hgv",
       "year_from": 2023,
       "year_to": 2024,
-      "growth_rate": 0.28508,
-      "cagr": 0.28508,
-      "aadt_from": 869.2,
+      "growth_rate": 0.361545,
+      "cagr": 0.361545,
+      "aadt_from": 820.4,
       "aadt_to": 1117.0
     },
     {
@@ -2389,19 +2529,19 @@
       "vehicle_class": "motorcycle",
       "year_from": 2021,
       "year_to": 2022,
-      "growth_rate": -0.990375,
-      "cagr": -0.990375,
+      "growth_rate": -0.988485,
+      "cagr": -0.988485,
       "aadt_from": 371.1,
-      "aadt_to": 3.6
+      "aadt_to": 4.3
     },
     {
       "region": "West",
       "vehicle_class": "motorcycle",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": -0.36,
-      "cagr": -0.36,
-      "aadt_from": 3.6,
+      "growth_rate": -0.453901,
+      "cagr": -0.453901,
+      "aadt_from": 4.3,
       "aadt_to": 2.3
     },
     {
@@ -2409,8 +2549,8 @@
       "vehicle_class": "motorcycle",
       "year_from": 2023,
       "year_to": 2024,
-      "growth_rate": 161.335526,
-      "cagr": 161.335526,
+      "growth_rate": 158.022556,
+      "cagr": 158.022556,
       "aadt_from": 2.3,
       "aadt_to": 371.1
     },
@@ -2419,50 +2559,50 @@
       "vehicle_class": "nmt",
       "year_from": 2019,
       "year_to": 2021,
-      "growth_rate": 2.66974,
-      "cagr": 0.915657,
+      "growth_rate": 2.854965,
+      "cagr": 0.963407,
       "aadt_from": 133.2,
-      "aadt_to": 488.7
+      "aadt_to": 513.4
     },
     {
       "region": "West",
       "vehicle_class": "nmt",
       "year_from": 2019,
       "year_to": 2024,
-      "growth_rate": 2.66974,
-      "cagr": 0.296961,
+      "growth_rate": 2.854965,
+      "cagr": 0.309797,
       "aadt_from": 133.2,
-      "aadt_to": 488.7
+      "aadt_to": 513.4
     },
     {
       "region": "West",
       "vehicle_class": "nmt",
       "year_from": 2021,
       "year_to": 2022,
-      "growth_rate": -0.806533,
-      "cagr": -0.806533,
-      "aadt_from": 488.7,
-      "aadt_to": 94.6
+      "growth_rate": -0.827763,
+      "cagr": -0.827763,
+      "aadt_from": 513.4,
+      "aadt_to": 88.4
     },
     {
       "region": "West",
       "vehicle_class": "nmt",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": 1.744965,
-      "cagr": 1.744965,
-      "aadt_from": 94.6,
-      "aadt_to": 259.6
+      "growth_rate": 2.011028,
+      "cagr": 2.011028,
+      "aadt_from": 88.4,
+      "aadt_to": 266.3
     },
     {
       "region": "West",
       "vehicle_class": "nmt",
       "year_from": 2023,
       "year_to": 2024,
-      "growth_rate": 0.883026,
-      "cagr": 0.883026,
-      "aadt_from": 259.6,
-      "aadt_to": 488.7
+      "growth_rate": 0.928227,
+      "cagr": 0.928227,
+      "aadt_from": 266.3,
+      "aadt_to": 513.4
     },
     {
       "region": "West",
@@ -2489,112 +2629,151 @@
       "vehicle_class": "total",
       "year_from": 2021,
       "year_to": 2022,
-      "growth_rate": 0.768031,
-      "cagr": 0.768031,
+      "growth_rate": 0.739645,
+      "cagr": 0.739645,
       "aadt_from": 547.4,
-      "aadt_to": 967.9
+      "aadt_to": 952.3
     },
     {
       "region": "West",
       "vehicle_class": "total",
       "year_from": 2022,
       "year_to": 2023,
-      "growth_rate": 0.161649,
-      "cagr": 0.161649,
-      "aadt_from": 967.9,
-      "aadt_to": 1124.3
+      "growth_rate": 0.139142,
+      "cagr": 0.139142,
+      "aadt_from": 952.3,
+      "aadt_to": 1084.8
     },
     {
       "region": "West",
       "vehicle_class": "total",
       "year_from": 2023,
       "year_to": 2024,
-      "growth_rate": -0.513105,
-      "cagr": -0.513105,
-      "aadt_from": 1124.3,
+      "growth_rate": -0.495384,
+      "cagr": -0.495384,
+      "aadt_from": 1084.8,
       "aadt_to": 547.4
+    },
+    {
+      "region": "Western",
+      "vehicle_class": "bus",
+      "year_from": 2022,
+      "year_to": 2023,
+      "growth_rate": 1.993802,
+      "cagr": 1.993802,
+      "aadt_from": 80.7,
+      "aadt_to": 241.5
+    },
+    {
+      "region": "Western",
+      "vehicle_class": "bus",
+      "year_from": 2022,
+      "year_to": 2023,
+      "growth_rate": 1.993802,
+      "cagr": 1.993802,
+      "aadt_from": 80.7,
+      "aadt_to": 241.5
+    },
+    {
+      "region": "Western",
+      "vehicle_class": "car",
+      "year_from": 2022,
+      "year_to": 2023,
+      "growth_rate": -0.796875,
+      "cagr": -0.796875,
+      "aadt_from": 32.0,
+      "aadt_to": 6.5
+    },
+    {
+      "region": "Western",
+      "vehicle_class": "car",
+      "year_from": 2022,
+      "year_to": 2023,
+      "growth_rate": -0.796875,
+      "cagr": -0.796875,
+      "aadt_from": 32.0,
+      "aadt_to": 6.5
+    },
+    {
+      "region": "Western",
+      "vehicle_class": "hgv",
+      "year_from": 2022,
+      "year_to": 2023,
+      "growth_rate": 0.167414,
+      "cagr": 0.167414,
+      "aadt_from": 669.0,
+      "aadt_to": 781.0
+    },
+    {
+      "region": "Western",
+      "vehicle_class": "hgv",
+      "year_from": 2022,
+      "year_to": 2023,
+      "growth_rate": 0.167414,
+      "cagr": 0.167414,
+      "aadt_from": 669.0,
+      "aadt_to": 781.0
+    },
+    {
+      "region": "Western",
+      "vehicle_class": "nmt",
+      "year_from": 2021,
+      "year_to": 2022,
+      "growth_rate": -0.840936,
+      "cagr": -0.840936,
+      "aadt_from": 285.0,
+      "aadt_to": 45.3
+    },
+    {
+      "region": "Western",
+      "vehicle_class": "nmt",
+      "year_from": 2021,
+      "year_to": 2024,
+      "growth_rate": 0,
+      "cagr": null,
+      "aadt_from": 285.0,
+      "aadt_to": 285.0
+    },
+    {
+      "region": "Western",
+      "vehicle_class": "nmt",
+      "year_from": 2022,
+      "year_to": 2023,
+      "growth_rate": 5.286765,
+      "cagr": 5.286765,
+      "aadt_from": 45.3,
+      "aadt_to": 285.0
+    },
+    {
+      "region": "Western",
+      "vehicle_class": "nmt",
+      "year_from": 2023,
+      "year_to": 2024,
+      "growth_rate": 0,
+      "cagr": null,
+      "aadt_from": 285.0,
+      "aadt_to": 285.0
+    },
+    {
+      "region": "Western",
+      "vehicle_class": "total",
+      "year_from": 2022,
+      "year_to": 2023,
+      "growth_rate": 0.315857,
+      "cagr": 0.315857,
+      "aadt_from": 782.0,
+      "aadt_to": 1029.0
+    },
+    {
+      "region": "Western",
+      "vehicle_class": "total",
+      "year_from": 2022,
+      "year_to": 2023,
+      "growth_rate": 0.315857,
+      "cagr": 0.315857,
+      "aadt_from": 782.0,
+      "aadt_to": 1029.0
     }
   ],
-  "top_growing_roads": [
-    {
-      "link_id": "A002_Link09",
-      "link_name": "Ntungamo - Rubaale",
-      "region": "South",
-      "cagr_total": 0.0,
-      "year_from": 2021,
-      "year_to": 2024,
-      "aadt_from": 671.3,
-      "aadt_to": 671.3
-    },
-    {
-      "link_id": "A002_Link09",
-      "link_name": "Ntungamo - Rubaale",
-      "region": "South",
-      "cagr_total": 0.0,
-      "year_from": 2021,
-      "year_to": 2024,
-      "aadt_from": 671.3,
-      "aadt_to": 671.3
-    },
-    {
-      "link_id": "B250_Link01",
-      "link_name": "Atiak - Moyo",
-      "region": "North",
-      "cagr_total": 0.0,
-      "year_from": 2021,
-      "year_to": 2024,
-      "aadt_from": 2.0,
-      "aadt_to": 2.0
-    },
-    {
-      "link_id": "B250_Link01",
-      "link_name": "Atiak - Moyo",
-      "region": "North",
-      "cagr_total": 0.0,
-      "year_from": 2021,
-      "year_to": 2024,
-      "aadt_from": 2.0,
-      "aadt_to": 2.0
-    },
-    {
-      "link_id": "B303_Link01",
-      "link_name": "Soroti - Arapai",
-      "region": "North East",
-      "cagr_total": 0.0,
-      "year_from": 2021,
-      "year_to": 2024,
-      "aadt_from": 0.7,
-      "aadt_to": 0.7
-    },
-    {
-      "link_id": "B303_Link01",
-      "link_name": "Soroti - Arapai",
-      "region": "North East",
-      "cagr_total": 0.0,
-      "year_from": 2021,
-      "year_to": 2024,
-      "aadt_from": 0.7,
-      "aadt_to": 0.7
-    },
-    {
-      "link_id": "C677_Link02",
-      "link_name": "Kalongo - Kitgum Matidi",
-      "region": "North",
-      "cagr_total": 0.0,
-      "year_from": 2021,
-      "year_to": 2024,
-      "aadt_from": 2.0,
-      "aadt_to": 2.0
-    },
-    {
-      "link_id": "C677_Link02",
-      "link_name": "Kalongo - Kitgum Matidi",
-      "region": "North",
-      "cagr_total": 0.0,
-      "year_from": 2021,
-      "year_to": 2024,
-      "aadt_from": 2.0,
-      "aadt_to": 2.0
-    }
-  ]
+  "top_growing_roads": []
 }

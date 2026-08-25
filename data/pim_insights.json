@@ -1,0 +1,123 @@
+{
+  "section": "pim",
+  "last_updated": "2026-08-20",
+  "kpis": [
+    {
+      "label": "NDP IV Projects",
+      "value": "158",
+      "color": "#00f5ff"
+    },
+    {
+      "label": "Total Investment",
+      "value": "$4.00B USD",
+      "color": "#00ff88"
+    },
+    {
+      "label": "Ongoing",
+      "value": "63",
+      "color": "#00ff88"
+    },
+    {
+      "label": "Proposed",
+      "value": "59",
+      "color": "#ffbb00"
+    },
+    {
+      "label": "Planned",
+      "value": "36",
+      "color": "#888888"
+    },
+    {
+      "label": "Total Project km",
+      "value": "4,916 km",
+      "color": "#00f5ff"
+    }
+  ],
+  "charts": [
+    {
+      "type": "pie",
+      "title": "Project Status",
+      "data": [
+        {
+          "label": "Ongoing",
+          "value": 63
+        },
+        {
+          "label": "Proposed",
+          "value": 59
+        },
+        {
+          "label": "Planned",
+          "value": 36
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Budget by Region ($M)",
+      "data": [
+        {
+          "label": "Central",
+          "value": 1072.5
+        },
+        {
+          "label": "Eastern",
+          "value": 490.0
+        },
+        {
+          "label": "Northern",
+          "value": 995.5
+        },
+        {
+          "label": "Southern",
+          "value": 504.9
+        },
+        {
+          "label": "Western",
+          "value": 615.1
+        },
+        {
+          "label": "North Eastern",
+          "value": 326.8
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Projects by Funder",
+      "data": [
+        {
+          "label": "GOU",
+          "value": 84
+        },
+        {
+          "label": "TBD",
+          "value": 37
+        },
+        {
+          "label": "WB",
+          "value": 13
+        },
+        {
+          "label": "IsDB",
+          "value": 9
+        },
+        {
+          "label": "AfDB",
+          "value": 7
+        },
+        {
+          "label": "CC",
+          "value": 3
+        }
+      ]
+    }
+  ],
+  "insights": [
+    "NDP IV: 158 project components, est. $4.00B USD total (2024-2030).",
+    "63 ongoing, 59 proposed, 36 planned.",
+    "Rehabilitation of poor-condition roads is the primary investment category.",
+    "GOU and development partners (IDA, ADB, JICA, EU) co-finance the programme.",
+    "Priority scoring ensures highest-need corridors receive earliest intervention."
+  ]
+}

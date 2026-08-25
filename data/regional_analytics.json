@@ -1,0 +1,128 @@
+[
+  {
+    "region": "Central",
+    "indicators": {
+      "connectivityIndex": 82,
+      "accessibilityScore": 78,
+      "conditionIndex": 68,
+      "trafficPressureIndex": 91,
+      "maintenanceBacklogUGX": 142000000000,
+      "urbanRoadsKm": 4820,
+      "ruralRoadsKm": 23520,
+      "bridgeConditionAvg": 72,
+      "priorityLinksCount": 184,
+      "annualWorkplanBudgetUGX": 86000000000
+    },
+    "trends": {
+      "conditionImprovement_2yr": 4.2,
+      "newPavingKm_FY2526": 128,
+      "rehabilitationKm_FY2526": 342,
+      "routineMaintenanceKm_FY2526": 18200
+    }
+  },
+  {
+    "region": "Eastern",
+    "indicators": {
+      "connectivityIndex": 64,
+      "accessibilityScore": 59,
+      "conditionIndex": 52,
+      "trafficPressureIndex": 62,
+      "maintenanceBacklogUGX": 198000000000,
+      "urbanRoadsKm": 2140,
+      "ruralRoadsKm": 29680,
+      "bridgeConditionAvg": 60,
+      "priorityLinksCount": 248,
+      "annualWorkplanBudgetUGX": 74000000000
+    },
+    "trends": {
+      "conditionImprovement_2yr": 2.8,
+      "newPavingKm_FY2526": 84,
+      "rehabilitationKm_FY2526": 420,
+      "routineMaintenanceKm_FY2526": 22400
+    }
+  },
+  {
+    "region": "Northern",
+    "indicators": {
+      "connectivityIndex": 52,
+      "accessibilityScore": 48,
+      "conditionIndex": 44,
+      "trafficPressureIndex": 41,
+      "maintenanceBacklogUGX": 262000000000,
+      "urbanRoadsKm": 1820,
+      "ruralRoadsKm": 36640,
+      "bridgeConditionAvg": 54,
+      "priorityLinksCount": 312,
+      "annualWorkplanBudgetUGX": 98000000000
+    },
+    "trends": {
+      "conditionImprovement_2yr": 3.4,
+      "newPavingKm_FY2526": 62,
+      "rehabilitationKm_FY2526": 580,
+      "routineMaintenanceKm_FY2526": 28600
+    }
+  },
+  {
+    "region": "Western",
+    "indicators": {
+      "connectivityIndex": 68,
+      "accessibilityScore": 63,
+      "conditionIndex": 58,
+      "trafficPressureIndex": 55,
+      "maintenanceBacklogUGX": 178000000000,
+      "urbanRoadsKm": 2260,
+      "ruralRoadsKm": 27320,
+      "bridgeConditionAvg": 65,
+      "priorityLinksCount": 218,
+      "annualWorkplanBudgetUGX": 78000000000
+    },
+    "trends": {
+      "conditionImprovement_2yr": 3.8,
+      "newPavingKm_FY2526": 96,
+      "rehabilitationKm_FY2526": 380,
+      "routineMaintenanceKm_FY2526": 20800
+    }
+  },
+  {
+    "region": "Southern",
+    "indicators": {
+      "connectivityIndex": 74,
+      "accessibilityScore": 70,
+      "conditionIndex": 65,
+      "trafficPressureIndex": 68,
+      "maintenanceBacklogUGX": 94000000000,
+      "urbanRoadsKm": 1480,
+      "ruralRoadsKm": 14740,
+      "bridgeConditionAvg": 70,
+      "priorityLinksCount": 112,
+      "annualWorkplanBudgetUGX": 48000000000
+    },
+    "trends": {
+      "conditionImprovement_2yr": 4.6,
+      "newPavingKm_FY2526": 54,
+      "rehabilitationKm_FY2526": 210,
+      "routineMaintenanceKm_FY2526": 11600
+    }
+  },
+  {
+    "region": "Northeastern",
+    "indicators": {
+      "connectivityIndex": 38,
+      "accessibilityScore": 34,
+      "conditionIndex": 32,
+      "trafficPressureIndex": 22,
+      "maintenanceBacklogUGX": 118000000000,
+      "urbanRoadsKm": 480,
+      "ruralRoadsKm": 13720,
+      "bridgeConditionAvg": 44,
+      "priorityLinksCount": 168,
+      "annualWorkplanBudgetUGX": 56000000000
+    },
+    "trends": {
+      "conditionImprovement_2yr": 1.8,
+      "newPavingKm_FY2526": 24,
+      "rehabilitationKm_FY2526": 280,
+      "routineMaintenanceKm_FY2526": 10200
+    }
+  }
+]

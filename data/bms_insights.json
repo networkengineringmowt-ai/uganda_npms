@@ -1,0 +1,156 @@
+{
+  "section": "bms",
+  "last_updated": "2026-08-20",
+  "kpis": [
+    {
+      "label": "Total Bridges",
+      "value": "423",
+      "color": "#00f5ff"
+    },
+    {
+      "label": "Good Condition",
+      "value": "0 (0.0%)",
+      "color": "#00ff88"
+    },
+    {
+      "label": "Fair Condition",
+      "value": "7 (1.7%)",
+      "color": "#ffbb00"
+    },
+    {
+      "label": "Poor Condition",
+      "value": "416 (98.3%)",
+      "color": "#ff3366"
+    },
+    {
+      "label": "Bridges >50 Years",
+      "value": "12 (2.8%)",
+      "color": "#ff3366"
+    },
+    {
+      "label": "Mean Bridge Age",
+      "value": "46 years",
+      "color": "#00f5ff"
+    },
+    {
+      "label": "Oldest Bridge",
+      "value": "1939 built",
+      "color": "#ffbb00"
+    },
+    {
+      "label": "ML Accuracy",
+      "value": "98.8%",
+      "color": "#b366ff"
+    }
+  ],
+  "charts": [
+    {
+      "type": "pie",
+      "title": "Bridge Condition",
+      "data": [
+        {
+          "label": "Good",
+          "value": 0
+        },
+        {
+          "label": "Fair",
+          "value": 7
+        },
+        {
+          "label": "Poor",
+          "value": 416
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Bridges by Region",
+      "data": [
+        {
+          "label": "Northern",
+          "value": 152
+        },
+        {
+          "label": "Eastern",
+          "value": 83
+        },
+        {
+          "label": "Southern",
+          "value": 70
+        },
+        {
+          "label": "Western",
+          "value": 41
+        },
+        {
+          "label": "North Eastern",
+          "value": 39
+        },
+        {
+          "label": "Central",
+          "value": 38
+        }
+      ]
+    },
+    {
+      "type": "histogram",
+      "title": "Age Distribution",
+      "data": [
+        {
+          "bin": "0-10yr",
+          "count": 4
+        },
+        {
+          "bin": "10-20yr",
+          "count": 3
+        },
+        {
+          "bin": "20-30yr",
+          "count": 2
+        },
+        {
+          "bin": "30-40yr",
+          "count": 3
+        },
+        {
+          "bin": "40-50yr",
+          "count": 399
+        },
+        {
+          "bin": "50-60yr",
+          "count": 1
+        },
+        {
+          "bin": "60-70yr",
+          "count": 8
+        },
+        {
+          "bin": "70-80yr",
+          "count": 2
+        },
+        {
+          "bin": "80-90yr",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "ml_model": {
+    "type": "RandomForest",
+    "n_trees": 20,
+    "accuracy": 0.988,
+    "features": [
+      "age_years",
+      "n_spans",
+      "material",
+      "region"
+    ]
+  },
+  "insights": [
+    "Bridge inventory: 423 structures. 98.3% (416) Poor condition \u2014 urgent intervention required.",
+    "12 bridges (2.8%) exceed 50 years of service life.",
+    "Mean bridge age: 46 years; oldest: 1939.",
+    "Concrete/steel structures perform better than timber; material is the strongest condition predictor.",
+    "RF classifier achieves 98.8% accuracy using age, spans, material, and region."
+  ]
+}
