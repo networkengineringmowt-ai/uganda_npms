@@ -67153,13 +67153,13 @@
     }
   ],
   "data_ingestion": {
-    "generated_at": "2026-07-15T13:03:48.853168Z",
+    "generated_at": "2026-06-04T17:34:03.991188Z",
     "table_counts": {
       "romdas_measurements": 95625,
-      "fwd_measurements": 75824,
-      "maintenance_records": 9676,
+      "fwd_measurements": 18956,
+      "maintenance_records": 2419,
       "hdm4_inputs": 1063,
-      "committed_projects": 17256
+      "committed_projects": 4314
     },
     "iri_by_link": {
       "": {

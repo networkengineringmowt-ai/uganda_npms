@@ -1,0 +1,133 @@
+[
+  {
+    "category": "Paved National Roads",
+    "governanceTier": "DNR MoWT",
+    "totalKm": 6405,
+    "coveragePct": 30.07,
+    "populationServedM": 18.4,
+    "agricultureZonesAccessible": 142,
+    "marketCentresLinked": 312,
+    "borderCrossingsLinked": 14,
+    "condition": {
+      "good": 72.0,
+      "fair": 21.0,
+      "poor": 7.0
+    },
+    "trafficAADTAvg": 3840,
+    "lastUpdated": "2026-07-15"
+  },
+  {
+    "category": "Unpaved National Roads",
+    "governanceTier": "DNR MoWT",
+    "totalKm": 14897,
+    "coveragePct": 69.93,
+    "populationServedM": 8.2,
+    "agricultureZonesAccessible": 284,
+    "marketCentresLinked": 628,
+    "borderCrossingsLinked": 8,
+    "condition": {
+      "good": 24.0,
+      "fair": 51.0,
+      "poor": 25.0
+    },
+    "trafficAADTAvg": 480,
+    "lastUpdated": "2026-07-15"
+  },
+  {
+    "category": "DUCAR Urban Roads",
+    "governanceTier": "DDUCAR MoWT",
+    "totalKm": 19952,
+    "coveragePct": 60.0,
+    "populationServedM": 9.8,
+    "agricultureZonesAccessible": 18,
+    "marketCentresLinked": 1240,
+    "borderCrossingsLinked": 0,
+    "condition": {
+      "good": 42.0,
+      "fair": 38.0,
+      "poor": 20.0
+    },
+    "trafficAADTAvg": 2140,
+    "lastUpdated": "2026-07-15"
+  },
+  {
+    "category": "DUCAR District Roads",
+    "governanceTier": "DDUCAR MoWT",
+    "totalKm": 38603,
+    "coveragePct": 11.0,
+    "populationServedM": 14.6,
+    "agricultureZonesAccessible": 892,
+    "marketCentresLinked": 2840,
+    "borderCrossingsLinked": 0,
+    "condition": {
+      "good": 18.0,
+      "fair": 48.0,
+      "poor": 34.0
+    },
+    "trafficAADTAvg": 320,
+    "lastUpdated": "2026-07-15"
+  },
+  {
+    "category": "Community Access Roads",
+    "governanceTier": "DDUCAR MoWT / LGs",
+    "totalKm": 79948,
+    "coveragePct": 5.0,
+    "populationServedM": 22.8,
+    "agricultureZonesAccessible": 4820,
+    "marketCentresLinked": 12480,
+    "borderCrossingsLinked": 0,
+    "condition": {
+      "good": 8.0,
+      "fair": 42.0,
+      "poor": 50.0
+    },
+    "trafficAADTAvg": 120,
+    "lastUpdated": "2026-07-15"
+  },
+  {
+    "category": "National Bridges & Structures",
+    "governanceTier": "DNR MoWT (BMS)",
+    "totalKm": 0,
+    "structuresCount": 998,
+    "bridgesCount": 546,
+    "culvertsCount": 452,
+    "coveragePct": null,
+    "populationServedM": 46.2,
+    "condition": {
+      "good": 58.0,
+      "fair": 28.0,
+      "poor": 14.0
+    },
+    "criticalStructures": 18,
+    "lastUpdated": "2026-07-15"
+  },
+  {
+    "category": "Ferry Crossings",
+    "governanceTier": "DNR MoWT",
+    "totalKm": 0,
+    "ferriesCount": 12,
+    "majorLakeCrossings": [
+      "Victoria",
+      "Albert",
+      "Kyoga",
+      "Edward",
+      "George"
+    ],
+    "coveragePct": null,
+    "populationServedM": 2.4,
+    "operationalPct": 83.3,
+    "lastUpdated": "2026-07-15"
+  },
+  {
+    "category": "Weigh Bridges & Traffic Stations",
+    "governanceTier": "DNR MoWT (TCS)",
+    "totalKm": 0,
+    "weighBridgesCount": 21,
+    "tcsStationsCount": 298,
+    "coveragePct": null,
+    "annualVehiclesCounted": 4280000,
+    "overloadingInterceptRate": 12.4,
+    "lastUpdated": "2026-07-15",
+    "atcStationsCount": 25
+  }
+]
