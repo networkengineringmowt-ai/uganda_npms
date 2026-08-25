@@ -1,0 +1,50 @@
+[
+  {
+    "id": "flexible-pavements-manual",
+    "type": "pdf",
+    "sizeBytes": 2459626,
+    "category": "Flexible Pavement Design",
+    "title": "Volume 3, Part I — Flexible Pavements Manual",
+    "url": "manuals/pavement/Volume-3-Part-I-Flexible-Pavements-Manual.pdf"
+  },
+  {
+    "id": "rigid-pavement-manual",
+    "type": "doc",
+    "sizeBytes": 3967488,
+    "category": "Rigid Pavement Design",
+    "title": "Rigid Pavement Design Manual",
+    "url": "manuals/pavement/Rigid_Pav_Manual.doc"
+  },
+  {
+    "id": "gravel-road-design",
+    "type": "doc",
+    "sizeBytes": 2897408,
+    "category": "Gravel Road Design",
+    "title": "Gravel Roads Design, Volume 3",
+    "url": "manuals/pavement/Gravel_Roads_Design,_Vol.3.doc"
+  },
+  {
+    "id": "pavement-rehabilitation-guide",
+    "type": "doc",
+    "sizeBytes": 4379648,
+    "category": "Pavement Rehabilitation",
+    "title": "Pavement Rehabilitation Guide",
+    "url": "manuals/pavement/Pavement_Rehabilitation_Guide.doc"
+  },
+  {
+    "id": "draft-design-guideline-2017",
+    "type": "pdf",
+    "sizeBytes": 11755114,
+    "category": "General",
+    "title": "Draft Guideline for Design — December 2017",
+    "url": "manuals/pavement/Draft_Guideline_for_Design_Dec_2017.pdf"
+  },
+  {
+    "id": "rafu-procedural-guide",
+    "type": "pdf",
+    "sizeBytes": 741295,
+    "category": "General",
+    "title": "RAFU Procedural Guide — March 2006 Update",
+    "url": "manuals/pavement/RAFU_PROCEDURAL_GUIDE_Update_(March_2006).pdf"
+  }
+]
