@@ -1,0 +1,332 @@
+{
+  "source": "Uganda National Road Network Repository / Annual National Road Network Performance Monitoring / Condition trend for the road network.xlsx",
+  "coverage": "2009/10 - 2021/22 (13 financial years)",
+  "note": "Historical DNR/UNRA condition survey trend, network-wide, split paved vs unpaved. km figures and % figures as recorded in the source workbook (percentages are rounded to 1dp from the source fractions).",
+  "records": [
+    {
+      "year": "2009/10",
+      "paved_km": {
+        "good": 1230,
+        "fair": 1180,
+        "poor": 709,
+        "total": 3119
+      },
+      "paved_pct": {
+        "good": 39.0,
+        "fair": 38.0,
+        "poor": 23.0
+      },
+      "unpaved_km": {
+        "good": 1535,
+        "fair": 2340,
+        "poor": 3436,
+        "total": 7311
+      },
+      "unpaved_pct": {
+        "good": 21.0,
+        "fair": 32.0,
+        "poor": 47.0
+      }
+    },
+    {
+      "year": "2010/11",
+      "paved_km": {
+        "good": 1742,
+        "fair": 680,
+        "poor": 843,
+        "total": 3264
+      },
+      "paved_pct": {
+        "good": 53.0,
+        "fair": 21.0,
+        "poor": 26.0
+      },
+      "unpaved_km": {
+        "good": 3719,
+        "fair": 7215,
+        "poor": 6186,
+        "total": 17120
+      },
+      "unpaved_pct": {
+        "good": 22.0,
+        "fair": 42.0,
+        "poor": 36.0
+      }
+    },
+    {
+      "year": "2011/12",
+      "paved_km": {
+        "good": 1717,
+        "fair": 856,
+        "poor": 744,
+        "total": 3317
+      },
+      "paved_pct": {
+        "good": 52.0,
+        "fair": 26.0,
+        "poor": 22.0
+      },
+      "unpaved_km": {
+        "good": 3926,
+        "fair": 7853,
+        "poor": 5904,
+        "total": 17683
+      },
+      "unpaved_pct": {
+        "good": 22.0,
+        "fair": 44.0,
+        "poor": 33.0
+      }
+    },
+    {
+      "year": "2012/13",
+      "paved_km": {
+        "good": 1794,
+        "fair": 893,
+        "poor": 803,
+        "total": 3490
+      },
+      "paved_pct": {
+        "good": 51.0,
+        "fair": 26.0,
+        "poor": 23.0
+      },
+      "unpaved_km": {
+        "good": 3852,
+        "fair": 7705,
+        "poor": 5954,
+        "total": 17510
+      },
+      "unpaved_pct": {
+        "good": 22.0,
+        "fair": 44.0,
+        "poor": 34.0
+      }
+    },
+    {
+      "year": "2013/14",
+      "paved_km": {
+        "good": 2505,
+        "fair": 531,
+        "poor": 759,
+        "total": 3795
+      },
+      "paved_pct": {
+        "good": 66.0,
+        "fair": 14.0,
+        "poor": 20.0
+      },
+      "unpaved_km": {
+        "good": 5678,
+        "fair": 5850,
+        "poor": 5677,
+        "total": 17205
+      },
+      "unpaved_pct": {
+        "good": 33.0,
+        "fair": 34.0,
+        "poor": 33.0
+      }
+    },
+    {
+      "year": "2014/15",
+      "paved_km": {
+        "good": 2707,
+        "fair": 478,
+        "poor": 796,
+        "total": 3981
+      },
+      "paved_pct": {
+        "good": 68.0,
+        "fair": 12.0,
+        "poor": 20.0
+      },
+      "unpaved_km": {
+        "good": 6297,
+        "fair": 5616,
+        "poor": 5106,
+        "total": 17019
+      },
+      "unpaved_pct": {
+        "good": 37.0,
+        "fair": 33.0,
+        "poor": 30.0
+      }
+    },
+    {
+      "year": "2015/16",
+      "paved_km": {
+        "good": 2040,
+        "fair": 913,
+        "poor": 1204,
+        "total": 4157
+      },
+      "paved_pct": {
+        "good": 61.0,
+        "fair": 27.0,
+        "poor": 12.0
+      },
+      "unpaved_km": {
+        "good": 1737,
+        "fair": 5707,
+        "poor": 2033,
+        "total": 9477
+      },
+      "unpaved_pct": {
+        "good": 18.0,
+        "fair": 60.0,
+        "poor": 21.0
+      }
+    },
+    {
+      "year": "2016/17",
+      "paved_km": {
+        "good": 2924,
+        "fair": 979,
+        "poor": 354,
+        "total": 4257
+      },
+      "paved_pct": {
+        "good": 69.0,
+        "fair": 23.0,
+        "poor": 8.0
+      },
+      "unpaved_km": {
+        "good": 5212,
+        "fair": 7003,
+        "poor": 4072,
+        "total": 16287
+      },
+      "unpaved_pct": {
+        "good": 32.0,
+        "fair": 43.0,
+        "poor": 25.0
+      }
+    },
+    {
+      "year": "2017/18",
+      "paved_km": {
+        "good": 3413,
+        "fair": 1001,
+        "poor": 136,
+        "total": 4551
+      },
+      "paved_pct": {
+        "good": 75.0,
+        "fair": 22.0,
+        "poor": 3.0
+      },
+      "unpaved_km": {
+        "good": 3678,
+        "fair": 9755,
+        "poor": 2558,
+        "total": 15993
+      },
+      "unpaved_pct": {
+        "good": 23.0,
+        "fair": 61.0,
+        "poor": 16.0
+      }
+    },
+    {
+      "year": "2018/19",
+      "paved_km": {
+        "good": 3862,
+        "fair": 802,
+        "poor": 351,
+        "total": 5015
+      },
+      "paved_pct": {
+        "good": 77.0,
+        "fair": 16.0,
+        "poor": 7.0
+      },
+      "unpaved_km": {
+        "good": 3802,
+        "fair": 8079,
+        "poor": 3960,
+        "total": 15841
+      },
+      "unpaved_pct": {
+        "good": 24.0,
+        "fair": 51.0,
+        "poor": 25.0
+      }
+    },
+    {
+      "year": "2019/20",
+      "paved_km": {
+        "good": 2753,
+        "fair": 1727,
+        "poor": 864,
+        "total": 5398
+      },
+      "paved_pct": {
+        "good": 51.0,
+        "fair": 32.0,
+        "poor": 16.0
+      },
+      "unpaved_km": {
+        "good": 3591,
+        "fair": 6245,
+        "poor": 5776,
+        "total": 15612
+      },
+      "unpaved_pct": {
+        "good": 37.0,
+        "fair": 40.0,
+        "poor": 23.0
+      }
+    },
+    {
+      "year": "2020/21",
+      "paved_km": {
+        "good": 4220,
+        "fair": 861,
+        "poor": 177,
+        "total": 5258
+      },
+      "paved_pct": {
+        "good": 80.0,
+        "fair": 16.0,
+        "poor": 3.0
+      },
+      "unpaved_km": {
+        "good": 4695,
+        "fair": 6111,
+        "poor": 2669,
+        "total": 13745
+      },
+      "unpaved_pct": {
+        "good": 36.0,
+        "fair": 44.0,
+        "poor": 20.0
+      }
+    },
+    {
+      "year": "2021/22",
+      "paved_km": {
+        "good": 4272,
+        "fair": 902,
+        "poor": 159,
+        "total": 5333
+      },
+      "paved_pct": {
+        "good": 80.0,
+        "fair": 17.0,
+        "poor": 3.0
+      },
+      "unpaved_km": {
+        "good": 2223,
+        "fair": 8961,
+        "poor": 1445,
+        "total": 12629
+      },
+      "unpaved_pct": {
+        "good": 18.0,
+        "fair": 71.0,
+        "poor": 11.0
+      }
+    }
+  ]
+}
