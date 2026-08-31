@@ -1,0 +1,140 @@
+{
+  "model": "MobileNetV2 + OpenCV texture analysis",
+  "images_processed": 1243,
+  "defect_distribution": {
+    "pothole": 789,
+    "rutting": 279,
+    "alligator_crack": 103,
+    "longitudinal_crack": 37,
+    "good": 33,
+    "raveling": 2
+  },
+  "severity_distribution": {
+    "High": 789,
+    "Medium": 419,
+    "Low": 35
+  },
+  "top_damaged_links": [
+    {
+      "link_id": "A001N1_LINK01",
+      "dominant_defect": "pothole",
+      "image_count": 3,
+      "avg_severity": "High"
+    },
+    {
+      "link_id": "A005_LINK09",
+      "dominant_defect": "pothole",
+      "image_count": 3,
+      "avg_severity": "High"
+    },
+    {
+      "link_id": "A006_LINK05",
+      "dominant_defect": "pothole",
+      "image_count": 3,
+      "avg_severity": "High"
+    },
+    {
+      "link_id": "B202_LINK01",
+      "dominant_defect": "pothole",
+      "image_count": 3,
+      "avg_severity": "High"
+    },
+    {
+      "link_id": "B303_LINK02",
+      "dominant_defect": "pothole",
+      "image_count": 3,
+      "avg_severity": "High"
+    },
+    {
+      "link_id": "C870_LINK02",
+      "dominant_defect": "pothole",
+      "image_count": 3,
+      "avg_severity": "High"
+    },
+    {
+      "link_id": "M3INT3_S1",
+      "dominant_defect": "pothole",
+      "image_count": 3,
+      "avg_severity": "High"
+    },
+    {
+      "link_id": "PAVE_2",
+      "dominant_defect": "pothole",
+      "image_count": 3,
+      "avg_severity": "High"
+    },
+    {
+      "link_id": "UAV2018",
+      "dominant_defect": "pothole",
+      "image_count": 8,
+      "avg_severity": "High"
+    },
+    {
+      "link_id": "BUSEGA",
+      "dominant_defect": "pothole",
+      "image_count": 14,
+      "avg_severity": "High"
+    },
+    {
+      "link_id": "KAMPALA",
+      "dominant_defect": "pothole",
+      "image_count": 9,
+      "avg_severity": "High"
+    },
+    {
+      "link_id": "A001_LINK09",
+      "dominant_defect": "pothole",
+      "image_count": 3,
+      "avg_severity": "High"
+    },
+    {
+      "link_id": "A002_LINK05",
+      "dominant_defect": "pothole",
+      "image_count": 3,
+      "avg_severity": "High"
+    },
+    {
+      "link_id": "A002_LINK10",
+      "dominant_defect": "pothole",
+      "image_count": 3,
+      "avg_severity": "High"
+    },
+    {
+      "link_id": "A005_LINK15",
+      "dominant_defect": "pothole",
+      "image_count": 3,
+      "avg_severity": "High"
+    },
+    {
+      "link_id": "A006_LINK12",
+      "dominant_defect": "pothole",
+      "image_count": 3,
+      "avg_severity": "High"
+    },
+    {
+      "link_id": "A012_LINK02",
+      "dominant_defect": "pothole",
+      "image_count": 3,
+      "avg_severity": "High"
+    },
+    {
+      "link_id": "A012_LINK03",
+      "dominant_defect": "pothole",
+      "image_count": 3,
+      "avg_severity": "High"
+    },
+    {
+      "link_id": "B203_LINK03",
+      "dominant_defect": "pothole",
+      "image_count": 3,
+      "avg_severity": "High"
+    },
+    {
+      "link_id": "B304_LINK02",
+      "dominant_defect": "pothole",
+      "image_count": 3,
+      "avg_severity": "High"
+    }
+  ],
+  "generated_at": "2026-05-20T16:50:42.433538Z"
+}
