@@ -1,0 +1,1108 @@
+{
+  "model_type": "HDM-4 calibrated + DNN (PyTorch)",
+  "r_squared": 0.9595,
+  "best_val_loss": 0.7597,
+  "links_projected": 1021,
+  "projection_period": "2024\u20132035",
+  "generated_at": "2026-05-28T12:59:47",
+  "network_condition_2024": {
+    "good_pct": 16.7,
+    "fair_pct": 11.3,
+    "poor_pct": 2.7,
+    "very_poor_pct": 69.2
+  },
+  "network_condition_2030": {
+    "good_pct": 16.0,
+    "fair_pct": 11.8,
+    "poor_pct": 2.9,
+    "very_poor_pct": 69.3
+  },
+  "class_deterioration_curves": {
+    "A": [
+      {
+        "year": 2024,
+        "avg_iri": 4.36,
+        "ci_low": 1.0,
+        "ci_high": 13.06
+      },
+      {
+        "year": 2025,
+        "avg_iri": 4.42,
+        "ci_low": 1.0,
+        "ci_high": 13.07
+      },
+      {
+        "year": 2026,
+        "avg_iri": 4.47,
+        "ci_low": 1.0,
+        "ci_high": 13.09
+      },
+      {
+        "year": 2027,
+        "avg_iri": 4.53,
+        "ci_low": 1.0,
+        "ci_high": 13.1
+      },
+      {
+        "year": 2028,
+        "avg_iri": 4.59,
+        "ci_low": 1.0,
+        "ci_high": 13.11
+      },
+      {
+        "year": 2029,
+        "avg_iri": 4.65,
+        "ci_low": 1.0,
+        "ci_high": 13.13
+      },
+      {
+        "year": 2030,
+        "avg_iri": 4.71,
+        "ci_low": 1.0,
+        "ci_high": 13.14
+      },
+      {
+        "year": 2031,
+        "avg_iri": 4.78,
+        "ci_low": 1.0,
+        "ci_high": 13.15
+      },
+      {
+        "year": 2032,
+        "avg_iri": 4.85,
+        "ci_low": 1.0,
+        "ci_high": 13.17
+      },
+      {
+        "year": 2033,
+        "avg_iri": 4.92,
+        "ci_low": 1.0,
+        "ci_high": 13.19
+      },
+      {
+        "year": 2034,
+        "avg_iri": 4.99,
+        "ci_low": 1.0,
+        "ci_high": 13.2
+      },
+      {
+        "year": 2035,
+        "avg_iri": 5.06,
+        "ci_low": 1.0,
+        "ci_high": 13.22
+      }
+    ],
+    "B": [
+      {
+        "year": 2024,
+        "avg_iri": 7.37,
+        "ci_low": 1.1,
+        "ci_high": 18.88
+      },
+      {
+        "year": 2025,
+        "avg_iri": 7.41,
+        "ci_low": 1.1,
+        "ci_high": 18.88
+      },
+      {
+        "year": 2026,
+        "avg_iri": 7.45,
+        "ci_low": 1.1,
+        "ci_high": 18.88
+      },
+      {
+        "year": 2027,
+        "avg_iri": 7.49,
+        "ci_low": 1.1,
+        "ci_high": 18.88
+      },
+      {
+        "year": 2028,
+        "avg_iri": 7.53,
+        "ci_low": 1.1,
+        "ci_high": 18.88
+      },
+      {
+        "year": 2029,
+        "avg_iri": 7.57,
+        "ci_low": 1.1,
+        "ci_high": 18.88
+      },
+      {
+        "year": 2030,
+        "avg_iri": 7.62,
+        "ci_low": 1.1,
+        "ci_high": 18.88
+      },
+      {
+        "year": 2031,
+        "avg_iri": 7.66,
+        "ci_low": 1.1,
+        "ci_high": 18.88
+      },
+      {
+        "year": 2032,
+        "avg_iri": 7.7,
+        "ci_low": 1.1,
+        "ci_high": 18.88
+      },
+      {
+        "year": 2033,
+        "avg_iri": 7.75,
+        "ci_low": 1.1,
+        "ci_high": 18.88
+      },
+      {
+        "year": 2034,
+        "avg_iri": 7.79,
+        "ci_low": 1.1,
+        "ci_high": 18.88
+      },
+      {
+        "year": 2035,
+        "avg_iri": 7.84,
+        "ci_low": 1.1,
+        "ci_high": 18.88
+      }
+    ],
+    "C": [
+      {
+        "year": 2024,
+        "avg_iri": 12.19,
+        "ci_low": 1.16,
+        "ci_high": 18.88
+      },
+      {
+        "year": 2025,
+        "avg_iri": 12.25,
+        "ci_low": 1.16,
+        "ci_high": 18.88
+      },
+      {
+        "year": 2026,
+        "avg_iri": 12.31,
+        "ci_low": 1.16,
+        "ci_high": 18.88
+      },
+      {
+        "year": 2027,
+        "avg_iri": 12.36,
+        "ci_low": 1.17,
+        "ci_high": 18.88
+      },
+      {
+        "year": 2028,
+        "avg_iri": 12.42,
+        "ci_low": 1.17,
+        "ci_high": 18.88
+      },
+      {
+        "year": 2029,
+        "avg_iri": 12.47,
+        "ci_low": 1.18,
+        "ci_high": 18.88
+      },
+      {
+        "year": 2030,
+        "avg_iri": 12.53,
+        "ci_low": 1.18,
+        "ci_high": 18.88
+      },
+      {
+        "year": 2031,
+        "avg_iri": 12.58,
+        "ci_low": 1.19,
+        "ci_high": 18.88
+      },
+      {
+        "year": 2032,
+        "avg_iri": 12.64,
+        "ci_low": 1.19,
+        "ci_high": 18.88
+      },
+      {
+        "year": 2033,
+        "avg_iri": 12.69,
+        "ci_low": 1.2,
+        "ci_high": 18.88
+      },
+      {
+        "year": 2034,
+        "avg_iri": 12.74,
+        "ci_low": 1.2,
+        "ci_high": 18.88
+      },
+      {
+        "year": 2035,
+        "avg_iri": 12.8,
+        "ci_low": 1.21,
+        "ci_high": 18.88
+      }
+    ],
+    "M": [
+      {
+        "year": 2024,
+        "avg_iri": 1.47,
+        "ci_low": 1.0,
+        "ci_high": 4.88
+      },
+      {
+        "year": 2025,
+        "avg_iri": 1.48,
+        "ci_low": 1.0,
+        "ci_high": 5.67
+      },
+      {
+        "year": 2026,
+        "avg_iri": 1.49,
+        "ci_low": 1.0,
+        "ci_high": 6.47
+      },
+      {
+        "year": 2027,
+        "avg_iri": 1.51,
+        "ci_low": 1.0,
+        "ci_high": 7.31
+      },
+      {
+        "year": 2028,
+        "avg_iri": 1.52,
+        "ci_low": 1.0,
+        "ci_high": 8.17
+      },
+      {
+        "year": 2029,
+        "avg_iri": 1.53,
+        "ci_low": 1.0,
+        "ci_high": 9.05
+      },
+      {
+        "year": 2030,
+        "avg_iri": 1.55,
+        "ci_low": 1.0,
+        "ci_high": 9.97
+      },
+      {
+        "year": 2031,
+        "avg_iri": 1.56,
+        "ci_low": 1.0,
+        "ci_high": 10.92
+      },
+      {
+        "year": 2032,
+        "avg_iri": 1.58,
+        "ci_low": 1.0,
+        "ci_high": 11.89
+      },
+      {
+        "year": 2033,
+        "avg_iri": 1.59,
+        "ci_low": 1.0,
+        "ci_high": 12.9
+      },
+      {
+        "year": 2034,
+        "avg_iri": 1.61,
+        "ci_low": 1.0,
+        "ci_high": 13.95
+      },
+      {
+        "year": 2035,
+        "avg_iri": 1.62,
+        "ci_low": 1.0,
+        "ci_high": 15.02
+      }
+    ]
+  },
+  "intervention_schedule": [
+    {
+      "link_id": "C983_Link01",
+      "road_name": "Kapelimoru - Kotein",
+      "region": "North Eastern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 16.0,
+      "length_km": 0.057,
+      "total_cost_usd": 6840,
+      "priority_score": 48.0,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C929_Link01",
+      "road_name": "Kumi - Ongino",
+      "region": "North Eastern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 16.0,
+      "length_km": 0.115,
+      "total_cost_usd": 13800,
+      "priority_score": 45.92,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C874_Link01",
+      "road_name": "Mbale railway crossing Access",
+      "region": "Eastern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 14.47,
+      "length_km": 0.106,
+      "total_cost_usd": 12720,
+      "priority_score": 42.5567,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C451_Link01",
+      "road_name": "Kisoro army barracks off Kabale - Kisoro",
+      "region": "Southern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Regravelling",
+      "iri": 13.67,
+      "length_km": 0.093,
+      "total_cost_usd": 4650,
+      "priority_score": 41.01,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C687_Link01",
+      "road_name": "Packwach Railway Access",
+      "region": "Northern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 15.75,
+      "length_km": 0.21,
+      "total_cost_usd": 25200,
+      "priority_score": 37.7317,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C875_Link01",
+      "road_name": "Bugema army barracks Access",
+      "region": "Eastern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 14.26,
+      "length_km": 0.176,
+      "total_cost_usd": 21120,
+      "priority_score": 36.0211,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C765_Link01",
+      "road_name": "Packwach-Railway Access",
+      "region": "Northern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 15.46,
+      "length_km": 0.274,
+      "total_cost_usd": 32880,
+      "priority_score": 34.196,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C928_Link01",
+      "road_name": "Kumi railway access",
+      "region": "North Eastern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 16.0,
+      "length_km": 0.46,
+      "total_cost_usd": 55200,
+      "priority_score": 30.2959,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C427_Link01",
+      "road_name": "Access to Kacwekano Agriculture Research",
+      "region": "Southern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 14.28,
+      "length_km": 0.404,
+      "total_cost_usd": 48480,
+      "priority_score": 28.1129,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C285_Link01",
+      "road_name": "Mityana Railway Access 2",
+      "region": "Central",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Regravelling",
+      "iri": 12.71,
+      "length_km": 0.27549783049,
+      "total_cost_usd": 13775,
+      "priority_score": 28.0673,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C984_Link01",
+      "road_name": "Kapelimoru Barracks Access",
+      "region": "North Eastern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 16.0,
+      "length_km": 0.619,
+      "total_cost_usd": 74280,
+      "priority_score": 27.7143,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C664_Link01",
+      "road_name": "Atopi Prisons Access",
+      "region": "Northern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 16.0,
+      "length_km": 0.648,
+      "total_cost_usd": 77760,
+      "priority_score": 27.3362,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C267_Link01",
+      "road_name": "Mityana - Katakala - Naama",
+      "region": "Central",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Routine Grading",
+      "iri": 9.28,
+      "length_km": 0.137,
+      "total_cost_usd": 480,
+      "priority_score": 25.271,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C791_Link01",
+      "road_name": "Gadaffi army barracks off Jinja - Iganga",
+      "region": "Eastern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 16.0,
+      "length_km": 0.911,
+      "total_cost_usd": 109320,
+      "priority_score": 24.6806,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C388_Link01",
+      "road_name": "Nyanga Swamp",
+      "region": "Southern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 14.45,
+      "length_km": 0.7,
+      "total_cost_usd": 84000,
+      "priority_score": 24.1229,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C983_Link01",
+      "road_name": "Kapelimoru - Kotein",
+      "region": "North Eastern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2025,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 16.0,
+      "length_km": 0.057,
+      "total_cost_usd": 6840,
+      "priority_score": 24.0,
+      "urgency": "urgent"
+    },
+    {
+      "link_id": "C970_Link01",
+      "road_name": "Moroto army barracks access",
+      "region": "North Eastern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 15.32,
+      "length_km": 0.952,
+      "total_cost_usd": 114240,
+      "priority_score": 23.3216,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C929_Link01",
+      "road_name": "Kumi - Ongino",
+      "region": "North Eastern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2025,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 16.0,
+      "length_km": 0.115,
+      "total_cost_usd": 13800,
+      "priority_score": 22.96,
+      "urgency": "urgent"
+    },
+    {
+      "link_id": "C386_Link01",
+      "road_name": "Kiyoora PTC Access",
+      "region": "Southern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Routine Grading",
+      "iri": 9.81,
+      "length_km": 0.229,
+      "total_cost_usd": 802,
+      "priority_score": 22.8986,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C974_Link01",
+      "road_name": "Lokopo Link 2",
+      "region": "North Eastern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 16.0,
+      "length_km": 1.232,
+      "total_cost_usd": 147840,
+      "priority_score": 22.5438,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C711_Link01",
+      "road_name": "Pajimo-Army Barracks",
+      "region": "Northern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 16.0,
+      "length_km": 1.264,
+      "total_cost_usd": 151680,
+      "priority_score": 22.3711,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C874_Link01",
+      "road_name": "Mbale railway crossing Access",
+      "region": "Eastern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2025,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 14.54,
+      "length_km": 0.106,
+      "total_cost_usd": 12720,
+      "priority_score": 22.1004,
+      "urgency": "urgent"
+    },
+    {
+      "link_id": "C707_Link01",
+      "road_name": "Acholi Pii Army Baracks Access",
+      "region": "Northern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 15.85,
+      "length_km": 1.342,
+      "total_cost_usd": 161040,
+      "priority_score": 21.7668,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C451_Link01",
+      "road_name": "Kisoro army barracks off Kabale - Kisoro",
+      "region": "Southern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2025,
+      "treatment": "Regravelling",
+      "iri": 13.71,
+      "length_km": 0.093,
+      "total_cost_usd": 4650,
+      "priority_score": 21.7113,
+      "urgency": "urgent"
+    },
+    {
+      "link_id": "C602_Link01",
+      "road_name": "Bulera PTC Access",
+      "region": "Western",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Regravelling",
+      "iri": 12.27,
+      "length_km": 0.583,
+      "total_cost_usd": 29150,
+      "priority_score": 21.6389,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C042_Link01",
+      "road_name": "Kawolo Railway access",
+      "region": "Central",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Regravelling",
+      "iri": 13.47,
+      "length_km": 0.859,
+      "total_cost_usd": 42950,
+      "priority_score": 21.1476,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C692_Link01",
+      "road_name": "Gulu Railway Access",
+      "region": "Northern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 16.0,
+      "length_km": 1.633,
+      "total_cost_usd": 195960,
+      "priority_score": 20.7165,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C842_Link01",
+      "road_name": "Tororo Prisons Access",
+      "region": "Eastern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Regravelling",
+      "iri": 13.83,
+      "length_km": 1.036,
+      "total_cost_usd": 51800,
+      "priority_score": 20.5261,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C969_Link03",
+      "road_name": "Turtuko - Opekit",
+      "region": "North Eastern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 16.0,
+      "length_km": 1.77,
+      "total_cost_usd": 212400,
+      "priority_score": 20.2218,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C976_Link01",
+      "road_name": "Kitale Road",
+      "region": "North Eastern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 15.34,
+      "length_km": 1.584,
+      "total_cost_usd": 190080,
+      "priority_score": 20.0443,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C151_Link01",
+      "road_name": "Busabala-Kazi",
+      "region": "Central",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Regravelling",
+      "iri": 11.16,
+      "length_km": 0.56,
+      "total_cost_usd": 28000,
+      "priority_score": 19.9204,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C923_Link01",
+      "road_name": "Arapai - Railway Station",
+      "region": "North Eastern",
+      "road_class": "C",
+      "surface_cat": "asphalt",
+      "trigger_year": 2024,
+      "treatment": "Reconstruct (Paved)",
+      "iri": 16.0,
+      "length_km": 1.93,
+      "total_cost_usd": 1158000,
+      "priority_score": 19.7035,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C663_Link01",
+      "road_name": "Loro Prisons Access",
+      "region": "Northern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 16.0,
+      "length_km": 1.935,
+      "total_cost_usd": 232200,
+      "priority_score": 19.6882,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C219_Link01",
+      "road_name": "Masaka army barracks",
+      "region": "Central",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Regravelling",
+      "iri": 13.07,
+      "length_km": 1.018,
+      "total_cost_usd": 50900,
+      "priority_score": 19.5004,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C947_Link01",
+      "road_name": "Soroti State Lodge",
+      "region": "North Eastern",
+      "road_class": "C",
+      "surface_cat": "asphalt",
+      "trigger_year": 2024,
+      "treatment": "Reconstruct (Paved)",
+      "iri": 16.0,
+      "length_km": 2.0,
+      "total_cost_usd": 1200000,
+      "priority_score": 19.4941,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C560_Link01",
+      "road_name": "Butiti PTTC Access",
+      "region": "Western",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 15.5,
+      "length_km": 1.855,
+      "total_cost_usd": 222600,
+      "priority_score": 19.3161,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C574_Link01",
+      "road_name": "Accesses to Rwimi Prisons",
+      "region": "Southern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Regravelling",
+      "iri": 12.92,
+      "length_km": 1.047,
+      "total_cost_usd": 52350,
+      "priority_score": 19.1148,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C266_Link01",
+      "road_name": "Kiganda Loop",
+      "region": "Central",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Regravelling",
+      "iri": 12.99,
+      "length_km": 1.07,
+      "total_cost_usd": 53500,
+      "priority_score": 19.0935,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C687_Link01",
+      "road_name": "Packwach Railway Access",
+      "region": "Northern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2025,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 15.85,
+      "length_km": 0.21,
+      "total_cost_usd": 25200,
+      "priority_score": 19.044,
+      "urgency": "urgent"
+    },
+    {
+      "link_id": "C649_Link01",
+      "road_name": "Lira Army Barracks Access",
+      "region": "Northern",
+      "road_class": "C",
+      "surface_cat": "asphalt",
+      "trigger_year": 2024,
+      "treatment": "Reconstruct (Paved)",
+      "iri": 13.93,
+      "length_km": 1.4,
+      "total_cost_usd": 840000,
+      "priority_score": 18.8888,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C875_Link01",
+      "road_name": "Bugema army barracks Access",
+      "region": "Eastern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2025,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 14.33,
+      "length_km": 0.176,
+      "total_cost_usd": 21120,
+      "priority_score": 18.805,
+      "urgency": "urgent"
+    },
+    {
+      "link_id": "C802_Link01",
+      "road_name": "Iganga railway access",
+      "region": "Eastern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Regravelling",
+      "iri": 12.18,
+      "length_km": 0.913,
+      "total_cost_usd": 45650,
+      "priority_score": 18.7758,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C573_Link01",
+      "road_name": "Kamwenge Railway Access",
+      "region": "Western",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 15.35,
+      "length_km": 2.0,
+      "total_cost_usd": 240000,
+      "priority_score": 18.7021,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C140_Link01",
+      "road_name": "Kasana - Mbulamuti ferry access",
+      "region": "Central",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Regravelling",
+      "iri": 13.37,
+      "length_km": 1.27245848059,
+      "total_cost_usd": 63623,
+      "priority_score": 18.6565,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C183_Link01",
+      "road_name": "Buloba PTTC",
+      "region": "Central",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Regravelling",
+      "iri": 11.39,
+      "length_km": 0.785,
+      "total_cost_usd": 39250,
+      "priority_score": 18.3719,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C389_Link01",
+      "road_name": "Kityaza Bugango access",
+      "region": "Southern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Regravelling",
+      "iri": 12.19,
+      "length_km": 1.0,
+      "total_cost_usd": 50000,
+      "priority_score": 18.285,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C807_Link01",
+      "road_name": "Busoko - Busaba",
+      "region": "Eastern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Regravelling",
+      "iri": 11.23,
+      "length_km": 0.773,
+      "total_cost_usd": 38650,
+      "priority_score": 18.1977,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C179_Link01",
+      "road_name": "Old Masaka Road (Kyengera -Kabojja Secondary)",
+      "region": "Central",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Regravelling",
+      "iri": 13.68,
+      "length_km": 1.598,
+      "total_cost_usd": 79900,
+      "priority_score": 17.8281,
+      "urgency": "now"
+    },
+    {
+      "link_id": "C765_Link01",
+      "road_name": "Packwach-Railway Access",
+      "region": "Northern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2025,
+      "treatment": "Reconstruct (Gravel)",
+      "iri": 15.53,
+      "length_km": 0.274,
+      "total_cost_usd": 32880,
+      "priority_score": 17.3513,
+      "urgency": "urgent"
+    },
+    {
+      "link_id": "C377_Link01",
+      "road_name": "Kiburara T/c - Kiburara Prison Fram",
+      "region": "Southern",
+      "road_class": "C",
+      "surface_cat": "unpaved",
+      "trigger_year": 2024,
+      "treatment": "Regravelling",
+      "iri": 12.95,
+      "length_km": 1.487,
+      "total_cost_usd": 74350,
+      "priority_score": 17.2452,
+      "urgency": "now"
+    }
+  ],
+  "budget_schedule_2024_2030": [
+    {
+      "year": 2024,
+      "routine_usd": 9379071.0,
+      "reseal_usd": 38421099.0,
+      "overlay_usd": 67251480.0,
+      "rehab_usd": 127818119.0,
+      "reconstruct_usd": 830577119.0,
+      "regravelling_usd": 383855267.0,
+      "total_usd": 1457302155
+    },
+    {
+      "year": 2025,
+      "routine_usd": 8991660.0,
+      "reseal_usd": 40412259.0,
+      "overlay_usd": 67251480.0,
+      "rehab_usd": 127818119.0,
+      "reconstruct_usd": 838721759.0,
+      "regravelling_usd": 385198217.0,
+      "total_usd": 1468393494
+    },
+    {
+      "year": 2026,
+      "routine_usd": 155974.0,
+      "reseal_usd": 0,
+      "overlay_usd": 0,
+      "rehab_usd": 0,
+      "reconstruct_usd": 0,
+      "regravelling_usd": 0,
+      "total_usd": 155974
+    },
+    {
+      "year": 2027,
+      "routine_usd": 0,
+      "reseal_usd": 0,
+      "overlay_usd": 0,
+      "rehab_usd": 0,
+      "reconstruct_usd": 0,
+      "regravelling_usd": 0,
+      "total_usd": 0
+    },
+    {
+      "year": 2028,
+      "routine_usd": 0,
+      "reseal_usd": 0,
+      "overlay_usd": 0,
+      "rehab_usd": 0,
+      "reconstruct_usd": 0,
+      "regravelling_usd": 0,
+      "total_usd": 0
+    },
+    {
+      "year": 2029,
+      "routine_usd": 398378.0,
+      "reseal_usd": 0,
+      "overlay_usd": 0,
+      "rehab_usd": 0,
+      "reconstruct_usd": 0,
+      "regravelling_usd": 0,
+      "total_usd": 398378
+    },
+    {
+      "year": 2030,
+      "routine_usd": 0,
+      "reseal_usd": 0,
+      "overlay_usd": 0,
+      "rehab_usd": 0,
+      "reconstruct_usd": 0,
+      "regravelling_usd": 0,
+      "total_usd": 0
+    }
+  ],
+  "total_maintenance_budget_2024_2030_usd": 2926250001,
+  "intervention_thresholds_iri": {
+    "routine_maintenance": 3.5,
+    "reseal": 5.0,
+    "overlay": 6.5,
+    "rehabilitation": 9.0,
+    "reconstruction": 12.0
+  },
+  "unit_costs_usd_per_km": {
+    "routine_maintenance": 3500,
+    "reseal": 45000,
+    "overlay": 120000,
+    "rehabilitation": 350000,
+    "reconstruction_paved": 600000,
+    "reconstruction_gravel": 120000
+  }
+}
