@@ -1,0 +1,1920 @@
+{
+  "paved_condition": {
+    "good_km": 2750.0,
+    "fair_km": 57.9,
+    "poor_km": 29.6,
+    "critical_km": 250.9,
+    "good_pct": 89.0,
+    "fair_pct": 1.9,
+    "poor_pct": 1.0,
+    "critical_pct": 8.1,
+    "total_km": 3088.4
+  },
+  "unpaved_condition": {
+    "good_km": 0.0,
+    "fair_km": 13.4,
+    "poor_km": 173.7,
+    "critical_km": 7335.4,
+    "good_pct": 0.0,
+    "fair_pct": 0.2,
+    "poor_pct": 2.3,
+    "critical_pct": 97.5,
+    "total_km": 7522.4
+  },
+  "overall_condition_km": {
+    "good_km": 2750.0,
+    "fair_km": 71.4,
+    "poor_km": 203.2,
+    "critical_km": 7586.2,
+    "good_pct": 25.9,
+    "fair_pct": 0.7,
+    "poor_pct": 1.9,
+    "critical_pct": 71.5,
+    "total_km": 10610.8
+  },
+  "pci_gauge": {
+    "network_weighted_pci": 32.4,
+    "target_pci": 65.0,
+    "total_network_km": 10610.8
+  },
+  "condition_by_region_stacked": [
+    {
+      "region": "Central",
+      "Good": 696.5,
+      "Fair": 11.4,
+      "Poor": 53.4,
+      "Critical": 1875.6,
+      "total_km": 2636.9
+    },
+    {
+      "region": "Northern",
+      "Good": 528.7,
+      "Fair": 20.0,
+      "Poor": 54.6,
+      "Critical": 1573.6,
+      "total_km": 2176.8
+    },
+    {
+      "region": "Eastern",
+      "Good": 554.3,
+      "Fair": 16.0,
+      "Poor": 37.0,
+      "Critical": 1502.9,
+      "total_km": 2110.2
+    },
+    {
+      "region": "Western",
+      "Good": 510.3,
+      "Fair": 12.0,
+      "Poor": 27.0,
+      "Critical": 1382.1,
+      "total_km": 1931.4
+    },
+    {
+      "region": "Southern",
+      "Good": 307.9,
+      "Fair": 8.8,
+      "Poor": 23.3,
+      "Critical": 928.7,
+      "total_km": 1268.6
+    },
+    {
+      "region": "North Eastern",
+      "Good": 152.4,
+      "Fair": 3.2,
+      "Poor": 8.0,
+      "Critical": 323.4,
+      "total_km": 486.9
+    }
+  ],
+  "segment_scatter": [
+    {
+      "id": "B101",
+      "name": "National Unpaved Link B101",
+      "age_yrs": 14.6,
+      "iri": 8.5,
+      "aadt": 2389,
+      "pci": 21.0,
+      "surface": "UNPAVED",
+      "region": "Central",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B300",
+      "name": "National Unpaved Link B300",
+      "age_yrs": 6.5,
+      "iri": 7.0,
+      "aadt": 24934,
+      "pci": 6.0,
+      "surface": "UNPAVED",
+      "region": "Central",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C269",
+      "name": "National Unpaved Link C269",
+      "age_yrs": 7.8,
+      "iri": 10.0,
+      "aadt": 3915,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Eastern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B305",
+      "name": "National Unpaved Link B305",
+      "age_yrs": 14.9,
+      "iri": 10.0,
+      "aadt": 18879,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Eastern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "A008",
+      "name": "National Paved Corridor A008",
+      "age_yrs": 4.6,
+      "iri": 3.5,
+      "aadt": 9753,
+      "pci": 99.0,
+      "surface": "PAVED",
+      "region": "Eastern",
+      "treatment": "Routine"
+    },
+    {
+      "id": "B150",
+      "name": "National Paved Corridor B150",
+      "age_yrs": 24.6,
+      "iri": 3.5,
+      "aadt": 5736,
+      "pci": 93.5,
+      "surface": "PAVED",
+      "region": "Southern",
+      "treatment": "Overlay"
+    },
+    {
+      "id": "C782",
+      "name": "National Unpaved Link C782",
+      "age_yrs": 20.1,
+      "iri": 10.0,
+      "aadt": 5972,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Southern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C781",
+      "name": "National Unpaved Link C781",
+      "age_yrs": 2.4,
+      "iri": 10.0,
+      "aadt": 21586,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C162",
+      "name": "National Unpaved Link C162",
+      "age_yrs": 19.4,
+      "iri": 10.0,
+      "aadt": 23149,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Eastern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C741",
+      "name": "National Unpaved Link C741",
+      "age_yrs": 13.4,
+      "iri": 10.0,
+      "aadt": 3680,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Southern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "A012",
+      "name": "National Paved Corridor A012",
+      "age_yrs": 11.9,
+      "iri": 3.5,
+      "aadt": 3216,
+      "pci": 99.0,
+      "surface": "PAVED",
+      "region": "Central",
+      "treatment": "Routine"
+    },
+    {
+      "id": "C548",
+      "name": "National Unpaved Link C548",
+      "age_yrs": 14.0,
+      "iri": 10.0,
+      "aadt": 21746,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Eastern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C703",
+      "name": "National Unpaved Link C703",
+      "age_yrs": 3.7,
+      "iri": 8.5,
+      "aadt": 22255,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B300",
+      "name": "National Paved Corridor B300",
+      "age_yrs": 21.9,
+      "iri": 3.5,
+      "aadt": 22858,
+      "pci": 99.0,
+      "surface": "PAVED",
+      "region": "North Eastern",
+      "treatment": "Routine"
+    },
+    {
+      "id": "C920",
+      "name": "National Unpaved Link C920",
+      "age_yrs": 15.6,
+      "iri": 8.5,
+      "aadt": 11853,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C414",
+      "name": "National Unpaved Link C414",
+      "age_yrs": 18.3,
+      "iri": 11.5,
+      "aadt": 12257,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C162",
+      "name": "National Unpaved Link C162",
+      "age_yrs": 21.1,
+      "iri": 8.5,
+      "aadt": 21613,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "North Eastern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "A002",
+      "name": "National Paved Corridor A002",
+      "age_yrs": 15.0,
+      "iri": 3.5,
+      "aadt": 4713,
+      "pci": 99.0,
+      "surface": "PAVED",
+      "region": "Eastern",
+      "treatment": "Routine"
+    },
+    {
+      "id": "A005",
+      "name": "National Paved Corridor A005",
+      "age_yrs": 19.9,
+      "iri": 3.5,
+      "aadt": 24047,
+      "pci": 99.0,
+      "surface": "PAVED",
+      "region": "Eastern",
+      "treatment": "Routine"
+    },
+    {
+      "id": "C306",
+      "name": "National Unpaved Link C306",
+      "age_yrs": 15.0,
+      "iri": 10.0,
+      "aadt": 23454,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Eastern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B203",
+      "name": "National Unpaved Link B203",
+      "age_yrs": 8.2,
+      "iri": 8.5,
+      "aadt": 700,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C870",
+      "name": "National Unpaved Link C870",
+      "age_yrs": 13.6,
+      "iri": 10.0,
+      "aadt": 12619,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Southern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C352",
+      "name": "National Unpaved Link C352",
+      "age_yrs": 11.5,
+      "iri": 8.5,
+      "aadt": 3507,
+      "pci": 11.0,
+      "surface": "UNPAVED",
+      "region": "Central",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C625",
+      "name": "National Unpaved Link C625",
+      "age_yrs": 3.2,
+      "iri": 8.5,
+      "aadt": 23471,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Central",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C306",
+      "name": "National Unpaved Link C306",
+      "age_yrs": 7.6,
+      "iri": 8.5,
+      "aadt": 8439,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Central",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B151",
+      "name": "National Paved Corridor B151",
+      "age_yrs": 21.2,
+      "iri": 3.5,
+      "aadt": 20227,
+      "pci": 98.3,
+      "surface": "PAVED",
+      "region": "Western",
+      "treatment": "Routine"
+    },
+    {
+      "id": "C542",
+      "name": "National Unpaved Link C542",
+      "age_yrs": 30.8,
+      "iri": 8.5,
+      "aadt": 18738,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Eastern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C414",
+      "name": "National Unpaved Link C414",
+      "age_yrs": 25.7,
+      "iri": 7.0,
+      "aadt": 6889,
+      "pci": 6.0,
+      "surface": "UNPAVED",
+      "region": "Eastern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C357",
+      "name": "National Unpaved Link C357",
+      "age_yrs": 2.9,
+      "iri": 8.5,
+      "aadt": 21944,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Central",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "A001",
+      "name": "National Paved Corridor A001",
+      "age_yrs": 9.4,
+      "iri": 3.5,
+      "aadt": 10997,
+      "pci": 98.2,
+      "surface": "PAVED",
+      "region": "Southern",
+      "treatment": "Routine"
+    },
+    {
+      "id": "B150",
+      "name": "National Unpaved Link B150",
+      "age_yrs": 20.0,
+      "iri": 8.5,
+      "aadt": 24878,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Northern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C701",
+      "name": "National Unpaved Link C701",
+      "age_yrs": 15.1,
+      "iri": 8.5,
+      "aadt": 23450,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Northern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C961",
+      "name": "National Unpaved Link C961",
+      "age_yrs": 13.3,
+      "iri": 7.0,
+      "aadt": 8139,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B152",
+      "name": "National Paved Corridor B152",
+      "age_yrs": 27.3,
+      "iri": 3.5,
+      "aadt": 10337,
+      "pci": 89.0,
+      "surface": "PAVED",
+      "region": "Western",
+      "treatment": "Overlay"
+    },
+    {
+      "id": "C419",
+      "name": "National Unpaved Link C419",
+      "age_yrs": 9.0,
+      "iri": 10.0,
+      "aadt": 12160,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Central",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C830",
+      "name": "National Unpaved Link C830",
+      "age_yrs": 10.2,
+      "iri": 10.0,
+      "aadt": 16357,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Central",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C162",
+      "name": "National Unpaved Link C162",
+      "age_yrs": 16.1,
+      "iri": 8.5,
+      "aadt": 20204,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C260",
+      "name": "National Unpaved Link C260",
+      "age_yrs": 11.8,
+      "iri": 10.0,
+      "aadt": 4483,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Central",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "A001",
+      "name": "National Paved Corridor A001",
+      "age_yrs": 31.5,
+      "iri": 3.5,
+      "aadt": 16232,
+      "pci": 99.0,
+      "surface": "PAVED",
+      "region": "Eastern",
+      "treatment": "Routine"
+    },
+    {
+      "id": "B302",
+      "name": "National Unpaved Link B302",
+      "age_yrs": 18.8,
+      "iri": 10.0,
+      "aadt": 17896,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Northern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C655",
+      "name": "National Unpaved Link C655",
+      "age_yrs": 13.8,
+      "iri": 8.5,
+      "aadt": 3628,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Southern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C622",
+      "name": "National Unpaved Link C622",
+      "age_yrs": 10.6,
+      "iri": 8.5,
+      "aadt": 18699,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Central",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "A008",
+      "name": "National Paved Corridor A008",
+      "age_yrs": 8.0,
+      "iri": 3.5,
+      "aadt": 17000,
+      "pci": 96.6,
+      "surface": "PAVED",
+      "region": "Western",
+      "treatment": "Routine"
+    },
+    {
+      "id": "A005",
+      "name": "National Paved Corridor A005",
+      "age_yrs": 8.0,
+      "iri": 3.5,
+      "aadt": 23588,
+      "pci": 99.3,
+      "surface": "PAVED",
+      "region": "Southern",
+      "treatment": "Routine"
+    },
+    {
+      "id": "C625",
+      "name": "National Unpaved Link C625",
+      "age_yrs": 8.6,
+      "iri": 8.5,
+      "aadt": 8003,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "North Eastern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C015",
+      "name": "National Paved Corridor C015",
+      "age_yrs": 29.3,
+      "iri": 3.5,
+      "aadt": 5376,
+      "pci": 98.2,
+      "surface": "PAVED",
+      "region": "Central",
+      "treatment": "Routine"
+    },
+    {
+      "id": "C356",
+      "name": "National Unpaved Link C356",
+      "age_yrs": 31.9,
+      "iri": 7.0,
+      "aadt": 8287,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Southern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "A008",
+      "name": "National Paved Corridor A008",
+      "age_yrs": 13.8,
+      "iri": 3.5,
+      "aadt": 24516,
+      "pci": 99.0,
+      "surface": "PAVED",
+      "region": "Central",
+      "treatment": "Routine"
+    },
+    {
+      "id": "C861",
+      "name": "National Unpaved Link C861",
+      "age_yrs": 16.4,
+      "iri": 8.5,
+      "aadt": 11896,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Northern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C156",
+      "name": "National Unpaved Link C156",
+      "age_yrs": 16.7,
+      "iri": 8.5,
+      "aadt": 17287,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C833",
+      "name": "National Unpaved Link C833",
+      "age_yrs": 6.2,
+      "iri": 8.5,
+      "aadt": 9592,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B306",
+      "name": "National Unpaved Link B306",
+      "age_yrs": 10.9,
+      "iri": 10.0,
+      "aadt": 4001,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "A004",
+      "name": "National Paved Corridor A004",
+      "age_yrs": 9.7,
+      "iri": 3.5,
+      "aadt": 24378,
+      "pci": 99.0,
+      "surface": "PAVED",
+      "region": "Central",
+      "treatment": "Routine"
+    },
+    {
+      "id": "B300",
+      "name": "National Unpaved Link B300",
+      "age_yrs": 22.2,
+      "iri": 10.0,
+      "aadt": 13725,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B250",
+      "name": "National Unpaved Link B250",
+      "age_yrs": 4.6,
+      "iri": 10.0,
+      "aadt": 19033,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B151",
+      "name": "National Paved Corridor B151",
+      "age_yrs": 31.9,
+      "iri": 3.5,
+      "aadt": 23355,
+      "pci": 92.2,
+      "surface": "PAVED",
+      "region": "Northern",
+      "treatment": "Overlay"
+    },
+    {
+      "id": "A002",
+      "name": "National Paved Corridor A002",
+      "age_yrs": 10.9,
+      "iri": 3.5,
+      "aadt": 12270,
+      "pci": 98.6,
+      "surface": "PAVED",
+      "region": "Northern",
+      "treatment": "Routine"
+    },
+    {
+      "id": "A002",
+      "name": "National Paved Corridor A002",
+      "age_yrs": 15.3,
+      "iri": 3.5,
+      "aadt": 15919,
+      "pci": 97.0,
+      "surface": "PAVED",
+      "region": "Central",
+      "treatment": "Routine"
+    },
+    {
+      "id": "C925",
+      "name": "National Unpaved Link C925",
+      "age_yrs": 24.1,
+      "iri": 8.5,
+      "aadt": 3096,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Northern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "A009",
+      "name": "National Paved Corridor A009",
+      "age_yrs": 18.8,
+      "iri": 3.5,
+      "aadt": 21204,
+      "pci": 99.0,
+      "surface": "PAVED",
+      "region": "Northern",
+      "treatment": "Routine"
+    },
+    {
+      "id": "A005",
+      "name": "National Paved Corridor A005",
+      "age_yrs": 12.9,
+      "iri": 3.5,
+      "aadt": 2116,
+      "pci": 97.5,
+      "surface": "PAVED",
+      "region": "Eastern",
+      "treatment": "Routine"
+    },
+    {
+      "id": "C700",
+      "name": "National Unpaved Link C700",
+      "age_yrs": 22.8,
+      "iri": 11.5,
+      "aadt": 3786,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Central",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "A001",
+      "name": "National Paved Corridor A001",
+      "age_yrs": 17.6,
+      "iri": 3.5,
+      "aadt": 22173,
+      "pci": 98.2,
+      "surface": "PAVED",
+      "region": "Northern",
+      "treatment": "Routine"
+    },
+    {
+      "id": "C623",
+      "name": "National Unpaved Link C623",
+      "age_yrs": 13.2,
+      "iri": 8.5,
+      "aadt": 20298,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C743",
+      "name": "National Unpaved Link C743",
+      "age_yrs": 12.9,
+      "iri": 10.0,
+      "aadt": 18389,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Central",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B250",
+      "name": "National Unpaved Link B250",
+      "age_yrs": 21.5,
+      "iri": 10.0,
+      "aadt": 12704,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Northern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C516",
+      "name": "National Unpaved Link C516",
+      "age_yrs": 3.8,
+      "iri": 7.0,
+      "aadt": 20301,
+      "pci": 16.0,
+      "surface": "UNPAVED",
+      "region": "Eastern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C960",
+      "name": "National Unpaved Link C960",
+      "age_yrs": 12.6,
+      "iri": 8.5,
+      "aadt": 13116,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Northern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C681",
+      "name": "National Unpaved Link C681",
+      "age_yrs": 20.3,
+      "iri": 10.0,
+      "aadt": 18507,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "North Eastern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C550",
+      "name": "National Unpaved Link C550",
+      "age_yrs": 3.8,
+      "iri": 8.5,
+      "aadt": 5700,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Eastern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "A006",
+      "name": "National Paved Corridor A006",
+      "age_yrs": 12.0,
+      "iri": 3.5,
+      "aadt": 3300,
+      "pci": 65.0,
+      "surface": "PAVED",
+      "region": "Western",
+      "treatment": "Resealing"
+    },
+    {
+      "id": "C353",
+      "name": "National Unpaved Link C353",
+      "age_yrs": 30.4,
+      "iri": 10.0,
+      "aadt": 2655,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Southern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B305",
+      "name": "National Unpaved Link B305",
+      "age_yrs": 19.0,
+      "iri": 8.5,
+      "aadt": 2363,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Central",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B102",
+      "name": "National Paved Corridor B102",
+      "age_yrs": 22.9,
+      "iri": 3.5,
+      "aadt": 1338,
+      "pci": 98.6,
+      "surface": "PAVED",
+      "region": "Central",
+      "treatment": "Routine"
+    },
+    {
+      "id": "B102",
+      "name": "National Paved Corridor B102",
+      "age_yrs": 29.3,
+      "iri": 3.5,
+      "aadt": 4436,
+      "pci": 96.2,
+      "surface": "PAVED",
+      "region": "Central",
+      "treatment": "Routine"
+    },
+    {
+      "id": "C265",
+      "name": "National Unpaved Link C265",
+      "age_yrs": 25.2,
+      "iri": 8.5,
+      "aadt": 6690,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Eastern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B201",
+      "name": "National Unpaved Link B201",
+      "age_yrs": 29.9,
+      "iri": 8.5,
+      "aadt": 2371,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "A012",
+      "name": "National Paved Corridor A012",
+      "age_yrs": 9.5,
+      "iri": 3.5,
+      "aadt": 3420,
+      "pci": 99.0,
+      "surface": "PAVED",
+      "region": "Southern",
+      "treatment": "Routine"
+    },
+    {
+      "id": "A001",
+      "name": "National Paved Corridor A001",
+      "age_yrs": 29.8,
+      "iri": 3.5,
+      "aadt": 23678,
+      "pci": 98.2,
+      "surface": "PAVED",
+      "region": "Western",
+      "treatment": "Routine"
+    },
+    {
+      "id": "A007",
+      "name": "National Paved Corridor A007",
+      "age_yrs": 10.6,
+      "iri": 3.5,
+      "aadt": 9976,
+      "pci": 84.2,
+      "surface": "PAVED",
+      "region": "Central",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C867",
+      "name": "National Unpaved Link C867",
+      "age_yrs": 3.4,
+      "iri": 10.0,
+      "aadt": 13255,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "A004",
+      "name": "National Paved Corridor A004",
+      "age_yrs": 1.5,
+      "iri": 3.5,
+      "aadt": 7501,
+      "pci": 99.0,
+      "surface": "PAVED",
+      "region": "North Eastern",
+      "treatment": "Routine"
+    },
+    {
+      "id": "C924",
+      "name": "National Unpaved Link C924",
+      "age_yrs": 2.4,
+      "iri": 8.5,
+      "aadt": 3360,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Eastern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C263",
+      "name": "National Unpaved Link C263",
+      "age_yrs": 5.1,
+      "iri": 8.5,
+      "aadt": 4842,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B307",
+      "name": "National Unpaved Link B307",
+      "age_yrs": 13.3,
+      "iri": 8.5,
+      "aadt": 19630,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Eastern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B302",
+      "name": "National Unpaved Link B302",
+      "age_yrs": 14.4,
+      "iri": 7.0,
+      "aadt": 23417,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Northern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C030",
+      "name": "National Unpaved Link C030",
+      "age_yrs": 6.5,
+      "iri": 7.0,
+      "aadt": 11360,
+      "pci": 6.0,
+      "surface": "UNPAVED",
+      "region": "Northern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B301",
+      "name": "National Unpaved Link B301",
+      "age_yrs": 26.5,
+      "iri": 10.0,
+      "aadt": 7340,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Central",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "A004",
+      "name": "National Paved Corridor A004",
+      "age_yrs": 23.5,
+      "iri": 3.5,
+      "aadt": 16148,
+      "pci": 99.0,
+      "surface": "PAVED",
+      "region": "Central",
+      "treatment": "Routine"
+    },
+    {
+      "id": "C540",
+      "name": "National Unpaved Link C540",
+      "age_yrs": 5.0,
+      "iri": 10.0,
+      "aadt": 1002,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Eastern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B303",
+      "name": "National Unpaved Link B303",
+      "age_yrs": 24.9,
+      "iri": 7.0,
+      "aadt": 24886,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Central",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C413",
+      "name": "National Unpaved Link C413",
+      "age_yrs": 29.7,
+      "iri": 7.0,
+      "aadt": 3164,
+      "pci": 6.0,
+      "surface": "UNPAVED",
+      "region": "Southern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "A008",
+      "name": "National Paved Corridor A008",
+      "age_yrs": 17.3,
+      "iri": 3.5,
+      "aadt": 11370,
+      "pci": 99.0,
+      "surface": "PAVED",
+      "region": "Central",
+      "treatment": "Routine"
+    },
+    {
+      "id": "C162",
+      "name": "National Unpaved Link C162",
+      "age_yrs": 5.4,
+      "iri": 10.0,
+      "aadt": 673,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B101",
+      "name": "National Paved Corridor B101",
+      "age_yrs": 25.4,
+      "iri": 3.5,
+      "aadt": 4616,
+      "pci": 97.4,
+      "surface": "PAVED",
+      "region": "Central",
+      "treatment": "Routine"
+    },
+    {
+      "id": "A007",
+      "name": "National Paved Corridor A007",
+      "age_yrs": 31.1,
+      "iri": 3.5,
+      "aadt": 2539,
+      "pci": 98.3,
+      "surface": "PAVED",
+      "region": "Central",
+      "treatment": "Routine"
+    },
+    {
+      "id": "C920",
+      "name": "National Unpaved Link C920",
+      "age_yrs": 1.7,
+      "iri": 7.0,
+      "aadt": 23984,
+      "pci": 31.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C743",
+      "name": "National Unpaved Link C743",
+      "age_yrs": 22.6,
+      "iri": 10.0,
+      "aadt": 12399,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C625",
+      "name": "National Unpaved Link C625",
+      "age_yrs": 1.4,
+      "iri": 8.5,
+      "aadt": 14545,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C355",
+      "name": "National Unpaved Link C355",
+      "age_yrs": 1.4,
+      "iri": 7.0,
+      "aadt": 2984,
+      "pci": 21.0,
+      "surface": "UNPAVED",
+      "region": "Central",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C154",
+      "name": "National Unpaved Link C154",
+      "age_yrs": 11.9,
+      "iri": 7.0,
+      "aadt": 17892,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B301",
+      "name": "National Unpaved Link B301",
+      "age_yrs": 26.5,
+      "iri": 7.0,
+      "aadt": 23386,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Central",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C786",
+      "name": "National Unpaved Link C786",
+      "age_yrs": 28.6,
+      "iri": 8.5,
+      "aadt": 12203,
+      "pci": 21.0,
+      "surface": "UNPAVED",
+      "region": "Eastern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C746",
+      "name": "National Unpaved Link C746",
+      "age_yrs": 11.3,
+      "iri": 10.0,
+      "aadt": 24639,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Northern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C355",
+      "name": "National Unpaved Link C355",
+      "age_yrs": 28.3,
+      "iri": 5.5,
+      "aadt": 18747,
+      "pci": 41.0,
+      "surface": "UNPAVED",
+      "region": "Southern",
+      "treatment": "Overlay"
+    },
+    {
+      "id": "B152",
+      "name": "National Unpaved Link B152",
+      "age_yrs": 7.6,
+      "iri": 8.5,
+      "aadt": 7792,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Central",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C162",
+      "name": "National Unpaved Link C162",
+      "age_yrs": 11.2,
+      "iri": 10.0,
+      "aadt": 15881,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Central",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "A005",
+      "name": "National Paved Corridor A005",
+      "age_yrs": 20.8,
+      "iri": 3.5,
+      "aadt": 5306,
+      "pci": 99.3,
+      "surface": "PAVED",
+      "region": "Northern",
+      "treatment": "Routine"
+    },
+    {
+      "id": "B307",
+      "name": "National Unpaved Link B307",
+      "age_yrs": 30.8,
+      "iri": 10.0,
+      "aadt": 21779,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Eastern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "A005",
+      "name": "National Paved Corridor A005",
+      "age_yrs": 15.1,
+      "iri": 3.5,
+      "aadt": 19298,
+      "pci": 99.0,
+      "surface": "PAVED",
+      "region": "Central",
+      "treatment": "Routine"
+    },
+    {
+      "id": "C416",
+      "name": "National Unpaved Link C416",
+      "age_yrs": 13.7,
+      "iri": 7.0,
+      "aadt": 12861,
+      "pci": 6.0,
+      "surface": "UNPAVED",
+      "region": "Southern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C701",
+      "name": "National Unpaved Link C701",
+      "age_yrs": 23.9,
+      "iri": 7.0,
+      "aadt": 19082,
+      "pci": 21.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C162",
+      "name": "National Unpaved Link C162",
+      "age_yrs": 10.1,
+      "iri": 8.5,
+      "aadt": 21798,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Southern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C214",
+      "name": "National Unpaved Link C214",
+      "age_yrs": 16.6,
+      "iri": 8.5,
+      "aadt": 649,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C355",
+      "name": "National Unpaved Link C355",
+      "age_yrs": 24.4,
+      "iri": 5.5,
+      "aadt": 10221,
+      "pci": 41.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Overlay"
+    },
+    {
+      "id": "C862",
+      "name": "National Unpaved Link C862",
+      "age_yrs": 6.5,
+      "iri": 10.0,
+      "aadt": 7518,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Central",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C158",
+      "name": "National Paved Corridor C158",
+      "age_yrs": 21.5,
+      "iri": 3.5,
+      "aadt": 1244,
+      "pci": 94.6,
+      "surface": "PAVED",
+      "region": "Southern",
+      "treatment": "Routine"
+    },
+    {
+      "id": "C703",
+      "name": "National Unpaved Link C703",
+      "age_yrs": 5.6,
+      "iri": 10.0,
+      "aadt": 7146,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "North Eastern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C867",
+      "name": "National Unpaved Link C867",
+      "age_yrs": 8.3,
+      "iri": 10.0,
+      "aadt": 16820,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Central",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C265",
+      "name": "National Unpaved Link C265",
+      "age_yrs": 21.9,
+      "iri": 7.0,
+      "aadt": 12890,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Northern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C681",
+      "name": "National Unpaved Link C681",
+      "age_yrs": 9.0,
+      "iri": 7.0,
+      "aadt": 20556,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Eastern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B201",
+      "name": "National Unpaved Link B201",
+      "age_yrs": 1.1,
+      "iri": 8.5,
+      "aadt": 2742,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Southern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B202",
+      "name": "National Unpaved Link B202",
+      "age_yrs": 28.8,
+      "iri": 10.0,
+      "aadt": 503,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Central",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B252",
+      "name": "National Unpaved Link B252",
+      "age_yrs": 15.4,
+      "iri": 10.0,
+      "aadt": 18554,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Northern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C867",
+      "name": "National Unpaved Link C867",
+      "age_yrs": 27.8,
+      "iri": 10.0,
+      "aadt": 7659,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Northern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B253",
+      "name": "National Unpaved Link B253",
+      "age_yrs": 8.1,
+      "iri": 10.0,
+      "aadt": 13841,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C701",
+      "name": "National Unpaved Link C701",
+      "age_yrs": 28.4,
+      "iri": 10.0,
+      "aadt": 1861,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Central",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B302",
+      "name": "National Unpaved Link B302",
+      "age_yrs": 10.0,
+      "iri": 8.5,
+      "aadt": 13064,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "A007",
+      "name": "National Paved Corridor A007",
+      "age_yrs": 11.1,
+      "iri": 3.5,
+      "aadt": 17570,
+      "pci": 80.7,
+      "surface": "PAVED",
+      "region": "Eastern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B203",
+      "name": "National Unpaved Link B203",
+      "age_yrs": 21.5,
+      "iri": 8.5,
+      "aadt": 22797,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Eastern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C681",
+      "name": "National Unpaved Link C681",
+      "age_yrs": 17.5,
+      "iri": 10.0,
+      "aadt": 4514,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Southern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C620",
+      "name": "National Unpaved Link C620",
+      "age_yrs": 7.7,
+      "iri": 8.5,
+      "aadt": 3356,
+      "pci": 11.0,
+      "surface": "UNPAVED",
+      "region": "North Eastern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C305",
+      "name": "National Unpaved Link C305",
+      "age_yrs": 1.2,
+      "iri": 7.0,
+      "aadt": 633,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Northern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B302",
+      "name": "National Unpaved Link B302",
+      "age_yrs": 27.2,
+      "iri": 8.5,
+      "aadt": 6715,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Southern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C548",
+      "name": "National Unpaved Link C548",
+      "age_yrs": 14.7,
+      "iri": 10.0,
+      "aadt": 5463,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C162",
+      "name": "National Unpaved Link C162",
+      "age_yrs": 12.1,
+      "iri": 10.0,
+      "aadt": 15551,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Central",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "A002",
+      "name": "National Paved Corridor A002",
+      "age_yrs": 3.7,
+      "iri": 3.5,
+      "aadt": 6221,
+      "pci": 94.2,
+      "surface": "PAVED",
+      "region": "Eastern",
+      "treatment": "Overlay"
+    },
+    {
+      "id": "A006",
+      "name": "National Paved Corridor A006",
+      "age_yrs": 8.6,
+      "iri": 3.5,
+      "aadt": 23690,
+      "pci": 99.0,
+      "surface": "PAVED",
+      "region": "Northern",
+      "treatment": "Routine"
+    },
+    {
+      "id": "A006",
+      "name": "National Paved Corridor A006",
+      "age_yrs": 17.4,
+      "iri": 3.5,
+      "aadt": 7465,
+      "pci": 98.7,
+      "surface": "PAVED",
+      "region": "Eastern",
+      "treatment": "Routine"
+    },
+    {
+      "id": "C653",
+      "name": "National Unpaved Link C653",
+      "age_yrs": 5.5,
+      "iri": 7.0,
+      "aadt": 10944,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Eastern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B150",
+      "name": "National Unpaved Link B150",
+      "age_yrs": 10.4,
+      "iri": 11.5,
+      "aadt": 12883,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Southern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C830",
+      "name": "National Unpaved Link C830",
+      "age_yrs": 15.5,
+      "iri": 10.0,
+      "aadt": 12470,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Northern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C355",
+      "name": "National Unpaved Link C355",
+      "age_yrs": 22.3,
+      "iri": 5.5,
+      "aadt": 15418,
+      "pci": 41.0,
+      "surface": "UNPAVED",
+      "region": "Northern",
+      "treatment": "Overlay"
+    },
+    {
+      "id": "B306",
+      "name": "National Unpaved Link B306",
+      "age_yrs": 21.5,
+      "iri": 10.0,
+      "aadt": 13105,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Central",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "B300",
+      "name": "National Unpaved Link B300",
+      "age_yrs": 14.7,
+      "iri": 10.0,
+      "aadt": 15408,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Western",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C680",
+      "name": "National Unpaved Link C680",
+      "age_yrs": 14.3,
+      "iri": 10.0,
+      "aadt": 20785,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Northern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C680",
+      "name": "National Unpaved Link C680",
+      "age_yrs": 30.3,
+      "iri": 8.5,
+      "aadt": 7020,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Eastern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C788",
+      "name": "National Unpaved Link C788",
+      "age_yrs": 31.3,
+      "iri": 10.0,
+      "aadt": 23867,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Northern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "C302",
+      "name": "National Unpaved Link C302",
+      "age_yrs": 9.0,
+      "iri": 8.5,
+      "aadt": 18437,
+      "pci": 5.0,
+      "surface": "UNPAVED",
+      "region": "Eastern",
+      "treatment": "Reconstruction"
+    },
+    {
+      "id": "A008",
+      "name": "National Paved Corridor A008",
+      "age_yrs": 18.1,
+      "iri": 3.5,
+      "aadt": 22056,
+      "pci": 99.0,
+      "surface": "PAVED",
+      "region": "Southern",
+      "treatment": "Routine"
+    }
+  ],
+  "iri_trend_by_road_class": {
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027,
+      2028,
+      2029,
+      2030
+    ],
+    "series": {
+      "Class A National Corridors": [
+        2.83,
+        2.89,
+        3.0,
+        3.05,
+        3.11,
+        3.19,
+        3.32,
+        3.41,
+        3.58,
+        3.7,
+        3.83
+      ],
+      "Class B Regional Connectors": [
+        4.05,
+        4.19,
+        4.27,
+        4.36,
+        4.42,
+        4.43,
+        4.58,
+        4.66,
+        4.8,
+        5.01,
+        5.05
+      ],
+      "Class C District Arterials": [
+        5.81,
+        5.86,
+        5.97,
+        6.09,
+        6.19,
+        6.28,
+        6.4,
+        6.52,
+        6.69,
+        6.79,
+        6.91
+      ],
+      "Urban Arterials (KCCA)": [
+        4.65,
+        4.74,
+        4.82,
+        4.97,
+        5.01,
+        5.12,
+        5.22,
+        5.37,
+        5.52,
+        5.63,
+        5.71
+      ]
+    }
+  },
+  "iri_heatmap": {
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "matrix": [
+      {
+        "region": "Central",
+        "values": [
+          3.0,
+          3.4,
+          3.5,
+          3.8,
+          4.0,
+          4.4
+        ]
+      },
+      {
+        "region": "Northern",
+        "values": [
+          3.7,
+          4.0,
+          4.4,
+          4.6,
+          4.9,
+          5.0
+        ]
+      },
+      {
+        "region": "Eastern",
+        "values": [
+          4.2,
+          4.5,
+          4.6,
+          5.0,
+          5.2,
+          5.5
+        ]
+      },
+      {
+        "region": "Western",
+        "values": [
+          3.9,
+          4.1,
+          4.4,
+          4.6,
+          4.9,
+          5.3
+        ]
+      },
+      {
+        "region": "Southern",
+        "values": [
+          4.0,
+          4.3,
+          4.4,
+          4.7,
+          5.1,
+          5.3
+        ]
+      },
+      {
+        "region": "North Eastern",
+        "values": [
+          4.1,
+          4.2,
+          4.5,
+          4.8,
+          4.9,
+          5.2
+        ]
+      }
+    ]
+  },
+  "treatment_needs_by_type": {
+    "Routine": {
+      "km": 2343.8,
+      "est_cost_usd": 10547212.5,
+      "est_cost_ugx_b": 40.08
+    },
+    "Resealing": {
+      "km": 373.0,
+      "est_cost_usd": 10443888.0,
+      "est_cost_ugx_b": 39.69
+    },
+    "Overlay": {
+      "km": 247.2,
+      "est_cost_usd": 21010300.0,
+      "est_cost_ugx_b": 79.84
+    },
+    "Reconstruction": {
+      "km": 7646.8,
+      "est_cost_usd": 2446976320.0,
+      "est_cost_ugx_b": 9298.51
+    }
+  },
+  "summary_metrics": {
+    "total_network_km": 10610.8,
+    "paved_km": 3088.4,
+    "unpaved_km": 7522.4,
+    "total_capex_usd": 2488977720.5,
+    "total_capex_ugx_b": 9458.12,
+    "ml_r2_score": 0.9959,
+    "ml_accuracy": 0.9991
+  }
+}
