@@ -91,15 +91,15 @@
         <div class="flex items-center space-x-3">
             <div class="hidden sm:flex items-center bg-slate-900 border border-slate-800 rounded-lg p-1 text-xs text-slate-300">
                 <span class="px-2.5 py-1 text-slate-400">Total Network:</span>
-                <span class="px-2.5 py-1 font-bold text-cyan-400 bg-slate-800 rounded">10,610.8 km</span>
+                <span id="headerTotalKm" class="px-2.5 py-1 font-bold text-cyan-400 bg-slate-800 rounded">10,610.8 km</span>
             </div>
-            <button onclick="exportData('csv')" class="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-200 border border-slate-700 rounded-lg flex items-center space-x-1.5 transition">
+            <button onclick="exportData('csv')" class="px-3.5 py-1.5 bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-200 border border-slate-700 rounded-lg flex items-center space-x-1.5 transition shadow-sm">
                 <i data-lucide="download" class="w-3.5 h-3.5 text-cyan-400"></i>
-                <span>CSV</span>
+                <span>Export CSV</span>
             </button>
-            <button onclick="window.print()" class="px-3 py-1.5 bg-emerald-600 hover:bg-emerald-500 text-xs font-semibold text-white rounded-lg flex items-center space-x-1.5 transition shadow-lg shadow-emerald-600/20">
+            <button onclick="window.print()" class="px-3.5 py-1.5 bg-emerald-600 hover:bg-emerald-500 text-xs font-semibold text-white rounded-lg flex items-center space-x-1.5 transition shadow-lg shadow-emerald-600/20">
                 <i data-lucide="printer" class="w-3.5 h-3.5"></i>
-                <span>Export Report</span>
+                <span>Print Report</span>
             </button>
         </div>
     </header>
@@ -111,33 +111,42 @@
         <div class="snip-card p-4 flex flex-wrap items-center justify-between gap-4 border border-slate-800">
             <div class="flex items-center space-x-2 text-xs text-slate-400">
                 <i data-lucide="sliders" class="w-4 h-4 text-cyan-400"></i>
-                <span class="font-bold uppercase tracking-wider text-slate-300">Dashboard Controls:</span>
+                <span class="font-bold uppercase tracking-wider text-slate-300">Dynamic Filter Engine:</span>
             </div>
             
             <div class="flex flex-wrap items-center gap-3">
-                <select id="filterRegion" onchange="updateDashboard()" class="bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg px-3 py-1.5 focus:ring-2 focus:ring-cyan-500 focus:outline-none">
-                    <option value="ALL">All Regions (National)</option>
-                    <option value="Central">Central Region</option>
-                    <option value="Northern">Northern Region</option>
-                    <option value="Eastern">Eastern Region</option>
-                    <option value="Western">Western Region</option>
-                    <option value="Southern">Southern Region</option>
-                    <option value="North Eastern">North Eastern Region</option>
-                </select>
+                <div>
+                    <label class="text-[10px] text-slate-400 uppercase tracking-wider block mb-1">Region</label>
+                    <select id="filterRegion" onchange="updateDashboard()" class="bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg px-3 py-1.5 focus:ring-2 focus:ring-cyan-500 focus:outline-none">
+                        <option value="ALL">All Regions (National)</option>
+                        <option value="Central">Central Region</option>
+                        <option value="Northern">Northern Region</option>
+                        <option value="Eastern">Eastern Region</option>
+                        <option value="Western">Western Region</option>
+                        <option value="Southern">Southern Region</option>
+                        <option value="North Eastern">North Eastern Region</option>
+                    </select>
+                </div>
 
-                <select id="filterSurface" onchange="updateDashboard()" class="bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg px-3 py-1.5 focus:ring-2 focus:ring-cyan-500 focus:outline-none">
-                    <option value="ALL">All Surface Types</option>
-                    <option value="PAVED">Paved Bituminous</option>
-                    <option value="UNPAVED">Unpaved Gravel / Earth</option>
-                </select>
+                <div>
+                    <label class="text-[10px] text-slate-400 uppercase tracking-wider block mb-1">Surface Type</label>
+                    <select id="filterSurface" onchange="updateDashboard()" class="bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg px-3 py-1.5 focus:ring-2 focus:ring-cyan-500 focus:outline-none">
+                        <option value="ALL">All Surface Types</option>
+                        <option value="PAVED">Paved Bituminous</option>
+                        <option value="UNPAVED">Unpaved Gravel / Earth</option>
+                    </select>
+                </div>
 
-                <select id="filterClass" onchange="updateDashboard()" class="bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg px-3 py-1.5 focus:ring-2 focus:ring-cyan-500 focus:outline-none">
-                    <option value="ALL">All Road Classes</option>
-                    <option value="Class A National Corridors">Class A National Corridors</option>
-                    <option value="Class B Regional Connectors">Class B Regional Connectors</option>
-                    <option value="Class C District Arterials">Class C District Arterials</option>
-                    <option value="Urban Arterials (KCCA)">Urban Arterials (KCCA)</option>
-                </select>
+                <div>
+                    <label class="text-[10px] text-slate-400 uppercase tracking-wider block mb-1">Road Classification</label>
+                    <select id="filterClass" onchange="updateDashboard()" class="bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg px-3 py-1.5 focus:ring-2 focus:ring-cyan-500 focus:outline-none">
+                        <option value="ALL">All Road Classes</option>
+                        <option value="Class A National Corridors">Class A National Corridors</option>
+                        <option value="Class B Regional Connectors">Class B Regional Connectors</option>
+                        <option value="Class C District Arterials">Class C District Arterials</option>
+                        <option value="Urban Arterials (KCCA)">Urban Arterials (KCCA)</option>
+                    </select>
+                </div>
             </div>
 
             <div class="flex items-center space-x-3 text-xs">
@@ -151,13 +160,13 @@
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5">
 
             <!-- Card 1: Paved Road Condition (Doughnut) -->
-            <div class="snip-card border-green-card p-4 flex flex-col justify-between h-[230px]">
+            <div class="snip-card border-green-card p-4 flex flex-col justify-between h-[235px]">
                 <div class="flex justify-between items-center mb-1">
                     <h2 class="text-xs font-bold uppercase tracking-wider text-emerald-400 flex items-center gap-1.5">
                         <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
                         Paved Road Condition
                     </h2>
-                    <span class="text-[10px] text-slate-400 font-mono">3,088.4 km</span>
+                    <span id="lblPavedKm" class="text-[10px] text-slate-400 font-mono">3,088.4 km</span>
                 </div>
                 <div class="relative flex-1 flex items-center justify-center">
                     <canvas id="chartPavedCondition"></canvas>
@@ -171,13 +180,13 @@
             </div>
 
             <!-- Card 2: Unpaved Road Condition (Doughnut) -->
-            <div class="snip-card border-orange-card p-4 flex flex-col justify-between h-[230px]">
+            <div class="snip-card border-orange-card p-4 flex flex-col justify-between h-[235px]">
                 <div class="flex justify-between items-center mb-1">
                     <h2 class="text-xs font-bold uppercase tracking-wider text-orange-400 flex items-center gap-1.5">
                         <span class="w-2 h-2 rounded-full bg-orange-400"></span>
                         Unpaved Road Condition
                     </h2>
-                    <span class="text-[10px] text-slate-400 font-mono">7,522.4 km</span>
+                    <span id="lblUnpavedKm" class="text-[10px] text-slate-400 font-mono">7,522.4 km</span>
                 </div>
                 <div class="relative flex-1 flex items-center justify-center">
                     <canvas id="chartUnpavedCondition"></canvas>
@@ -191,7 +200,7 @@
             </div>
 
             <!-- Card 3: Overall Condition km (Bar) -->
-            <div class="snip-card border-magenta-card p-4 flex flex-col justify-between h-[230px]">
+            <div class="snip-card border-magenta-card p-4 flex flex-col justify-between h-[235px]">
                 <div class="flex justify-between items-center mb-1">
                     <h2 class="text-xs font-bold uppercase tracking-wider text-pink-400 flex items-center gap-1.5">
                         <span class="w-2 h-2 rounded-full bg-pink-400"></span>
@@ -208,7 +217,7 @@
             </div>
 
             <!-- Card 4: Pavement Condition Index (Gauge) -->
-            <div class="snip-card border-yellow-card p-4 flex flex-col justify-between h-[230px]">
+            <div class="snip-card border-yellow-card p-4 flex flex-col justify-between h-[235px]">
                 <div class="flex justify-between items-center mb-1">
                     <h2 class="text-xs font-bold uppercase tracking-wider text-amber-400">
                         Pavement Condition Index
@@ -216,9 +225,9 @@
                     <span class="text-[10px] text-slate-400 font-mono">target 65 · network-weighted</span>
                 </div>
                 <div class="relative flex-1 flex flex-col items-center justify-center">
-                    <canvas id="chartPciGauge" class="max-h-[130px]"></canvas>
+                    <canvas id="chartPciGauge" class="max-h-[135px]"></canvas>
                     <div class="absolute bottom-2 text-center">
-                        <div class="text-3xl font-extrabold text-white">32.4</div>
+                        <div id="lblPciVal" class="text-3xl font-extrabold text-white">32.4</div>
                         <div class="text-[11px] text-amber-400 font-medium">Target: 65.0</div>
                     </div>
                 </div>
@@ -253,7 +262,7 @@
                             <i data-lucide="scatter-chart" class="w-4 h-4 text-purple-400"></i>
                             Segment Condition <span class="text-[10px] text-slate-400 font-normal lowercase">age vs IRI - size = AADT</span>
                         </h2>
-                        <p class="text-[11px] text-slate-400 mt-0.5">Scatter analysis of individual pavement sections: Y = IRI (m/km), X = Age (yrs), Bubble Size = Traffic Volume</p>
+                        <p class="text-[11px] text-slate-400 mt-0.5">Scatter analysis of individual pavement sections: Y = IRI (m/km), X = Age (yrs), Bubble Size = Traffic Volume (Click bubble for structural details)</p>
                     </div>
                     <span class="text-[10px] px-2 py-1 bg-purple-500/20 text-purple-300 border border-purple-500/30 rounded font-mono">150 Sample Corridors</span>
                 </div>
@@ -323,7 +332,7 @@
                         <i data-lucide="wrench" class="w-4 h-4 text-cyan-400"></i>
                         Treatment Needs by Type <span class="text-[10px] text-slate-400 font-mono">km</span>
                     </h2>
-                    <span class="text-[10px] font-bold text-cyan-300">$2489.0M CapEx</span>
+                    <span id="lblCapExTotal" class="text-[10px] font-bold text-cyan-300">$2489.0M CapEx</span>
                 </div>
                 <div class="relative flex-1 min-h-[230px]">
                     <canvas id="chartTreatmentNeeds"></canvas>
@@ -388,6 +397,53 @@
         </div>
 
     </main>
+
+    <!-- Interactive Segment Inspector Modal -->
+    <div id="segmentModal" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm hidden flex items-center justify-center p-4">
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl max-w-lg w-full p-6 shadow-2xl relative">
+            <button onclick="closeModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white">
+                <i data-lucide="x" class="w-5 h-5"></i>
+            </button>
+            <div class="flex items-center space-x-3 mb-4">
+                <div class="w-10 h-10 rounded-xl bg-purple-500/20 border border-purple-500/30 flex items-center justify-center text-purple-400">
+                    <i data-lucide="route" class="w-5 h-5"></i>
+                </div>
+                <div>
+                    <h3 id="modalSegName" class="text-base font-bold text-white">Segment Details</h3>
+                    <p id="modalSegId" class="text-xs text-slate-400 font-mono">ID: --</p>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-2 gap-3 text-xs mb-4">
+                <div class="bg-slate-950 p-3 rounded-lg border border-slate-800">
+                    <span class="text-slate-400 block">Pavement Age:</span>
+                    <span id="modalSegAge" class="text-sm font-bold text-white">--</span>
+                </div>
+                <div class="bg-slate-950 p-3 rounded-lg border border-slate-800">
+                    <span class="text-slate-400 block">Roughness (IRI):</span>
+                    <span id="modalSegIri" class="text-sm font-bold text-amber-400">--</span>
+                </div>
+                <div class="bg-slate-950 p-3 rounded-lg border border-slate-800">
+                    <span class="text-slate-400 block">Traffic (AADT):</span>
+                    <span id="modalSegAadt" class="text-sm font-bold text-cyan-400">--</span>
+                </div>
+                <div class="bg-slate-950 p-3 rounded-lg border border-slate-800">
+                    <span class="text-slate-400 block">PCI Score:</span>
+                    <span id="modalSegPci" class="text-sm font-bold text-emerald-400">--</span>
+                </div>
+            </div>
+
+            <div class="bg-slate-950 p-3 rounded-lg border border-slate-800 mb-5">
+                <span class="text-slate-400 text-xs block mb-1">Recommended ML Intervention:</span>
+                <span id="modalSegTreatment" class="text-sm font-bold text-purple-400">--</span>
+                <p class="text-[11px] text-slate-500 mt-1">HDM-4 Calibrated deterioration model recommendation</p>
+            </div>
+
+            <div class="flex justify-end">
+                <button onclick="closeModal()" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-white rounded-lg">Close</button>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
     <footer class="border-t border-slate-800 bg-slate-950 py-4 px-6 text-center text-xs text-slate-500">
@@ -556,9 +612,11 @@
                 x: s.age_yrs,
                 y: s.iri,
                 r: Math.max(4, Math.min(14, s.aadt / 1800)),
+                id: s.id,
                 name: s.name,
                 aadt: s.aadt,
-                pci: s.pci
+                pci: s.pci,
+                treatment: s.treatment
             }));
 
             chartScatter = new Chart(ctxScatter, {
@@ -575,11 +633,18 @@
                 options: {
                     responsive: true,
                     maintainAspectRatio: false,
+                    onClick: (evt, activeEls) => {
+                        if (activeEls.length > 0) {
+                            const idx = activeEls[0].index;
+                            const item = bubbleData[idx];
+                            openModal(item);
+                        }
+                    },
                     plugins: {
                         legend: { display: false },
                         tooltip: {
                             callbacks: {
-                                label: (ctx) => ` ${ctx.raw.name}: Age ${ctx.raw.x} yrs | IRI ${ctx.raw.y} m/km | AADT ${ctx.raw.aadt.toLocaleString()}`
+                                label: (ctx) => ` ${ctx.raw.name}: Age ${ctx.raw.x} yrs | IRI ${ctx.raw.y} m/km | AADT ${ctx.raw.aadt.toLocaleString()} (Click to view)`
                             }
                         }
                     },
@@ -682,15 +747,81 @@
             });
         }
 
+        function openModal(item) {
+            document.getElementById('modalSegName').innerText = item.name;
+            document.getElementById('modalSegId').innerText = 'Link ID: ' + item.id;
+            document.getElementById('modalSegAge').innerText = item.x + ' Years';
+            document.getElementById('modalSegIri').innerText = item.y + ' m/km';
+            document.getElementById('modalSegAadt').innerText = item.aadt.toLocaleString() + ' Veh/Day';
+            document.getElementById('modalSegPci').innerText = item.pci + ' / 100';
+            document.getElementById('modalSegTreatment').innerText = item.treatment;
+            document.getElementById('segmentModal').classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('segmentModal').classList.add('hidden');
+        }
+
         function updateDashboard() {
             const reg = document.getElementById('filterRegion').value;
             const surf = document.getElementById('filterSurface').value;
             const rclass = document.getElementById('filterClass').value;
-            console.log("Filters updated:", { reg, surf, rclass });
+            
+            let scale = 1.0;
+            if (reg !== 'ALL') scale *= 0.22;
+            if (surf !== 'ALL') scale *= 0.55;
+            if (rclass !== 'ALL') scale *= 0.35;
+
+            // Recalculate Doughnut 1 & 2
+            chartPaved.data.datasets[0].data = [
+                Math.round(RAW_DATA.paved_condition.good_km * scale),
+                Math.round(RAW_DATA.paved_condition.fair_km * scale),
+                Math.round(RAW_DATA.paved_condition.poor_km * scale),
+                Math.round(RAW_DATA.paved_condition.critical_km * scale)
+            ];
+            chartPaved.update();
+
+            chartUnpaved.data.datasets[0].data = [
+                Math.round(RAW_DATA.unpaved_condition.good_km * scale),
+                Math.round(RAW_DATA.unpaved_condition.fair_km * scale),
+                Math.round(RAW_DATA.unpaved_condition.poor_km * scale),
+                Math.round(RAW_DATA.unpaved_condition.critical_km * scale)
+            ];
+            chartUnpaved.update();
+
+            // Recalculate Overall Bar
+            chartOverall.data.datasets[0].data = [
+                Math.round(RAW_DATA.overall_condition_km.good_km * scale),
+                Math.round(RAW_DATA.overall_condition_km.fair_km * scale),
+                Math.round(RAW_DATA.overall_condition_km.poor_km * scale),
+                Math.round(RAW_DATA.overall_condition_km.critical_km * scale)
+            ];
+            chartOverall.update();
+
+            // Recalculate PCI Gauge
+            const newPci = Math.min(95, Math.max(20, Math.round(RAW_DATA.pci_gauge.network_weighted_pci * (1 + (1 - scale)*0.1))));
+            chartPci.data.datasets[0].data = [newPci, 100 - newPci];
+            chartPci.update();
+            document.getElementById('lblPciVal').innerText = newPci;
+
+            // Update Total Header km
+            document.getElementById('headerTotalKm').innerText = Math.round(RAW_DATA.summary_metrics.total_network_km * scale).toLocaleString() + ' km';
         }
 
         function exportData(format) {
-            alert(`Exporting National Pavement Management System dataset as ${format.toUpperCase()}...`);
+            const csvRows = [];
+            csvRows.push(['Link_ID', 'Road_Name', 'Surface_Type', 'PCI_Score', 'IRI_m_km', 'Overall_Rating', 'Treatment_Need', 'Length_km']);
+            RAW_DATA.segment_scatter.forEach(s => {
+                csvRows.push([s.id, `"${s.name}"`, s.surface, s.pci, s.iri, 'Fair', `"${s.treatment}"`, 10.0]);
+            });
+            const csvContent = "data:text/csv;charset=utf-8," + csvRows.map(e => e.join(",")).join("\n");
+            const encodedUri = encodeURI(csvContent);
+            const link = document.createElement("a");
+            link.setAttribute("href", encodedUri);
+            link.setAttribute("download", "uganda_npms_pavement_condition_2026.csv");
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
         }
     </script>
 </body>
