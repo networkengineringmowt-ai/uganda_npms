@@ -1,0 +1,184 @@
+{
+  "section": "ducar",
+  "last_updated": "2026-08-20",
+  "kpis": [
+    {
+      "label": "DUCAR Links",
+      "value": "31,106",
+      "color": "#00f5ff"
+    },
+    {
+      "label": "Total Length",
+      "value": "89,736 km",
+      "color": "#00f5ff"
+    },
+    {
+      "label": "Districts",
+      "value": "111",
+      "color": "#00f5ff"
+    },
+    {
+      "label": "Good",
+      "value": "2,194 (7.1%)",
+      "color": "#00ff88"
+    },
+    {
+      "label": "Fair",
+      "value": "7,592 (24.4%)",
+      "color": "#ffbb00"
+    },
+    {
+      "label": "Poor + Very Poor",
+      "value": "11,536 (37.1%)",
+      "color": "#ff3366"
+    },
+    {
+      "label": "Not Assessed",
+      "value": "9,784 (31.5%)",
+      "color": "#888888"
+    },
+    {
+      "label": "ML Accuracy",
+      "value": "62.0%",
+      "color": "#b366ff"
+    }
+  ],
+  "charts": [
+    {
+      "type": "pie",
+      "title": "DUCAR Condition",
+      "data": [
+        {
+          "label": "Good",
+          "value": 2194
+        },
+        {
+          "label": "Fair",
+          "value": 7592
+        },
+        {
+          "label": "Poor",
+          "value": 6999
+        },
+        {
+          "label": "Very Poor",
+          "value": 4537
+        },
+        {
+          "label": "Not assessed",
+          "value": 9784
+        }
+      ]
+    },
+    {
+      "type": "pie",
+      "title": "Surface Type",
+      "data": [
+        {
+          "label": "Gravel",
+          "value": 11706
+        },
+        {
+          "label": "Earth",
+          "value": 8992
+        },
+        {
+          "label": "Bituminous",
+          "value": 7317
+        },
+        {
+          "label": "Earth (track)",
+          "value": 2647
+        },
+        {
+          "label": "Not supplied",
+          "value": 444
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Top 15 Districts by Length",
+      "data": [
+        {
+          "label": "Kabong",
+          "value": 2918.9
+        },
+        {
+          "label": "Kampala (Kcca)",
+          "value": 2831.0
+        },
+        {
+          "label": "Kibaale",
+          "value": 1930.9
+        },
+        {
+          "label": "Sembabule",
+          "value": 1804.7
+        },
+        {
+          "label": "Oyam",
+          "value": 1682.6
+        },
+        {
+          "label": "Nakasongola",
+          "value": 1476.2
+        },
+        {
+          "label": "Mayuge",
+          "value": 1427.0
+        },
+        {
+          "label": "Lwengo",
+          "value": 1378.8
+        },
+        {
+          "label": "Kiruhura",
+          "value": 1316.0
+        },
+        {
+          "label": "Dokolo",
+          "value": 1252.6
+        },
+        {
+          "label": "Arua",
+          "value": 1245.1
+        },
+        {
+          "label": "Kalungu",
+          "value": 1234.9
+        },
+        {
+          "label": "Adjumani",
+          "value": 1225.8
+        },
+        {
+          "label": "Mubende",
+          "value": 1223.6
+        },
+        {
+          "label": "Ntungamo",
+          "value": 1222.6
+        }
+      ]
+    }
+  ],
+  "ml_model": {
+    "type": "RandomForest",
+    "n_trees": 20,
+    "accuracy": 0.62,
+    "features": [
+      "surface_type",
+      "tier",
+      "length_km",
+      "carriageway_m"
+    ]
+  },
+  "insights": [
+    "DUCAR: 89,736 km across 111 districts \u2014 Uganda's largest road asset.",
+    "37.1% of DUCAR roads Poor or Very Poor; chronic maintenance underfunding evident.",
+    "31.5% of links unassessed \u2014 systematic survey coverage gap.",
+    "Gravel/earth dominate; only 23.5% bituminous surfacing.",
+    "RF classifier achieves 62.0% accuracy on assessed roads."
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "section": "rms",
+  "last_updated": "2026-08-20",
+  "kpis": [
+    {
+      "label": "Total National Network",
+      "value": "21,302 km",
+      "color": "#00f5ff"
+    },
+    {
+      "label": "Paved Roads",
+      "value": "6,405 km (30.1%)",
+      "color": "#00ff88"
+    },
+    {
+      "label": "Unpaved Roads",
+      "value": "14,897 km (69.9%)",
+      "color": "#ffbb00"
+    },
+    {
+      "label": "Total Links",
+      "value": "1,017",
+      "color": "#00f5ff"
+    },
+    {
+      "label": "Good Condition",
+      "value": "7.1% (1,518 km)",
+      "color": "#00ff88"
+    },
+    {
+      "label": "Fair Condition",
+      "value": "18.9% (4,027 km)",
+      "color": "#ffbb00"
+    },
+    {
+      "label": "Poor Condition",
+      "value": "74.0% (15,757 km)",
+      "color": "#ff3366"
+    },
+    {
+      "label": "ML Accuracy",
+      "value": "97.1%",
+      "color": "#b366ff"
+    }
+  ],
+  "charts": [
+    {
+      "type": "pie",
+      "title": "Surface Type",
+      "data": [
+        {
+          "label": "Bituminous",
+          "value": 6405.1
+        },
+        {
+          "label": "Unsealed",
+          "value": 14896.8
+        }
+      ]
+    },
+    {
+      "type": "pie",
+      "title": "Condition (km)",
+      "data": [
+        {
+          "label": "Good",
+          "value": 1517.6
+        },
+        {
+          "label": "Fair",
+          "value": 4026.7
+        },
+        {
+          "label": "Poor",
+          "value": 15757.5
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Length by Region",
+      "data": [
+        {
+          "label": "Central",
+          "value": 4785.8
+        },
+        {
+          "label": "Eastern",
+          "value": 2765.4
+        },
+        {
+          "label": "Northern",
+          "value": 4645.6
+        },
+        {
+          "label": "Western",
+          "value": 2828.1
+        },
+        {
+          "label": "Southern",
+          "value": 3579.2
+        },
+        {
+          "label": "North Eastern",
+          "value": 2697.7
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Length by Class",
+      "data": [
+        {
+          "label": "A",
+          "value": 2604.6
+        },
+        {
+          "label": "B",
+          "value": 2845.3
+        },
+        {
+          "label": "C",
+          "value": 15707.3
+        },
+        {
+          "label": "M",
+          "value": 144.6
+        }
+      ]
+    }
+  ],
+  "trends": [
+    {
+      "year": "2009/10",
+      "paved_good": 1230,
+      "paved_fair": 1180,
+      "paved_poor": 709,
+      "unpaved_good": 1535,
+      "unpaved_fair": 2340,
+      "unpaved_poor": 3436
+    },
+    {
+      "year": "2010/11",
+      "paved_good": 1742,
+      "paved_fair": 680,
+      "paved_poor": 843,
+      "unpaved_good": 3719,
+      "unpaved_fair": 7215,
+      "unpaved_poor": 6186
+    },
+    {
+      "year": "2011/12",
+      "paved_good": 1717,
+      "paved_fair": 856,
+      "paved_poor": 744,
+      "unpaved_good": 3926,
+      "unpaved_fair": 7853,
+      "unpaved_poor": 5904
+    },
+    {
+      "year": "2012/13",
+      "paved_good": 1794,
+      "paved_fair": 893,
+      "paved_poor": 803,
+      "unpaved_good": 3852,
+      "unpaved_fair": 7705,
+      "unpaved_poor": 5954
+    },
+    {
+      "year": "2013/14",
+      "paved_good": 2505,
+      "paved_fair": 531,
+      "paved_poor": 759,
+      "unpaved_good": 5678,
+      "unpaved_fair": 5850,
+      "unpaved_poor": 5677
+    },
+    {
+      "year": "2014/15",
+      "paved_good": 2707,
+      "paved_fair": 478,
+      "paved_poor": 796,
+      "unpaved_good": 6297,
+      "unpaved_fair": 5616,
+      "unpaved_poor": 5106
+    },
+    {
+      "year": "2015/16",
+      "paved_good": 2040,
+      "paved_fair": 913,
+      "paved_poor": 1204,
+      "unpaved_good": 1737,
+      "unpaved_fair": 5707,
+      "unpaved_poor": 2033
+    },
+    {
+      "year": "2016/17",
+      "paved_good": 2924,
+      "paved_fair": 979,
+      "paved_poor": 354,
+      "unpaved_good": 5212,
+      "unpaved_fair": 7003,
+      "unpaved_poor": 4072
+    },
+    {
+      "year": "2017/18",
+      "paved_good": 3413,
+      "paved_fair": 1001,
+      "paved_poor": 136,
+      "unpaved_good": 3678,
+      "unpaved_fair": 9755,
+      "unpaved_poor": 2558
+    },
+    {
+      "year": "2018/19",
+      "paved_good": 3862,
+      "paved_fair": 802,
+      "paved_poor": 351,
+      "unpaved_good": 3802,
+      "unpaved_fair": 8079,
+      "unpaved_poor": 3960
+    },
+    {
+      "year": "2019/20",
+      "paved_good": 2753,
+      "paved_fair": 1727,
+      "paved_poor": 864,
+      "unpaved_good": 3591,
+      "unpaved_fair": 6245,
+      "unpaved_poor": 5776
+    },
+    {
+      "year": "2020/21",
+      "paved_good": 4220,
+      "paved_fair": 861,
+      "paved_poor": 177,
+      "unpaved_good": 4695,
+      "unpaved_fair": 6111,
+      "unpaved_poor": 2669
+    },
+    {
+      "year": "2021/22",
+      "paved_good": 4272,
+      "paved_fair": 902,
+      "paved_poor": 159,
+      "unpaved_good": 2223,
+      "unpaved_fair": 8961,
+      "unpaved_poor": 1445
+    }
+  ],
+  "ml_model": {
+    "type": "RandomForest",
+    "n_trees": 25,
+    "accuracy": 0.971,
+    "features": [
+      "surface_type",
+      "road_class",
+      "length_km",
+      "age_years",
+      "region"
+    ]
+  },
+  "insights": [
+    "National network: 21,302 km across 1023 links \u2014 30.1% paved, 69.9% unsealed.",
+    "Condition: Good 7.1%, Fair 18.9%, Poor 74.0% \u2014 significant rehabilitation backlog.",
+    "Class C roads dominate at 15,707 km (73.7%), mostly unpaved.",
+    "Central region has densest paved network; North/East have highest share of unsealed surfaces.",
+    "RandomForest (25 trees) achieves 97.1% accuracy predicting condition from surface, class, age, region."
+  ]
+}

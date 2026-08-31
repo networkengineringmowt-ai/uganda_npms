@@ -1,0 +1,28 @@
+{
+"type": "FeatureCollection",
+"name": "new_weigh_bridges",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "type": "Border post", "eng_name": "Elegu", "longitude": 32.072087226400001, "latitude": 3.5697906363 }, "geometry": { "type": "Point", "coordinates": [ 32.072087226379985, 3.569790636304992 ] } },
+{ "type": "Feature", "properties": { "id": 2, "type": "Proposed", "eng_name": "Kamdini", "longitude": 32.32554423, "latitude": 2.2464771594199999 }, "geometry": { "type": "Point", "coordinates": [ 32.325544230004184, 2.246477159418078 ] } },
+{ "type": "Feature", "properties": { "id": 3, "type": "Proposed", "eng_name": "Pakwach", "longitude": 31.507321074699998, "latitude": 2.45976271439 }, "geometry": { "type": "Point", "coordinates": [ 31.507321074651657, 2.459762714386243 ] } },
+{ "type": "Feature", "properties": { "id": 4, "type": "Permanent", "eng_name": "Luwero", "longitude": 32.486233532, "latitude": 0.85796883676299995 }, "geometry": { "type": "Point", "coordinates": [ 32.486233532043222, 0.857968836763242 ] } },
+{ "type": "Feature", "properties": { "id": 5, "type": "Proposed", "eng_name": "KNBP Bweyogerere", "longitude": 32.649086705499997, "latitude": 0.36266773747199998 }, "geometry": { "type": "Point", "coordinates": [ 32.649086705511486, 0.362667737472328 ] } },
+{ "type": "Feature", "properties": { "id": 6, "type": "Border post", "eng_name": "Malaba", "longitude": 34.257533050699998, "latitude": 0.63899136038899995 }, "geometry": { "type": "Point", "coordinates": [ 34.257533050736647, 0.638991360388616 ] } },
+{ "type": "Feature", "properties": { "id": 7, "type": "Permanent", "eng_name": "Busitema", "longitude": 33.960478572600003, "latitude": 0.52350794475899998 }, "geometry": { "type": "Point", "coordinates": [ 33.960478572553811, 0.523507944759334 ] } },
+{ "type": "Feature", "properties": { "id": 8, "type": "Permanent", "eng_name": "Ibanda", "longitude": 30.502113297800001, "latitude": -0.12654167967400001 }, "geometry": { "type": "Point", "coordinates": [ 30.50211329784684, -0.126541679673863 ] } },
+{ "type": "Feature", "properties": { "id": 9, "type": "Proposed", "eng_name": "Kasese", "longitude": 29.998765744899998, "latitude": 0.0037000945363399999 }, "geometry": { "type": "Point", "coordinates": [ 29.998765744945459, 0.003700094536338 ] } },
+{ "type": "Feature", "properties": { "id": 10, "type": "Proposed", "eng_name": "Rwentobo", "longitude": 30.179090002399999, "latitude": -1.1053100163 }, "geometry": { "type": "Point", "coordinates": [ 30.1790900023897, -1.105310016304689 ] } },
+{ "type": "Feature", "properties": { "id": 11, "type": "Proposed", "eng_name": "Mbale-Muyembe", "longitude": 34.292073323899999, "latitude": 1.32757330953 }, "geometry": { "type": "Point", "coordinates": [ 34.292073323919951, 1.327573309526038 ] } },
+{ "type": "Feature", "properties": { "id": 12, "type": "Proposed", "eng_name": "Kyenjojo", "longitude": 30.6438383309, "latitude": 0.61323587315299999 }, "geometry": { "type": "Point", "coordinates": [ 30.643838330891551, 0.613235873152739 ] } },
+{ "type": "Feature", "properties": { "id": 13, "type": "Proposed", "eng_name": "Hoima", "longitude": 31.362666914999998, "latitude": 1.42261250251 }, "geometry": { "type": "Point", "coordinates": [ 31.362666914991465, 1.422612502508795 ] } },
+{ "type": "Feature", "properties": { "id": 14, "type": "Proposed", "eng_name": "Kigumba", "longitude": 32.016103746200002, "latitude": 1.8177794975299999 }, "geometry": { "type": "Point", "coordinates": [ 32.016103746245228, 1.81777949753278 ] } },
+{ "type": "Feature", "properties": { "id": 15, "type": "Permanent", "eng_name": "Mubende", "longitude": 31.391047671399999, "latitude": 0.55526184642400001 }, "geometry": { "type": "Point", "coordinates": [ 31.391047671427142, 0.555261846424483 ] } },
+{ "type": "Feature", "properties": { "id": 16, "type": "Permanent", "eng_name": "Lukaya", "longitude": 31.787980004400001, "latitude": -0.28350000839299999 }, "geometry": { "type": "Point", "coordinates": [ 31.78798000439993, -0.283500008392777 ] } },
+{ "type": "Feature", "properties": { "id": 17, "type": "Border post", "eng_name": "Mutukula", "longitude": 31.4194733645, "latitude": -0.99560749301999996 }, "geometry": { "type": "Point", "coordinates": [ 31.419473364485849, -0.995607493019928 ] } },
+{ "type": "Feature", "properties": { "id": 18, "type": "Permanent", "eng_name": "Mbarara", "longitude": 30.656777659300001, "latitude": -0.61606107813199995 }, "geometry": { "type": "Point", "coordinates": [ 30.656777659307885, -0.616061078131855 ] } },
+{ "type": "Feature", "properties": { "id": 19, "type": "Permanent", "eng_name": "Magamaga", "longitude": 33.361822657799998, "latitude": 0.52191727981400005 }, "geometry": { "type": "Point", "coordinates": [ 33.361822657802023, 0.521917279814479 ] } },
+{ "type": "Feature", "properties": { "id": 20, "type": "Border post", "eng_name": "Busia", "longitude": 33.989066459900002, "latitude": 0.50160331109800005 }, "geometry": { "type": "Point", "coordinates": [ 33.989066459943061, 0.501603311097709 ] } },
+{ "type": "Feature", "properties": { "id": 21, "type": "Permanent", "eng_name": "Mbale", "longitude": 34.176217747700001, "latitude": 1.0688560062700001 }, "geometry": { "type": "Point", "coordinates": [ 34.176217747659329, 1.068856006271738 ] } }
+]
+}
