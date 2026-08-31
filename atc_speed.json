@@ -1,0 +1,77 @@
+[
+  {
+    "id": "STA-C19402",
+    "avg_speed": 52,
+    "p85_speed": 68
+  },
+  {
+    "id": "STA-B10102",
+    "avg_speed": 63,
+    "p85_speed": 80
+  },
+  {
+    "id": "STA-B10202",
+    "avg_speed": 68,
+    "p85_speed": 84
+  },
+  {
+    "id": "STA-A00107",
+    "avg_speed": 44,
+    "p85_speed": 60
+  },
+  {
+    "id": "STA-A00211",
+    "avg_speed": 71,
+    "p85_speed": 88
+  },
+  {
+    "id": "STA-C22702",
+    "avg_speed": 74,
+    "p85_speed": 92
+  },
+  {
+    "id": "STA-B15203",
+    "avg_speed": 68,
+    "p85_speed": 85
+  },
+  {
+    "id": "STA-A00522",
+    "avg_speed": 65,
+    "p85_speed": 83
+  },
+  {
+    "id": "STA-B15005",
+    "avg_speed": 58,
+    "p85_speed": 75
+  },
+  {
+    "id": "STA-A01204",
+    "avg_speed": 66,
+    "p85_speed": 82
+  },
+  {
+    "id": "STA-B30502",
+    "avg_speed": 70,
+    "p85_speed": 88
+  },
+  {
+    "id": "STA-C92001",
+    "avg_speed": 72,
+    "p85_speed": 90
+  },
+  {
+    "id": "STA-B25202",
+    "avg_speed": 74,
+    "p85_speed": 93
+  },
+  {
+    "id": "STA-C68601",
+    "avg_speed": 71,
+    "p85_speed": 89
+  },
+  {
+    "id": "STA-A00806",
+    "avg_speed": 68,
+    "p85_speed": 87
+  }
+]
