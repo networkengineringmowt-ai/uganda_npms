@@ -1,0 +1,6536 @@
+{
+  "generated": "2026-05-20T16:05:59.755402+00:00",
+  "methodology": "ESAL factors: SATCC/TRH4 standard axle 80 kN. Overloaded ESAL = legal_ESAL × (1 + overload_pct)^4. Uganda typical overloading: HGV +25%, Bus +10% (AFCAP field surveys). Risk index = min(100, hgv_daily/2000 × 100) × surface/class multipliers. Multipliers: unpaved ×1.3, Class C ×1.2.",
+  "legal_limits": {
+    "single_axle_t": 10,
+    "tandem_axle_t": 16,
+    "tridem_axle_t": 24,
+    "gross_vehicle_t": 48
+  },
+  "esal_factors": {
+    "motorcycle": {
+      "legal": 0.0,
+      "overloaded": 0.0
+    },
+    "car": {
+      "legal": 0.0002,
+      "overloaded": 0.0
+    },
+    "lgv": {
+      "legal": 0.01,
+      "overloaded": 0.01
+    },
+    "hgv": {
+      "legal": 2.4,
+      "overloaded": 5.859
+    },
+    "bus": {
+      "legal": 1.6,
+      "overloaded": 2.343
+    }
+  },
+  "typical_overload_pct": {
+    "hgv": 0.25,
+    "bus": 0.1
+  },
+  "network_kpis": {
+    "total_links": 1020,
+    "total_daily_esals": 1371318,
+    "annual_esal_millions": 500.5,
+    "avg_hgv_pct": 13.2,
+    "critical_links": 59,
+    "high_risk_links": 446,
+    "mean_esals_per_link": 1344.4
+  },
+  "esal_breakdown_by_class": {
+    "HGV Trucks": 799540,
+    "Buses": 568287,
+    "LGV": 3346,
+    "Cars": 141,
+    "Motorcycles": 0
+  },
+  "risk_distribution": {
+    "Critical": 59,
+    "High": 446,
+    "Medium": 269,
+    "Low": 246
+  },
+  "overloading_by_region": [
+    {
+      "region": "Central",
+      "year": 2025,
+      "link_count": 324,
+      "total_hgv_daily": 47906.0,
+      "total_esals_daily": 481394.0,
+      "avg_hgv_pct": 13.4,
+      "critical_links": 18,
+      "high_risk_links": 95,
+      "overload_risk_score": 48.4
+    },
+    {
+      "region": "Northern",
+      "year": 2025,
+      "link_count": 162,
+      "total_hgv_daily": 25170.0,
+      "total_esals_daily": 252952.0,
+      "avg_hgv_pct": 13.4,
+      "critical_links": 16,
+      "high_risk_links": 110,
+      "overload_risk_score": 58.8
+    },
+    {
+      "region": "Eastern",
+      "year": 2025,
+      "link_count": 157,
+      "total_hgv_daily": 24133.0,
+      "total_esals_daily": 242516.0,
+      "avg_hgv_pct": 13.4,
+      "critical_links": 18,
+      "high_risk_links": 103,
+      "overload_risk_score": 57.1
+    },
+    {
+      "region": "Western",
+      "year": 2025,
+      "link_count": 111,
+      "total_hgv_daily": 14704.0,
+      "total_esals_daily": 147775.0,
+      "avg_hgv_pct": 13.1,
+      "critical_links": 5,
+      "high_risk_links": 65,
+      "overload_risk_score": 49.5
+    },
+    {
+      "region": "North Eastern",
+      "year": 2025,
+      "link_count": 93,
+      "total_hgv_daily": 12323.0,
+      "total_esals_daily": 123851.0,
+      "avg_hgv_pct": 12.7,
+      "critical_links": 2,
+      "high_risk_links": 73,
+      "overload_risk_score": 53.7
+    },
+    {
+      "region": "Southern",
+      "year": 2025,
+      "link_count": 173,
+      "total_hgv_daily": 12220.0,
+      "total_esals_daily": 122830.0,
+      "avg_hgv_pct": 12.8,
+      "critical_links": 0,
+      "high_risk_links": 0,
+      "overload_risk_score": 27.3
+    }
+  ],
+  "top_overloaded_links": [
+    {
+      "link_id": "A001_Link01",
+      "road_name": "Kampala - Mukono",
+      "road_no": "A001",
+      "region": "Central",
+      "road_class": "A",
+      "surface_type": "paved",
+      "length_km": 17.74,
+      "aadt": 30909,
+      "hgv_pct": 22.0,
+      "hgv_count_daily": 2448.0,
+      "bus_count_daily": 4352.0,
+      "estimated_daily_esals": 24576.5,
+      "overload_risk_index": 100.0,
+      "risk_category": "Critical",
+      "pavement_damage_factor": 18.28
+    },
+    {
+      "link_id": "A001N2_Link01",
+      "road_name": "Jinja - Kakira Junction(Dual section)",
+      "road_no": "A001N2",
+      "region": "Eastern",
+      "road_class": "A",
+      "surface_type": "paved",
+      "length_km": 11.85,
+      "aadt": 12283,
+      "hgv_pct": 22.0,
+      "hgv_count_daily": 972.8,
+      "bus_count_daily": 1729.4,
+      "estimated_daily_esals": 9766.5,
+      "overload_risk_index": 100.0,
+      "risk_category": "Critical",
+      "pavement_damage_factor": 7.264
+    },
+    {
+      "link_id": "A006_Link04",
+      "road_name": "Wobulenzi - Kasana - Luweero",
+      "road_no": "A006",
+      "region": "Central",
+      "road_class": "A",
+      "surface_type": "paved",
+      "length_km": 15.64,
+      "aadt": 9732,
+      "hgv_pct": 22.0,
+      "hgv_count_daily": 770.8,
+      "bus_count_daily": 1370.3,
+      "estimated_daily_esals": 7738.2,
+      "overload_risk_index": 100.0,
+      "risk_category": "Critical",
+      "pavement_damage_factor": 5.756
+    },
+    {
+      "link_id": "A001_Link06",
+      "road_name": "Kakira junction - Iganga",
+      "road_no": "A001",
+      "region": "Eastern",
+      "road_class": "A",
+      "surface_type": "paved",
+      "length_km": 26.87,
+      "aadt": 7358,
+      "hgv_pct": 22.0,
+      "hgv_count_daily": 582.8,
+      "bus_count_daily": 1036.0,
+      "estimated_daily_esals": 5850.5,
+      "overload_risk_index": 100.0,
+      "risk_category": "Critical",
+      "pavement_damage_factor": 4.352
+    },
+    {
+      "link_id": "A001_Link11",
+      "road_name": "Tororo junction - Malaba(Uganda/Kenya border)",
+      "road_no": "A001",
+      "region": "Eastern",
+      "road_class": "A",
+      "surface_type": "paved",
+      "length_km": 11.65,
+      "aadt": 3579,
+      "hgv_pct": 22.0,
+      "hgv_count_daily": 283.5,
+      "bus_count_daily": 503.9,
+      "estimated_daily_esals": 2845.8,
+      "overload_risk_index": 78.7,
+      "risk_category": "Critical",
+      "pavement_damage_factor": 2.117
+    },
+    {
+      "link_id": "A007_Link03",
+      "road_name": "Nabumali  - Mbale",
+      "road_no": "A007",
+      "region": "Eastern",
+      "road_class": "A",
+      "surface_type": "paved",
+      "length_km": 10.23,
+      "aadt": 3578,
+      "hgv_pct": 22.0,
+      "hgv_count_daily": 283.4,
+      "bus_count_daily": 503.8,
+      "estimated_daily_esals": 2845.0,
+      "overload_risk_index": 78.7,
+      "risk_category": "Critical",
+      "pavement_damage_factor": 2.116
+    },
+    {
+      "link_id": "A007N1_Link01",
+      "road_name": "Mbale(Dual Section)",
+      "road_no": "A007N1",
+      "region": "Eastern",
+      "road_class": "A",
+      "surface_type": "paved",
+      "length_km": 0.75,
+      "aadt": 3576,
+      "hgv_pct": 22.0,
+      "hgv_count_daily": 283.2,
+      "bus_count_daily": 503.5,
+      "estimated_daily_esals": 2843.4,
+      "overload_risk_index": 78.7,
+      "risk_category": "Critical",
+      "pavement_damage_factor": 2.115
+    },
+    {
+      "link_id": "A007_Link01",
+      "road_name": "Malaba junction - Tororo",
+      "road_no": "A007",
+      "region": "Eastern",
+      "road_class": "A",
+      "surface_type": "paved",
+      "length_km": 3.75,
+      "aadt": 3555,
+      "hgv_pct": 22.0,
+      "hgv_count_daily": 281.6,
+      "bus_count_daily": 500.5,
+      "estimated_daily_esals": 2826.7,
+      "overload_risk_index": 78.2,
+      "risk_category": "Critical",
+      "pavement_damage_factor": 2.103
+    },
+    {
+      "link_id": "A012_Link02",
+      "road_name": "Mpologoma bridge - Tirinyi",
+      "road_no": "A012",
+      "region": "Eastern",
+      "road_class": "A",
+      "surface_type": "paved",
+      "length_km": 4.75,
+      "aadt": 3541,
+      "hgv_pct": 22.0,
+      "hgv_count_daily": 280.4,
+      "bus_count_daily": 498.6,
+      "estimated_daily_esals": 2815.5,
+      "overload_risk_index": 77.9,
+      "risk_category": "Critical",
+      "pavement_damage_factor": 2.094
+    },
+    {
+      "link_id": "A002_Link01",
+      "road_name": "Kibuye - Natete - Busega",
+      "road_no": "A002",
+      "region": "Central",
+      "road_class": "A",
+      "surface_type": "paved",
+      "length_km": 6.52,
+      "aadt": 3530,
+      "hgv_pct": 22.0,
+      "hgv_count_daily": 279.6,
+      "bus_count_daily": 497.0,
+      "estimated_daily_esals": 2806.8,
+      "overload_risk_index": 77.7,
+      "risk_category": "Critical",
+      "pavement_damage_factor": 2.088
+    },
+    {
+      "link_id": "A006_Link02",
+      "road_name": "Kawempe - Matuga",
+      "road_no": "A006",
+      "region": "Central",
+      "road_class": "A",
+      "surface_type": "paved",
+      "length_km": 8.59,
+      "aadt": 3528,
+      "hgv_pct": 22.0,
+      "hgv_count_daily": 279.4,
+      "bus_count_daily": 496.7,
+      "estimated_daily_esals": 2805.2,
+      "overload_risk_index": 77.6,
+      "risk_category": "Critical",
+      "pavement_damage_factor": 2.087
+    },
+    {
+      "link_id": "A006_Link01",
+      "road_name": "Kampala - Kawempe",
+      "road_no": "A006",
+      "region": "Central",
+      "road_class": "A",
+      "surface_type": "paved",
+      "length_km": 7.67,
+      "aadt": 3510,
+      "hgv_pct": 22.0,
+      "hgv_count_daily": 278.0,
+      "bus_count_daily": 494.2,
+      "estimated_daily_esals": 2790.9,
+      "overload_risk_index": 77.2,
+      "risk_category": "Critical",
+      "pavement_damage_factor": 2.076
+    },
+    {
+      "link_id": "A006N1_Link01",
+      "road_name": "Bwaise (Dual)",
+      "road_no": "A006N1",
+      "region": "Central",
+      "road_class": "A",
+      "surface_type": "paved",
+      "length_km": 0.72,
+      "aadt": 3510,
+      "hgv_pct": 22.0,
+      "hgv_count_daily": 278.0,
+      "bus_count_daily": 494.2,
+      "estimated_daily_esals": 2790.9,
+      "overload_risk_index": 77.2,
+      "risk_category": "Critical",
+      "pavement_damage_factor": 2.076
+    },
+    {
+      "link_id": "A009_Link01",
+      "road_name": "Kampala - Nansana",
+      "road_no": "A009",
+      "region": "Central",
+      "road_class": "A",
+      "surface_type": "paved",
+      "length_km": 5.3,
+      "aadt": 3510,
+      "hgv_pct": 22.0,
+      "hgv_count_daily": 278.0,
+      "bus_count_daily": 494.2,
+      "estimated_daily_esals": 2790.9,
+      "overload_risk_index": 77.2,
+      "risk_category": "Critical",
+      "pavement_damage_factor": 2.076
+    },
+    {
+      "link_id": "A009N1_Link01",
+      "road_name": "Kasubi (Dual)",
+      "road_no": "A009N1",
+      "region": "Central",
+      "road_class": "A",
+      "surface_type": "paved",
+      "length_km": 1.37,
+      "aadt": 3510,
+      "hgv_pct": 22.0,
+      "hgv_count_daily": 278.0,
+      "bus_count_daily": 494.2,
+      "estimated_daily_esals": 2790.9,
+      "overload_risk_index": 77.2,
+      "risk_category": "Critical",
+      "pavement_damage_factor": 2.076
+    },
+    {
+      "link_id": "A009N2_Link01",
+      "road_name": "Namungoona (Dual)",
+      "road_no": "A009N2",
+      "region": "Central",
+      "road_class": "A",
+      "surface_type": "paved",
+      "length_km": 0.52,
+      "aadt": 3510,
+      "hgv_pct": 22.0,
+      "hgv_count_daily": 278.0,
+      "bus_count_daily": 494.2,
+      "estimated_daily_esals": 2790.9,
+      "overload_risk_index": 77.2,
+      "risk_category": "Critical",
+      "pavement_damage_factor": 2.076
+    },
+    {
+      "link_id": "A005_Link08",
+      "road_name": "Lubaale - Kyegegwa",
+      "road_no": "A005",
+      "region": "Western",
+      "road_class": "A",
+      "surface_type": "paved",
+      "length_km": 12.0,
+      "aadt": 3510,
+      "hgv_pct": 22.0,
+      "hgv_count_daily": 278.0,
+      "bus_count_daily": 494.2,
+      "estimated_daily_esals": 2790.9,
+      "overload_risk_index": 77.2,
+      "risk_category": "Critical",
+      "pavement_damage_factor": 2.076
+    },
+    {
+      "link_id": "A005_Link03",
+      "road_name": "Mityana - Naama - Myanzi",
+      "road_no": "A005",
+      "region": "Central",
+      "road_class": "A",
+      "surface_type": "paved",
+      "length_km": 15.84,
+      "aadt": 3460,
+      "hgv_pct": 22.0,
+      "hgv_count_daily": 274.0,
+      "bus_count_daily": 487.2,
+      "estimated_daily_esals": 2751.1,
+      "overload_risk_index": 76.1,
+      "risk_category": "Critical",
+      "pavement_damage_factor": 2.046
+    },
+    {
+      "link_id": "A005_Link07",
+      "road_name": "Lusalira - Nabingoola - Lubaale",
+      "road_no": "A005",
+      "region": "Central",
+      "road_class": "A",
+      "surface_type": "paved",
+      "length_km": 16.3,
+      "aadt": 3455,
+      "hgv_pct": 22.0,
+      "hgv_count_daily": 273.6,
+      "bus_count_daily": 486.5,
+      "estimated_daily_esals": 2747.2,
+      "overload_risk_index": 76.0,
+      "risk_category": "Critical",
+      "pavement_damage_factor": 2.043
+    },
+    {
+      "link_id": "A012_Link01",
+      "road_name": "Nakalama - Namutumba - Mpologoma bridge",
+      "road_no": "A012",
+      "region": "Eastern",
+      "road_class": "A",
+      "surface_type": "paved",
+      "length_km": 46.33,
+      "aadt": 3440,
+      "hgv_pct": 22.0,
+      "hgv_count_daily": 272.4,
+      "bus_count_daily": 484.4,
+      "estimated_daily_esals": 2735.2,
+      "overload_risk_index": 75.7,
+      "risk_category": "Critical",
+      "pavement_damage_factor": 2.034
+    }
+  ],
+  "link_risk_map": {
+    "M3N2_Link01": {
+      "rc": "Medium",
+      "idx": 30.6,
+      "hpct": 12.0,
+      "esal": 1107.8
+    },
+    "A005_Link01": {
+      "rc": "High",
+      "idx": 54.9,
+      "hpct": 22.0,
+      "esal": 1983.8
+    },
+    "C261_Link01": {
+      "rc": "High",
+      "idx": 65.2,
+      "hpct": 12.0,
+      "esal": 1512.5
+    },
+    "C151_Link01": {
+      "rc": "Medium",
+      "idx": 47.1,
+      "hpct": 12.0,
+      "esal": 1092.2
+    },
+    "C210_Link01": {
+      "rc": "Medium",
+      "idx": 38.8,
+      "hpct": 12.0,
+      "esal": 1170.3
+    },
+    "C306_Link01": {
+      "rc": "Medium",
+      "idx": 46.9,
+      "hpct": 12.0,
+      "esal": 1088.7
+    },
+    "C227_Link01": {
+      "rc": "Low",
+      "idx": 24.7,
+      "hpct": 12.0,
+      "esal": 571.9
+    },
+    "B101_Link02": {
+      "rc": "High",
+      "idx": 54.3,
+      "hpct": 16.0,
+      "esal": 1965.0
+    },
+    "C332_Link01": {
+      "rc": "Medium",
+      "idx": 48.7,
+      "hpct": 12.0,
+      "esal": 1129.5
+    },
+    "C193_Link01": {
+      "rc": "High",
+      "idx": 64.9,
+      "hpct": 12.0,
+      "esal": 1505.6
+    },
+    "C281_Link01": {
+      "rc": "High",
+      "idx": 64.2,
+      "hpct": 12.0,
+      "esal": 1490.0
+    },
+    "C197_Link01": {
+      "rc": "High",
+      "idx": 65.0,
+      "hpct": 12.0,
+      "esal": 1507.3
+    },
+    "C302_Link02": {
+      "rc": "Medium",
+      "idx": 48.5,
+      "hpct": 12.0,
+      "esal": 1125.6
+    },
+    "C166_Link01": {
+      "rc": "High",
+      "idx": 52.5,
+      "hpct": 12.0,
+      "esal": 1582.0
+    },
+    "C223_Link01": {
+      "rc": "Medium",
+      "idx": 45.8,
+      "hpct": 12.0,
+      "esal": 1062.6
+    },
+    "C187_Link01": {
+      "rc": "High",
+      "idx": 64.4,
+      "hpct": 12.0,
+      "esal": 1493.0
+    },
+    "C003_Link01": {
+      "rc": "High",
+      "idx": 62.6,
+      "hpct": 12.0,
+      "esal": 1453.0
+    },
+    "C160_Link01": {
+      "rc": "Medium",
+      "idx": 45.9,
+      "hpct": 12.0,
+      "esal": 1063.9
+    },
+    "C215_Link02": {
+      "rc": "Medium",
+      "idx": 46.9,
+      "hpct": 12.0,
+      "esal": 1089.1
+    },
+    "C162_Link04": {
+      "rc": "High",
+      "idx": 61.4,
+      "hpct": 12.0,
+      "esal": 1423.5
+    },
+    "C219_Link01": {
+      "rc": "Medium",
+      "idx": 46.3,
+      "hpct": 12.0,
+      "esal": 1073.1
+    },
+    "A002_Link05": {
+      "rc": "High",
+      "idx": 53.5,
+      "hpct": 22.0,
+      "esal": 1933.7
+    },
+    "C318_Link01": {
+      "rc": "Low",
+      "idx": 29.1,
+      "hpct": 12.0,
+      "esal": 674.0
+    },
+    "C182_Link01": {
+      "rc": "High",
+      "idx": 65.3,
+      "hpct": 12.0,
+      "esal": 1515.6
+    },
+    "C034_Link01": {
+      "rc": "High",
+      "idx": 57.9,
+      "hpct": 12.0,
+      "esal": 1342.3
+    },
+    "C273_Link01": {
+      "rc": "High",
+      "idx": 64.9,
+      "hpct": 12.0,
+      "esal": 1504.7
+    },
+    "A005_Link04": {
+      "rc": "Critical",
+      "idx": 72.4,
+      "hpct": 22.0,
+      "esal": 2615.2
+    },
+    "C263_Link01": {
+      "rc": "High",
+      "idx": 64.7,
+      "hpct": 12.0,
+      "esal": 1500.8
+    },
+    "C154_Link01": {
+      "rc": "Medium",
+      "idx": 36.7,
+      "hpct": 12.0,
+      "esal": 1105.6
+    },
+    "C212_Link01": {
+      "rc": "Medium",
+      "idx": 39.2,
+      "hpct": 12.0,
+      "esal": 1180.8
+    },
+    "A002_Link06": {
+      "rc": "Medium",
+      "idx": 31.8,
+      "hpct": 22.0,
+      "esal": 1148.2
+    },
+    "C309_Link01": {
+      "rc": "Medium",
+      "idx": 31.2,
+      "hpct": 12.0,
+      "esal": 941.9
+    },
+    "C313_Link01": {
+      "rc": "Medium",
+      "idx": 47.4,
+      "hpct": 12.0,
+      "esal": 1100.0
+    },
+    "C029_Link02": {
+      "rc": "Medium",
+      "idx": 31.5,
+      "hpct": 12.0,
+      "esal": 731.3
+    },
+    "A004_Link01": {
+      "rc": "High",
+      "idx": 53.2,
+      "hpct": 22.0,
+      "esal": 1921.8
+    },
+    "C234_Link01": {
+      "rc": "Medium",
+      "idx": 46.6,
+      "hpct": 12.0,
+      "esal": 1080.0
+    },
+    "C046_Link01": {
+      "rc": "High",
+      "idx": 64.1,
+      "hpct": 12.0,
+      "esal": 1486.9
+    },
+    "C200_Link01": {
+      "rc": "Medium",
+      "idx": 46.9,
+      "hpct": 12.0,
+      "esal": 1088.3
+    },
+    "C304_Link01": {
+      "rc": "Medium",
+      "idx": 46.6,
+      "hpct": 12.0,
+      "esal": 1080.4
+    },
+    "C166_Link04": {
+      "rc": "Low",
+      "idx": 27.6,
+      "hpct": 12.0,
+      "esal": 639.2
+    },
+    "C226_Link01": {
+      "rc": "Medium",
+      "idx": 45.4,
+      "hpct": 12.0,
+      "esal": 1053.5
+    },
+    "B100_Link02": {
+      "rc": "High",
+      "idx": 54.8,
+      "hpct": 16.0,
+      "esal": 1980.6
+    },
+    "C025_Link02": {
+      "rc": "Low",
+      "idx": 26.7,
+      "hpct": 12.0,
+      "esal": 805.1
+    },
+    "C172_Link01": {
+      "rc": "Medium",
+      "idx": 47.0,
+      "hpct": 12.0,
+      "esal": 1089.6
+    },
+    "C229_Link01": {
+      "rc": "Medium",
+      "idx": 45.8,
+      "hpct": 12.0,
+      "esal": 1063.1
+    },
+    "B102_Link01": {
+      "rc": "High",
+      "idx": 62.2,
+      "hpct": 16.0,
+      "esal": 2248.5
+    },
+    "C040_Link01": {
+      "rc": "Medium",
+      "idx": 32.4,
+      "hpct": 12.0,
+      "esal": 751.3
+    },
+    "C195_Link01": {
+      "rc": "Medium",
+      "idx": 47.3,
+      "hpct": 12.0,
+      "esal": 1096.9
+    },
+    "C301_Link01": {
+      "rc": "Medium",
+      "idx": 47.2,
+      "hpct": 12.0,
+      "esal": 1095.6
+    },
+    "C164_Link01": {
+      "rc": "Medium",
+      "idx": 46.9,
+      "hpct": 12.0,
+      "esal": 1087.8
+    },
+    "C221_Link02": {
+      "rc": "Medium",
+      "idx": 46.3,
+      "hpct": 12.0,
+      "esal": 1074.8
+    },
+    "A009_Link02": {
+      "rc": "Critical",
+      "idx": 73.7,
+      "hpct": 22.0,
+      "esal": 2662.1
+    },
+    "C326_Link01": {
+      "rc": "Medium",
+      "idx": 39.5,
+      "hpct": 12.0,
+      "esal": 915.4
+    },
+    "C185_Link01": {
+      "rc": "High",
+      "idx": 65.6,
+      "hpct": 12.0,
+      "esal": 1521.7
+    },
+    "C037_Link01": {
+      "rc": "High",
+      "idx": 64.6,
+      "hpct": 12.0,
+      "esal": 1497.8
+    },
+    "C329_Link01": {
+      "rc": "High",
+      "idx": 61.9,
+      "hpct": 12.0,
+      "esal": 1435.2
+    },
+    "C190_Link01": {
+      "rc": "Medium",
+      "idx": 45.8,
+      "hpct": 12.0,
+      "esal": 1062.6
+    },
+    "A006_Link05": {
+      "rc": "High",
+      "idx": 56.5,
+      "hpct": 22.0,
+      "esal": 2042.7
+    },
+    "C279_Link01": {
+      "rc": "Low",
+      "idx": 28.6,
+      "hpct": 12.0,
+      "esal": 662.7
+    },
+    "C271_Link02": {
+      "rc": "High",
+      "idx": 64.2,
+      "hpct": 12.0,
+      "esal": 1488.7
+    },
+    "C162_Link02": {
+      "rc": "Medium",
+      "idx": 39.4,
+      "hpct": 12.0,
+      "esal": 1186.8
+    },
+    "C217_Link01": {
+      "rc": "Medium",
+      "idx": 45.2,
+      "hpct": 12.0,
+      "esal": 1048.3
+    },
+    "C317_Link01": {
+      "rc": "Medium",
+      "idx": 46.9,
+      "hpct": 12.0,
+      "esal": 1088.3
+    },
+    "C180_Link01": {
+      "rc": "Medium",
+      "idx": 45.7,
+      "hpct": 12.0,
+      "esal": 1060.5
+    },
+    "A005_Link02": {
+      "rc": "Medium",
+      "idx": 40.8,
+      "hpct": 22.0,
+      "esal": 1473.4
+    },
+    "C261_Link02": {
+      "rc": "High",
+      "idx": 65.1,
+      "hpct": 12.0,
+      "esal": 1511.2
+    },
+    "A005_Link07": {
+      "rc": "Critical",
+      "idx": 76.0,
+      "hpct": 22.0,
+      "esal": 2747.2
+    },
+    "C265_Link02": {
+      "rc": "High",
+      "idx": 63.4,
+      "hpct": 12.0,
+      "esal": 1471.7
+    },
+    "C158_Link01": {
+      "rc": "Medium",
+      "idx": 38.8,
+      "hpct": 12.0,
+      "esal": 1170.3
+    },
+    "C214_Link02": {
+      "rc": "Low",
+      "idx": 23.0,
+      "hpct": 12.0,
+      "esal": 694.4
+    },
+    "C312_Link01": {
+      "rc": "Medium",
+      "idx": 47.2,
+      "hpct": 12.0,
+      "esal": 1094.3
+    },
+    "C175_Link01": {
+      "rc": "Medium",
+      "idx": 46.7,
+      "hpct": 12.0,
+      "esal": 1082.2
+    },
+    "C028_Link01": {
+      "rc": "Low",
+      "idx": 26.6,
+      "hpct": 12.0,
+      "esal": 801.2
+    },
+    "A003_Link01": {
+      "rc": "High",
+      "idx": 57.2,
+      "hpct": 22.0,
+      "esal": 2066.5
+    },
+    "C232_Link01": {
+      "rc": "Low",
+      "idx": 23.6,
+      "hpct": 12.0,
+      "esal": 710.9
+    },
+    "C044_Link01": {
+      "rc": "Medium",
+      "idx": 32.0,
+      "hpct": 12.0,
+      "esal": 743.5
+    },
+    "C198_Link01": {
+      "rc": "Medium",
+      "idx": 39.0,
+      "hpct": 12.0,
+      "esal": 1176.9
+    },
+    "C302_Link03": {
+      "rc": "Medium",
+      "idx": 47.7,
+      "hpct": 12.0,
+      "esal": 1106.5
+    },
+    "C152_Link01": {
+      "rc": "High",
+      "idx": 53.5,
+      "hpct": 12.0,
+      "esal": 1613.7
+    },
+    "C211_Link01": {
+      "rc": "Medium",
+      "idx": 37.8,
+      "hpct": 12.0,
+      "esal": 1139.1
+    },
+    "C307_Link01": {
+      "rc": "Medium",
+      "idx": 47.8,
+      "hpct": 12.0,
+      "esal": 1108.7
+    },
+    "C024_Link01": {
+      "rc": "High",
+      "idx": 51.9,
+      "hpct": 12.0,
+      "esal": 1563.8
+    },
+    "C170_Link01": {
+      "rc": "High",
+      "idx": 54.1,
+      "hpct": 12.0,
+      "esal": 1631.5
+    },
+    "C228_Link01": {
+      "rc": "Low",
+      "idx": 28.3,
+      "hpct": 12.0,
+      "esal": 657.5
+    },
+    "B101_Link03": {
+      "rc": "Low",
+      "idx": 27.6,
+      "hpct": 16.0,
+      "esal": 999.8
+    },
+    "C194_Link01": {
+      "rc": "High",
+      "idx": 65.3,
+      "hpct": 12.0,
+      "esal": 1515.1
+    },
+    "C006_Link01": {
+      "rc": "Medium",
+      "idx": 46.6,
+      "hpct": 12.0,
+      "esal": 1080.4
+    },
+    "C272_Link01": {
+      "rc": "High",
+      "idx": 64.3,
+      "hpct": 12.0,
+      "esal": 1492.6
+    },
+    "C011_Link01": {
+      "rc": "Medium",
+      "idx": 46.5,
+      "hpct": 12.0,
+      "esal": 1077.8
+    },
+    "C166_Link02": {
+      "rc": "Medium",
+      "idx": 37.6,
+      "hpct": 12.0,
+      "esal": 1133.4
+    },
+    "C224_Link01": {
+      "rc": "Low",
+      "idx": 24.5,
+      "hpct": 12.0,
+      "esal": 568.5
+    },
+    "C188_Link01": {
+      "rc": "Medium",
+      "idx": 47.1,
+      "hpct": 12.0,
+      "esal": 1092.6
+    },
+    "A006_Link03": {
+      "rc": "High",
+      "idx": 58.3,
+      "hpct": 22.0,
+      "esal": 2108.7
+    },
+    "B203_Link02": {
+      "rc": "High",
+      "idx": 54.6,
+      "hpct": 16.0,
+      "esal": 1974.2
+    },
+    "C270_Link01": {
+      "rc": "High",
+      "idx": 64.7,
+      "hpct": 12.0,
+      "esal": 1501.7
+    },
+    "C161_Link01": {
+      "rc": "Medium",
+      "idx": 38.8,
+      "hpct": 12.0,
+      "esal": 1170.3
+    },
+    "C215_Link03": {
+      "rc": "Medium",
+      "idx": 46.7,
+      "hpct": 12.0,
+      "esal": 1083.1
+    },
+    "A002_Link03": {
+      "rc": "High",
+      "idx": 54.6,
+      "hpct": 22.0,
+      "esal": 1971.9
+    },
+    "C315_Link02": {
+      "rc": "Low",
+      "idx": 25.4,
+      "hpct": 12.0,
+      "esal": 589.7
+    },
+    "C178_Link01": {
+      "rc": "Medium",
+      "idx": 46.6,
+      "hpct": 12.0,
+      "esal": 1081.3
+    },
+    "C162_Link05": {
+      "rc": "High",
+      "idx": 61.7,
+      "hpct": 12.0,
+      "esal": 1430.9
+    },
+    "C220_Link01": {
+      "rc": "Medium",
+      "idx": 46.3,
+      "hpct": 12.0,
+      "esal": 1073.1
+    },
+    "A002_Link02": {
+      "rc": "High",
+      "idx": 55.4,
+      "hpct": 22.0,
+      "esal": 2002.9
+    },
+    "C320_Link01": {
+      "rc": "High",
+      "idx": 64.4,
+      "hpct": 12.0,
+      "esal": 1494.7
+    },
+    "C183_Link01": {
+      "rc": "High",
+      "idx": 64.4,
+      "hpct": 12.0,
+      "esal": 1494.3
+    },
+    "C035_Link01": {
+      "rc": "High",
+      "idx": 54.1,
+      "hpct": 12.0,
+      "esal": 1631.5
+    },
+    "C273_Link02": {
+      "rc": "High",
+      "idx": 64.8,
+      "hpct": 12.0,
+      "esal": 1503.9
+    },
+    "A005_Link05": {
+      "rc": "Critical",
+      "idx": 72.3,
+      "hpct": 22.0,
+      "esal": 2614.4
+    },
+    "C264_Link01": {
+      "rc": "High",
+      "idx": 64.5,
+      "hpct": 12.0,
+      "esal": 1496.5
+    },
+    "C154_Link02": {
+      "rc": "Medium",
+      "idx": 46.5,
+      "hpct": 12.0,
+      "esal": 1077.8
+    },
+    "C213_Link01": {
+      "rc": "Medium",
+      "idx": 46.7,
+      "hpct": 12.0,
+      "esal": 1082.6
+    },
+    "C026_Link01": {
+      "rc": "High",
+      "idx": 57.9,
+      "hpct": 12.0,
+      "esal": 1342.7
+    },
+    "C173_Link01": {
+      "rc": "Medium",
+      "idx": 46.7,
+      "hpct": 12.0,
+      "esal": 1082.2
+    },
+    "C030_Link01": {
+      "rc": "Medium",
+      "idx": 32.4,
+      "hpct": 12.0,
+      "esal": 751.3
+    },
+    "A004_Link02": {
+      "rc": "Medium",
+      "idx": 30.7,
+      "hpct": 22.0,
+      "esal": 1108.4
+    },
+    "C260_Link01": {
+      "rc": "High",
+      "idx": 63.9,
+      "hpct": 12.0,
+      "esal": 1482.1
+    },
+    "C150_Link01": {
+      "rc": "Medium",
+      "idx": 47.4,
+      "hpct": 12.0,
+      "esal": 1099.6
+    },
+    "C201_Link01": {
+      "rc": "Medium",
+      "idx": 47.1,
+      "hpct": 12.0,
+      "esal": 1092.2
+    },
+    "C305_Link01": {
+      "rc": "High",
+      "idx": 65.5,
+      "hpct": 12.0,
+      "esal": 1520.4
+    },
+    "C022_Link01": {
+      "rc": "High",
+      "idx": 54.1,
+      "hpct": 12.0,
+      "esal": 1631.5
+    },
+    "C167_Link01": {
+      "rc": "High",
+      "idx": 63.6,
+      "hpct": 12.0,
+      "esal": 1475.6
+    },
+    "C226_Link02": {
+      "rc": "Low",
+      "idx": 25.8,
+      "hpct": 12.0,
+      "esal": 597.5
+    },
+    "B101_Link01": {
+      "rc": "Medium",
+      "idx": 47.1,
+      "hpct": 16.0,
+      "esal": 1703.4
+    },
+    "C331_Link01": {
+      "rc": "Low",
+      "idx": 29.2,
+      "hpct": 12.0,
+      "esal": 676.6
+    },
+    "C191_Link01": {
+      "rc": "Medium",
+      "idx": 47.3,
+      "hpct": 12.0,
+      "esal": 1097.4
+    },
+    "A006_Link06": {
+      "rc": "Medium",
+      "idx": 33.6,
+      "hpct": 22.0,
+      "esal": 1215.7
+    },
+    "C230_Link01": {
+      "rc": "Medium",
+      "idx": 45.6,
+      "hpct": 12.0,
+      "esal": 1058.3
+    },
+    "B103_Link01": {
+      "rc": "Medium",
+      "idx": 42.1,
+      "hpct": 16.0,
+      "esal": 1522.9
+    },
+    "C042_Link01": {
+      "rc": "High",
+      "idx": 65.2,
+      "hpct": 12.0,
+      "esal": 1512.1
+    },
+    "C196_Link01": {
+      "rc": "Medium",
+      "idx": 47.0,
+      "hpct": 12.0,
+      "esal": 1089.6
+    },
+    "C302_Link01": {
+      "rc": "High",
+      "idx": 50.0,
+      "hpct": 12.0,
+      "esal": 1508.6
+    },
+    "C165_Link01": {
+      "rc": "Medium",
+      "idx": 32.2,
+      "hpct": 12.0,
+      "esal": 746.1
+    },
+    "C222_Link01": {
+      "rc": "Medium",
+      "idx": 46.0,
+      "hpct": 12.0,
+      "esal": 1067.0
+    },
+    "C326_Link02": {
+      "rc": "Low",
+      "idx": 26.4,
+      "hpct": 12.0,
+      "esal": 612.3
+    },
+    "C186_Link01": {
+      "rc": "High",
+      "idx": 65.6,
+      "hpct": 12.0,
+      "esal": 1521.7
+    },
+    "C038_Link01": {
+      "rc": "High",
+      "idx": 64.3,
+      "hpct": 12.0,
+      "esal": 1490.8
+    },
+    "C266_Link01": {
+      "rc": "High",
+      "idx": 64.2,
+      "hpct": 12.0,
+      "esal": 1489.1
+    },
+    "C280_Link01": {
+      "rc": "High",
+      "idx": 64.4,
+      "hpct": 12.0,
+      "esal": 1494.3
+    },
+    "C271_Link03": {
+      "rc": "High",
+      "idx": 64.5,
+      "hpct": 12.0,
+      "esal": 1496.0
+    },
+    "C162_Link03": {
+      "rc": "High",
+      "idx": 52.8,
+      "hpct": 12.0,
+      "esal": 1592.9
+    },
+    "C218_Link01": {
+      "rc": "Medium",
+      "idx": 45.5,
+      "hpct": 12.0,
+      "esal": 1056.1
+    },
+    "C317_Link02": {
+      "rc": "Medium",
+      "idx": 47.2,
+      "hpct": 12.0,
+      "esal": 1094.3
+    },
+    "C181_Link01": {
+      "rc": "High",
+      "idx": 64.5,
+      "hpct": 12.0,
+      "esal": 1496.0
+    },
+    "A005_Link03": {
+      "rc": "Critical",
+      "idx": 76.1,
+      "hpct": 22.0,
+      "esal": 2751.1
+    },
+    "C262_Link01": {
+      "rc": "High",
+      "idx": 62.1,
+      "hpct": 12.0,
+      "esal": 1441.3
+    },
+    "C153_Link01": {
+      "rc": "Medium",
+      "idx": 47.3,
+      "hpct": 12.0,
+      "esal": 1096.9
+    },
+    "C211_Link02": {
+      "rc": "Medium",
+      "idx": 39.2,
+      "hpct": 12.0,
+      "esal": 1180.8
+    },
+    "C159_Link01": {
+      "rc": "Medium",
+      "idx": 46.9,
+      "hpct": 12.0,
+      "esal": 1088.3
+    },
+    "C215_Link01": {
+      "rc": "Medium",
+      "idx": 46.9,
+      "hpct": 12.0,
+      "esal": 1087.8
+    },
+    "C312_Link02": {
+      "rc": "Medium",
+      "idx": 47.4,
+      "hpct": 12.0,
+      "esal": 1100.0
+    },
+    "C176_Link01": {
+      "rc": "Medium",
+      "idx": 46.7,
+      "hpct": 12.0,
+      "esal": 1082.2
+    },
+    "C029_Link01": {
+      "rc": "Medium",
+      "idx": 48.9,
+      "hpct": 12.0,
+      "esal": 1474.3
+    },
+    "A003N2_Link01": {
+      "rc": "High",
+      "idx": 56.1,
+      "hpct": 22.0,
+      "esal": 2026.8
+    },
+    "A006_Link02": {
+      "rc": "Critical",
+      "idx": 77.6,
+      "hpct": 22.0,
+      "esal": 2805.2
+    },
+    "C233_Link01": {
+      "rc": "Medium",
+      "idx": 47.0,
+      "hpct": 12.0,
+      "esal": 1089.6
+    },
+    "B103_Link04": {
+      "rc": "High",
+      "idx": 68.9,
+      "hpct": 16.0,
+      "esal": 1916.9
+    },
+    "C045_Link01": {
+      "rc": "High",
+      "idx": 60.6,
+      "hpct": 12.0,
+      "esal": 1405.3
+    },
+    "C199_Link01": {
+      "rc": "Medium",
+      "idx": 39.0,
+      "hpct": 12.0,
+      "esal": 1176.9
+    },
+    "C303_Link01": {
+      "rc": "Medium",
+      "idx": 47.7,
+      "hpct": 12.0,
+      "esal": 1106.5
+    },
+    "B203_Link01": {
+      "rc": "High",
+      "idx": 54.9,
+      "hpct": 16.0,
+      "esal": 1984.0
+    },
+    "C308_Link01": {
+      "rc": "Medium",
+      "idx": 31.5,
+      "hpct": 12.0,
+      "esal": 948.9
+    },
+    "C025_Link01": {
+      "rc": "Low",
+      "idx": 24.2,
+      "hpct": 12.0,
+      "esal": 730.9
+    },
+    "C171_Link01": {
+      "rc": "Medium",
+      "idx": 46.9,
+      "hpct": 12.0,
+      "esal": 1088.3
+    },
+    "C039_Link01": {
+      "rc": "High",
+      "idx": 57.9,
+      "hpct": 12.0,
+      "esal": 1342.7
+    },
+    "C194_Link02": {
+      "rc": "Critical",
+      "idx": 99.6,
+      "hpct": 12.0,
+      "esal": 2310.3
+    },
+    "C023_Link01": {
+      "rc": "Medium",
+      "idx": 48.5,
+      "hpct": 12.0,
+      "esal": 1463.9
+    },
+    "C300_Link01": {
+      "rc": "High",
+      "idx": 64.8,
+      "hpct": 12.0,
+      "esal": 1504.3
+    },
+    "C007_Link01": {
+      "rc": "High",
+      "idx": 66.7,
+      "hpct": 12.0,
+      "esal": 1546.8
+    },
+    "C163_Link01": {
+      "rc": "Medium",
+      "idx": 46.4,
+      "hpct": 12.0,
+      "esal": 1075.7
+    },
+    "C221_Link01": {
+      "rc": "Medium",
+      "idx": 46.0,
+      "hpct": 12.0,
+      "esal": 1066.1
+    },
+    "A001_Link03": {
+      "rc": "High",
+      "idx": 66.2,
+      "hpct": 22.0,
+      "esal": 2391.7
+    },
+    "C325_Link01": {
+      "rc": "Medium",
+      "idx": 48.5,
+      "hpct": 12.0,
+      "esal": 1124.7
+    },
+    "C166_Link03": {
+      "rc": "Medium",
+      "idx": 45.3,
+      "hpct": 12.0,
+      "esal": 1050.9
+    },
+    "C225_Link01": {
+      "rc": "Low",
+      "idx": 25.6,
+      "hpct": 12.0,
+      "esal": 594.1
+    },
+    "B100_Link01": {
+      "rc": "High",
+      "idx": 56.4,
+      "hpct": 16.0,
+      "esal": 2041.3
+    },
+    "C275_Link01": {
+      "rc": "High",
+      "idx": 66.0,
+      "hpct": 12.0,
+      "esal": 1529.9
+    },
+    "C189_Link01": {
+      "rc": "Medium",
+      "idx": 47.3,
+      "hpct": 12.0,
+      "esal": 1097.8
+    },
+    "A006_Link04": {
+      "rc": "Critical",
+      "idx": 100.0,
+      "hpct": 22.0,
+      "esal": 7738.2
+    },
+    "A001_Link02": {
+      "rc": "Critical",
+      "idx": 73.9,
+      "hpct": 22.0,
+      "esal": 2672.4
+    },
+    "C277_Link01": {
+      "rc": "High",
+      "idx": 61.6,
+      "hpct": 12.0,
+      "esal": 1427.9
+    },
+    "C271_Link01": {
+      "rc": "High",
+      "idx": 64.1,
+      "hpct": 12.0,
+      "esal": 1487.4
+    },
+    "C162_Link01": {
+      "rc": "Medium",
+      "idx": 39.6,
+      "hpct": 12.0,
+      "esal": 1194.2
+    },
+    "C216_Link01": {
+      "rc": "Medium",
+      "idx": 47.0,
+      "hpct": 12.0,
+      "esal": 1091.3
+    },
+    "A001_Link01": {
+      "rc": "Critical",
+      "idx": 100.0,
+      "hpct": 22.0,
+      "esal": 24576.5
+    },
+    "C316_Link01": {
+      "rc": "Medium",
+      "idx": 47.1,
+      "hpct": 12.0,
+      "esal": 1092.2
+    },
+    "C179_Link01": {
+      "rc": "High",
+      "idx": 64.4,
+      "hpct": 12.0,
+      "esal": 1494.3
+    },
+    "C030_Link02": {
+      "rc": "Medium",
+      "idx": 31.9,
+      "hpct": 12.0,
+      "esal": 740.9
+    },
+    "C184_Link01": {
+      "rc": "High",
+      "idx": 64.5,
+      "hpct": 12.0,
+      "esal": 1495.6
+    },
+    "C036_Link01": {
+      "rc": "High",
+      "idx": 64.7,
+      "hpct": 12.0,
+      "esal": 1500.8
+    },
+    "C273_Link03": {
+      "rc": "High",
+      "idx": 62.4,
+      "hpct": 12.0,
+      "esal": 1447.8
+    },
+    "A005_Link06": {
+      "rc": "Critical",
+      "idx": 71.8,
+      "hpct": 22.0,
+      "esal": 2595.3
+    },
+    "C265_Link01": {
+      "rc": "High",
+      "idx": 64.7,
+      "hpct": 12.0,
+      "esal": 1501.2
+    },
+    "C157_Link01": {
+      "rc": "Medium",
+      "idx": 38.8,
+      "hpct": 12.0,
+      "esal": 1170.3
+    },
+    "C214_Link01": {
+      "rc": "Low",
+      "idx": 14.5,
+      "hpct": 12.0,
+      "esal": 337.0
+    },
+    "C311_Link01": {
+      "rc": "Medium",
+      "idx": 46.7,
+      "hpct": 12.0,
+      "esal": 1082.2
+    },
+    "C027_Link01": {
+      "rc": "Medium",
+      "idx": 32.3,
+      "hpct": 12.0,
+      "esal": 750.4
+    },
+    "C174_Link01": {
+      "rc": "Medium",
+      "idx": 47.0,
+      "hpct": 12.0,
+      "esal": 1089.6
+    },
+    "C231_Link01": {
+      "rc": "Low",
+      "idx": 23.5,
+      "hpct": 12.0,
+      "esal": 709.2
+    },
+    "C043_Link01": {
+      "rc": "Medium",
+      "idx": 32.0,
+      "hpct": 12.0,
+      "esal": 743.5
+    },
+    "C567_Link01": {
+      "rc": "High",
+      "idx": 64.5,
+      "hpct": 12.0,
+      "esal": 1496.9
+    },
+    "C550_Link01": {
+      "rc": "High",
+      "idx": 52.0,
+      "hpct": 12.0,
+      "esal": 1568.6
+    },
+    "C330_Link01": {
+      "rc": "Medium",
+      "idx": 47.6,
+      "hpct": 12.0,
+      "esal": 1103.5
+    },
+    "C041_Link01": {
+      "rc": "High",
+      "idx": 61.8,
+      "hpct": 12.0,
+      "esal": 1433.5
+    },
+    "C267_Link01": {
+      "rc": "High",
+      "idx": 64.7,
+      "hpct": 12.0,
+      "esal": 1501.7
+    },
+    "A003N1_Link01": {
+      "rc": "High",
+      "idx": 57.2,
+      "hpct": 22.0,
+      "esal": 2066.5
+    },
+    "A003_Link02": {
+      "rc": "High",
+      "idx": 54.9,
+      "hpct": 22.0,
+      "esal": 1983.8
+    },
+    "C268_Link01": {
+      "rc": "High",
+      "idx": 54.8,
+      "hpct": 12.0,
+      "esal": 1651.9
+    },
+    "C336_Link01": {
+      "rc": "High",
+      "idx": 63.8,
+      "hpct": 12.0,
+      "esal": 1479.1
+    },
+    "C315_Link01": {
+      "rc": "Medium",
+      "idx": 47.0,
+      "hpct": 12.0,
+      "esal": 1091.3
+    },
+    "C334_Link01": {
+      "rc": "Medium",
+      "idx": 46.6,
+      "hpct": 12.0,
+      "esal": 1081.3
+    },
+    "C337_Link01": {
+      "rc": "Medium",
+      "idx": 46.9,
+      "hpct": 12.0,
+      "esal": 1087.8
+    },
+    "C333_Link01": {
+      "rc": "Medium",
+      "idx": 46.4,
+      "hpct": 12.0,
+      "esal": 1075.7
+    },
+    "C338_Link01": {
+      "rc": "Medium",
+      "idx": 39.2,
+      "hpct": 12.0,
+      "esal": 908.9
+    },
+    "C339_Link01": {
+      "rc": "High",
+      "idx": 65.2,
+      "hpct": 12.0,
+      "esal": 1512.1
+    },
+    "A002_Link04": {
+      "rc": "Medium",
+      "idx": 44.5,
+      "hpct": 22.0,
+      "esal": 1609.3
+    },
+    "A009_Link03": {
+      "rc": "Critical",
+      "idx": 74.7,
+      "hpct": 22.0,
+      "esal": 2700.2
+    },
+    "A006_Link01": {
+      "rc": "Critical",
+      "idx": 77.2,
+      "hpct": 22.0,
+      "esal": 2790.9
+    },
+    "B103_Link03": {
+      "rc": "Medium",
+      "idx": 34.1,
+      "hpct": 16.0,
+      "esal": 948.9
+    },
+    "C274_Link01": {
+      "rc": "High",
+      "idx": 61.3,
+      "hpct": 12.0,
+      "esal": 1422.2
+    },
+    "A002_Link01": {
+      "rc": "Critical",
+      "idx": 77.7,
+      "hpct": 22.0,
+      "esal": 2806.8
+    },
+    "C005_Link01": {
+      "rc": "Medium",
+      "idx": 38.7,
+      "hpct": 12.0,
+      "esal": 1168.2
+    },
+    "C002_Link01": {
+      "rc": "High",
+      "idx": 61.5,
+      "hpct": 12.0,
+      "esal": 1855.2
+    },
+    "C168_Link01": {
+      "rc": "High",
+      "idx": 54.1,
+      "hpct": 12.0,
+      "esal": 1631.5
+    },
+    "A001N1_Link01": {
+      "rc": "High",
+      "idx": 70.0,
+      "hpct": 22.0,
+      "esal": 2528.5
+    },
+    "A001_Link04": {
+      "rc": "High",
+      "idx": 70.0,
+      "hpct": 22.0,
+      "esal": 2528.5
+    },
+    "A010_Link01": {
+      "rc": "Medium",
+      "idx": 37.7,
+      "hpct": 22.0,
+      "esal": 1362.0
+    },
+    "M20Int8_S4": {
+      "rc": "Medium",
+      "idx": 42.1,
+      "hpct": 12.0,
+      "esal": 1524.3
+    },
+    "M20Int8_S3": {
+      "rc": "Medium",
+      "idx": 42.1,
+      "hpct": 12.0,
+      "esal": 1524.3
+    },
+    "M20": {
+      "rc": "Medium",
+      "idx": 40.7,
+      "hpct": 12.0,
+      "esal": 1472.6
+    },
+    "M20Int7_S4": {
+      "rc": "Medium",
+      "idx": 42.1,
+      "hpct": 12.0,
+      "esal": 1524.3
+    },
+    "A006N1_Link01": {
+      "rc": "Critical",
+      "idx": 77.2,
+      "hpct": 22.0,
+      "esal": 2790.9
+    },
+    "M20Int6_S3": {
+      "rc": "Medium",
+      "idx": 42.1,
+      "hpct": 12.0,
+      "esal": 1524.3
+    },
+    "B100N1_Link01": {
+      "rc": "High",
+      "idx": 56.6,
+      "hpct": 16.0,
+      "esal": 2046.0
+    },
+    "M20Int4_S9": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int4_S4": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int4_S5": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int4_S10": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int4_S8": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int3_S7": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int3_S2": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int3_S6": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int3_S3": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int3_S1": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int2_S10": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int2_S6": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int2_S3": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int2_S4": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int2_S5": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int1_S2": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int1_S3": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20N1": {
+      "rc": "Medium",
+      "idx": 40.7,
+      "hpct": 12.0,
+      "esal": 1472.6
+    },
+    "M3Int1_S3": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1532.9
+    },
+    "C001_Link01": {
+      "rc": "Medium",
+      "idx": 39.2,
+      "hpct": 12.0,
+      "esal": 1180.8
+    },
+    "C335_Link01": {
+      "rc": "Medium",
+      "idx": 31.2,
+      "hpct": 12.0,
+      "esal": 941.5
+    },
+    "M3N1_Link01": {
+      "rc": "Medium",
+      "idx": 30.2,
+      "hpct": 12.0,
+      "esal": 1093.9
+    },
+    "M3Int4_S1": {
+      "rc": "Medium",
+      "idx": 31.1,
+      "hpct": 12.0,
+      "esal": 1124.7
+    },
+    "M3Int4_S2": {
+      "rc": "Low",
+      "idx": 22.7,
+      "hpct": 12.0,
+      "esal": 820.3
+    },
+    "M3Int3_S4": {
+      "rc": "Medium",
+      "idx": 31.1,
+      "hpct": 12.0,
+      "esal": 1124.7
+    },
+    "M3Int3_S2": {
+      "rc": "Medium",
+      "idx": 31.1,
+      "hpct": 12.0,
+      "esal": 1124.7
+    },
+    "M3_Link02": {
+      "rc": "Medium",
+      "idx": 30.6,
+      "hpct": 12.0,
+      "esal": 1107.8
+    },
+    "M3_Link01": {
+      "rc": "Medium",
+      "idx": 30.2,
+      "hpct": 12.0,
+      "esal": 1093.9
+    },
+    "C274_Link02": {
+      "rc": "High",
+      "idx": 64.4,
+      "hpct": 12.0,
+      "esal": 1494.3
+    },
+    "M20Int2_S11": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int5_S1": {
+      "rc": "Medium",
+      "idx": 42.1,
+      "hpct": 12.0,
+      "esal": 1524.3
+    },
+    "M20Int5_S2": {
+      "rc": "Medium",
+      "idx": 42.1,
+      "hpct": 12.0,
+      "esal": 1524.3
+    },
+    "A009_Link01": {
+      "rc": "Critical",
+      "idx": 77.2,
+      "hpct": 22.0,
+      "esal": 2790.9
+    },
+    "M20Int8_S1": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1532.9
+    },
+    "M3Int1_S2": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1532.9
+    },
+    "A009N1_Link01": {
+      "rc": "Critical",
+      "idx": 77.2,
+      "hpct": 22.0,
+      "esal": 2790.9
+    },
+    "M20Int7_S3": {
+      "rc": "Medium",
+      "idx": 42.1,
+      "hpct": 12.0,
+      "esal": 1524.3
+    },
+    "M20Int7_S1": {
+      "rc": "Medium",
+      "idx": 42.1,
+      "hpct": 12.0,
+      "esal": 1524.3
+    },
+    "M20Int6_S2": {
+      "rc": "Medium",
+      "idx": 42.1,
+      "hpct": 12.0,
+      "esal": 1524.3
+    },
+    "M20Int5_S3": {
+      "rc": "Medium",
+      "idx": 42.1,
+      "hpct": 12.0,
+      "esal": 1524.3
+    },
+    "M20Int4_S3": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int4_S2": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int4_S7": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int4_S6": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int4_S1": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int3_S5": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int3_S4": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int3_S8": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int2_S9": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int2_S8": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int2_S7": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int2_S2": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int2_S1": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int1_S4": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int1_S5": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int1_S1": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1533.8
+    },
+    "M20Int8_S2": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1532.9
+    },
+    "M20Int8_S5": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1532.9
+    },
+    "M20Int8_S8": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1532.9
+    },
+    "M20Int8_S9": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1532.9
+    },
+    "M20Int8_S6": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1532.9
+    },
+    "M20Int8_S7": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1532.9
+    },
+    "M20Int9_S3": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1532.9
+    },
+    "M3Int2_S4": {
+      "rc": "Medium",
+      "idx": 31.1,
+      "hpct": 12.0,
+      "esal": 1124.7
+    },
+    "M3Int2_S2": {
+      "rc": "Medium",
+      "idx": 31.1,
+      "hpct": 12.0,
+      "esal": 1124.7
+    },
+    "M3Int2_S3": {
+      "rc": "Medium",
+      "idx": 31.1,
+      "hpct": 12.0,
+      "esal": 1124.7
+    },
+    "M3Int2_S1": {
+      "rc": "Medium",
+      "idx": 31.1,
+      "hpct": 12.0,
+      "esal": 1124.7
+    },
+    "A003N3_Link01": {
+      "rc": "High",
+      "idx": 57.0,
+      "hpct": 22.0,
+      "esal": 2059.4
+    },
+    "B103_Link02": {
+      "rc": "Medium",
+      "idx": 40.0,
+      "hpct": 16.0,
+      "esal": 1446.5
+    },
+    "M3Int3_S3": {
+      "rc": "Medium",
+      "idx": 31.1,
+      "hpct": 12.0,
+      "esal": 1124.7
+    },
+    "M3Int3_S1": {
+      "rc": "Medium",
+      "idx": 31.1,
+      "hpct": 12.0,
+      "esal": 1124.7
+    },
+    "M3Int4_S3": {
+      "rc": "Medium",
+      "idx": 31.1,
+      "hpct": 12.0,
+      "esal": 1124.7
+    },
+    "M20Int6_S1": {
+      "rc": "Medium",
+      "idx": 42.1,
+      "hpct": 12.0,
+      "esal": 1524.3
+    },
+    "M20Int7_S2": {
+      "rc": "Medium",
+      "idx": 42.1,
+      "hpct": 12.0,
+      "esal": 1524.3
+    },
+    "A009N2_Link01": {
+      "rc": "Critical",
+      "idx": 77.2,
+      "hpct": 22.0,
+      "esal": 2790.9
+    },
+    "M20Int9_S1": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1532.9
+    },
+    "M20Int9_S2": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1532.9
+    },
+    "M3Int1_S1": {
+      "rc": "Medium",
+      "idx": 42.4,
+      "hpct": 12.0,
+      "esal": 1532.9
+    },
+    "M3Int4_S4": {
+      "rc": "Medium",
+      "idx": 31.1,
+      "hpct": 12.0,
+      "esal": 1124.7
+    },
+    "M3Int4_S5": {
+      "rc": "Medium",
+      "idx": 31.1,
+      "hpct": 12.0,
+      "esal": 1124.7
+    },
+    "C235_Link01": {
+      "rc": "Medium",
+      "idx": 38.8,
+      "hpct": 12.0,
+      "esal": 1170.3
+    },
+    "C824_Link01": {
+      "rc": "Critical",
+      "idx": 73.1,
+      "hpct": 12.0,
+      "esal": 1694.9
+    },
+    "C177_Link01": {
+      "rc": "Medium",
+      "idx": 47.8,
+      "hpct": 12.0,
+      "esal": 1108.7
+    },
+    "C140_Link01": {
+      "rc": "High",
+      "idx": 50.5,
+      "hpct": 12.0,
+      "esal": 1523.0
+    },
+    "C284_Link01": {
+      "rc": "Medium",
+      "idx": 49.8,
+      "hpct": 12.0,
+      "esal": 1501.7
+    },
+    "C285_Link01": {
+      "rc": "Medium",
+      "idx": 49.8,
+      "hpct": 12.0,
+      "esal": 1501.7
+    },
+    "C340_Link01": {
+      "rc": "Low",
+      "idx": 26.0,
+      "hpct": 12.0,
+      "esal": 603.2
+    },
+    "C797_Link03": {
+      "rc": "High",
+      "idx": 64.6,
+      "hpct": 12.0,
+      "esal": 1499.1
+    },
+    "A007_Link04": {
+      "rc": "Medium",
+      "idx": 46.2,
+      "hpct": 22.0,
+      "esal": 1669.0
+    },
+    "B300_Link01": {
+      "rc": "Medium",
+      "idx": 47.9,
+      "hpct": 16.0,
+      "esal": 1731.2
+    },
+    "A012_Link03": {
+      "rc": "Critical",
+      "idx": 73.7,
+      "hpct": 22.0,
+      "esal": 2662.9
+    },
+    "A007_Link02": {
+      "rc": "High",
+      "idx": 64.0,
+      "hpct": 22.0,
+      "esal": 2314.6
+    },
+    "A012_Link01": {
+      "rc": "Critical",
+      "idx": 75.7,
+      "hpct": 22.0,
+      "esal": 2735.2
+    },
+    "B307_Link02": {
+      "rc": "Low",
+      "idx": 23.2,
+      "hpct": 16.0,
+      "esal": 837.8
+    },
+    "B305_Link01": {
+      "rc": "Critical",
+      "idx": 71.8,
+      "hpct": 16.0,
+      "esal": 2595.1
+    },
+    "B300_Link02": {
+      "rc": "High",
+      "idx": 59.2,
+      "hpct": 16.0,
+      "esal": 2141.4
+    },
+    "A012_Link04": {
+      "rc": "Medium",
+      "idx": 47.3,
+      "hpct": 22.0,
+      "esal": 1708.7
+    },
+    "B306_Link01": {
+      "rc": "Low",
+      "idx": 21.7,
+      "hpct": 16.0,
+      "esal": 604.1
+    },
+    "B304_Link02": {
+      "rc": "High",
+      "idx": 57.6,
+      "hpct": 16.0,
+      "esal": 2083.0
+    },
+    "B307_Link04": {
+      "rc": "Critical",
+      "idx": 70.5,
+      "hpct": 16.0,
+      "esal": 1960.9
+    },
+    "C310_Link01": {
+      "rc": "Low",
+      "idx": 6.8,
+      "hpct": 12.0,
+      "esal": 157.2
+    },
+    "A007_Link03": {
+      "rc": "Critical",
+      "idx": 78.7,
+      "hpct": 22.0,
+      "esal": 2845.0
+    },
+    "A001N2_Link01": {
+      "rc": "Critical",
+      "idx": 100.0,
+      "hpct": 22.0,
+      "esal": 9766.5
+    },
+    "A012_Link02": {
+      "rc": "Critical",
+      "idx": 77.9,
+      "hpct": 22.0,
+      "esal": 2815.5
+    },
+    "B307_Link03": {
+      "rc": "Critical",
+      "idx": 71.0,
+      "hpct": 16.0,
+      "esal": 1974.8
+    },
+    "A001_Link11": {
+      "rc": "Critical",
+      "idx": 78.7,
+      "hpct": 22.0,
+      "esal": 2845.8
+    },
+    "B305_Link02": {
+      "rc": "Low",
+      "idx": 19.5,
+      "hpct": 16.0,
+      "esal": 705.3
+    },
+    "A001_Link08": {
+      "rc": "Critical",
+      "idx": 73.5,
+      "hpct": 22.0,
+      "esal": 2655.7
+    },
+    "A001_Link07": {
+      "rc": "Critical",
+      "idx": 72.4,
+      "hpct": 22.0,
+      "esal": 2618.3
+    },
+    "B300_Link03": {
+      "rc": "Low",
+      "idx": 24.8,
+      "hpct": 16.0,
+      "esal": 688.5
+    },
+    "A007N1_Link01": {
+      "rc": "Critical",
+      "idx": 78.7,
+      "hpct": 22.0,
+      "esal": 2843.4
+    },
+    "A001_Link06": {
+      "rc": "Critical",
+      "idx": 100.0,
+      "hpct": 22.0,
+      "esal": 5850.5
+    },
+    "A007_Link01": {
+      "rc": "Critical",
+      "idx": 78.2,
+      "hpct": 22.0,
+      "esal": 2826.7
+    },
+    "A001_Link05": {
+      "rc": "High",
+      "idx": 55.9,
+      "hpct": 22.0,
+      "esal": 2022.0
+    },
+    "B101_Link04": {
+      "rc": "Critical",
+      "idx": 71.3,
+      "hpct": 16.0,
+      "esal": 1984.0
+    },
+    "B307_Link01": {
+      "rc": "High",
+      "idx": 57.4,
+      "hpct": 16.0,
+      "esal": 2076.6
+    },
+    "B308_Link01": {
+      "rc": "Low",
+      "idx": 29.9,
+      "hpct": 16.0,
+      "esal": 1080.3
+    },
+    "C784_Link01": {
+      "rc": "High",
+      "idx": 52.2,
+      "hpct": 12.0,
+      "esal": 1575.5
+    },
+    "C816_Link01": {
+      "rc": "High",
+      "idx": 66.3,
+      "hpct": 12.0,
+      "esal": 1537.3
+    },
+    "C797_Link02": {
+      "rc": "High",
+      "idx": 66.3,
+      "hpct": 12.0,
+      "esal": 1536.9
+    },
+    "C811_Link01": {
+      "rc": "High",
+      "idx": 66.9,
+      "hpct": 12.0,
+      "esal": 1552.5
+    },
+    "C789_Link01": {
+      "rc": "High",
+      "idx": 66.0,
+      "hpct": 12.0,
+      "esal": 1530.3
+    },
+    "C793_Link01": {
+      "rc": "High",
+      "idx": 66.3,
+      "hpct": 12.0,
+      "esal": 1537.3
+    },
+    "C806_Link01": {
+      "rc": "Low",
+      "idx": 13.7,
+      "hpct": 12.0,
+      "esal": 317.0
+    },
+    "C785_Link02": {
+      "rc": "High",
+      "idx": 64.5,
+      "hpct": 12.0,
+      "esal": 1495.2
+    },
+    "C803_Link01": {
+      "rc": "High",
+      "idx": 64.1,
+      "hpct": 12.0,
+      "esal": 1487.8
+    },
+    "C800_Link01": {
+      "rc": "Low",
+      "idx": 10.6,
+      "hpct": 12.0,
+      "esal": 244.9
+    },
+    "C780_Link02": {
+      "rc": "High",
+      "idx": 66.0,
+      "hpct": 12.0,
+      "esal": 1530.3
+    },
+    "C796_Link01": {
+      "rc": "High",
+      "idx": 65.1,
+      "hpct": 12.0,
+      "esal": 1509.9
+    },
+    "C809_Link01": {
+      "rc": "High",
+      "idx": 64.5,
+      "hpct": 12.0,
+      "esal": 1497.3
+    },
+    "C813_Link01": {
+      "rc": "Medium",
+      "idx": 45.6,
+      "hpct": 12.0,
+      "esal": 1058.7
+    },
+    "C792_Link01": {
+      "rc": "Low",
+      "idx": 20.4,
+      "hpct": 12.0,
+      "esal": 473.3
+    },
+    "C805_Link01": {
+      "rc": "High",
+      "idx": 65.8,
+      "hpct": 12.0,
+      "esal": 1526.0
+    },
+    "C787_Link02": {
+      "rc": "High",
+      "idx": 65.1,
+      "hpct": 12.0,
+      "esal": 1509.9
+    },
+    "C801_Link01": {
+      "rc": "Medium",
+      "idx": 46.1,
+      "hpct": 12.0,
+      "esal": 1070.0
+    },
+    "C781_Link03": {
+      "rc": "Medium",
+      "idx": 46.0,
+      "hpct": 12.0,
+      "esal": 1066.6
+    },
+    "C784_Link02": {
+      "rc": "High",
+      "idx": 65.3,
+      "hpct": 12.0,
+      "esal": 1514.7
+    },
+    "C817_Link01": {
+      "rc": "Low",
+      "idx": 9.3,
+      "hpct": 12.0,
+      "esal": 216.3
+    },
+    "C798_Link01": {
+      "rc": "High",
+      "idx": 65.1,
+      "hpct": 12.0,
+      "esal": 1509.9
+    },
+    "C811_Link02": {
+      "rc": "High",
+      "idx": 62.5,
+      "hpct": 12.0,
+      "esal": 1450.4
+    },
+    "C790_Link01": {
+      "rc": "High",
+      "idx": 65.8,
+      "hpct": 12.0,
+      "esal": 1525.6
+    },
+    "C803_Link02": {
+      "rc": "High",
+      "idx": 63.2,
+      "hpct": 12.0,
+      "esal": 1465.6
+    },
+    "C807_Link01": {
+      "rc": "High",
+      "idx": 64.6,
+      "hpct": 12.0,
+      "esal": 1499.1
+    },
+    "C786_Link01": {
+      "rc": "High",
+      "idx": 63.3,
+      "hpct": 12.0,
+      "esal": 1469.5
+    },
+    "C783_Link01": {
+      "rc": "Medium",
+      "idx": 45.9,
+      "hpct": 12.0,
+      "esal": 1065.7
+    },
+    "C815_Link01": {
+      "rc": "High",
+      "idx": 65.1,
+      "hpct": 12.0,
+      "esal": 1511.2
+    },
+    "C781_Link01": {
+      "rc": "High",
+      "idx": 64.2,
+      "hpct": 12.0,
+      "esal": 1490.4
+    },
+    "C797_Link01": {
+      "rc": "Medium",
+      "idx": 46.4,
+      "hpct": 12.0,
+      "esal": 1077.0
+    },
+    "C810_Link01": {
+      "rc": "High",
+      "idx": 66.6,
+      "hpct": 12.0,
+      "esal": 1544.7
+    },
+    "C792_Link02": {
+      "rc": "Low",
+      "idx": 10.0,
+      "hpct": 12.0,
+      "esal": 232.3
+    },
+    "C805_Link02": {
+      "rc": "High",
+      "idx": 65.3,
+      "hpct": 12.0,
+      "esal": 1513.8
+    },
+    "C785_Link01": {
+      "rc": "High",
+      "idx": 65.0,
+      "hpct": 12.0,
+      "esal": 1507.8
+    },
+    "C788_Link01": {
+      "rc": "High",
+      "idx": 65.3,
+      "hpct": 12.0,
+      "esal": 1514.7
+    },
+    "C802_Link01": {
+      "rc": "High",
+      "idx": 64.6,
+      "hpct": 12.0,
+      "esal": 1498.2
+    },
+    "C782_Link02": {
+      "rc": "Low",
+      "idx": 18.0,
+      "hpct": 12.0,
+      "esal": 542.8
+    },
+    "C780_Link01": {
+      "rc": "High",
+      "idx": 65.4,
+      "hpct": 12.0,
+      "esal": 1516.4
+    },
+    "C818_Link01": {
+      "rc": "High",
+      "idx": 65.9,
+      "hpct": 12.0,
+      "esal": 1527.7
+    },
+    "C795_Link01": {
+      "rc": "High",
+      "idx": 67.2,
+      "hpct": 12.0,
+      "esal": 1559.0
+    },
+    "C799_Link01": {
+      "rc": "Medium",
+      "idx": 46.4,
+      "hpct": 12.0,
+      "esal": 1077.0
+    },
+    "C812_Link01": {
+      "rc": "High",
+      "idx": 65.5,
+      "hpct": 12.0,
+      "esal": 1519.9
+    },
+    "C791_Link01": {
+      "rc": "Medium",
+      "idx": 46.4,
+      "hpct": 12.0,
+      "esal": 1077.0
+    },
+    "C804_Link01": {
+      "rc": "High",
+      "idx": 64.5,
+      "hpct": 12.0,
+      "esal": 1495.6
+    },
+    "C808_Link01": {
+      "rc": "High",
+      "idx": 64.7,
+      "hpct": 12.0,
+      "esal": 1500.4
+    },
+    "C787_Link01": {
+      "rc": "High",
+      "idx": 65.9,
+      "hpct": 12.0,
+      "esal": 1527.7
+    },
+    "C781_Link02": {
+      "rc": "Low",
+      "idx": 15.1,
+      "hpct": 12.0,
+      "esal": 350.9
+    },
+    "C893_Link01": {
+      "rc": "High",
+      "idx": 66.3,
+      "hpct": 12.0,
+      "esal": 1538.6
+    },
+    "C892_Link02": {
+      "rc": "High",
+      "idx": 64.6,
+      "hpct": 12.0,
+      "esal": 1499.1
+    },
+    "C892_Link01": {
+      "rc": "High",
+      "idx": 64.7,
+      "hpct": 12.0,
+      "esal": 1500.8
+    },
+    "C891_Link01": {
+      "rc": "High",
+      "idx": 65.0,
+      "hpct": 12.0,
+      "esal": 1508.6
+    },
+    "C889_Link02": {
+      "rc": "High",
+      "idx": 64.1,
+      "hpct": 12.0,
+      "esal": 1486.9
+    },
+    "C889_Link01": {
+      "rc": "High",
+      "idx": 66.3,
+      "hpct": 12.0,
+      "esal": 1536.9
+    },
+    "C888_Link01": {
+      "rc": "High",
+      "idx": 56.0,
+      "hpct": 12.0,
+      "esal": 1687.5
+    },
+    "C887_Link02": {
+      "rc": "High",
+      "idx": 65.5,
+      "hpct": 12.0,
+      "esal": 1520.4
+    },
+    "C887_Link01": {
+      "rc": "High",
+      "idx": 65.5,
+      "hpct": 12.0,
+      "esal": 1520.4
+    },
+    "C885_Link01": {
+      "rc": "High",
+      "idx": 65.5,
+      "hpct": 12.0,
+      "esal": 1520.4
+    },
+    "C884_Link01": {
+      "rc": "High",
+      "idx": 66.5,
+      "hpct": 12.0,
+      "esal": 1542.1
+    },
+    "C883_Link01": {
+      "rc": "High",
+      "idx": 65.6,
+      "hpct": 12.0,
+      "esal": 1521.2
+    },
+    "C882_Link01": {
+      "rc": "Low",
+      "idx": 9.1,
+      "hpct": 12.0,
+      "esal": 210.2
+    },
+    "C881_Link01": {
+      "rc": "High",
+      "idx": 66.8,
+      "hpct": 12.0,
+      "esal": 1549.0
+    },
+    "C880_Link01": {
+      "rc": "High",
+      "idx": 66.1,
+      "hpct": 12.0,
+      "esal": 1534.3
+    },
+    "C878_Link02": {
+      "rc": "High",
+      "idx": 65.5,
+      "hpct": 12.0,
+      "esal": 1519.1
+    },
+    "C878_Link01": {
+      "rc": "Low",
+      "idx": 21.0,
+      "hpct": 12.0,
+      "esal": 486.4
+    },
+    "C877_Link01": {
+      "rc": "High",
+      "idx": 65.5,
+      "hpct": 12.0,
+      "esal": 1520.4
+    },
+    "C876_Link01": {
+      "rc": "Low",
+      "idx": 13.9,
+      "hpct": 12.0,
+      "esal": 323.1
+    },
+    "C875_Link01": {
+      "rc": "High",
+      "idx": 65.1,
+      "hpct": 12.0,
+      "esal": 1511.2
+    },
+    "C874_Link01": {
+      "rc": "High",
+      "idx": 65.5,
+      "hpct": 12.0,
+      "esal": 1520.4
+    },
+    "C873_Link02": {
+      "rc": "High",
+      "idx": 65.1,
+      "hpct": 12.0,
+      "esal": 1511.2
+    },
+    "C848_Link01": {
+      "rc": "High",
+      "idx": 66.0,
+      "hpct": 12.0,
+      "esal": 1530.8
+    },
+    "C872_Link02": {
+      "rc": "High",
+      "idx": 66.6,
+      "hpct": 12.0,
+      "esal": 1544.7
+    },
+    "C872_Link01": {
+      "rc": "Low",
+      "idx": 15.6,
+      "hpct": 12.0,
+      "esal": 363.0
+    },
+    "C871_Link01": {
+      "rc": "High",
+      "idx": 66.7,
+      "hpct": 12.0,
+      "esal": 1547.3
+    },
+    "C870_Link03": {
+      "rc": "High",
+      "idx": 65.0,
+      "hpct": 12.0,
+      "esal": 1508.6
+    },
+    "C870_Link02": {
+      "rc": "High",
+      "idx": 55.6,
+      "hpct": 12.0,
+      "esal": 1677.1
+    },
+    "C870_Link01": {
+      "rc": "High",
+      "idx": 55.1,
+      "hpct": 12.0,
+      "esal": 1660.2
+    },
+    "C867_Link02": {
+      "rc": "High",
+      "idx": 63.8,
+      "hpct": 12.0,
+      "esal": 1479.1
+    },
+    "C867_Link01": {
+      "rc": "High",
+      "idx": 55.0,
+      "hpct": 12.0,
+      "esal": 1658.9
+    },
+    "C866_Link01": {
+      "rc": "High",
+      "idx": 55.1,
+      "hpct": 12.0,
+      "esal": 1662.8
+    },
+    "C865_Link01": {
+      "rc": "High",
+      "idx": 66.0,
+      "hpct": 12.0,
+      "esal": 1530.8
+    },
+    "C864_Link01": {
+      "rc": "High",
+      "idx": 66.3,
+      "hpct": 12.0,
+      "esal": 1539.0
+    },
+    "C863_Link01": {
+      "rc": "High",
+      "idx": 65.0,
+      "hpct": 12.0,
+      "esal": 1508.6
+    },
+    "C862_Link01": {
+      "rc": "Low",
+      "idx": 26.6,
+      "hpct": 12.0,
+      "esal": 617.1
+    },
+    "C861_Link01": {
+      "rc": "High",
+      "idx": 66.3,
+      "hpct": 12.0,
+      "esal": 1538.6
+    },
+    "C860_Link01": {
+      "rc": "High",
+      "idx": 52.3,
+      "hpct": 12.0,
+      "esal": 1575.9
+    },
+    "C849_Link01": {
+      "rc": "High",
+      "idx": 65.9,
+      "hpct": 12.0,
+      "esal": 1528.2
+    },
+    "C847_Link01": {
+      "rc": "High",
+      "idx": 64.9,
+      "hpct": 12.0,
+      "esal": 1505.6
+    },
+    "C846_Link01": {
+      "rc": "High",
+      "idx": 66.2,
+      "hpct": 12.0,
+      "esal": 1536.0
+    },
+    "C845_Link01": {
+      "rc": "High",
+      "idx": 65.8,
+      "hpct": 12.0,
+      "esal": 1526.4
+    },
+    "C844_Link02": {
+      "rc": "High",
+      "idx": 65.1,
+      "hpct": 12.0,
+      "esal": 1510.8
+    },
+    "C844_Link01": {
+      "rc": "Low",
+      "idx": 17.2,
+      "hpct": 12.0,
+      "esal": 398.2
+    },
+    "C842_Link01": {
+      "rc": "High",
+      "idx": 65.1,
+      "hpct": 12.0,
+      "esal": 1511.2
+    },
+    "C841_Link01": {
+      "rc": "Medium",
+      "idx": 46.6,
+      "hpct": 12.0,
+      "esal": 1080.9
+    },
+    "C840_Link02": {
+      "rc": "Low",
+      "idx": 8.6,
+      "hpct": 12.0,
+      "esal": 199.8
+    },
+    "C840_Link01": {
+      "rc": "High",
+      "idx": 66.3,
+      "hpct": 12.0,
+      "esal": 1538.2
+    },
+    "C839_Link01": {
+      "rc": "High",
+      "idx": 65.9,
+      "hpct": 12.0,
+      "esal": 1527.7
+    },
+    "C838_Link02": {
+      "rc": "High",
+      "idx": 66.3,
+      "hpct": 12.0,
+      "esal": 1539.0
+    },
+    "C838_Link01": {
+      "rc": "High",
+      "idx": 65.6,
+      "hpct": 12.0,
+      "esal": 1520.8
+    },
+    "C837_Link02": {
+      "rc": "High",
+      "idx": 66.0,
+      "hpct": 12.0,
+      "esal": 1530.3
+    },
+    "C837_Link01": {
+      "rc": "High",
+      "idx": 64.4,
+      "hpct": 12.0,
+      "esal": 1494.7
+    },
+    "C836_Link02": {
+      "rc": "High",
+      "idx": 66.3,
+      "hpct": 12.0,
+      "esal": 1536.9
+    },
+    "C836_Link01": {
+      "rc": "High",
+      "idx": 64.9,
+      "hpct": 12.0,
+      "esal": 1505.6
+    },
+    "C835_Link01": {
+      "rc": "High",
+      "idx": 65.1,
+      "hpct": 12.0,
+      "esal": 1511.2
+    },
+    "C794_Link01": {
+      "rc": "High",
+      "idx": 66.0,
+      "hpct": 12.0,
+      "esal": 1530.3
+    },
+    "C833_Link02": {
+      "rc": "High",
+      "idx": 65.9,
+      "hpct": 12.0,
+      "esal": 1527.7
+    },
+    "C833_Link01": {
+      "rc": "High",
+      "idx": 62.9,
+      "hpct": 12.0,
+      "esal": 1458.7
+    },
+    "C832_Link02": {
+      "rc": "High",
+      "idx": 66.2,
+      "hpct": 12.0,
+      "esal": 1535.6
+    },
+    "C927_Link02": {
+      "rc": "Low",
+      "idx": 3.5,
+      "hpct": 12.0,
+      "esal": 80.8
+    },
+    "C850_Link01": {
+      "rc": "High",
+      "idx": 66.2,
+      "hpct": 12.0,
+      "esal": 1535.6
+    },
+    "C832_Link01": {
+      "rc": "Low",
+      "idx": 28.5,
+      "hpct": 12.0,
+      "esal": 660.9
+    },
+    "C927_Link01": {
+      "rc": "High",
+      "idx": 66.7,
+      "hpct": 12.0,
+      "esal": 1547.3
+    },
+    "C831_Link01": {
+      "rc": "High",
+      "idx": 65.1,
+      "hpct": 12.0,
+      "esal": 1511.2
+    },
+    "C830_Link01": {
+      "rc": "Low",
+      "idx": 17.6,
+      "hpct": 12.0,
+      "esal": 530.7
+    },
+    "C926_Link01": {
+      "rc": "High",
+      "idx": 66.3,
+      "hpct": 12.0,
+      "esal": 1537.3
+    },
+    "C821_Link01": {
+      "rc": "High",
+      "idx": 65.5,
+      "hpct": 12.0,
+      "esal": 1519.5
+    },
+    "C820_Link01": {
+      "rc": "High",
+      "idx": 65.8,
+      "hpct": 12.0,
+      "esal": 1526.0
+    },
+    "C819_Link01": {
+      "rc": "High",
+      "idx": 65.4,
+      "hpct": 12.0,
+      "esal": 1516.4
+    },
+    "C823_Link01": {
+      "rc": "High",
+      "idx": 64.7,
+      "hpct": 12.0,
+      "esal": 1500.4
+    },
+    "C825_Link01": {
+      "rc": "High",
+      "idx": 66.3,
+      "hpct": 12.0,
+      "esal": 1537.3
+    },
+    "B304_Link01": {
+      "rc": "Low",
+      "idx": 28.4,
+      "hpct": 16.0,
+      "esal": 1025.9
+    },
+    "C782_Link01": {
+      "rc": "Medium",
+      "idx": 37.3,
+      "hpct": 12.0,
+      "esal": 1123.9
+    },
+    "A001_Link10": {
+      "rc": "Critical",
+      "idx": 74.5,
+      "hpct": 22.0,
+      "esal": 2693.1
+    },
+    "C873_Link01": {
+      "rc": "High",
+      "idx": 65.1,
+      "hpct": 12.0,
+      "esal": 1511.2
+    },
+    "A001_Link09": {
+      "rc": "Critical",
+      "idx": 74.8,
+      "hpct": 22.0,
+      "esal": 2705.0
+    },
+    "C047_Link01": {
+      "rc": "High",
+      "idx": 65.7,
+      "hpct": 12.0,
+      "esal": 1523.0
+    },
+    "C826_Link01": {
+      "rc": "High",
+      "idx": 51.0,
+      "hpct": 12.0,
+      "esal": 1537.3
+    },
+    "B305_Link03": {
+      "rc": "High",
+      "idx": 56.9,
+      "hpct": 16.0,
+      "esal": 2058.7
+    },
+    "B303_Link03": {
+      "rc": "High",
+      "idx": 55.3,
+      "hpct": 16.0,
+      "esal": 1998.5
+    },
+    "B301_Link03": {
+      "rc": "Medium",
+      "idx": 32.1,
+      "hpct": 16.0,
+      "esal": 893.4
+    },
+    "B303_Link01": {
+      "rc": "Medium",
+      "idx": 48.5,
+      "hpct": 16.0,
+      "esal": 1754.9
+    },
+    "B301_Link01": {
+      "rc": "High",
+      "idx": 67.8,
+      "hpct": 16.0,
+      "esal": 1885.1
+    },
+    "B302_Link01": {
+      "rc": "High",
+      "idx": 67.8,
+      "hpct": 16.0,
+      "esal": 1885.1
+    },
+    "B300_Link05": {
+      "rc": "Low",
+      "idx": 2.8,
+      "hpct": 16.0,
+      "esal": 101.3
+    },
+    "B303_Link02": {
+      "rc": "High",
+      "idx": 54.6,
+      "hpct": 16.0,
+      "esal": 1974.2
+    },
+    "A007_Link06": {
+      "rc": "Critical",
+      "idx": 73.4,
+      "hpct": 22.0,
+      "esal": 2651.7
+    },
+    "B301_Link02": {
+      "rc": "High",
+      "idx": 67.8,
+      "hpct": 16.0,
+      "esal": 1885.7
+    },
+    "B300_Link06": {
+      "rc": "High",
+      "idx": 57.3,
+      "hpct": 16.0,
+      "esal": 2071.4
+    },
+    "C670_Link02": {
+      "rc": "High",
+      "idx": 60.8,
+      "hpct": 12.0,
+      "esal": 1410.9
+    },
+    "C922_Link01": {
+      "rc": "High",
+      "idx": 62.5,
+      "hpct": 12.0,
+      "esal": 1450.9
+    },
+    "C921_Link01": {
+      "rc": "High",
+      "idx": 61.8,
+      "hpct": 12.0,
+      "esal": 1432.6
+    },
+    "C920_Link02": {
+      "rc": "High",
+      "idx": 59.0,
+      "hpct": 12.0,
+      "esal": 1368.8
+    },
+    "C920_Link01": {
+      "rc": "Low",
+      "idx": 8.7,
+      "hpct": 12.0,
+      "esal": 202.4
+    },
+    "C989_Link01": {
+      "rc": "High",
+      "idx": 61.2,
+      "hpct": 12.0,
+      "esal": 1418.7
+    },
+    "C984_Link01": {
+      "rc": "High",
+      "idx": 64.2,
+      "hpct": 12.0,
+      "esal": 1489.5
+    },
+    "C980_Link01": {
+      "rc": "High",
+      "idx": 63.7,
+      "hpct": 12.0,
+      "esal": 1477.8
+    },
+    "C879_Link02": {
+      "rc": "High",
+      "idx": 65.1,
+      "hpct": 12.0,
+      "esal": 1509.1
+    },
+    "C979_Link01": {
+      "rc": "High",
+      "idx": 63.7,
+      "hpct": 12.0,
+      "esal": 1477.4
+    },
+    "C879_Link01": {
+      "rc": "High",
+      "idx": 65.4,
+      "hpct": 12.0,
+      "esal": 1516.9
+    },
+    "C976_Link01": {
+      "rc": "High",
+      "idx": 62.3,
+      "hpct": 12.0,
+      "esal": 1444.4
+    },
+    "C974_Link01": {
+      "rc": "High",
+      "idx": 64.2,
+      "hpct": 12.0,
+      "esal": 1489.5
+    },
+    "C973_Link01": {
+      "rc": "High",
+      "idx": 64.2,
+      "hpct": 12.0,
+      "esal": 1489.5
+    },
+    "C971_Link01": {
+      "rc": "High",
+      "idx": 60.4,
+      "hpct": 12.0,
+      "esal": 1400.9
+    },
+    "C970_Link01": {
+      "rc": "High",
+      "idx": 62.3,
+      "hpct": 12.0,
+      "esal": 1444.4
+    },
+    "C969_Link04": {
+      "rc": "High",
+      "idx": 63.0,
+      "hpct": 12.0,
+      "esal": 1462.2
+    },
+    "C969_Link03": {
+      "rc": "High",
+      "idx": 63.7,
+      "hpct": 12.0,
+      "esal": 1477.8
+    },
+    "C969_Link02": {
+      "rc": "High",
+      "idx": 64.2,
+      "hpct": 12.0,
+      "esal": 1490.4
+    },
+    "C969_Link01": {
+      "rc": "High",
+      "idx": 63.5,
+      "hpct": 12.0,
+      "esal": 1473.5
+    },
+    "C968_Link01": {
+      "rc": "High",
+      "idx": 62.2,
+      "hpct": 12.0,
+      "esal": 1442.2
+    },
+    "C967_Link01": {
+      "rc": "Low",
+      "idx": 2.3,
+      "hpct": 12.0,
+      "esal": 53.8
+    },
+    "C966_Link01": {
+      "rc": "High",
+      "idx": 61.0,
+      "hpct": 12.0,
+      "esal": 1416.1
+    },
+    "C965_Link01": {
+      "rc": "Low",
+      "idx": 2.4,
+      "hpct": 12.0,
+      "esal": 54.7
+    },
+    "C964_Link03": {
+      "rc": "High",
+      "idx": 61.1,
+      "hpct": 12.0,
+      "esal": 1418.3
+    },
+    "C964_Link02": {
+      "rc": "High",
+      "idx": 61.6,
+      "hpct": 12.0,
+      "esal": 1429.6
+    },
+    "C964_Link01": {
+      "rc": "Low",
+      "idx": 4.5,
+      "hpct": 12.0,
+      "esal": 103.8
+    },
+    "C963_Link03": {
+      "rc": "High",
+      "idx": 65.3,
+      "hpct": 12.0,
+      "esal": 1514.3
+    },
+    "C963_Link02": {
+      "rc": "High",
+      "idx": 62.1,
+      "hpct": 12.0,
+      "esal": 1440.9
+    },
+    "C963_Link01": {
+      "rc": "High",
+      "idx": 65.2,
+      "hpct": 12.0,
+      "esal": 1512.1
+    },
+    "C961_Link01": {
+      "rc": "High",
+      "idx": 60.3,
+      "hpct": 12.0,
+      "esal": 1399.2
+    },
+    "C960_Link01": {
+      "rc": "High",
+      "idx": 61.9,
+      "hpct": 12.0,
+      "esal": 1436.5
+    },
+    "C946_Link01": {
+      "rc": "High",
+      "idx": 66.3,
+      "hpct": 12.0,
+      "esal": 1536.9
+    },
+    "C944_Link01": {
+      "rc": "Low",
+      "idx": 6.4,
+      "hpct": 12.0,
+      "esal": 148.1
+    },
+    "C943_Link01": {
+      "rc": "High",
+      "idx": 62.2,
+      "hpct": 12.0,
+      "esal": 1442.6
+    },
+    "C942_Link01": {
+      "rc": "High",
+      "idx": 64.3,
+      "hpct": 12.0,
+      "esal": 1491.7
+    },
+    "C941_Link01": {
+      "rc": "High",
+      "idx": 60.9,
+      "hpct": 12.0,
+      "esal": 1413.1
+    },
+    "C940_Link02": {
+      "rc": "High",
+      "idx": 62.6,
+      "hpct": 12.0,
+      "esal": 1452.6
+    },
+    "C940_Link01": {
+      "rc": "High",
+      "idx": 60.8,
+      "hpct": 12.0,
+      "esal": 1410.9
+    },
+    "C939_Link02": {
+      "rc": "High",
+      "idx": 59.0,
+      "hpct": 12.0,
+      "esal": 1367.9
+    },
+    "C939_Link01": {
+      "rc": "Low",
+      "idx": 8.9,
+      "hpct": 12.0,
+      "esal": 206.3
+    },
+    "C938_Link02": {
+      "rc": "Low",
+      "idx": 6.3,
+      "hpct": 12.0,
+      "esal": 145.5
+    },
+    "C938_Link01": {
+      "rc": "High",
+      "idx": 62.5,
+      "hpct": 12.0,
+      "esal": 1449.6
+    },
+    "C937_Link01": {
+      "rc": "High",
+      "idx": 60.5,
+      "hpct": 12.0,
+      "esal": 1402.7
+    },
+    "C935_Link01": {
+      "rc": "High",
+      "idx": 62.6,
+      "hpct": 12.0,
+      "esal": 1452.6
+    },
+    "C934_Link02": {
+      "rc": "High",
+      "idx": 62.3,
+      "hpct": 12.0,
+      "esal": 1444.4
+    },
+    "C934_Link01": {
+      "rc": "High",
+      "idx": 60.9,
+      "hpct": 12.0,
+      "esal": 1412.7
+    },
+    "C932_Link02": {
+      "rc": "High",
+      "idx": 65.2,
+      "hpct": 12.0,
+      "esal": 1511.7
+    },
+    "C932_Link01": {
+      "rc": "Low",
+      "idx": 3.9,
+      "hpct": 12.0,
+      "esal": 91.2
+    },
+    "C931_Link01": {
+      "rc": "High",
+      "idx": 65.0,
+      "hpct": 12.0,
+      "esal": 1507.8
+    },
+    "C930_Link02": {
+      "rc": "High",
+      "idx": 64.3,
+      "hpct": 12.0,
+      "esal": 1491.7
+    },
+    "C945_Link01": {
+      "rc": "High",
+      "idx": 61.0,
+      "hpct": 12.0,
+      "esal": 1415.3
+    },
+    "C930_Link01": {
+      "rc": "High",
+      "idx": 64.5,
+      "hpct": 12.0,
+      "esal": 1495.2
+    },
+    "C929_Link02": {
+      "rc": "High",
+      "idx": 64.5,
+      "hpct": 12.0,
+      "esal": 1495.2
+    },
+    "C929_Link01": {
+      "rc": "High",
+      "idx": 65.0,
+      "hpct": 12.0,
+      "esal": 1506.9
+    },
+    "C928_Link01": {
+      "rc": "High",
+      "idx": 65.0,
+      "hpct": 12.0,
+      "esal": 1506.9
+    },
+    "C926_Link02": {
+      "rc": "High",
+      "idx": 65.3,
+      "hpct": 12.0,
+      "esal": 1515.1
+    },
+    "C925_Link01": {
+      "rc": "Low",
+      "idx": 14.7,
+      "hpct": 12.0,
+      "esal": 341.3
+    },
+    "C924_Link01": {
+      "rc": "Low",
+      "idx": 11.6,
+      "hpct": 12.0,
+      "esal": 268.4
+    },
+    "C923_Link01": {
+      "rc": "High",
+      "idx": 51.6,
+      "hpct": 12.0,
+      "esal": 1556.4
+    },
+    "C981_Link02": {
+      "rc": "Low",
+      "idx": 29.1,
+      "hpct": 12.0,
+      "esal": 674.8
+    },
+    "C992_Link01": {
+      "rc": "High",
+      "idx": 63.7,
+      "hpct": 12.0,
+      "esal": 1477.8
+    },
+    "C987_Link01": {
+      "rc": "High",
+      "idx": 64.2,
+      "hpct": 12.0,
+      "esal": 1489.5
+    },
+    "C978_Link01": {
+      "rc": "High",
+      "idx": 61.5,
+      "hpct": 12.0,
+      "esal": 1426.1
+    },
+    "C988_Link01": {
+      "rc": "Medium",
+      "idx": 31.4,
+      "hpct": 12.0,
+      "esal": 728.7
+    },
+    "C985_Link01": {
+      "rc": "Low",
+      "idx": 27.7,
+      "hpct": 12.0,
+      "esal": 641.8
+    },
+    "C993_Link01": {
+      "rc": "Low",
+      "idx": 27.6,
+      "hpct": 12.0,
+      "esal": 641.4
+    },
+    "C986_Link01": {
+      "rc": "High",
+      "idx": 61.2,
+      "hpct": 12.0,
+      "esal": 1420.5
+    },
+    "C948_Link01": {
+      "rc": "High",
+      "idx": 65.3,
+      "hpct": 12.0,
+      "esal": 1515.1
+    },
+    "C949_Link01": {
+      "rc": "High",
+      "idx": 62.2,
+      "hpct": 12.0,
+      "esal": 1443.1
+    },
+    "B300_Link04": {
+      "rc": "High",
+      "idx": 55.3,
+      "hpct": 16.0,
+      "esal": 1998.5
+    },
+    "C650_Link02": {
+      "rc": "High",
+      "idx": 63.5,
+      "hpct": 12.0,
+      "esal": 1472.6
+    },
+    "C983_Link01": {
+      "rc": "High",
+      "idx": 64.2,
+      "hpct": 12.0,
+      "esal": 1489.5
+    },
+    "C983_Link02": {
+      "rc": "High",
+      "idx": 61.5,
+      "hpct": 12.0,
+      "esal": 1427.4
+    },
+    "C981_Link01": {
+      "rc": "Medium",
+      "idx": 32.1,
+      "hpct": 12.0,
+      "esal": 744.8
+    },
+    "C947_Link01": {
+      "rc": "High",
+      "idx": 51.6,
+      "hpct": 12.0,
+      "esal": 1556.4
+    },
+    "A007_Link05": {
+      "rc": "Critical",
+      "idx": 72.1,
+      "hpct": 22.0,
+      "esal": 2604.8
+    },
+    "C991_Link01": {
+      "rc": "High",
+      "idx": 63.9,
+      "hpct": 12.0,
+      "esal": 1483.0
+    },
+    "C982_Link01": {
+      "rc": "High",
+      "idx": 61.5,
+      "hpct": 12.0,
+      "esal": 1427.4
+    },
+    "C975_Link01": {
+      "rc": "High",
+      "idx": 63.2,
+      "hpct": 12.0,
+      "esal": 1466.9
+    },
+    "C962_Link01": {
+      "rc": "High",
+      "idx": 62.6,
+      "hpct": 12.0,
+      "esal": 1453.0
+    },
+    "C972_Link01": {
+      "rc": "High",
+      "idx": 63.7,
+      "hpct": 12.0,
+      "esal": 1477.8
+    },
+    "B250_Link03": {
+      "rc": "High",
+      "idx": 68.9,
+      "hpct": 16.0,
+      "esal": 1916.3
+    },
+    "A006_Link12": {
+      "rc": "Critical",
+      "idx": 74.7,
+      "hpct": 22.0,
+      "esal": 2700.2
+    },
+    "B252_Link04": {
+      "rc": "High",
+      "idx": 53.9,
+      "hpct": 16.0,
+      "esal": 1948.8
+    },
+    "A008_Link06": {
+      "rc": "Critical",
+      "idx": 74.7,
+      "hpct": 22.0,
+      "esal": 2701.0
+    },
+    "A007_Link07": {
+      "rc": "Critical",
+      "idx": 73.2,
+      "hpct": 22.0,
+      "esal": 2645.4
+    },
+    "A008_Link01": {
+      "rc": "Critical",
+      "idx": 73.3,
+      "hpct": 22.0,
+      "esal": 2648.6
+    },
+    "B253_Link02": {
+      "rc": "High",
+      "idx": 68.0,
+      "hpct": 16.0,
+      "esal": 1892.6
+    },
+    "A006_Link10": {
+      "rc": "Critical",
+      "idx": 71.7,
+      "hpct": 22.0,
+      "esal": 2589.7
+    },
+    "B250_Link01": {
+      "rc": "High",
+      "idx": 68.9,
+      "hpct": 16.0,
+      "esal": 1916.3
+    },
+    "A008_Link04": {
+      "rc": "Critical",
+      "idx": 74.4,
+      "hpct": 22.0,
+      "esal": 2689.9
+    },
+    "A007_Link10": {
+      "rc": "Critical",
+      "idx": 70.5,
+      "hpct": 22.0,
+      "esal": 2548.4
+    },
+    "A006_Link13": {
+      "rc": "Critical",
+      "idx": 71.7,
+      "hpct": 22.0,
+      "esal": 2589.7
+    },
+    "B252_Link05": {
+      "rc": "High",
+      "idx": 54.9,
+      "hpct": 16.0,
+      "esal": 1986.9
+    },
+    "B251_Link01": {
+      "rc": "High",
+      "idx": 55.3,
+      "hpct": 16.0,
+      "esal": 1999.1
+    },
+    "A008_Link02": {
+      "rc": "Critical",
+      "idx": 73.3,
+      "hpct": 22.0,
+      "esal": 2649.4
+    },
+    "A008_Link07": {
+      "rc": "Critical",
+      "idx": 73.9,
+      "hpct": 22.0,
+      "esal": 2672.4
+    },
+    "A007_Link08": {
+      "rc": "Critical",
+      "idx": 72.4,
+      "hpct": 22.0,
+      "esal": 2616.0
+    },
+    "B253_Link03": {
+      "rc": "High",
+      "idx": 65.0,
+      "hpct": 16.0,
+      "esal": 1807.6
+    },
+    "B250_Link02": {
+      "rc": "High",
+      "idx": 68.9,
+      "hpct": 16.0,
+      "esal": 1916.3
+    },
+    "A006_Link11": {
+      "rc": "Critical",
+      "idx": 70.3,
+      "hpct": 22.0,
+      "esal": 2541.2
+    },
+    "B252_Link03": {
+      "rc": "High",
+      "idx": 55.4,
+      "hpct": 16.0,
+      "esal": 2004.3
+    },
+    "A006_Link09": {
+      "rc": "Medium",
+      "idx": 35.2,
+      "hpct": 22.0,
+      "esal": 1272.2
+    },
+    "B252_Link02": {
+      "rc": "High",
+      "idx": 68.0,
+      "hpct": 16.0,
+      "esal": 1890.3
+    },
+    "A008_Link03": {
+      "rc": "Medium",
+      "idx": 34.6,
+      "hpct": 22.0,
+      "esal": 1252.3
+    },
+    "B302_Link02": {
+      "rc": "High",
+      "idx": 67.9,
+      "hpct": 16.0,
+      "esal": 1889.2
+    },
+    "A007_Link09": {
+      "rc": "Critical",
+      "idx": 70.7,
+      "hpct": 22.0,
+      "esal": 2555.5
+    },
+    "C660_Link01": {
+      "rc": "High",
+      "idx": 62.5,
+      "hpct": 12.0,
+      "esal": 1450.4
+    },
+    "C746_Link01": {
+      "rc": "High",
+      "idx": 59.8,
+      "hpct": 12.0,
+      "esal": 1387.0
+    },
+    "C687_Link01": {
+      "rc": "High",
+      "idx": 61.8,
+      "hpct": 12.0,
+      "esal": 1433.9
+    },
+    "C653_Link01": {
+      "rc": "High",
+      "idx": 62.3,
+      "hpct": 12.0,
+      "esal": 1445.7
+    },
+    "C767_Link01": {
+      "rc": "High",
+      "idx": 62.6,
+      "hpct": 12.0,
+      "esal": 1451.7
+    },
+    "C742_Link01": {
+      "rc": "High",
+      "idx": 62.5,
+      "hpct": 12.0,
+      "esal": 1450.9
+    },
+    "C684_Link01": {
+      "rc": "High",
+      "idx": 51.8,
+      "hpct": 12.0,
+      "esal": 1562.0
+    },
+    "C673_Link01": {
+      "rc": "High",
+      "idx": 61.6,
+      "hpct": 12.0,
+      "esal": 1429.6
+    },
+    "C763_Link02": {
+      "rc": "Medium",
+      "idx": 48.8,
+      "hpct": 12.0,
+      "esal": 1470.4
+    },
+    "C720_Link01": {
+      "rc": "High",
+      "idx": 63.6,
+      "hpct": 12.0,
+      "esal": 1476.5
+    },
+    "C677_Link02": {
+      "rc": "Medium",
+      "idx": 46.9,
+      "hpct": 12.0,
+      "esal": 1413.5
+    },
+    "C666_Link01": {
+      "rc": "High",
+      "idx": 59.8,
+      "hpct": 12.0,
+      "esal": 1386.2
+    },
+    "C680_Link02": {
+      "rc": "Medium",
+      "idx": 46.9,
+      "hpct": 12.0,
+      "esal": 1413.5
+    },
+    "C670_Link01": {
+      "rc": "High",
+      "idx": 64.2,
+      "hpct": 12.0,
+      "esal": 1489.1
+    },
+    "C759_Link01": {
+      "rc": "High",
+      "idx": 60.5,
+      "hpct": 12.0,
+      "esal": 1403.1
+    },
+    "C704_Link01": {
+      "rc": "High",
+      "idx": 62.9,
+      "hpct": 12.0,
+      "esal": 1458.7
+    },
+    "C707_Link01": {
+      "rc": "High",
+      "idx": 62.1,
+      "hpct": 12.0,
+      "esal": 1440.9
+    },
+    "C662_Link01": {
+      "rc": "High",
+      "idx": 59.4,
+      "hpct": 12.0,
+      "esal": 1378.8
+    },
+    "C749_Link01": {
+      "rc": "High",
+      "idx": 62.6,
+      "hpct": 12.0,
+      "esal": 1452.6
+    },
+    "C755_Link01": {
+      "rc": "High",
+      "idx": 63.3,
+      "hpct": 12.0,
+      "esal": 1469.1
+    },
+    "C700_Link01": {
+      "rc": "High",
+      "idx": 63.3,
+      "hpct": 12.0,
+      "esal": 1468.7
+    },
+    "C658_Link01": {
+      "rc": "High",
+      "idx": 63.0,
+      "hpct": 12.0,
+      "esal": 1462.6
+    },
+    "C744_Link01": {
+      "rc": "High",
+      "idx": 53.0,
+      "hpct": 12.0,
+      "esal": 1597.7
+    },
+    "C686_Link02": {
+      "rc": "Medium",
+      "idx": 46.3,
+      "hpct": 12.0,
+      "esal": 1395.7
+    },
+    "C674_Link02": {
+      "rc": "Medium",
+      "idx": 49.5,
+      "hpct": 12.0,
+      "esal": 1493.9
+    },
+    "C651_Link01": {
+      "rc": "High",
+      "idx": 62.3,
+      "hpct": 12.0,
+      "esal": 1444.8
+    },
+    "C689_Link01": {
+      "rc": "High",
+      "idx": 63.3,
+      "hpct": 12.0,
+      "esal": 1468.2
+    },
+    "C654_Link02": {
+      "rc": "Medium",
+      "idx": 48.1,
+      "hpct": 12.0,
+      "esal": 1451.3
+    },
+    "C740_Link01": {
+      "rc": "High",
+      "idx": 60.4,
+      "hpct": 12.0,
+      "esal": 1401.4
+    },
+    "C682_Link01": {
+      "rc": "High",
+      "idx": 63.3,
+      "hpct": 12.0,
+      "esal": 1468.7
+    },
+    "C672_Link01": {
+      "rc": "High",
+      "idx": 62.2,
+      "hpct": 12.0,
+      "esal": 1442.2
+    },
+    "C762_Link01": {
+      "rc": "High",
+      "idx": 62.5,
+      "hpct": 12.0,
+      "esal": 1450.9
+    },
+    "C706_Link01": {
+      "rc": "High",
+      "idx": 62.7,
+      "hpct": 12.0,
+      "esal": 1454.8
+    },
+    "C710_Link01": {
+      "rc": "High",
+      "idx": 60.9,
+      "hpct": 12.0,
+      "esal": 1412.2
+    },
+    "C765_Link01": {
+      "rc": "High",
+      "idx": 61.8,
+      "hpct": 12.0,
+      "esal": 1433.9
+    },
+    "C723_Link01": {
+      "rc": "High",
+      "idx": 62.6,
+      "hpct": 12.0,
+      "esal": 1451.7
+    },
+    "C678_Link02": {
+      "rc": "Medium",
+      "idx": 46.2,
+      "hpct": 12.0,
+      "esal": 1391.8
+    },
+    "C667_Link02": {
+      "rc": "High",
+      "idx": 62.5,
+      "hpct": 12.0,
+      "esal": 1449.1
+    },
+    "C758_Link01": {
+      "rc": "High",
+      "idx": 63.3,
+      "hpct": 12.0,
+      "esal": 1469.1
+    },
+    "C702_Link01": {
+      "rc": "High",
+      "idx": 62.5,
+      "hpct": 12.0,
+      "esal": 1450.9
+    },
+    "C661_Link01": {
+      "rc": "High",
+      "idx": 62.8,
+      "hpct": 12.0,
+      "esal": 1457.8
+    },
+    "C676_Link01": {
+      "rc": "High",
+      "idx": 60.0,
+      "hpct": 12.0,
+      "esal": 1392.7
+    },
+    "C752_Link01": {
+      "rc": "High",
+      "idx": 63.3,
+      "hpct": 12.0,
+      "esal": 1469.1
+    },
+    "C692_Link01": {
+      "rc": "High",
+      "idx": 61.8,
+      "hpct": 12.0,
+      "esal": 1432.6
+    },
+    "C656_Link02": {
+      "rc": "Medium",
+      "idx": 49.4,
+      "hpct": 12.0,
+      "esal": 1490.4
+    },
+    "C743_Link01": {
+      "rc": "High",
+      "idx": 63.3,
+      "hpct": 12.0,
+      "esal": 1468.7
+    },
+    "C747_Link01": {
+      "rc": "High",
+      "idx": 62.7,
+      "hpct": 12.0,
+      "esal": 1455.7
+    },
+    "C688_Link01": {
+      "rc": "High",
+      "idx": 63.2,
+      "hpct": 12.0,
+      "esal": 1466.9
+    },
+    "C653_Link02": {
+      "rc": "Medium",
+      "idx": 47.4,
+      "hpct": 12.0,
+      "esal": 1430.9
+    },
+    "C768_Link01": {
+      "rc": "High",
+      "idx": 63.6,
+      "hpct": 12.0,
+      "esal": 1476.5
+    },
+    "C726_Link01": {
+      "rc": "High",
+      "idx": 60.4,
+      "hpct": 12.0,
+      "esal": 1401.4
+    },
+    "C681_Link01": {
+      "rc": "Medium",
+      "idx": 49.3,
+      "hpct": 12.0,
+      "esal": 1486.5
+    },
+    "C685_Link01": {
+      "rc": "High",
+      "idx": 59.8,
+      "hpct": 12.0,
+      "esal": 1386.2
+    },
+    "C673_Link02": {
+      "rc": "Medium",
+      "idx": 48.5,
+      "hpct": 12.0,
+      "esal": 1463.5
+    },
+    "C721_Link01": {
+      "rc": "High",
+      "idx": 61.3,
+      "hpct": 12.0,
+      "esal": 1422.2
+    },
+    "C666_Link02": {
+      "rc": "Medium",
+      "idx": 47.9,
+      "hpct": 12.0,
+      "esal": 1445.2
+    },
+    "C756_Link01": {
+      "rc": "High",
+      "idx": 60.2,
+      "hpct": 12.0,
+      "esal": 1395.7
+    },
+    "C760_Link01": {
+      "rc": "High",
+      "idx": 63.2,
+      "hpct": 12.0,
+      "esal": 1465.2
+    },
+    "C705_Link01": {
+      "rc": "High",
+      "idx": 62.7,
+      "hpct": 12.0,
+      "esal": 1454.3
+    },
+    "C708_Link01": {
+      "rc": "High",
+      "idx": 60.4,
+      "hpct": 12.0,
+      "esal": 1401.8
+    },
+    "C663_Link01": {
+      "rc": "High",
+      "idx": 61.8,
+      "hpct": 12.0,
+      "esal": 1432.6
+    },
+    "C750_Link01": {
+      "rc": "High",
+      "idx": 62.7,
+      "hpct": 12.0,
+      "esal": 1453.5
+    },
+    "C690_Link01": {
+      "rc": "High",
+      "idx": 62.7,
+      "hpct": 12.0,
+      "esal": 1455.7
+    },
+    "C659_Link01": {
+      "rc": "High",
+      "idx": 62.3,
+      "hpct": 12.0,
+      "esal": 1446.1
+    },
+    "C745_Link01": {
+      "rc": "Low",
+      "idx": 24.8,
+      "hpct": 12.0,
+      "esal": 575.0
+    },
+    "C686_Link03": {
+      "rc": "Medium",
+      "idx": 48.1,
+      "hpct": 12.0,
+      "esal": 1450.9
+    },
+    "C652_Link01": {
+      "rc": "High",
+      "idx": 64.7,
+      "hpct": 12.0,
+      "esal": 1501.7
+    },
+    "C766_Link01": {
+      "rc": "High",
+      "idx": 63.6,
+      "hpct": 12.0,
+      "esal": 1476.5
+    },
+    "C655_Link01": {
+      "rc": "High",
+      "idx": 62.3,
+      "hpct": 12.0,
+      "esal": 1445.2
+    },
+    "C741_Link01": {
+      "rc": "High",
+      "idx": 63.3,
+      "hpct": 12.0,
+      "esal": 1468.7
+    },
+    "C683_Link01": {
+      "rc": "High",
+      "idx": 51.8,
+      "hpct": 12.0,
+      "esal": 1562.0
+    },
+    "C672_Link02": {
+      "rc": "Medium",
+      "idx": 48.7,
+      "hpct": 12.0,
+      "esal": 1469.1
+    },
+    "C706_Link02": {
+      "rc": "Medium",
+      "idx": 48.7,
+      "hpct": 12.0,
+      "esal": 1467.8
+    },
+    "C711_Link01": {
+      "rc": "High",
+      "idx": 62.1,
+      "hpct": 12.0,
+      "esal": 1440.9
+    },
+    "C677_Link01": {
+      "rc": "High",
+      "idx": 60.8,
+      "hpct": 12.0,
+      "esal": 1411.4
+    },
+    "C680_Link01": {
+      "rc": "High",
+      "idx": 62.3,
+      "hpct": 12.0,
+      "esal": 1445.2
+    },
+    "C669_Link01": {
+      "rc": "High",
+      "idx": 51.5,
+      "hpct": 12.0,
+      "esal": 1552.5
+    },
+    "C758_Link02": {
+      "rc": "Medium",
+      "idx": 48.1,
+      "hpct": 12.0,
+      "esal": 1451.3
+    },
+    "C703_Link01": {
+      "rc": "High",
+      "idx": 62.9,
+      "hpct": 12.0,
+      "esal": 1460.0
+    },
+    "C661_Link02": {
+      "rc": "High",
+      "idx": 62.2,
+      "hpct": 12.0,
+      "esal": 1442.2
+    },
+    "C753_Link01": {
+      "rc": "High",
+      "idx": 62.6,
+      "hpct": 12.0,
+      "esal": 1451.7
+    },
+    "C693_Link01": {
+      "rc": "High",
+      "idx": 61.8,
+      "hpct": 12.0,
+      "esal": 1434.4
+    },
+    "C657_Link01": {
+      "rc": "High",
+      "idx": 64.2,
+      "hpct": 12.0,
+      "esal": 1489.5
+    },
+    "C743_Link02": {
+      "rc": "Medium",
+      "idx": 46.5,
+      "hpct": 12.0,
+      "esal": 1403.1
+    },
+    "C686_Link01": {
+      "rc": "Low",
+      "idx": 19.2,
+      "hpct": 12.0,
+      "esal": 446.0
+    },
+    "C674_Link01": {
+      "rc": "High",
+      "idx": 61.5,
+      "hpct": 12.0,
+      "esal": 1426.1
+    },
+    "C748_Link01": {
+      "rc": "High",
+      "idx": 61.9,
+      "hpct": 12.0,
+      "esal": 1437.0
+    },
+    "C688_Link02": {
+      "rc": "Medium",
+      "idx": 48.7,
+      "hpct": 12.0,
+      "esal": 1468.7
+    },
+    "C654_Link01": {
+      "rc": "High",
+      "idx": 60.5,
+      "hpct": 12.0,
+      "esal": 1403.5
+    },
+    "C727_Link01": {
+      "rc": "High",
+      "idx": 63.3,
+      "hpct": 12.0,
+      "esal": 1468.2
+    },
+    "C681_Link02": {
+      "rc": "Medium",
+      "idx": 49.2,
+      "hpct": 12.0,
+      "esal": 1484.7
+    },
+    "C671_Link01": {
+      "rc": "High",
+      "idx": 61.1,
+      "hpct": 12.0,
+      "esal": 1416.6
+    },
+    "C761_Link01": {
+      "rc": "High",
+      "idx": 63.1,
+      "hpct": 12.0,
+      "esal": 1463.9
+    },
+    "C650_Link01": {
+      "rc": "Medium",
+      "idx": 30.2,
+      "hpct": 12.0,
+      "esal": 701.3
+    },
+    "C764_Link01": {
+      "rc": "High",
+      "idx": 62.5,
+      "hpct": 12.0,
+      "esal": 1450.9
+    },
+    "C722_Link01": {
+      "rc": "High",
+      "idx": 63.3,
+      "hpct": 12.0,
+      "esal": 1468.7
+    },
+    "C678_Link01": {
+      "rc": "Low",
+      "idx": 27.5,
+      "hpct": 12.0,
+      "esal": 638.8
+    },
+    "C667_Link01": {
+      "rc": "High",
+      "idx": 60.9,
+      "hpct": 12.0,
+      "esal": 1412.2
+    },
+    "C757_Link01": {
+      "rc": "High",
+      "idx": 60.4,
+      "hpct": 12.0,
+      "esal": 1400.5
+    },
+    "C701_Link01": {
+      "rc": "High",
+      "idx": 62.9,
+      "hpct": 12.0,
+      "esal": 1460.0
+    },
+    "C705_Link02": {
+      "rc": "Medium",
+      "idx": 47.8,
+      "hpct": 12.0,
+      "esal": 1442.2
+    },
+    "C709_Link01": {
+      "rc": "High",
+      "idx": 60.0,
+      "hpct": 12.0,
+      "esal": 1392.7
+    },
+    "C664_Link01": {
+      "rc": "High",
+      "idx": 61.8,
+      "hpct": 12.0,
+      "esal": 1432.6
+    },
+    "C751_Link01": {
+      "rc": "High",
+      "idx": 63.4,
+      "hpct": 12.0,
+      "esal": 1470.8
+    },
+    "C691_Link01": {
+      "rc": "High",
+      "idx": 61.8,
+      "hpct": 12.0,
+      "esal": 1432.6
+    },
+    "C656_Link01": {
+      "rc": "High",
+      "idx": 61.7,
+      "hpct": 12.0,
+      "esal": 1430.9
+    },
+    "C998_Link01": {
+      "rc": "High",
+      "idx": 64.4,
+      "hpct": 12.0,
+      "esal": 1493.0
+    },
+    "C997_Link01": {
+      "rc": "High",
+      "idx": 64.7,
+      "hpct": 12.0,
+      "esal": 1501.7
+    },
+    "C996_Link01": {
+      "rc": "High",
+      "idx": 63.3,
+      "hpct": 12.0,
+      "esal": 1467.8
+    },
+    "C994_Link01": {
+      "rc": "High",
+      "idx": 61.4,
+      "hpct": 12.0,
+      "esal": 1423.9
+    },
+    "C941_Link02": {
+      "rc": "Medium",
+      "idx": 49.3,
+      "hpct": 12.0,
+      "esal": 1488.2
+    },
+    "C999_Link01": {
+      "rc": "High",
+      "idx": 64.3,
+      "hpct": 12.0,
+      "esal": 1491.3
+    },
+    "C998_Link02": {
+      "rc": "Medium",
+      "idx": 49.7,
+      "hpct": 12.0,
+      "esal": 1497.3
+    },
+    "C694_Link01": {
+      "rc": "High",
+      "idx": 63.3,
+      "hpct": 12.0,
+      "esal": 1469.1
+    },
+    "C769_Link01": {
+      "rc": "High",
+      "idx": 62.6,
+      "hpct": 12.0,
+      "esal": 1451.7
+    },
+    "A008_Link05": {
+      "rc": "Critical",
+      "idx": 73.6,
+      "hpct": 22.0,
+      "esal": 2661.3
+    },
+    "B252_Link01": {
+      "rc": "High",
+      "idx": 64.9,
+      "hpct": 16.0,
+      "esal": 1805.8
+    },
+    "C675_Link02": {
+      "rc": "Medium",
+      "idx": 48.4,
+      "hpct": 12.0,
+      "esal": 1458.3
+    },
+    "C675_Link01": {
+      "rc": "High",
+      "idx": 61.6,
+      "hpct": 12.0,
+      "esal": 1430.0
+    },
+    "C665_Link02": {
+      "rc": "Medium",
+      "idx": 47.4,
+      "hpct": 12.0,
+      "esal": 1428.7
+    },
+    "C700_Link02": {
+      "rc": "Medium",
+      "idx": 45.8,
+      "hpct": 12.0,
+      "esal": 1380.5
+    },
+    "C725_Link01": {
+      "rc": "High",
+      "idx": 63.6,
+      "hpct": 12.0,
+      "esal": 1476.1
+    },
+    "C725_Link02": {
+      "rc": "Medium",
+      "idx": 48.1,
+      "hpct": 12.0,
+      "esal": 1450.0
+    },
+    "C762_Link02": {
+      "rc": "Medium",
+      "idx": 48.7,
+      "hpct": 12.0,
+      "esal": 1469.1
+    },
+    "C763_Link01": {
+      "rc": "High",
+      "idx": 62.6,
+      "hpct": 12.0,
+      "esal": 1452.6
+    },
+    "C668_Link01": {
+      "rc": "High",
+      "idx": 53.8,
+      "hpct": 12.0,
+      "esal": 1622.4
+    },
+    "C679_Link01": {
+      "rc": "High",
+      "idx": 51.5,
+      "hpct": 12.0,
+      "esal": 1552.5
+    },
+    "C728_Link01": {
+      "rc": "High",
+      "idx": 63.3,
+      "hpct": 12.0,
+      "esal": 1468.7
+    },
+    "C665_Link01": {
+      "rc": "High",
+      "idx": 62.5,
+      "hpct": 12.0,
+      "esal": 1449.6
+    },
+    "C649_Link01": {
+      "rc": "High",
+      "idx": 51.5,
+      "hpct": 12.0,
+      "esal": 1552.5
+    },
+    "B150_Link02": {
+      "rc": "Low",
+      "idx": 23.1,
+      "hpct": 16.0,
+      "esal": 835.5
+    },
+    "C354_Link01": {
+      "rc": "Low",
+      "idx": 24.0,
+      "hpct": 12.0,
+      "esal": 723.0
+    },
+    "C383_Link01": {
+      "rc": "Low",
+      "idx": 24.0,
+      "hpct": 12.0,
+      "esal": 723.9
+    },
+    "A002_Link11": {
+      "rc": "Medium",
+      "idx": 36.4,
+      "hpct": 22.0,
+      "esal": 1314.3
+    },
+    "C422_Link01": {
+      "rc": "Low",
+      "idx": 28.8,
+      "hpct": 12.0,
+      "esal": 668.8
+    },
+    "C373_Link01": {
+      "rc": "Low",
+      "idx": 28.8,
+      "hpct": 12.0,
+      "esal": 669.2
+    },
+    "C377_Link01": {
+      "rc": "Low",
+      "idx": 28.8,
+      "hpct": 12.0,
+      "esal": 668.3
+    },
+    "A002_Link10": {
+      "rc": "Medium",
+      "idx": 32.8,
+      "hpct": 22.0,
+      "esal": 1186.3
+    },
+    "C367_Link01": {
+      "rc": "Low",
+      "idx": 26.0,
+      "hpct": 12.0,
+      "esal": 602.3
+    },
+    "C418_Link01": {
+      "rc": "Low",
+      "idx": 29.5,
+      "hpct": 12.0,
+      "esal": 684.4
+    },
+    "B152_Link03": {
+      "rc": "Low",
+      "idx": 22.8,
+      "hpct": 16.0,
+      "esal": 824.5
+    },
+    "C358_Link02": {
+      "rc": "Low",
+      "idx": 25.4,
+      "hpct": 12.0,
+      "esal": 588.4
+    },
+    "C363_Link01": {
+      "rc": "Low",
+      "idx": 24.8,
+      "hpct": 12.0,
+      "esal": 575.0
+    },
+    "C416_Link01": {
+      "rc": "Low",
+      "idx": 22.4,
+      "hpct": 12.0,
+      "esal": 674.4
+    },
+    "A002_Link09": {
+      "rc": "Medium",
+      "idx": 36.7,
+      "hpct": 22.0,
+      "esal": 1326.3
+    },
+    "B151_Link01": {
+      "rc": "Low",
+      "idx": 26.8,
+      "hpct": 16.0,
+      "esal": 967.4
+    },
+    "C356_Link01": {
+      "rc": "Low",
+      "idx": 20.8,
+      "hpct": 12.0,
+      "esal": 628.4
+    },
+    "C386_Link01": {
+      "rc": "Low",
+      "idx": 29.0,
+      "hpct": 12.0,
+      "esal": 672.2
+    },
+    "C412_Link01": {
+      "rc": "Low",
+      "idx": 24.3,
+      "hpct": 12.0,
+      "esal": 732.6
+    },
+    "C352_Link01": {
+      "rc": "Low",
+      "idx": 26.8,
+      "hpct": 12.0,
+      "esal": 620.6
+    },
+    "C380_Link01": {
+      "rc": "Low",
+      "idx": 28.5,
+      "hpct": 12.0,
+      "esal": 660.9
+    },
+    "C370_Link01": {
+      "rc": "Low",
+      "idx": 28.8,
+      "hpct": 12.0,
+      "esal": 668.3
+    },
+    "C420_Link01": {
+      "rc": "Low",
+      "idx": 24.3,
+      "hpct": 12.0,
+      "esal": 732.2
+    },
+    "C350_Link01": {
+      "rc": "Low",
+      "idx": 21.8,
+      "hpct": 12.0,
+      "esal": 657.5
+    },
+    "C375_Link01": {
+      "rc": "Low",
+      "idx": 28.5,
+      "hpct": 12.0,
+      "esal": 660.9
+    },
+    "C365_Link02": {
+      "rc": "Low",
+      "idx": 28.6,
+      "hpct": 12.0,
+      "esal": 663.6
+    },
+    "C417_Link02": {
+      "rc": "Low",
+      "idx": 23.8,
+      "hpct": 12.0,
+      "esal": 718.7
+    },
+    "C372_Link01": {
+      "rc": "Low",
+      "idx": 28.7,
+      "hpct": 12.0,
+      "esal": 666.2
+    },
+    "B153_Link02": {
+      "rc": "Low",
+      "idx": 23.0,
+      "hpct": 16.0,
+      "esal": 830.3
+    },
+    "C360_Link02": {
+      "rc": "Low",
+      "idx": 24.8,
+      "hpct": 12.0,
+      "esal": 575.8
+    },
+    "C415_Link01": {
+      "rc": "Low",
+      "idx": 28.5,
+      "hpct": 12.0,
+      "esal": 661.4
+    },
+    "A002_Link08": {
+      "rc": "Medium",
+      "idx": 32.3,
+      "hpct": 22.0,
+      "esal": 1166.4
+    },
+    "B150_Link03": {
+      "rc": "Low",
+      "idx": 10.9,
+      "hpct": 16.0,
+      "esal": 392.9
+    },
+    "B152_Link01": {
+      "rc": "Low",
+      "idx": 26.7,
+      "hpct": 16.0,
+      "esal": 964.5
+    },
+    "C357_Link02": {
+      "rc": "Low",
+      "idx": 25.0,
+      "hpct": 12.0,
+      "esal": 581.0
+    },
+    "C410_Link02": {
+      "rc": "Low",
+      "idx": 23.9,
+      "hpct": 12.0,
+      "esal": 722.2
+    },
+    "C355_Link01": {
+      "rc": "Low",
+      "idx": 20.4,
+      "hpct": 12.0,
+      "esal": 614.5
+    },
+    "C384_Link01": {
+      "rc": "Low",
+      "idx": 28.8,
+      "hpct": 12.0,
+      "esal": 668.3
+    },
+    "A002_Link07": {
+      "rc": "Medium",
+      "idx": 32.3,
+      "hpct": 22.0,
+      "esal": 1166.4
+    },
+    "C373_Link02": {
+      "rc": "Low",
+      "idx": 28.5,
+      "hpct": 12.0,
+      "esal": 661.4
+    },
+    "C364_Link01": {
+      "rc": "Low",
+      "idx": 26.0,
+      "hpct": 12.0,
+      "esal": 603.2
+    },
+    "C368_Link01": {
+      "rc": "Low",
+      "idx": 28.5,
+      "hpct": 12.0,
+      "esal": 661.4
+    },
+    "C419_Link01": {
+      "rc": "Low",
+      "idx": 26.5,
+      "hpct": 12.0,
+      "esal": 615.8
+    },
+    "C370_Link02": {
+      "rc": "Low",
+      "idx": 26.8,
+      "hpct": 12.0,
+      "esal": 620.6
+    },
+    "B152_Link04": {
+      "rc": "Low",
+      "idx": 22.8,
+      "hpct": 16.0,
+      "esal": 825.1
+    },
+    "C359_Link01": {
+      "rc": "Low",
+      "idx": 26.0,
+      "hpct": 12.0,
+      "esal": 602.3
+    },
+    "C413_Link01": {
+      "rc": "Low",
+      "idx": 26.9,
+      "hpct": 12.0,
+      "esal": 623.2
+    },
+    "C416_Link02": {
+      "rc": "Low",
+      "idx": 25.0,
+      "hpct": 12.0,
+      "esal": 579.3
+    },
+    "B151_Link02": {
+      "rc": "Low",
+      "idx": 24.5,
+      "hpct": 16.0,
+      "esal": 885.8
+    },
+    "C356_Link02": {
+      "rc": "Low",
+      "idx": 26.5,
+      "hpct": 12.0,
+      "esal": 615.8
+    },
+    "C387_Link01": {
+      "rc": "Low",
+      "idx": 28.6,
+      "hpct": 12.0,
+      "esal": 663.6
+    },
+    "B150_Link01": {
+      "rc": "Low",
+      "idx": 26.2,
+      "hpct": 16.0,
+      "esal": 946.6
+    },
+    "C353_Link01": {
+      "rc": "Low",
+      "idx": 28.8,
+      "hpct": 12.0,
+      "esal": 669.2
+    },
+    "C382_Link01": {
+      "rc": "Low",
+      "idx": 28.6,
+      "hpct": 12.0,
+      "esal": 663.1
+    },
+    "C421_Link01": {
+      "rc": "Low",
+      "idx": 25.4,
+      "hpct": 12.0,
+      "esal": 588.4
+    },
+    "C372_Link02": {
+      "rc": "Low",
+      "idx": 26.8,
+      "hpct": 12.0,
+      "esal": 620.6
+    },
+    "C350_Link02": {
+      "rc": "Low",
+      "idx": 23.4,
+      "hpct": 12.0,
+      "esal": 706.1
+    },
+    "C376_Link01": {
+      "rc": "Low",
+      "idx": 28.5,
+      "hpct": 12.0,
+      "esal": 661.4
+    },
+    "C366_Link01": {
+      "rc": "Low",
+      "idx": 28.5,
+      "hpct": 12.0,
+      "esal": 661.4
+    },
+    "C417_Link03": {
+      "rc": "Low",
+      "idx": 24.1,
+      "hpct": 12.0,
+      "esal": 727.0
+    },
+    "B153_Link03": {
+      "rc": "Low",
+      "idx": 26.9,
+      "hpct": 16.0,
+      "esal": 972.1
+    },
+    "C361_Link01": {
+      "rc": "Low",
+      "idx": 28.8,
+      "hpct": 12.0,
+      "esal": 667.0
+    },
+    "C415_Link02": {
+      "rc": "Low",
+      "idx": 28.8,
+      "hpct": 12.0,
+      "esal": 669.2
+    },
+    "C355_Link02": {
+      "rc": "Low",
+      "idx": 20.4,
+      "hpct": 12.0,
+      "esal": 614.5
+    },
+    "C385_Link01": {
+      "rc": "Low",
+      "idx": 28.8,
+      "hpct": 12.0,
+      "esal": 668.3
+    },
+    "B152_Link02": {
+      "rc": "Low",
+      "idx": 23.0,
+      "hpct": 16.0,
+      "esal": 830.3
+    },
+    "C358_Link01": {
+      "rc": "Low",
+      "idx": 28.8,
+      "hpct": 12.0,
+      "esal": 668.3
+    },
+    "C411_Link01": {
+      "rc": "Low",
+      "idx": 26.2,
+      "hpct": 12.0,
+      "esal": 608.8
+    },
+    "C379_Link01": {
+      "rc": "Low",
+      "idx": 29.1,
+      "hpct": 12.0,
+      "esal": 674.8
+    },
+    "A005_Link14": {
+      "rc": "Medium",
+      "idx": 36.4,
+      "hpct": 22.0,
+      "esal": 1314.3
+    },
+    "C228_Link02": {
+      "rc": "Low",
+      "idx": 26.5,
+      "hpct": 12.0,
+      "esal": 615.8
+    },
+    "C374_Link01": {
+      "rc": "Low",
+      "idx": 24.0,
+      "hpct": 12.0,
+      "esal": 723.0
+    },
+    "A005_Link13": {
+      "rc": "Medium",
+      "idx": 36.8,
+      "hpct": 22.0,
+      "esal": 1329.4
+    },
+    "C365_Link01": {
+      "rc": "Low",
+      "idx": 24.8,
+      "hpct": 12.0,
+      "esal": 575.4
+    },
+    "C417_Link01": {
+      "rc": "Low",
+      "idx": 24.2,
+      "hpct": 12.0,
+      "esal": 729.1
+    },
+    "C369_Link01": {
+      "rc": "Low",
+      "idx": 28.7,
+      "hpct": 12.0,
+      "esal": 664.9
+    },
+    "C419_Link02": {
+      "rc": "Low",
+      "idx": 23.7,
+      "hpct": 12.0,
+      "esal": 713.9
+    },
+    "C371_Link01": {
+      "rc": "Low",
+      "idx": 26.8,
+      "hpct": 12.0,
+      "esal": 620.6
+    },
+    "A005_Link12": {
+      "rc": "Medium",
+      "idx": 36.1,
+      "hpct": 22.0,
+      "esal": 1305.6
+    },
+    "B153_Link01": {
+      "rc": "Low",
+      "idx": 23.0,
+      "hpct": 16.0,
+      "esal": 831.5
+    },
+    "C359_Link02": {
+      "rc": "Low",
+      "idx": 28.8,
+      "hpct": 12.0,
+      "esal": 668.3
+    },
+    "C414_Link01": {
+      "rc": "Low",
+      "idx": 26.2,
+      "hpct": 12.0,
+      "esal": 608.8
+    },
+    "B151_Link03": {
+      "rc": "Low",
+      "idx": 24.4,
+      "hpct": 16.0,
+      "esal": 881.8
+    },
+    "C357_Link01": {
+      "rc": "Low",
+      "idx": 26.0,
+      "hpct": 12.0,
+      "esal": 603.2
+    },
+    "C410_Link01": {
+      "rc": "Low",
+      "idx": 23.8,
+      "hpct": 12.0,
+      "esal": 718.3
+    },
+    "C449_Link01": {
+      "rc": "Low",
+      "idx": 25.0,
+      "hpct": 12.0,
+      "esal": 579.3
+    },
+    "C574_Link01": {
+      "rc": "Low",
+      "idx": 29.8,
+      "hpct": 12.0,
+      "esal": 691.3
+    },
+    "C448_Link01": {
+      "rc": "Low",
+      "idx": 29.5,
+      "hpct": 12.0,
+      "esal": 683.5
+    },
+    "C447_Link01": {
+      "rc": "Low",
+      "idx": 26.1,
+      "hpct": 12.0,
+      "esal": 605.8
+    },
+    "C446_Link01": {
+      "rc": "Low",
+      "idx": 23.9,
+      "hpct": 12.0,
+      "esal": 722.2
+    },
+    "C445_Link04": {
+      "rc": "Low",
+      "idx": 28.8,
+      "hpct": 12.0,
+      "esal": 667.9
+    },
+    "C552_Link01": {
+      "rc": "Low",
+      "idx": 29.1,
+      "hpct": 12.0,
+      "esal": 674.8
+    },
+    "C445_Link01": {
+      "rc": "Low",
+      "idx": 29.5,
+      "hpct": 12.0,
+      "esal": 683.5
+    },
+    "C572_Link01": {
+      "rc": "Low",
+      "idx": 24.8,
+      "hpct": 12.0,
+      "esal": 575.4
+    },
+    "C444_Link01": {
+      "rc": "Low",
+      "idx": 29.2,
+      "hpct": 12.0,
+      "esal": 677.0
+    },
+    "C443_Link01": {
+      "rc": "Low",
+      "idx": 29.5,
+      "hpct": 12.0,
+      "esal": 683.5
+    },
+    "C442_Link03": {
+      "rc": "Low",
+      "idx": 29.4,
+      "hpct": 12.0,
+      "esal": 681.8
+    },
+    "C522_Link01": {
+      "rc": "Low",
+      "idx": 29.2,
+      "hpct": 12.0,
+      "esal": 677.0
+    },
+    "C442_Link02": {
+      "rc": "Low",
+      "idx": 28.8,
+      "hpct": 12.0,
+      "esal": 668.8
+    },
+    "C521_Link01": {
+      "rc": "Low",
+      "idx": 29.4,
+      "hpct": 12.0,
+      "esal": 682.7
+    },
+    "C520_Link02": {
+      "rc": "Medium",
+      "idx": 30.2,
+      "hpct": 12.0,
+      "esal": 700.0
+    },
+    "C442_Link01": {
+      "rc": "Low",
+      "idx": 29.5,
+      "hpct": 12.0,
+      "esal": 683.5
+    },
+    "C520_Link01": {
+      "rc": "Low",
+      "idx": 29.4,
+      "hpct": 12.0,
+      "esal": 682.7
+    },
+    "C441_Link01": {
+      "rc": "Low",
+      "idx": 29.1,
+      "hpct": 12.0,
+      "esal": 674.0
+    },
+    "C440_Link02": {
+      "rc": "Low",
+      "idx": 29.2,
+      "hpct": 12.0,
+      "esal": 677.0
+    },
+    "C518_Link01": {
+      "rc": "Low",
+      "idx": 29.0,
+      "hpct": 12.0,
+      "esal": 673.5
+    },
+    "C440_Link01": {
+      "rc": "Low",
+      "idx": 28.9,
+      "hpct": 12.0,
+      "esal": 670.5
+    },
+    "C517_Link01": {
+      "rc": "Low",
+      "idx": 24.3,
+      "hpct": 12.0,
+      "esal": 733.0
+    },
+    "C439_Link01": {
+      "rc": "Low",
+      "idx": 28.8,
+      "hpct": 12.0,
+      "esal": 668.8
+    },
+    "C516_Link02": {
+      "rc": "Low",
+      "idx": 28.8,
+      "hpct": 12.0,
+      "esal": 669.2
+    },
+    "C438_Link02": {
+      "rc": "Low",
+      "idx": 29.2,
+      "hpct": 12.0,
+      "esal": 677.0
+    },
+    "C516_Link01": {
+      "rc": "Low",
+      "idx": 25.2,
+      "hpct": 12.0,
+      "esal": 584.1
+    },
+    "C515_Link01": {
+      "rc": "Low",
+      "idx": 29.4,
+      "hpct": 12.0,
+      "esal": 682.7
+    },
+    "C438_Link01": {
+      "rc": "Low",
+      "idx": 29.2,
+      "hpct": 12.0,
+      "esal": 677.0
+    },
+    "C514_Link02": {
+      "rc": "Low",
+      "idx": 29.4,
+      "hpct": 12.0,
+      "esal": 682.7
+    },
+    "C437_Link01": {
+      "rc": "Low",
+      "idx": 29.2,
+      "hpct": 12.0,
+      "esal": 677.0
+    },
+    "C514_Link01": {
+      "rc": "Low",
+      "idx": 29.4,
+      "hpct": 12.0,
+      "esal": 682.7
+    },
+    "C436_Link02": {
+      "rc": "Low",
+      "idx": 25.1,
+      "hpct": 12.0,
+      "esal": 581.5
+    },
+    "C513_Link02": {
+      "rc": "Low",
+      "idx": 27.2,
+      "hpct": 12.0,
+      "esal": 630.6
+    },
+    "C436_Link01": {
+      "rc": "Low",
+      "idx": 29.2,
+      "hpct": 12.0,
+      "esal": 677.0
+    },
+    "C552_Link02": {
+      "rc": "Low",
+      "idx": 26.7,
+      "hpct": 12.0,
+      "esal": 618.8
+    },
+    "C434_Link01": {
+      "rc": "Low",
+      "idx": 26.2,
+      "hpct": 12.0,
+      "esal": 608.8
+    },
+    "C513_Link01": {
+      "rc": "Low",
+      "idx": 29.7,
+      "hpct": 12.0,
+      "esal": 688.3
+    },
+    "C433_Link04": {
+      "rc": "Low",
+      "idx": 29.2,
+      "hpct": 12.0,
+      "esal": 677.0
+    },
+    "C512_Link01": {
+      "rc": "Low",
+      "idx": 27.6,
+      "hpct": 12.0,
+      "esal": 641.0
+    },
+    "C511_Link01": {
+      "rc": "Low",
+      "idx": 24.3,
+      "hpct": 12.0,
+      "esal": 733.5
+    },
+    "C433_Link02": {
+      "rc": "Low",
+      "idx": 23.6,
+      "hpct": 12.0,
+      "esal": 713.1
+    },
+    "C433_Link01": {
+      "rc": "Low",
+      "idx": 29.4,
+      "hpct": 12.0,
+      "esal": 682.7
+    },
+    "C457_Link01": {
+      "rc": "Low",
+      "idx": 24.3,
+      "hpct": 12.0,
+      "esal": 732.2
+    },
+    "C432_Link01": {
+      "rc": "Low",
+      "idx": 26.8,
+      "hpct": 12.0,
+      "esal": 621.4
+    },
+    "C456_Link01": {
+      "rc": "Low",
+      "idx": 29.2,
+      "hpct": 12.0,
+      "esal": 677.0
+    },
+    "C431_Link02": {
+      "rc": "Low",
+      "idx": 29.2,
+      "hpct": 12.0,
+      "esal": 676.6
+    },
+    "C455_Link01": {
+      "rc": "Low",
+      "idx": 28.9,
+      "hpct": 12.0,
+      "esal": 670.9
+    },
+    "C431_Link01": {
+      "rc": "Low",
+      "idx": 29.2,
+      "hpct": 12.0,
+      "esal": 677.0
+    },
+    "C454_Link01": {
+      "rc": "Low",
+      "idx": 28.9,
+      "hpct": 12.0,
+      "esal": 670.9
+    },
+    "C578_Link01": {
+      "rc": "Low",
+      "idx": 29.0,
+      "hpct": 12.0,
+      "esal": 673.5
+    },
+    "C430_Link01": {
+      "rc": "Low",
+      "idx": 25.0,
+      "hpct": 12.0,
+      "esal": 580.2
+    },
+    "C429_Link01": {
+      "rc": "Low",
+      "idx": 28.8,
+      "hpct": 12.0,
+      "esal": 668.8
+    },
+    "C453_Link01": {
+      "rc": "Low",
+      "idx": 24.3,
+      "hpct": 12.0,
+      "esal": 732.2
+    },
+    "C427_Link01": {
+      "rc": "Low",
+      "idx": 29.2,
+      "hpct": 12.0,
+      "esal": 677.0
+    },
+    "C426_Link01": {
+      "rc": "Low",
+      "idx": 29.2,
+      "hpct": 12.0,
+      "esal": 677.0
+    },
+    "C451_Link01": {
+      "rc": "Low",
+      "idx": 29.2,
+      "hpct": 12.0,
+      "esal": 677.0
+    },
+    "C450_Link03": {
+      "rc": "Low",
+      "idx": 28.8,
+      "hpct": 12.0,
+      "esal": 668.3
+    },
+    "C425_Link01": {
+      "rc": "Low",
+      "idx": 26.2,
+      "hpct": 12.0,
+      "esal": 608.8
+    },
+    "C450_Link02": {
+      "rc": "Low",
+      "idx": 29.1,
+      "hpct": 12.0,
+      "esal": 675.3
+    },
+    "C424_Link01": {
+      "rc": "Low",
+      "idx": 28.9,
+      "hpct": 12.0,
+      "esal": 670.9
+    },
+    "C450_Link01": {
+      "rc": "Low",
+      "idx": 28.6,
+      "hpct": 12.0,
+      "esal": 663.6
+    },
+    "C423_Link01": {
+      "rc": "Low",
+      "idx": 28.9,
+      "hpct": 12.0,
+      "esal": 670.5
+    },
+    "A005_Link15": {
+      "rc": "Medium",
+      "idx": 31.9,
+      "hpct": 22.0,
+      "esal": 1154.5
+    },
+    "C523_Link01": {
+      "rc": "Low",
+      "idx": 30.0,
+      "hpct": 12.0,
+      "esal": 695.3
+    },
+    "C519_Link01": {
+      "rc": "Low",
+      "idx": 29.8,
+      "hpct": 12.0,
+      "esal": 690.9
+    },
+    "C510_Link01": {
+      "rc": "Low",
+      "idx": 29.8,
+      "hpct": 12.0,
+      "esal": 690.5
+    },
+    "C388_Link01": {
+      "rc": "Low",
+      "idx": 28.8,
+      "hpct": 12.0,
+      "esal": 668.3
+    },
+    "C389_Link01": {
+      "rc": "Low",
+      "idx": 28.8,
+      "hpct": 12.0,
+      "esal": 668.3
+    },
+    "C362_Link01": {
+      "rc": "Low",
+      "idx": 24.0,
+      "hpct": 12.0,
+      "esal": 723.0
+    },
+    "C390_Link01": {
+      "rc": "Low",
+      "idx": 23.7,
+      "hpct": 12.0,
+      "esal": 713.9
+    },
+    "C391_Link01": {
+      "rc": "Low",
+      "idx": 29.1,
+      "hpct": 12.0,
+      "esal": 674.8
+    },
+    "C351_Link02": {
+      "rc": "Low",
+      "idx": 24.8,
+      "hpct": 12.0,
+      "esal": 575.8
+    },
+    "C351_Link01": {
+      "rc": "Low",
+      "idx": 28.5,
+      "hpct": 12.0,
+      "esal": 661.4
+    },
+    "C351_Link03": {
+      "rc": "Low",
+      "idx": 24.5,
+      "hpct": 12.0,
+      "esal": 569.3
+    },
+    "C447_Link02": {
+      "rc": "Low",
+      "idx": 29.2,
+      "hpct": 12.0,
+      "esal": 677.0
+    },
+    "C452_Link01": {
+      "rc": "Low",
+      "idx": 28.9,
+      "hpct": 12.0,
+      "esal": 670.9
+    },
+    "C452_Link03": {
+      "rc": "Low",
+      "idx": 29.2,
+      "hpct": 12.0,
+      "esal": 879.8
+    },
+    "C452_Link02": {
+      "rc": "Low",
+      "idx": 29.2,
+      "hpct": 12.0,
+      "esal": 677.0
+    },
+    "C390N1_Link01": {
+      "rc": "Low",
+      "idx": 23.7,
+      "hpct": 12.0,
+      "esal": 713.9
+    },
+    "C428_Link01": {
+      "rc": "Low",
+      "idx": 23.9,
+      "hpct": 12.0,
+      "esal": 722.2
+    },
+    "C435_Link01": {
+      "rc": "Low",
+      "idx": 23.9,
+      "hpct": 12.0,
+      "esal": 722.2
+    },
+    "A006_Link07": {
+      "rc": "Critical",
+      "idx": 70.8,
+      "hpct": 22.0,
+      "esal": 2558.7
+    },
+    "B202_Link04": {
+      "rc": "High",
+      "idx": 53.8,
+      "hpct": 16.0,
+      "esal": 1944.1
+    },
+    "A005_Link09": {
+      "rc": "Critical",
+      "idx": 75.4,
+      "hpct": 22.0,
+      "esal": 2726.5
+    },
+    "C271_Link04": {
+      "rc": "High",
+      "idx": 62.5,
+      "hpct": 12.0,
+      "esal": 1450.0
+    },
+    "B200_Link01": {
+      "rc": "High",
+      "idx": 53.2,
+      "hpct": 16.0,
+      "esal": 1922.7
+    },
+    "C378_Link01": {
+      "rc": "Low",
+      "idx": 27.0,
+      "hpct": 12.0,
+      "esal": 626.6
+    },
+    "A006_Link08": {
+      "rc": "Critical",
+      "idx": 73.3,
+      "hpct": 22.0,
+      "esal": 2647.8
+    },
+    "B201_Link01": {
+      "rc": "High",
+      "idx": 53.2,
+      "hpct": 16.0,
+      "esal": 1923.3
+    },
+    "B202_Link05": {
+      "rc": "High",
+      "idx": 56.6,
+      "hpct": 16.0,
+      "esal": 2046.5
+    },
+    "B202_Link03": {
+      "rc": "High",
+      "idx": 55.2,
+      "hpct": 16.0,
+      "esal": 1997.4
+    },
+    "A009_Link04": {
+      "rc": "Critical",
+      "idx": 72.6,
+      "hpct": 22.0,
+      "esal": 2625.5
+    },
+    "B150_Link04": {
+      "rc": "High",
+      "idx": 58.0,
+      "hpct": 16.0,
+      "esal": 2098.0
+    },
+    "B253_Link01": {
+      "rc": "High",
+      "idx": 67.7,
+      "hpct": 16.0,
+      "esal": 1884.5
+    },
+    "B202_Link01": {
+      "rc": "Low",
+      "idx": 23.6,
+      "hpct": 16.0,
+      "esal": 852.9
+    },
+    "B204_Link01": {
+      "rc": "High",
+      "idx": 54.0,
+      "hpct": 16.0,
+      "esal": 1952.8
+    },
+    "A005_Link11": {
+      "rc": "Medium",
+      "idx": 32.2,
+      "hpct": 22.0,
+      "esal": 1163.3
+    },
+    "A005_Link10": {
+      "rc": "Medium",
+      "idx": 35.9,
+      "hpct": 22.0,
+      "esal": 1296.1
+    },
+    "C631_Link01": {
+      "rc": "High",
+      "idx": 62.0,
+      "hpct": 12.0,
+      "esal": 1437.4
+    },
+    "C553_Link01": {
+      "rc": "High",
+      "idx": 62.3,
+      "hpct": 12.0,
+      "esal": 1446.1
+    },
+    "C621_Link01": {
+      "rc": "High",
+      "idx": 59.8,
+      "hpct": 12.0,
+      "esal": 1386.6
+    },
+    "C546_Link01": {
+      "rc": "Medium",
+      "idx": 30.1,
+      "hpct": 12.0,
+      "esal": 697.4
+    },
+    "C545_Link01": {
+      "rc": "Medium",
+      "idx": 30.9,
+      "hpct": 12.0,
+      "esal": 715.7
+    },
+    "C544_Link01": {
+      "rc": "Medium",
+      "idx": 30.8,
+      "hpct": 12.0,
+      "esal": 714.4
+    },
+    "C620_Link01": {
+      "rc": "Low",
+      "idx": 27.9,
+      "hpct": 12.0,
+      "esal": 648.4
+    },
+    "C568_Link03": {
+      "rc": "Low",
+      "idx": 29.0,
+      "hpct": 12.0,
+      "esal": 673.5
+    },
+    "C543_Link01": {
+      "rc": "Medium",
+      "idx": 30.5,
+      "hpct": 12.0,
+      "esal": 706.5
+    },
+    "C638_Link02": {
+      "rc": "High",
+      "idx": 59.7,
+      "hpct": 12.0,
+      "esal": 1385.7
+    },
+    "C630_Link02": {
+      "rc": "High",
+      "idx": 60.0,
+      "hpct": 12.0,
+      "esal": 1392.2
+    },
+    "C562_Link01": {
+      "rc": "Medium",
+      "idx": 30.1,
+      "hpct": 12.0,
+      "esal": 697.4
+    },
+    "C542_Link01": {
+      "rc": "Low",
+      "idx": 27.4,
+      "hpct": 12.0,
+      "esal": 636.6
+    },
+    "C609_Link01": {
+      "rc": "High",
+      "idx": 61.8,
+      "hpct": 12.0,
+      "esal": 1433.5
+    },
+    "C608_Link01": {
+      "rc": "High",
+      "idx": 62.7,
+      "hpct": 12.0,
+      "esal": 1455.2
+    },
+    "C630_Link01": {
+      "rc": "High",
+      "idx": 62.7,
+      "hpct": 12.0,
+      "esal": 1453.9
+    },
+    "C556_Link01": {
+      "rc": "Medium",
+      "idx": 30.1,
+      "hpct": 12.0,
+      "esal": 697.4
+    },
+    "C541_Link01": {
+      "rc": "Low",
+      "idx": 27.4,
+      "hpct": 12.0,
+      "esal": 636.6
+    },
+    "C607_Link01": {
+      "rc": "High",
+      "idx": 60.9,
+      "hpct": 12.0,
+      "esal": 1412.2
+    },
+    "C606_Link01": {
+      "rc": "High",
+      "idx": 62.4,
+      "hpct": 12.0,
+      "esal": 1448.3
+    },
+    "C629_Link01": {
+      "rc": "High",
+      "idx": 59.5,
+      "hpct": 12.0,
+      "esal": 1379.7
+    },
+    "C540_Link01": {
+      "rc": "Low",
+      "idx": 22.9,
+      "hpct": 12.0,
+      "esal": 690.9
+    },
+    "C548_Link01": {
+      "rc": "Medium",
+      "idx": 30.2,
+      "hpct": 12.0,
+      "esal": 700.9
+    },
+    "C568_Link01": {
+      "rc": "High",
+      "idx": 64.8,
+      "hpct": 12.0,
+      "esal": 1502.1
+    },
+    "C564_Link02": {
+      "rc": "Medium",
+      "idx": 30.1,
+      "hpct": 12.0,
+      "esal": 697.4
+    },
+    "C605_Link01": {
+      "rc": "High",
+      "idx": 62.1,
+      "hpct": 12.0,
+      "esal": 1440.0
+    },
+    "C627_Link02": {
+      "rc": "High",
+      "idx": 59.8,
+      "hpct": 12.0,
+      "esal": 1386.6
+    },
+    "C554_Link01": {
+      "rc": "Medium",
+      "idx": 30.1,
+      "hpct": 12.0,
+      "esal": 697.9
+    },
+    "C627_Link01": {
+      "rc": "High",
+      "idx": 62.5,
+      "hpct": 12.0,
+      "esal": 1450.9
+    },
+    "C560_Link01": {
+      "rc": "Medium",
+      "idx": 30.1,
+      "hpct": 12.0,
+      "esal": 697.4
+    },
+    "C626_Link02": {
+      "rc": "High",
+      "idx": 50.8,
+      "hpct": 12.0,
+      "esal": 1532.9
+    },
+    "C550_Link02": {
+      "rc": "Medium",
+      "idx": 48.7,
+      "hpct": 12.0,
+      "esal": 1468.2
+    },
+    "C604_Link01": {
+      "rc": "High",
+      "idx": 63.1,
+      "hpct": 12.0,
+      "esal": 1464.3
+    },
+    "C575_Link01": {
+      "rc": "Medium",
+      "idx": 30.2,
+      "hpct": 12.0,
+      "esal": 700.9
+    },
+    "C566_Link01": {
+      "rc": "High",
+      "idx": 61.4,
+      "hpct": 12.0,
+      "esal": 1424.4
+    },
+    "C569_Link01": {
+      "rc": "Low",
+      "idx": 25.1,
+      "hpct": 12.0,
+      "esal": 582.8
+    },
+    "C639_Link01": {
+      "rc": "Medium",
+      "idx": 47.5,
+      "hpct": 12.0,
+      "esal": 1101.7
+    },
+    "C563_Link01": {
+      "rc": "Low",
+      "idx": 27.8,
+      "hpct": 12.0,
+      "esal": 645.3
+    },
+    "C603_Link01": {
+      "rc": "High",
+      "idx": 61.6,
+      "hpct": 12.0,
+      "esal": 1428.7
+    },
+    "C602_Link01": {
+      "rc": "High",
+      "idx": 62.1,
+      "hpct": 12.0,
+      "esal": 1440.0
+    },
+    "C601_Link01": {
+      "rc": "High",
+      "idx": 62.5,
+      "hpct": 12.0,
+      "esal": 1450.9
+    },
+    "C625_Link02": {
+      "rc": "High",
+      "idx": 50.8,
+      "hpct": 12.0,
+      "esal": 1531.6
+    },
+    "C557_Link01": {
+      "rc": "Low",
+      "idx": 27.9,
+      "hpct": 12.0,
+      "esal": 647.1
+    },
+    "C590_Link01": {
+      "rc": "Medium",
+      "idx": 49.3,
+      "hpct": 12.0,
+      "esal": 1487.4
+    },
+    "C625_Link01": {
+      "rc": "High",
+      "idx": 51.4,
+      "hpct": 12.0,
+      "esal": 1550.8
+    },
+    "C600_Link01": {
+      "rc": "High",
+      "idx": 60.2,
+      "hpct": 12.0,
+      "esal": 1396.6
+    },
+    "C599_Link01": {
+      "rc": "High",
+      "idx": 61.9,
+      "hpct": 12.0,
+      "esal": 1436.5
+    },
+    "C549_Link01": {
+      "rc": "High",
+      "idx": 63.6,
+      "hpct": 12.0,
+      "esal": 1474.3
+    },
+    "C610_Link01": {
+      "rc": "High",
+      "idx": 61.8,
+      "hpct": 12.0,
+      "esal": 1433.5
+    },
+    "C568_Link02": {
+      "rc": "Low",
+      "idx": 29.0,
+      "hpct": 12.0,
+      "esal": 673.5
+    },
+    "C597_Link01": {
+      "rc": "High",
+      "idx": 67.4,
+      "hpct": 12.0,
+      "esal": 1562.9
+    },
+    "C624_Link01": {
+      "rc": "High",
+      "idx": 51.6,
+      "hpct": 12.0,
+      "esal": 1556.0
+    },
+    "C565_Link01": {
+      "rc": "High",
+      "idx": 60.6,
+      "hpct": 12.0,
+      "esal": 1405.7
+    },
+    "C596_Link02": {
+      "rc": "Medium",
+      "idx": 49.2,
+      "hpct": 12.0,
+      "esal": 1483.0
+    },
+    "C623_Link02": {
+      "rc": "High",
+      "idx": 52.3,
+      "hpct": 12.0,
+      "esal": 1578.5
+    },
+    "C555_Link01": {
+      "rc": "Medium",
+      "idx": 30.1,
+      "hpct": 12.0,
+      "esal": 697.4
+    },
+    "C595_Link01": {
+      "rc": "High",
+      "idx": 61.8,
+      "hpct": 12.0,
+      "esal": 1433.5
+    },
+    "C561_Link01": {
+      "rc": "Medium",
+      "idx": 30.1,
+      "hpct": 12.0,
+      "esal": 697.4
+    },
+    "C594_Link01": {
+      "rc": "High",
+      "idx": 61.4,
+      "hpct": 12.0,
+      "esal": 1423.9
+    },
+    "C623_Link01": {
+      "rc": "Medium",
+      "idx": 48.9,
+      "hpct": 12.0,
+      "esal": 1473.5
+    },
+    "C638_Link01": {
+      "rc": "High",
+      "idx": 61.8,
+      "hpct": 12.0,
+      "esal": 1433.1
+    },
+    "C551_Link01": {
+      "rc": "High",
+      "idx": 62.3,
+      "hpct": 12.0,
+      "esal": 1445.7
+    },
+    "C593_Link01": {
+      "rc": "High",
+      "idx": 61.9,
+      "hpct": 12.0,
+      "esal": 1434.8
+    },
+    "C637_Link01": {
+      "rc": "High",
+      "idx": 61.8,
+      "hpct": 12.0,
+      "esal": 1433.1
+    },
+    "C571_Link01": {
+      "rc": "Low",
+      "idx": 28.9,
+      "hpct": 12.0,
+      "esal": 671.4
+    },
+    "C636_Link01": {
+      "rc": "High",
+      "idx": 61.8,
+      "hpct": 12.0,
+      "esal": 1433.1
+    },
+    "C592_Link02": {
+      "rc": "High",
+      "idx": 50.7,
+      "hpct": 12.0,
+      "esal": 1530.3
+    },
+    "C635_Link01": {
+      "rc": "High",
+      "idx": 61.9,
+      "hpct": 12.0,
+      "esal": 1436.5
+    },
+    "C592_Link01": {
+      "rc": "High",
+      "idx": 51.0,
+      "hpct": 12.0,
+      "esal": 1537.3
+    },
+    "C591_Link01": {
+      "rc": "High",
+      "idx": 62.6,
+      "hpct": 12.0,
+      "esal": 1451.3
+    },
+    "C634_Link01": {
+      "rc": "High",
+      "idx": 62.0,
+      "hpct": 12.0,
+      "esal": 1437.4
+    },
+    "C564_Link01": {
+      "rc": "Medium",
+      "idx": 30.1,
+      "hpct": 12.0,
+      "esal": 697.4
+    },
+    "C590_Link02": {
+      "rc": "High",
+      "idx": 51.7,
+      "hpct": 12.0,
+      "esal": 1560.3
+    },
+    "C633_Link01": {
+      "rc": "High",
+      "idx": 52.1,
+      "hpct": 12.0,
+      "esal": 1569.9
+    },
+    "C622_Link01": {
+      "rc": "High",
+      "idx": 62.8,
+      "hpct": 12.0,
+      "esal": 1457.0
+    },
+    "C558_Link01": {
+      "rc": "Low",
+      "idx": 28.0,
+      "hpct": 12.0,
+      "esal": 650.1
+    },
+    "C539_Link01": {
+      "rc": "Medium",
+      "idx": 30.2,
+      "hpct": 12.0,
+      "esal": 700.9
+    },
+    "C540_Link02": {
+      "rc": "Low",
+      "idx": 22.6,
+      "hpct": 12.0,
+      "esal": 682.7
+    },
+    "C547_Link01": {
+      "rc": "Low",
+      "idx": 26.7,
+      "hpct": 12.0,
+      "esal": 620.1
+    },
+    "C573_Link01": {
+      "rc": "Low",
+      "idx": 29.1,
+      "hpct": 12.0,
+      "esal": 675.3
+    },
+    "C579_Link01": {
+      "rc": "Low",
+      "idx": 23.3,
+      "hpct": 12.0,
+      "esal": 701.8
+    },
+    "C632_Link01": {
+      "rc": "High",
+      "idx": 62.7,
+      "hpct": 12.0,
+      "esal": 1453.5
+    },
+    "B202_Link02": {
+      "rc": "Low",
+      "idx": 27.4,
+      "hpct": 16.0,
+      "esal": 991.2
+    },
+    "A005_Link08": {
+      "rc": "Critical",
+      "idx": 77.2,
+      "hpct": 22.0,
+      "esal": 2790.9
+    },
+    "B203_Link03": {
+      "rc": "High",
+      "idx": 56.0,
+      "hpct": 16.0,
+      "esal": 2024.5
+    },
+    "C283_Link01": {
+      "rc": "High",
+      "idx": 61.7,
+      "hpct": 12.0,
+      "esal": 1432.2
+    },
+    "C596_Link01": {
+      "rc": "High",
+      "idx": 51.4,
+      "hpct": 12.0,
+      "esal": 1550.8
+    },
+    "C640_Link01": {
+      "rc": "High",
+      "idx": 50.8,
+      "hpct": 12.0,
+      "esal": 1531.6
+    },
+    "C566_Link02": {
+      "rc": "High",
+      "idx": 63.3,
+      "hpct": 12.0,
+      "esal": 1468.2
+    },
+    "C611_Link01": {
+      "rc": "High",
+      "idx": 55.6,
+      "hpct": 12.0,
+      "esal": 1677.1
+    },
+    "C626_Link01": {
+      "rc": "High",
+      "idx": 51.9,
+      "hpct": 12.0,
+      "esal": 1564.2
+    },
+    "C613_Link01": {
+      "rc": "High",
+      "idx": 67.9,
+      "hpct": 12.0,
+      "esal": 1575.5
+    },
+    "C613_Link02": {
+      "rc": "Medium",
+      "idx": 47.5,
+      "hpct": 12.0,
+      "esal": 1433.5
+    },
+    "C598_Link01": {
+      "rc": "High",
+      "idx": 51.5,
+      "hpct": 12.0,
+      "esal": 1552.1
+    },
+    "B204_Link02": {
+      "rc": "High",
+      "idx": 54.8,
+      "hpct": 16.0,
+      "esal": 1983.5
+    },
+    "C446_Link02": {
+      "rc": "Medium",
+      "idx": 31.6,
+      "hpct": 12.0,
+      "esal": 732.2
+    },
+    "C445_Link02": {
+      "rc": "Low",
+      "idx": 29.2,
+      "hpct": 12.0,
+      "esal": 677.0
+    },
+    "C445_Link03": {
+      "rc": "Low",
+      "idx": 24.3,
+      "hpct": 12.0,
+      "esal": 732.2
+    },
+    "C433_Link03": {
+      "rc": "Low",
+      "idx": 24.3,
+      "hpct": 12.0,
+      "esal": 732.2
+    },
+    "C360_Link01": {
+      "rc": "Low",
+      "idx": 24.0,
+      "hpct": 12.0,
+      "esal": 723.0
+    },
+    "C432_Link02": {
+      "rc": "Low",
+      "idx": 29.2,
+      "hpct": 12.0,
+      "esal": 677.0
+    }
+  }
+}

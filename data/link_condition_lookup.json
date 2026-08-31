@@ -1,0 +1,9155 @@
+{
+  "A001_Link01": {
+    "iri": 4.25,
+    "rut_mm": 4.95,
+    "cracking": 13.5,
+    "pci": 80.8,
+    "vci": 83.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A001_Link02": {
+    "iri": 3.74,
+    "rut_mm": 4.03,
+    "cracking": 10.4,
+    "pci": 84.3,
+    "vci": 87.6,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A001_Link03": {
+    "iri": 4.08,
+    "rut_mm": 4.64,
+    "cracking": 12.5,
+    "pci": 81.9,
+    "vci": 85.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A001_Link04": {
+    "iri": 4.17,
+    "rut_mm": 4.81,
+    "cracking": 13.0,
+    "pci": 81.3,
+    "vci": 84.5,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A001_Link05": {
+    "iri": 4.92,
+    "rut_mm": 6.16,
+    "cracking": 17.5,
+    "pci": 76.1,
+    "vci": 79.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A001_Link06": {
+    "iri": 6.18,
+    "rut_mm": 8.42,
+    "cracking": 25.1,
+    "pci": 67.2,
+    "vci": 70.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A001_Link07": {
+    "iri": 6.04,
+    "rut_mm": 8.17,
+    "cracking": 24.2,
+    "pci": 68.2,
+    "vci": 71.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A001_Link08": {
+    "iri": 5.76,
+    "rut_mm": 7.67,
+    "cracking": 22.6,
+    "pci": 70.2,
+    "vci": 73.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A001_Link09": {
+    "iri": 4.44,
+    "rut_mm": 5.29,
+    "cracking": 14.6,
+    "pci": 79.4,
+    "vci": 82.6,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A001_Link10": {
+    "iri": 3.48,
+    "rut_mm": 3.56,
+    "cracking": 8.9,
+    "pci": 86.1,
+    "vci": 89.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A001_Link11": {
+    "iri": 3.72,
+    "rut_mm": 4.0,
+    "cracking": 10.3,
+    "pci": 84.5,
+    "vci": 87.7,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A001N1_Link01": {
+    "iri": 5.82,
+    "rut_mm": 7.78,
+    "cracking": 22.9,
+    "pci": 69.8,
+    "vci": 72.7,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A001N2_Link01": {
+    "iri": 5.22,
+    "rut_mm": 6.7,
+    "cracking": 19.3,
+    "pci": 74.0,
+    "vci": 77.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A002_Link01": {
+    "iri": 6.35,
+    "rut_mm": 8.73,
+    "cracking": 26.1,
+    "pci": 66.1,
+    "vci": 68.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A002_Link02": {
+    "iri": 2.5,
+    "rut_mm": 1.8,
+    "cracking": 3.0,
+    "pci": 93.0,
+    "vci": 96.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A002_Link03": {
+    "iri": 2.83,
+    "rut_mm": 2.39,
+    "cracking": 5.0,
+    "pci": 90.7,
+    "vci": 94.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A002_Link04": {
+    "iri": 2.87,
+    "rut_mm": 2.47,
+    "cracking": 5.2,
+    "pci": 90.4,
+    "vci": 93.8,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A002_Link05": {
+    "iri": 3.21,
+    "rut_mm": 3.08,
+    "cracking": 7.3,
+    "pci": 88.0,
+    "vci": 91.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A002_Link06": {
+    "iri": 4.02,
+    "rut_mm": 4.54,
+    "cracking": 12.1,
+    "pci": 82.4,
+    "vci": 85.6,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A002_Link07": {
+    "iri": 2.67,
+    "rut_mm": 2.11,
+    "cracking": 4.0,
+    "pci": 91.8,
+    "vci": 95.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A002_Link08": {
+    "iri": 2.86,
+    "rut_mm": 2.45,
+    "cracking": 5.2,
+    "pci": 90.5,
+    "vci": 93.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A002_Link09": {
+    "iri": 3.53,
+    "rut_mm": 3.65,
+    "cracking": 9.2,
+    "pci": 85.8,
+    "vci": 89.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A002_Link10": {
+    "iri": 4.03,
+    "rut_mm": 4.55,
+    "cracking": 12.2,
+    "pci": 82.3,
+    "vci": 85.5,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A002_Link11": {
+    "iri": 3.76,
+    "rut_mm": 4.07,
+    "cracking": 10.6,
+    "pci": 84.2,
+    "vci": 87.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A003_Link01": {
+    "iri": 3.8,
+    "rut_mm": 4.14,
+    "cracking": 10.8,
+    "pci": 83.9,
+    "vci": 87.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A003_Link02": {
+    "iri": 4.54,
+    "rut_mm": 5.47,
+    "cracking": 15.2,
+    "pci": 78.7,
+    "vci": 81.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A003N1_Link01": {
+    "iri": 4.4,
+    "rut_mm": 5.22,
+    "cracking": 14.4,
+    "pci": 79.7,
+    "vci": 82.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A003N2_Link01": {
+    "iri": 2.28,
+    "rut_mm": 1.4,
+    "cracking": 1.7,
+    "pci": 94.5,
+    "vci": 98.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A003N3_Link01": {
+    "iri": 2.13,
+    "rut_mm": 1.13,
+    "cracking": 0.8,
+    "pci": 95.6,
+    "vci": 99.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A004_Link01": {
+    "iri": 4.94,
+    "rut_mm": 6.19,
+    "cracking": 17.6,
+    "pci": 75.9,
+    "vci": 79.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A004_Link02": {
+    "iri": 4.74,
+    "rut_mm": 5.83,
+    "cracking": 16.4,
+    "pci": 77.3,
+    "vci": 80.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A005_Link01": {
+    "iri": 3.98,
+    "rut_mm": 4.46,
+    "cracking": 11.9,
+    "pci": 82.6,
+    "vci": 85.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A005_Link02": {
+    "iri": 2.93,
+    "rut_mm": 2.57,
+    "cracking": 5.6,
+    "pci": 90.0,
+    "vci": 93.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A005_Link03": {
+    "iri": 7.47,
+    "rut_mm": 10.75,
+    "cracking": 32.8,
+    "pci": 58.2,
+    "vci": 60.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A005_Link04": {
+    "iri": 6.26,
+    "rut_mm": 8.57,
+    "cracking": 25.6,
+    "pci": 66.7,
+    "vci": 69.6,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A005_Link05": {
+    "iri": 5.47,
+    "rut_mm": 7.15,
+    "cracking": 20.8,
+    "pci": 72.2,
+    "vci": 75.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A005_Link06": {
+    "iri": 6.82,
+    "rut_mm": 9.58,
+    "cracking": 28.9,
+    "pci": 62.8,
+    "vci": 65.6,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A005_Link07": {
+    "iri": 5.49,
+    "rut_mm": 7.18,
+    "cracking": 20.9,
+    "pci": 72.1,
+    "vci": 75.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A005_Link08": {
+    "iri": 7.87,
+    "rut_mm": 11.47,
+    "cracking": 35.2,
+    "pci": 55.4,
+    "vci": 58.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A005_Link09": {
+    "iri": 4.6,
+    "rut_mm": 5.58,
+    "cracking": 15.6,
+    "pci": 78.3,
+    "vci": 81.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A005_Link10": {
+    "iri": 2.35,
+    "rut_mm": 1.53,
+    "cracking": 2.1,
+    "pci": 94.0,
+    "vci": 97.5,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A005_Link11": {
+    "iri": 2.56,
+    "rut_mm": 1.91,
+    "cracking": 3.4,
+    "pci": 92.6,
+    "vci": 96.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A005_Link12": {
+    "iri": 2.28,
+    "rut_mm": 1.4,
+    "cracking": 1.7,
+    "pci": 94.5,
+    "vci": 98.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A005_Link13": {
+    "iri": 2.57,
+    "rut_mm": 1.93,
+    "cracking": 3.4,
+    "pci": 92.5,
+    "vci": 95.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A005_Link14": {
+    "iri": 2.11,
+    "rut_mm": 1.1,
+    "cracking": 0.7,
+    "pci": 95.7,
+    "vci": 99.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A005_Link15": {
+    "iri": 4.31,
+    "rut_mm": 5.06,
+    "cracking": 13.9,
+    "pci": 80.3,
+    "vci": 83.5,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A006_Link01": {
+    "iri": 2.71,
+    "rut_mm": 2.18,
+    "cracking": 4.3,
+    "pci": 91.5,
+    "vci": 94.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A006_Link02": {
+    "iri": 2.86,
+    "rut_mm": 2.45,
+    "cracking": 5.2,
+    "pci": 90.5,
+    "vci": 93.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A006_Link03": {
+    "iri": 3.34,
+    "rut_mm": 3.31,
+    "cracking": 8.0,
+    "pci": 87.1,
+    "vci": 90.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A006_Link04": {
+    "iri": 3.43,
+    "rut_mm": 3.47,
+    "cracking": 8.6,
+    "pci": 86.5,
+    "vci": 89.8,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A006_Link05": {
+    "iri": 3.02,
+    "rut_mm": 2.74,
+    "cracking": 6.1,
+    "pci": 89.4,
+    "vci": 92.7,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A006_Link06": {
+    "iri": 2.86,
+    "rut_mm": 2.45,
+    "cracking": 5.2,
+    "pci": 90.5,
+    "vci": 93.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A006_Link07": {
+    "iri": 3.64,
+    "rut_mm": 3.85,
+    "cracking": 9.8,
+    "pci": 85.0,
+    "vci": 88.3,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A006_Link08": {
+    "iri": 4.43,
+    "rut_mm": 5.27,
+    "cracking": 14.6,
+    "pci": 79.5,
+    "vci": 82.6,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A006_Link09": {
+    "iri": 4.61,
+    "rut_mm": 5.6,
+    "cracking": 15.7,
+    "pci": 78.2,
+    "vci": 81.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A006_Link10": {
+    "iri": 4.36,
+    "rut_mm": 5.15,
+    "cracking": 14.2,
+    "pci": 80.0,
+    "vci": 83.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A006_Link11": {
+    "iri": 4.01,
+    "rut_mm": 4.52,
+    "cracking": 12.1,
+    "pci": 82.4,
+    "vci": 85.6,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A006_Link12": {
+    "iri": 4.92,
+    "rut_mm": 6.16,
+    "cracking": 17.5,
+    "pci": 76.1,
+    "vci": 79.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A006_Link13": {
+    "iri": 5.63,
+    "rut_mm": 7.43,
+    "cracking": 21.8,
+    "pci": 71.1,
+    "vci": 74.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A006N1_Link01": {
+    "iri": 4.07,
+    "rut_mm": 4.63,
+    "cracking": 12.4,
+    "pci": 82.0,
+    "vci": 85.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A007_Link01": {
+    "iri": 4.11,
+    "rut_mm": 4.7,
+    "cracking": 12.7,
+    "pci": 81.7,
+    "vci": 84.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A007_Link02": {
+    "iri": 3.08,
+    "rut_mm": 2.84,
+    "cracking": 6.5,
+    "pci": 88.9,
+    "vci": 92.3,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A007_Link03": {
+    "iri": 4.71,
+    "rut_mm": 5.78,
+    "cracking": 16.3,
+    "pci": 77.5,
+    "vci": 80.6,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A007_Link04": {
+    "iri": 3.24,
+    "rut_mm": 3.13,
+    "cracking": 7.4,
+    "pci": 87.8,
+    "vci": 91.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A007_Link05": {
+    "iri": 4.76,
+    "rut_mm": 5.87,
+    "cracking": 16.6,
+    "pci": 77.2,
+    "vci": 80.3,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A007_Link06": {
+    "iri": 8.05,
+    "rut_mm": 11.79,
+    "cracking": 36.3,
+    "pci": 54.1,
+    "vci": 56.8,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A007_Link07": {
+    "iri": 5.58,
+    "rut_mm": 7.34,
+    "cracking": 21.5,
+    "pci": 71.4,
+    "vci": 74.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A007_Link08": {
+    "iri": 6.64,
+    "rut_mm": 9.25,
+    "cracking": 27.8,
+    "pci": 64.0,
+    "vci": 66.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A007_Link09": {
+    "iri": 8.48,
+    "rut_mm": 12.56,
+    "cracking": 38.9,
+    "pci": 51.1,
+    "vci": 53.7,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A007_Link10": {
+    "iri": 5.89,
+    "rut_mm": 7.9,
+    "cracking": 23.3,
+    "pci": 69.3,
+    "vci": 72.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A007N1_Link01": {
+    "iri": 2.97,
+    "rut_mm": 2.65,
+    "cracking": 5.8,
+    "pci": 89.7,
+    "vci": 93.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A008_Link01": {
+    "iri": 6.13,
+    "rut_mm": 8.33,
+    "cracking": 24.8,
+    "pci": 67.6,
+    "vci": 70.5,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A008_Link02": {
+    "iri": 8.37,
+    "rut_mm": 12.37,
+    "cracking": 38.2,
+    "pci": 51.9,
+    "vci": 54.5,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A008_Link03": {
+    "iri": 3.59,
+    "rut_mm": 3.76,
+    "cracking": 9.5,
+    "pci": 85.4,
+    "vci": 88.6,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A008_Link04": {
+    "iri": 11.07,
+    "rut_mm": 17.23,
+    "cracking": 54.4,
+    "pci": 33.0,
+    "vci": 35.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A008_Link05": {
+    "iri": 9.57,
+    "rut_mm": 14.53,
+    "cracking": 45.4,
+    "pci": 43.5,
+    "vci": 45.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A008_Link06": {
+    "iri": 4.79,
+    "rut_mm": 5.92,
+    "cracking": 16.7,
+    "pci": 77.0,
+    "vci": 80.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A008_Link07": {
+    "iri": 5.45,
+    "rut_mm": 7.11,
+    "cracking": 20.7,
+    "pci": 72.3,
+    "vci": 75.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A009_Link01": {
+    "iri": 2.22,
+    "rut_mm": 1.3,
+    "cracking": 1.3,
+    "pci": 95.0,
+    "vci": 98.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A009_Link02": {
+    "iri": 2.56,
+    "rut_mm": 1.91,
+    "cracking": 3.4,
+    "pci": 92.6,
+    "vci": 96.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A009_Link03": {
+    "iri": 5.86,
+    "rut_mm": 7.85,
+    "cracking": 23.2,
+    "pci": 69.5,
+    "vci": 72.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A009_Link04": {
+    "iri": 4.79,
+    "rut_mm": 5.92,
+    "cracking": 16.7,
+    "pci": 77.0,
+    "vci": 80.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A009N1_Link01": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A009N2_Link01": {
+    "iri": 1.29,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A010_Link01": {
+    "iri": 5.16,
+    "rut_mm": 6.59,
+    "cracking": 19.0,
+    "pci": 74.4,
+    "vci": 77.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A012_Link01": {
+    "iri": 2.92,
+    "rut_mm": 2.56,
+    "cracking": 5.5,
+    "pci": 90.1,
+    "vci": 93.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A012_Link02": {
+    "iri": 2.04,
+    "rut_mm": 0.97,
+    "cracking": 0.2,
+    "pci": 96.2,
+    "vci": 99.7,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A012_Link03": {
+    "iri": 2.75,
+    "rut_mm": 2.25,
+    "cracking": 4.5,
+    "pci": 91.2,
+    "vci": 94.6,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "A012_Link04": {
+    "iri": 2.61,
+    "rut_mm": 2.0,
+    "cracking": 3.7,
+    "pci": 92.2,
+    "vci": 95.6,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B100_Link01": {
+    "iri": 4.77,
+    "rut_mm": 5.89,
+    "cracking": 16.6,
+    "pci": 77.1,
+    "vci": 80.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B100_Link02": {
+    "iri": 6.88,
+    "rut_mm": 9.68,
+    "cracking": 29.3,
+    "pci": 62.3,
+    "vci": 65.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B100N1_Link01": {
+    "iri": 1.34,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B101_Link01": {
+    "iri": 2.81,
+    "rut_mm": 2.36,
+    "cracking": 4.9,
+    "pci": 90.8,
+    "vci": 94.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B101_Link02": {
+    "iri": 2.22,
+    "rut_mm": 1.3,
+    "cracking": 1.3,
+    "pci": 95.0,
+    "vci": 98.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B101_Link03": {
+    "iri": 1.43,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B101_Link04": {
+    "iri": 13.16,
+    "rut_mm": 20.99,
+    "cracking": 67.0,
+    "pci": 18.4,
+    "vci": 20.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "B102_Link01": {
+    "iri": 9.65,
+    "rut_mm": 14.67,
+    "cracking": 45.9,
+    "pci": 42.9,
+    "vci": 45.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B103_Link01": {
+    "iri": 5.76,
+    "rut_mm": 7.67,
+    "cracking": 22.6,
+    "pci": 70.2,
+    "vci": 73.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B103_Link02": {
+    "iri": 4.95,
+    "rut_mm": 6.21,
+    "cracking": 17.7,
+    "pci": 75.8,
+    "vci": 78.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B103_Link03": {
+    "iri": 10.29,
+    "rut_mm": 15.82,
+    "cracking": 49.7,
+    "pci": 38.5,
+    "vci": 40.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "B103_Link04": {
+    "iri": 9.1,
+    "rut_mm": 13.68,
+    "cracking": 42.6,
+    "pci": 46.8,
+    "vci": 49.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "B150_Link01": {
+    "iri": 3.1,
+    "rut_mm": 2.88,
+    "cracking": 6.6,
+    "pci": 88.8,
+    "vci": 92.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B150_Link02": {
+    "iri": 10.25,
+    "rut_mm": 15.75,
+    "cracking": 49.5,
+    "pci": 38.8,
+    "vci": 41.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B150_Link03": {
+    "iri": 10.36,
+    "rut_mm": 15.95,
+    "cracking": 50.2,
+    "pci": 38.0,
+    "vci": 40.3,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B150_Link04": {
+    "iri": 3.23,
+    "rut_mm": 3.11,
+    "cracking": 7.4,
+    "pci": 87.9,
+    "vci": 91.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B151_Link01": {
+    "iri": 4.35,
+    "rut_mm": 5.13,
+    "cracking": 14.1,
+    "pci": 80.1,
+    "vci": 83.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B151_Link02": {
+    "iri": 4.28,
+    "rut_mm": 5.0,
+    "cracking": 13.7,
+    "pci": 80.5,
+    "vci": 83.7,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B151_Link03": {
+    "iri": 7.54,
+    "rut_mm": 10.87,
+    "cracking": 33.2,
+    "pci": 57.7,
+    "vci": 60.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B152_Link01": {
+    "iri": 9.25,
+    "rut_mm": 13.95,
+    "cracking": 43.5,
+    "pci": 45.8,
+    "vci": 48.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B152_Link02": {
+    "iri": 3.81,
+    "rut_mm": 4.16,
+    "cracking": 10.9,
+    "pci": 83.8,
+    "vci": 87.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B152_Link03": {
+    "iri": 8.69,
+    "rut_mm": 12.94,
+    "cracking": 40.1,
+    "pci": 49.7,
+    "vci": 52.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B152_Link04": {
+    "iri": 9.53,
+    "rut_mm": 14.45,
+    "cracking": 45.2,
+    "pci": 43.8,
+    "vci": 46.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B153_Link01": {
+    "iri": 4.77,
+    "rut_mm": 5.89,
+    "cracking": 16.6,
+    "pci": 77.1,
+    "vci": 80.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B153_Link02": {
+    "iri": 3.46,
+    "rut_mm": 3.53,
+    "cracking": 8.8,
+    "pci": 86.3,
+    "vci": 89.6,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B153_Link03": {
+    "iri": 4.96,
+    "rut_mm": 6.23,
+    "cracking": 17.8,
+    "pci": 75.8,
+    "vci": 78.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B200_Link01": {
+    "iri": 5.35,
+    "rut_mm": 6.93,
+    "cracking": 20.1,
+    "pci": 73.1,
+    "vci": 76.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B201_Link01": {
+    "iri": 1.98,
+    "rut_mm": 0.86,
+    "cracking": 0,
+    "pci": 96.6,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B202_Link01": {
+    "iri": 3.26,
+    "rut_mm": 3.17,
+    "cracking": 7.6,
+    "pci": 87.7,
+    "vci": 91.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B202_Link02": {
+    "iri": 3.5,
+    "rut_mm": 3.6,
+    "cracking": 9.0,
+    "pci": 86.0,
+    "vci": 89.3,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B202_Link03": {
+    "iri": 2.71,
+    "rut_mm": 2.18,
+    "cracking": 4.3,
+    "pci": 91.5,
+    "vci": 94.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B202_Link04": {
+    "iri": 2.45,
+    "rut_mm": 1.71,
+    "cracking": 2.7,
+    "pci": 93.3,
+    "vci": 96.8,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B202_Link05": {
+    "iri": 3.36,
+    "rut_mm": 3.35,
+    "cracking": 8.2,
+    "pci": 87.0,
+    "vci": 90.3,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B203_Link01": {
+    "iri": 2.3,
+    "rut_mm": 1.44,
+    "cracking": 1.8,
+    "pci": 94.4,
+    "vci": 97.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B203_Link02": {
+    "iri": 3.08,
+    "rut_mm": 2.84,
+    "cracking": 6.5,
+    "pci": 88.9,
+    "vci": 92.3,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B203_Link03": {
+    "iri": 1.59,
+    "rut_mm": 0.16,
+    "cracking": 0,
+    "pci": 99.4,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B204_Link01": {
+    "iri": 5.34,
+    "rut_mm": 6.91,
+    "cracking": 20.0,
+    "pci": 73.1,
+    "vci": 76.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B204_Link02": {
+    "iri": 3.5,
+    "rut_mm": 3.6,
+    "cracking": 9.0,
+    "pci": 86.0,
+    "vci": 89.3,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B250_Link01": {
+    "iri": 12.31,
+    "rut_mm": 19.46,
+    "cracking": 61.9,
+    "pci": 24.3,
+    "vci": 26.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "B250_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "B250_Link03": {
+    "iri": 15.67,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0.8,
+    "vci": 2.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "B251_Link01": {
+    "iri": 8.01,
+    "rut_mm": 11.72,
+    "cracking": 36.1,
+    "pci": 54.4,
+    "vci": 57.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B252_Link01": {
+    "iri": 15.07,
+    "rut_mm": 24.43,
+    "cracking": 78.4,
+    "pci": 5.0,
+    "vci": 6.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "B252_Link02": {
+    "iri": 13.68,
+    "rut_mm": 21.92,
+    "cracking": 70.1,
+    "pci": 14.7,
+    "vci": 16.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "B252_Link03": {
+    "iri": 4.28,
+    "rut_mm": 5.0,
+    "cracking": 13.7,
+    "pci": 80.5,
+    "vci": 83.7,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B252_Link04": {
+    "iri": 5.84,
+    "rut_mm": 7.81,
+    "cracking": 23.0,
+    "pci": 69.6,
+    "vci": 72.6,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B252_Link05": {
+    "iri": 8.46,
+    "rut_mm": 12.53,
+    "cracking": 38.8,
+    "pci": 51.3,
+    "vci": 53.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B253_Link01": {
+    "iri": 11.18,
+    "rut_mm": 17.42,
+    "cracking": 55.1,
+    "pci": 32.2,
+    "vci": 34.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "B253_Link02": {
+    "iri": 13.06,
+    "rut_mm": 20.81,
+    "cracking": 66.4,
+    "pci": 19.1,
+    "vci": 21.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "B253_Link03": {
+    "iri": 12.07,
+    "rut_mm": 19.03,
+    "cracking": 60.4,
+    "pci": 26.0,
+    "vci": 28.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "B300_Link01": {
+    "iri": 8.49,
+    "rut_mm": 12.58,
+    "cracking": 38.9,
+    "pci": 51.1,
+    "vci": 53.6,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B300_Link02": {
+    "iri": 12.2,
+    "rut_mm": 19.26,
+    "cracking": 61.2,
+    "pci": 25.1,
+    "vci": 27.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B300_Link03": {
+    "iri": 12.78,
+    "rut_mm": 20.3,
+    "cracking": 64.7,
+    "pci": 21.0,
+    "vci": 23.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "B300_Link04": {
+    "iri": 10.27,
+    "rut_mm": 15.79,
+    "cracking": 49.6,
+    "pci": 38.6,
+    "vci": 40.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B300_Link05": {
+    "iri": 4.41,
+    "rut_mm": 5.24,
+    "cracking": 14.5,
+    "pci": 79.6,
+    "vci": 82.8,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B300_Link06": {
+    "iri": 5.19,
+    "rut_mm": 6.64,
+    "cracking": 19.1,
+    "pci": 74.2,
+    "vci": 77.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B301_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "B301_Link02": {
+    "iri": 15.09,
+    "rut_mm": 24.46,
+    "cracking": 78.5,
+    "pci": 4.9,
+    "vci": 6.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "B301_Link03": {
+    "iri": 13.94,
+    "rut_mm": 22.39,
+    "cracking": 71.6,
+    "pci": 12.9,
+    "vci": 14.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "B302_Link01": {
+    "iri": 13.02,
+    "rut_mm": 20.74,
+    "cracking": 66.1,
+    "pci": 19.4,
+    "vci": 21.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "B302_Link02": {
+    "iri": 14.29,
+    "rut_mm": 23.02,
+    "cracking": 73.7,
+    "pci": 10.5,
+    "vci": 12.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "B303_Link01": {
+    "iri": 13.19,
+    "rut_mm": 21.04,
+    "cracking": 67.1,
+    "pci": 18.2,
+    "vci": 20.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B303_Link02": {
+    "iri": 3.93,
+    "rut_mm": 4.37,
+    "cracking": 11.6,
+    "pci": 83.0,
+    "vci": 86.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B303_Link03": {
+    "iri": 5.95,
+    "rut_mm": 8.01,
+    "cracking": 23.7,
+    "pci": 68.8,
+    "vci": 71.8,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B304_Link01": {
+    "iri": 4.28,
+    "rut_mm": 5.0,
+    "cracking": 13.7,
+    "pci": 80.5,
+    "vci": 83.7,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B304_Link02": {
+    "iri": 4.03,
+    "rut_mm": 4.55,
+    "cracking": 12.2,
+    "pci": 82.3,
+    "vci": 85.5,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B305_Link01": {
+    "iri": 1.43,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B305_Link02": {
+    "iri": 1.63,
+    "rut_mm": 0.23,
+    "cracking": 0,
+    "pci": 99.1,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B305_Link03": {
+    "iri": 2.85,
+    "rut_mm": 2.43,
+    "cracking": 5.1,
+    "pci": 90.5,
+    "vci": 93.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B306_Link01": {
+    "iri": 10.61,
+    "rut_mm": 16.4,
+    "cracking": 51.7,
+    "pci": 36.2,
+    "vci": 38.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "B307_Link01": {
+    "iri": 4.01,
+    "rut_mm": 4.52,
+    "cracking": 12.1,
+    "pci": 82.4,
+    "vci": 85.6,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B307_Link02": {
+    "iri": 5.26,
+    "rut_mm": 6.77,
+    "cracking": 19.6,
+    "pci": 73.7,
+    "vci": 76.7,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "B307_Link03": {
+    "iri": 11.14,
+    "rut_mm": 17.35,
+    "cracking": 54.8,
+    "pci": 32.5,
+    "vci": 34.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "B307_Link04": {
+    "iri": 13.53,
+    "rut_mm": 21.65,
+    "cracking": 69.2,
+    "pci": 15.8,
+    "vci": 17.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "B308_Link01": {
+    "iri": 7.63,
+    "rut_mm": 11.03,
+    "cracking": 33.8,
+    "pci": 57.1,
+    "vci": 59.8,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C001_Link01": {
+    "iri": 9.03,
+    "rut_mm": 13.55,
+    "cracking": 42.2,
+    "pci": 47.3,
+    "vci": 49.8,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C002_Link01": {
+    "iri": 6.74,
+    "rut_mm": 9.43,
+    "cracking": 28.4,
+    "pci": 63.3,
+    "vci": 66.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C003_Link01": {
+    "iri": 10.88,
+    "rut_mm": 16.88,
+    "cracking": 53.3,
+    "pci": 34.3,
+    "vci": 36.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C005_Link01": {
+    "iri": 7.33,
+    "rut_mm": 10.49,
+    "cracking": 32.0,
+    "pci": 59.2,
+    "vci": 61.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C006_Link01": {
+    "iri": 11.57,
+    "rut_mm": 18.13,
+    "cracking": 57.4,
+    "pci": 29.5,
+    "vci": 31.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C007_Link01": {
+    "iri": 12.39,
+    "rut_mm": 19.6,
+    "cracking": 62.3,
+    "pci": 23.8,
+    "vci": 25.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C011_Link01": {
+    "iri": 10.29,
+    "rut_mm": 15.82,
+    "cracking": 49.7,
+    "pci": 38.5,
+    "vci": 40.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C022_Link01": {
+    "iri": 6.1,
+    "rut_mm": 8.28,
+    "cracking": 24.6,
+    "pci": 67.8,
+    "vci": 70.7,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C023_Link01": {
+    "iri": 10.93,
+    "rut_mm": 16.97,
+    "cracking": 53.6,
+    "pci": 34.0,
+    "vci": 36.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C024_Link01": {
+    "iri": 2.57,
+    "rut_mm": 1.93,
+    "cracking": 3.4,
+    "pci": 92.5,
+    "vci": 95.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C025_Link01": {
+    "iri": 2.54,
+    "rut_mm": 1.87,
+    "cracking": 3.2,
+    "pci": 92.7,
+    "vci": 96.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C025_Link02": {
+    "iri": 3.39,
+    "rut_mm": 3.4,
+    "cracking": 8.3,
+    "pci": 86.8,
+    "vci": 90.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C026_Link01": {
+    "iri": 9.4,
+    "rut_mm": 14.22,
+    "cracking": 44.4,
+    "pci": 44.7,
+    "vci": 47.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C027_Link01": {
+    "iri": 9.78,
+    "rut_mm": 14.9,
+    "cracking": 46.7,
+    "pci": 42.0,
+    "vci": 44.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C028_Link01": {
+    "iri": 1.86,
+    "rut_mm": 0.65,
+    "cracking": 0,
+    "pci": 97.5,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C029_Link01": {
+    "iri": 2.76,
+    "rut_mm": 2.27,
+    "cracking": 4.6,
+    "pci": 91.2,
+    "vci": 94.6,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C029_Link02": {
+    "iri": 9.59,
+    "rut_mm": 14.56,
+    "cracking": 45.5,
+    "pci": 43.4,
+    "vci": 45.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C030_Link01": {
+    "iri": 13.64,
+    "rut_mm": 21.85,
+    "cracking": 69.8,
+    "pci": 15.0,
+    "vci": 16.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C030_Link02": {
+    "iri": 11.93,
+    "rut_mm": 18.77,
+    "cracking": 59.6,
+    "pci": 27.0,
+    "vci": 29.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C034_Link01": {
+    "iri": 11.08,
+    "rut_mm": 17.24,
+    "cracking": 54.5,
+    "pci": 32.9,
+    "vci": 35.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C035_Link01": {
+    "iri": 6.94,
+    "rut_mm": 9.79,
+    "cracking": 29.6,
+    "pci": 61.9,
+    "vci": 64.7,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C036_Link01": {
+    "iri": 11.28,
+    "rut_mm": 17.6,
+    "cracking": 55.7,
+    "pci": 31.5,
+    "vci": 33.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C037_Link01": {
+    "iri": 10.81,
+    "rut_mm": 16.76,
+    "cracking": 52.9,
+    "pci": 34.8,
+    "vci": 37.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C038_Link01": {
+    "iri": 9.54,
+    "rut_mm": 14.47,
+    "cracking": 45.2,
+    "pci": 43.7,
+    "vci": 46.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C039_Link01": {
+    "iri": 9.28,
+    "rut_mm": 14.0,
+    "cracking": 43.7,
+    "pci": 45.5,
+    "vci": 48.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C040_Link01": {
+    "iri": 10.11,
+    "rut_mm": 15.5,
+    "cracking": 48.7,
+    "pci": 39.7,
+    "vci": 42.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C041_Link01": {
+    "iri": 12.74,
+    "rut_mm": 20.23,
+    "cracking": 64.4,
+    "pci": 21.3,
+    "vci": 23.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C042_Link01": {
+    "iri": 13.47,
+    "rut_mm": 21.55,
+    "cracking": 68.8,
+    "pci": 16.2,
+    "vci": 18.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C043_Link01": {
+    "iri": 10.46,
+    "rut_mm": 16.13,
+    "cracking": 50.8,
+    "pci": 37.3,
+    "vci": 39.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C044_Link01": {
+    "iri": 10.58,
+    "rut_mm": 16.34,
+    "cracking": 51.5,
+    "pci": 36.4,
+    "vci": 38.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C045_Link01": {
+    "iri": 13.62,
+    "rut_mm": 21.82,
+    "cracking": 69.7,
+    "pci": 15.2,
+    "vci": 17.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C046_Link01": {
+    "iri": 13.32,
+    "rut_mm": 21.28,
+    "cracking": 67.9,
+    "pci": 17.3,
+    "vci": 19.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C047_Link01": {
+    "iri": 12.65,
+    "rut_mm": 20.07,
+    "cracking": 63.9,
+    "pci": 22.0,
+    "vci": 23.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C140_Link01": {
+    "iri": 13.37,
+    "rut_mm": 21.37,
+    "cracking": 68.2,
+    "pci": 16.9,
+    "vci": 18.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C150_Link01": {
+    "iri": 9.6,
+    "rut_mm": 14.58,
+    "cracking": 45.6,
+    "pci": 43.3,
+    "vci": 45.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C151_Link01": {
+    "iri": 11.16,
+    "rut_mm": 17.39,
+    "cracking": 55.0,
+    "pci": 32.4,
+    "vci": 34.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C152_Link01": {
+    "iri": 6.54,
+    "rut_mm": 9.07,
+    "cracking": 27.2,
+    "pci": 64.7,
+    "vci": 67.6,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C153_Link01": {
+    "iri": 9.87,
+    "rut_mm": 15.07,
+    "cracking": 47.2,
+    "pci": 41.4,
+    "vci": 43.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C154_Link01": {
+    "iri": 5.31,
+    "rut_mm": 6.86,
+    "cracking": 19.9,
+    "pci": 73.3,
+    "vci": 76.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C154_Link02": {
+    "iri": 11.0,
+    "rut_mm": 17.1,
+    "cracking": 54.0,
+    "pci": 33.5,
+    "vci": 35.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C157_Link01": {
+    "iri": 10.18,
+    "rut_mm": 15.62,
+    "cracking": 49.1,
+    "pci": 39.2,
+    "vci": 41.6,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C158_Link01": {
+    "iri": 9.64,
+    "rut_mm": 14.65,
+    "cracking": 45.8,
+    "pci": 43.0,
+    "vci": 45.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C159_Link01": {
+    "iri": 12.65,
+    "rut_mm": 20.07,
+    "cracking": 63.9,
+    "pci": 22.0,
+    "vci": 23.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C160_Link01": {
+    "iri": 13.25,
+    "rut_mm": 21.15,
+    "cracking": 67.5,
+    "pci": 17.8,
+    "vci": 19.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C161_Link01": {
+    "iri": 3.64,
+    "rut_mm": 3.85,
+    "cracking": 9.8,
+    "pci": 85.0,
+    "vci": 88.3,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C162_Link01": {
+    "iri": 3.28,
+    "rut_mm": 3.2,
+    "cracking": 7.7,
+    "pci": 87.5,
+    "vci": 90.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C162_Link02": {
+    "iri": 2.59,
+    "rut_mm": 1.96,
+    "cracking": 3.5,
+    "pci": 92.4,
+    "vci": 95.8,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C162_Link03": {
+    "iri": 3.54,
+    "rut_mm": 3.67,
+    "cracking": 9.2,
+    "pci": 85.7,
+    "vci": 89.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C162_Link04": {
+    "iri": 11.0,
+    "rut_mm": 17.1,
+    "cracking": 54.0,
+    "pci": 33.5,
+    "vci": 35.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C162_Link05": {
+    "iri": 10.49,
+    "rut_mm": 16.18,
+    "cracking": 50.9,
+    "pci": 37.1,
+    "vci": 39.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C163_Link01": {
+    "iri": 10.44,
+    "rut_mm": 16.09,
+    "cracking": 50.6,
+    "pci": 37.4,
+    "vci": 39.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C164_Link01": {
+    "iri": 10.32,
+    "rut_mm": 15.88,
+    "cracking": 49.9,
+    "pci": 38.3,
+    "vci": 40.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C165_Link01": {
+    "iri": 11.64,
+    "rut_mm": 18.25,
+    "cracking": 57.8,
+    "pci": 29.0,
+    "vci": 31.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C166_Link01": {
+    "iri": 3.18,
+    "rut_mm": 3.02,
+    "cracking": 7.1,
+    "pci": 88.2,
+    "vci": 91.6,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C166_Link02": {
+    "iri": 3.5,
+    "rut_mm": 3.6,
+    "cracking": 9.0,
+    "pci": 86.0,
+    "vci": 89.3,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C166_Link03": {
+    "iri": 9.49,
+    "rut_mm": 14.38,
+    "cracking": 44.9,
+    "pci": 44.1,
+    "vci": 46.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C166_Link04": {
+    "iri": 12.17,
+    "rut_mm": 19.21,
+    "cracking": 61.0,
+    "pci": 25.3,
+    "vci": 27.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C167_Link01": {
+    "iri": 10.14,
+    "rut_mm": 15.55,
+    "cracking": 48.8,
+    "pci": 39.5,
+    "vci": 41.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C168_Link01": {
+    "iri": 7.36,
+    "rut_mm": 10.55,
+    "cracking": 32.2,
+    "pci": 59.0,
+    "vci": 61.7,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C170_Link01": {
+    "iri": 9.85,
+    "rut_mm": 15.03,
+    "cracking": 47.1,
+    "pci": 41.6,
+    "vci": 43.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C171_Link01": {
+    "iri": 10.36,
+    "rut_mm": 15.95,
+    "cracking": 50.2,
+    "pci": 38.0,
+    "vci": 40.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C172_Link01": {
+    "iri": 10.23,
+    "rut_mm": 15.71,
+    "cracking": 49.4,
+    "pci": 38.9,
+    "vci": 41.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C173_Link01": {
+    "iri": 10.07,
+    "rut_mm": 15.43,
+    "cracking": 48.4,
+    "pci": 40.0,
+    "vci": 42.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C174_Link01": {
+    "iri": 12.92,
+    "rut_mm": 20.56,
+    "cracking": 65.5,
+    "pci": 20.1,
+    "vci": 22.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C175_Link01": {
+    "iri": 9.6,
+    "rut_mm": 14.58,
+    "cracking": 45.6,
+    "pci": 43.3,
+    "vci": 45.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C176_Link01": {
+    "iri": 10.35,
+    "rut_mm": 15.93,
+    "cracking": 50.1,
+    "pci": 38.1,
+    "vci": 40.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C177_Link01": {
+    "iri": 13.47,
+    "rut_mm": 21.55,
+    "cracking": 68.8,
+    "pci": 16.2,
+    "vci": 18.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C178_Link01": {
+    "iri": 11.43,
+    "rut_mm": 17.87,
+    "cracking": 56.6,
+    "pci": 30.5,
+    "vci": 32.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C179_Link01": {
+    "iri": 13.68,
+    "rut_mm": 21.92,
+    "cracking": 70.1,
+    "pci": 14.7,
+    "vci": 16.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C180_Link01": {
+    "iri": 11.36,
+    "rut_mm": 17.75,
+    "cracking": 56.2,
+    "pci": 31.0,
+    "vci": 33.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C181_Link01": {
+    "iri": 13.54,
+    "rut_mm": 21.67,
+    "cracking": 69.2,
+    "pci": 15.7,
+    "vci": 17.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C182_Link01": {
+    "iri": 12.96,
+    "rut_mm": 20.63,
+    "cracking": 65.8,
+    "pci": 19.8,
+    "vci": 21.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C183_Link01": {
+    "iri": 11.39,
+    "rut_mm": 17.8,
+    "cracking": 56.3,
+    "pci": 30.8,
+    "vci": 32.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C184_Link01": {
+    "iri": 9.43,
+    "rut_mm": 14.27,
+    "cracking": 44.6,
+    "pci": 44.5,
+    "vci": 46.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C185_Link01": {
+    "iri": 9.54,
+    "rut_mm": 14.47,
+    "cracking": 45.2,
+    "pci": 43.7,
+    "vci": 46.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C186_Link01": {
+    "iri": 9.96,
+    "rut_mm": 15.23,
+    "cracking": 47.8,
+    "pci": 40.8,
+    "vci": 43.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C187_Link01": {
+    "iri": 10.68,
+    "rut_mm": 16.52,
+    "cracking": 52.1,
+    "pci": 35.7,
+    "vci": 38.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C188_Link01": {
+    "iri": 13.17,
+    "rut_mm": 21.01,
+    "cracking": 67.0,
+    "pci": 18.3,
+    "vci": 20.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C189_Link01": {
+    "iri": 12.18,
+    "rut_mm": 19.22,
+    "cracking": 61.1,
+    "pci": 25.2,
+    "vci": 27.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C190_Link01": {
+    "iri": 12.12,
+    "rut_mm": 19.12,
+    "cracking": 60.7,
+    "pci": 25.7,
+    "vci": 27.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C191_Link01": {
+    "iri": 13.46,
+    "rut_mm": 21.53,
+    "cracking": 68.8,
+    "pci": 16.3,
+    "vci": 18.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C193_Link01": {
+    "iri": 9.97,
+    "rut_mm": 15.25,
+    "cracking": 47.8,
+    "pci": 40.7,
+    "vci": 43.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C194_Link01": {
+    "iri": 12.03,
+    "rut_mm": 18.95,
+    "cracking": 60.2,
+    "pci": 26.3,
+    "vci": 28.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C194_Link02": {
+    "iri": 13.18,
+    "rut_mm": 21.02,
+    "cracking": 67.1,
+    "pci": 18.2,
+    "vci": 20.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C195_Link01": {
+    "iri": 10.5,
+    "rut_mm": 16.2,
+    "cracking": 51.0,
+    "pci": 37.0,
+    "vci": 39.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C196_Link01": {
+    "iri": 11.42,
+    "rut_mm": 17.86,
+    "cracking": 56.5,
+    "pci": 30.6,
+    "vci": 32.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C197_Link01": {
+    "iri": 11.18,
+    "rut_mm": 17.42,
+    "cracking": 55.1,
+    "pci": 32.2,
+    "vci": 34.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C198_Link01": {
+    "iri": 7.84,
+    "rut_mm": 11.41,
+    "cracking": 35.0,
+    "pci": 55.6,
+    "vci": 58.3,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C199_Link01": {
+    "iri": 1.85,
+    "rut_mm": 0.63,
+    "cracking": 0,
+    "pci": 97.5,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C200_Link01": {
+    "iri": 10.91,
+    "rut_mm": 16.94,
+    "cracking": 53.5,
+    "pci": 34.1,
+    "vci": 36.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C201_Link01": {
+    "iri": 12.63,
+    "rut_mm": 20.03,
+    "cracking": 63.8,
+    "pci": 22.1,
+    "vci": 24.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C210_Link01": {
+    "iri": 10.46,
+    "rut_mm": 16.13,
+    "cracking": 50.8,
+    "pci": 37.3,
+    "vci": 39.6,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C211_Link01": {
+    "iri": 2.15,
+    "rut_mm": 1.17,
+    "cracking": 0.9,
+    "pci": 95.5,
+    "vci": 98.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C211_Link02": {
+    "iri": 2.01,
+    "rut_mm": 0.92,
+    "cracking": 0.1,
+    "pci": 96.4,
+    "vci": 99.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C212_Link01": {
+    "iri": 1.41,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C213_Link01": {
+    "iri": 13.01,
+    "rut_mm": 20.72,
+    "cracking": 66.1,
+    "pci": 19.4,
+    "vci": 21.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C214_Link01": {
+    "iri": 10.92,
+    "rut_mm": 16.96,
+    "cracking": 53.5,
+    "pci": 34.1,
+    "vci": 36.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C214_Link02": {
+    "iri": 10.33,
+    "rut_mm": 15.89,
+    "cracking": 50.0,
+    "pci": 38.2,
+    "vci": 40.5,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C215_Link01": {
+    "iri": 12.17,
+    "rut_mm": 19.21,
+    "cracking": 61.0,
+    "pci": 25.3,
+    "vci": 27.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C215_Link02": {
+    "iri": 12.35,
+    "rut_mm": 19.53,
+    "cracking": 62.1,
+    "pci": 24.0,
+    "vci": 26.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C215_Link03": {
+    "iri": 12.72,
+    "rut_mm": 20.2,
+    "cracking": 64.3,
+    "pci": 21.5,
+    "vci": 23.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C216_Link01": {
+    "iri": 13.02,
+    "rut_mm": 20.74,
+    "cracking": 66.1,
+    "pci": 19.4,
+    "vci": 21.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C217_Link01": {
+    "iri": 13.3,
+    "rut_mm": 21.24,
+    "cracking": 67.8,
+    "pci": 17.4,
+    "vci": 19.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C218_Link01": {
+    "iri": 10.87,
+    "rut_mm": 16.87,
+    "cracking": 53.2,
+    "pci": 34.4,
+    "vci": 36.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C219_Link01": {
+    "iri": 13.07,
+    "rut_mm": 20.83,
+    "cracking": 66.4,
+    "pci": 19.0,
+    "vci": 20.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C220_Link01": {
+    "iri": 11.6,
+    "rut_mm": 18.18,
+    "cracking": 57.6,
+    "pci": 29.3,
+    "vci": 31.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C221_Link01": {
+    "iri": 13.09,
+    "rut_mm": 20.86,
+    "cracking": 66.5,
+    "pci": 18.9,
+    "vci": 20.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C221_Link02": {
+    "iri": 9.94,
+    "rut_mm": 15.19,
+    "cracking": 47.6,
+    "pci": 40.9,
+    "vci": 43.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C222_Link01": {
+    "iri": 10.71,
+    "rut_mm": 16.58,
+    "cracking": 52.3,
+    "pci": 35.5,
+    "vci": 37.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C223_Link01": {
+    "iri": 12.44,
+    "rut_mm": 19.69,
+    "cracking": 62.6,
+    "pci": 23.4,
+    "vci": 25.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C224_Link01": {
+    "iri": 11.14,
+    "rut_mm": 17.35,
+    "cracking": 54.8,
+    "pci": 32.5,
+    "vci": 34.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C225_Link01": {
+    "iri": 10.55,
+    "rut_mm": 16.29,
+    "cracking": 51.3,
+    "pci": 36.6,
+    "vci": 38.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C226_Link01": {
+    "iri": 13.35,
+    "rut_mm": 21.33,
+    "cracking": 68.1,
+    "pci": 17.0,
+    "vci": 18.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C226_Link02": {
+    "iri": 13.21,
+    "rut_mm": 21.08,
+    "cracking": 67.3,
+    "pci": 18.0,
+    "vci": 19.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C227_Link01": {
+    "iri": 12.6,
+    "rut_mm": 19.98,
+    "cracking": 63.6,
+    "pci": 22.3,
+    "vci": 24.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C228_Link01": {
+    "iri": 12.94,
+    "rut_mm": 20.59,
+    "cracking": 65.6,
+    "pci": 19.9,
+    "vci": 21.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C228_Link02": {
+    "iri": 10.76,
+    "rut_mm": 16.67,
+    "cracking": 52.6,
+    "pci": 35.2,
+    "vci": 37.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C229_Link01": {
+    "iri": 12.91,
+    "rut_mm": 20.54,
+    "cracking": 65.5,
+    "pci": 20.1,
+    "vci": 22.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C230_Link01": {
+    "iri": 12.47,
+    "rut_mm": 19.75,
+    "cracking": 62.8,
+    "pci": 23.2,
+    "vci": 25.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C231_Link01": {
+    "iri": 8.27,
+    "rut_mm": 12.19,
+    "cracking": 37.6,
+    "pci": 52.6,
+    "vci": 55.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C232_Link01": {
+    "iri": 4.22,
+    "rut_mm": 4.9,
+    "cracking": 13.3,
+    "pci": 81.0,
+    "vci": 84.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C233_Link01": {
+    "iri": 10.12,
+    "rut_mm": 15.52,
+    "cracking": 48.7,
+    "pci": 39.7,
+    "vci": 42.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C234_Link01": {
+    "iri": 12.93,
+    "rut_mm": 20.57,
+    "cracking": 65.6,
+    "pci": 20.0,
+    "vci": 21.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C235_Link01": {
+    "iri": 1.48,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C260_Link01": {
+    "iri": 13.02,
+    "rut_mm": 20.74,
+    "cracking": 66.1,
+    "pci": 19.4,
+    "vci": 21.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C261_Link01": {
+    "iri": 12.83,
+    "rut_mm": 20.39,
+    "cracking": 65.0,
+    "pci": 20.7,
+    "vci": 22.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C261_Link02": {
+    "iri": 13.25,
+    "rut_mm": 21.15,
+    "cracking": 67.5,
+    "pci": 17.8,
+    "vci": 19.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C262_Link01": {
+    "iri": 9.3,
+    "rut_mm": 14.04,
+    "cracking": 43.8,
+    "pci": 45.4,
+    "vci": 47.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C263_Link01": {
+    "iri": 12.51,
+    "rut_mm": 19.82,
+    "cracking": 63.1,
+    "pci": 22.9,
+    "vci": 24.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C264_Link01": {
+    "iri": 12.08,
+    "rut_mm": 19.04,
+    "cracking": 60.5,
+    "pci": 25.9,
+    "vci": 28.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C265_Link01": {
+    "iri": 13.14,
+    "rut_mm": 20.95,
+    "cracking": 66.8,
+    "pci": 18.5,
+    "vci": 20.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C265_Link02": {
+    "iri": 12.39,
+    "rut_mm": 19.6,
+    "cracking": 62.3,
+    "pci": 23.8,
+    "vci": 25.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C266_Link01": {
+    "iri": 12.99,
+    "rut_mm": 20.68,
+    "cracking": 65.9,
+    "pci": 19.6,
+    "vci": 21.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C267_Link01": {
+    "iri": 9.28,
+    "rut_mm": 14.0,
+    "cracking": 43.7,
+    "pci": 45.5,
+    "vci": 48.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C268_Link01": {
+    "iri": 7.18,
+    "rut_mm": 10.22,
+    "cracking": 31.1,
+    "pci": 60.2,
+    "vci": 63.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C269_Link01": {
+    "iri": 11.51,
+    "rut_mm": 18.02,
+    "cracking": 57.1,
+    "pci": 29.9,
+    "vci": 32.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C270_Link01": {
+    "iri": 9.87,
+    "rut_mm": 15.07,
+    "cracking": 47.2,
+    "pci": 41.4,
+    "vci": 43.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C271_Link01": {
+    "iri": 11.67,
+    "rut_mm": 18.31,
+    "cracking": 58.0,
+    "pci": 28.8,
+    "vci": 30.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C271_Link02": {
+    "iri": 12.4,
+    "rut_mm": 19.62,
+    "cracking": 62.4,
+    "pci": 23.7,
+    "vci": 25.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C271_Link03": {
+    "iri": 9.48,
+    "rut_mm": 14.36,
+    "cracking": 44.9,
+    "pci": 44.1,
+    "vci": 46.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C271_Link04": {
+    "iri": 11.89,
+    "rut_mm": 18.7,
+    "cracking": 59.3,
+    "pci": 27.3,
+    "vci": 29.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C272_Link01": {
+    "iri": 13.38,
+    "rut_mm": 21.38,
+    "cracking": 68.3,
+    "pci": 16.8,
+    "vci": 18.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C273_Link01": {
+    "iri": 13.07,
+    "rut_mm": 20.83,
+    "cracking": 66.4,
+    "pci": 19.0,
+    "vci": 20.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C273_Link02": {
+    "iri": 9.57,
+    "rut_mm": 14.53,
+    "cracking": 45.4,
+    "pci": 43.5,
+    "vci": 45.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C273_Link03": {
+    "iri": 9.6,
+    "rut_mm": 14.58,
+    "cracking": 45.6,
+    "pci": 43.3,
+    "vci": 45.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C274_Link01": {
+    "iri": 12.77,
+    "rut_mm": 20.29,
+    "cracking": 64.6,
+    "pci": 21.1,
+    "vci": 23.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C274_Link02": {
+    "iri": 10.16,
+    "rut_mm": 15.59,
+    "cracking": 49.0,
+    "pci": 39.4,
+    "vci": 41.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C275_Link01": {
+    "iri": 11.73,
+    "rut_mm": 18.41,
+    "cracking": 58.4,
+    "pci": 28.4,
+    "vci": 30.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C277_Link01": {
+    "iri": 13.31,
+    "rut_mm": 21.26,
+    "cracking": 67.9,
+    "pci": 17.3,
+    "vci": 19.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C279_Link01": {
+    "iri": 10.76,
+    "rut_mm": 16.67,
+    "cracking": 52.6,
+    "pci": 35.2,
+    "vci": 37.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C280_Link01": {
+    "iri": 11.46,
+    "rut_mm": 17.93,
+    "cracking": 56.8,
+    "pci": 30.3,
+    "vci": 32.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C281_Link01": {
+    "iri": 11.54,
+    "rut_mm": 18.07,
+    "cracking": 57.2,
+    "pci": 29.7,
+    "vci": 31.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C283_Link01": {
+    "iri": 10.4,
+    "rut_mm": 16.02,
+    "cracking": 50.4,
+    "pci": 37.7,
+    "vci": 40.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C284_Link01": {
+    "iri": 11.71,
+    "rut_mm": 18.38,
+    "cracking": 58.3,
+    "pci": 28.5,
+    "vci": 30.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C285_Link01": {
+    "iri": 12.71,
+    "rut_mm": 20.18,
+    "cracking": 64.3,
+    "pci": 21.5,
+    "vci": 23.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C300_Link01": {
+    "iri": 10.0,
+    "rut_mm": 15.3,
+    "cracking": 48.0,
+    "pci": 40.5,
+    "vci": 42.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C301_Link01": {
+    "iri": 13.43,
+    "rut_mm": 21.47,
+    "cracking": 68.6,
+    "pci": 16.5,
+    "vci": 18.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C302_Link01": {
+    "iri": 3.8,
+    "rut_mm": 4.14,
+    "cracking": 10.8,
+    "pci": 83.9,
+    "vci": 87.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C302_Link02": {
+    "iri": 11.97,
+    "rut_mm": 18.85,
+    "cracking": 59.8,
+    "pci": 26.7,
+    "vci": 28.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C302_Link03": {
+    "iri": 13.35,
+    "rut_mm": 21.33,
+    "cracking": 68.1,
+    "pci": 17.0,
+    "vci": 18.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C303_Link01": {
+    "iri": 13.79,
+    "rut_mm": 22.12,
+    "cracking": 70.7,
+    "pci": 14.0,
+    "vci": 15.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C304_Link01": {
+    "iri": 13.04,
+    "rut_mm": 20.77,
+    "cracking": 66.2,
+    "pci": 19.2,
+    "vci": 21.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C305_Link01": {
+    "iri": 12.05,
+    "rut_mm": 18.99,
+    "cracking": 60.3,
+    "pci": 26.1,
+    "vci": 28.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C306_Link01": {
+    "iri": 9.79,
+    "rut_mm": 14.92,
+    "cracking": 46.7,
+    "pci": 42.0,
+    "vci": 44.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C307_Link01": {
+    "iri": 11.77,
+    "rut_mm": 18.49,
+    "cracking": 58.6,
+    "pci": 28.1,
+    "vci": 30.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C308_Link01": {
+    "iri": 4.39,
+    "rut_mm": 5.2,
+    "cracking": 14.3,
+    "pci": 79.8,
+    "vci": 82.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C309_Link01": {
+    "iri": 3.35,
+    "rut_mm": 3.33,
+    "cracking": 8.1,
+    "pci": 87.0,
+    "vci": 90.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C310_Link01": {
+    "iri": 12.34,
+    "rut_mm": 19.51,
+    "cracking": 62.0,
+    "pci": 24.1,
+    "vci": 26.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C311_Link01": {
+    "iri": 11.57,
+    "rut_mm": 18.13,
+    "cracking": 57.4,
+    "pci": 29.5,
+    "vci": 31.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C312_Link01": {
+    "iri": 12.96,
+    "rut_mm": 20.63,
+    "cracking": 65.8,
+    "pci": 19.8,
+    "vci": 21.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C312_Link02": {
+    "iri": 10.23,
+    "rut_mm": 15.71,
+    "cracking": 49.4,
+    "pci": 38.9,
+    "vci": 41.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C313_Link01": {
+    "iri": 10.41,
+    "rut_mm": 16.04,
+    "cracking": 50.5,
+    "pci": 37.6,
+    "vci": 39.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C315_Link01": {
+    "iri": 10.58,
+    "rut_mm": 16.34,
+    "cracking": 51.5,
+    "pci": 36.4,
+    "vci": 38.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C315_Link02": {
+    "iri": 11.05,
+    "rut_mm": 17.19,
+    "cracking": 54.3,
+    "pci": 33.1,
+    "vci": 35.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C316_Link01": {
+    "iri": 9.84,
+    "rut_mm": 15.01,
+    "cracking": 47.0,
+    "pci": 41.6,
+    "vci": 44.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C317_Link01": {
+    "iri": 11.08,
+    "rut_mm": 17.24,
+    "cracking": 54.5,
+    "pci": 32.9,
+    "vci": 35.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C317_Link02": {
+    "iri": 9.69,
+    "rut_mm": 14.74,
+    "cracking": 46.1,
+    "pci": 42.7,
+    "vci": 45.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C318_Link01": {
+    "iri": 13.53,
+    "rut_mm": 21.65,
+    "cracking": 69.2,
+    "pci": 15.8,
+    "vci": 17.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C320_Link01": {
+    "iri": 9.83,
+    "rut_mm": 14.99,
+    "cracking": 47.0,
+    "pci": 41.7,
+    "vci": 44.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C325_Link01": {
+    "iri": 13.52,
+    "rut_mm": 21.64,
+    "cracking": 69.1,
+    "pci": 15.9,
+    "vci": 17.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C326_Link01": {
+    "iri": 10.05,
+    "rut_mm": 15.39,
+    "cracking": 48.3,
+    "pci": 40.1,
+    "vci": 42.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C326_Link02": {
+    "iri": 13.06,
+    "rut_mm": 20.81,
+    "cracking": 66.4,
+    "pci": 19.1,
+    "vci": 21.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C329_Link01": {
+    "iri": 12.79,
+    "rut_mm": 20.32,
+    "cracking": 64.7,
+    "pci": 21.0,
+    "vci": 22.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C330_Link01": {
+    "iri": 12.28,
+    "rut_mm": 19.4,
+    "cracking": 61.7,
+    "pci": 24.5,
+    "vci": 26.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C331_Link01": {
+    "iri": 12.05,
+    "rut_mm": 18.99,
+    "cracking": 60.3,
+    "pci": 26.1,
+    "vci": 28.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C332_Link01": {
+    "iri": 11.23,
+    "rut_mm": 17.51,
+    "cracking": 55.4,
+    "pci": 31.9,
+    "vci": 34.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C333_Link01": {
+    "iri": 10.52,
+    "rut_mm": 16.24,
+    "cracking": 51.1,
+    "pci": 36.9,
+    "vci": 39.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C334_Link01": {
+    "iri": 13.14,
+    "rut_mm": 20.95,
+    "cracking": 66.8,
+    "pci": 18.5,
+    "vci": 20.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C335_Link01": {
+    "iri": 2.51,
+    "rut_mm": 1.82,
+    "cracking": 3.1,
+    "pci": 92.9,
+    "vci": 96.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C336_Link01": {
+    "iri": 13.73,
+    "rut_mm": 22.01,
+    "cracking": 70.4,
+    "pci": 14.4,
+    "vci": 16.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C337_Link01": {
+    "iri": 10.27,
+    "rut_mm": 15.79,
+    "cracking": 49.6,
+    "pci": 38.6,
+    "vci": 40.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C338_Link01": {
+    "iri": 9.95,
+    "rut_mm": 15.21,
+    "cracking": 47.7,
+    "pci": 40.9,
+    "vci": 43.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C339_Link01": {
+    "iri": 11.63,
+    "rut_mm": 18.23,
+    "cracking": 57.8,
+    "pci": 29.1,
+    "vci": 31.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C340_Link01": {
+    "iri": 13.72,
+    "rut_mm": 22.0,
+    "cracking": 70.3,
+    "pci": 14.5,
+    "vci": 16.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C350_Link01": {
+    "iri": 4.19,
+    "rut_mm": 4.84,
+    "cracking": 13.1,
+    "pci": 81.2,
+    "vci": 84.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C350_Link02": {
+    "iri": 3.7,
+    "rut_mm": 3.96,
+    "cracking": 10.2,
+    "pci": 84.6,
+    "vci": 87.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C351_Link01": {
+    "iri": 14.32,
+    "rut_mm": 23.08,
+    "cracking": 73.9,
+    "pci": 10.3,
+    "vci": 12.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C351_Link02": {
+    "iri": 10.16,
+    "rut_mm": 15.59,
+    "cracking": 49.0,
+    "pci": 39.4,
+    "vci": 41.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C351_Link03": {
+    "iri": 10.08,
+    "rut_mm": 15.44,
+    "cracking": 48.5,
+    "pci": 39.9,
+    "vci": 42.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C352_Link01": {
+    "iri": 10.45,
+    "rut_mm": 16.11,
+    "cracking": 50.7,
+    "pci": 37.4,
+    "vci": 39.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C353_Link01": {
+    "iri": 10.82,
+    "rut_mm": 16.78,
+    "cracking": 52.9,
+    "pci": 34.8,
+    "vci": 37.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C354_Link01": {
+    "iri": 5.48,
+    "rut_mm": 7.16,
+    "cracking": 20.9,
+    "pci": 72.1,
+    "vci": 75.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C355_Link01": {
+    "iri": 5.29,
+    "rut_mm": 6.82,
+    "cracking": 19.7,
+    "pci": 73.5,
+    "vci": 76.5,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C355_Link02": {
+    "iri": 4.35,
+    "rut_mm": 5.13,
+    "cracking": 14.1,
+    "pci": 80.1,
+    "vci": 83.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C356_Link01": {
+    "iri": 4.8,
+    "rut_mm": 5.94,
+    "cracking": 16.8,
+    "pci": 76.9,
+    "vci": 80.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C356_Link02": {
+    "iri": 11.37,
+    "rut_mm": 17.77,
+    "cracking": 56.2,
+    "pci": 30.9,
+    "vci": 33.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C357_Link01": {
+    "iri": 10.33,
+    "rut_mm": 15.89,
+    "cracking": 50.0,
+    "pci": 38.2,
+    "vci": 40.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C357_Link02": {
+    "iri": 12.89,
+    "rut_mm": 20.5,
+    "cracking": 65.3,
+    "pci": 20.3,
+    "vci": 22.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C358_Link01": {
+    "iri": 14.46,
+    "rut_mm": 23.33,
+    "cracking": 74.8,
+    "pci": 9.3,
+    "vci": 11.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C358_Link02": {
+    "iri": 12.16,
+    "rut_mm": 19.19,
+    "cracking": 61.0,
+    "pci": 25.4,
+    "vci": 27.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C359_Link01": {
+    "iri": 12.71,
+    "rut_mm": 20.18,
+    "cracking": 64.3,
+    "pci": 21.5,
+    "vci": 23.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C359_Link02": {
+    "iri": 13.59,
+    "rut_mm": 21.76,
+    "cracking": 69.5,
+    "pci": 15.4,
+    "vci": 17.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C360_Link01": {
+    "iri": 14.38,
+    "rut_mm": 23.18,
+    "cracking": 74.3,
+    "pci": 9.8,
+    "vci": 11.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C360_Link02": {
+    "iri": 5.61,
+    "rut_mm": 7.4,
+    "cracking": 21.7,
+    "pci": 71.2,
+    "vci": 74.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C360_Link03": {
+    "iri": 3.48,
+    "rut_mm": 3.56,
+    "cracking": 8.9,
+    "pci": 86.1,
+    "vci": 89.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C361_Link01": {
+    "iri": 10.01,
+    "rut_mm": 15.32,
+    "cracking": 48.1,
+    "pci": 40.4,
+    "vci": 42.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C363_Link01": {
+    "iri": 11.11,
+    "rut_mm": 17.3,
+    "cracking": 54.7,
+    "pci": 32.7,
+    "vci": 34.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C364_Link01": {
+    "iri": 11.77,
+    "rut_mm": 18.49,
+    "cracking": 58.6,
+    "pci": 28.1,
+    "vci": 30.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C365_Link01": {
+    "iri": 12.71,
+    "rut_mm": 20.18,
+    "cracking": 64.3,
+    "pci": 21.5,
+    "vci": 23.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C365_Link02": {
+    "iri": 14.29,
+    "rut_mm": 23.02,
+    "cracking": 73.7,
+    "pci": 10.5,
+    "vci": 12.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C366_Link01": {
+    "iri": 11.2,
+    "rut_mm": 17.46,
+    "cracking": 55.2,
+    "pci": 32.1,
+    "vci": 34.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C367_Link01": {
+    "iri": 13.02,
+    "rut_mm": 20.74,
+    "cracking": 66.1,
+    "pci": 19.4,
+    "vci": 21.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C368_Link01": {
+    "iri": 10.3,
+    "rut_mm": 15.84,
+    "cracking": 49.8,
+    "pci": 38.4,
+    "vci": 40.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C369_Link01": {
+    "iri": 13.9,
+    "rut_mm": 22.32,
+    "cracking": 71.4,
+    "pci": 13.2,
+    "vci": 15.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C370_Link01": {
+    "iri": 13.35,
+    "rut_mm": 21.33,
+    "cracking": 68.1,
+    "pci": 17.0,
+    "vci": 18.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C370_Link02": {
+    "iri": 12.99,
+    "rut_mm": 20.68,
+    "cracking": 65.9,
+    "pci": 19.6,
+    "vci": 21.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C371_Link01": {
+    "iri": 11.78,
+    "rut_mm": 18.5,
+    "cracking": 58.7,
+    "pci": 28.0,
+    "vci": 30.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C372_Link01": {
+    "iri": 11.61,
+    "rut_mm": 18.2,
+    "cracking": 57.7,
+    "pci": 29.2,
+    "vci": 31.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C372_Link02": {
+    "iri": 14.41,
+    "rut_mm": 23.24,
+    "cracking": 74.5,
+    "pci": 9.6,
+    "vci": 11.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C373_Link01": {
+    "iri": 11.38,
+    "rut_mm": 17.78,
+    "cracking": 56.3,
+    "pci": 30.8,
+    "vci": 33.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C373_Link02": {
+    "iri": 12.77,
+    "rut_mm": 20.29,
+    "cracking": 64.6,
+    "pci": 21.1,
+    "vci": 23.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C374_Link01": {
+    "iri": 4.63,
+    "rut_mm": 5.63,
+    "cracking": 15.8,
+    "pci": 78.1,
+    "vci": 81.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C375_Link01": {
+    "iri": 14.61,
+    "rut_mm": 23.6,
+    "cracking": 75.7,
+    "pci": 8.2,
+    "vci": 9.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C376_Link01": {
+    "iri": 10.33,
+    "rut_mm": 15.89,
+    "cracking": 50.0,
+    "pci": 38.2,
+    "vci": 40.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C377_Link01": {
+    "iri": 12.95,
+    "rut_mm": 20.61,
+    "cracking": 65.7,
+    "pci": 19.9,
+    "vci": 21.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C378_Link01": {
+    "iri": 11.39,
+    "rut_mm": 17.8,
+    "cracking": 56.3,
+    "pci": 30.8,
+    "vci": 32.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C379_Link01": {
+    "iri": 11.43,
+    "rut_mm": 17.87,
+    "cracking": 56.6,
+    "pci": 30.5,
+    "vci": 32.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C380_Link01": {
+    "iri": 14.36,
+    "rut_mm": 23.15,
+    "cracking": 74.2,
+    "pci": 10.0,
+    "vci": 11.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C382_Link01": {
+    "iri": 12.42,
+    "rut_mm": 19.66,
+    "cracking": 62.5,
+    "pci": 23.6,
+    "vci": 25.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C383_Link01": {
+    "iri": 3.83,
+    "rut_mm": 4.19,
+    "cracking": 11.0,
+    "pci": 83.7,
+    "vci": 86.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C384_Link01": {
+    "iri": 12.97,
+    "rut_mm": 20.65,
+    "cracking": 65.8,
+    "pci": 19.7,
+    "vci": 21.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C385_Link01": {
+    "iri": 12.55,
+    "rut_mm": 19.89,
+    "cracking": 63.3,
+    "pci": 22.6,
+    "vci": 24.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C386_Link01": {
+    "iri": 9.81,
+    "rut_mm": 14.96,
+    "cracking": 46.9,
+    "pci": 41.8,
+    "vci": 44.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C387_Link01": {
+    "iri": 12.12,
+    "rut_mm": 19.12,
+    "cracking": 60.7,
+    "pci": 25.7,
+    "vci": 27.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C388_Link01": {
+    "iri": 14.45,
+    "rut_mm": 23.31,
+    "cracking": 74.7,
+    "pci": 9.4,
+    "vci": 11.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C389_Link01": {
+    "iri": 12.19,
+    "rut_mm": 19.24,
+    "cracking": 61.1,
+    "pci": 25.2,
+    "vci": 27.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C390_Link01": {
+    "iri": 5.35,
+    "rut_mm": 6.93,
+    "cracking": 20.1,
+    "pci": 73.1,
+    "vci": 76.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C390N1_Link01": {
+    "iri": 5.09,
+    "rut_mm": 6.46,
+    "cracking": 18.5,
+    "pci": 74.9,
+    "vci": 77.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C391_Link01": {
+    "iri": 13.34,
+    "rut_mm": 21.31,
+    "cracking": 68.0,
+    "pci": 17.1,
+    "vci": 19.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C410_Link01": {
+    "iri": 6.72,
+    "rut_mm": 9.4,
+    "cracking": 28.3,
+    "pci": 63.5,
+    "vci": 66.3,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C410_Link02": {
+    "iri": 8.45,
+    "rut_mm": 12.51,
+    "cracking": 38.7,
+    "pci": 51.4,
+    "vci": 53.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C411_Link01": {
+    "iri": 14.26,
+    "rut_mm": 22.97,
+    "cracking": 73.6,
+    "pci": 10.7,
+    "vci": 12.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C412_Link01": {
+    "iri": 7.19,
+    "rut_mm": 10.24,
+    "cracking": 31.1,
+    "pci": 60.2,
+    "vci": 62.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C413_Link01": {
+    "iri": 11.91,
+    "rut_mm": 18.74,
+    "cracking": 59.5,
+    "pci": 27.1,
+    "vci": 29.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C414_Link01": {
+    "iri": 10.4,
+    "rut_mm": 16.02,
+    "cracking": 50.4,
+    "pci": 37.7,
+    "vci": 40.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C415_Link01": {
+    "iri": 14.1,
+    "rut_mm": 22.68,
+    "cracking": 72.6,
+    "pci": 11.8,
+    "vci": 13.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C415_Link02": {
+    "iri": 12.76,
+    "rut_mm": 20.27,
+    "cracking": 64.6,
+    "pci": 21.2,
+    "vci": 23.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C416_Link01": {
+    "iri": 12.91,
+    "rut_mm": 20.54,
+    "cracking": 65.5,
+    "pci": 20.1,
+    "vci": 22.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C416_Link02": {
+    "iri": 9.81,
+    "rut_mm": 14.96,
+    "cracking": 46.9,
+    "pci": 41.8,
+    "vci": 44.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C417_Link01": {
+    "iri": 3.63,
+    "rut_mm": 3.83,
+    "cracking": 9.8,
+    "pci": 85.1,
+    "vci": 88.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C417_Link02": {
+    "iri": 3.15,
+    "rut_mm": 2.97,
+    "cracking": 6.9,
+    "pci": 88.5,
+    "vci": 91.8,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C417_Link03": {
+    "iri": 2.91,
+    "rut_mm": 2.54,
+    "cracking": 5.5,
+    "pci": 90.1,
+    "vci": 93.5,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C418_Link01": {
+    "iri": 13.18,
+    "rut_mm": 21.02,
+    "cracking": 67.1,
+    "pci": 18.2,
+    "vci": 20.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C419_Link01": {
+    "iri": 12.48,
+    "rut_mm": 19.76,
+    "cracking": 62.9,
+    "pci": 23.1,
+    "vci": 25.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C419_Link02": {
+    "iri": 5.36,
+    "rut_mm": 6.95,
+    "cracking": 20.2,
+    "pci": 73.0,
+    "vci": 76.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C420_Link01": {
+    "iri": 5.81,
+    "rut_mm": 7.76,
+    "cracking": 22.9,
+    "pci": 69.8,
+    "vci": 72.8,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C421_Link01": {
+    "iri": 10.43,
+    "rut_mm": 16.07,
+    "cracking": 50.6,
+    "pci": 37.5,
+    "vci": 39.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C422_Link01": {
+    "iri": 10.01,
+    "rut_mm": 15.32,
+    "cracking": 48.1,
+    "pci": 40.4,
+    "vci": 42.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C423_Link01": {
+    "iri": 13.1,
+    "rut_mm": 20.88,
+    "cracking": 66.6,
+    "pci": 18.8,
+    "vci": 20.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C424_Link01": {
+    "iri": 12.05,
+    "rut_mm": 18.99,
+    "cracking": 60.3,
+    "pci": 26.1,
+    "vci": 28.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C425_Link01": {
+    "iri": 14.5,
+    "rut_mm": 23.4,
+    "cracking": 75.0,
+    "pci": 9.0,
+    "vci": 10.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C426_Link01": {
+    "iri": 10.87,
+    "rut_mm": 16.87,
+    "cracking": 53.2,
+    "pci": 34.4,
+    "vci": 36.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C427_Link01": {
+    "iri": 14.28,
+    "rut_mm": 23.0,
+    "cracking": 73.7,
+    "pci": 10.5,
+    "vci": 12.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C428_Link01": {
+    "iri": 1.5,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C429_Link01": {
+    "iri": 11.83,
+    "rut_mm": 18.59,
+    "cracking": 59.0,
+    "pci": 27.7,
+    "vci": 29.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C430_Link01": {
+    "iri": 14.41,
+    "rut_mm": 23.24,
+    "cracking": 74.5,
+    "pci": 9.6,
+    "vci": 11.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C431_Link01": {
+    "iri": 14.43,
+    "rut_mm": 23.27,
+    "cracking": 74.6,
+    "pci": 9.5,
+    "vci": 11.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C431_Link02": {
+    "iri": 12.06,
+    "rut_mm": 19.01,
+    "cracking": 60.4,
+    "pci": 26.1,
+    "vci": 28.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C432_Link01": {
+    "iri": 14.26,
+    "rut_mm": 22.97,
+    "cracking": 73.6,
+    "pci": 10.7,
+    "vci": 12.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C432_Link02": {
+    "iri": 13.06,
+    "rut_mm": 20.81,
+    "cracking": 66.4,
+    "pci": 19.1,
+    "vci": 21.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C433_Link01": {
+    "iri": 12.92,
+    "rut_mm": 20.56,
+    "cracking": 65.5,
+    "pci": 20.1,
+    "vci": 22.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C433_Link02": {
+    "iri": 2.28,
+    "rut_mm": 1.4,
+    "cracking": 1.7,
+    "pci": 94.5,
+    "vci": 98.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C433_Link03": {
+    "iri": 1.68,
+    "rut_mm": 0.32,
+    "cracking": 0,
+    "pci": 98.7,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C433_Link04": {
+    "iri": 13.33,
+    "rut_mm": 21.29,
+    "cracking": 68.0,
+    "pci": 17.2,
+    "vci": 19.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C434_Link01": {
+    "iri": 12.2,
+    "rut_mm": 19.26,
+    "cracking": 61.2,
+    "pci": 25.1,
+    "vci": 27.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C435_Link01": {
+    "iri": 2.07,
+    "rut_mm": 1.03,
+    "cracking": 0.4,
+    "pci": 96.0,
+    "vci": 99.5,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C436_Link01": {
+    "iri": 13.81,
+    "rut_mm": 22.16,
+    "cracking": 70.9,
+    "pci": 13.8,
+    "vci": 15.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C436_Link02": {
+    "iri": 12.82,
+    "rut_mm": 20.38,
+    "cracking": 64.9,
+    "pci": 20.8,
+    "vci": 22.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C437_Link01": {
+    "iri": 13.78,
+    "rut_mm": 22.1,
+    "cracking": 70.7,
+    "pci": 14.0,
+    "vci": 15.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C438_Link01": {
+    "iri": 12.04,
+    "rut_mm": 18.97,
+    "cracking": 60.2,
+    "pci": 26.2,
+    "vci": 28.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C438_Link02": {
+    "iri": 12.11,
+    "rut_mm": 19.1,
+    "cracking": 60.7,
+    "pci": 25.7,
+    "vci": 27.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C439_Link01": {
+    "iri": 14.04,
+    "rut_mm": 22.57,
+    "cracking": 72.2,
+    "pci": 12.2,
+    "vci": 14.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C440_Link01": {
+    "iri": 10.92,
+    "rut_mm": 16.96,
+    "cracking": 53.5,
+    "pci": 34.1,
+    "vci": 36.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C440_Link02": {
+    "iri": 10.82,
+    "rut_mm": 16.78,
+    "cracking": 52.9,
+    "pci": 34.8,
+    "vci": 37.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C441_Link01": {
+    "iri": 12.92,
+    "rut_mm": 20.56,
+    "cracking": 65.5,
+    "pci": 20.1,
+    "vci": 22.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C442_Link01": {
+    "iri": 11.01,
+    "rut_mm": 17.12,
+    "cracking": 54.1,
+    "pci": 33.4,
+    "vci": 35.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C442_Link02": {
+    "iri": 14.64,
+    "rut_mm": 23.65,
+    "cracking": 75.8,
+    "pci": 8.0,
+    "vci": 9.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C442_Link03": {
+    "iri": 14.05,
+    "rut_mm": 22.59,
+    "cracking": 72.3,
+    "pci": 12.1,
+    "vci": 13.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C443_Link01": {
+    "iri": 13.12,
+    "rut_mm": 20.92,
+    "cracking": 66.7,
+    "pci": 18.7,
+    "vci": 20.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C444_Link01": {
+    "iri": 11.52,
+    "rut_mm": 18.04,
+    "cracking": 57.1,
+    "pci": 29.9,
+    "vci": 32.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C445_Link01": {
+    "iri": 13.15,
+    "rut_mm": 20.97,
+    "cracking": 66.9,
+    "pci": 18.5,
+    "vci": 20.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C445_Link02": {
+    "iri": 9.97,
+    "rut_mm": 15.25,
+    "cracking": 47.8,
+    "pci": 40.7,
+    "vci": 43.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C445_Link03": {
+    "iri": 1.92,
+    "rut_mm": 0.76,
+    "cracking": 0,
+    "pci": 97.1,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C445_Link04": {
+    "iri": 10.47,
+    "rut_mm": 16.15,
+    "cracking": 50.8,
+    "pci": 37.2,
+    "vci": 39.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C446_Link01": {
+    "iri": 7.85,
+    "rut_mm": 11.43,
+    "cracking": 35.1,
+    "pci": 55.6,
+    "vci": 58.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C446_Link02": {
+    "iri": 1.57,
+    "rut_mm": 0.13,
+    "cracking": 0,
+    "pci": 99.5,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C447_Link01": {
+    "iri": 11.9,
+    "rut_mm": 18.72,
+    "cracking": 59.4,
+    "pci": 27.2,
+    "vci": 29.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C447_Link02": {
+    "iri": 11.32,
+    "rut_mm": 17.68,
+    "cracking": 55.9,
+    "pci": 31.3,
+    "vci": 33.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C448_Link01": {
+    "iri": 9.94,
+    "rut_mm": 15.19,
+    "cracking": 47.6,
+    "pci": 40.9,
+    "vci": 43.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C449_Link01": {
+    "iri": 11.04,
+    "rut_mm": 17.17,
+    "cracking": 54.2,
+    "pci": 33.2,
+    "vci": 35.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C450_Link01": {
+    "iri": 9.96,
+    "rut_mm": 15.23,
+    "cracking": 47.8,
+    "pci": 40.8,
+    "vci": 43.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C450_Link02": {
+    "iri": 10.22,
+    "rut_mm": 15.7,
+    "cracking": 49.3,
+    "pci": 39.0,
+    "vci": 41.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C450_Link03": {
+    "iri": 11.59,
+    "rut_mm": 18.16,
+    "cracking": 57.5,
+    "pci": 29.4,
+    "vci": 31.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C451_Link01": {
+    "iri": 13.67,
+    "rut_mm": 21.91,
+    "cracking": 70.0,
+    "pci": 14.8,
+    "vci": 16.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C452_Link01": {
+    "iri": 11.85,
+    "rut_mm": 18.63,
+    "cracking": 59.1,
+    "pci": 27.5,
+    "vci": 29.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C452_Link02": {
+    "iri": 14.25,
+    "rut_mm": 22.95,
+    "cracking": 73.5,
+    "pci": 10.8,
+    "vci": 12.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C452_Link03": {
+    "iri": 2.52,
+    "rut_mm": 1.84,
+    "cracking": 3.1,
+    "pci": 92.9,
+    "vci": 96.3,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C453_Link01": {
+    "iri": 5.39,
+    "rut_mm": 7.0,
+    "cracking": 20.3,
+    "pci": 72.8,
+    "vci": 75.8,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C454_Link01": {
+    "iri": 12.09,
+    "rut_mm": 19.06,
+    "cracking": 60.5,
+    "pci": 25.9,
+    "vci": 27.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C455_Link01": {
+    "iri": 14.65,
+    "rut_mm": 23.67,
+    "cracking": 75.9,
+    "pci": 8.0,
+    "vci": 9.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C456_Link01": {
+    "iri": 12.1,
+    "rut_mm": 19.08,
+    "cracking": 60.6,
+    "pci": 25.8,
+    "vci": 27.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C457_Link01": {
+    "iri": 5.73,
+    "rut_mm": 7.61,
+    "cracking": 22.4,
+    "pci": 70.4,
+    "vci": 73.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C458_Link01": {
+    "iri": 14.27,
+    "rut_mm": 22.99,
+    "cracking": 73.6,
+    "pci": 10.6,
+    "vci": 12.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C459_Link01": {
+    "iri": 11.55,
+    "rut_mm": 18.09,
+    "cracking": 57.3,
+    "pci": 29.6,
+    "vci": 31.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C510_Link01": {
+    "iri": 13.01,
+    "rut_mm": 20.72,
+    "cracking": 66.1,
+    "pci": 19.4,
+    "vci": 21.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C511_Link01": {
+    "iri": 7.76,
+    "rut_mm": 11.27,
+    "cracking": 34.6,
+    "pci": 56.2,
+    "vci": 58.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C512_Link01": {
+    "iri": 14.34,
+    "rut_mm": 23.11,
+    "cracking": 74.0,
+    "pci": 10.1,
+    "vci": 11.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C513_Link01": {
+    "iri": 14.61,
+    "rut_mm": 23.6,
+    "cracking": 75.7,
+    "pci": 8.2,
+    "vci": 9.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C513_Link02": {
+    "iri": 12.49,
+    "rut_mm": 19.78,
+    "cracking": 62.9,
+    "pci": 23.1,
+    "vci": 25.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C514_Link01": {
+    "iri": 14.5,
+    "rut_mm": 23.4,
+    "cracking": 75.0,
+    "pci": 9.0,
+    "vci": 10.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C514_Link02": {
+    "iri": 13.36,
+    "rut_mm": 21.35,
+    "cracking": 68.2,
+    "pci": 17.0,
+    "vci": 18.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C515_Link01": {
+    "iri": 10.91,
+    "rut_mm": 16.94,
+    "cracking": 53.5,
+    "pci": 34.1,
+    "vci": 36.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C516_Link01": {
+    "iri": 13.51,
+    "rut_mm": 21.62,
+    "cracking": 69.1,
+    "pci": 15.9,
+    "vci": 17.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C516_Link02": {
+    "iri": 10.78,
+    "rut_mm": 16.7,
+    "cracking": 52.7,
+    "pci": 35.0,
+    "vci": 37.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C517_Link01": {
+    "iri": 6.67,
+    "rut_mm": 9.31,
+    "cracking": 28.0,
+    "pci": 63.8,
+    "vci": 66.6,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C518_Link01": {
+    "iri": 10.95,
+    "rut_mm": 17.01,
+    "cracking": 53.7,
+    "pci": 33.9,
+    "vci": 36.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C519_Link01": {
+    "iri": 14.17,
+    "rut_mm": 22.81,
+    "cracking": 73.0,
+    "pci": 11.3,
+    "vci": 13.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C520_Link01": {
+    "iri": 10.35,
+    "rut_mm": 15.93,
+    "cracking": 50.1,
+    "pci": 38.1,
+    "vci": 40.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C520_Link02": {
+    "iri": 14.03,
+    "rut_mm": 22.55,
+    "cracking": 72.2,
+    "pci": 12.3,
+    "vci": 14.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C521_Link01": {
+    "iri": 13.75,
+    "rut_mm": 22.05,
+    "cracking": 70.5,
+    "pci": 14.2,
+    "vci": 16.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C522_Link01": {
+    "iri": 13.13,
+    "rut_mm": 20.93,
+    "cracking": 66.8,
+    "pci": 18.6,
+    "vci": 20.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C523_Link01": {
+    "iri": 12.43,
+    "rut_mm": 19.67,
+    "cracking": 62.6,
+    "pci": 23.5,
+    "vci": 25.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C539_Link01": {
+    "iri": 10.43,
+    "rut_mm": 16.07,
+    "cracking": 50.6,
+    "pci": 37.5,
+    "vci": 39.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C540_Link01": {
+    "iri": 3.75,
+    "rut_mm": 4.05,
+    "cracking": 10.5,
+    "pci": 84.2,
+    "vci": 87.5,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C540_Link02": {
+    "iri": 3.88,
+    "rut_mm": 4.28,
+    "cracking": 11.3,
+    "pci": 83.3,
+    "vci": 86.6,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C541_Link01": {
+    "iri": 10.37,
+    "rut_mm": 15.97,
+    "cracking": 50.2,
+    "pci": 37.9,
+    "vci": 40.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C542_Link01": {
+    "iri": 11.38,
+    "rut_mm": 17.78,
+    "cracking": 56.3,
+    "pci": 30.8,
+    "vci": 33.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C543_Link01": {
+    "iri": 12.34,
+    "rut_mm": 19.51,
+    "cracking": 62.0,
+    "pci": 24.1,
+    "vci": 26.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C544_Link01": {
+    "iri": 13.5,
+    "rut_mm": 21.6,
+    "cracking": 69.0,
+    "pci": 16.0,
+    "vci": 17.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C545_Link01": {
+    "iri": 13.99,
+    "rut_mm": 22.48,
+    "cracking": 71.9,
+    "pci": 12.6,
+    "vci": 14.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C546_Link01": {
+    "iri": 15.2,
+    "rut_mm": 24.66,
+    "cracking": 79.2,
+    "pci": 4.1,
+    "vci": 5.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C547_Link01": {
+    "iri": 13.3,
+    "rut_mm": 21.24,
+    "cracking": 67.8,
+    "pci": 17.4,
+    "vci": 19.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C548_Link01": {
+    "iri": 10.72,
+    "rut_mm": 16.6,
+    "cracking": 52.3,
+    "pci": 35.5,
+    "vci": 37.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C549_Link01": {
+    "iri": 10.84,
+    "rut_mm": 16.81,
+    "cracking": 53.0,
+    "pci": 34.6,
+    "vci": 36.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C550_Link01": {
+    "iri": 3.2,
+    "rut_mm": 3.06,
+    "cracking": 7.2,
+    "pci": 88.1,
+    "vci": 91.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C550_Link02": {
+    "iri": 3.84,
+    "rut_mm": 4.21,
+    "cracking": 11.0,
+    "pci": 83.6,
+    "vci": 86.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C551_Link01": {
+    "iri": 12.18,
+    "rut_mm": 19.22,
+    "cracking": 61.1,
+    "pci": 25.2,
+    "vci": 27.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C552_Link01": {
+    "iri": 12.51,
+    "rut_mm": 19.82,
+    "cracking": 63.1,
+    "pci": 22.9,
+    "vci": 24.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C552_Link02": {
+    "iri": 9.88,
+    "rut_mm": 15.08,
+    "cracking": 47.3,
+    "pci": 41.3,
+    "vci": 43.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C553_Link01": {
+    "iri": 11.36,
+    "rut_mm": 17.75,
+    "cracking": 56.2,
+    "pci": 31.0,
+    "vci": 33.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C554_Link01": {
+    "iri": 13.99,
+    "rut_mm": 22.48,
+    "cracking": 71.9,
+    "pci": 12.6,
+    "vci": 14.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C555_Link01": {
+    "iri": 14.43,
+    "rut_mm": 23.27,
+    "cracking": 74.6,
+    "pci": 9.5,
+    "vci": 11.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C556_Link01": {
+    "iri": 13.75,
+    "rut_mm": 22.05,
+    "cracking": 70.5,
+    "pci": 14.2,
+    "vci": 16.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C557_Link01": {
+    "iri": 14.14,
+    "rut_mm": 22.75,
+    "cracking": 72.8,
+    "pci": 11.5,
+    "vci": 13.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C558_Link01": {
+    "iri": 13.27,
+    "rut_mm": 21.19,
+    "cracking": 67.6,
+    "pci": 17.6,
+    "vci": 19.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C560_Link01": {
+    "iri": 15.5,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 2.0,
+    "vci": 3.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C561_Link01": {
+    "iri": 12.28,
+    "rut_mm": 19.4,
+    "cracking": 61.7,
+    "pci": 24.5,
+    "vci": 26.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C562_Link01": {
+    "iri": 12.53,
+    "rut_mm": 19.85,
+    "cracking": 63.2,
+    "pci": 22.8,
+    "vci": 24.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C563_Link01": {
+    "iri": 11.04,
+    "rut_mm": 17.17,
+    "cracking": 54.2,
+    "pci": 33.2,
+    "vci": 35.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C564_Link01": {
+    "iri": 14.32,
+    "rut_mm": 23.08,
+    "cracking": 73.9,
+    "pci": 10.3,
+    "vci": 12.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C564_Link02": {
+    "iri": 12.65,
+    "rut_mm": 20.07,
+    "cracking": 63.9,
+    "pci": 22.0,
+    "vci": 23.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C565_Link01": {
+    "iri": 15.23,
+    "rut_mm": 24.71,
+    "cracking": 79.4,
+    "pci": 3.9,
+    "vci": 5.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C566_Link01": {
+    "iri": 13.43,
+    "rut_mm": 21.47,
+    "cracking": 68.6,
+    "pci": 16.5,
+    "vci": 18.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C566_Link02": {
+    "iri": 11.53,
+    "rut_mm": 18.05,
+    "cracking": 57.2,
+    "pci": 29.8,
+    "vci": 31.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C567_Link01": {
+    "iri": 10.27,
+    "rut_mm": 15.79,
+    "cracking": 49.6,
+    "pci": 38.6,
+    "vci": 40.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C568_Link01": {
+    "iri": 12.3,
+    "rut_mm": 19.44,
+    "cracking": 61.8,
+    "pci": 24.4,
+    "vci": 26.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C568_Link02": {
+    "iri": 12.83,
+    "rut_mm": 20.39,
+    "cracking": 65.0,
+    "pci": 20.7,
+    "vci": 22.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C568_Link03": {
+    "iri": 12.9,
+    "rut_mm": 20.52,
+    "cracking": 65.4,
+    "pci": 20.2,
+    "vci": 22.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C569_Link01": {
+    "iri": 11.36,
+    "rut_mm": 17.75,
+    "cracking": 56.2,
+    "pci": 31.0,
+    "vci": 33.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C571_Link01": {
+    "iri": 15.2,
+    "rut_mm": 24.66,
+    "cracking": 79.2,
+    "pci": 4.1,
+    "vci": 5.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C572_Link01": {
+    "iri": 11.5,
+    "rut_mm": 18.0,
+    "cracking": 57.0,
+    "pci": 30.0,
+    "vci": 32.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C573_Link01": {
+    "iri": 15.35,
+    "rut_mm": 24.93,
+    "cracking": 80.0,
+    "pci": 3.0,
+    "vci": 4.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C574_Link01": {
+    "iri": 12.92,
+    "rut_mm": 20.56,
+    "cracking": 65.5,
+    "pci": 20.1,
+    "vci": 22.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C575_Link01": {
+    "iri": 12.72,
+    "rut_mm": 20.2,
+    "cracking": 64.3,
+    "pci": 21.5,
+    "vci": 23.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C578_Link01": {
+    "iri": 14.0,
+    "rut_mm": 22.5,
+    "cracking": 72.0,
+    "pci": 12.5,
+    "vci": 14.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C579_Link01": {
+    "iri": 12.91,
+    "rut_mm": 20.54,
+    "cracking": 65.5,
+    "pci": 20.1,
+    "vci": 22.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C590_Link01": {
+    "iri": 2.18,
+    "rut_mm": 1.22,
+    "cracking": 1.1,
+    "pci": 95.2,
+    "vci": 98.7,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C590_Link02": {
+    "iri": 2.39,
+    "rut_mm": 1.6,
+    "cracking": 2.3,
+    "pci": 93.8,
+    "vci": 97.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C591_Link01": {
+    "iri": 10.87,
+    "rut_mm": 16.87,
+    "cracking": 53.2,
+    "pci": 34.4,
+    "vci": 36.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C592_Link01": {
+    "iri": 4.84,
+    "rut_mm": 6.01,
+    "cracking": 17.0,
+    "pci": 76.6,
+    "vci": 79.7,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C592_Link02": {
+    "iri": 5.12,
+    "rut_mm": 6.52,
+    "cracking": 18.7,
+    "pci": 74.7,
+    "vci": 77.7,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C593_Link01": {
+    "iri": 15.0,
+    "rut_mm": 24.3,
+    "cracking": 78.0,
+    "pci": 5.5,
+    "vci": 7.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C594_Link01": {
+    "iri": 14.56,
+    "rut_mm": 23.51,
+    "cracking": 75.4,
+    "pci": 8.6,
+    "vci": 10.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C595_Link01": {
+    "iri": 12.04,
+    "rut_mm": 18.97,
+    "cracking": 60.2,
+    "pci": 26.2,
+    "vci": 28.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C596_Link01": {
+    "iri": 2.38,
+    "rut_mm": 1.58,
+    "cracking": 2.3,
+    "pci": 93.8,
+    "vci": 97.3,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C596_Link02": {
+    "iri": 4.83,
+    "rut_mm": 5.99,
+    "cracking": 17.0,
+    "pci": 76.7,
+    "vci": 79.8,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C597_Link01": {
+    "iri": 5.18,
+    "rut_mm": 6.62,
+    "cracking": 19.1,
+    "pci": 74.2,
+    "vci": 77.3,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C598_Link01": {
+    "iri": 2.0,
+    "rut_mm": 0.9,
+    "cracking": 0,
+    "pci": 96.5,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C599_Link01": {
+    "iri": 15.5,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 2.0,
+    "vci": 3.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C600_Link01": {
+    "iri": 11.39,
+    "rut_mm": 17.8,
+    "cracking": 56.3,
+    "pci": 30.8,
+    "vci": 32.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C601_Link01": {
+    "iri": 11.13,
+    "rut_mm": 17.33,
+    "cracking": 54.8,
+    "pci": 32.6,
+    "vci": 34.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C602_Link01": {
+    "iri": 12.27,
+    "rut_mm": 19.39,
+    "cracking": 61.6,
+    "pci": 24.6,
+    "vci": 26.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C603_Link01": {
+    "iri": 15.03,
+    "rut_mm": 24.35,
+    "cracking": 78.2,
+    "pci": 5.3,
+    "vci": 6.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C604_Link01": {
+    "iri": 14.44,
+    "rut_mm": 23.29,
+    "cracking": 74.6,
+    "pci": 9.4,
+    "vci": 11.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C605_Link01": {
+    "iri": 10.89,
+    "rut_mm": 16.9,
+    "cracking": 53.3,
+    "pci": 34.3,
+    "vci": 36.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C606_Link01": {
+    "iri": 10.87,
+    "rut_mm": 16.87,
+    "cracking": 53.2,
+    "pci": 34.4,
+    "vci": 36.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C607_Link01": {
+    "iri": 11.9,
+    "rut_mm": 18.72,
+    "cracking": 59.4,
+    "pci": 27.2,
+    "vci": 29.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C608_Link01": {
+    "iri": 13.18,
+    "rut_mm": 21.02,
+    "cracking": 67.1,
+    "pci": 18.2,
+    "vci": 20.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C609_Link01": {
+    "iri": 13.08,
+    "rut_mm": 20.84,
+    "cracking": 66.5,
+    "pci": 18.9,
+    "vci": 20.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C610_Link01": {
+    "iri": 13.26,
+    "rut_mm": 21.17,
+    "cracking": 67.6,
+    "pci": 17.7,
+    "vci": 19.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C611_Link01": {
+    "iri": 3.49,
+    "rut_mm": 3.58,
+    "cracking": 8.9,
+    "pci": 86.1,
+    "vci": 89.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C613_Link01": {
+    "iri": 5.81,
+    "rut_mm": 7.76,
+    "cracking": 22.9,
+    "pci": 69.8,
+    "vci": 72.8,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C613_Link02": {
+    "iri": 13.43,
+    "rut_mm": 21.47,
+    "cracking": 68.6,
+    "pci": 16.5,
+    "vci": 18.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C620_Link01": {
+    "iri": 12.84,
+    "rut_mm": 20.41,
+    "cracking": 65.0,
+    "pci": 20.6,
+    "vci": 22.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C621_Link01": {
+    "iri": 12.74,
+    "rut_mm": 20.23,
+    "cracking": 64.4,
+    "pci": 21.3,
+    "vci": 23.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C622_Link01": {
+    "iri": 14.42,
+    "rut_mm": 23.26,
+    "cracking": 74.5,
+    "pci": 9.6,
+    "vci": 11.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C623_Link01": {
+    "iri": 2.12,
+    "rut_mm": 1.12,
+    "cracking": 0.7,
+    "pci": 95.7,
+    "vci": 99.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C623_Link02": {
+    "iri": 1.83,
+    "rut_mm": 0.59,
+    "cracking": 0,
+    "pci": 97.7,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C624_Link01": {
+    "iri": 1.72,
+    "rut_mm": 0.4,
+    "cracking": 0,
+    "pci": 98.5,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C625_Link01": {
+    "iri": 2.02,
+    "rut_mm": 0.94,
+    "cracking": 0.1,
+    "pci": 96.4,
+    "vci": 99.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C625_Link02": {
+    "iri": 1.57,
+    "rut_mm": 0.13,
+    "cracking": 0,
+    "pci": 99.5,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C626_Link01": {
+    "iri": 1.93,
+    "rut_mm": 0.77,
+    "cracking": 0,
+    "pci": 97.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C626_Link02": {
+    "iri": 2.36,
+    "rut_mm": 1.55,
+    "cracking": 2.2,
+    "pci": 94.0,
+    "vci": 97.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C627_Link01": {
+    "iri": 13.77,
+    "rut_mm": 22.09,
+    "cracking": 70.6,
+    "pci": 14.1,
+    "vci": 15.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C627_Link02": {
+    "iri": 12.24,
+    "rut_mm": 19.33,
+    "cracking": 61.4,
+    "pci": 24.8,
+    "vci": 26.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C629_Link01": {
+    "iri": 13.06,
+    "rut_mm": 20.81,
+    "cracking": 66.4,
+    "pci": 19.1,
+    "vci": 21.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C630_Link01": {
+    "iri": 13.62,
+    "rut_mm": 21.82,
+    "cracking": 69.7,
+    "pci": 15.2,
+    "vci": 17.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C630_Link02": {
+    "iri": 14.93,
+    "rut_mm": 24.17,
+    "cracking": 77.6,
+    "pci": 6.0,
+    "vci": 7.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C631_Link01": {
+    "iri": 15.39,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 2.8,
+    "vci": 4.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C632_Link01": {
+    "iri": 13.98,
+    "rut_mm": 22.46,
+    "cracking": 71.9,
+    "pci": 12.6,
+    "vci": 14.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C633_Link01": {
+    "iri": 2.04,
+    "rut_mm": 0.97,
+    "cracking": 0.2,
+    "pci": 96.2,
+    "vci": 99.7,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C634_Link01": {
+    "iri": 13.17,
+    "rut_mm": 21.01,
+    "cracking": 67.0,
+    "pci": 18.3,
+    "vci": 20.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C635_Link01": {
+    "iri": 13.79,
+    "rut_mm": 22.12,
+    "cracking": 70.7,
+    "pci": 14.0,
+    "vci": 15.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C636_Link01": {
+    "iri": 15.05,
+    "rut_mm": 24.39,
+    "cracking": 78.3,
+    "pci": 5.1,
+    "vci": 6.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C637_Link01": {
+    "iri": 10.52,
+    "rut_mm": 16.24,
+    "cracking": 51.1,
+    "pci": 36.9,
+    "vci": 39.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C638_Link01": {
+    "iri": 11.45,
+    "rut_mm": 17.91,
+    "cracking": 56.7,
+    "pci": 30.4,
+    "vci": 32.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C638_Link02": {
+    "iri": 14.17,
+    "rut_mm": 22.81,
+    "cracking": 73.0,
+    "pci": 11.3,
+    "vci": 13.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C639_Link01": {
+    "iri": 14.63,
+    "rut_mm": 23.63,
+    "cracking": 75.8,
+    "pci": 8.1,
+    "vci": 9.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C640_Link01": {
+    "iri": 2.02,
+    "rut_mm": 0.94,
+    "cracking": 0.1,
+    "pci": 96.4,
+    "vci": 99.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C649_Link01": {
+    "iri": 13.93,
+    "rut_mm": 22.37,
+    "cracking": 71.6,
+    "pci": 13.0,
+    "vci": 14.8,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C649_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C650_Link01": {
+    "iri": 3.67,
+    "rut_mm": 3.91,
+    "cracking": 10.0,
+    "pci": 84.8,
+    "vci": 88.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C650_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C651_Link01": {
+    "iri": 13.48,
+    "rut_mm": 21.56,
+    "cracking": 68.9,
+    "pci": 16.1,
+    "vci": 18.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C652_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C653_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C653_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C654_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C654_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C655_Link01": {
+    "iri": 15.49,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 2.1,
+    "vci": 3.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C656_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C656_Link02": {
+    "iri": 15.9,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C657_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C658_Link01": {
+    "iri": 15.04,
+    "rut_mm": 24.37,
+    "cracking": 78.2,
+    "pci": 5.2,
+    "vci": 6.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C659_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C660_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C661_Link01": {
+    "iri": 14.93,
+    "rut_mm": 24.17,
+    "cracking": 77.6,
+    "pci": 6.0,
+    "vci": 7.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C661_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C662_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C663_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C664_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C665_Link01": {
+    "iri": 13.25,
+    "rut_mm": 21.15,
+    "cracking": 67.5,
+    "pci": 17.8,
+    "vci": 19.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C665_Link02": {
+    "iri": 14.75,
+    "rut_mm": 23.85,
+    "cracking": 76.5,
+    "pci": 7.2,
+    "vci": 8.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C666_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C666_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C667_Link01": {
+    "iri": 14.77,
+    "rut_mm": 23.89,
+    "cracking": 76.6,
+    "pci": 7.1,
+    "vci": 8.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C667_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C668_Link01": {
+    "iri": 11.22,
+    "rut_mm": 17.5,
+    "cracking": 55.3,
+    "pci": 32.0,
+    "vci": 34.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C669_Link01": {
+    "iri": 13.92,
+    "rut_mm": 22.36,
+    "cracking": 71.5,
+    "pci": 13.1,
+    "vci": 14.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C670_Link01": {
+    "iri": 15.14,
+    "rut_mm": 24.55,
+    "cracking": 78.8,
+    "pci": 4.5,
+    "vci": 6.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C670_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C671_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C672_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C672_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C673_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C673_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C674_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C674_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C675_Link01": {
+    "iri": 15.44,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 2.4,
+    "vci": 4.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C675_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C676_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C677_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C677_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C678_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C678_Link02": {
+    "iri": 13.39,
+    "rut_mm": 21.4,
+    "cracking": 68.3,
+    "pci": 16.8,
+    "vci": 18.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C679_Link01": {
+    "iri": 10.01,
+    "rut_mm": 15.32,
+    "cracking": 48.1,
+    "pci": 40.4,
+    "vci": 42.8,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C680_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C680_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C681_Link01": {
+    "iri": 5.14,
+    "rut_mm": 6.55,
+    "cracking": 18.8,
+    "pci": 74.5,
+    "vci": 77.6,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C681_Link02": {
+    "iri": 4.0,
+    "rut_mm": 4.5,
+    "cracking": 12.0,
+    "pci": 82.5,
+    "vci": 85.7,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C682_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C683_Link01": {
+    "iri": 4.7,
+    "rut_mm": 5.76,
+    "cracking": 16.2,
+    "pci": 77.6,
+    "vci": 80.7,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C684_Link01": {
+    "iri": 10.62,
+    "rut_mm": 16.42,
+    "cracking": 51.7,
+    "pci": 36.2,
+    "vci": 38.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C685_Link01": {
+    "iri": 13.6,
+    "rut_mm": 21.78,
+    "cracking": 69.6,
+    "pci": 15.3,
+    "vci": 17.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C686_Link01": {
+    "iri": 15.1,
+    "rut_mm": 24.48,
+    "cracking": 78.6,
+    "pci": 4.8,
+    "vci": 6.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C686_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C686_Link03": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C687_Link01": {
+    "iri": 15.75,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0.2,
+    "vci": 1.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C688_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C688_Link02": {
+    "iri": 15.0,
+    "rut_mm": 24.3,
+    "cracking": 78.0,
+    "pci": 5.5,
+    "vci": 7.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C689_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C690_Link01": {
+    "iri": 15.17,
+    "rut_mm": 24.61,
+    "cracking": 79.0,
+    "pci": 4.3,
+    "vci": 5.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C691_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C692_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C693_Link01": {
+    "iri": 13.42,
+    "rut_mm": 21.46,
+    "cracking": 68.5,
+    "pci": 16.6,
+    "vci": 18.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C694_Link01": {
+    "iri": 13.55,
+    "rut_mm": 21.69,
+    "cracking": 69.3,
+    "pci": 15.6,
+    "vci": 17.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C700_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C700_Link02": {
+    "iri": 15.04,
+    "rut_mm": 24.37,
+    "cracking": 78.2,
+    "pci": 5.2,
+    "vci": 6.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C701_Link01": {
+    "iri": 14.63,
+    "rut_mm": 23.63,
+    "cracking": 75.8,
+    "pci": 8.1,
+    "vci": 9.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C702_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C703_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C704_Link01": {
+    "iri": 13.61,
+    "rut_mm": 21.8,
+    "cracking": 69.7,
+    "pci": 15.2,
+    "vci": 17.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C705_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C705_Link02": {
+    "iri": 13.99,
+    "rut_mm": 22.48,
+    "cracking": 71.9,
+    "pci": 12.6,
+    "vci": 14.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C706_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C706_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C707_Link01": {
+    "iri": 15.85,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 1.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C708_Link01": {
+    "iri": 15.26,
+    "rut_mm": 24.77,
+    "cracking": 79.6,
+    "pci": 3.7,
+    "vci": 5.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C709_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C710_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C711_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C720_Link01": {
+    "iri": 14.13,
+    "rut_mm": 22.73,
+    "cracking": 72.8,
+    "pci": 11.6,
+    "vci": 13.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C721_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C722_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C723_Link01": {
+    "iri": 15.32,
+    "rut_mm": 24.88,
+    "cracking": 79.9,
+    "pci": 3.3,
+    "vci": 4.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C725_Link01": {
+    "iri": 15.3,
+    "rut_mm": 24.84,
+    "cracking": 79.8,
+    "pci": 3.4,
+    "vci": 5.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C725_Link02": {
+    "iri": 15.96,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C726_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C727_Link01": {
+    "iri": 14.98,
+    "rut_mm": 24.26,
+    "cracking": 77.9,
+    "pci": 5.6,
+    "vci": 7.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C728_Link01": {
+    "iri": 13.29,
+    "rut_mm": 21.22,
+    "cracking": 67.7,
+    "pci": 17.5,
+    "vci": 19.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C740_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C741_Link01": {
+    "iri": 13.91,
+    "rut_mm": 22.34,
+    "cracking": 71.5,
+    "pci": 13.1,
+    "vci": 14.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C742_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C743_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C743_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C744_Link01": {
+    "iri": 6.07,
+    "rut_mm": 8.23,
+    "cracking": 24.4,
+    "pci": 68.0,
+    "vci": 70.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C745_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C746_Link01": {
+    "iri": 13.41,
+    "rut_mm": 21.44,
+    "cracking": 68.5,
+    "pci": 16.6,
+    "vci": 18.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C747_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C748_Link01": {
+    "iri": 15.78,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 1.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C749_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C750_Link01": {
+    "iri": 15.39,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 2.8,
+    "vci": 4.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C751_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C752_Link01": {
+    "iri": 13.69,
+    "rut_mm": 21.94,
+    "cracking": 70.1,
+    "pci": 14.7,
+    "vci": 16.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C753_Link01": {
+    "iri": 14.05,
+    "rut_mm": 22.59,
+    "cracking": 72.3,
+    "pci": 12.1,
+    "vci": 13.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C755_Link01": {
+    "iri": 13.63,
+    "rut_mm": 21.83,
+    "cracking": 69.8,
+    "pci": 15.1,
+    "vci": 16.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C756_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C757_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C758_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C758_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C759_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C760_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C761_Link01": {
+    "iri": 13.5,
+    "rut_mm": 21.6,
+    "cracking": 69.0,
+    "pci": 16.0,
+    "vci": 17.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C762_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C762_Link02": {
+    "iri": 15.89,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C763_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C763_Link02": {
+    "iri": 15.83,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 1.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C764_Link01": {
+    "iri": 15.68,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0.7,
+    "vci": 2.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C765_Link01": {
+    "iri": 15.46,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 2.3,
+    "vci": 3.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C766_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C767_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C768_Link01": {
+    "iri": 14.63,
+    "rut_mm": 23.63,
+    "cracking": 75.8,
+    "pci": 8.1,
+    "vci": 9.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C769_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C780_Link01": {
+    "iri": 12.11,
+    "rut_mm": 19.1,
+    "cracking": 60.7,
+    "pci": 25.7,
+    "vci": 27.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C780_Link02": {
+    "iri": 12.97,
+    "rut_mm": 20.65,
+    "cracking": 65.8,
+    "pci": 19.7,
+    "vci": 21.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C781_Link01": {
+    "iri": 13.52,
+    "rut_mm": 21.64,
+    "cracking": 69.1,
+    "pci": 15.9,
+    "vci": 17.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C781_Link02": {
+    "iri": 13.06,
+    "rut_mm": 20.81,
+    "cracking": 66.4,
+    "pci": 19.1,
+    "vci": 21.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C781_Link03": {
+    "iri": 11.69,
+    "rut_mm": 18.34,
+    "cracking": 58.1,
+    "pci": 28.7,
+    "vci": 30.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C782_Link01": {
+    "iri": 3.32,
+    "rut_mm": 3.28,
+    "cracking": 7.9,
+    "pci": 87.3,
+    "vci": 90.6,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C782_Link02": {
+    "iri": 4.26,
+    "rut_mm": 4.97,
+    "cracking": 13.6,
+    "pci": 80.7,
+    "vci": 83.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C783_Link01": {
+    "iri": 12.47,
+    "rut_mm": 19.75,
+    "cracking": 62.8,
+    "pci": 23.2,
+    "vci": 25.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C784_Link01": {
+    "iri": 3.6,
+    "rut_mm": 3.78,
+    "cracking": 9.6,
+    "pci": 85.3,
+    "vci": 88.6,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C784_Link02": {
+    "iri": 14.9,
+    "rut_mm": 24.12,
+    "cracking": 77.4,
+    "pci": 6.2,
+    "vci": 7.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C785_Link01": {
+    "iri": 15.47,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 2.2,
+    "vci": 3.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C785_Link02": {
+    "iri": 11.9,
+    "rut_mm": 18.72,
+    "cracking": 59.4,
+    "pci": 27.2,
+    "vci": 29.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C786_Link01": {
+    "iri": 13.07,
+    "rut_mm": 20.83,
+    "cracking": 66.4,
+    "pci": 19.0,
+    "vci": 20.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C787_Link01": {
+    "iri": 12.5,
+    "rut_mm": 19.8,
+    "cracking": 63.0,
+    "pci": 23.0,
+    "vci": 25.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C787_Link02": {
+    "iri": 11.8,
+    "rut_mm": 18.54,
+    "cracking": 58.8,
+    "pci": 27.9,
+    "vci": 30.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C788_Link01": {
+    "iri": 14.1,
+    "rut_mm": 22.68,
+    "cracking": 72.6,
+    "pci": 11.8,
+    "vci": 13.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C789_Link01": {
+    "iri": 11.89,
+    "rut_mm": 18.7,
+    "cracking": 59.3,
+    "pci": 27.3,
+    "vci": 29.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C790_Link01": {
+    "iri": 14.71,
+    "rut_mm": 23.78,
+    "cracking": 76.3,
+    "pci": 7.5,
+    "vci": 9.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C791_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C792_Link01": {
+    "iri": 13.72,
+    "rut_mm": 22.0,
+    "cracking": 70.3,
+    "pci": 14.5,
+    "vci": 16.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C792_Link02": {
+    "iri": 14.9,
+    "rut_mm": 24.12,
+    "cracking": 77.4,
+    "pci": 6.2,
+    "vci": 7.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C793_Link01": {
+    "iri": 12.3,
+    "rut_mm": 19.44,
+    "cracking": 61.8,
+    "pci": 24.4,
+    "vci": 26.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C794_Link01": {
+    "iri": 13.99,
+    "rut_mm": 22.48,
+    "cracking": 71.9,
+    "pci": 12.6,
+    "vci": 14.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C795_Link01": {
+    "iri": 12.21,
+    "rut_mm": 19.28,
+    "cracking": 61.3,
+    "pci": 25.0,
+    "vci": 27.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C796_Link01": {
+    "iri": 14.45,
+    "rut_mm": 23.31,
+    "cracking": 74.7,
+    "pci": 9.4,
+    "vci": 11.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C797_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C797_Link02": {
+    "iri": 14.8,
+    "rut_mm": 23.94,
+    "cracking": 76.8,
+    "pci": 6.9,
+    "vci": 8.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C797_Link03": {
+    "iri": 15.88,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C798_Link01": {
+    "iri": 13.44,
+    "rut_mm": 21.49,
+    "cracking": 68.6,
+    "pci": 16.4,
+    "vci": 18.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C799_Link01": {
+    "iri": 11.24,
+    "rut_mm": 17.53,
+    "cracking": 55.4,
+    "pci": 31.8,
+    "vci": 34.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C800_Link01": {
+    "iri": 12.67,
+    "rut_mm": 20.11,
+    "cracking": 64.0,
+    "pci": 21.8,
+    "vci": 23.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C801_Link01": {
+    "iri": 13.91,
+    "rut_mm": 22.34,
+    "cracking": 71.5,
+    "pci": 13.1,
+    "vci": 14.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C802_Link01": {
+    "iri": 12.18,
+    "rut_mm": 19.22,
+    "cracking": 61.1,
+    "pci": 25.2,
+    "vci": 27.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C803_Link01": {
+    "iri": 15.68,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0.7,
+    "vci": 2.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C803_Link02": {
+    "iri": 11.05,
+    "rut_mm": 17.19,
+    "cracking": 54.3,
+    "pci": 33.1,
+    "vci": 35.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C804_Link01": {
+    "iri": 12.46,
+    "rut_mm": 19.73,
+    "cracking": 62.8,
+    "pci": 23.3,
+    "vci": 25.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C805_Link01": {
+    "iri": 13.29,
+    "rut_mm": 21.22,
+    "cracking": 67.7,
+    "pci": 17.5,
+    "vci": 19.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C805_Link02": {
+    "iri": 15.39,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 2.8,
+    "vci": 4.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C806_Link01": {
+    "iri": 14.2,
+    "rut_mm": 22.86,
+    "cracking": 73.2,
+    "pci": 11.1,
+    "vci": 12.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C807_Link01": {
+    "iri": 11.23,
+    "rut_mm": 17.51,
+    "cracking": 55.4,
+    "pci": 31.9,
+    "vci": 34.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C808_Link01": {
+    "iri": 13.67,
+    "rut_mm": 21.91,
+    "cracking": 70.0,
+    "pci": 14.8,
+    "vci": 16.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C809_Link01": {
+    "iri": 13.33,
+    "rut_mm": 21.29,
+    "cracking": 68.0,
+    "pci": 17.2,
+    "vci": 19.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C810_Link01": {
+    "iri": 14.31,
+    "rut_mm": 23.06,
+    "cracking": 73.9,
+    "pci": 10.3,
+    "vci": 12.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C811_Link01": {
+    "iri": 13.67,
+    "rut_mm": 21.91,
+    "cracking": 70.0,
+    "pci": 14.8,
+    "vci": 16.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C811_Link02": {
+    "iri": 12.16,
+    "rut_mm": 19.19,
+    "cracking": 61.0,
+    "pci": 25.4,
+    "vci": 27.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C812_Link01": {
+    "iri": 12.32,
+    "rut_mm": 19.48,
+    "cracking": 61.9,
+    "pci": 24.3,
+    "vci": 26.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C813_Link01": {
+    "iri": 14.33,
+    "rut_mm": 23.09,
+    "cracking": 74.0,
+    "pci": 10.2,
+    "vci": 11.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C815_Link01": {
+    "iri": 11.63,
+    "rut_mm": 18.23,
+    "cracking": 57.8,
+    "pci": 29.1,
+    "vci": 31.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C816_Link01": {
+    "iri": 13.42,
+    "rut_mm": 21.46,
+    "cracking": 68.5,
+    "pci": 16.6,
+    "vci": 18.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C817_Link01": {
+    "iri": 12.38,
+    "rut_mm": 19.58,
+    "cracking": 62.3,
+    "pci": 23.8,
+    "vci": 25.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C818_Link01": {
+    "iri": 15.86,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 1.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C819_Link01": {
+    "iri": 15.37,
+    "rut_mm": 24.97,
+    "cracking": 80.0,
+    "pci": 2.9,
+    "vci": 4.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C820_Link01": {
+    "iri": 13.87,
+    "rut_mm": 22.27,
+    "cracking": 71.2,
+    "pci": 13.4,
+    "vci": 15.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C821_Link01": {
+    "iri": 14.45,
+    "rut_mm": 23.31,
+    "cracking": 74.7,
+    "pci": 9.4,
+    "vci": 11.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C823_Link01": {
+    "iri": 11.79,
+    "rut_mm": 18.52,
+    "cracking": 58.7,
+    "pci": 28.0,
+    "vci": 30.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C824_Link01": {
+    "iri": 3.37,
+    "rut_mm": 3.37,
+    "cracking": 8.2,
+    "pci": 86.9,
+    "vci": 90.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C825_Link01": {
+    "iri": 12.64,
+    "rut_mm": 20.05,
+    "cracking": 63.8,
+    "pci": 22.0,
+    "vci": 24.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C826_Link01": {
+    "iri": 14.7,
+    "rut_mm": 23.76,
+    "cracking": 76.2,
+    "pci": 7.6,
+    "vci": 9.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C830_Link01": {
+    "iri": 3.57,
+    "rut_mm": 3.73,
+    "cracking": 9.4,
+    "pci": 85.5,
+    "vci": 88.8,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C831_Link01": {
+    "iri": 12.46,
+    "rut_mm": 19.73,
+    "cracking": 62.8,
+    "pci": 23.3,
+    "vci": 25.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C832_Link01": {
+    "iri": 11.35,
+    "rut_mm": 17.73,
+    "cracking": 56.1,
+    "pci": 31.0,
+    "vci": 33.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C832_Link02": {
+    "iri": 14.05,
+    "rut_mm": 22.59,
+    "cracking": 72.3,
+    "pci": 12.1,
+    "vci": 13.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C833_Link01": {
+    "iri": 13.77,
+    "rut_mm": 22.09,
+    "cracking": 70.6,
+    "pci": 14.1,
+    "vci": 15.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C833_Link02": {
+    "iri": 15.47,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 2.2,
+    "vci": 3.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C835_Link01": {
+    "iri": 12.08,
+    "rut_mm": 19.04,
+    "cracking": 60.5,
+    "pci": 25.9,
+    "vci": 28.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C836_Link01": {
+    "iri": 12.74,
+    "rut_mm": 20.23,
+    "cracking": 64.4,
+    "pci": 21.3,
+    "vci": 23.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C836_Link02": {
+    "iri": 15.89,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C837_Link01": {
+    "iri": 13.76,
+    "rut_mm": 22.07,
+    "cracking": 70.6,
+    "pci": 14.2,
+    "vci": 16.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C837_Link02": {
+    "iri": 11.44,
+    "rut_mm": 17.89,
+    "cracking": 56.6,
+    "pci": 30.4,
+    "vci": 32.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C838_Link01": {
+    "iri": 13.64,
+    "rut_mm": 21.85,
+    "cracking": 69.8,
+    "pci": 15.0,
+    "vci": 16.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C838_Link02": {
+    "iri": 14.24,
+    "rut_mm": 22.93,
+    "cracking": 73.4,
+    "pci": 10.8,
+    "vci": 12.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C839_Link01": {
+    "iri": 14.3,
+    "rut_mm": 23.04,
+    "cracking": 73.8,
+    "pci": 10.4,
+    "vci": 12.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C840_Link01": {
+    "iri": 12.82,
+    "rut_mm": 20.38,
+    "cracking": 64.9,
+    "pci": 20.8,
+    "vci": 22.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C840_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C841_Link01": {
+    "iri": 15.43,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 2.5,
+    "vci": 4.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C842_Link01": {
+    "iri": 13.83,
+    "rut_mm": 22.19,
+    "cracking": 71.0,
+    "pci": 13.7,
+    "vci": 15.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C844_Link01": {
+    "iri": 11.76,
+    "rut_mm": 18.47,
+    "cracking": 58.6,
+    "pci": 28.2,
+    "vci": 30.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C844_Link02": {
+    "iri": 15.46,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 2.3,
+    "vci": 3.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C844_Link03": {
+    "iri": 12.18,
+    "rut_mm": 19.22,
+    "cracking": 61.1,
+    "pci": 25.2,
+    "vci": 27.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C845_Link01": {
+    "iri": 14.63,
+    "rut_mm": 23.63,
+    "cracking": 75.8,
+    "pci": 8.1,
+    "vci": 9.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C846_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C847_Link01": {
+    "iri": 12.81,
+    "rut_mm": 20.36,
+    "cracking": 64.9,
+    "pci": 20.8,
+    "vci": 22.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C848_Link01": {
+    "iri": 11.75,
+    "rut_mm": 18.45,
+    "cracking": 58.5,
+    "pci": 28.2,
+    "vci": 30.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C849_Link01": {
+    "iri": 15.13,
+    "rut_mm": 24.53,
+    "cracking": 78.8,
+    "pci": 4.6,
+    "vci": 6.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C850_Link01": {
+    "iri": 13.61,
+    "rut_mm": 21.8,
+    "cracking": 69.7,
+    "pci": 15.2,
+    "vci": 17.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C860_Link01": {
+    "iri": 2.39,
+    "rut_mm": 1.6,
+    "cracking": 2.3,
+    "pci": 93.8,
+    "vci": 97.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C861_Link01": {
+    "iri": 11.01,
+    "rut_mm": 17.12,
+    "cracking": 54.1,
+    "pci": 33.4,
+    "vci": 35.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C862_Link01": {
+    "iri": 13.3,
+    "rut_mm": 21.24,
+    "cracking": 67.8,
+    "pci": 17.4,
+    "vci": 19.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C863_Link01": {
+    "iri": 15.97,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C864_Link01": {
+    "iri": 13.53,
+    "rut_mm": 21.65,
+    "cracking": 69.2,
+    "pci": 15.8,
+    "vci": 17.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C865_Link01": {
+    "iri": 13.15,
+    "rut_mm": 20.97,
+    "cracking": 66.9,
+    "pci": 18.5,
+    "vci": 20.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C866_Link01": {
+    "iri": 3.65,
+    "rut_mm": 3.87,
+    "cracking": 9.9,
+    "pci": 85.0,
+    "vci": 88.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C867_Link01": {
+    "iri": 3.96,
+    "rut_mm": 4.43,
+    "cracking": 11.8,
+    "pci": 82.8,
+    "vci": 86.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C867_Link02": {
+    "iri": 12.35,
+    "rut_mm": 19.53,
+    "cracking": 62.1,
+    "pci": 24.0,
+    "vci": 26.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C870_Link01": {
+    "iri": 4.21,
+    "rut_mm": 4.88,
+    "cracking": 13.3,
+    "pci": 81.0,
+    "vci": 84.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C870_Link02": {
+    "iri": 3.52,
+    "rut_mm": 3.64,
+    "cracking": 9.1,
+    "pci": 85.9,
+    "vci": 89.1,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C870_Link03": {
+    "iri": 15.89,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C871_Link01": {
+    "iri": 15.29,
+    "rut_mm": 24.82,
+    "cracking": 79.7,
+    "pci": 3.5,
+    "vci": 5.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C872_Link01": {
+    "iri": 13.74,
+    "rut_mm": 22.03,
+    "cracking": 70.4,
+    "pci": 14.3,
+    "vci": 16.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C872_Link02": {
+    "iri": 11.44,
+    "rut_mm": 17.89,
+    "cracking": 56.6,
+    "pci": 30.4,
+    "vci": 32.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C873_Link01": {
+    "iri": 15.76,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0.2,
+    "vci": 1.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C873_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C874_Link01": {
+    "iri": 14.47,
+    "rut_mm": 23.35,
+    "cracking": 74.8,
+    "pci": 9.2,
+    "vci": 10.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C875_Link01": {
+    "iri": 14.26,
+    "rut_mm": 22.97,
+    "cracking": 73.6,
+    "pci": 10.7,
+    "vci": 12.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C876_Link01": {
+    "iri": 15.32,
+    "rut_mm": 24.88,
+    "cracking": 79.9,
+    "pci": 3.3,
+    "vci": 4.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C877_Link01": {
+    "iri": 12.74,
+    "rut_mm": 20.23,
+    "cracking": 64.4,
+    "pci": 21.3,
+    "vci": 23.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C878_Link01": {
+    "iri": 13.16,
+    "rut_mm": 20.99,
+    "cracking": 67.0,
+    "pci": 18.4,
+    "vci": 20.3,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C878_Link02": {
+    "iri": 11.32,
+    "rut_mm": 17.68,
+    "cracking": 55.9,
+    "pci": 31.3,
+    "vci": 33.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C879_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C879_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C880_Link01": {
+    "iri": 15.21,
+    "rut_mm": 24.68,
+    "cracking": 79.3,
+    "pci": 4.0,
+    "vci": 5.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C881_Link01": {
+    "iri": 11.75,
+    "rut_mm": 18.45,
+    "cracking": 58.5,
+    "pci": 28.2,
+    "vci": 30.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C882_Link01": {
+    "iri": 14.01,
+    "rut_mm": 22.52,
+    "cracking": 72.1,
+    "pci": 12.4,
+    "vci": 14.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C883_Link01": {
+    "iri": 13.28,
+    "rut_mm": 21.2,
+    "cracking": 67.7,
+    "pci": 17.5,
+    "vci": 19.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C884_Link01": {
+    "iri": 11.84,
+    "rut_mm": 18.61,
+    "cracking": 59.0,
+    "pci": 27.6,
+    "vci": 29.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C885_Link01": {
+    "iri": 14.66,
+    "rut_mm": 23.69,
+    "cracking": 76.0,
+    "pci": 7.9,
+    "vci": 9.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C887_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C887_Link02": {
+    "iri": 14.47,
+    "rut_mm": 23.35,
+    "cracking": 74.8,
+    "pci": 9.2,
+    "vci": 10.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C888_Link01": {
+    "iri": 2.35,
+    "rut_mm": 1.53,
+    "cracking": 2.1,
+    "pci": 94.0,
+    "vci": 97.5,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C889_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C889_Link02": {
+    "iri": 11.36,
+    "rut_mm": 17.75,
+    "cracking": 56.2,
+    "pci": 31.0,
+    "vci": 33.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C891_Link01": {
+    "iri": 13.47,
+    "rut_mm": 21.55,
+    "cracking": 68.8,
+    "pci": 16.2,
+    "vci": 18.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C892_Link01": {
+    "iri": 14.2,
+    "rut_mm": 22.86,
+    "cracking": 73.2,
+    "pci": 11.1,
+    "vci": 12.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C892_Link02": {
+    "iri": 13.37,
+    "rut_mm": 21.37,
+    "cracking": 68.2,
+    "pci": 16.9,
+    "vci": 18.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C893_Link01": {
+    "iri": 13.28,
+    "rut_mm": 21.2,
+    "cracking": 67.7,
+    "pci": 17.5,
+    "vci": 19.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C920_Link01": {
+    "iri": 15.03,
+    "rut_mm": 24.35,
+    "cracking": 78.2,
+    "pci": 5.3,
+    "vci": 6.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C920_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C921_Link01": {
+    "iri": 15.35,
+    "rut_mm": 24.93,
+    "cracking": 80.0,
+    "pci": 3.0,
+    "vci": 4.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C922_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C923_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C924_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C925_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C926_Link01": {
+    "iri": 14.22,
+    "rut_mm": 22.9,
+    "cracking": 73.3,
+    "pci": 11.0,
+    "vci": 12.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C926_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C927_Link01": {
+    "iri": 13.22,
+    "rut_mm": 21.1,
+    "cracking": 67.3,
+    "pci": 18.0,
+    "vci": 19.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C927_Link02": {
+    "iri": 14.82,
+    "rut_mm": 23.98,
+    "cracking": 76.9,
+    "pci": 6.8,
+    "vci": 8.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C928_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C929_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C929_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C930_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C930_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C931_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C932_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C932_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C934_Link01": {
+    "iri": 15.84,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 1.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C934_Link02": {
+    "iri": 15.97,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0.2,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C935_Link01": {
+    "iri": 15.81,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 1.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C937_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C938_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C938_Link02": {
+    "iri": 15.43,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 2.5,
+    "vci": 4.1,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C939_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C939_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C940_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C940_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C941_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C941_Link02": {
+    "iri": 13.82,
+    "rut_mm": 22.18,
+    "cracking": 70.9,
+    "pci": 13.8,
+    "vci": 15.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C942_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C943_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C944_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C945_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C946_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C947_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "C948_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C949_Link01": {
+    "iri": 14.54,
+    "rut_mm": 23.47,
+    "cracking": 75.2,
+    "pci": 8.7,
+    "vci": 10.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C960_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C961_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C962_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C963_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C963_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C963_Link03": {
+    "iri": 15.89,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C964_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C964_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C964_Link03": {
+    "iri": 15.22,
+    "rut_mm": 24.7,
+    "cracking": 79.3,
+    "pci": 4.0,
+    "vci": 5.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C965_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C966_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C967_Link01": {
+    "iri": 14.54,
+    "rut_mm": 23.47,
+    "cracking": 75.2,
+    "pci": 8.7,
+    "vci": 10.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C968_Link01": {
+    "iri": 15.47,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 2.2,
+    "vci": 3.8,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C969_Link01": {
+    "iri": 14.67,
+    "rut_mm": 23.71,
+    "cracking": 76.0,
+    "pci": 7.8,
+    "vci": 9.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C969_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C969_Link03": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C969_Link04": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C970_Link01": {
+    "iri": 15.32,
+    "rut_mm": 24.88,
+    "cracking": 79.9,
+    "pci": 3.3,
+    "vci": 4.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C971_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C972_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C973_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C974_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C975_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C976_Link01": {
+    "iri": 15.34,
+    "rut_mm": 24.91,
+    "cracking": 80.0,
+    "pci": 3.1,
+    "vci": 4.7,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C978_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C979_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C980_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C981_Link01": {
+    "iri": 14.9,
+    "rut_mm": 24.12,
+    "cracking": 77.4,
+    "pci": 6.2,
+    "vci": 7.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C981_Link02": {
+    "iri": 15.23,
+    "rut_mm": 24.71,
+    "cracking": 79.4,
+    "pci": 3.9,
+    "vci": 5.5,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C982_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C983_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C983_Link02": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C984_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C985_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C986_Link01": {
+    "iri": 15.04,
+    "rut_mm": 24.37,
+    "cracking": 78.2,
+    "pci": 5.2,
+    "vci": 6.9,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C987_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C988_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C989_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C990_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C991_Link01": {
+    "iri": 14.6,
+    "rut_mm": 23.58,
+    "cracking": 75.6,
+    "pci": 8.3,
+    "vci": 10.0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C992_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C993_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C994_Link01": {
+    "iri": 14.37,
+    "rut_mm": 23.17,
+    "cracking": 74.2,
+    "pci": 9.9,
+    "vci": 11.6,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C996_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C997_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C998_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C998_Link02": {
+    "iri": 13.28,
+    "rut_mm": 21.2,
+    "cracking": 67.7,
+    "pci": 17.5,
+    "vci": 19.4,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "C999_Link01": {
+    "iri": 16.0,
+    "rut_mm": 25.0,
+    "cracking": 80.0,
+    "pci": 0,
+    "vci": 0,
+    "surface": "unpaved",
+    "year": 2024
+  },
+  "M20": {
+    "iri": 4.14,
+    "rut_mm": 4.75,
+    "cracking": 12.8,
+    "pci": 81.5,
+    "vci": 84.7,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int1_S1": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int1_S2": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int1_S3": {
+    "iri": 1.39,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int1_S4": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int1_S5": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int2_S1": {
+    "iri": 1.46,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int2_S10": {
+    "iri": 1.4,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int2_S11": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int2_S2": {
+    "iri": 1.26,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int2_S3": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int2_S4": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int2_S5": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int2_S6": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int2_S7": {
+    "iri": 1.23,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int2_S8": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int2_S9": {
+    "iri": 1.5,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int3_S1": {
+    "iri": 1.39,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int3_S2": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int3_S3": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int3_S4": {
+    "iri": 1.22,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int3_S5": {
+    "iri": 1.35,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int3_S6": {
+    "iri": 1.47,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int3_S7": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int3_S8": {
+    "iri": 1.43,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int4_S1": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int4_S10": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int4_S2": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int4_S3": {
+    "iri": 1.3,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int4_S4": {
+    "iri": 1.45,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int4_S5": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int4_S6": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int4_S7": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int4_S8": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int4_S9": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int5_S1": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int5_S2": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int5_S3": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int6_S1": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int6_S2": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int6_S3": {
+    "iri": 1.47,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int7_S1": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int7_S2": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int7_S3": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int7_S4": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int8_S1": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int8_S2": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int8_S3": {
+    "iri": 1.3,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int8_S4": {
+    "iri": 1.37,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int8_S5": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int8_S6": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int8_S7": {
+    "iri": 1.43,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int8_S8": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int8_S9": {
+    "iri": 1.36,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int9_S1": {
+    "iri": 1.24,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int9_S2": {
+    "iri": 1.24,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20Int9_S3": {
+    "iri": 1.36,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M20N1": {
+    "iri": 1.2,
+    "rut_mm": 0,
+    "cracking": 0,
+    "pci": 100.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M3_Link01": {
+    "iri": 2.25,
+    "rut_mm": 1.35,
+    "cracking": 1.5,
+    "pci": 94.8,
+    "vci": 98.2,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M3_Link02": {
+    "iri": 1.6,
+    "rut_mm": 0.18,
+    "cracking": 0,
+    "pci": 99.3,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M3Int1_S1": {
+    "iri": 2.02,
+    "rut_mm": 0.94,
+    "cracking": 0.1,
+    "pci": 96.4,
+    "vci": 99.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M3Int1_S2": {
+    "iri": 1.95,
+    "rut_mm": 0.81,
+    "cracking": 0,
+    "pci": 96.8,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M3Int1_S3": {
+    "iri": 1.76,
+    "rut_mm": 0.47,
+    "cracking": 0,
+    "pci": 98.2,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M3Int2_S1": {
+    "iri": 2.22,
+    "rut_mm": 1.3,
+    "cracking": 1.3,
+    "pci": 95.0,
+    "vci": 98.4,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M3Int2_S2": {
+    "iri": 2.35,
+    "rut_mm": 1.53,
+    "cracking": 2.1,
+    "pci": 94.0,
+    "vci": 97.5,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M3Int2_S3": {
+    "iri": 1.96,
+    "rut_mm": 0.83,
+    "cracking": 0,
+    "pci": 96.8,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M3Int2_S4": {
+    "iri": 1.64,
+    "rut_mm": 0.25,
+    "cracking": 0,
+    "pci": 99.0,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M3Int3_S1": {
+    "iri": 2.07,
+    "rut_mm": 1.03,
+    "cracking": 0.4,
+    "pci": 96.0,
+    "vci": 99.5,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M3Int3_S2": {
+    "iri": 2.15,
+    "rut_mm": 1.17,
+    "cracking": 0.9,
+    "pci": 95.5,
+    "vci": 98.9,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M3Int3_S3": {
+    "iri": 1.81,
+    "rut_mm": 0.56,
+    "cracking": 0,
+    "pci": 97.8,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M3Int3_S4": {
+    "iri": 1.71,
+    "rut_mm": 0.38,
+    "cracking": 0,
+    "pci": 98.5,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M3Int4_S1": {
+    "iri": 1.55,
+    "rut_mm": 0.09,
+    "cracking": 0,
+    "pci": 99.7,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M3Int4_S2": {
+    "iri": 2.18,
+    "rut_mm": 1.22,
+    "cracking": 1.1,
+    "pci": 95.2,
+    "vci": 98.7,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M3Int4_S3": {
+    "iri": 1.91,
+    "rut_mm": 0.74,
+    "cracking": 0,
+    "pci": 97.1,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M3Int4_S4": {
+    "iri": 2.2,
+    "rut_mm": 1.26,
+    "cracking": 1.2,
+    "pci": 95.1,
+    "vci": 98.6,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M3Int4_S5": {
+    "iri": 1.66,
+    "rut_mm": 0.29,
+    "cracking": 0,
+    "pci": 98.9,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M3N1_Link01": {
+    "iri": 1.9,
+    "rut_mm": 0.72,
+    "cracking": 0,
+    "pci": 97.2,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  },
+  "M3N2_Link01": {
+    "iri": 1.82,
+    "rut_mm": 0.58,
+    "cracking": 0,
+    "pci": 97.8,
+    "vci": 100.0,
+    "surface": "asphalt",
+    "year": 2024
+  }
+}
