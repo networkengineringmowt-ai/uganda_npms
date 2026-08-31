@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-21",
+  "repo": "uganda_npms",
+  "url": "https://networkengineringmowt-ai.github.io/uganda_npms/",
+  "technical": {
+    "httpStatus": 404,
+    "loadFailed": false,
+    "pageRendered": true,
+    "bodyTextLength": 223,
+    "consoleErrors": [
+      "Failed to load resource: the server responded with a status of 404 ()"
+    ],
+    "brokenImages": [],
+    "hashLinksFound": [],
+    "chartElementCount": 0
+  },
+  "accuracy": {
+    "extractedFigures": [],
+    "discrepancies": []
+  },
+  "consistency": {
+    "districtList": null,
+    "notes": []
+  }
+}
