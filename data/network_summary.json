@@ -1,0 +1,31 @@
+{
+  "total_links": 1023,
+  "total_length_km": 21302.0,
+  "official_total_km": 21302.0,
+  "paved_km": 6405.0,
+  "unpaved_km": 14897.0,
+  "paved_pct": 30.1,
+  "ducar_km": 89736.0,
+  "grand_total_km": 111038.0,
+  "regions_count": 6,
+  "stations_count": 23,
+  "total_bridges": 423,
+  "total_traffic_stations": 191,
+  "ducar_links": 31106,
+  "ducar_districts": 111,
+  "pim_projects": 158,
+  "pim_budget_usd": 4003200000.0,
+  "mean_aadt_2026": 2889.0,
+  "good_pct": 0.0,
+  "fair_pct": 0.0,
+  "poor_pct": 0.0,
+  "avg_iri_national": 3.31,
+  "ml_accuracies": {
+    "rms_rf": 0.971,
+    "tis_lr_r2": 1.0,
+    "bms_rf": 0.988,
+    "ducar_rf": 0.62
+  },
+  "timestamp": "2026-08-20T00:00:00",
+  "data_vintage": "DNR / UNRA August 2026"
+}

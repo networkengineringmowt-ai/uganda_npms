@@ -1,0 +1,16 @@
+{
+  "total_vehicle_km_daily": 57433147,
+  "links_at_capacity_risk_pct": 53.0,
+  "highest_growth_corridor_2040": {
+    "link_id": "A001_Link01",
+    "link_name": "Kampala - Mukono",
+    "aadt_2025": 30909,
+    "aadt_2040": 60273
+  },
+  "congestion_breakdown": {
+    "Critical": 521,
+    "Medium": 266,
+    "Low": 213,
+    "High": 20
+  }
+}

@@ -1,0 +1,6 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","properties":{"name":"Kalangala Ferry","operator":"MOWT","type":"ferry"},"geometry":{"type":"LineString","coordinates":[[32.293,-0.317],[32.25,-0.38]]}},
+{"type":"Feature","properties":{"name":"Nakiwogo–Lutoboka Ferry","operator":"Uganda Ferries","type":"ferry"},"geometry":{"type":"LineString","coordinates":[[32.35,-0.12],[32.38,-0.26]]}},
+{"type":"Feature","properties":{"name":"Bukakata–Bwendero Ferry","operator":"MOWT","type":"ferry"},"geometry":{"type":"LineString","coordinates":[[31.89,-0.14],[31.92,-0.21]]}},
+{"type":"Feature","properties":{"name":"Port Bell Pier","operator":"URC","type":"ferry"},"geometry":{"type":"LineString","coordinates":[[32.64,0.28],[32.60,0.20]]}}
+]}

@@ -1,0 +1,6 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","properties":{"name":"East African SGR — Uganda Section","type":"SGR","status":"planned","gauge_mm":1435},"geometry":{"type":"LineString","coordinates":[[34.18,0.45],[33.62,1.00],[33.20,0.45],[32.64,0.28],[32.44,0.04]]}},
+{"type":"Feature","properties":{"name":"Tororo–Kampala MGR","type":"MGR","status":"operational","gauge_mm":1000},"geometry":{"type":"LineString","coordinates":[[34.18,0.45],[33.80,0.60],[33.20,0.67],[33.00,0.50],[32.64,0.28],[32.55,0.35],[32.62,0.31]]}},
+{"type":"Feature","properties":{"name":"Kampala–Kasese MGR","type":"MGR","status":"non-operational","gauge_mm":1000},"geometry":{"type":"LineString","coordinates":[[32.62,0.31],[32.30,0.25],[31.80,0.05],[31.00,0.10],[30.10,0.18]]}},
+{"type":"Feature","properties":{"name":"Tororo–Gulu MGR","type":"MGR","status":"non-operational","gauge_mm":1000},"geometry":{"type":"LineString","coordinates":[[34.18,0.45],[33.80,1.00],[33.50,1.50],[33.00,2.00],[32.50,2.50],[32.27,2.81]]}}
+]}
