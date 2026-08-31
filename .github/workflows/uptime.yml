@@ -1,0 +1,46 @@
+name: Uptime Monitor
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check site
+        id: check
+        run: |
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://networkengineringmowt-ai.github.io/uganda_npms/)
+          echo "status=$STATUS" >> "$GITHUB_OUTPUT"
+          if [ "$STATUS" != "200" ]; then
+            echo "Site returned $STATUS"
+            exit 1
+          fi
+          echo "Site OK: $STATUS"
+
+      - name: Open issue on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          EXISTING=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "🔴 Site Down: uganda_npms in:title" --json number --jq '.[0].number')
+          if [ -z "$EXISTING" ]; then
+            gh issue create --repo "$GITHUB_REPOSITORY" \
+              --title "🔴 Site Down: uganda_npms" \
+              --body "Uptime check failed with status ${{ steps.check.outputs.status }} at $(date -u +%FT%TZ). Workflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          fi
+
+      - name: Close issue on recovery
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          OPEN_ISSUE=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "🔴 Site Down: uganda_npms in:title" --json number --jq '.[0].number')
+          if [ -n "$OPEN_ISSUE" ]; then
+            gh issue close "$OPEN_ISSUE" --repo "$GITHUB_REPOSITORY" --comment "Site recovered — returned 200 at $(date -u +%FT%TZ)."
+          fi

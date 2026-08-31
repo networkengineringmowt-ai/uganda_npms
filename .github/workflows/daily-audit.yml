@@ -1,0 +1,42 @@
+name: Daily Site Audit
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: |
+          npm install --no-save playwright @octokit/rest
+          npx playwright install --with-deps chromium
+
+      - name: Run audit
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/daily-audit/audit.mjs
+
+      - name: Commit audit log
+        run: |
+          git config user.name "MoWT Audit Bot"
+          git config user.email "audit@mowt.go.ug"
+          git add audit-log/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: daily audit report $(date -u +%F)"
+            git push
+          else
+            echo "No audit-log changes to commit"
+          fi
