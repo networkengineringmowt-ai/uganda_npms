@@ -1,0 +1,11 @@
+import{c as i}from"./log-out-C5GiIkJf.js";import{s as p}from"./pageActions-BMfxccvA.js";/**
+ * @license lucide-react v0.469.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const b=i("CircleCheck",[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["path",{d:"m9 12 2 2 4-4",key:"dzmm74"}]]);/**
+ * @license lucide-react v0.469.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const h=i("X",[["path",{d:"M18 6 6 18",key:"1bl5f8"}],["path",{d:"m6 6 12 12",key:"d8bk6v"}]]),m="NPMS_MOBICAP",c="surveys",u=1;function l(){return new Promise((t,e)=>{const a=indexedDB.open(m,u);a.onupgradeneeded=()=>{const n=a.result;if(!n.objectStoreNames.contains(c)){const o=n.createObjectStore(c,{keyPath:"id"});o.createIndex("status","status"),o.createIndex("updatedAt","updatedAt")}},a.onsuccess=()=>t(a.result),a.onerror=()=>e(a.error)})}async function d(t,e){const a=await l();return new Promise((n,o)=>{const r=a.transaction(c,t),s=e(r.objectStore(c));s.onsuccess=()=>n(s.result),s.onerror=()=>o(s.error),r.oncomplete=()=>a.close(),r.onerror=()=>o(r.error)})}const g=async()=>(await d("readonly",e=>e.getAll())).sort((e,a)=>a.updatedAt.localeCompare(e.updatedAt)),k=async t=>{const e={...t,updatedAt:new Date().toISOString()};return await d("readwrite",a=>a.put(e)),e},y=async t=>{await d("readwrite",e=>e.delete(t))},C=async t=>{const e=await l();await new Promise((a,n)=>{const o=e.transaction(c,"readwrite"),r=o.objectStore(c);r.clear(),t.forEach(s=>r.put(s)),o.oncomplete=()=>{e.close(),a()},o.onerror=()=>n(o.error)})},f=async t=>{const{error:e}=await p.from("data_capture_submissions").insert({link_id:t.link||null,survey_type:t.type,rater_label:t.rater||null,ratings:{values:t.values,vci:t.vci,roadCode:t.roadCode,roadName:t.roadName,linkStart:t.linkStart,segmentStart:t.segmentStart,segmentEnd:t.segmentEnd,roadType:t.roadType,roadWidth:t.roadWidth,surveyDate:t.surveyDate,notes:t.notes},evidence:{gpsStart:t.gpsStart??null,gpsEnd:t.gpsEnd??null,photoCount:t.photos.length,photoNames:t.photos.map(a=>a.name)}});if(e)throw e};export{b as C,h as X,f as a,y as d,g as l,C as r,k as s};
