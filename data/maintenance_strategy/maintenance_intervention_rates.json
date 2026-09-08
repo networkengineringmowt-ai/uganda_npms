@@ -1,0 +1,82 @@
+[
+  {
+    "surface": "Surface",
+    "intervention": "Intervention",
+    "rate_ugx_bn_per_km": "Recommended rate (UGX bn/km)",
+    "basis": "Primary basis",
+    "is_assumption": false,
+    "accuracy_score": "Accuracy score"
+  },
+  {
+    "surface": "Paved",
+    "intervention": "Routine maintenance",
+    "rate_ugx_bn_per_km": 0.015,
+    "basis": "Direct strategy benchmark from maintenance paper comparator.",
+    "is_assumption": false,
+    "accuracy_score": 66
+  },
+  {
+    "surface": "Paved",
+    "intervention": "Periodic maintenance",
+    "rate_ugx_bn_per_km": 0.9031610637230306,
+    "basis": "Direct backlog-derived unit cost from the strategy workbook.",
+    "is_assumption": false,
+    "accuracy_score": 68
+  },
+  {
+    "surface": "Paved",
+    "intervention": "Light rehabilitation",
+    "rate_ugx_bn_per_km": 1.028322524198729,
+    "basis": "Median 50mm overlay rate from the optimised programme files.",
+    "is_assumption": false,
+    "accuracy_score": 91
+  },
+  {
+    "surface": "Paved",
+    "intervention": "Heavy rehabilitation",
+    "rate_ugx_bn_per_km": 2.587209302325582,
+    "basis": "Direct strategy rehabilitation unit cost, cross-checked against sparse 80mm overlay evidence.",
+    "is_assumption": false,
+    "accuracy_score": 87
+  },
+  {
+    "surface": "Paved",
+    "intervention": "Reconstruction",
+    "rate_ugx_bn_per_km": 3.695454545454545,
+    "basis": "Direct strategy reconstruction unit cost with programme cross-checks.",
+    "is_assumption": false,
+    "accuracy_score": 81
+  },
+  {
+    "surface": "Unpaved",
+    "intervention": "Routine maintenance",
+    "rate_ugx_bn_per_km": 0.021,
+    "basis": "Direct strategy benchmark for mechanised unpaved routine maintenance.",
+    "is_assumption": false,
+    "accuracy_score": 67
+  },
+  {
+    "surface": "Unpaved",
+    "intervention": "Periodic maintenance",
+    "rate_ugx_bn_per_km": 0.06,
+    "basis": "Direct strategy benchmark for regravelling / periodic maintenance.",
+    "is_assumption": false,
+    "accuracy_score": 75
+  },
+  {
+    "surface": "Unpaved",
+    "intervention": "Light rehabilitation",
+    "rate_ugx_bn_per_km": 0.12,
+    "basis": "Assumption retained at 2x unpaved periodic rate; bottleneck rows were too patch-specific to use as a clean direct benchmark.",
+    "is_assumption": true,
+    "accuracy_score": 39
+  },
+  {
+    "surface": "Unpaved",
+    "intervention": "Heavy rehabilitation",
+    "rate_ugx_bn_per_km": 0.24,
+    "basis": "Assumption retained at 4x unpaved periodic rate because direct heavy-rehab unit costs were not explicit in the scanned workbooks.",
+    "is_assumption": true,
+    "accuracy_score": 20
+  }
+]

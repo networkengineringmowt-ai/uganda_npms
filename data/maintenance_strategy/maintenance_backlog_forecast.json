@@ -1,0 +1,90 @@
+[
+  {
+    "fy": "17/18",
+    "is_actual": true,
+    "paved_asset_value_musd": 2933,
+    "unpaved_asset_value_musd": 646,
+    "total_asset_value_musd": 3579,
+    "model_version": "actual"
+  },
+  {
+    "fy": "18/19",
+    "is_actual": true,
+    "paved_asset_value_musd": 3220,
+    "unpaved_asset_value_musd": 649,
+    "total_asset_value_musd": 3869,
+    "model_version": "actual"
+  },
+  {
+    "fy": "19/20",
+    "is_actual": true,
+    "paved_asset_value_musd": 3900,
+    "unpaved_asset_value_musd": 610,
+    "total_asset_value_musd": 4510,
+    "model_version": "actual"
+  },
+  {
+    "fy": "20/21",
+    "is_actual": true,
+    "paved_asset_value_musd": 4817.652,
+    "unpaved_asset_value_musd": 577.1406564559991,
+    "total_asset_value_musd": 5394.8,
+    "model_version": "actual"
+  },
+  {
+    "fy": "21/22",
+    "is_actual": true,
+    "paved_asset_value_musd": 5042.505883635855,
+    "unpaved_asset_value_musd": 769.3778193499986,
+    "total_asset_value_musd": 5811.9,
+    "model_version": "actual"
+  },
+  {
+    "fy": "22/23",
+    "is_actual": true,
+    "paved_asset_value_musd": 5378,
+    "unpaved_asset_value_musd": 876,
+    "total_asset_value_musd": 6254,
+    "model_version": "actual"
+  },
+  {
+    "fy": "23/24",
+    "is_actual": true,
+    "paved_asset_value_musd": 5600,
+    "unpaved_asset_value_musd": 822,
+    "total_asset_value_musd": 6422,
+    "model_version": "actual"
+  },
+  {
+    "fy": "25/26",
+    "is_actual": true,
+    "paved_asset_value_musd": 5918.269760358998,
+    "unpaved_asset_value_musd": 815.4980442618677,
+    "total_asset_value_musd": 6733.8,
+    "model_version": "actual"
+  },
+  {
+    "fy": "26/27",
+    "is_actual": false,
+    "paved_asset_value_musd": 6761.4,
+    "unpaved_asset_value_musd": 894.8,
+    "total_asset_value_musd": 7656.2,
+    "model_version": "maint-v1-2026-09-08-linear"
+  },
+  {
+    "fy": "27/28",
+    "is_actual": false,
+    "paved_asset_value_musd": 7163.3,
+    "unpaved_asset_value_musd": 927.1,
+    "total_asset_value_musd": 8090.5,
+    "model_version": "maint-v1-2026-09-08-linear"
+  },
+  {
+    "fy": "28/29",
+    "is_actual": false,
+    "paved_asset_value_musd": 7565.2,
+    "unpaved_asset_value_musd": 959.5,
+    "total_asset_value_musd": 8524.8,
+    "model_version": "maint-v1-2026-09-08-linear"
+  }
+]

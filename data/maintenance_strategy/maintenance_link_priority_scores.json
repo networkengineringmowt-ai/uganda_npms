@@ -1,0 +1,2242 @@
+[
+  {
+    "link_id": "C923_Link01",
+    "predicted_cost_need_ugx_bn": 4.993,
+    "priority_score": 100.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 1
+  },
+  {
+    "link_id": "C947_Link01",
+    "predicted_cost_need_ugx_bn": 5.174,
+    "priority_score": 100.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 2
+  },
+  {
+    "link_id": "C170_Link01",
+    "predicted_cost_need_ugx_bn": 5.312,
+    "priority_score": 99.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 3
+  },
+  {
+    "link_id": "A002_Link01",
+    "predicted_cost_need_ugx_bn": 16.879,
+    "priority_score": 96.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 4
+  },
+  {
+    "link_id": "A005_Link07",
+    "predicted_cost_need_ugx_bn": 42.172,
+    "priority_score": 96.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 5
+  },
+  {
+    "link_id": "A005_Link08",
+    "predicted_cost_need_ugx_bn": 31.047,
+    "priority_score": 96.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 6
+  },
+  {
+    "link_id": "A008_Link04",
+    "predicted_cost_need_ugx_bn": 165.038,
+    "priority_score": 96.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 7
+  },
+  {
+    "link_id": "A008_Link05",
+    "predicted_cost_need_ugx_bn": 48.642,
+    "priority_score": 96.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 8
+  },
+  {
+    "link_id": "B150_Link02",
+    "predicted_cost_need_ugx_bn": 118.51,
+    "priority_score": 96.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 9
+  },
+  {
+    "link_id": "A005_Link09",
+    "predicted_cost_need_ugx_bn": 135.21,
+    "priority_score": 94.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 10
+  },
+  {
+    "link_id": "C410_Link01",
+    "predicted_cost_need_ugx_bn": 53.302,
+    "priority_score": 94.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 11
+  },
+  {
+    "link_id": "C158_Link01",
+    "predicted_cost_need_ugx_bn": 3.925,
+    "priority_score": 93.5,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 12
+  },
+  {
+    "link_id": "A005_Link15",
+    "predicted_cost_need_ugx_bn": 98.961,
+    "priority_score": 92.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 13
+  },
+  {
+    "link_id": "B151_Link03",
+    "predicted_cost_need_ugx_bn": 72.644,
+    "priority_score": 92.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 14
+  },
+  {
+    "link_id": "C005_Link01",
+    "predicted_cost_need_ugx_bn": 31.564,
+    "priority_score": 92.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 15
+  },
+  {
+    "link_id": "C157_Link01",
+    "predicted_cost_need_ugx_bn": 8.729,
+    "priority_score": 91.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 16
+  },
+  {
+    "link_id": "C022_Link01",
+    "predicted_cost_need_ugx_bn": 11.989,
+    "priority_score": 90.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 17
+  },
+  {
+    "link_id": "C231_Link01",
+    "predicted_cost_need_ugx_bn": 11.642,
+    "priority_score": 90.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 18
+  },
+  {
+    "link_id": "A001_Link03",
+    "predicted_cost_need_ugx_bn": 77.909,
+    "priority_score": 90.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 19
+  },
+  {
+    "link_id": "A001_Link04",
+    "predicted_cost_need_ugx_bn": 5.951,
+    "priority_score": 90.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 20
+  },
+  {
+    "link_id": "A002_Link05",
+    "predicted_cost_need_ugx_bn": 87.965,
+    "priority_score": 89.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 21
+  },
+  {
+    "link_id": "B151_Link01",
+    "predicted_cost_need_ugx_bn": 12.765,
+    "priority_score": 89.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 22
+  },
+  {
+    "link_id": "B151_Link02",
+    "predicted_cost_need_ugx_bn": 67.71,
+    "priority_score": 89.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 23
+  },
+  {
+    "link_id": "A005_Link03",
+    "predicted_cost_need_ugx_bn": 40.987,
+    "priority_score": 87.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 24
+  },
+  {
+    "link_id": "A005_Link04",
+    "predicted_cost_need_ugx_bn": 71.679,
+    "priority_score": 87.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 25
+  },
+  {
+    "link_id": "A005_Link05",
+    "predicted_cost_need_ugx_bn": 52.652,
+    "priority_score": 87.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 26
+  },
+  {
+    "link_id": "A005_Link06",
+    "predicted_cost_need_ugx_bn": 77.083,
+    "priority_score": 87.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 27
+  },
+  {
+    "link_id": "A001_Link02",
+    "predicted_cost_need_ugx_bn": 62.46,
+    "priority_score": 87.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 28
+  },
+  {
+    "link_id": "A006_Link07",
+    "predicted_cost_need_ugx_bn": 76.778,
+    "priority_score": 87.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 29
+  },
+  {
+    "link_id": "B150_Link01",
+    "predicted_cost_need_ugx_bn": 49.025,
+    "priority_score": 86.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 30
+  },
+  {
+    "link_id": "A004_Link02",
+    "predicted_cost_need_ugx_bn": 115.529,
+    "priority_score": 86.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 31
+  },
+  {
+    "link_id": "A008_Link01",
+    "predicted_cost_need_ugx_bn": 133.585,
+    "priority_score": 85.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 32
+  },
+  {
+    "link_id": "A008_Link02",
+    "predicted_cost_need_ugx_bn": 140.76,
+    "priority_score": 84.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 33
+  },
+  {
+    "link_id": "A009_Link03",
+    "predicted_cost_need_ugx_bn": 129.36,
+    "priority_score": 84.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 34
+  },
+  {
+    "link_id": "A009_Link04",
+    "predicted_cost_need_ugx_bn": 249.666,
+    "priority_score": 84.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 35
+  },
+  {
+    "link_id": "A004_Link01",
+    "predicted_cost_need_ugx_bn": 114.479,
+    "priority_score": 83.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 36
+  },
+  {
+    "link_id": "A007_Link06",
+    "predicted_cost_need_ugx_bn": 174.492,
+    "priority_score": 82.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 37
+  },
+  {
+    "link_id": "A007_Link07",
+    "predicted_cost_need_ugx_bn": 60.781,
+    "priority_score": 82.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 38
+  },
+  {
+    "link_id": "A007_Link08",
+    "predicted_cost_need_ugx_bn": 80.589,
+    "priority_score": 82.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 39
+  },
+  {
+    "link_id": "A007_Link09",
+    "predicted_cost_need_ugx_bn": 70.072,
+    "priority_score": 82.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 40
+  },
+  {
+    "link_id": "A007_Link10",
+    "predicted_cost_need_ugx_bn": 113.723,
+    "priority_score": 82.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 41
+  },
+  {
+    "link_id": "B103_Link01",
+    "predicted_cost_need_ugx_bn": 26.164,
+    "priority_score": 81.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 42
+  },
+  {
+    "link_id": "C154_Link01",
+    "predicted_cost_need_ugx_bn": 102.658,
+    "priority_score": 81.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 43
+  },
+  {
+    "link_id": "A007_Link01",
+    "predicted_cost_need_ugx_bn": 9.705,
+    "priority_score": 79.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 44
+  },
+  {
+    "link_id": "A007_Link02",
+    "predicted_cost_need_ugx_bn": 87.189,
+    "priority_score": 79.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 45
+  },
+  {
+    "link_id": "A007_Link03",
+    "predicted_cost_need_ugx_bn": 26.462,
+    "priority_score": 79.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 46
+  },
+  {
+    "link_id": "A007_Link04",
+    "predicted_cost_need_ugx_bn": 141.484,
+    "priority_score": 79.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 47
+  },
+  {
+    "link_id": "A007_Link05",
+    "predicted_cost_need_ugx_bn": 120.939,
+    "priority_score": 79.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 48
+  },
+  {
+    "link_id": "B152_Link01",
+    "predicted_cost_need_ugx_bn": 13.754,
+    "priority_score": 79.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 49
+  },
+  {
+    "link_id": "B100_Link02",
+    "predicted_cost_need_ugx_bn": 18.202,
+    "priority_score": 78.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 50
+  },
+  {
+    "link_id": "A008_Link03",
+    "predicted_cost_need_ugx_bn": 138.338,
+    "priority_score": 77.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 51
+  },
+  {
+    "link_id": "C410_Link02",
+    "predicted_cost_need_ugx_bn": 12.591,
+    "priority_score": 77.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 52
+  },
+  {
+    "link_id": "A010_Link01",
+    "predicted_cost_need_ugx_bn": 8.259,
+    "priority_score": 76.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 53
+  },
+  {
+    "link_id": "C511_Link01",
+    "predicted_cost_need_ugx_bn": 10.598,
+    "priority_score": 76.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 54
+  },
+  {
+    "link_id": "B200_Link01",
+    "predicted_cost_need_ugx_bn": 39.073,
+    "priority_score": 75.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 55
+  },
+  {
+    "link_id": "A001_Link05",
+    "predicted_cost_need_ugx_bn": 10.704,
+    "priority_score": 74.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 56
+  },
+  {
+    "link_id": "A001_Link06",
+    "predicted_cost_need_ugx_bn": 24.213,
+    "priority_score": 74.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 57
+  },
+  {
+    "link_id": "A001_Link08",
+    "predicted_cost_need_ugx_bn": 25.65,
+    "priority_score": 74.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 58
+  },
+  {
+    "link_id": "A001N2_Link01",
+    "predicted_cost_need_ugx_bn": 10.705,
+    "priority_score": 74.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 59
+  },
+  {
+    "link_id": "C152_Link01",
+    "predicted_cost_need_ugx_bn": 13.438,
+    "priority_score": 74.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 60
+  },
+  {
+    "link_id": "C214_Link02",
+    "predicted_cost_need_ugx_bn": 14.668,
+    "priority_score": 74.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 61
+  },
+  {
+    "link_id": "B100_Link01",
+    "predicted_cost_need_ugx_bn": 12.054,
+    "priority_score": 73.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 62
+  },
+  {
+    "link_id": "A002_Link02",
+    "predicted_cost_need_ugx_bn": 22.888,
+    "priority_score": 72.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 63
+  },
+  {
+    "link_id": "A002_Link03",
+    "predicted_cost_need_ugx_bn": 28.974,
+    "priority_score": 72.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 64
+  },
+  {
+    "link_id": "A002_Link04",
+    "predicted_cost_need_ugx_bn": 27.546,
+    "priority_score": 72.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 65
+  },
+  {
+    "link_id": "A005_Link01",
+    "predicted_cost_need_ugx_bn": 29.109,
+    "priority_score": 72.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 66
+  },
+  {
+    "link_id": "A005_Link02",
+    "predicted_cost_need_ugx_bn": 24.147,
+    "priority_score": 72.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 67
+  },
+  {
+    "link_id": "C302_Link01",
+    "predicted_cost_need_ugx_bn": 27.883,
+    "priority_score": 72.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 68
+  },
+  {
+    "link_id": "A001_Link09",
+    "predicted_cost_need_ugx_bn": 23.972,
+    "priority_score": 72.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 69
+  },
+  {
+    "link_id": "A001_Link10",
+    "predicted_cost_need_ugx_bn": 25.55,
+    "priority_score": 72.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 70
+  },
+  {
+    "link_id": "A001_Link11",
+    "predicted_cost_need_ugx_bn": 10.521,
+    "priority_score": 72.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 71
+  },
+  {
+    "link_id": "A002_Link06",
+    "predicted_cost_need_ugx_bn": 61.217,
+    "priority_score": 72.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 72
+  },
+  {
+    "link_id": "A002_Link07",
+    "predicted_cost_need_ugx_bn": 60.788,
+    "priority_score": 72.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 73
+  },
+  {
+    "link_id": "A006_Link01",
+    "predicted_cost_need_ugx_bn": 6.932,
+    "priority_score": 72.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 74
+  },
+  {
+    "link_id": "A006_Link02",
+    "predicted_cost_need_ugx_bn": 7.759,
+    "priority_score": 72.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 75
+  },
+  {
+    "link_id": "A006_Link03",
+    "predicted_cost_need_ugx_bn": 26.119,
+    "priority_score": 72.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 76
+  },
+  {
+    "link_id": "A006_Link04",
+    "predicted_cost_need_ugx_bn": 14.129,
+    "priority_score": 72.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 77
+  },
+  {
+    "link_id": "A006_Link05",
+    "predicted_cost_need_ugx_bn": 49.519,
+    "priority_score": 72.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 78
+  },
+  {
+    "link_id": "A006_Link06",
+    "predicted_cost_need_ugx_bn": 47.159,
+    "priority_score": 72.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 79
+  },
+  {
+    "link_id": "B153_Link01",
+    "predicted_cost_need_ugx_bn": 37.932,
+    "priority_score": 72.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 80
+  },
+  {
+    "link_id": "B153_Link03",
+    "predicted_cost_need_ugx_bn": 10.861,
+    "priority_score": 72.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 81
+  },
+  {
+    "link_id": "B308_Link01",
+    "predicted_cost_need_ugx_bn": 15.268,
+    "priority_score": 72.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 82
+  },
+  {
+    "link_id": "C412_Link01",
+    "predicted_cost_need_ugx_bn": 8.932,
+    "priority_score": 72.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 83
+  },
+  {
+    "link_id": "A001_Link07",
+    "predicted_cost_need_ugx_bn": 4.432,
+    "priority_score": 71.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 84
+  },
+  {
+    "link_id": "A002_Link08",
+    "predicted_cost_need_ugx_bn": 55.751,
+    "priority_score": 71.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 85
+  },
+  {
+    "link_id": "A006_Link12",
+    "predicted_cost_need_ugx_bn": 61.563,
+    "priority_score": 71.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 86
+  },
+  {
+    "link_id": "A008_Link06",
+    "predicted_cost_need_ugx_bn": 45.07,
+    "priority_score": 71.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 87
+  },
+  {
+    "link_id": "A008_Link07",
+    "predicted_cost_need_ugx_bn": 17.02,
+    "priority_score": 71.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 88
+  },
+  {
+    "link_id": "C540_Link01",
+    "predicted_cost_need_ugx_bn": 24.759,
+    "priority_score": 71.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 89
+  },
+  {
+    "link_id": "C744_Link01",
+    "predicted_cost_need_ugx_bn": 8.5,
+    "priority_score": 71.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 90
+  },
+  {
+    "link_id": "A006_Link08",
+    "predicted_cost_need_ugx_bn": 51.241,
+    "priority_score": 70.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 91
+  },
+  {
+    "link_id": "A006_Link09",
+    "predicted_cost_need_ugx_bn": 10.98,
+    "priority_score": 70.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 92
+  },
+  {
+    "link_id": "A006_Link10",
+    "predicted_cost_need_ugx_bn": 21.893,
+    "priority_score": 70.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 93
+  },
+  {
+    "link_id": "A006_Link11",
+    "predicted_cost_need_ugx_bn": 33.864,
+    "priority_score": 70.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 94
+  },
+  {
+    "link_id": "A006_Link13",
+    "predicted_cost_need_ugx_bn": 33.665,
+    "priority_score": 70.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 95
+  },
+  {
+    "link_id": "C592_Link01",
+    "predicted_cost_need_ugx_bn": 19.624,
+    "priority_score": 70.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 96
+  },
+  {
+    "link_id": "C592_Link02",
+    "predicted_cost_need_ugx_bn": 19.274,
+    "priority_score": 70.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 97
+  },
+  {
+    "link_id": "C596_Link02",
+    "predicted_cost_need_ugx_bn": 30.437,
+    "priority_score": 70.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 98
+  },
+  {
+    "link_id": "B152_Link02",
+    "predicted_cost_need_ugx_bn": 32.429,
+    "priority_score": 70.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 99
+  },
+  {
+    "link_id": "B300_Link06",
+    "predicted_cost_need_ugx_bn": 9.932,
+    "priority_score": 70.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 100
+  },
+  {
+    "link_id": "C457_Link01",
+    "predicted_cost_need_ugx_bn": 4.606,
+    "priority_score": 69.6,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 101
+  },
+  {
+    "link_id": "A009_Link02",
+    "predicted_cost_need_ugx_bn": 41.147,
+    "priority_score": 69.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 102
+  },
+  {
+    "link_id": "C417_Link03",
+    "predicted_cost_need_ugx_bn": 5.455,
+    "priority_score": 69.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 103
+  },
+  {
+    "link_id": "C784_Link01",
+    "predicted_cost_need_ugx_bn": 28.93,
+    "priority_score": 69.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 104
+  },
+  {
+    "link_id": "A005_Link11",
+    "predicted_cost_need_ugx_bn": 40.354,
+    "priority_score": 68.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 105
+  },
+  {
+    "link_id": "A005_Link12",
+    "predicted_cost_need_ugx_bn": 16.078,
+    "priority_score": 68.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 106
+  },
+  {
+    "link_id": "A005_Link13",
+    "predicted_cost_need_ugx_bn": 10.492,
+    "priority_score": 68.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 107
+  },
+  {
+    "link_id": "C681_Link01",
+    "predicted_cost_need_ugx_bn": 40.75,
+    "priority_score": 68.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 108
+  },
+  {
+    "link_id": "A009_Link01",
+    "predicted_cost_need_ugx_bn": 4.791,
+    "priority_score": 68.1,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 109
+  },
+  {
+    "link_id": "B251_Link01",
+    "predicted_cost_need_ugx_bn": 55.823,
+    "priority_score": 68.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 110
+  },
+  {
+    "link_id": "B303_Link01",
+    "predicted_cost_need_ugx_bn": 7.224,
+    "priority_score": 68.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 111
+  },
+  {
+    "link_id": "B303_Link03",
+    "predicted_cost_need_ugx_bn": 62.15,
+    "priority_score": 68.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 112
+  },
+  {
+    "link_id": "C025_Link01",
+    "predicted_cost_need_ugx_bn": 25.222,
+    "priority_score": 68.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 113
+  },
+  {
+    "link_id": "C025_Link02",
+    "predicted_cost_need_ugx_bn": 9.4,
+    "priority_score": 68.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 114
+  },
+  {
+    "link_id": "C611_Link01",
+    "predicted_cost_need_ugx_bn": 9.122,
+    "priority_score": 68.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 115
+  },
+  {
+    "link_id": "C650_Link01",
+    "predicted_cost_need_ugx_bn": 7.406,
+    "priority_score": 68.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 116
+  },
+  {
+    "link_id": "B202_Link01",
+    "predicted_cost_need_ugx_bn": 34.23,
+    "priority_score": 67.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 117
+  },
+  {
+    "link_id": "B202_Link02",
+    "predicted_cost_need_ugx_bn": 13.547,
+    "priority_score": 67.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 118
+  },
+  {
+    "link_id": "B202_Link03",
+    "predicted_cost_need_ugx_bn": 44.891,
+    "priority_score": 67.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 119
+  },
+  {
+    "link_id": "B303_Link02",
+    "predicted_cost_need_ugx_bn": 73.935,
+    "priority_score": 67.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 120
+  },
+  {
+    "link_id": "C029_Link01",
+    "predicted_cost_need_ugx_bn": 8.851,
+    "priority_score": 67.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 121
+  },
+  {
+    "link_id": "C867_Link01",
+    "predicted_cost_need_ugx_bn": 13.91,
+    "priority_score": 67.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 122
+  },
+  {
+    "link_id": "C870_Link01",
+    "predicted_cost_need_ugx_bn": 14.171,
+    "priority_score": 67.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 123
+  },
+  {
+    "link_id": "C870_Link02",
+    "predicted_cost_need_ugx_bn": 8.939,
+    "priority_score": 67.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 124
+  },
+  {
+    "link_id": "M20",
+    "predicted_cost_need_ugx_bn": 18.062,
+    "priority_score": 67.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 125
+  },
+  {
+    "link_id": "C028_Link01",
+    "predicted_cost_need_ugx_bn": 8.843,
+    "priority_score": 66.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 126
+  },
+  {
+    "link_id": "C679_Link01",
+    "predicted_cost_need_ugx_bn": 3.432,
+    "priority_score": 65.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 127
+  },
+  {
+    "link_id": "C684_Link01",
+    "predicted_cost_need_ugx_bn": 3.704,
+    "priority_score": 64.9,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 128
+  },
+  {
+    "link_id": "C002_Link01",
+    "predicted_cost_need_ugx_bn": 3.455,
+    "priority_score": 64.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 129
+  },
+  {
+    "link_id": "A002_Link09",
+    "predicted_cost_need_ugx_bn": 13.503,
+    "priority_score": 63.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 130
+  },
+  {
+    "link_id": "A002_Link10",
+    "predicted_cost_need_ugx_bn": 53.654,
+    "priority_score": 63.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 131
+  },
+  {
+    "link_id": "A002_Link11",
+    "predicted_cost_need_ugx_bn": 19.596,
+    "priority_score": 63.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 132
+  },
+  {
+    "link_id": "C683_Link01",
+    "predicted_cost_need_ugx_bn": 3.532,
+    "priority_score": 61.9,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 133
+  },
+  {
+    "link_id": "C866_Link01",
+    "predicted_cost_need_ugx_bn": 4.08,
+    "priority_score": 61.8,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 134
+  },
+  {
+    "link_id": "A007N1_Link01",
+    "predicted_cost_need_ugx_bn": 1.94,
+    "priority_score": 61.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 135
+  },
+  {
+    "link_id": "A001N1_Link01",
+    "predicted_cost_need_ugx_bn": 2.587,
+    "priority_score": 60.2,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 136
+  },
+  {
+    "link_id": "C420_Link01",
+    "predicted_cost_need_ugx_bn": 2.616,
+    "priority_score": 57.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 137
+  },
+  {
+    "link_id": "C453_Link01",
+    "predicted_cost_need_ugx_bn": 1.901,
+    "priority_score": 53.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 138
+  },
+  {
+    "link_id": "C668_Link01",
+    "predicted_cost_need_ugx_bn": 1.445,
+    "priority_score": 53.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 139
+  },
+  {
+    "link_id": "C023_Link01",
+    "predicted_cost_need_ugx_bn": 1.586,
+    "priority_score": 52.8,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 140
+  },
+  {
+    "link_id": "C001_Link01",
+    "predicted_cost_need_ugx_bn": 2.499,
+    "priority_score": 52.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 141
+  },
+  {
+    "link_id": "C035_Link01",
+    "predicted_cost_need_ugx_bn": 0.841,
+    "priority_score": 50.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 142
+  },
+  {
+    "link_id": "C517_Link01",
+    "predicted_cost_need_ugx_bn": 0.69,
+    "priority_score": 50.1,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 143
+  },
+  {
+    "link_id": "A006N1_Link01",
+    "predicted_cost_need_ugx_bn": 0.651,
+    "priority_score": 47.9,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 144
+  },
+  {
+    "link_id": "B100N1_Link01",
+    "predicted_cost_need_ugx_bn": 1.558,
+    "priority_score": 44.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 145
+  },
+  {
+    "link_id": "C199_Link01",
+    "predicted_cost_need_ugx_bn": 1.34,
+    "priority_score": 44.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 146
+  },
+  {
+    "link_id": "C168_Link01",
+    "predicted_cost_need_ugx_bn": 1.851,
+    "priority_score": 44.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 147
+  },
+  {
+    "link_id": "B150_Link04",
+    "predicted_cost_need_ugx_bn": 0.972,
+    "priority_score": 15.2,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 148
+  },
+  {
+    "link_id": "C540_Link02",
+    "predicted_cost_need_ugx_bn": 1.143,
+    "priority_score": 14.9,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 149
+  },
+  {
+    "link_id": "B103_Link02",
+    "predicted_cost_need_ugx_bn": 0.54,
+    "priority_score": 13.9,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 150
+  },
+  {
+    "link_id": "B150_Link03",
+    "predicted_cost_need_ugx_bn": 0.667,
+    "priority_score": 12.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 151
+  },
+  {
+    "link_id": "B153_Link02",
+    "predicted_cost_need_ugx_bn": 0.508,
+    "priority_score": 11.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 152
+  },
+  {
+    "link_id": "A001_Link01",
+    "predicted_cost_need_ugx_bn": 0.266,
+    "priority_score": 11.6,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 153
+  },
+  {
+    "link_id": "C355_Link02",
+    "predicted_cost_need_ugx_bn": 0.521,
+    "priority_score": 11.1,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 154
+  },
+  {
+    "link_id": "C355_Link01",
+    "predicted_cost_need_ugx_bn": 0.498,
+    "priority_score": 11.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 155
+  },
+  {
+    "link_id": "B307_Link02",
+    "predicted_cost_need_ugx_bn": 0.489,
+    "priority_score": 10.9,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 156
+  },
+  {
+    "link_id": "C356_Link01",
+    "predicted_cost_need_ugx_bn": 0.486,
+    "priority_score": 10.9,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 157
+  },
+  {
+    "link_id": "C669_Link01",
+    "predicted_cost_need_ugx_bn": 0.034,
+    "priority_score": 10.9,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 158
+  },
+  {
+    "link_id": "B300_Link05",
+    "predicted_cost_need_ugx_bn": 0.687,
+    "priority_score": 10.8,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 159
+  },
+  {
+    "link_id": "C350_Link01",
+    "predicted_cost_need_ugx_bn": 0.46,
+    "priority_score": 10.8,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 160
+  },
+  {
+    "link_id": "C649_Link01",
+    "predicted_cost_need_ugx_bn": 0.021,
+    "priority_score": 10.8,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 161
+  },
+  {
+    "link_id": "C162_Link01",
+    "predicted_cost_need_ugx_bn": 0.885,
+    "priority_score": 10.6,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 162
+  },
+  {
+    "link_id": "C308_Link01",
+    "predicted_cost_need_ugx_bn": 0.191,
+    "priority_score": 10.5,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 163
+  },
+  {
+    "link_id": "B307_Link01",
+    "predicted_cost_need_ugx_bn": 0.347,
+    "priority_score": 10.1,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 164
+  },
+  {
+    "link_id": "C350_Link02",
+    "predicted_cost_need_ugx_bn": 0.355,
+    "priority_score": 10.1,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 165
+  },
+  {
+    "link_id": "C309_Link01",
+    "predicted_cost_need_ugx_bn": 0.1,
+    "priority_score": 9.9,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 166
+  },
+  {
+    "link_id": "A005_Link10",
+    "predicted_cost_need_ugx_bn": 0.747,
+    "priority_score": 9.8,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 167
+  },
+  {
+    "link_id": "B102_Link01",
+    "predicted_cost_need_ugx_bn": 0.639,
+    "priority_score": 9.8,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 168
+  },
+  {
+    "link_id": "A012_Link01",
+    "predicted_cost_need_ugx_bn": 0.695,
+    "priority_score": 9.5,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 169
+  },
+  {
+    "link_id": "C232_Link01",
+    "predicted_cost_need_ugx_bn": 0.02,
+    "priority_score": 9.5,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 170
+  },
+  {
+    "link_id": "B252_Link04",
+    "predicted_cost_need_ugx_bn": 0.682,
+    "priority_score": 9.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 171
+  },
+  {
+    "link_id": "C419_Link02",
+    "predicted_cost_need_ugx_bn": 0.206,
+    "priority_score": 9.2,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 172
+  },
+  {
+    "link_id": "C625_Link01",
+    "predicted_cost_need_ugx_bn": 1.067,
+    "priority_score": 9.1,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 173
+  },
+  {
+    "link_id": "B101_Link02",
+    "predicted_cost_need_ugx_bn": 0.475,
+    "priority_score": 8.9,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 174
+  },
+  {
+    "link_id": "B203_Link02",
+    "predicted_cost_need_ugx_bn": 1.155,
+    "priority_score": 8.9,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 175
+  },
+  {
+    "link_id": "A012_Link03",
+    "predicted_cost_need_ugx_bn": 0.583,
+    "priority_score": 8.8,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 176
+  },
+  {
+    "link_id": "C681_Link02",
+    "predicted_cost_need_ugx_bn": 0.579,
+    "priority_score": 8.8,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 177
+  },
+  {
+    "link_id": "C360_Link03",
+    "predicted_cost_need_ugx_bn": 0.106,
+    "priority_score": 8.6,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 178
+  },
+  {
+    "link_id": "C390_Link01",
+    "predicted_cost_need_ugx_bn": 0.21,
+    "priority_score": 8.6,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 179
+  },
+  {
+    "link_id": "C390N1_Link01",
+    "predicted_cost_need_ugx_bn": 0.21,
+    "priority_score": 8.6,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 180
+  },
+  {
+    "link_id": "C360_Link02",
+    "predicted_cost_need_ugx_bn": 0.091,
+    "priority_score": 8.5,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 181
+  },
+  {
+    "link_id": "C782_Link02",
+    "predicted_cost_need_ugx_bn": 0.627,
+    "priority_score": 8.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 182
+  },
+  {
+    "link_id": "A003_Link02",
+    "predicted_cost_need_ugx_bn": 0.48,
+    "priority_score": 8.2,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 183
+  },
+  {
+    "link_id": "C354_Link01",
+    "predicted_cost_need_ugx_bn": 0.041,
+    "priority_score": 8.2,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 184
+  },
+  {
+    "link_id": "C782_Link01",
+    "predicted_cost_need_ugx_bn": 0.534,
+    "priority_score": 7.9,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 185
+  },
+  {
+    "link_id": "C550_Link02",
+    "predicted_cost_need_ugx_bn": 0.638,
+    "priority_score": 7.8,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 186
+  },
+  {
+    "link_id": "B101_Link01",
+    "predicted_cost_need_ugx_bn": 0.268,
+    "priority_score": 7.6,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 187
+  },
+  {
+    "link_id": "M3_Link01",
+    "predicted_cost_need_ugx_bn": 0.372,
+    "priority_score": 7.6,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 188
+  },
+  {
+    "link_id": "M3N1_Link01",
+    "predicted_cost_need_ugx_bn": 0.374,
+    "priority_score": 7.6,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 189
+  },
+  {
+    "link_id": "C417_Link02",
+    "predicted_cost_need_ugx_bn": 0.242,
+    "priority_score": 7.5,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 190
+  },
+  {
+    "link_id": "A005_Link14",
+    "predicted_cost_need_ugx_bn": 0.329,
+    "priority_score": 7.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 191
+  },
+  {
+    "link_id": "C860_Link01",
+    "predicted_cost_need_ugx_bn": 0.667,
+    "priority_score": 7.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 192
+  },
+  {
+    "link_id": "B252_Link05",
+    "predicted_cost_need_ugx_bn": 0.308,
+    "priority_score": 7.2,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 193
+  },
+  {
+    "link_id": "C417_Link01",
+    "predicted_cost_need_ugx_bn": 0.203,
+    "priority_score": 7.2,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 194
+  },
+  {
+    "link_id": "B252_Link03",
+    "predicted_cost_need_ugx_bn": 0.296,
+    "priority_score": 7.1,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 195
+  },
+  {
+    "link_id": "C024_Link01",
+    "predicted_cost_need_ugx_bn": 0.4,
+    "priority_score": 7.1,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 196
+  },
+  {
+    "link_id": "C830_Link01",
+    "predicted_cost_need_ugx_bn": 0.405,
+    "priority_score": 7.1,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 197
+  },
+  {
+    "link_id": "B152_Link03",
+    "predicted_cost_need_ugx_bn": 0.589,
+    "priority_score": 6.9,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 198
+  },
+  {
+    "link_id": "C550_Link01",
+    "predicted_cost_need_ugx_bn": 0.483,
+    "priority_score": 6.9,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 199
+  },
+  {
+    "link_id": "B201_Link01",
+    "predicted_cost_need_ugx_bn": 0.586,
+    "priority_score": 6.8,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 200
+  },
+  {
+    "link_id": "B202_Link04",
+    "predicted_cost_need_ugx_bn": 0.473,
+    "priority_score": 6.8,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 201
+  },
+  {
+    "link_id": "B203_Link01",
+    "predicted_cost_need_ugx_bn": 0.457,
+    "priority_score": 6.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 202
+  },
+  {
+    "link_id": "B204_Link01",
+    "predicted_cost_need_ugx_bn": 0.777,
+    "priority_score": 6.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 203
+  },
+  {
+    "link_id": "C166_Link01",
+    "predicted_cost_need_ugx_bn": 0.332,
+    "priority_score": 6.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 204
+  },
+  {
+    "link_id": "C166_Link02",
+    "predicted_cost_need_ugx_bn": 0.33,
+    "priority_score": 6.6,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 205
+  },
+  {
+    "link_id": "A003N2_Link01",
+    "predicted_cost_need_ugx_bn": 0.194,
+    "priority_score": 6.5,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 206
+  },
+  {
+    "link_id": "C162_Link03",
+    "predicted_cost_need_ugx_bn": 0.296,
+    "priority_score": 6.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 207
+  },
+  {
+    "link_id": "C623_Link01",
+    "predicted_cost_need_ugx_bn": 0.62,
+    "priority_score": 6.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 208
+  },
+  {
+    "link_id": "M3_Link02",
+    "predicted_cost_need_ugx_bn": 0.185,
+    "priority_score": 6.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 209
+  },
+  {
+    "link_id": "M3N2_Link01",
+    "predicted_cost_need_ugx_bn": 0.185,
+    "priority_score": 6.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 210
+  },
+  {
+    "link_id": "B152_Link04",
+    "predicted_cost_need_ugx_bn": 0.496,
+    "priority_score": 6.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 211
+  },
+  {
+    "link_id": "A012_Link04",
+    "predicted_cost_need_ugx_bn": 0.141,
+    "priority_score": 6.2,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 212
+  },
+  {
+    "link_id": "C211_Link01",
+    "predicted_cost_need_ugx_bn": 0.461,
+    "priority_score": 6.1,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 213
+  },
+  {
+    "link_id": "C383_Link01",
+    "predicted_cost_need_ugx_bn": 0.129,
+    "priority_score": 6.1,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 214
+  },
+  {
+    "link_id": "C590_Link01",
+    "predicted_cost_need_ugx_bn": 0.536,
+    "priority_score": 5.9,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 215
+  },
+  {
+    "link_id": "A003_Link01",
+    "predicted_cost_need_ugx_bn": 0.073,
+    "priority_score": 5.8,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 216
+  },
+  {
+    "link_id": "A003N1_Link01",
+    "predicted_cost_need_ugx_bn": 0.074,
+    "priority_score": 5.8,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 217
+  },
+  {
+    "link_id": "A012_Link02",
+    "predicted_cost_need_ugx_bn": 0.071,
+    "priority_score": 5.8,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 218
+  },
+  {
+    "link_id": "B305_Link03",
+    "predicted_cost_need_ugx_bn": 0.388,
+    "priority_score": 5.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 219
+  },
+  {
+    "link_id": "C162_Link02",
+    "predicted_cost_need_ugx_bn": 0.17,
+    "priority_score": 5.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 220
+  },
+  {
+    "link_id": "C452_Link03",
+    "predicted_cost_need_ugx_bn": 0.172,
+    "priority_score": 5.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 221
+  },
+  {
+    "link_id": "B304_Link01",
+    "predicted_cost_need_ugx_bn": 0.37,
+    "priority_score": 5.6,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 222
+  },
+  {
+    "link_id": "C161_Link01",
+    "predicted_cost_need_ugx_bn": 0.052,
+    "priority_score": 5.6,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 223
+  },
+  {
+    "link_id": "A003N3_Link01",
+    "predicted_cost_need_ugx_bn": 0.005,
+    "priority_score": 5.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 224
+  },
+  {
+    "link_id": "M3Int1_S1",
+    "predicted_cost_need_ugx_bn": 0.01,
+    "priority_score": 5.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 225
+  },
+  {
+    "link_id": "M3Int1_S2",
+    "predicted_cost_need_ugx_bn": 0.008,
+    "priority_score": 5.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 226
+  },
+  {
+    "link_id": "M3Int1_S3",
+    "predicted_cost_need_ugx_bn": 0.009,
+    "priority_score": 5.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 227
+  },
+  {
+    "link_id": "M3Int2_S1",
+    "predicted_cost_need_ugx_bn": 0.009,
+    "priority_score": 5.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 228
+  },
+  {
+    "link_id": "M3Int2_S2",
+    "predicted_cost_need_ugx_bn": 0.015,
+    "priority_score": 5.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 229
+  },
+  {
+    "link_id": "M3Int2_S3",
+    "predicted_cost_need_ugx_bn": 0.011,
+    "priority_score": 5.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 230
+  },
+  {
+    "link_id": "M3Int2_S4",
+    "predicted_cost_need_ugx_bn": 0.012,
+    "priority_score": 5.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 231
+  },
+  {
+    "link_id": "M3Int3_S1",
+    "predicted_cost_need_ugx_bn": 0.006,
+    "priority_score": 5.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 232
+  },
+  {
+    "link_id": "M3Int3_S2",
+    "predicted_cost_need_ugx_bn": 0.008,
+    "priority_score": 5.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 233
+  },
+  {
+    "link_id": "M3Int3_S3",
+    "predicted_cost_need_ugx_bn": 0.006,
+    "priority_score": 5.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 234
+  },
+  {
+    "link_id": "M3Int3_S4",
+    "predicted_cost_need_ugx_bn": 0.006,
+    "priority_score": 5.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 235
+  },
+  {
+    "link_id": "M3Int4_S1",
+    "predicted_cost_need_ugx_bn": 0.006,
+    "priority_score": 5.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 236
+  },
+  {
+    "link_id": "M3Int4_S2",
+    "predicted_cost_need_ugx_bn": 0.01,
+    "priority_score": 5.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 237
+  },
+  {
+    "link_id": "M3Int4_S4",
+    "predicted_cost_need_ugx_bn": 0.006,
+    "priority_score": 5.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 238
+  },
+  {
+    "link_id": "M3Int4_S5",
+    "predicted_cost_need_ugx_bn": 0.01,
+    "priority_score": 5.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 239
+  },
+  {
+    "link_id": "B300_Link01",
+    "predicted_cost_need_ugx_bn": 0.327,
+    "priority_score": 5.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 240
+  },
+  {
+    "link_id": "B305_Link02",
+    "predicted_cost_need_ugx_bn": 0.325,
+    "priority_score": 5.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 241
+  },
+  {
+    "link_id": "M3Int4_S3",
+    "predicted_cost_need_ugx_bn": 0.002,
+    "priority_score": 5.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 242
+  },
+  {
+    "link_id": "B305_Link01",
+    "predicted_cost_need_ugx_bn": 0.296,
+    "priority_score": 5.1,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 243
+  },
+  {
+    "link_id": "B202_Link05",
+    "predicted_cost_need_ugx_bn": 0.159,
+    "priority_score": 5.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 244
+  },
+  {
+    "link_id": "C625_Link02",
+    "predicted_cost_need_ugx_bn": 0.321,
+    "priority_score": 4.6,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 245
+  },
+  {
+    "link_id": "C626_Link02",
+    "predicted_cost_need_ugx_bn": 0.327,
+    "priority_score": 4.6,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 246
+  },
+  {
+    "link_id": "C640_Link01",
+    "predicted_cost_need_ugx_bn": 0.318,
+    "priority_score": 4.6,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 247
+  },
+  {
+    "link_id": "M20N1",
+    "predicted_cost_need_ugx_bn": 0.3,
+    "priority_score": 4.5,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 248
+  },
+  {
+    "link_id": "B300_Link02",
+    "predicted_cost_need_ugx_bn": 0.157,
+    "priority_score": 4.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 249
+  },
+  {
+    "link_id": "C590_Link02",
+    "predicted_cost_need_ugx_bn": 0.264,
+    "priority_score": 4.3,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 250
+  },
+  {
+    "link_id": "C335_Link01",
+    "predicted_cost_need_ugx_bn": 0.024,
+    "priority_score": 4.1,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 251
+  },
+  {
+    "link_id": "C211_Link02",
+    "predicted_cost_need_ugx_bn": 0.076,
+    "priority_score": 3.8,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 252
+  },
+  {
+    "link_id": "C212_Link01",
+    "predicted_cost_need_ugx_bn": 0.075,
+    "priority_score": 3.8,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 253
+  },
+  {
+    "link_id": "C198_Link01",
+    "predicted_cost_need_ugx_bn": 0.056,
+    "priority_score": 3.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 254
+  },
+  {
+    "link_id": "B203_Link03",
+    "predicted_cost_need_ugx_bn": 0.24,
+    "priority_score": 3.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 255
+  },
+  {
+    "link_id": "B300_Link04",
+    "predicted_cost_need_ugx_bn": 0.559,
+    "priority_score": 3.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 256
+  },
+  {
+    "link_id": "C623_Link02",
+    "predicted_cost_need_ugx_bn": 0.128,
+    "priority_score": 3.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 257
+  },
+  {
+    "link_id": "C624_Link01",
+    "predicted_cost_need_ugx_bn": 0.123,
+    "priority_score": 3.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 258
+  },
+  {
+    "link_id": "C626_Link01",
+    "predicted_cost_need_ugx_bn": 0.116,
+    "priority_score": 3.4,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 259
+  },
+  {
+    "link_id": "C235_Link01",
+    "predicted_cost_need_ugx_bn": 0.015,
+    "priority_score": 2.8,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 260
+  },
+  {
+    "link_id": "C633_Link01",
+    "predicted_cost_need_ugx_bn": 0.018,
+    "priority_score": 2.8,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 261
+  },
+  {
+    "link_id": "M20Int5_S3",
+    "predicted_cost_need_ugx_bn": 0.016,
+    "priority_score": 2.8,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 262
+  },
+  {
+    "link_id": "M20Int6_S1",
+    "predicted_cost_need_ugx_bn": 0.016,
+    "priority_score": 2.8,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 263
+  },
+  {
+    "link_id": "M20Int1_S1",
+    "predicted_cost_need_ugx_bn": 0.005,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 264
+  },
+  {
+    "link_id": "M20Int1_S2",
+    "predicted_cost_need_ugx_bn": 0.006,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 265
+  },
+  {
+    "link_id": "M20Int1_S3",
+    "predicted_cost_need_ugx_bn": 0.006,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 266
+  },
+  {
+    "link_id": "M20Int1_S4",
+    "predicted_cost_need_ugx_bn": 0.005,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 267
+  },
+  {
+    "link_id": "M20Int1_S5",
+    "predicted_cost_need_ugx_bn": 0.005,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 268
+  },
+  {
+    "link_id": "M20Int2_S1",
+    "predicted_cost_need_ugx_bn": 0.005,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 269
+  },
+  {
+    "link_id": "M20Int2_S2",
+    "predicted_cost_need_ugx_bn": 0.006,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 270
+  },
+  {
+    "link_id": "M20Int2_S3",
+    "predicted_cost_need_ugx_bn": 0.003,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 271
+  },
+  {
+    "link_id": "M20Int2_S4",
+    "predicted_cost_need_ugx_bn": 0.003,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 272
+  },
+  {
+    "link_id": "M20Int2_S5",
+    "predicted_cost_need_ugx_bn": 0.003,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 273
+  },
+  {
+    "link_id": "M20Int2_S6",
+    "predicted_cost_need_ugx_bn": 0.009,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 274
+  },
+  {
+    "link_id": "M20Int2_S7",
+    "predicted_cost_need_ugx_bn": 0.006,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 275
+  },
+  {
+    "link_id": "M20Int2_S8",
+    "predicted_cost_need_ugx_bn": 0.003,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 276
+  },
+  {
+    "link_id": "M20Int2_S9",
+    "predicted_cost_need_ugx_bn": 0.003,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 277
+  },
+  {
+    "link_id": "M20Int2_S10",
+    "predicted_cost_need_ugx_bn": 0.007,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 278
+  },
+  {
+    "link_id": "M20Int2_S11",
+    "predicted_cost_need_ugx_bn": 0.006,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 279
+  },
+  {
+    "link_id": "M20Int3_S1",
+    "predicted_cost_need_ugx_bn": 0.005,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 280
+  },
+  {
+    "link_id": "M20Int3_S2",
+    "predicted_cost_need_ugx_bn": 0.006,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 281
+  },
+  {
+    "link_id": "M20Int3_S3",
+    "predicted_cost_need_ugx_bn": 0.006,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 282
+  },
+  {
+    "link_id": "M20Int3_S4",
+    "predicted_cost_need_ugx_bn": 0.003,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 283
+  },
+  {
+    "link_id": "M20Int3_S5",
+    "predicted_cost_need_ugx_bn": 0.003,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 284
+  },
+  {
+    "link_id": "M20Int3_S6",
+    "predicted_cost_need_ugx_bn": 0.004,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 285
+  },
+  {
+    "link_id": "M20Int3_S7",
+    "predicted_cost_need_ugx_bn": 0.005,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 286
+  },
+  {
+    "link_id": "M20Int3_S8",
+    "predicted_cost_need_ugx_bn": 0.001,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 287
+  },
+  {
+    "link_id": "M20Int4_S1",
+    "predicted_cost_need_ugx_bn": 0.005,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 288
+  },
+  {
+    "link_id": "M20Int4_S2",
+    "predicted_cost_need_ugx_bn": 0.002,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 289
+  },
+  {
+    "link_id": "M20Int4_S3",
+    "predicted_cost_need_ugx_bn": 0.007,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 290
+  },
+  {
+    "link_id": "M20Int4_S4",
+    "predicted_cost_need_ugx_bn": 0.007,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 291
+  },
+  {
+    "link_id": "M20Int4_S5",
+    "predicted_cost_need_ugx_bn": 0.002,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 292
+  },
+  {
+    "link_id": "M20Int4_S6",
+    "predicted_cost_need_ugx_bn": 0.002,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 293
+  },
+  {
+    "link_id": "M20Int4_S7",
+    "predicted_cost_need_ugx_bn": 0.007,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 294
+  },
+  {
+    "link_id": "M20Int4_S8",
+    "predicted_cost_need_ugx_bn": 0.004,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 295
+  },
+  {
+    "link_id": "M20Int4_S9",
+    "predicted_cost_need_ugx_bn": 0.007,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 296
+  },
+  {
+    "link_id": "M20Int4_S10",
+    "predicted_cost_need_ugx_bn": 0.002,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 297
+  },
+  {
+    "link_id": "M20Int5_S1",
+    "predicted_cost_need_ugx_bn": 0.006,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 298
+  },
+  {
+    "link_id": "M20Int5_S2",
+    "predicted_cost_need_ugx_bn": 0.006,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 299
+  },
+  {
+    "link_id": "M20Int6_S2",
+    "predicted_cost_need_ugx_bn": 0.006,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 300
+  },
+  {
+    "link_id": "M20Int6_S3",
+    "predicted_cost_need_ugx_bn": 0.007,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 301
+  },
+  {
+    "link_id": "M20Int7_S1",
+    "predicted_cost_need_ugx_bn": 0.007,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 302
+  },
+  {
+    "link_id": "M20Int7_S2",
+    "predicted_cost_need_ugx_bn": 0.008,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 303
+  },
+  {
+    "link_id": "M20Int7_S3",
+    "predicted_cost_need_ugx_bn": 0.007,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 304
+  },
+  {
+    "link_id": "M20Int7_S4",
+    "predicted_cost_need_ugx_bn": 0.007,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 305
+  },
+  {
+    "link_id": "M20Int8_S1",
+    "predicted_cost_need_ugx_bn": 0.006,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 306
+  },
+  {
+    "link_id": "M20Int8_S2",
+    "predicted_cost_need_ugx_bn": 0.001,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 307
+  },
+  {
+    "link_id": "M20Int8_S3",
+    "predicted_cost_need_ugx_bn": 0.008,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 308
+  },
+  {
+    "link_id": "M20Int8_S4",
+    "predicted_cost_need_ugx_bn": 0.006,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 309
+  },
+  {
+    "link_id": "M20Int8_S5",
+    "predicted_cost_need_ugx_bn": 0.001,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 310
+  },
+  {
+    "link_id": "M20Int8_S6",
+    "predicted_cost_need_ugx_bn": 0.002,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 311
+  },
+  {
+    "link_id": "M20Int8_S7",
+    "predicted_cost_need_ugx_bn": 0.005,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 312
+  },
+  {
+    "link_id": "M20Int8_S8",
+    "predicted_cost_need_ugx_bn": 0.006,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 313
+  },
+  {
+    "link_id": "M20Int8_S9",
+    "predicted_cost_need_ugx_bn": 0.001,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 314
+  },
+  {
+    "link_id": "M20Int9_S1",
+    "predicted_cost_need_ugx_bn": 0.012,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 315
+  },
+  {
+    "link_id": "M20Int9_S2",
+    "predicted_cost_need_ugx_bn": 0.01,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 316
+  },
+  {
+    "link_id": "M20Int9_S3",
+    "predicted_cost_need_ugx_bn": 0.012,
+    "priority_score": 2.7,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 317
+  },
+  {
+    "link_id": "C210_Link01",
+    "predicted_cost_need_ugx_bn": 0.081,
+    "priority_score": 2.5,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 318
+  },
+  {
+    "link_id": "A009N1_Link01",
+    "predicted_cost_need_ugx_bn": 0.02,
+    "priority_score": 2.1,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 319
+  },
+  {
+    "link_id": "A009N2_Link01",
+    "predicted_cost_need_ugx_bn": 0.008,
+    "priority_score": 2.0,
+    "model_version": "maint-v1-2026-09-08",
+    "priority_rank": 320
+  }
+]

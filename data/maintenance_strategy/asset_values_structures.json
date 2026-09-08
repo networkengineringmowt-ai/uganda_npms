@@ -1,0 +1,12 @@
+{
+  "bridges": {
+    "count": 521,
+    "asset_value_musd": 631,
+    "crc_musd": 790
+  },
+  "major_culverts": {
+    "count": 451,
+    "asset_value_musd": 207,
+    "crc_musd": 283
+  }
+}

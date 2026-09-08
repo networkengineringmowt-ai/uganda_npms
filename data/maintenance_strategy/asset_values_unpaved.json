@@ -1,0 +1,66 @@
+[
+  {
+    "fy": "17/18",
+    "length_km": 15993,
+    "unit_rate_musd_per_km": 0.106,
+    "crc_musd": 1695.258,
+    "condition_factor": 0.38106294145197955,
+    "cdrc_musd": 646
+  },
+  {
+    "fy": "18/19",
+    "length_km": 15841,
+    "unit_rate_musd_per_km": 0.098,
+    "crc_musd": 1552.4180000000001,
+    "condition_factor": 0.41805750770733136,
+    "cdrc_musd": 649
+  },
+  {
+    "fy": "19/20",
+    "length_km": 15612,
+    "unit_rate_musd_per_km": 0.098,
+    "crc_musd": 1529.976,
+    "condition_factor": 0.3986990645604898,
+    "cdrc_musd": 610
+  },
+  {
+    "fy": "20/21",
+    "length_km": 15497.8694,
+    "unit_rate_musd_per_km": 0.098,
+    "crc_musd": 1518.7912012,
+    "condition_factor": 0.3799999999999994,
+    "cdrc_musd": 577.1406564559991
+  },
+  {
+    "fy": "21/22",
+    "length_km": 15375.6144,
+    "unit_rate_musd_per_km": 0.098,
+    "crc_musd": 1506.8102112000001,
+    "condition_factor": 0.5106003487574444,
+    "cdrc_musd": 769.3778193499986
+  },
+  {
+    "fy": "22/23",
+    "length_km": 15143.9,
+    "unit_rate_musd_per_km": 0.098,
+    "crc_musd": 1484.1022,
+    "condition_factor": 0.5902558462618005,
+    "cdrc_musd": 876
+  },
+  {
+    "fy": "23/24",
+    "length_km": 14982,
+    "unit_rate_musd_per_km": 0.098,
+    "crc_musd": 1468.236,
+    "condition_factor": 0.559855500069471,
+    "cdrc_musd": 822
+  },
+  {
+    "fy": "25/26",
+    "length_km": 14896.76244512014,
+    "unit_rate_musd_per_km": 0.098,
+    "crc_musd": 1459.8827196217737,
+    "condition_factor": 0.558605176498799,
+    "cdrc_musd": 815.4980442618677
+  }
+]
